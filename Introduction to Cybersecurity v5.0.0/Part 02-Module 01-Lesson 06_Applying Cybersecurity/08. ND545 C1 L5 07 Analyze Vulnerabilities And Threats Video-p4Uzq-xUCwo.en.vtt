@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.265
+Recall from an earlier lesson,
+
+00:00:02.265 --> 00:00:05.130
+that a vulnerability is a weakness in an information system,
+
+00:00:05.130 --> 00:00:08.280
+system security procedures, internal controls,
+
+00:00:08.280 --> 00:00:12.715
+or implementation that can be exploited or triggered by a threat.
+
+00:00:12.715 --> 00:00:17.245
+A threat is something that can impact or harm a person or organization.
+
+00:00:17.245 --> 00:00:22.410
+In this lesson, we explore possible vulnerabilities on a typical Windows system.
+
+00:00:22.410 --> 00:00:25.440
+Here we'll look at three primary areas within
+
+00:00:25.440 --> 00:00:28.995
+the Windows operating system that may contain vulnerabilities.
+
+00:00:28.995 --> 00:00:32.710
+The first is shared folders and files.
+
+00:00:32.710 --> 00:00:35.660
+Folders and files are often shared by users to
+
+00:00:35.660 --> 00:00:38.755
+make it easier for others to view or modify them.
+
+00:00:38.755 --> 00:00:41.960
+Windows makes this easy with its sharing function.
+
+00:00:41.960 --> 00:00:47.515
+However, many businesses will also have a network drive that is shared to all users.
+
+00:00:47.515 --> 00:00:50.180
+The threat, is that you don't always know who
+
+00:00:50.180 --> 00:00:52.940
+may be able to see or change their contents.
+
+00:00:52.940 --> 00:00:56.390
+Ransomware is another threat that will often try to lock
+
+00:00:56.390 --> 00:01:00.560
+files shared on a network until the ransom is paid.
+
+00:01:00.560 --> 00:01:06.680
+It's good to know what files and folders are shared on both a PC and across your network.
+
+00:01:06.680 --> 00:01:12.165
+The second common Windows vulnerability is something known as Windows services.
+
+00:01:12.165 --> 00:01:14.000
+In Windows, services are
+
+00:01:14.000 --> 00:01:19.010
+all the little executable applications that often run continuously in the background.
+
+00:01:19.010 --> 00:01:22.250
+They can be automatically started when a computer starts.
+
+00:01:22.250 --> 00:01:27.545
+Trigger events can also start services like when you run a particular application.
+
+00:01:27.545 --> 00:01:31.475
+If you ever wondered what happens under the covers of a Window system,
+
+00:01:31.475 --> 00:01:33.304
+check out the services.
+
+00:01:33.304 --> 00:01:37.190
+Services running that aren't needed can bog down a computer.
+
+00:01:37.190 --> 00:01:40.370
+By the way, all types of computers has services running.
+
+00:01:40.370 --> 00:01:42.280
+This isn't just a Windows thing.
+
+00:01:42.280 --> 00:01:46.100
+There's also a potential security threat that running services can
+
+00:01:46.100 --> 00:01:50.545
+allow unauthorized access to the computer or it's content.
+
+00:01:50.545 --> 00:01:52.940
+Security analysts should be familiar with
+
+00:01:52.940 --> 00:01:57.080
+common Windows services to determine if there's something running that shouldn't.
+
+00:01:57.080 --> 00:01:59.960
+For example, if there's a remote access program
+
+00:01:59.960 --> 00:02:03.370
+allowing anyone to remotely login to the PC.
+
+00:02:03.370 --> 00:02:06.890
+The third potential area for Windows vulnerabilities is
+
+00:02:06.890 --> 00:02:10.700
+unpatched software that contains known vulnerabilities.
+
+00:02:10.700 --> 00:02:16.880
+A common area for applying cybersecurity is with the windows and application updates.
+
+00:02:16.880 --> 00:02:20.690
+Recall from earlier lessons where you learned about vulnerability lists
+
+00:02:20.690 --> 00:02:25.300
+found in the common vulnerabilities and enumeration or CVE list.
+
+00:02:25.300 --> 00:02:28.480
+On the Microsoft Security Resource Center,
+
+00:02:28.480 --> 00:02:31.425
+MSRC, Security Update Guide.
+
+00:02:31.425 --> 00:02:36.395
+Malicious software is a continual threat for unpatched systems and applications.
+
+00:02:36.395 --> 00:02:39.935
+Other threats include unauthorized access to the system or data,
+
+00:02:39.935 --> 00:02:41.945
+or the disclosure of sensitive data.
+
+00:02:41.945 --> 00:02:45.850
+All of these mean headaches for security analysts.
+
+00:02:45.850 --> 00:02:49.490
+How do we check a Windows PC to make sure it's up to date?
+
+00:02:49.490 --> 00:02:53.070
+In the exercise, you'll get to explore that.
+

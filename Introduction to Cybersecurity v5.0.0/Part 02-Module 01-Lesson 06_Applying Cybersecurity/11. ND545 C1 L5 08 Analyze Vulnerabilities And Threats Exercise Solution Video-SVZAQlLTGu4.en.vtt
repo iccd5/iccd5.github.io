@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.210
+The first vulnerability you looked at on the Windows system,
+
+00:00:03.210 --> 00:00:05.490
+is shared folders and files.
+
+00:00:05.490 --> 00:00:07.950
+Let me show you a way to look at shared folders and
+
+00:00:07.950 --> 00:00:10.950
+files that you could have used for this exercise.
+
+00:00:10.950 --> 00:00:13.260
+You can go to the Windows Start,
+
+00:00:13.260 --> 00:00:17.310
+right click, select Computer Management.
+
+00:00:17.310 --> 00:00:19.830
+In the Computer Management window,
+
+00:00:19.830 --> 00:00:23.130
+you see the Shared Folders area.
+
+00:00:23.130 --> 00:00:28.125
+Left click the little arrow next to Shared Folders and you see Shares.
+
+00:00:28.125 --> 00:00:29.655
+If I click on that,
+
+00:00:29.655 --> 00:00:33.630
+this shows you the file shares available on this PC.
+
+00:00:33.630 --> 00:00:36.075
+Here's the one we created earlier,
+
+00:00:36.075 --> 00:00:40.395
+the whatever folder on the cyber admin desktop.
+
+00:00:40.395 --> 00:00:42.350
+If I double click on it,
+
+00:00:42.350 --> 00:00:46.400
+it shows me what it is and who can see it.
+
+00:00:46.400 --> 00:00:52.010
+For example, everyone who can log into this PC can read its contents.
+
+00:00:52.010 --> 00:00:56.525
+This is not a folder I would want to have any sensitive information in.
+
+00:00:56.525 --> 00:01:00.700
+If there was, I would unselect "Read",
+
+00:01:00.700 --> 00:01:03.315
+click "Apply" or "Okay",
+
+00:01:03.315 --> 00:01:08.830
+and that takes away everyone's permission to be able to read the contents of this folder.
+
+00:01:08.830 --> 00:01:10.880
+As a part of a security assessment,
+
+00:01:10.880 --> 00:01:14.660
+you should review the file shares to ensure they're appropriate and
+
+00:01:14.660 --> 00:01:18.510
+that only the ones who need to have access to it can see,
+
+00:01:18.510 --> 00:01:20.900
+read, or change it.
+

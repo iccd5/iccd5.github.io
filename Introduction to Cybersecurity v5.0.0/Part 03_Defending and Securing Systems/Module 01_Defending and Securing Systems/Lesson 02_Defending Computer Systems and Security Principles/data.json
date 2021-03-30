@@ -1,0 +1,1268 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1026992,
+      "key": "d736d423-fcd1-4bd5-bce5-89ac55cd24a4",
+      "title": "Defending Computer Systems and Security Principles",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson you will learn about best practices in defending computer systems.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/d736d423-fcd1-4bd5-bce5-89ac55cd24a4/1026992/1607044091246/Defending+Computer+Systems+and+Security+Principles+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/d736d423-fcd1-4bd5-bce5-89ac55cd24a4/1026992/1607044087815/Defending+Computer+Systems+and+Security+Principles+Subtitles.zip"
+          },
+          {
+            "name": "Icyber Defending and Securing Systems Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5efcd84d_icyber-defending-and-securing-systems-key-terms/icyber-defending-and-securing-systems-key-terms.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1026977,
+          "key": "a38bc791-c182-451c-adb4-6a1f75b358bc",
+          "title": "Introduction to Defending Computer Systems And Security Principles",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a38bc791-c182-451c-adb4-6a1f75b358bc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026900,
+              "key": "375405c0-231b-4560-a7a4-63a5770e314d",
+              "title": "Introduction to Defending Computer Systems And Security Principles Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Defending Computer Systems And Security Principles",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026902,
+              "key": "ce9a72d0-b367-42b8-a91e-e4e266388744",
+              "title": "ND545 C02 L01 A01 Introduction To Defending Computer Systems And Security Principles V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "203BpGZaKUs",
+                "china_cdn_id": "203BpGZaKUs.mp4"
+              }
+            },
+            {
+              "id": 1026894,
+              "key": "0533db9b-07e3-4a58-907c-b26d2d7ddbc2",
+              "title": "Introduction to Defending Computer Systems And Security Principles Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we'll learn about layered security, using government standards as guides, and introduce the least privileged concept that will be with us throughout the course.\n\nAt the end of this lesson, students will be able to:\n- Explain the Defense in Depth approach to a layered security strategy.\n- Explain the NIST 800 framework for defending computer systems\n- Determine if a system has implemented the Principle of Least Privileged properly.\n- Suggest approaches to correct systems that have inappropriately implemented Least Privileged Principles.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038423,
+              "key": "77449a7f-636f-4d38-b3b2-d892423bceb0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21bf4a_l1-overview/l1-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/77449a7f-636f-4d38-b3b2-d892423bceb0",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1026973,
+          "key": "dacd997d-4741-44c2-934a-70443e0ed653",
+          "title": "Defense in Depth",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dacd997d-4741-44c2-934a-70443e0ed653",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026896,
+              "key": "fb1caf8b-aac9-434d-98c4-beec4c748e2b",
+              "title": "ND545 C02 L01 A02 Defense In Depth Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RE0NPAq3_Y4",
+                "china_cdn_id": "RE0NPAq3_Y4.mp4"
+              }
+            },
+            {
+              "id": 1038424,
+              "key": "f659781c-901c-4280-9017-d6ecd2debf8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "New Terms:\n- **Framework**: A set of agreed-upon policies, procedures, and processes that define how information is managed. \n- **Best Practices**: procedures and processes that are widely accepted within an industry as being effective.\n- **Vendor Documentation**: A combination of requirements and suggestions for the specific security configuration of their product. \n- **Regulatory Requirements**: Laws that you must comply with.\n\nYou'll be using Frameworks, Industry Best Practices, Vendor Documentation and Regulatory Requirements, both in this course and in the real world. When working in Cybersecurity, it is very important that you have a solid familiarity with all of these if you want to be successful.\n\n*Note: If your organization is subject to regulatory compliance, such as FERPA, HIPAA or PCI,  there will certainly be documentation in the form of requirements, best practices and recommendations for your security program. There are links at the bottom of this page to learn more as these are not the focus of this course.*\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026918,
+              "key": "77c7326f-7237-43d3-9140-c87b7fd9cdba",
+              "title": "Big Picture Heading Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef37ca5_images-for-classroom.-1/images-for-classroom.-1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/77c7326f-7237-43d3-9140-c87b7fd9cdba",
+              "caption": "The Cyber Security profession is similar to our judicial system it's built to protect us and has a long history. Why reinvent the wheel when you can use other proven sources to build your security program?",
+              "alt": "Why do Security Principles Matter?",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038675,
+              "key": "1f13c619-60db-4ba0-a7ff-35c92d06a63f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources\n- [FERPA](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)\n- [HIPAA](https://www.hhs.gov/hipaa/index.html)\n- [PCI](https://www.pcisecuritystandards.org/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026983,
+          "key": "6d72edbd-655d-401d-8e8f-7902cbe00fcc",
+          "title": "Defending Computer Systems And Security Principles",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6d72edbd-655d-401d-8e8f-7902cbe00fcc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026905,
+              "key": "c19c0f0b-f2a0-4cc2-94c1-1a33fa114c6d",
+              "title": "Developing Your Intuition About Defending Computer Systems And Security Principles Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defending Computer Systems And Security Principles",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026924,
+              "key": "b32fec9c-09b1-47a1-809d-f3d9c191c080",
+              "title": "ND545 C02 L01 A03 Developing Your Intuition",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fa3cBQhZfN0",
+                "china_cdn_id": "fa3cBQhZfN0.mp4"
+              }
+            },
+            {
+              "id": 1026914,
+              "key": "a41f0798-d9ad-4ca4-85b0-209da0417c6b",
+              "title": "Developing Your Intuition About Defending Computer Systems And Security Principles Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Knowledge + Experience = **Intuition** \n\nWhile it may seem daunting at first, in no time you will be solving issues instantly that you once had to look up.\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026899,
+              "key": "825b4869-093a-4018-bfbf-3f23d09e6aed",
+              "title": "Developing Your Intuition About Defending Computer Systems And Security Principles Quiz 1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Think of some examples in your own life, they don't have to be in I.T. or Cyber Security, where your knowledge and experience have fueled your intuition.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026976,
+          "key": "8fc8a7ec-b350-49da-82c0-ef98fd98a042",
+          "title": "Defense in Depth Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8fc8a7ec-b350-49da-82c0-ef98fd98a042",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026916,
+              "key": "aa0398f0-a630-4922-aa4c-efb6aeed638a",
+              "title": "Defense in Depth Introduction Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defense in Depth Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026917,
+              "key": "6295feb5-7f82-4e4e-9633-09d3e298eb49",
+              "title": "ND545 C02 L01 A04 Defense In Depth Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "txtCEhew6Kw",
+                "china_cdn_id": "txtCEhew6Kw.mp4"
+              }
+            },
+            {
+              "id": 1026941,
+              "key": "5b96dddc-a7bd-4116-87c6-39a96799c921",
+              "title": "Defense in Depth Introduction Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It is not necessarily the quantity of layers, although more can certainly be better, it's about the **quality** of those layers.  And the better those layers work together, the more effective they are. For example, in subsequent lessons you will see how firewalls act as the perimeter defense and Intrusion Detection Systems are the perfect fit for the next layer. \n\n\n### **Key Concept**\n\n**Defense in Depth** is using complementary layers of defenses to protect your organization. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026910,
+              "key": "0c995abc-15a2-4be2-b277-4d92f0b61fc9",
+              "title": "Defense in Depth Introduction New Terms or Vocabulary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources\n- [Defense in Depth](http://iieng.org/images/proceedings_pdf/8285E0914047.pdf)\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026939,
+              "key": "e31a4dfd-1ff1-4fed-9d65-4e6f84f6074e",
+              "title": "Defense in Depth Introduction Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef37d43_images-for-classroom.-2/images-for-classroom.-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e31a4dfd-1ff1-4fed-9d65-4e6f84f6074e",
+              "caption": "Defense in Depth uses overlapping layers of security to help protect what's most important.",
+              "alt": "Defense in Depth",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038775,
+              "key": "c64c152d-f745-465c-9121-dbbeb487c184",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We just introduced the 3-Component model of security with **Prevention**, **Detection** and **Response** making up the three parts. All topics in this course will match up with at least one, possibly more, of these components. All 3 of the components are required as they work together to effectively protect your organization.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026906,
+              "key": "f7c40481-3151-4220-ad3f-d5c2ee92ae71",
+              "title": "ND545 C02 L01 A05 Defense In Depth Introduction Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "M21s4rH_yug",
+                "china_cdn_id": "M21s4rH_yug.mp4"
+              }
+            },
+            {
+              "id": 1026915,
+              "key": "567e1315-eed2-4bd0-9af9-8c23f060bfc3",
+              "title": "Defense in Depth Introduction Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This walkthrough illustrates in a slightly more focused context, the way the various layers of security work together to form a solid defense. Cybersecurity operates much like a fractal. It has layers when zoomed out at a macro level, think a full organization view, however when you zoom in you still see layers of security.\n\n## Addtional Links\n- [Fractals](https://fractalfoundation.org/resources/what-are-fractals/#:~:text=Fractals%20are%20infinitely%20complex%20patterns,systems%20%E2%80%93%20the%20pictures%20of%20Chaos.)\n\nFor a deeper dive into securing web servers visit the link below.\n- [NIST - Guidelines on Securing Public\nWeb Servers ](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-44ver2.pdf)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026974,
+          "key": "3120fc2e-6210-49e6-b5b3-2fb94b789287",
+          "title": "Quizzes: Defense in Depth Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3120fc2e-6210-49e6-b5b3-2fb94b789287",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026898,
+              "key": "b99eb70e-c92d-4368-901c-692a54fab401",
+              "title": "Defense in Depth Introduction Easy Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defense in Depth Introduction Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026930,
+              "key": "fb0d9edf-5c77-4a7e-b86a-9b7e6f2307f4",
+              "title": "Defense in Depth Introduction Hard Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let's review what we've learned about Defense in Depth!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038769,
+              "key": "f26c78f6-6888-46c4-99b5-dcbec3596fd9",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f26c78f6-6888-46c4-99b5-dcbec3596fd9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are components of Defense in Depth? \n[Choose 3}",
+                "answers": [
+                  {
+                    "id": "a1593269373878",
+                    "text": "Monitoring",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593269419221",
+                    "text": "Law Enforcement",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593269430780",
+                    "text": "Security Policies and Procedures",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593269453172",
+                    "text": "Host Security",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038777,
+              "key": "a28914fa-6e91-4a68-bf4d-de2e07b74138",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a28914fa-6e91-4a68-bf4d-de2e07b74138",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the 3 components of cyber security:",
+                "answers": [
+                  {
+                    "id": "a1593292687893",
+                    "text": "Prevention",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593292718167",
+                    "text": "Detection",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593292726181",
+                    "text": "Response",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593292732961",
+                    "text": "Investigation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593292768698",
+                    "text": "Encryption",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026972,
+          "key": "5401fe78-8466-43a3-9430-b3a9b35c0abb",
+          "title": "Exercise: Defense in Depth Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5401fe78-8466-43a3-9430-b3a9b35c0abb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026913,
+              "key": "6c041b4c-be57-44c1-be56-c6c961f36db9",
+              "title": "Defense in Depth Introduction Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defense in Depth Introduction Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038425,
+              "key": "d36dcb00-768a-4cb3-9df9-7c97bef133a9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef37dba_images-for-classroom.-3/images-for-classroom.-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d36dcb00-768a-4cb3-9df9-7c97bef133a9",
+              "caption": "Defense in Depth - Organization of Example Business",
+              "alt": "Defense in Depth - Organization Example",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1032825,
+              "key": "8b8da9ff-4998-43e5-ba56-04b4d70107d8",
+              "title": "Defense in Depth",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8b8da9ff-4998-43e5-ba56-04b4d70107d8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Defense in Depth:\n\nIn your own words, provide 4 examples of key Defense-in-Depth security points in an organization that has the following characteristics:\n- 1 HQ location that contains all of the on-premises server hardware.\n- 3 Branch offices that connect to the HQ facility for e-mail and other applications.\n- A minimal cloud infrastructure that is contacted by customers as well as employees.",
+                "matchers": [
+                  {
+                    "expression": "\\w*"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026975,
+          "key": "d63ed0de-cfc4-487e-895c-8ff3cd0ad771",
+          "title": " Exercise Solution: Defense in Depth Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d63ed0de-cfc4-487e-895c-8ff3cd0ad771",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026909,
+              "key": "b01c13ca-5b32-4775-82d0-9bf9ad8dafc9",
+              "title": "Defense in Depth Introduction Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defense in Depth Introduction Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026944,
+              "key": "d92f324c-87ad-415e-8e1d-f1a7e0b32a51",
+              "title": "ND545 C02 L01 A06 Defense In Depth Introduction Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G17_RvRDwMI",
+                "china_cdn_id": "G17_RvRDwMI.mp4"
+              }
+            },
+            {
+              "id": 1026911,
+              "key": "9e06c503-a683-4db3-bfc6-419c44b02c17",
+              "title": "Defense in Depth Introduction Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap\n\nBecause the HQ office has traffic from the branch offices, it will require a more powerful firewall than if it were just processing the HQ traffic.\nAny server room should have physical security in the form of controlled access, preferably a code-based or card-based method.\nThe servers, both cloud and on premises will need permissions set accordingly, we'll learn more about that in the next lesson.\nWhen laptops are entered into the cybersecurity equation, things get more complicated. The disks will need to be encrypted, antivirus should be cloud-based and you will need to consider VPN access.\nThe branches will need firewalls and the entire organization will need secure wireless access.\nFinally, there are stories every week of cloud data leaking, so be sure to perform an audit of the cloud systems.\n\n\n\nDon't worry if your answer doesn't match mine. We'll cover all of that information and more as we proceed.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026990,
+          "key": "4630d963-1dbc-4515-9d7c-55a70aa129d1",
+          "title": "NIST 800 Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4630d963-1dbc-4515-9d7c-55a70aa129d1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026923,
+              "key": "3f74c062-42a7-460e-b534-1693251d3d9a",
+              "title": "NIST 800 Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST 800 Framework",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026904,
+              "key": "b9c0c800-a8ad-41eb-9ea0-79a8ba76548e",
+              "title": "ND545 C02 L01 A07 NIST 800 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kQjdyl9G15I",
+                "china_cdn_id": "kQjdyl9G15I.mp4"
+              }
+            },
+            {
+              "id": 1026895,
+              "key": "2a9a4bc1-dd59-4908-86b1-519c69d79352",
+              "title": "NIST 800 Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Very few organizations are on the bleeding edge of technology. That's a good thing. By having a relatively standard technology infrastructure, you can rely on the work that has been done before you in the forms of best practices and, in this case, frameworks. Whenever possible, use these well established frameworks as guides in setting up your security program, these are tried and true measures that will help you avoid common pitfalls.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026926,
+              "key": "ddd43819-42f0-41aa-b007-4ceb8ad8043d",
+              "title": "NIST 800 New Terms or Vocabulary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "[What is NIST](https://www.nist.gov/about-nist)\n\n### Key Terms\n- **NIST-800**: NIST’s 800 series presents information of interest to the computer security community. The series comprises guidelines, recommendations, and technical specifications.\n- **NIST CSF**: The Framework is voluntary guidance, based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk.\n\n**Additional Resources**\nThere are hundreds of NIST Standards, visit the link below to explore others.\n- [NIST 800](https://csrc.nist.gov/publications/sp800)\n- [NIST 800-41R1](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-41r1.pdf)\n- [NIST 800-123](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf)\n- [NIST 800-175BR1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175Br1.pdf)\n- [NIST 800-83R1](https://csrc.nist.gov/publications/detail/sp/800-83/rev-1/final)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026920,
+              "key": "c87655a7-cab2-4172-934b-4bf8d264b0fb",
+              "title": "ND545 C02 L01 A08 NIST 800 Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yTpLAmZGSdM",
+                "china_cdn_id": "yTpLAmZGSdM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026986,
+          "key": "4a9f9454-9cb5-40f5-9435-e34cb5c7d461",
+          "title": "NIST 800 Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a9f9454-9cb5-40f5-9435-e34cb5c7d461",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026945,
+              "key": "e7b2197d-6b88-404e-b57c-233d8228ce09",
+              "title": "NIST 800 Easy Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST 800 Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038770,
+              "key": "4481ba31-a002-4a92-98e8-02fe89f0ab9b",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4481ba31-a002-4a92-98e8-02fe89f0ab9b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the correct topic to the NIST Standard we just learned about"
+                },
+                "concepts_label": "NIST 800 Number",
+                "answers_label": "Topic",
+                "concepts": [
+                  {
+                    "text": "800-175BR1",
+                    "correct_answer": {
+                      "id": "a1593273470506",
+                      "text": "Encryption"
+                    }
+                  },
+                  {
+                    "text": "800-123",
+                    "correct_answer": {
+                      "id": "a1593273548441",
+                      "text": "Server Standard"
+                    }
+                  },
+                  {
+                    "text": "800-41R1",
+                    "correct_answer": {
+                      "id": "a1593273561908",
+                      "text": "Firewall"
+                    }
+                  },
+                  {
+                    "text": "800-83R1",
+                    "correct_answer": {
+                      "id": "a1593273576523",
+                      "text": "Malware Handling"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593273561908",
+                    "text": "Firewall"
+                  },
+                  {
+                    "id": "a1593273576523",
+                    "text": "Malware Handling"
+                  },
+                  {
+                    "id": "a1593273548441",
+                    "text": "Server Standard"
+                  },
+                  {
+                    "id": "a1593273470506",
+                    "text": "Encryption"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038784,
+              "key": "6abfc3df-584b-48f5-b5ff-6b8e50103966",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6abfc3df-584b-48f5-b5ff-6b8e50103966",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following NIST 800 standards has recommendations on Server Logging and Monitoring?",
+                "answers": [
+                  {
+                    "id": "a1593299657273",
+                    "text": "800-123",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593299776760",
+                    "text": "800-175BR1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593299785917",
+                    "text": "800-41R1",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026984,
+          "key": "b131ac66-d832-4c4e-a641-d96a9bd1e842",
+          "title": "NIST 800 Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b131ac66-d832-4c4e-a641-d96a9bd1e842",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026921,
+              "key": "cc4a7039-bb30-4cea-aeba-52390a339ed8",
+              "title": "NIST 800 Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST 800 Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1032826,
+              "key": "30862e3c-0392-4b24-8214-dc460151539a",
+              "title": "NIST",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "30862e3c-0392-4b24-8214-dc460151539a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "## NIST\n\nUsing [NIST 800-41r1](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-41r1.pdf) list 5 key considerations when configuring a firewall for an organization.\n",
+                "matchers": [
+                  {
+                    "expression": "\\w*"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026987,
+          "key": "181cbc0f-c3f0-4632-8b2e-90be69a85680",
+          "title": "NIST 800 Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "181cbc0f-c3f0-4632-8b2e-90be69a85680",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026928,
+              "key": "0264b727-13c3-4832-aedc-636146aa3963",
+              "title": "NIST 800 Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST 800 Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026946,
+              "key": "43ba757e-1d1f-4285-aeb1-33fc56f11e86",
+              "title": "ND545 C02 L01 A09 NIST 800 Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6TxQAYd_ZA0",
+                "china_cdn_id": "6TxQAYd_ZA0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026991,
+          "key": "8e016bc2-1346-472d-abc4-e7bd933534fe",
+          "title": "Principle of Least Privileged",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8e016bc2-1346-472d-abc4-e7bd933534fe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026938,
+              "key": "269d87d2-f104-4410-8c80-1c34d8259abc",
+              "title": "Least Privileged Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Principle of Least Privileged",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026962,
+              "key": "a3ccba4b-0704-46e9-a1ef-ce98af25dd0f",
+              "title": "ND545 C02 L01 A10 Least Priviledged",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nIwGD15I08c",
+                "china_cdn_id": "nIwGD15I08c.mp4"
+              }
+            },
+            {
+              "id": 1038426,
+              "key": "1677b67f-a9f1-453f-861f-173d181735ac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Principle of Least Privilege**: is the idea that any user, program, or process should have only the bare minimum privileges necessary to perform its function. \n\n**Note** - The Principle of Least Privilege (PoLP) is one of the **most important** concepts in this course. It applies to nearly every component you will see in cyber security.\n\n**Additional Resources**\n- [Microsoft Principle of Least Privilege](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038427,
+              "key": "657d51f0-f84a-4f04-aaf5-646f5ab5f318",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef37e24_images-for-classroom.-4/images-for-classroom.-4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/657d51f0-f84a-4f04-aaf5-646f5ab5f318",
+              "caption": "Least Privilege Example",
+              "alt": "Least Privilege Example",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1026933,
+              "key": "fe60c560-6c37-4885-84d4-fbc8f0da342f",
+              "title": "ND545 C02 L01 A11 Least Priviledged Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eU6v8koUXE4",
+                "china_cdn_id": "eU6v8koUXE4.mp4"
+              }
+            },
+            {
+              "id": 1026949,
+              "key": "a301fc45-a9ca-4e93-aafa-d6edde75d682",
+              "title": "Least Privileged Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you can see, the Principle of Least Privilege can apply to nearly anything. By focusing on physical controls, the organization hosting the intern has protected itself from risk by only allowing the intern to access the facility at specific times. Once there, the intern can only access the areas they need to be in to perform their duties.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026980,
+          "key": "d9aa3124-4f4f-430b-8f8f-fabff654b7d3",
+          "title": "Least Privileged Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d9aa3124-4f4f-430b-8f8f-fabff654b7d3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026932,
+              "key": "c117be9e-acd4-41b6-aefe-4c61287b6927",
+              "title": "Least Privileged Easy Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##  Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038771,
+              "key": "7e7c9fbd-b1f7-4639-a83d-a106faa34c4e",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7e7c9fbd-b1f7-4639-a83d-a106faa34c4e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The Principle of Least Privilege applies to [select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593274733354",
+                    "text": "Computers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593274746436",
+                    "text": "People",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593274754352",
+                    "text": "Applications",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593274765173",
+                    "text": "Networks",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593274775596",
+                    "text": "All of the above",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038785,
+              "key": "4ad0d1fb-323d-4f4b-a5a8-2e06f5928868",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4ad0d1fb-323d-4f4b-a5a8-2e06f5928868",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the Principle of Least Privilege, choose the correct permissions for this scenario:\n\nToni works in Human Resources, they will need to be able to view and create files in the HR directory .\n\nWhat permissions should they have? [Choose all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593301533382",
+                    "text": "Full Control",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593301669707",
+                    "text": "Read",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593301674794",
+                    "text": "Modify",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593301679515",
+                    "text": "Delete",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593301694518",
+                    "text": "Write",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026979,
+          "key": "13ecf3f1-f072-47ee-9881-0ff8b97f8a9c",
+          "title": "Least Privileged Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "13ecf3f1-f072-47ee-9881-0ff8b97f8a9c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026925,
+              "key": "f0fd07e4-7cb3-4d29-8218-361321078208",
+              "title": "Least Privileged Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Least Privileged Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038773,
+              "key": "5a1d3990-4c53-4149-9837-6409b3f83727",
+              "title": "Least Privilege:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5a1d3990-4c53-4149-9837-6409b3f83727",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "This might be a difficult question to answer, but using what you have learned, and knowing how complex this issue can be, how might an IT Department effectively administer its infrastructure at scale while also remaining in compliance with the Principles of Least Privilege (PoLP)?\n"
+              },
+              "answer": {
+                "text": "Awesome, thanks for completing that. Head to the next page and see how your answer compares to the instructors!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026978,
+          "key": "087759c8-cb78-40fc-b5ec-9935b0361197",
+          "title": "Least Privileged Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "087759c8-cb78-40fc-b5ec-9935b0361197",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026934,
+              "key": "b2c52006-8588-40de-b5fc-fc509170d1ad",
+              "title": "Least Privileged Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Least Privileged Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026940,
+              "key": "e1b59556-3e15-4c79-be6c-d644cc84468b",
+              "title": "ND545 C02 L01 A12 Least Priviledged Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ZrFTGlfrkMc",
+                "china_cdn_id": "ZrFTGlfrkMc.mp4"
+              }
+            },
+            {
+              "id": 1038786,
+              "key": "f9581125-264d-43e5-92e4-019d1f52e308",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The first answer could have been a bit tough to come up with if you haven't heard of Privilege Access Management applications. \n\nHere's how they work: \n\nRather than every IT Admin having access to a specific server, the Privilege Access Management application has access, and when the IT Admin needs to log in and complete a task. They will check out a password, which can be the real password or it can be one-time use only password and login to do the work.\n\nNot only does this decrease the attack surface by limiting the number of accounts that can access sensitive data, but it also creates another logging point. For instance, if data is destroyed or missing at a certain time, simply check the logs of the PAM to see who was the last to request the password near the time of the incident. \n\nThe second method of PoLP in IT Departments is more popular, primarily because there is no additional cost involved. Each IT Admin has two accounts, the first is a standard user account. This is what they login to their PC with to perform normal usage. When elevated privileges are needed they simply log in with their admin account, commonly known as a bank account. Example: User Account: bthompson Admin Account !bthompson ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026989,
+          "key": "425ee235-741e-45d3-b678-d74125b44990",
+          "title": "When do these policies not apply",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "425ee235-741e-45d3-b678-d74125b44990",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026960,
+              "key": "5df75b55-2c9d-4a69-941e-bfff45cf066c",
+              "title": "Edge Case: [#1] Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## When do these not apply",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026942,
+              "key": "4869b2f4-c1b5-47a1-9ecc-d25b090502b1",
+              "title": "Edge Case: [#1] Intuition Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As with almost everything, there will be times that we can't apply our policies and procedures to everything. \nHere's an example:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026969,
+              "key": "868b8ee0-8d67-4dac-9fca-0d93003e5119",
+              "title": "ND545 C02 L01 A13 Edge Case Number 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bVeG1LV0RG0",
+                "china_cdn_id": "bVeG1LV0RG0.mp4"
+              }
+            },
+            {
+              "id": 1038772,
+              "key": "a54ef2a9-7c59-4e57-b4b0-1def2c9999a6",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a54ef2a9-7c59-4e57-b4b0-1def2c9999a6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Think about some ways you've seen PoLP in action."
+              ],
+              "positive_feedback": "Great Job!  At different points of my career, I have had to ask for privileges to make changes to certain files or get access to specific areas at work. Even thinking about something like Google Drive and how it uses principles of least privilege. You start out with files only you can see and then you can add people with specific privileges. When you think about it, it's all around us!",
+              "video_feedback": null,
+              "description": "Now that we've learned about the Principle of Least Privilege, think of an example from your workplace, it doesn't have to be I.T."
+            }
+          ]
+        },
+        {
+          "id": 1026985,
+          "key": "8c2d4ce3-25d7-4a92-aaf8-e9a68b63295f",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8c2d4ce3-25d7-4a92-aaf8-e9a68b63295f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026955,
+              "key": "5a06f6d0-4727-4663-9f64-85fd260e46bb",
+              "title": "Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026965,
+              "key": "75945ca5-1c76-431e-a68d-c7a2091cd643",
+              "title": "ND545 C02 L01 A15 Lesson Conclusion V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2nJHcY9rIaU",
+                "china_cdn_id": "2nJHcY9rIaU.mp4"
+              }
+            },
+            {
+              "id": 1026959,
+              "key": "6290d115-6ff0-4f7a-9e45-71d9064a0657",
+              "title": "Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Takeaways:\n\n**Defense in Depth** is using complementary layers of defenses to protect your organization.\n\n**NIST** provides frameworks and standards to assist in developing your security program.\n\n**Principle of Least Privilege** is the idea that any user, program, or process should have only the bare minimum privileges necessary to perform its function. You will see references to this throughout the course.\n\n**3-Component Model of Security**  Prevention, Detection and Response. Every topic, when introduced, will reference where it falls in this model.\n\n*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field. *\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038428,
+              "key": "6284081c-68d6-447f-976b-4a8c4018ee3f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21d617_l1-overview/l1-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6284081c-68d6-447f-976b-4a8c4018ee3f",
+              "caption": "",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038905,
+              "key": "116040c2-229b-4015-8a8b-f93e79876553",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Lesson Key Terms\n|KeyTerm| Definition| \n|--------------|---------------------|\n|Framework| A set of agreed-upon policies, procedures, and processes that define how information is managed.|\n|NIST CSF| The Framework is voluntary guidance, based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk.|\n|NIST-800| NIST’s 800 series presents information of interest to the computer security community. The series comprises guidelines, recommendations, and technical specifications.|\n|Principle of Least Privilege| is the idea that at any user, program, or process should have only the bare minimum privileges necessary to perform its function.|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

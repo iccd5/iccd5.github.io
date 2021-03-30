@@ -1,0 +1,1692 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1027290,
+      "key": "879eba55-d35d-4dca-bc04-cf959386edff",
+      "title": "Monitoring and Logging for Detection of Malicious Activity",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you'll learn how to effectively monitor and use logs to detect malicious activity. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/879eba55-d35d-4dca-bc04-cf959386edff/1027290/1607322174850/Monitoring+and+Logging+for+Detection+of+Malicious+Activity+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/879eba55-d35d-4dca-bc04-cf959386edff/1027290/1607322170823/Monitoring+and+Logging+for+Detection+of+Malicious+Activity+Subtitles.zip"
+          },
+          {
+            "name": "Icyber Defending and Securing Systems Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5efcd84d_icyber-defending-and-securing-systems-key-terms/icyber-defending-and-securing-systems-key-terms.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1027268,
+          "key": "dcbb1963-eed0-4461-8a11-555664ccbb0b",
+          "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dcbb1963-eed0-4461-8a11-555664ccbb0b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027196,
+              "key": "d46533aa-a492-4b3a-8a97-972a76972e73",
+              "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Introduction Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring and Logging for Detection of Malicious Activity Lesson Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027190,
+              "key": "4b3d4618-369a-4303-a92d-a12cfc72c1dc",
+              "title": "ND545 C02 L03 A01 Lesson Introduction V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GgbQspk7KAo",
+                "china_cdn_id": "GgbQspk7KAo.mp4"
+              }
+            },
+            {
+              "id": 1027201,
+              "key": "7766ecf2-d558-4f80-bb3d-f49e21d71b83",
+              "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Introduction Lesson Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Welcome to the monitoring lesson!**\n\nWe'll learn about:\n\n- System Events\n- Network Monitoring\n- We'll go over alert reports\n- Finally we'll introduce SIEM's\n\nLet's go!\n\nBy the end of this lesson students will be able to:\n- Interpret between different types of logs.\n- Define the basic parts of network traffic.\n- Analyze network traffic.\n- Explain the importance of a SIEM.\n- Compare and contrast the benefits and issues of open source vs commercial SIEM\n- Create basic queries to retrieve system information. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038449,
+              "key": "1063c514-6fab-4708-a637-e9dd5776cb2b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21d702_lesson-3-overview/lesson-3-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1063c514-6fab-4708-a637-e9dd5776cb2b",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1027270,
+          "key": "0c0d22fa-0c9d-4c26-a8b6-661033d53087",
+          "title": "Monitoring and Logging Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0c0d22fa-0c9d-4c26-a8b6-661033d53087",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027202,
+              "key": "f0ad21c3-8f8b-4068-bb55-90ad3bc798a0",
+              "title": "Big Picture Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring and Logging Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027183,
+              "key": "79d7e966-1047-40ae-8926-0a9205f5bf66",
+              "title": "ND545 C02 L03 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d6EGwexXe2I",
+                "china_cdn_id": "d6EGwexXe2I.mp4"
+              }
+            },
+            {
+              "id": 1027197,
+              "key": "c21fc107-02f2-4270-851c-a1415654d240",
+              "title": "Big Picture Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap:\n\n- Monitoring is much more than alerts for malicious behavior.\n- Monitoring your system performance lets you catch problems before they become catastrophic.\n- Proactive monitoring allows you to scale your systems gracefully to take advantage of opportunities.\n\n### Key Terms\n- **Vulnerability Scanning**: is an automated threat that uses bots or web crawlers to identify security weaknesses in your website and underlying architecture.\n- **Scalability**: is the ability of a computing system to grow or expand gracefully.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038450,
+              "key": "f27dea9c-b8de-4306-9f2c-81b58f0ca795",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef388e3_images-for-classroom.-21/images-for-classroom.-21.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f27dea9c-b8de-4306-9f2c-81b58f0ca795",
+              "caption": "It's important to monitor and log to ensure we know what is happening on our network so we can both react and be proactive with security and stability. ",
+              "alt": "Big Picture",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1027267,
+          "key": "0d32e4f8-0dd1-42a6-8e70-95e5765f3d18",
+          "title": "Monitoring and Logging for Detection of Malicious Activity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0d32e4f8-0dd1-42a6-8e70-95e5765f3d18",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027184,
+              "key": "4950a265-593f-468f-9147-32e36b2e7f70",
+              "title": "Developing Your Intuition About Monitoring and Logging for Detection of Malicious Activity Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring and Logging for Detection of Malicious Activity",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027186,
+              "key": "1dee587a-8410-4b94-8a57-6bd4c3f9f1a9",
+              "title": "ND545 C02 L03 A03 Developing Your Intuition",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NqQ5g_a9I24",
+                "china_cdn_id": "NqQ5g_a9I24.mp4"
+              }
+            },
+            {
+              "id": 1027193,
+              "key": "4bf108c3-f4ee-403a-aaac-0970f39d3c53",
+              "title": "Developing Your Intuition About Monitoring and Logging for Detection of Malicious Activity Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Researching alerts is a simple job task. **Remembering** and **learning** what the context was when an alert was positive is the key. \n\nThat is what is building your **intuition**. \n\nThe primary practical takeaway from this example is don't become myopic when looking at alerts, always back out the scope a bit and look at what happened just **before** and **after**.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038451,
+              "key": "5544f2c6-fa3f-4e0c-a3d0-539ddcb48665",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef3896e_images-for-classroom.-22/images-for-classroom.-22.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5544f2c6-fa3f-4e0c-a3d0-539ddcb48665",
+              "caption": "Be aware of the Superman effect when dealing with security. If it seems impossible for someone to be in two places that are far apart, then it's time to secure the account.",
+              "alt": "Superman Effect",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1027279,
+          "key": "d09e3f3b-86c8-41a9-9992-2e85f89f1c31",
+          "title": "System Event Logs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d09e3f3b-86c8-41a9-9992-2e85f89f1c31",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027223,
+              "key": "5a2f49c3-0da5-4a1e-8a1e-b81bf71a0ca4",
+              "title": "System Event Logs Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## System Event Logs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027258,
+              "key": "abf4f530-ca71-43bf-accf-5e68e536f3ce",
+              "title": "ND545 C02 L03 A07 System Event Logs Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "S1z2wybbQwo",
+                "china_cdn_id": "S1z2wybbQwo.mp4"
+              }
+            },
+            {
+              "id": 1027209,
+              "key": "8bbc11fb-da20-4331-a52d-9df93500ae4c",
+              "title": "System Event Logs Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n\n- Event logs are records of events that take place on the computer.\n- Used for troubleshooting and auditing.\n- Perfect for setting alerts on suspicious events.\n- 3 Primary Categories of Event Logs in Windows\n  - **System** The System event log is for general system events, Services starting and stopping etc.\n  - **Security** The Security event log is for login attempts and permissions events.\n  - **Application** The Application log is for events associated specifically with applications. Think Office or Adobe.\n- There are 5 Types of Events.\n  - **Error** An error represents a real problem with the system. A hung Service or a Disk that is failing.\n  - **Warning** A Warning is an event that indicates a pending problem, low disk space for example.\n - **Information** This is the most common event, it simply logs that an event took place successfully.\n  - **Success Audit** A Success Audit is when an audited event was successful. Such as you typed your password in correctly to login.\n  - **Failure Audit**  A Failure Audit is when an audited event was unsuccessful. When you attempt to access a folder without permissions for example.\n\n\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027225,
+              "key": "b4b80d19-ace4-4b3d-af60-6ccff0a3f31f",
+              "title": "System Event Logs Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef389fb_images-for-classroom.-23/images-for-classroom.-23.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b4b80d19-ace4-4b3d-af60-6ccff0a3f31f",
+              "caption": "Anatomy of a Windows Event",
+              "alt": "Anatomy of a Windows Event",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038620,
+              "key": "371bc42a-97b2-409f-9c07-4f840660a4f3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Thoughts:\n\n - There are actually 2 additional event logs in standard Windows installations. They aren't used quite as much.\n  - **Setup** The Windows Setup Event log contains events that occurred when the operating system was being installed.\n  - **Forwarded Events** If the particular machine you are on has forwarded events that indicate that another Windows install on your network is sending its logs to your machine. We'll cover this topic more later.\n\n## Additional Resources:\n- [Windows Event IDs](https://www.xplg.com/windows-server-security-events-list/)\n- [More Windows Event IDs](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027237,
+              "key": "de04b079-5e8f-427f-a9ab-654b782f6032",
+              "title": "System Event Logs Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Linux Logs",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038617,
+              "key": "eecbde65-4a0b-4b6c-b65a-b35e17b25b39",
+              "title": "ND545 C02 L03 A07 System Event Logs Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xJ2G3jLl1Fk",
+                "china_cdn_id": "xJ2G3jLl1Fk.mp4"
+              }
+            },
+            {
+              "id": 1038618,
+              "key": "f696ceac-5243-4aa8-a265-0bdb54b16089",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- CentOS logs are stored in /var/log\n- We installed the application **Audit** to make viewing logs easier. There are other applications as well.\n- Here are some logs that you may consider alerting on:\n  - Failed Login Attempts\n  - Cron jobs, these are scheduled tasks and can be used to establish persistence\n  - Yum updates, in particular if the machine should not be receiving updates\n  - There's likely to be logs for the applications your Linux server is hosting that are worthy of alerts.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038453,
+              "key": "1c3af31a-ba3b-4500-b248-b008c96886ba",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38a8d_images-for-classroom.-24/images-for-classroom.-24.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1c3af31a-ba3b-4500-b248-b008c96886ba",
+              "caption": "The text in white represents **files**.",
+              "alt": "Linux Logs- Boot/Cron",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038454,
+              "key": "b7097c28-9f82-4c46-8ea0-a2fb32afd143",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38aca_images-for-classroom.-25/images-for-classroom.-25.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b7097c28-9f82-4c46-8ea0-a2fb32afd143",
+              "caption": "The text in blue represents **directories**.",
+              "alt": "Directories",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038455,
+              "key": "f8f9b49b-c3ee-4c31-9ef1-0087d07bdc52",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38b02_images-for-classroom.-26/images-for-classroom.-26.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f8f9b49b-c3ee-4c31-9ef1-0087d07bdc52",
+              "caption": "The text in red represents an **archive file**.",
+              "alt": "Archived File",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038456,
+              "key": "c210f507-59d0-49b6-8e83-18739f65eba1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38b7c_images-for-classroom.-27/images-for-classroom.-27.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c210f507-59d0-49b6-8e83-18739f65eba1",
+              "caption": "An example of a log file you may be interested in, the **Yum** log.",
+              "alt": "Yum Log",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038457,
+              "key": "dce3853e-205d-45a5-9215-3fe97e71db2a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38bbf_images-for-classroom.-28/images-for-classroom.-28.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dce3853e-205d-45a5-9215-3fe97e71db2a",
+              "caption": "The **Secure** log file is where successful and failed login attempts reside.",
+              "alt": "Secure Log File",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038458,
+              "key": "cc72b83a-5c50-4959-b01c-c8baaccb3de0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38be4_images-for-classroom.-29/images-for-classroom.-29.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cc72b83a-5c50-4959-b01c-c8baaccb3de0",
+              "caption": "**Cron** log contains information on scheduled tasks. ",
+              "alt": "Cron",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038621,
+              "key": "340a73c4-d622-46a4-baea-da5c94f9859f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Windows Walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038452,
+              "key": "187a9c69-b48b-4429-9a7f-3da9da0da9e4",
+              "title": "ND545 C02 L03 A08 System Event Logs Walkthrough Part 1 Windows",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Command: Get-EventLog -Logname Security -InstanceID 4625 -Newest 25",
+              "video": {
+                "youtube_id": "wbiJDPIT8-c",
+                "china_cdn_id": "wbiJDPIT8-c.mp4"
+              }
+            },
+            {
+              "id": 1038622,
+              "key": "6055aeb3-7ab8-4d03-86f2-7bb40ce4861c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Linux Walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038623,
+              "key": "9b80814b-aa76-4fd4-90ce-defc14df77a8",
+              "title": "ND545 C02 L03 A08 System Event Logs Walkthrough Part 2 Linux",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Command: sudo aureport -au -i --failed | more",
+              "video": {
+                "youtube_id": "FoEPIrJIXMs",
+                "china_cdn_id": "FoEPIrJIXMs.mp4"
+              }
+            },
+            {
+              "id": 1038619,
+              "key": "b17e1262-3375-4a92-ba9e-35b8d89f69ff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources\n- [Linux Alerting](https://www.linuxjournal.com/content/sysadmin-101-alerting)\n- [Linux Logs](https://www.2daygeek.com/check-track-successful-failed-login-attempts-linux/)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027284,
+          "key": "ccf6d4ec-51e4-4cea-97af-c5f45acc46f2",
+          "title": "Quizzes: System Event Logs ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ccf6d4ec-51e4-4cea-97af-c5f45acc46f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038956,
+              "key": "615ffd29-f50b-4b08-b8c6-a7e92bcf0629",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "615ffd29-f50b-4b08-b8c6-a7e92bcf0629",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all of the correct types of Windows Events.\n[Choose all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593455001765",
+                    "text": "Information",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455042909",
+                    "text": "Application",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593455049495",
+                    "text": "Failed Audit",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455055415",
+                    "text": "Successful Audit",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455061851",
+                    "text": "IRS Audit",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593455069732",
+                    "text": "Warning",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455089371",
+                    "text": "Error",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455124139",
+                    "text": "Event ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038957,
+              "key": "25218442-2c78-4455-99c6-d1d612232996",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "25218442-2c78-4455-99c6-d1d612232996",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the correct description to the Windows Event Log **Category**"
+                },
+                "concepts_label": "Category",
+                "answers_label": "Description",
+                "concepts": [
+                  {
+                    "text": "Security",
+                    "correct_answer": {
+                      "id": "a1593455198114",
+                      "text": " login attempts and permissions events."
+                    }
+                  },
+                  {
+                    "text": "System",
+                    "correct_answer": {
+                      "id": "a1593455269071",
+                      "text": " general system events, Services starting and stopping"
+                    }
+                  },
+                  {
+                    "text": "Application",
+                    "correct_answer": {
+                      "id": "a1593455271223",
+                      "text": "events associated specifically with applications"
+                    }
+                  },
+                  {
+                    "text": "Setup",
+                    "correct_answer": {
+                      "id": "a1593455272527",
+                      "text": "events that occurred when the operating system was installed"
+                    }
+                  },
+                  {
+                    "text": "Forwarded Events",
+                    "correct_answer": {
+                      "id": "a1593455273651",
+                      "text": "another windows install on your network is sending its logs to your machine"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593455384991",
+                    "text": "Events that occur when you're not looking"
+                  },
+                  {
+                    "id": "a1593455272527",
+                    "text": "events that occurred when the operating system was installed"
+                  },
+                  {
+                    "id": "a1593455273651",
+                    "text": "another windows install on your network is sending its logs to your machine"
+                  },
+                  {
+                    "id": "a1593455198114",
+                    "text": " login attempts and permissions events."
+                  },
+                  {
+                    "id": "a1593455269071",
+                    "text": " general system events, Services starting and stopping"
+                  },
+                  {
+                    "id": "a1593455271223",
+                    "text": "events associated specifically with applications"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038958,
+              "key": "bd01885f-ac77-4407-8ec2-cf6696f4cc6d",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bd01885f-ac77-4407-8ec2-cf6696f4cc6d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the text color with the type of data in /var/log"
+                },
+                "concepts_label": "Text Color",
+                "answers_label": "Data Type",
+                "concepts": [
+                  {
+                    "text": "White",
+                    "correct_answer": {
+                      "id": "a1593455552272",
+                      "text": "File"
+                    }
+                  },
+                  {
+                    "text": "Blue",
+                    "correct_answer": {
+                      "id": "a1593455596770",
+                      "text": "Directory"
+                    }
+                  },
+                  {
+                    "text": "Red",
+                    "correct_answer": {
+                      "id": "a1593455602994",
+                      "text": "Archive "
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593455552272",
+                    "text": "File"
+                  },
+                  {
+                    "id": "a1593455602994",
+                    "text": "Archive "
+                  },
+                  {
+                    "id": "a1593455596770",
+                    "text": "Directory"
+                  },
+                  {
+                    "id": "a1593455633782",
+                    "text": "Folder"
+                  },
+                  {
+                    "id": "a1593455622226",
+                    "text": "Log"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038959,
+              "key": "f17f26e9-ce98-48fb-bc22-291d3d056108",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f17f26e9-ce98-48fb-bc22-291d3d056108",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In our CentOS server, what are some logs we may want to alert on?\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593455755720",
+                    "text": "Login Attempts",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455809734",
+                    "text": "Startup",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593455822094",
+                    "text": "Cron",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455826634",
+                    "text": "Yum",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593455831386",
+                    "text": "Print",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593455843566",
+                    "text": "Application Specific",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027273,
+          "key": "edef761e-b5e3-48dc-99fa-d48101c18056",
+          "title": "Exercise: System Event Logs ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "edef761e-b5e3-48dc-99fa-d48101c18056",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038290,
+              "key": "228479f7-c7fb-4b5d-b5f5-ddb997a90377",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "228479f7-c7fb-4b5d-b5f5-ddb997a90377",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use PowerShell to view Event Logs on your Windows Lab Machine.\n\n1. Retrieve the 50 most recent entries from System log using PowerShell. \n2. What do some of these events tell you about what is happening on this machine?\n3. **Don't forget to shut down your VM**\n"
+              },
+              "answer": {
+                "text": "Very well done! Now that you have finished this activity see how your answer compares, remember that your machine will likely be different from what the instructor has in the solution. \n\n**Don't forget to shut down your VM**",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027280,
+          "key": "c99e7bd2-1ab1-466d-b8c9-b5b43d120dd0",
+          "title": "Exercise Solution: System Event Logs ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c99e7bd2-1ab1-466d-b8c9-b5b43d120dd0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027208,
+              "key": "8359f38a-5e7c-4082-a4b5-1571f2dccb8f",
+              "title": "ND545 C02 L03 A09 System Event Logs Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1FupRV-UwQw",
+                "china_cdn_id": "1FupRV-UwQw.mp4"
+              }
+            },
+            {
+              "id": 1027185,
+              "key": "6809195d-6bbc-4d47-88a7-8796af500e5e",
+              "title": "Reflection on System Event Logs",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Well done, now would be a perfect time to look up some of those events to get a greater feel (and build **intuition**) for what's happening on your machine!\nYou got this!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027286,
+          "key": "90c39abd-92a6-4875-aa33-8314eb5caa1a",
+          "title": "Monitoring Network Traffic",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90c39abd-92a6-4875-aa33-8314eb5caa1a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027211,
+              "key": "16ac0d88-c42c-4378-98e2-dd90e1886688",
+              "title": "Monitoring Network Traffic Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring Network Traffic",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027257,
+              "key": "02053b89-9d2a-4f35-a016-6a149666db9a",
+              "title": "ND545 C02 L03 A10 Monitoring Network Traffic Part 1 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ulDdZzYAUuk",
+                "china_cdn_id": "ulDdZzYAUuk.mp4"
+              }
+            },
+            {
+              "id": 1027226,
+              "key": "74f848cc-afc1-4207-b82e-8ca8a36e1805",
+              "title": "Monitoring Network Traffic Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n - You should monitor traffic for several reasons:\n  - **Firewall** logs for indications of an attack or breach.\n  - **Performance** logs to catch problems before they cause an outage.\n  - **Scalability** to know when to add capacity\n  - **Compliance** all compliance regulations require some form of monitoring.\n\n- There are many types of logs you should monitor and your organization will have its own unique list. However, there are several standard items.\n  - **Firewalls** As we just mentioned above, you should always monitor your firewall logs.\n  - **Public Facing Servers** all traffic to and from as well as any applicable application logs.\n  - **Wireless** you should monitor failed connection attempts on your wireless infrastructure.\n  - **Sensitive Data/Intellectual Property** Anywhere there is sensitive information such as PII or intellectual property should be monitored.\n\n- Here are several common methods for retrieving logs from networked devices:\n  - **Netflow/SFlow** Netflow is a Cisco proprietary tool and SFlow is its open source counterpart. They primarily collect data from networking devices and gather information such as IPs, Ports, and protocols involved.\n  - **SNMP** is Simple Network Management Protocol and it performs similarly to Netflow. \n  - **Wireshark** Wireshark is an open source tool used to analyze packet captures. I'll link to more information about it below.\n  - **Netstat** is a built-in utility in Windows/Mac/Linux that shows active connections to your machine. Excellent for troubleshooting.\n  - **Perfmon** is a windows utility for the analysis of windows performance. \n\n- Reviewing reports generated by your security appliances/servers is a primary responsibility for analysts. Firewalls and IDS provide a wealth of information on malicious actors attempting to compromise your environment.\n- It is important to perform the following steps when triaging an alert report:\n  - **Research** Reach out to the owner of the internal IP address and ask them if they recognize this traffic. This will help eliminate a configuration issue.\n  - **Report** if the traffic is not expected, report it to the abuse contact in the WhoIs information.\n  - **Block** If the traffic is from a malicious sender you can manually add it to your blocklist.\n  - **Updates** ensure that any system that is being probed for a vulnerability is fully patched.\n\n**Key Terms**\n\n**PII**: Personally identifiable information, is any data that could potentially be used to identify a particular person. Examples include a full name, Social Security number, driver's license number, bank account number, passport number, and email address.\n\n**WhoIs**: WHOIS isn't an acronym, though it may look like one. In fact, it is the system that asks the question, who is responsible for a domain name or an IP address? In other words, it's the contact information for IP addresses and Websites.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027228,
+              "key": "de1be2a6-09fa-4643-bccd-69e1342be060",
+              "title": "Monitoring Network Traffic Heading Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38d89_images-for-classroom.-35/images-for-classroom.-35.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/de1be2a6-09fa-4643-bccd-69e1342be060",
+              "caption": "Reasons to monitor traffic",
+              "alt": "Why Monitor Traffic?",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038459,
+              "key": "b6a09c65-b191-41a0-aaf1-9846c7d6a10c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38db9_images-for-classroom.-36/images-for-classroom.-36.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b6a09c65-b191-41a0-aaf1-9846c7d6a10c",
+              "caption": "Types of Traffic to Monitor",
+              "alt": "Types of Traffic to Monitor",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038461,
+              "key": "dc3acc07-4fbd-49fc-94ab-a407ec206785",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef38e25_images-for-classroom.-37/images-for-classroom.-37.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dc3acc07-4fbd-49fc-94ab-a407ec206785",
+              "caption": "Data Collection Tools",
+              "alt": "Data Collection Tools",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027213,
+              "key": "5e701075-e8aa-4ceb-bb0d-e0c11001c90c",
+              "title": "Monitoring Network Traffic Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources on Data Collection Tools\n- [Netflow](https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-netflow/prod_white_paper0900aecd80406232.html)\n- [SFlow](https://sflow.org/)\n- [SNMP](http://www.net-snmp.org/wiki/index.php/Tutorials)\n- [Wireshark](https://www.wireshark.org/#learnWS)\n- [Netstat Windows](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)\n- [Netstat Linux](https://www.tecmint.com/20-netstat-commands-for-linux-network-management/)\n- [Perfmon](https://techcommunity.microsoft.com/t5/ask-the-performance-team/windows-performance-monitor-overview/ba-p/375481)\n\nTool not covered:\n- [Nmap](https://nmap.org/)\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027236,
+              "key": "a7abf9a2-afc3-410a-a5d7-e2fa86df8627",
+              "title": "ND545 C02 L03 A10 Monitoring Network Traffic Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Gvw5xoAKqRA",
+                "china_cdn_id": "Gvw5xoAKqRA.mp4"
+              }
+            },
+            {
+              "id": 1038625,
+              "key": "1c6a1af7-c6af-446c-9ad5-b44f551e5ded",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038626,
+              "key": "00c57fa8-90b5-411d-a5df-e5cc589cce72",
+              "title": "ND545 C02 L03 A11 Monitoring Network Traffic Walkthrough V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xDB85jOhG8E",
+                "china_cdn_id": "xDB85jOhG8E.mp4"
+              }
+            },
+            {
+              "id": 1038965,
+              "key": "c70b9bb1-854a-4fb6-a7d7-a4b062848522",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources For Research\n- [WHOIS](https://whois.net/)\n- [AbuseIPDB](https://www.abuseipdb.com/) \n- [VirusTotal](https://www.virustotal.com/gui/home/upload)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027274,
+          "key": "470f85a9-6c07-48e7-921e-47968ea1dd38",
+          "title": "Quizzes: Monitoring Network Traffic ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "470f85a9-6c07-48e7-921e-47968ea1dd38",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038962,
+              "key": "d9ff2627-6373-4a89-8039-8d9f8fea39a1",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d9ff2627-6373-4a89-8039-8d9f8fea39a1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select all of the reasons to monitor your environment:",
+                "answers": [
+                  {
+                    "id": "a1593460390331",
+                    "text": "Security",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593460424739",
+                    "text": "Scalability",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593460430778",
+                    "text": "Financial",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593460502819",
+                    "text": "Performance",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593460510206",
+                    "text": "Warranty",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593460533842",
+                    "text": "Compliance",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038963,
+              "key": "f62f6acf-cca5-456c-8210-435bcd4c6892",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f62f6acf-cca5-456c-8210-435bcd4c6892",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is **not** a tool used for monitoring?",
+                "answers": [
+                  {
+                    "id": "a1593460689471",
+                    "text": "Netstat",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593460765578",
+                    "text": "Wireshark",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593460772054",
+                    "text": "Defrag",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593460778574",
+                    "text": "Netflow",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593460786794",
+                    "text": "SNMP",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038964,
+              "key": "6332eb25-dd3f-4aa4-8c21-46979e7991f2",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6332eb25-dd3f-4aa4-8c21-46979e7991f2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Go through the various Netstat commands on your own machine?",
+                "What connections are present?",
+                "Were there any connections that you didn't expect to see?"
+              ],
+              "positive_feedback": "Nice work, keep building that skillset up! The more that you do these types of activities, the more you will build muscle memory and intuition.",
+              "video_feedback": null,
+              "description": "Complete the following:"
+            }
+          ]
+        },
+        {
+          "id": 1027289,
+          "key": "785b59db-f74f-4530-81f2-0df3b544d58c",
+          "title": "Exercise: Monitoring Network Traffic ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "785b59db-f74f-4530-81f2-0df3b544d58c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042925,
+              "key": "a2805c92-149a-4daa-8473-e359b2f24f88",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring Network Traffic Exercise Part 1",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038293,
+              "key": "50e7e4ee-4569-4173-85bd-5cfe99b4462b",
+              "title": "NetStat",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "50e7e4ee-4569-4173-85bd-5cfe99b4462b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Open Internet Explorer",
+                "Open microsoft.com",
+                "Add a new tab and go to google.com",
+                "Add a new tab of your choice",
+                "Click the windows start button and type 'powershell' hit enter",
+                "Type netstat",
+                "What entries do you see?",
+                "**Don't forget to shut down your VM**"
+              ],
+              "positive_feedback": "Great job getting hands-on with Netstat, you can try this on your own machine too! Head to the next page for the answer to this activity.\n\n**Don't forget to shut down your VM**",
+              "video_feedback": null,
+              "description": "Log on to the provided Windows 2016 Server and complete the following:"
+            },
+            {
+              "id": 1038968,
+              "key": "d6d77bc5-6db5-4f21-981d-0ad3b6a16e6e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring Network Traffic Exercise Part 2\n### Firewall Alert Report",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038652,
+              "key": "5b62bcb8-3b47-4e26-b2c0-329287ef5ce5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef51843_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5b62bcb8-3b47-4e26-b2c0-329287ef5ce5",
+              "caption": "Firewall Report",
+              "alt": "Firewall Report",
+              "width": 1401,
+              "height": 744,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038648,
+              "key": "81b7bcc8-2030-4636-8a9c-1ede66c01d3a",
+              "title": "Firewall Threat Report:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "81b7bcc8-2030-4636-8a9c-1ede66c01d3a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You have been provided the screen capture above of a threat report by your boss. Recommend at least 3 mitigation steps for your server with the IP of 192.168.248.19.  Support your reasoning. \n"
+              },
+              "answer": {
+                "text": "Awesome, now that you have completed everything for this section, head to the next page for the solutions. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027288,
+          "key": "8fcb7027-7b87-472c-9f15-178e76222c48",
+          "title": "Exercise Solution: Monitoring Network Traffic ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8fcb7027-7b87-472c-9f15-178e76222c48",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027261,
+              "key": "ae816b1b-7c9f-49bb-bd5d-76c732e7badc",
+              "title": "Monitoring Network Traffic Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring Network Traffic Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027217,
+              "key": "58601570-1cc6-43d4-be64-7562f8608385",
+              "title": "ND545 C02 L03 A12 Monitoring Network Traffic Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Be sure to watch the full video, the solution to both exercises are in it!",
+              "video": {
+                "youtube_id": "AWw26bZ16oY",
+                "china_cdn_id": "AWw26bZ16oY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027275,
+          "key": "5dccf2ec-2925-4b74-9c01-b62bcbd9bcec",
+          "title": "SIEM Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5dccf2ec-2925-4b74-9c01-b62bcbd9bcec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027242,
+              "key": "c512d62e-65b7-4b90-8ee4-5dc74e701dcd",
+              "title": "SIEM Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## SIEM",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027238,
+              "key": "00bafc27-c286-4034-bb44-7a88cc6b3332",
+              "title": "ND545 C02 L03 A13 SIEM",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TFnc2smQ4OY",
+                "china_cdn_id": "TFnc2smQ4OY.mp4"
+              }
+            },
+            {
+              "id": 1027245,
+              "key": "6bddef20-4dcd-4e31-947b-639594b465e3",
+              "title": "SIEM Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- **SIEM** Security Information and Event Management, it is an application that serves as a log aggregator and, more importantly, analyzes the logs to allow alerting, dashboard creation  and efficient queries to run.\n- SIEMs allow you to retain your log data for much longer. In particular, networking equipment do not typically have much storage and logs are overwritten frequently.\n- Considerations when choosing your SIEM solution:\n  - **Licensing** what is the licensing model? Is it based on users, nodes or volume of events?\n  - **Scalability** should your organization experience rapid growth, can the solution keep up?\n  - **Dashboards** What built-in dashboards are included? How difficult is it to customize existing and make new dashboards?\n  - **Alerts** Is the solution capable of real-time alerting?\n  - ** Query Language** From an analyst point of view this may be the most important, how complicated is the query language and is there plentiful documentation available?\n\n- Should you choose Open Source or a Commercial SIEM?\n- **Open Source**:\n- **Pros**\n   - Highly Customizable.\n   - Generally have a strong community.\n   - Lack of restrictions on data ingestion\n\n- **Cons**\n   - Support is generally, not always, limited to community.\n   -  Some open source SIEMs do not come with as many dashboards pre-configured as their commercial counterparts.\n- **Commercial**\n- **Pros**\n  - Support, part of the licensing fee includes a level of support. \n  - Save time. All SIEMs require extensive time commitments to setup but Commercial SIEMs are marginally more capable out of the box.\n  - Commercial SIEMs have more applications included and available.\n- **Cons**\n  - Price. Depending on how large your environment is and how much data is ingested, commercial SIEMs can be extremely expensive.\n\n- There are multiple methods of ingesting logs:\n  - **Push** this is where the source machine sends the logs to the SIEM.\n  - **Pull** this is where the destination, in this case the SIEM, requests the logs.\n  - **Batch** when files are pulled or pushed all at once in scheduled intervals this would be in batch form.\n  - **Agent** Many SIEMs now have agents that are deployed and keep the logs synchronized.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038462,
+              "key": "bed9a032-f436-4617-b9a1-96b30165013a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef3901a_images-for-classroom.-38/images-for-classroom.-38.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bed9a032-f436-4617-b9a1-96b30165013a",
+              "caption": "SIEM Query Strategies, the more specific the better!",
+              "alt": "SIEM Query Strategies",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038633,
+              "key": "0e86c063-3a82-499e-9f52-ae64f75a9d71",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources\n- [SIEM Reviews](https://www.gartner.com/reviews/market/security-information-event-management)\n- [Open Source SIEM Info](https://www.dnsstuff.com/free-siem-tools)\n- [Commercial SIEM Info](https://logz.io/blog/top-5-commercial-siem-tools/)\n- [Additional SIEM Info](https://dnif.it/siem-security-information-event-management-guide.html)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027278,
+          "key": "69f2ceec-87ae-4bfa-b12e-7ec1ef4d59e4",
+          "title": "Quizzes: SIEM ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "69f2ceec-87ae-4bfa-b12e-7ec1ef4d59e4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038984,
+              "key": "8a0b4c44-400d-40b6-9665-9db06b2d9e32",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8a0b4c44-400d-40b6-9665-9db06b2d9e32",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following would provide a more manageable amount of results while searching in a SIEM?",
+                "answers": [
+                  {
+                    "id": "a1593465291274",
+                    "text": "30-Day Search for google.com ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465333540",
+                    "text": "24-Hour Search for google.com",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465354704",
+                    "text": "4-Hour Search for google.com sourcetype=dnssyslog",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038985,
+              "key": "7089faee-2d25-4ba2-b255-5de6483d8759",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7089faee-2d25-4ba2-b255-5de6483d8759",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are features of an Open Source SIEM?\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593465601693",
+                    "text": "Customizable",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465646108",
+                    "text": "Printing Capabilities",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465686788",
+                    "text": "Strong Community Support",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465695308",
+                    "text": "Internet Analysis",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465702915",
+                    "text": "Lack of restrictions on data ingestion",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465735219",
+                    "text": "Unix Support",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038986,
+              "key": "93271844-c71d-46b4-983a-e9694182afd9",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "93271844-c71d-46b4-983a-e9694182afd9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are some considerations when choosing a SIEM?\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593465851176",
+                    "text": "Licensing ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465892671",
+                    "text": "Free Stickers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465928758",
+                    "text": "Runs on legacy hardware",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593465943206",
+                    "text": "Scalability ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465950074",
+                    "text": "Dashboards ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465957455",
+                    "text": "Alerts ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593465966199",
+                    "text": "Query Language",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027276,
+          "key": "37a2eba4-4a61-481b-9187-bcb82f094876",
+          "title": "Exercise: SIEM ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37a2eba4-4a61-481b-9187-bcb82f094876",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038294,
+              "key": "60f6cbc2-396b-4574-990b-c6682a37dee8",
+              "title": "SIEM:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "60f6cbc2-396b-4574-990b-c6682a37dee8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Recommend why a Security Information and Event Management (SIEM) would be advantageous for an organization that is \n- Compliant Organization\n- Has multiple locations \n- 1200 employees\n- 150 windows servers\n- 50 Linux servers and corresponding network equipment.\n"
+              },
+              "answer": {
+                "text": "Great! Now that you have completed this, take a look at how the instructor might make this recommendation on the next page.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027287,
+          "key": "b4df63d2-4cf4-4441-8ab4-3d946870e12f",
+          "title": "Exercise Solution: SIEM ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b4df63d2-4cf4-4441-8ab4-3d946870e12f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027263,
+              "key": "4e89d444-9f8f-4933-8a6e-5f3f6e7752ea",
+              "title": "ND545 C02 L03 A14 SIEM Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AMT4YN2XnVo",
+                "china_cdn_id": "AMT4YN2XnVo.mp4"
+              }
+            },
+            {
+              "id": 1027239,
+              "key": "ce820466-68b8-4284-a861-d78aaa1545b8",
+              "title": "SIEM Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Exercise Recap:\n\n- **Log Aggregation** All of the organizations valuable logs will be in one place.\n- **Compliance** Meets regulatory compliance requirement for log storage.\n- **Logic** A SIEM does more than store logs, it analyzes and enhances the data!\n- **Time** Save time when researching performance or security issues with the data in one spot.\n- **Alerts** Detect malicious events and performance issues in real time.\n- **Retention** Retain data for much longer.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027285,
+          "key": "64058eb8-8690-40c6-b4ec-b48f7b403c58",
+          "title": "When is an alert not an alert?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "64058eb8-8690-40c6-b4ec-b48f7b403c58",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027260,
+              "key": "fa65b508-285d-4808-9772-df223bc56a9d",
+              "title": "Edge Case: [#1] Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## When is an alert not an alert?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027259,
+              "key": "0d6f9ca8-4d07-4c0f-92f5-8dab702a30b9",
+              "title": "Edge Case: [#1] Intuition Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When is an alert, not an alert? Remember, computers are literal. They do exactly what they are told. So if a condition is met in your monitoring solution, it will fire an alert. That's where the **analyst** in Security Analyst comes in to play. Take your time, make good notes when investigating issues and over time your **intuition** will get sharper. Then you 'll be able to spot these false positives much more quickly. Let's see what this edge case has to offer!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027251,
+              "key": "55443b39-adcb-4c2a-bbc7-a5794f90fee8",
+              "title": "ND545 C02 L03 A15 Edge Cases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LHPWxF4Udb4",
+                "china_cdn_id": "LHPWxF4Udb4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027283,
+          "key": "f2b57af2-96c3-4d53-98f2-f62cc731d8ad",
+          "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f2b57af2-96c3-4d53-98f2-f62cc731d8ad",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027264,
+              "key": "5209d645-98f3-41e5-ade7-0af48f9899e9",
+              "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027262,
+              "key": "14ae06c5-e183-4d0e-a33f-78b7b347b2c1",
+              "title": "ND545 C02 L03 A16 Lesson Conclusion V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sZ87cEenYW8",
+                "china_cdn_id": "sZ87cEenYW8.mp4"
+              }
+            },
+            {
+              "id": 1027253,
+              "key": "9049d6e9-3604-4f0e-945a-1097c4f7275d",
+              "title": "Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Great job on making it through this lesson! You have already learned so much now you can add monitoring and alerting to your skillset!\n\nIn the next lesson, we're going to learn about cryptography! Turn to a fresh page in that notepad and let's get into it!\n\n*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field. *",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038463,
+              "key": "22e6875f-5472-4d8d-9eae-a8893ad3122c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21d788_lesson-3-overview/lesson-3-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/22e6875f-5472-4d8d-9eae-a8893ad3122c",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027243,
+              "key": "aa96821b-5a33-416e-975f-38b9cfa7f26d",
+              "title": "Glossary and Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Glossary Terms \n\nHere's a list of all new terms from this lesson:\n\n|KeyTerm| Definition|\n |--------------|---------------------|\n|PII| Personally identifiable information, is any data that could potentially be used to identify a particular person. Examples include a full name, Social Security number, driver's license number, bank account number, passport number, and email address.|\n|Scalability| is the ability of a computing system to grow or expand gracefully.|\n|Vulnerability Scanning| is an automated threat that uses bots or web crawlers to identify security weaknesses in your website and underlying architecture.|\n|WhoIs| WHOIS isn't an acronym, though it may look like one. In fact, it is the system that asks the question, who is responsible for a domain name or an IP address? In other words, it's the contact information for IP addresses and Websites.|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

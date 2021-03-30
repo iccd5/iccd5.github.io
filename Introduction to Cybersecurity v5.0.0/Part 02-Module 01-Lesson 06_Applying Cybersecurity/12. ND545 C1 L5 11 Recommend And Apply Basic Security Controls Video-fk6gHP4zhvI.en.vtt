@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.980
+Remember the hacking life cycle?
+
+00:00:01.980 --> 00:00:06.600
+Well, we're now into the fix it and make it better steps.
+
+00:00:06.600 --> 00:00:09.210
+This is where you make recommendations to reduce
+
+00:00:09.210 --> 00:00:12.810
+the risks and apply appropriate security controls.
+
+00:00:12.810 --> 00:00:17.190
+In the previous step, you identified vulnerabilities and their corresponding threats.
+
+00:00:17.190 --> 00:00:20.625
+Basically, how a target or asset can be broken.
+
+00:00:20.625 --> 00:00:25.110
+Now, you need to make sure that you have protective or detective measures in
+
+00:00:25.110 --> 00:00:27.750
+place to meet requirements and keep others from
+
+00:00:27.750 --> 00:00:31.065
+breaking it either on purpose or even by accident.
+
+00:00:31.065 --> 00:00:33.225
+This can be done with technical settings,
+
+00:00:33.225 --> 00:00:37.095
+corporate policies, user training, or all three.
+
+00:00:37.095 --> 00:00:40.855
+This video explains some sample recommendations.
+
+00:00:40.855 --> 00:00:44.600
+I'm often asked if there's a checklist of security recommendations.
+
+00:00:44.600 --> 00:00:48.305
+Throughout this course, I've introduced you to numerous ones.
+
+00:00:48.305 --> 00:00:51.560
+For this step, I'll use the CIS controls for
+
+00:00:51.560 --> 00:00:54.965
+guidance and how you should secure computer systems.
+
+00:00:54.965 --> 00:01:01.355
+I'll focus on the following CIS controls: continuous vulnerability management,
+
+00:01:01.355 --> 00:01:04.125
+account monitoring and control.
+
+00:01:04.125 --> 00:01:07.940
+Basically know who's logged in and who has access,
+
+00:01:07.940 --> 00:01:11.420
+and then who has administrative privileges on the system,
+
+00:01:11.420 --> 00:01:14.275
+administrator or root on Linux systems.
+
+00:01:14.275 --> 00:01:20.255
+We'll also look at secure configuration for both the hardware and software.
+
+00:01:20.255 --> 00:01:24.469
+Application software security is how do we secure
+
+00:01:24.469 --> 00:01:28.630
+any applications on the system or even applications in development.
+
+00:01:28.630 --> 00:01:32.405
+We don't want to forget about security awareness and training.
+
+00:01:32.405 --> 00:01:35.120
+Basically informing all end users of
+
+00:01:35.120 --> 00:01:38.795
+their expectations and best practices for cyber security.
+
+00:01:38.795 --> 00:01:43.325
+The first area of recommendations are to secure the configuration of software,
+
+00:01:43.325 --> 00:01:45.440
+operating systems, and networks.
+
+00:01:45.440 --> 00:01:47.555
+This includes application security,
+
+00:01:47.555 --> 00:01:50.795
+endpoint protection like antivirus and firewall,
+
+00:01:50.795 --> 00:01:53.005
+and security policy settings.
+
+00:01:53.005 --> 00:01:55.220
+Application security has a couple of
+
+00:01:55.220 --> 00:01:58.955
+considerations which we looked at in previous videos.
+
+00:01:58.955 --> 00:02:02.615
+First is to remove any applications that are not needed.
+
+00:02:02.615 --> 00:02:05.285
+That reduces the system's threat surface,
+
+00:02:05.285 --> 00:02:07.970
+which means less things for hackers to attack.
+
+00:02:07.970 --> 00:02:12.160
+For this, you should use the software inventory you created earlier.
+
+00:02:12.160 --> 00:02:14.750
+Second, for the remaining applications,
+
+00:02:14.750 --> 00:02:18.200
+make sure each one is up-to-date on its patches.
+
+00:02:18.200 --> 00:02:21.180
+The second area is endpoint protection.
+
+00:02:21.180 --> 00:02:23.420
+These are the defenses to protect your computer,
+
+00:02:23.420 --> 00:02:27.035
+such as anti-virus and other types of malware protection,
+
+00:02:27.035 --> 00:02:29.765
+and also setting the computer's firewall.
+
+00:02:29.765 --> 00:02:35.465
+The third point is to set configuration policies on the system to further lock it down.
+
+00:02:35.465 --> 00:02:38.540
+This includes setting the Windows, auditing policies,
+
+00:02:38.540 --> 00:02:40.130
+and other security policies,
+
+00:02:40.130 --> 00:02:43.270
+which I'll demonstrate in the exercise video.
+
+00:02:43.270 --> 00:02:49.580
+In previous videos, I talked about access control, authentication, and authorization.
+
+00:02:49.580 --> 00:02:52.370
+I have a couple of additional recommendations.
+
+00:02:52.370 --> 00:02:55.955
+The first is to ensure each account has an owner.
+
+00:02:55.955 --> 00:02:58.940
+This is the person responsible for the account.
+
+00:02:58.940 --> 00:03:02.270
+An account without an owner could be used to harm the computer,
+
+00:03:02.270 --> 00:03:04.404
+its data, or its contents.
+
+00:03:04.404 --> 00:03:08.870
+Second is to restrict users with administrative privileges.
+
+00:03:08.870 --> 00:03:13.475
+These are accounts in the administrator's group that can do anything on the computer,
+
+00:03:13.475 --> 00:03:18.025
+including changing configuration settings and installing new applications.
+
+00:03:18.025 --> 00:03:19.880
+To all standard users,
+
+00:03:19.880 --> 00:03:22.790
+the ability to perform administrative tasks,
+
+00:03:22.790 --> 00:03:28.175
+Windows systems have a feature known as User Account Control or UAC.
+
+00:03:28.175 --> 00:03:33.245
+This restricts or allows what end-users can or cannot do on the computer.
+
+00:03:33.245 --> 00:03:35.930
+The third recommendation I have is to implement
+
+00:03:35.930 --> 00:03:39.125
+security awareness training for all users.
+
+00:03:39.125 --> 00:03:42.860
+This is the information they need to know to keep their systems,
+
+00:03:42.860 --> 00:03:45.370
+applications, and data safe.
+
+00:03:45.370 --> 00:03:47.150
+Training would also include
+
+00:03:47.150 --> 00:03:51.380
+the company policy rules we talked about in an earlier lesson.
+
+00:03:51.380 --> 00:03:54.560
+All users should receive security awareness training
+
+00:03:54.560 --> 00:03:58.460
+throughout the year and verified at least annually.
+
+00:03:58.460 --> 00:04:01.430
+Having a solid security awareness program reduces
+
+00:04:01.430 --> 00:04:04.700
+many known security risks such as phishing,
+
+00:04:04.700 --> 00:04:08.160
+malware, and data breaches.
+

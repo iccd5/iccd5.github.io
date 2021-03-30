@@ -1,0 +1,247 @@
+{
+  "id": 2838,
+  "project_id": 743,
+  "upload_types": [
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|ts|gradle|xml|rst|yml|yaml|rmd|pdf|docx|h|H|hh|hxx|h\\+\\+|c|C|cc|cpp|cxx|c\\+\\+)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "1. When recommending automations, expand your recommendations beyond the areas explicitly listed.\n2. When reviewing Windows permissions suggest ways to streamline and centralize the ability to secure systems.\n3. In addition to reviewing failed RDP logins, include other recommendations using Syslog or a SIEM to centralize log aggregation. You'll need to provide explanations about why that should be considered.\n4. For your final report, provide a clear, thoughtful explanation understanding of the work that was performed and how it contributes to the organization.\n",
+  "hide_criteria": false,
+  "created_at": "2020-05-14T20:53:41.256Z",
+  "updated_at": "2020-08-21T17:04:03.715Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd545",
+    "nd545-beta",
+    "nd545-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 6092,
+      "name": "Connecting, Reporting and Analysis",
+      "created_at": "2020-05-19T20:36:01.151Z",
+      "updated_at": "2020-05-19T20:36:36.637Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2838,
+      "rubric_items": [
+        {
+          "id": 17459,
+          "section_id": 6092,
+          "passed_description": "- Screenshot provided to show a proper connection to Windows Workstation using RDP\n- Screenshot provided to show a proper connection to the Linux server using SSH.\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:36:36.787Z",
+          "updated_at": "2020-05-19T20:41:41.702Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student will demonstrate an understanding of connecting and navigating inside the provided computing environment.",
+          "exceedable": false
+        },
+        {
+          "id": 17460,
+          "section_id": 6092,
+          "passed_description": "- A report detailing 3 primary areas\n  - File Permissions that need modified\n  - Roles that are not needed on Windows server\n  - Any services that should or should not be running\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:36:37.588Z",
+          "updated_at": "2020-05-19T20:41:41.705Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The student will demonstrate an understanding of the NIST Framework, Defense-in-Depth and documentation from Microsoft by performing an analysis of the security configuration on the servers provided.",
+          "exceedable": false
+        },
+        {
+          "id": 17461,
+          "section_id": 6092,
+          "passed_description": "- Choose one of the appropriate encryption methods from the documentation provided. Provide justification for the method you chose.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:36:38.448Z",
+          "updated_at": "2020-05-19T20:41:41.709Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "The student will demonstrate an understanding of the appropriate encryption for data in transit.",
+          "exceedable": false
+        },
+        {
+          "id": 17462,
+          "section_id": 6092,
+          "passed_description": "- In report or table form, provide 3 areas where automation could be deployed to DFI. \n- Example: Area: Active Directory. The item for automation: Automatic account lockout if login from 2 geographically distant IPs.\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:36:39.527Z",
+          "updated_at": "2020-05-19T20:41:41.711Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "Automation is only discussed, not implemented. The students will be able to recommend at a very high level what should be automated and how.",
+          "exceedable": false
+        },
+        {
+          "id": 17463,
+          "section_id": 6092,
+          "passed_description": "- The student will provide a table that lists at least 3 updates that should be installed and 3 updates that are not necessary.\n- Justify your recommendations as to why you are making your choices.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:36:40.121Z",
+          "updated_at": "2020-05-19T20:41:41.714Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "Understanding the needs of the organization (vis-a-vis the server configuration) with what is needed via NIST 800-43 and Microsoft's Security Update Guide the student will select the appropriate updates for install.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6093,
+      "name": "Firewalls and IDS Configuration",
+      "created_at": "2020-05-19T20:36:02.766Z",
+      "updated_at": "2020-05-19T20:41:41.718Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2838,
+      "rubric_items": [
+        {
+          "id": 17464,
+          "section_id": 6093,
+          "passed_description": "- Provide the commands necessary to complete the firewall rule given the scenario in the template. ",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:41:41.936Z",
+          "updated_at": "2020-05-19T20:47:08.185Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The students will demonstrate a basic understanding of firewall concepts and how to craft a simple firewall rule.",
+          "exceedable": false
+        },
+        {
+          "id": 17465,
+          "section_id": 6093,
+          "passed_description": "- Provide the commands necessary to complete both of the scenarios given in the template.\n- For documentation purposes, explain your commands for non-technical management.\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:41:42.708Z",
+          "updated_at": "2020-05-19T20:47:08.191Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The students will demonstrate a basic understanding of IDS concepts and how to craft simple IDS rules.",
+          "exceedable": false
+        },
+        {
+          "id": 17466,
+          "section_id": 6093,
+          "passed_description": "- The student will provide mitigation recommendations based on their analysis of the report with a focus on friend/foe of the source IP as well as an additional layer of protection for the destination IP.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:41:43.514Z",
+          "updated_at": "2020-05-19T20:47:08.196Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Students will demonstrate a basic understanding of how to appropriately mitigate a threat via firewall alerts.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6094,
+      "name": "Encryption, Hashes and Linux",
+      "created_at": "2020-05-19T20:36:07.379Z",
+      "updated_at": "2020-05-19T20:41:41.723Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2838,
+      "rubric_items": [
+        {
+          "id": 17471,
+          "section_id": 6094,
+          "passed_description": "- Provide a screenshot that displays the command that was run as well as the file hash.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:48:56.613Z",
+          "updated_at": "2020-05-19T20:53:09.094Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Students will demonstrate the ability to ensure executables are legitimate by comparing file hash with a known good copy or with a hash provided in advance.\n",
+          "exceedable": false
+        },
+        {
+          "id": 17467,
+          "section_id": 6094,
+          "passed_description": "- Export the results to CSV on the server provided.\n- Open the CSV with notepad.\n- Provide a screenshot of the results",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:47:08.407Z",
+          "updated_at": "2020-05-19T20:53:09.098Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Students will demonstrate an understanding of how to log certain events, in this case, failed RDP attempts.\n",
+          "exceedable": false
+        },
+        {
+          "id": 17468,
+          "section_id": 6094,
+          "passed_description": "- Create the directories listed in the request.\n- Create the groups listed in the request.\n- Create the users listed and place them in the appropriate groups.\n- Set the directory permissions where the groups are the owners of their respective directories.\n- Explain the syntax used for setting the permissions.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:47:10.473Z",
+          "updated_at": "2020-05-19T20:53:09.102Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Students will demonstrate an understanding of Linux permissions by creating a directory and then assigning appropriate permissions.\n",
+          "exceedable": false
+        },
+        {
+          "id": 17469,
+          "section_id": 6094,
+          "passed_description": "- Explain all of the tasks performed in the first two weeks.\n- Explain any recommendations for changes in permissions.\n- Tie all of the work done together in a big picture narrative.\n- Recommend the way forward for DFI in terms of security products (at least 2) and policies (also at least 2.)\n",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:47:11.361Z",
+          "updated_at": "2020-05-19T20:53:09.106Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "Students will produce a narrative 'status report' that will tie all of the projects together in the form of a report to management.",
+          "exceedable": false
+        },
+        {
+          "id": 17470,
+          "section_id": 6094,
+          "passed_description": "- Encrypt the deliverables in the previous steps using 7zip and a strong password.\n- Upload the file to Udacity for testing.\n- Provide the password to the file in the notes to the reviewer.",
+          "exceeded_description": null,
+          "created_at": "2020-05-19T20:47:12.114Z",
+          "updated_at": "2020-05-19T20:53:09.109Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "Demonstrate encrypting a directory.\n",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 743,
+    "name": "Monitoring and Securing the DFI Environment",
+    "nanodegree_key": "nd545",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": null,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 13,
+    "created_at": "2020-07-10T15:27:09.416Z",
+    "updated_at": "2021-03-28T17:58:01.583Z",
+    "price": "10.5",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

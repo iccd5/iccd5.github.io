@@ -1,0 +1,265 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.640
+In this exercise, you identified existing assets on the exercises Windows 10 VM.
+
+00:00:05.640 --> 00:00:10.350
+This is so you could analyze those assets to determine and categorize risks,
+
+00:00:10.350 --> 00:00:12.810
+threats, vulnerabilities, and exploits.
+
+00:00:12.810 --> 00:00:14.850
+For part 1 of the exercise,
+
+00:00:14.850 --> 00:00:18.300
+first sign into the Windows 10 virtual PC.
+
+00:00:18.300 --> 00:00:23.040
+Once there, right-click on the Start bar,
+
+00:00:23.040 --> 00:00:26.370
+we often think about using the left mouse button,
+
+00:00:26.370 --> 00:00:29.970
+but the right one often has many more options.
+
+00:00:29.970 --> 00:00:35.290
+From here, review the different options such as Apps and Features,
+
+00:00:35.290 --> 00:00:39.755
+and Event Viewer shows you what has happened on this PC.
+
+00:00:39.755 --> 00:00:42.740
+System provides system information.
+
+00:00:42.740 --> 00:00:47.300
+Device Manager shows what devices are connected to the PC.
+
+00:00:47.300 --> 00:00:50.555
+Network Connections is how you can set up the network.
+
+00:00:50.555 --> 00:00:54.190
+This is the layering of defense we learned about earlier.
+
+00:00:54.190 --> 00:01:00.245
+Disk management is how you can manage the hard disks associated with this system,
+
+00:01:00.245 --> 00:01:07.250
+and Computer Management provides a lot of different options for managing this local PC.
+
+00:01:07.250 --> 00:01:10.310
+I'll start by showing the System.
+
+00:01:10.310 --> 00:01:15.590
+When you right-click on System info from the start bar,
+
+00:01:15.590 --> 00:01:20.060
+it shows you all of the information about this particular PC,
+
+00:01:20.060 --> 00:01:24.455
+including if virus and threat protection is on and firewalls.
+
+00:01:24.455 --> 00:01:27.370
+What type of application and browser controls?
+
+00:01:27.370 --> 00:01:31.065
+Do you have identity and account protection, and device security?
+
+00:01:31.065 --> 00:01:34.040
+Also shows you the device name,
+
+00:01:34.040 --> 00:01:35.495
+the type of processor,
+
+00:01:35.495 --> 00:01:42.125
+amount of RAM, and the system type like this is a 64-bit operating system.
+
+00:01:42.125 --> 00:01:45.530
+You also can see the windows specification,
+
+00:01:45.530 --> 00:01:48.425
+which is the version of the Windows operating system.
+
+00:01:48.425 --> 00:01:52.325
+This is Windows 10 Pro using version 1909,
+
+00:01:52.325 --> 00:01:54.335
+and when it was installed.
+
+00:01:54.335 --> 00:01:58.280
+I'll often use this system information to tell me if
+
+00:01:58.280 --> 00:02:04.240
+this PC needs to be updated with patches or the latest upgrade for Microsoft.
+
+00:02:04.240 --> 00:02:09.170
+Another option when you right-click is absent features.
+
+00:02:09.170 --> 00:02:11.795
+When you right-click on Apps and Features,
+
+00:02:11.795 --> 00:02:18.790
+this basically shows you all of the applications available within this Windows PC.
+
+00:02:18.790 --> 00:02:22.550
+You can see when it was installed and how much space they are taking.
+
+00:02:22.550 --> 00:02:24.710
+If you're running out of disk space,
+
+00:02:24.710 --> 00:02:29.000
+maybe you want to uninstall one of these applications and hey, look,
+
+00:02:29.000 --> 00:02:31.790
+we have lots of games installed that just happen to
+
+00:02:31.790 --> 00:02:35.540
+be installed by default with Windows 10,
+
+00:02:35.540 --> 00:02:38.090
+these actually could be uninstalled.
+
+00:02:38.090 --> 00:02:42.830
+Just click on it and you can choose the uninstall option.
+
+00:02:42.830 --> 00:02:46.130
+Use the Apps and Features to determine what are
+
+00:02:46.130 --> 00:02:51.785
+viable applications that should be on this PC based on the business need.
+
+00:02:51.785 --> 00:02:57.790
+I'll now show you Computer Management when you right-click the start bar.
+
+00:02:57.790 --> 00:03:01.925
+Computer Management has a lot of additional information about the system,
+
+00:03:01.925 --> 00:03:04.415
+including an event viewer.
+
+00:03:04.415 --> 00:03:07.220
+This shows what has been happening on the system.
+
+00:03:07.220 --> 00:03:08.600
+Shared folders.
+
+00:03:08.600 --> 00:03:11.120
+If you recall from a previous video,
+
+00:03:11.120 --> 00:03:16.924
+we can use this to determine what folders have been shared with which users,
+
+00:03:16.924 --> 00:03:22.430
+the local users and groups will show the users that are on this system.
+
+00:03:22.430 --> 00:03:25.775
+If there were any accounts created that shouldn't be,
+
+00:03:25.775 --> 00:03:28.025
+we can go here to remove them.
+
+00:03:28.025 --> 00:03:33.650
+We can also create a new user in this window by right-clicking.
+
+00:03:33.650 --> 00:03:35.690
+Again, think of right-click rather than left,
+
+00:03:35.690 --> 00:03:39.295
+right-clicking and selecting "New User".
+
+00:03:39.295 --> 00:03:41.900
+Also available from Computer Management is
+
+00:03:41.900 --> 00:03:44.900
+the option to view the services and applications.
+
+00:03:44.900 --> 00:03:48.905
+If I click the little arrow next to services and applications,
+
+00:03:48.905 --> 00:03:54.335
+select "Services", you can see all of the different services running on this system.
+
+00:03:54.335 --> 00:03:59.655
+These are the little programs that are in the background we often don't consider.
+
+00:03:59.655 --> 00:04:03.175
+There are many options within Computer Management.
+
+00:04:03.175 --> 00:04:08.765
+Take some time to explore either on your own or using this virtual PC.
+
+00:04:08.765 --> 00:04:11.065
+In the last part of this exercise,
+
+00:04:11.065 --> 00:04:12.609
+you once again review
+
+00:04:12.609 --> 00:04:17.425
+the local security policy that is just found by going to the run bar
+
+00:04:17.425 --> 00:04:24.670
+type local security policy and click on the App within the local security policy,
+
+00:04:24.670 --> 00:04:27.880
+you can click on Account Policies to be able
+
+00:04:27.880 --> 00:04:31.330
+to see the password policy and the account lockout.
+
+00:04:31.330 --> 00:04:38.370
+You can also use the local policies and set an audit policy. What does this mean?
+
+00:04:38.370 --> 00:04:44.290
+Well, this is what is locked about the events that are happening this local PC.
+
+00:04:44.290 --> 00:04:46.220
+For example, when people log in,
+
+00:04:46.220 --> 00:04:48.440
+right now there's no auditing.
+
+00:04:48.440 --> 00:04:51.350
+But if I want to capture anytime anyone has
+
+00:04:51.350 --> 00:04:54.605
+successfully logged in or there were any failures,
+
+00:04:54.605 --> 00:04:59.210
+I can just select the checkboxes next to each of these option.
+
+00:04:59.210 --> 00:05:05.200
+You can always click on the explain tab to learn more about this particular function.
+
+00:05:05.200 --> 00:05:09.885
+When I'm ready, I click "Apply" then "Okay",
+
+00:05:09.885 --> 00:05:16.315
+and you can see now that account management will log any success or failures.
+
+00:05:16.315 --> 00:05:24.155
+Under security options, there's a lot of different capabilities and configuration items.
+
+00:05:24.155 --> 00:05:27.620
+Take some time to look and read through these,
+
+00:05:27.620 --> 00:05:31.580
+understand what they mean and how they work.
+
+00:05:31.580 --> 00:05:33.980
+I'll leave it up to you to spend some time to
+
+00:05:33.980 --> 00:05:37.655
+review these as there's a lot of information here.
+
+00:05:37.655 --> 00:05:41.870
+Local security policy is where you set all of
+
+00:05:41.870 --> 00:05:46.850
+the policies for this local machine regarding security and privacy settings.
+
+00:05:46.850 --> 00:05:52.620
+Take some time to read through these and understand how each of them work.
+

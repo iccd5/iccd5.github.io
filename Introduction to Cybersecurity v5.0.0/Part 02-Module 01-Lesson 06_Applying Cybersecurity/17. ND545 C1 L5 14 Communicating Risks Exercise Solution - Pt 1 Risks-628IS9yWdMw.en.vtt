@@ -1,0 +1,169 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.550
+There are many threats and vulnerabilities you might
+
+00:00:02.550 --> 00:00:05.690
+identify in the Jill and Roy's Accounting Case Study,
+
+00:00:05.690 --> 00:00:08.875
+and consequently, many recommendations you can make.
+
+00:00:08.875 --> 00:00:11.670
+In the real world, you might write a report to
+
+00:00:11.670 --> 00:00:15.030
+accompany a presentation you would give to management.
+
+00:00:15.030 --> 00:00:17.655
+For the purposes of this exercise, however,
+
+00:00:17.655 --> 00:00:20.895
+here are some risks and recommendations that I developed.
+
+00:00:20.895 --> 00:00:25.590
+My analysis identified six important risks to Jill and Roy's accounting.
+
+00:00:25.590 --> 00:00:29.925
+The first was administrative access to all of the PCs.
+
+00:00:29.925 --> 00:00:34.920
+Second, the personal computers were handling business data.
+
+00:00:34.920 --> 00:00:39.225
+Third, the Bring Your Own Device Policy for cellphones.
+
+00:00:39.225 --> 00:00:44.734
+Then you notice that there were some games and streaming software on their business PC.
+
+00:00:44.734 --> 00:00:47.870
+Remote access to the company file server,
+
+00:00:47.870 --> 00:00:51.725
+which could enable malware or ransomware on it.
+
+00:00:51.725 --> 00:00:55.805
+The update frequency specified by the IT contract,
+
+00:00:55.805 --> 00:00:58.600
+basically how often they update patches.
+
+00:00:58.600 --> 00:01:02.365
+Let's talk about each of these one by one.
+
+00:01:02.365 --> 00:01:05.750
+For administrative access, the risk here is that
+
+00:01:05.750 --> 00:01:09.200
+if all users have admin authority on the PC,
+
+00:01:09.200 --> 00:01:11.120
+they can install any software they want,
+
+00:01:11.120 --> 00:01:13.685
+they can make any changes they want.
+
+00:01:13.685 --> 00:01:19.520
+This is very risky because you don't know what they could do or what they could install.
+
+00:01:19.520 --> 00:01:24.335
+Recommendation is remove administrative access for end users.
+
+00:01:24.335 --> 00:01:27.395
+Let them use the standard user account in Windows 10.
+
+00:01:27.395 --> 00:01:29.990
+Another problem for Jill and Roy's is that
+
+00:01:29.990 --> 00:01:33.590
+temporary workers are using their own computers.
+
+00:01:33.590 --> 00:01:37.790
+They could accidentally download some company information or
+
+00:01:37.790 --> 00:01:43.535
+personal information for one of Jill and Roy's clients under their own personal machine.
+
+00:01:43.535 --> 00:01:47.090
+This is a risk because you can lose control of that data,
+
+00:01:47.090 --> 00:01:49.865
+leading to an inadvertent data breach.
+
+00:01:49.865 --> 00:01:54.815
+A bring Your Own Device Policy is often in place for many organizations.
+
+00:01:54.815 --> 00:01:58.520
+The challenge is, is you need to make sure that you provide
+
+00:01:58.520 --> 00:02:02.480
+the policies and standards for how people can use their smartphones.
+
+00:02:02.480 --> 00:02:05.300
+It's okay to use it for general e-mail.
+
+00:02:05.300 --> 00:02:08.090
+Don't allow standard users to be able to
+
+00:02:08.090 --> 00:02:11.380
+download any personal information from any of the clients.
+
+00:02:11.380 --> 00:02:14.705
+So tell your employees who use Bring Your Own Device,
+
+00:02:14.705 --> 00:02:16.970
+what their expectations are.
+
+00:02:16.970 --> 00:02:20.350
+You should've also noticed on the Windows 10 system that there
+
+00:02:20.350 --> 00:02:23.780
+are games and employees were using it to play games.
+
+00:02:23.780 --> 00:02:25.670
+This is a business machine,
+
+00:02:25.670 --> 00:02:27.080
+it really should be called a BC,
+
+00:02:27.080 --> 00:02:30.230
+not a PC, business computer instead of personal computer.
+
+00:02:30.230 --> 00:02:33.170
+I recommend removing games because they could
+
+00:02:33.170 --> 00:02:36.815
+contain malware and they are a distraction for the business.
+
+00:02:36.815 --> 00:02:41.700
+Remote access is often dangerous for computer systems
+
+00:02:41.700 --> 00:02:47.050
+because you can't always control who can access it remotely across the Internet.
+
+00:02:47.050 --> 00:02:51.950
+I recommend turning off Remote Desktop Protocol, or RDP,
+
+00:02:51.950 --> 00:02:56.780
+on all PCs where you can or at least restrict using a firewall,
+
+00:02:56.780 --> 00:02:58.535
+how people can connect to it.
+
+00:02:58.535 --> 00:03:02.340
+You don't want just anyone from the Internet on your computers.
+
+00:03:02.340 --> 00:03:06.890
+Another thought is to check the update frequency on that PC.
+
+00:03:06.890 --> 00:03:10.670
+You want to make sure that it's patched from the Microsoft Patch Tuesday.
+
+00:03:10.670 --> 00:03:13.580
+Another thing is to back it up daily,
+
+00:03:13.580 --> 00:03:19.290
+if not weekly, just to make sure you don't lose any critical files.
+

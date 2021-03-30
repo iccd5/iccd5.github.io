@@ -1,0 +1,749 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1026893,
+      "key": "c98c938b-6123-4ea1-869f-048786a1ae3a",
+      "title": "Introduction to Defending and Securing Systems",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Course introduction to Introduction to Defending and Securing Systems",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/c98c938b-6123-4ea1-869f-048786a1ae3a/1026893/1602117315178/Introduction+to+Defending+and+Securing+Systems+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/c98c938b-6123-4ea1-869f-048786a1ae3a/1026893/1602117312290/Introduction+to+Defending+and+Securing+Systems+Subtitles.zip"
+          },
+          {
+            "name": "Icyber Defending and Securing Systems Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5efcd84d_icyber-defending-and-securing-systems-key-terms/icyber-defending-and-securing-systems-key-terms.pdf"
+          },
+          {
+            "name": "Initialize-Udacity.CYBERND02.LabVM4",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5f21dad4_initialize-udacity.cybernd02.labvm4.ps1/initialize-udacity.cybernd02.labvm4.ps1.zip"
+          },
+          {
+            "name": "Initialize-Udacity.CYBERND02.LabVM5",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5f21db23_initialize-udacity.cybernd02.labvm5.ps1/initialize-udacity.cybernd02.labvm5.ps1.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1026889,
+          "key": "579ebc5f-7972-4324-9732-926284d87a17",
+          "title": "Meet Your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "579ebc5f-7972-4324-9732-926284d87a17",
+            "completed_at": "2020-10-14T02:52:31.059Z",
+            "last_viewed_at": "2020-10-14T02:53:53.628Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026843,
+              "key": "cd7e70c3-b3a0-4f51-bbd9-9516c39bb546",
+              "title": "Meet Your Instructor Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Meet Your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026856,
+              "key": "9d8402d5-ed02-4c7b-9989-d38b7566de4c",
+              "title": "ND545 C02 L00 A01 Meet Your Instructor V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FOsuRpHFvJM",
+                "china_cdn_id": "FOsuRpHFvJM.mp4"
+              }
+            },
+            {
+              "id": 1026840,
+              "key": "cf17b9e2-8f5c-427c-8bac-fee0316a8170",
+              "title": "Meet Your Instructor Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### About Me\nHi, my name is Jerry Smith. I am an Information Security Engineer in the Security Operations Center at the University of Alabama Birmingham (UAB) and I'll be your instructor for **Defending and Securing Systems**.\n\nI have over 20 years of IT experience ranging from:\n - Support\n - Network Administration\n - Instructor\n - SysAdmin\n - Management\n - Security\n\nI have to say that of all the hats I've worn, Cybersecurity is my favorite.\n I love the mission we have in protecting our organizations and I learn something new every day!\nI have a Master's in Engineering with a focus in Information Engineering and Management and currently hold the GSEC Certification. \nI am very excited to be your instructor for this course, Cybersecurity is a large and growing field and we need all of the help we can get!\n\n### Additional Resources\n\n[GSEC](https://www.giac.org/certification/security-essentials-gsec)\n\n[UAB](https://www.uab.edu/home/)\n\n[SOC](https://www.uab.edu/home/)\n\n[LinkedIn](https://www.linkedin.com/in/jerrysmith75/)\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026883,
+          "key": "8df6f3c4-ea99-4535-933f-9c8786bf010e",
+          "title": "Prerequisites",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8df6f3c4-ea99-4535-933f-9c8786bf010e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026854,
+              "key": "d1693148-4b6a-4dd3-a760-eaaf04d4ad56",
+              "title": "Prerequisites Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Prerequisites",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026844,
+              "key": "0553294b-f530-4d0d-85ee-ab0d4c7aef79",
+              "title": "ND545 C02 L00 A02 Prerequisites",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IYZx4VSEAxk",
+                "china_cdn_id": "IYZx4VSEAxk.mp4"
+              }
+            },
+            {
+              "id": 1026847,
+              "key": "34ea3da9-8eeb-4192-8ce0-d116ca3b37b2",
+              "title": "Prerequisites Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Prerequisites \n- Understand the basic principles of network connectivity.\n- Understand basic OS fundamentals eg Windows and Linux.\n- Working knowledge of basic security practices.\n- Understands virtual environments.\n- **Be Curious!**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026884,
+          "key": "c6f173bf-13d0-41a1-8b3b-6408b3e6cf10",
+          "title": "Introduction to Defending and Securing Systems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c6f173bf-13d0-41a1-8b3b-6408b3e6cf10",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026841,
+              "key": "44181d86-aa0d-4dbf-91aa-691dd8efbeb0",
+              "title": "Introduction to Defending and Securing Systems Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Defending and Securing Systems",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026860,
+              "key": "79452253-ea5e-4f21-a6e6-d7f4cd6cd5e9",
+              "title": "ND545 C02 L00 A03 Introduction To Defending And Securing Systems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "pAm1ZSoyIfo",
+                "china_cdn_id": "pAm1ZSoyIfo.mp4"
+              }
+            },
+            {
+              "id": 1026846,
+              "key": "b1a499a0-68f7-4d06-9148-90e4d3364c35",
+              "title": "Introduction to Defending and Securing Systems Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- In the lessons that follow we'll learn that a security program is comprised of **layers** of defenses.\n- In addition, we frame all topics in the form of a 3-Component Model:\n  - **Prevention** which is what most people think when it comes to Cybersecurity. Keep the bad guys out!\n  - **Detection** if an adversary does get past our defenses we want to know!\n  - **Response** These are the actions or mitigation, we take based on the detection.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026858,
+              "key": "280b9fa6-0b2a-4d9d-b778-ff13121a7293",
+              "title": "Introduction to Defending and Securing Systems Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources\n- [Prevent Detect Respond](https://www.esecuritysolutions.com/from-prevent-to-detect-respond/)\n- [More PDR](https://www.giac.org/paper/gsec/501/information-security-process-prevention-detection-response/101197)\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038996,
+              "key": "f6b1a9cf-212c-4c8b-820c-d7a12b2655f7",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f6b1a9cf-212c-4c8b-820c-d7a12b2655f7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Keeping the \"bad guys out and the good stuff in\" is the responsibility of which component?",
+                "answers": [
+                  {
+                    "id": "a1593469565794",
+                    "text": "Response",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593469813526",
+                    "text": "Prevention",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593469820643",
+                    "text": "Detection",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026882,
+          "key": "7b2def4f-4ccb-4b29-afa7-3ef59cfb8f7a",
+          "title": "Defending and Securing Systems Is Important",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7b2def4f-4ccb-4b29-afa7-3ef59cfb8f7a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026866,
+              "key": "968a3e93-4ee8-4db9-8b72-70116704f355",
+              "title": "Defending and Securing Systems Is Important Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defending and Securing Systems Is Important",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026859,
+              "key": "271733fa-db5a-4686-a130-acf56ac711a7",
+              "title": "ND545 C02 L00 A04 Defending And Securing Systems Is Important",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gD5mTF6fKB8",
+                "china_cdn_id": "gD5mTF6fKB8.mp4"
+              }
+            },
+            {
+              "id": 1026848,
+              "key": "c69d2208-00b0-4b06-9865-11579b141720",
+              "title": "Defending and Securing Systems Is Important Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap:\n\nCybersecurity is a critical component of modern life. It isn't just your organization, it's almost everything you interact with. Here are some examples:\n\n- **Utility Systems** are under tremendous pressure to protect their computing environment. The power grid is a high-value target for hackers and nation-states.\n- **Banking Systems** are under constant assault at all levels.\n- **Intellectual Property** isn't quite as known, my employer is a research university and protecting intellectual property is a primary responsibility of mine.\n- **Medical Devices**, imagine your loved one's pacemaker suddenly failing due to being compromised by a hacker.\n- **Personal Data** Most commonly thought of when it comes to information is person data, we think of credit being misused or new credit being opened in our name. Every spring hackers file false tax returns with stolen SSNs. \n\nThis is why Cybersecurity and the skills you will learn in this course are important.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038997,
+              "key": "cc9de04d-e9f8-436a-a1bd-51008beac1fc",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cc9de04d-e9f8-436a-a1bd-51008beac1fc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Why is Cybersecurity important?\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593470935033",
+                    "text": "Protect Utility Systems",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593471062827",
+                    "text": "Protect Intellectual Property",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593471089639",
+                    "text": "Protect Personal Data and Identity",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593471104078",
+                    "text": "Protect Medical Devices",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026891,
+          "key": "b71085e6-5a71-4fa9-ba9f-a8d8aab5e7a4",
+          "title": "Defending and Securing Systems Stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b71085e6-5a71-4fa9-ba9f-a8d8aab5e7a4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026881,
+              "key": "b0f8b3b1-e1b7-4f02-8fa0-64cdeea64c86",
+              "title": "Defending and Securing Systems Stakeholders Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Defending and Securing Systems Stakeholders",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026845,
+              "key": "7a4ecaa3-0c6b-4cec-8824-b215d8d9cde8",
+              "title": "ND545 C02 L00 A05 Defending And Securing Systems Stakeholders",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GFeAVucZ_6E",
+                "china_cdn_id": "GFeAVucZ_6E.mp4"
+              }
+            },
+            {
+              "id": 1026872,
+              "key": "d4d7b278-0b0e-444b-b31d-b2c9dd7ece9d",
+              "title": "Defending and Securing Systems Stakeholders Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In short, **everyone** in a company, from the owners to the customers and partners is a stakeholder when it comes to cybersecurity. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039004,
+              "key": "d8a77ed5-8707-4a12-9df4-eeb9ff069030",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d8a77ed5-8707-4a12-9df4-eeb9ff069030",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Who are the stakeholders when it comes to the security program in an organization?",
+                "answers": [
+                  {
+                    "id": "a1593473556905",
+                    "text": "Employees",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593473590999",
+                    "text": "Owner",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593473594978",
+                    "text": "Management",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593473599242",
+                    "text": "Customers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593473602843",
+                    "text": "Partners",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593473608219",
+                    "text": "Everyone",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026885,
+          "key": "e0fd1f68-e2b5-4e75-8f4a-7bdff3e3187f",
+          "title": "History of Defending and Securing Systems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e0fd1f68-e2b5-4e75-8f4a-7bdff3e3187f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026853,
+              "key": "4314a7dc-2c97-434e-bd65-34eabdecf71e",
+              "title": "History of Defending and Securing Systems Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## History of Defending and Securing Systems",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026849,
+              "key": "f468a888-d900-4632-8438-ef1216dbdf18",
+              "title": "ND545 C02 L00 A07 History Of Defending And Securing Systems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "J6TTdqZMBZQ",
+                "china_cdn_id": "J6TTdqZMBZQ.mp4"
+              }
+            },
+            {
+              "id": 1026855,
+              "key": "fa653799-610d-42c7-9389-95e5c6d51904",
+              "title": "History of Defending and Securing Systems Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap:\n\nThis is by no means an exhaustive look at the history of cybersecurity or computing in general. But it serves as a high-level look to see how technology improvements have grown by leaps and bounds over the last 75 years.\n\n- **WWII** served as the Big Bang for so many areas of technology, from code machines to early computers that were designed to crack those codes.\n- **1960s** Universities across the country installed computers and students as well as the public (depending on the University) could use the machines. \n- **ARPANet** Also in the 1960s the US Government began networking some of these University computers together, creating the internet.\n- **1980s** Introduced the rollout of commercial internet and began what we now know as modern networking.\n- **1990s** is where the industry exploded. The arrival of 'high-speed' internet in businesses and dial-up in homes. Windows 95 and 98 saw a rapid rise in computers at home. Also in the 1990s, the cell phone became commonly available.\n- **2000s** The first decade of the millennium brought high speed internet into the home and a smart phone in the pocket of millions. The phishing email exploded in prevalence and hacking became an industry.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038904,
+              "key": "8f0a318d-9929-4feb-8ffb-03c128fad0f1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa0246_images-for-classroom-25/images-for-classroom-25.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8f0a318d-9929-4feb-8ffb-03c128fad0f1",
+              "caption": "History of Cybersecurity",
+              "alt": "History of Cybersecurity",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1039009,
+              "key": "dd03d8af-f93f-4591-865d-f80615faec58",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dd03d8af-f93f-4591-865d-f80615faec58",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which decade brought the rise of the home computer?",
+                "answers": [
+                  {
+                    "id": "a1593474602288",
+                    "text": "1940s",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593474625645",
+                    "text": "1960s",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593474631152",
+                    "text": "1990s",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593474636477",
+                    "text": "2000s",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026888,
+          "key": "67d1c727-534b-4e00-b0eb-fc0645f4eed4",
+          "title": "Course Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67d1c727-534b-4e00-b0eb-fc0645f4eed4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026867,
+              "key": "49017a95-74c1-4f2c-9dd0-3243b02bae24",
+              "title": "Course Outline Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026862,
+              "key": "d4044069-86f9-4ce8-bec1-c0405aa90066",
+              "title": "ND545 C02 L00 A08 Course Outline",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "egzeuEvjwR8",
+                "china_cdn_id": "egzeuEvjwR8.mp4"
+              }
+            },
+            {
+              "id": 1026874,
+              "key": "ff4c506b-ca1e-41a5-9b33-8f3469b178da",
+              "title": "Course Outline Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Learning Objectives\n### At the end of this course a student will be able to:\n- Apply best practices of Defense in Depth to secure computer systems (operating systems, networks, applications).\n- Use the outputs from previous security events to analyze and improve future network security. \n- Create ruleset changes to address network security issues. \n- Search internal systems to determine network vulnerabilities.\n- Recommend mitigations to address common application vulnerabilities. \n- Encrypt and decrypt files.\n- Recommend the appropriate encryption technique for securing data at rest and in transit.\n- Create and deploy a strategy to harden Windows OS and Linux using Microsoft/NIST/compliance recommendations. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026879,
+              "key": "4a16eb34-ab23-43d7-9920-66f29dd6439d",
+              "title": "Course Outline Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa03b8_images-for-classroom.-40/images-for-classroom.-40.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4a16eb34-ab23-43d7-9920-66f29dd6439d",
+              "caption": "Course Overview",
+              "alt": "Course Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1026892,
+          "key": "f7dd4930-c9bf-4e3e-9992-920aca201bda",
+          "title": "Tools, Environment & Dependencies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7dd4930-c9bf-4e3e-9992-920aca201bda",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026863,
+              "key": "0a530777-fe77-43e5-9197-5195b1c39eea",
+              "title": "Tools, Environment & Dependencies Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tools, Environment & Dependencies",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026864,
+              "key": "253134d9-d504-4aa3-93b6-1c3abb9a4ca5",
+              "title": "ND545 C02 L00 A09 Tools Environment And Dependencies",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "N3y7HVgViNs",
+                "china_cdn_id": "N3y7HVgViNs.mp4"
+              }
+            },
+            {
+              "id": 1044828,
+              "key": "963785a6-7196-4ab8-9b6f-d148a22544cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Setting Up Your Lab VMs\nPlease follow the instructions for setting up your lab VMs for this course and use the Task List below as a guide.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044831,
+              "key": "06752d81-fedf-4bba-9112-cfd78eec15bd",
+              "title": "Setting Up Your VMs",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "06752d81-fedf-4bba-9112-cfd78eec15bd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "1. If you have not already done so in a previous course, use the **Create the JumpBox** instructions to setup your Azure environment (In Nanodegree Materials)",
+                "2. Use Use the **Setup Student Lab** Instructions (In Nanodegree Materials) to setup the first VM using the **Initialize-Udacity.CYBERND02.LabVM4** script (In Lesson Materials)",
+                "3. Use Use the **Setup Student Lab** Instructions (In Nanodegree Materials) to setup the second VM using the **Initialize-Udacity.CYBERND02.LabVM5** script (In Lesson Materials)",
+                "**Don't forget to shutdown your VMs when not in use."
+              ],
+              "positive_feedback": "Great Job! You should be ready to go for this course!",
+              "video_feedback": null,
+              "description": "Complete the following tasks to set-up the VMs you will be using in this course. \nAll of the materials are linked in the resources section (top left of the classroom).\n**Do not forget to shut down the VMs when you are not using them to avoid incurring large bills for Azure**\n\n## <span style=\"color: red\">You can only have a maximum of 4 VMs on the Azure account we have helped you set up for this course. Please delete any previous course level VMs before attempting to create these new VMs. You can keep your PROJECT VM if needed, but you will need to delete any VMs related to previous course material."
+            },
+            {
+              "id": 1046601,
+              "key": "77e67339-9f1c-4111-a2a3-997023c2026c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Credentials\n\nAs referenced in Step 4 of the Setup Student LAB document, you'll need to use the following username and password. \n\n**Username**: cyberadmin\n\n**Password**: @UdacityLearning#1",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1026887,
+          "key": "cfe865ca-5196-4585-93d2-1269a06fde59",
+          "title": "Project: Monitoring and Securing the DFI Environment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cfe865ca-5196-4585-93d2-1269a06fde59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026871,
+              "key": "10150b42-c605-4f06-bd32-53cf359c55b1",
+              "title": "Project: Monitoring and Securing the DFI Environment Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project: Monitoring and Securing the DFI Environment",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026869,
+              "key": "35f06eb1-38b3-479f-a7ec-4e4e61bf282a",
+              "title": "ND545 C02 L00 A10 Project Monitoring And Securing The DFI Environment",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "y_HFhN3ocJc",
+                "china_cdn_id": "y_HFhN3ocJc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1026890,
+          "key": "e001ae31-23c2-49c8-ad61-4e7bcc5ec909",
+          "title": "Good Luck!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e001ae31-23c2-49c8-ad61-4e7bcc5ec909",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026870,
+              "key": "f4219a4f-fd70-4a80-9898-8ee6e1a320c1",
+              "title": "Good Luck! Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Good Luck!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026878,
+              "key": "caaca6d3-afb7-4b25-a66c-8849cb28a106",
+              "title": "ND545 C02 L00 A11 Good Luck V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IxC_zz5zmzo",
+                "china_cdn_id": "IxC_zz5zmzo.mp4"
+              }
+            },
+            {
+              "id": 1039010,
+              "key": "0d503e76-7d13-4728-ab84-e154c02d0dda",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "That's all for the introduction, it's time to get started!\nI know you'll do amazing. \n\nJust remember:\n\n- Take your time.\n- Take good notes.\n- Use the links provided for extra context.\n- **Be Curious**\n\n*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field. *",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042926,
+              "key": "042a9b8e-94d2-4add-b330-fe00e9cd8ef2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Key Terms\n|KeyTerm| Definition| \n|--------------|---------------------|\n|Detection| if an adversary does get past our defenses we want to know!||\n|Prevention| which is what most people think when it comes to Cybersecurity. Keep the bad guys out!||\n|Response |These are the actions or mitigation, we take based on the detection.||",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

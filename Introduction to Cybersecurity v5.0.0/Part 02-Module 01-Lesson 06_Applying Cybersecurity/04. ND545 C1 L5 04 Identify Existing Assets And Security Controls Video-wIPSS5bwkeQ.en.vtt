@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.690
+In previous lessons, you learned about the NIST and CIS
+
+00:00:03.690 --> 00:00:08.010
+requirements for performing an asset inventory that includes any software,
+
+00:00:08.010 --> 00:00:14.370
+hardware, network devices, anything on the network that are a part of your business.
+
+00:00:14.370 --> 00:00:20.505
+You then took an inventory of your personal devices and then practice with a case study.
+
+00:00:20.505 --> 00:00:24.570
+In this lesson, we dive deep into the topic by reviewing
+
+00:00:24.570 --> 00:00:29.325
+specific requirements and information about a target system.
+
+00:00:29.325 --> 00:00:33.690
+This includes taking an inventory of all the installed applications,
+
+00:00:33.690 --> 00:00:38.640
+system configuration settings, and any policies affecting that system.
+
+00:00:38.640 --> 00:00:42.165
+How do you identify assets and devices on your network?
+
+00:00:42.165 --> 00:00:44.930
+Well, according to the CIS controls,
+
+00:00:44.930 --> 00:00:46.820
+there are multiple options.
+
+00:00:46.820 --> 00:00:50.030
+You can use active or passive discovery tools
+
+00:00:50.030 --> 00:00:53.395
+to identify devices on the organization's network.
+
+00:00:53.395 --> 00:01:00.170
+Active tools like the Nmap application can query a network range for all IP addresses,
+
+00:01:00.170 --> 00:01:03.280
+giving you visibility as to what's on the network.
+
+00:01:03.280 --> 00:01:07.970
+Windows DHCP, Dynamic Host Control Protocol,
+
+00:01:07.970 --> 00:01:13.150
+automatically distributes IP addresses when device attaches to a network.
+
+00:01:13.150 --> 00:01:16.175
+This is an example of a passive tool that collects
+
+00:01:16.175 --> 00:01:20.285
+asset information that you can use as part of your asset inventory.
+
+00:01:20.285 --> 00:01:23.420
+Many organizations also have a manual list of
+
+00:01:23.420 --> 00:01:27.004
+organizational assets and a database or a spreadsheet.
+
+00:01:27.004 --> 00:01:31.290
+Another option on a network is port level access control,
+
+00:01:31.290 --> 00:01:36.145
+that controls which devices can authenticate or attach to the network.
+
+00:01:36.145 --> 00:01:38.015
+Once you have an inventory,
+
+00:01:38.015 --> 00:01:42.450
+all organizations should address any unauthorized assets on the network.
+
+00:01:42.450 --> 00:01:47.065
+For example, bluetooth speakers like Google Home or Amazon Alexa.
+
+00:01:47.065 --> 00:01:51.400
+Having too many applications are nightmare for maintenance and upkeep,
+
+00:01:51.400 --> 00:01:54.275
+whether it's for a home system or your work.
+
+00:01:54.275 --> 00:01:58.060
+Each needs to stay current on patches or else you risk getting
+
+00:01:58.060 --> 00:02:01.870
+breached to when a vulnerability is exploited in an attack.
+
+00:02:01.870 --> 00:02:07.105
+How do you identify and control software programs used by your organization?
+
+00:02:07.105 --> 00:02:11.320
+Well, the CIS controls has a direction for that.
+
+00:02:11.320 --> 00:02:16.465
+Many organizations maintain a list of organizational assets and a database,
+
+00:02:16.465 --> 00:02:22.030
+a software inventory tool or Windows Server Update Services,
+
+00:02:22.030 --> 00:02:25.325
+also known as WSUS or W SUS.
+
+00:02:25.325 --> 00:02:30.875
+WSUS captures information about Window systems and software on a corporate network.
+
+00:02:30.875 --> 00:02:36.280
+It also is used to distribute patches on Windows systems and applications.
+
+00:02:36.280 --> 00:02:40.895
+The second step is to restrict who has administrator authority.
+
+00:02:40.895 --> 00:02:44.420
+In other words, who can install applications?
+
+00:02:44.420 --> 00:02:47.210
+The risk is that employees will accidentally install
+
+00:02:47.210 --> 00:02:52.670
+malicious software or an application that's in violation of the license agreement,
+
+00:02:52.670 --> 00:02:56.990
+both put you and your organization in jeopardy.
+
+00:02:56.990 --> 00:03:01.445
+The third task is to use application whitelisting.
+
+00:03:01.445 --> 00:03:04.985
+This is a list of what's allowed on your systems.
+
+00:03:04.985 --> 00:03:10.820
+Anything that's not on the list is automatically denied for being installed or used.
+
+00:03:10.820 --> 00:03:13.970
+For example, let's say you have a remote employee with
+
+00:03:13.970 --> 00:03:17.485
+a company laptop that wants to install a game for their kids.
+
+00:03:17.485 --> 00:03:22.715
+Of course, that should be denied not only because it's not for business use,
+
+00:03:22.715 --> 00:03:25.895
+but it's also a potential security risk.
+
+00:03:25.895 --> 00:03:27.965
+Like the hardware inventory,
+
+00:03:27.965 --> 00:03:32.030
+make sure you address any unapproved software.
+
+00:03:32.030 --> 00:03:34.730
+More information on this topic is available from
+
+00:03:34.730 --> 00:03:38.970
+the Center for Internet Security controls framework.
+

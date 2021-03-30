@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.780
+I'll now show you how to see if the Windows operating system
+
+00:00:03.780 --> 00:00:07.660
+and its applications need any updates or patches.
+
+00:00:07.660 --> 00:00:11.430
+First, you need to make sure the Windows operating system is up to date
+
+00:00:11.430 --> 00:00:15.870
+and it will automatically be updated when patches are available from Microsoft.
+
+00:00:15.870 --> 00:00:21.255
+To do that, you can go to the start bar and type update.
+
+00:00:21.255 --> 00:00:24.060
+You can click on the Check for Updates,
+
+00:00:24.060 --> 00:00:28.575
+that will take you to the system settings update page.
+
+00:00:28.575 --> 00:00:30.780
+The Windows Update window will show you if
+
+00:00:30.780 --> 00:00:34.245
+this PC needs any updates to the operating system.
+
+00:00:34.245 --> 00:00:37.800
+As you can see, this PC is up to date.
+
+00:00:37.800 --> 00:00:39.680
+If you really want to double-check,
+
+00:00:39.680 --> 00:00:42.925
+you can click on the check for updates bar.
+
+00:00:42.925 --> 00:00:44.455
+At the bottom of the page,
+
+00:00:44.455 --> 00:00:49.445
+click on Advanced options to see the different options available for installing updates.
+
+00:00:49.445 --> 00:00:56.045
+For example, I can receive updates for other Microsoft products such as Word,
+
+00:00:56.045 --> 00:00:59.120
+Excel, PowerPoint when I update Windows,
+
+00:00:59.120 --> 00:01:00.875
+if they're already installed.
+
+00:01:00.875 --> 00:01:03.185
+If I'm using a slow internet connection,
+
+00:01:03.185 --> 00:01:06.860
+I can select the meter option and I can
+
+00:01:06.860 --> 00:01:10.775
+restart the device as soon as possible when a restart is required.
+
+00:01:10.775 --> 00:01:13.475
+Be careful when clicking on this because it can
+
+00:01:13.475 --> 00:01:17.095
+accidentally restart when users are busy working.
+
+00:01:17.095 --> 00:01:20.140
+The second part that you want to make sure are up to
+
+00:01:20.140 --> 00:01:23.320
+date are all applications on the system.
+
+00:01:23.320 --> 00:01:26.185
+To check the versions of applications,
+
+00:01:26.185 --> 00:01:28.420
+start with the control panel.
+
+00:01:28.420 --> 00:01:30.160
+In the control panel,
+
+00:01:30.160 --> 00:01:35.950
+select programs, and then click on Programs and features.
+
+00:01:35.950 --> 00:01:38.590
+In the window that appears you see all of
+
+00:01:38.590 --> 00:01:41.499
+the programs or applications that are installed,
+
+00:01:41.499 --> 00:01:46.450
+their version number and when they were installed, and their publisher.
+
+00:01:46.450 --> 00:01:49.270
+You can then check with the individual publisher to
+
+00:01:49.270 --> 00:01:52.505
+see if there is a new version available from them.
+
+00:01:52.505 --> 00:01:55.340
+From the uninstall or change a program window,
+
+00:01:55.340 --> 00:01:58.060
+you see all of the different programs that are installed on
+
+00:01:58.060 --> 00:02:02.315
+this Windows PC along with their publisher when they were installed,
+
+00:02:02.315 --> 00:02:04.760
+their size, and then even the version number.
+
+00:02:04.760 --> 00:02:07.550
+You can go to the publisher's website to learn if there's
+
+00:02:07.550 --> 00:02:11.515
+a more recent version that may have some security patches.
+
+00:02:11.515 --> 00:02:17.799
+To uninstall, you just would highlight whichever program and choose uninstall.
+
+00:02:17.799 --> 00:02:20.930
+Often, applications will automatically update.
+
+00:02:20.930 --> 00:02:23.540
+Let me show you how this works within Chrome.
+
+00:02:23.540 --> 00:02:27.605
+In Chrome, we can see the version by clicking the three dots,
+
+00:02:27.605 --> 00:02:32.115
+going to Help and then About Google Chrome.
+
+00:02:32.115 --> 00:02:34.140
+This will bring you to
+
+00:02:34.140 --> 00:02:39.455
+the Google Chrome help page and tell you whether Google Chrome is up to date.
+
+00:02:39.455 --> 00:02:44.215
+Google Chrome is set by default to auto update, which is a good thing.
+
+00:02:44.215 --> 00:02:49.055
+Double-check any browser you're on to make sure it's always up to date.
+
+00:02:49.055 --> 00:02:53.860
+Any vulnerabilities can lead to malware and data breaches.
+
+00:02:53.860 --> 00:02:57.890
+On Windows systems, the best practice is to use
+
+00:02:57.890 --> 00:03:02.315
+an application like WSUS to automatically check for updates,
+
+00:03:02.315 --> 00:03:04.505
+download, and install them.
+
+00:03:04.505 --> 00:03:07.580
+Updating applications is one of the simplest,
+
+00:03:07.580 --> 00:03:13.470
+most effective ways to stay up to date on security and privacy.
+

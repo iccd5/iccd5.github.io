@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.630
+A common tool used to query network devices is Nmap,
+
+00:00:03.630 --> 00:00:06.120
+which is short for network mapper.
+
+00:00:06.120 --> 00:00:08.940
+It's been around for over 20 years and has
+
+00:00:08.940 --> 00:00:13.095
+both a command line and gooey interface known as Zenmap.
+
+00:00:13.095 --> 00:00:17.865
+Go to nmap.org to learn more about it and download it.
+
+00:00:17.865 --> 00:00:23.460
+It's been around for over 20 years and it's free for your use.
+
+00:00:23.460 --> 00:00:25.845
+Let me show you how it's used.
+
+00:00:25.845 --> 00:00:30.905
+Nmap or Zenmap, what you see is used to map networks.
+
+00:00:30.905 --> 00:00:39.410
+What I've done here is just mapped my local machine using the IP address of 127.0.0.1,
+
+00:00:39.410 --> 00:00:41.990
+and I performed an intense scan.
+
+00:00:41.990 --> 00:00:44.960
+There are many different types of scans you can
+
+00:00:44.960 --> 00:00:48.650
+perform to show what is running on your network,
+
+00:00:48.650 --> 00:00:50.690
+including just a quick ping scan,
+
+00:00:50.690 --> 00:00:53.360
+which just says if a device is active,
+
+00:00:53.360 --> 00:00:56.330
+the quick scan will look for most common ports,
+
+00:00:56.330 --> 00:01:00.455
+and an intense scan looks for pretty much everything.
+
+00:01:00.455 --> 00:01:03.110
+Looking at this local machine,
+
+00:01:03.110 --> 00:01:07.010
+127.0.0.1, If we scroll down,
+
+00:01:07.010 --> 00:01:10.120
+you see we have numerous ports that are open.
+
+00:01:10.120 --> 00:01:15.095
+These are basically ways to enter the computer support 135,
+
+00:01:15.095 --> 00:01:20.194
+and 445, and 3389 are common for Windows.
+
+00:01:20.194 --> 00:01:23.300
+One thing to note with port 3389,
+
+00:01:23.300 --> 00:01:26.270
+this is actually used for Windows Terminal services and we
+
+00:01:26.270 --> 00:01:30.440
+use this for the Remote Desktop Protocol or RDP.
+
+00:01:30.440 --> 00:01:34.885
+There's a lot of really interesting information available through Nmap.
+
+00:01:34.885 --> 00:01:38.330
+I recommend you take some time to go to the website,
+
+00:01:38.330 --> 00:01:40.775
+download it, and play with it.
+
+00:01:40.775 --> 00:01:45.000
+Check out Nmap at nmap.org.
+

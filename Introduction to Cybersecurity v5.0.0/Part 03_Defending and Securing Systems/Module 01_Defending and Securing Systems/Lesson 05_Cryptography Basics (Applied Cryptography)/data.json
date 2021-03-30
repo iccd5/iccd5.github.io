@@ -1,0 +1,1729 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1027379,
+      "key": "5b552437-0f0c-4b56-9439-7e07b7925602",
+      "title": "Cryptography Basics (Applied Cryptography)",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn the basics of cryptography and how to use tools to encrypt files. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/5b552437-0f0c-4b56-9439-7e07b7925602/1027379/1607044309631/Cryptography+Basics+%28Applied+Cryptography%29+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/5b552437-0f0c-4b56-9439-7e07b7925602/1027379/1607044305356/Cryptography+Basics+%28Applied+Cryptography%29+Subtitles.zip"
+          },
+          {
+            "name": "Icyber Defending and Securing Systems Glossary",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5efcd84d_icyber-defending-and-securing-systems-key-terms/icyber-defending-and-securing-systems-key-terms.pdf"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1027362,
+          "key": "99aa1229-e6ea-4bcd-aa56-75a0f125e623",
+          "title": "Cryptography Basics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99aa1229-e6ea-4bcd-aa56-75a0f125e623",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027291,
+              "key": "b6386937-9247-4228-929f-27ec626fb927",
+              "title": "Cryptography Basics Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cryptography Basics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027294,
+              "key": "ba4edf81-2fab-43db-b0ce-757867c0ecfa",
+              "title": "ND545 C02 L04 A01 Cryptography Basics V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2F4pqPNBazw",
+                "china_cdn_id": "2F4pqPNBazw.mp4"
+              }
+            },
+            {
+              "id": 1027295,
+              "key": "fd0b9e86-062c-49d5-988c-bf3e3750c81a",
+              "title": "Cryptography Basics Lesson Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Welcome to the final lesson!\n\nWe're taking a high-level look at Cryptography.\n\n**Agenda**:\n\n- Introduction to Encryption.\n- Encryption in Transit.\n- File Hashes and Digital Signatures.\n\nLet's do this!\n\nBy the end of this lesson, students will be able to:\n- Define encryption\n- Differentiate different types of encryption techniques\n- Determine the appropriate encryption type for a given scenario.\n- Differentiate between data at rest and data in transit.\n- Differentiate different types of encryption techniques for data in transit\nHTTPS/TLS\n- Define file hashes.\n- Apply files hashes to determine the authenticity and integrity of a file.\n- Encrypt files with a tool such as 7-Zip.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038909,
+              "key": "ad01f12e-d5fa-472a-ad67-f79f081224ae",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21d82b_lesson-4-overview/lesson-4-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ad01f12e-d5fa-472a-ad67-f79f081224ae",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1027367,
+          "key": "056d43f2-03e9-4c7a-873b-b5c17cdc869d",
+          "title": "Cryptography Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "056d43f2-03e9-4c7a-873b-b5c17cdc869d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027330,
+              "key": "e06bf60e-52e9-41f4-8762-af8d08c62236",
+              "title": "Big Picture Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cryptography Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027297,
+              "key": "a7f5081c-49f2-4490-8869-236e95a813a5",
+              "title": "ND545 C02 L04 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DSvuF37JEbQ",
+                "china_cdn_id": "DSvuF37JEbQ.mp4"
+              }
+            },
+            {
+              "id": 1027298,
+              "key": "907b9f4c-63e3-4634-9e58-f7a32b415946",
+              "title": "Big Picture Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap:\n\n- We learned about layered security with Defense in Depth.\n- We learned about the 3-Component Model of security.\n- Encryption is the final piece.\n\nLet's dig in!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038910,
+              "key": "9f7defb1-736f-4c8e-9c1c-652c4d344cc9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa0d2e_images-for-classroom.-42/images-for-classroom.-42.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9f7defb1-736f-4c8e-9c1c-652c4d344cc9",
+              "caption": "The sum of the layers of Cybersecurity is what protects our data and Intellectual Property, it is similar to building a house. Each part is important to build a structure that can withstand a storm. ",
+              "alt": "Security as a House",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1039069,
+              "key": "7eae4c36-1a35-46a5-b11f-c1cfa7ba0bd2",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7eae4c36-1a35-46a5-b11f-c1cfa7ba0bd2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What were those 3-Components of Security again?",
+                "answers": [
+                  {
+                    "id": "a1593526508085",
+                    "text": "Prevention",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593526523295",
+                    "text": "Replacement",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593526527730",
+                    "text": "Detection",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593526533619",
+                    "text": "Response",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593526540596",
+                    "text": "Application",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027361,
+          "key": "1f2dc6cc-14d0-41c4-9b3d-2a55f7211b3e",
+          "title": "Cryptography Basics (Applied Cryptography)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f2dc6cc-14d0-41c4-9b3d-2a55f7211b3e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027299,
+              "key": "df384970-cda6-4584-8a3c-7ec4104abb5e",
+              "title": "Developing Your Intuition About Cryptography Basics (Applied Cryptography) Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cryptography Basics (Applied Cryptography)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027303,
+              "key": "4d762e47-5bf9-4620-84a0-4252b3ce30c7",
+              "title": "ND545 C02 L04 A03 Developing Your Intuition About Cryptography",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VUmGyLYdxRc",
+                "china_cdn_id": "VUmGyLYdxRc.mp4"
+              }
+            },
+            {
+              "id": 1027306,
+              "key": "ab6838ff-3833-4780-be76-a64252f4843e",
+              "title": "Developing Your Intuition About Cryptography Basics (Applied Cryptography) Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Points\nA part of intuition that we haven't talked about yet is trusting what you see. Despite the noise that inevitably arises from a situation like this, your eyes are telling you that you think your defenses are doing their job and that this is an inside operation. Stay true to what your intuition tells you.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038911,
+              "key": "ae7003d4-602b-4261-8679-7a234132bcf8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa0e7a_images-for-classroom.-43/images-for-classroom.-43.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ae7003d4-602b-4261-8679-7a234132bcf8",
+              "caption": "Cryptography Scenario",
+              "alt": "Cryptography Scenario",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1027372,
+          "key": "dddb0946-8056-487b-9a6d-a6c42c3e861c",
+          "title": "Introduction to Encryption",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dddb0946-8056-487b-9a6d-a6c42c3e861c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027301,
+              "key": "c1e914e9-bfb4-4157-9aaa-e5ae09fcfa12",
+              "title": "Introduction to Encryption Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Encryption",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027292,
+              "key": "076e3bcb-6599-45b4-9a7c-fe83588dca47",
+              "title": "ND545 C02 L04 A04 Introduction To Encryption Part 1 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5PJ2CEluVeE",
+                "china_cdn_id": "5PJ2CEluVeE.mp4"
+              }
+            },
+            {
+              "id": 1027328,
+              "key": "7f367262-7980-4f88-926b-3b5eee9bc9f3",
+              "title": "Introduction to Encryption Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Recap:\n- Encryption has been around, in various forms, for thousands of years.\n- Sometimes encryption only needs to work for a short time, the data isn't relevant after the transaction has processed.\n\n\n### Key Terms\n- **Encryption**: is the process that converts plaintext, or text that can be read by anyone, into ciphertext and it can only be read by the person who has the secret code, or decryption key.\n- **Plaintext**: data that represent only characters of readable material.\n- **Ciphertext**: is encrypted text modified from plaintext using an encryption algorithm.\n- **Algorithm**: a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027296,
+              "key": "b867d489-6491-4cc9-af04-6b7783ebcd78",
+              "title": "Introduction to Encryption Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa1058_images-for-classroom.-44/images-for-classroom.-44.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b867d489-6491-4cc9-af04-6b7783ebcd78",
+              "caption": "What Is Encryption?",
+              "alt": "What Is Encryption?",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038913,
+              "key": "b36a8548-9458-4f31-8e62-0da8f8672ded",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Symmetric Encryption",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038912,
+              "key": "e0d99469-6ae8-4500-acd9-1d8eb1b4c208",
+              "title": "ND545 C02 L04 A04 Introduction To Encryption Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KbhI_AdCZ9s",
+                "china_cdn_id": "KbhI_AdCZ9s.mp4"
+              }
+            },
+            {
+              "id": 1039073,
+              "key": "b5dff5ef-fdaf-4d1c-a35a-a857af78e939",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- Two types of Symmetric encryption algorithms:\n  - **Block** Algorithms.\n  - **Stream** Algorithms.\n- Types of Symmetric Encryption:\n  - **AES** Advanced Encryption Standard.\n  - **Twofish** \n  - **RC4** Rivest Cipher 4.\n- Symmetric Strengths and Weaknesses:\n  - Very Fast.\n  - Each party already has the key so the data can be transmitted in any manner.\n  - Key transport is difficult. The only true secure way is to hand it from person to person.\n  - Once key is exchanged there is no identity verification as to who has the key.\n\n**Key Terms**\n\n- **Symmetric**: is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information.\n- **Block Algorithm**: is a deterministic algorithm operating on fixed-length groups of bits, called blocks. \n- **Stream Algorithm**: each plaintext digit is encrypted one at a time. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038916,
+              "key": "6afa5bb3-489c-47b9-b6c5-f1a9bcdb3570",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa10c7_images-for-classroom.-45/images-for-classroom.-45.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6afa5bb3-489c-47b9-b6c5-f1a9bcdb3570",
+              "caption": "Symmetric Encryption",
+              "alt": "Symmetric Encryption",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038915,
+              "key": "aa6e1c9a-b0fd-4b14-8483-796ee3f525f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Asymmetric Encryption",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038914,
+              "key": "a2adaeab-9047-48e4-8371-68a14b5b6bcf",
+              "title": "ND545 C02 L04 A04 Introduction To Encryption Part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c98qkjTR8xw",
+                "china_cdn_id": "c98qkjTR8xw.mp4"
+              }
+            },
+            {
+              "id": 1039087,
+              "key": "e11a203f-34a8-420b-8db1-491f9cde9d9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- With Asymmetric Encryption, keys are in pairs.\n- Public Key Infrastructure is the key management system.\n- PKI uses Digital Certificates to verify identity.\n- Some Types of Asymmetric Encryption:\n  - **RSA** Rivest Shamir Adleman\n  - **Diffie-Hellman**\n- Asymmetric Strengths and Weaknesses :\n  - Authentication, allows you to verify the identity of the sender/recipient.\n  - Private Key never needs to be shared.\n  - Slower than Symmetric.\n  - By requiring a Certificate Authority it creates the need to trust a 3rd party.\n\n## Key Terms\n- **Asymmetric Encryption**:  is a cryptographic system that uses pairs of keys: public keys, which may be disseminated widely, and private keys, which are known only to the owner. \n- **Public Key Infrastructure**: is a technology for authenticating users and devices. The basic idea is to have one or more trusted parties digitally sign documents certifying that a particular cryptographic key belongs to a particular user or device.\n- **Authentication**: the process or action of verifying the identity of a user or process.\n- **Certificate Authority**: is an organization that acts to validate identities and bind them to cryptographic key pairs with digital certificates.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038917,
+              "key": "18ba65f0-6202-463f-953e-cf08b78a76a9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa113f_images-for-classroom.-46/images-for-classroom.-46.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/18ba65f0-6202-463f-953e-cf08b78a76a9",
+              "caption": "Asymmetric Encryption",
+              "alt": "Asymmetric Encryption",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038954,
+              "key": "f03d8eb9-0c15-4f71-a28d-d51cbed9d889",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Use Cases",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038955,
+              "key": "137f6974-6c79-43d9-8583-7779288bf0f8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa2e66_images-for-classroom.-47/images-for-classroom.-47.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/137f6974-6c79-43d9-8583-7779288bf0f8",
+              "caption": "Use Cases for Symmetric and Asymmetric Encryption",
+              "alt": "Use Cases for Symmetric and Asymmetric Encryption",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027293,
+              "key": "3f1cf0cf-385a-47ca-ad9e-3609bc21c8f8",
+              "title": "ND545 C02 L04 A05 Introduction To Encryption Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hIq_J7NlVI4",
+                "china_cdn_id": "hIq_J7NlVI4.mp4"
+              }
+            },
+            {
+              "id": 1042957,
+              "key": "19c97ed5-d226-47e7-b9cc-a1776711478b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Try it Out\n\nBelow is the code from the video above. Give it a try. You can also copy and paste into your own Python editor if you like!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042956,
+              "key": "ab9bdd0d-a21f-4d27-8937-88b95150e7f3",
+              "title": null,
+              "semantic_type": "WorkspaceAtom",
+              "is_public": true,
+              "workspace_id": "r1008271c1027372xJUPYTEReyc21geg",
+              "pool_id": "jupyter",
+              "view_id": "jupyter-d3emq",
+              "gpu_capable": false,
+              "configuration": {
+                "id": "reserved",
+                "blueprint": {
+                  "conf": {
+                    "disk": null,
+                    "ports": [],
+                    "allowGrade": false,
+                    "allowSubmit": false,
+                    "defaultPath": "/notebooks/Ceasar Cipher.ipynb"
+                  },
+                  "kind": "jupyter"
+                },
+                "workspaceId": "reserved"
+              },
+              "starter_files": null
+            },
+            {
+              "id": 1027309,
+              "key": "03b93161-4523-4ea5-8b64-f99416eafead",
+              "title": "Introduction to Encryption Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources:\n- [AES Encryption](https://www.comparitech.com/blog/information-security/what-is-aes-encryption/)\n- [Twofish](https://www.drdobbs.com/security/the-twofish-encryption-algorithm/184410744)\n- [RC4](https://paginas.fe.up.pt/~ei10109/ca/rc4.html)\n- [RSA](https://www.comparitech.com/blog/information-security/rsa-encryption/)\n- [Diffie-Hellman](https://www.comparitech.com/blog/information-security/diffie-hellman-key-exchange/)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027368,
+          "key": "6d1fb34f-9e29-4335-9211-4439b556d20e",
+          "title": "Quizzes: Introduction to Encryption ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6d1fb34f-9e29-4335-9211-4439b556d20e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039090,
+              "key": "07f79c11-9ee1-498b-bba7-618e41380125",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "07f79c11-9ee1-498b-bba7-618e41380125",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which Symmetric algorithm encrypts bit by bit and doesn't keep any data in memory?",
+                "answers": [
+                  {
+                    "id": "a1593531513277",
+                    "text": "Block",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593531629583",
+                    "text": "Stream",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593531638679",
+                    "text": "Byte",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593531644707",
+                    "text": "PKI",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039092,
+              "key": "39e06b37-40c7-4282-9ee7-ce93e1c9f6dd",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "39e06b37-40c7-4282-9ee7-ce93e1c9f6dd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose all of the Symmetric Encryption methods we discussed below.\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593531797668",
+                    "text": "RDP",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593531836071",
+                    "text": "AES",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593531841934",
+                    "text": "Enigma",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593531884863",
+                    "text": "RC4",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593531890395",
+                    "text": "Twofish",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039094,
+              "key": "4c2cc8b7-305b-4af4-a290-74fdb5bfb2df",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4c2cc8b7-305b-4af4-a290-74fdb5bfb2df",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the Encryption algorithm with its key feature"
+                },
+                "concepts_label": "Algorithm",
+                "answers_label": "Feature",
+                "concepts": [
+                  {
+                    "text": "AES",
+                    "correct_answer": {
+                      "id": "a1593531986007",
+                      "text": "256 Bit Key uses 13 rounds of encrytion."
+                    }
+                  },
+                  {
+                    "text": "Twofish",
+                    "correct_answer": {
+                      "id": "a1593532089052",
+                      "text": "16 Rounds no matter key size"
+                    }
+                  },
+                  {
+                    "text": "RC4",
+                    "correct_answer": {
+                      "id": "a1593532111650",
+                      "text": "Stream Cipher"
+                    }
+                  },
+                  {
+                    "text": "RSA",
+                    "correct_answer": {
+                      "id": "a1593532137494",
+                      "text": "Key uses 2 large prime numbers"
+                    }
+                  },
+                  {
+                    "text": "Diffie-Hellmann",
+                    "correct_answer": {
+                      "id": "a1593532165042",
+                      "text": "Keys jointly derived"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593532165042",
+                    "text": "Keys jointly derived"
+                  },
+                  {
+                    "id": "a1593531986007",
+                    "text": "256 Bit Key uses 13 rounds of encrytion."
+                  },
+                  {
+                    "id": "a1593532089052",
+                    "text": "16 Rounds no matter key size"
+                  },
+                  {
+                    "id": "a1593532137494",
+                    "text": "Key uses 2 large prime numbers"
+                  },
+                  {
+                    "id": "a1593532111650",
+                    "text": "Stream Cipher"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027363,
+          "key": "2e2150b3-befb-4267-a310-2d07bed2abb8",
+          "title": "Exercise: Introduction to Encryption ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2e2150b3-befb-4267-a310-2d07bed2abb8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027341,
+              "key": "78655ce0-0f03-448e-a9e3-57a780aeb67d",
+              "title": "Introduction to Encryption Exercise Instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Encryption Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027307,
+              "key": "76685778-9026-407c-9ddf-4d587800ba14",
+              "title": "Introduction to Encryption Exercise",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This exercise is both a bit of a brain teaser and a way to see if you conceptually understand how encryption works. Think the problem through and see if you can solve a physical encryption problem. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038978,
+              "key": "6308f8d7-430d-4828-9674-b1b87c55c756",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa5229_images-for-classroom.-52/images-for-classroom.-52.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6308f8d7-430d-4828-9674-b1b87c55c756",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038977,
+              "key": "1fc2fc79-0c7d-47e3-b8a4-785a4e6ef7fc",
+              "title": "Physical Encryption",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1fc2fc79-0c7d-47e3-b8a4-785a4e6ef7fc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Physical Encryption:\n\nLet's put what you've learned about encryption to the test practically. If I would like to send you a letter that absolutely no one but you needs to see and it must travel publicly, for instance, courier or post office,  how could we do it? **You can use the image above to help if needed**\n\nHere are the materials we have on hand. \n- Letter\n- A small box with loop (think tiny pirates chest)\n- We each have a lock\n"
+              },
+              "answer": {
+                "text": "Now that you came up with your solution head to the next page and see if you got it right!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027364,
+          "key": "c31b6795-7618-42c3-af8c-5f2f6b039dca",
+          "title": "Exercise Solution: Introduction to Encryption ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c31b6795-7618-42c3-af8c-5f2f6b039dca",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027344,
+              "key": "b663fd78-cb30-4f51-8d83-75f48fd47b66",
+              "title": "ND545 C02 L04 A06 Introduction To Encryption Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-jGK4alReTo",
+                "china_cdn_id": "-jGK4alReTo.mp4"
+              }
+            },
+            {
+              "id": 1027332,
+              "key": "fa331fa0-232a-4ef1-b1d7-670cd4baf322",
+              "title": "Introduction to Encryption Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Encryption algorithms can be very difficult to wrap your head around.\nThis exercise both simplified an algorithm and made it practical.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027369,
+          "key": "89b318f4-e1a8-4f80-87c3-d69345ac0591",
+          "title": "Encryption in Transit",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "89b318f4-e1a8-4f80-87c3-d69345ac0591",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027317,
+              "key": "52049fb8-5526-42c3-aba4-2d760aa8529d",
+              "title": "Encryption in Transit Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Encryption in Transit",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027334,
+              "key": "230c0536-749a-4628-8b34-0814722b9008",
+              "title": "ND545 C02 L04 A07 Encryption In Transit Part 1 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Gtb6YHAHd90",
+                "china_cdn_id": "Gtb6YHAHd90.mp4"
+              }
+            },
+            {
+              "id": 1027305,
+              "key": "04fae43c-95a6-472f-9687-e8df9559a5cc",
+              "title": "Encryption in Transit Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- If data is moving from one location to another, particularly over public internet it is very vulnerable to compromise.\n  - Either encrypt the data prior to sending it.\n  - Or encrypt the data **while** it's in motion. That's what this section is about.\n- Data in transit generally uses Asymmetric Encryption and PKI.\n- We learned about several common techniques for data in transit:\n  - **HTTPS/TLS** HyperText Transport Protocol/Transport Layer Security\n  - **SSH** Secure Shell\n  - **SFTP/FTPS** Secure File Transfer Protocol/File Transfer Protocol over SSL.\n  - **RDP** Remote Desktop Protocol\n\n## Key Terms\n- **Bitlocker**: is a full volume encryption feature included with Microsoft Windows.\n- **Data at rest**: means inactive data that is stored physically in any digital form.\n- **7-zip**: is a free and open-source file archiver, a utility used to place groups of files within compressed, encrypted containers known as \"archives\".\n- **Data in transit**: also referred to as data in motion, is defined into two categories, information that flows over the Internet and data that flows in the confines of a private network.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027318,
+              "key": "e6ddef4c-1620-4ca8-867f-4366070ea387",
+              "title": "Encryption in Transit Heading Image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa3f57_images-for-classroom.-48/images-for-classroom.-48.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e6ddef4c-1620-4ca8-867f-4366070ea387",
+              "caption": "Encryption in Transit",
+              "alt": "Encryption in Transit",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1042958,
+              "key": "d6ae7e8f-cc06-48b8-9fce-6a66c5e27e3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Choosing the Right Encryption",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042959,
+              "key": "0b783496-d20c-4094-9786-ecda66a545f8",
+              "title": "ND545 C02 L04 A07 Encryption In Transit Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uZemehgdk4Q",
+                "china_cdn_id": "uZemehgdk4Q.mp4"
+              }
+            },
+            {
+              "id": 1042960,
+              "key": "7f8aff1f-e1c0-498b-a0c9-f58475f1212e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Choosing the Right Encryption\nHow do you know which encryption method is right for data in transit?\nFor data in transit, the choices are a bit more clear and based on what you're trying to accomplish.\n\n|Type|Goal|\n|---------|-------------------|\n|HTTP/TLS|Processing or hosting sensitive data accessible from the internet|\n|SSH|Hosting servers (particularly Linux) to execute commands and process jobs|\n|SFTP or FTPS|Hosting files for others to download (Choice depends on the configuration of the host they reside on)|\n|Encryption at Rest |For additional security, consider using on files that are to be accessed via SSH or SFTP/FTPS|\n\n*Note: If you recall from a previous lesson it is wise to not have SSH open to the internet, likewise RDP. consider setting up a VPN for those use cases as an additional layer of security.*\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038961,
+              "key": "ab5758c6-cef9-44f6-a64d-cadc91a507d2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5efa3fc3_images-for-classroom.-49/images-for-classroom.-49.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ab5758c6-cef9-44f6-a64d-cadc91a507d2",
+              "caption": "Choosing the Right Encryption",
+              "alt": "Choosing the Right Encryption",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027316,
+              "key": "dcbb63d9-f7b5-4957-b551-4b6fbb13d87f",
+              "title": "ND545 C02 L04 A08 Encryption In Transit Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "f7x1CdG4wP0",
+                "china_cdn_id": "f7x1CdG4wP0.mp4"
+              }
+            },
+            {
+              "id": 1027339,
+              "key": "7fa8e7f6-766e-4c06-8891-d9d028c5d398",
+              "title": "Encryption in Transit Heading New Terms",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources:\n- [Bitlocker](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)\n- [SSH](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work)\n- [HTTPS/TLS](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)\n- [RDP](https://www.cyberark.com/resources/threat-research-blog/explain-like-i-m-5-remote-desktop-protocol-rdp)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027366,
+          "key": "8bd5d7f2-0726-4ef0-ad12-d6078038dc36",
+          "title": "Quizzes: Encryption in Transit ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8bd5d7f2-0726-4ef0-ad12-d6078038dc36",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039117,
+              "key": "9d4e0e0c-8563-4041-9d82-7aba8371d647",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9d4e0e0c-8563-4041-9d82-7aba8371d647",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose the appropriate encryption for connecting to a Linux server to administer or execute applications.",
+                "answers": [
+                  {
+                    "id": "a1593539345518",
+                    "text": "TLS",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593539382540",
+                    "text": "RDP",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593539386316",
+                    "text": "SFTP",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593539395267",
+                    "text": "SSH",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593539399884",
+                    "text": "HTTPS",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039122,
+              "key": "e39e208e-6315-45d8-a906-032fc29e564d",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e39e208e-6315-45d8-a906-032fc29e564d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the encryption name with its normal usage."
+                },
+                "concepts_label": "Encryption",
+                "answers_label": "Usage",
+                "concepts": [
+                  {
+                    "text": "RDP",
+                    "correct_answer": {
+                      "id": "a1593539450145",
+                      "text": "Connect to Windows"
+                    }
+                  },
+                  {
+                    "text": "HTTPS",
+                    "correct_answer": {
+                      "id": "a1593539507577",
+                      "text": "Secure Web Traffic"
+                    }
+                  },
+                  {
+                    "text": "SFTP/FTPS",
+                    "correct_answer": {
+                      "id": "a1593539519691",
+                      "text": "Securely Transfer Files"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1593539582992",
+                    "text": "Bitlocker"
+                  },
+                  {
+                    "id": "a1593539450145",
+                    "text": "Connect to Windows"
+                  },
+                  {
+                    "id": "a1593539507577",
+                    "text": "Secure Web Traffic"
+                  },
+                  {
+                    "id": "a1593539579657",
+                    "text": "SSH"
+                  },
+                  {
+                    "id": "a1593539519691",
+                    "text": "Securely Transfer Files"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039124,
+              "key": "fe2c8eb2-44af-4c62-bed5-34a81da22d98",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fe2c8eb2-44af-4c62-bed5-34a81da22d98",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select the most common techniques for encryption in transit.\n[Choose all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593539761885",
+                    "text": "HTTPS",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593539802682",
+                    "text": "Bitlocker",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593539810074",
+                    "text": "SSH",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593539814862",
+                    "text": "SFTP",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593539820455",
+                    "text": "7-Zip",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593539824819",
+                    "text": "RDP",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027377,
+          "key": "ab861ea8-7993-4149-ad5a-7ef380467c15",
+          "title": "Exercise: Encryption in Transit ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab861ea8-7993-4149-ad5a-7ef380467c15",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038987,
+              "key": "8874f4c1-91d7-4d19-8adc-dbbcda3af2ad",
+              "title": "Exercise instructions",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8874f4c1-91d7-4d19-8adc-dbbcda3af2ad",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Linux SSH Encryption\n\nIt is important to understand what encryption your server supports. \n\nUsing CentOS documentation check and see what your provided lab server allows for SSH. \n\nAs a hint, you will want to use the 'sshd' command.\n\n\n**Don't forget to shut down your VM when you are done!**"
+              },
+              "answer": {
+                "text": "This one might have been difficult, but it's important that you learn how to navigate documentation in this type of job. Head to the next page to see if you figured it out correctly!\n\n**Don't forget to shut down your VM when you are done!**",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027374,
+          "key": "691296ef-1259-476e-826d-299c6c2811be",
+          "title": "Exercise Solution: Encryption in Transit ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "691296ef-1259-476e-826d-299c6c2811be",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027356,
+              "key": "d85a505b-7c69-4431-8c62-6399b0926977",
+              "title": "Encryption in Transit Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Encryption in Transit Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027326,
+              "key": "749896e6-b974-454e-93ec-24356a853af1",
+              "title": "ND545 C02 L04 A09 Encryption In Transit Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rGbxKVHF7og",
+                "china_cdn_id": "rGbxKVHF7og.mp4"
+              }
+            },
+            {
+              "id": 1027346,
+              "key": "8d0f1c56-f78e-4663-8181-6b0adf376ad8",
+              "title": "Encryption in Transit Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I know that was a challenging one. But as I said before, learning to navigate your way around Linux is a big part of the job. \nYou did great!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027376,
+          "key": "29f62fcb-27f2-482b-9ba8-cbe3ad9d6462",
+          "title": "File Hashes/Digital Signatures",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29f62fcb-27f2-482b-9ba8-cbe3ad9d6462",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027325,
+              "key": "c81bd8c7-6e06-4803-8787-e6a06117f1be",
+              "title": "File Hashes/Digital Signatures Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## File Hashes/Digital Signatures",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027353,
+              "key": "ccfa5f8c-192c-470a-b265-6860506b63d3",
+              "title": "ND545 C02 L04 A10 File Hashes Digital Signatures",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CsjRIvl6tZs",
+                "china_cdn_id": "CsjRIvl6tZs.mp4"
+              }
+            },
+            {
+              "id": 1027360,
+              "key": "1686d040-8c32-456d-ac54-71642eb68c63",
+              "title": "File Hashes/Digital Signatures Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Recap:\n\n- File Hashing transforms blocks of data into a far shorter length to represent the original string.\n- It is **not** encryption. Hashing is a one-way function.\n- Common Types of Hashes:\n  - **MD5** Message Digest 5 - mainly retired due to collisions which are the risk of a duplicate hash.\n  - **SHA2** Secure Hashing Algorithm 2. When you think SHA256, this is it.\n\n## Key Terms\n- **File Hash**: is the process of using an algorithm for verifying the integrity of a computer file.\n- **Collision**: is a situation that occurs when two distinct pieces of data have the same hash value.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038971,
+              "key": "3de7b183-1b5a-4e3e-b6b2-345b3cc9a12b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Walkthrough Part 1: Digital Signatures",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027338,
+              "key": "3304e2ca-545a-42aa-ac20-e06ff6c2403e",
+              "title": "ND545 C02 L04 A11 File Hashes Digital Signatures Walkthrough Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HtozxPwOA8U",
+                "china_cdn_id": "HtozxPwOA8U.mp4"
+              }
+            },
+            {
+              "id": 1038972,
+              "key": "0461b2c8-9f8b-4e8d-83a2-381a449fade6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Walkthrough Part 2: File Hash Feature",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038970,
+              "key": "9f942c53-db82-4f3c-9699-8c0daaa56681",
+              "title": "ND545 C02 L04 A11 File Hashes Digital Signatures Walkthrough Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "65tcm1Uj_2g",
+                "china_cdn_id": "65tcm1Uj_2g.mp4"
+              }
+            },
+            {
+              "id": 1038969,
+              "key": "c8a38292-6b3e-4b55-85ad-01622e53f961",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources:\n- [SHA Info](https://www.thesslstore.com/blog/difference-sha-1-sha-2-sha-256-hash-algorithms/)\n- [MD5 Info](https://tools.ietf.org/html/rfc1321)\n- [File Hash Info](https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027378,
+          "key": "99b5f293-c96b-4579-a075-e054a9d8893a",
+          "title": "Quizzes: File Hashes/Digital Signatures ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99b5f293-c96b-4579-a075-e054a9d8893a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027333,
+              "key": "5de85a11-d637-4f2a-8add-427eadd397ac",
+              "title": "File Hashes/Digital Signatures Easy Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## File Hashes/Digital Signatures Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039131,
+              "key": "9b32111e-6276-46cb-afa5-bdb2b077c246",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9b32111e-6276-46cb-afa5-bdb2b077c246",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Choose all of the digital signature methods we learned about.\n[Select all that apply]",
+                "answers": [
+                  {
+                    "id": "a1593541375000",
+                    "text": "MD5",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593541434142",
+                    "text": "SHA2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593541444826",
+                    "text": "MD4",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593541452546",
+                    "text": "AES",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039132,
+              "key": "c799d04c-fad5-49ed-894f-4d58970779dc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c799d04c-fad5-49ed-894f-4d58970779dc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A digital signature helps verify the identity of someone, usually in the form of a website.",
+                "answers": [
+                  {
+                    "id": "a1593541494257",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593541528713",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1039134,
+              "key": "0fa417a8-efba-475c-a6c7-d78bedff4e7f",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0fa417a8-efba-475c-a6c7-d78bedff4e7f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A file hash is primarily used for what?",
+                "answers": [
+                  {
+                    "id": "a1593541551455",
+                    "text": "Sending sensitive data over the internet.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593541580457",
+                    "text": "Encrypting a hard drive.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593541625125",
+                    "text": "Verifies a file is what it says it is and has not been changed",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1593541646021",
+                    "text": "Alternative to SSH",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027365,
+          "key": "49f54ae8-bb91-42fe-860f-c5edc446850c",
+          "title": "Exercise: File Hashes/Digital Signatures ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49f54ae8-bb91-42fe-860f-c5edc446850c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038988,
+              "key": "269f465c-b816-425e-a6a2-25f736b6b215",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "269f465c-b816-425e-a6a2-25f736b6b215",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Using the provided Windows Server 2016 VM, login as cyber_student with password UdacityRocks!\nIn C:\\File_Hash_Exercise there are 3 executables. Using Powershell, find and provide the hashes for each file.\n\n**Note**: You may need to peruse the Powershell documentation to find the correct command. \n\n**Don't forget to shut down your VM when you are done!**"
+              },
+              "answer": {
+                "text": "Now that you have completed this exercise, see if you found the correct hashes for each file by heading to the next page.\n\n**Don't forget to shut down your VM when you are done!**",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1027370,
+          "key": "531cde13-5ef6-4654-b1e8-f85b19baaa7d",
+          "title": "Exercise Solution: File Hashes/Digital Signatures ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "531cde13-5ef6-4654-b1e8-f85b19baaa7d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027340,
+              "key": "a29aacf2-cc9c-4ecc-a592-0b89b1f76a28",
+              "title": "File Hashes/Digital Signatures Exercise Solution Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## File Hashes/Digital Signatures Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027327,
+              "key": "91d4faca-66b6-4919-bbe4-e498a6ffc440",
+              "title": "ND545 C02 L04 A12 File Hashes Digital Signatures Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "K5pqDsxbOj8",
+                "china_cdn_id": "K5pqDsxbOj8.mp4"
+              }
+            },
+            {
+              "id": 1027323,
+              "key": "dc50a328-117e-4536-8044-75faca461ddf",
+              "title": "File Hashes/Digital Signatures Exercise Solution Summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "While verifying file hashes are relatively simple, there are a key component when installing new applications.\nVerifying the authenticity of a file is an additional layer of security!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027375,
+          "key": "59dcd0f6-7934-43e2-b5cf-56cde5e883d5",
+          "title": "When Encryption is not a Good idea",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "59dcd0f6-7934-43e2-b5cf-56cde5e883d5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027329,
+              "key": "f8aba68a-3900-4105-9211-cbd80c3b230b",
+              "title": "ND545 C02 L04 A13 Edge Cases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2hYECjhV7V8",
+                "china_cdn_id": "2hYECjhV7V8.mp4"
+              }
+            },
+            {
+              "id": 1027355,
+              "key": "89f0c210-99cb-45d1-8d0a-fc54092c6e55",
+              "title": "Edge Case: [#1] Further Research",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you can see there are very few cases where encryption isn't a good idea. While sensitive or restricted data absolutely **must** be encrypted, regular email traffic generally isn't.\nHowever, your organization may be different but personal email traffic remains unencrypted for the most part.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027373,
+          "key": "862a3f94-aff9-473e-a5c4-51fb5c078d14",
+          "title": "Exercise: Cryptography Basics Final",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "862a3f94-aff9-473e-a5c4-51fb5c078d14",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038991,
+              "key": "ed51fcf4-b703-4374-9a56-35792cfd1e0f",
+              "title": "Using 7zip to Encrypt",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ed51fcf4-b703-4374-9a56-35792cfd1e0f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "On your personal computer, create a folder on the desktop called Udacity Exercises.",
+                "In it, create 4 text files named File_1, File_2, File_3 and File_4. You can add whatever text you want to send to your friends.",
+                "Download [7zip](https://www.7-zip.org/) and encrypt the folder with AES256 encryption and require a password.",
+                "Send your file to a friend to see if the encryption works.",
+                "Then send them the password and see if the file can be decrypted properly.",
+                "If it doesn't work, try again!"
+              ],
+              "positive_feedback": "If your friend or you can access the files with your password, you did it right. Great job!",
+              "video_feedback": null,
+              "description": "Complete the following activities to encrypt some files and send them to a friend.\n- [7zip Download and Encryption Instructions](https://7ziphelp.com/password-protect-on-7zip)\n\n**Note**: If you get stuck downloading and using 7zip, please take a look at the [7zip support pages](https://sourceforge.net/p/sevenzip/discussion/45797/)"
+            }
+          ]
+        },
+        {
+          "id": 1027371,
+          "key": "7fd3138f-bb57-4514-9557-14c66fe97f30",
+          "title": "Cryptography Basics (Applied Cryptography) Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7fd3138f-bb57-4514-9557-14c66fe97f30",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1027336,
+              "key": "f1d57da6-0335-43d6-a4e7-2005d1a911a9",
+              "title": "Cryptography Basics (Applied Cryptography) Lesson Conclusion Heading",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cryptography Basics (Applied Cryptography) Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027343,
+              "key": "de1baa85-49e3-4a46-8c96-1cf96743d311",
+              "title": "ND545 C02 L04 A14 Lesson Conclusion V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CE5apjZ23N0",
+                "china_cdn_id": "CE5apjZ23N0.mp4"
+              }
+            },
+            {
+              "id": 1027350,
+              "key": "df5ec06f-188a-4936-b7a1-10387a356ebb",
+              "title": "Cryptography Basics (Applied Cryptography) Lesson Conclusion Text",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I know this was a challenging lesson. But you hung in there and did a great job.\nLuckily a deep understanding of what's under the hood of encryption algorithms isn't part of a junior analyst's job.\nIt does help to understand, if even at a high-level, how encryption works and what encryption you should use given a scenario.\nYou're well on your way there!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1048917,
+              "key": "87dee4f6-fc4d-4953-88b7-1b434cc96afb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f21d8b8_lesson-4-overview/lesson-4-overview.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/87dee4f6-fc4d-4953-88b7-1b434cc96afb",
+              "caption": "Lesson Overview",
+              "alt": "Lesson Overview",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 1027348,
+              "key": "1ff3a202-ee32-432c-a20d-9e8d5829dbbd",
+              "title": "Glossary and Resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Glossary \n\nHere are all the terms for this lesson.\n\n|KeyTerm| Definition| \n|--------------|---------------------|\n|7-zip| is a free and open-source file archiver, a utility used to place groups of files within compressed, encrypted containers known as \"archives\".|\n|Algorithm| a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.|\n|Asymmetric Encryption|  is a cryptographic system that uses pairs of keys. Public keys, which may be disseminated widely, and private keys, which are known only to the owner.|\n|Authentication| the process or action of verifying the identity of a user or process.|\n|Bitlocker| is a full volume encryption feature included with Microsoft Windows.|\n|Certificate Authority| is a an organization that acts to validate identities and bind them to cryptographic key pairs with digital certificates.|\n|Ciphertext| is encrypted text modified from plaintext using an encryption algorithm.|\n|Collision| is a situation that occurs when two distinct pieces of data have the same hash value.|\n|Data at rest| means inactive data that is stored physically in any digital form.|\n|Data in transit| also referred to as data in motion, is defined into two categories, information that flows over the Internet and data that flows in the confines of a private network.|\n|Encryption| is the process that converts plaintext, or text that can be read by anyone, into ciphertext and it can only be read by the person who has the secret code, or decryption key.|\n|File Hash| is the process of using an algorithm for verifying the integrity of a computer file.|\n|Plaintext| data that represent only characters of readable material.|\n|Public Key Infrastructure| is a technology for authenticating users and devices. The basic idea is to have one or more trusted parties digitally sign documents certifying that a particular cryptographic key belongs to a particular user or device.|",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038430,
+          "key": "4625eed4-830c-41c8-8a24-4e39f0158589",
+          "title": "Course Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4625eed4-830c-41c8-8a24-4e39f0158589",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038431,
+              "key": "d3c7cd0b-541e-4d02-ba8d-b9482d1b0ec8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038432,
+              "key": "6a8452d1-bafd-4bcd-ac54-dcfc0fb3b74c",
+              "title": "ND545 C02 L04 A15 Course Overview V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "_Ycvn8wbg9s",
+                "china_cdn_id": "_Ycvn8wbg9s.mp4"
+              }
+            },
+            {
+              "id": 1048665,
+              "key": "8283c1de-4fc4-4477-8ddb-85c45298adb0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Great job on finishing this course! Now it's on to the project!\n\n*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field. *",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042908,
+              "key": "84e914b0-b92c-42ca-9d73-a40b1200f0aa",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Key Terms\n|KeyTerm| Definition| \n|--------------|---------------------|\n|7-zip| is a free and open-source file archiver, a utility used to place groups of files within compressed, encrypted containers known as \"archives\".|\n|777 Permissions| Is a level of Linux permissions that means making the file readable, writable and executable by everyone.|\n|Algorithm| a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.|\n|Asymmetric Encryption|  is a cryptographic system that uses pairs of keys. Public keys, which may be disseminated widely, and private keys, which are known only to the owner.|\n|Authentication| the process or action of verifying the identity of a user or process.|\n|Automation| is the application of technology in the form of applications or processes to perform tasks, generally repetitive or time-consuming, with minimal human input. |\n|Bitlocker| is a full volume encryption feature included with Microsoft Windows.|\n|Blacklist| In computing, a blacklist, denylist or blocklist is a basic access control mechanism that allows through all elements except those explicitly mentioned. Those items on the list are denied access. |\n|Certificate Authority| is a an organization that acts to validate identities and bind them to cryptographic key pairs with digital certificates.|\n|Ciphertext| is encrypted text modified from plaintext using an encryption algorithm.|\n|Collision| is a situation that occurs when two distinct pieces of data have the same hash value.|\n|Daemons| is a computer program that runs as a background process, rather than being under the direct control of an interactive user.|\n|Data at rest| means inactive data that is stored physically in any digital form.|\n|Data in transit| also referred to as data in motion, is defined into two categories, information that flows over the Internet and data that flows in the confines of a private network.|\n|Detection| if an adversary does get past our defenses we want to know!|\n|Encryption| is the process that converts plaintext, or text that can be read by anyone, into ciphertext and it can only be read by the person who has the secret code, or decryption key.|\n|File Hash| is the process of using an algorithm for verifying the integrity of a computer file.|\n|Firewall|  is a network device that monitors and controls incoming and outgoing traffic.|\n|Firmware| is a software program or set of instructions programmed on a hardware device|\n|Framework| A set of agreed-upon policies, procedures, and processes that define how information is managed.|\n|Intrusion Detection System| is a device or application that monitors traffic for malicious activity or policy violations.|\n|Next Gen Firewall| is a network security device that provides capabilities beyond a traditional, stateful firewall. While a traditional firewall typically provides stateful inspection of incoming and outgoing network traffic, a next-generation firewall includes additional features like application awareness and control, integrated intrusion prevention, and cloud-delivered threat intelligence|\n|NIST CSF| The Framework is voluntary guidance, based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk.|\n|NIST-800| NIST’s 800 series presents information of interest to the computer security community. The series comprises guidelines, recommendations, and technical specifications.|\n|PII| Personally identifiable information is any data that could potentially be used to identify a particular person. Examples include a full name, Social Security number, driver's license number, bank account number, passport number, and email address.|\n|Plaintext| data that represent only characters of readable material.|\n|Prevention| which is what most people think when it comes to Cybersecurity. Keep the bad guys out!|\n|Principle of Least Privilege| is the idea that at any user, program, or process should have only the bare minimum privileges necessary to perform its function.|\n|Public Key Infrastructure| is a technology for authenticating users and devices. The basic idea is to have one or more trusted parties digitally sign documents certifying that a particular cryptographic key belongs to a particular user or device.|\n|Repository| is a central location in which data is stored and managed.|\n|Response| These are the actions or mitigation, we take based on the detection.|\n|Scalability| is the ability of a computing system to grow or expand gracefully.|\n|SCCM|  System Center Configuration Manager is a systems management software product developed by Microsoft for managing large groups of computers running Windows.|\n|Vulnerability Scanning| is an automated threat that uses bots or web crawlers to identify security weaknesses in your website and underlying architecture.|\n|WhoIs| WHOIS isn't an acronym, though it may look like one. In fact, it is the system that asks the question, who is responsible for a domain name or an IP address? In other words, it's the contact information for IP addresses and Websites.|\n|WSUS| Windows Server Update Services is a computer program and network service developed by Microsoft Corporation that enables administrators to manage the distribution of updates and hotfixes released for Microsoft products to computers in a corporate environment.|\n|Yum| Yellowdog Updater, Modified is a free and open-source command-line package-management utility for Linux. It allows for automatic updates and package and dependency management.|",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

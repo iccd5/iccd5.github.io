@@ -1,0 +1,303 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analyze Vulnerabilities and Threats Exercise</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Applying Cybersecurity</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Applying Cybersecurity.html">02. Applying Cybersecurity</a>
+    </li>
+    <li class="">
+      <a href="03. Lesson Outline.html">03. Lesson Outline</a>
+    </li>
+    <li class="">
+      <a href="04. Identify Existing Assets and Security Controls.html">04. Identify Existing Assets and Security Controls</a>
+    </li>
+    <li class="">
+      <a href="05. Identify Existing Assets and Security Controls Quizzes.html">05. Identify Existing Assets and Security Controls Quizzes</a>
+    </li>
+    <li class="">
+      <a href="06. Identify Existing Assets and Security Controls Exercise.html">06. Identify Existing Assets and Security Controls Exercise</a>
+    </li>
+    <li class="">
+      <a href="07. Identify Existing Assets and Security Controls Solution.html">07. Identify Existing Assets and Security Controls Solution</a>
+    </li>
+    <li class="">
+      <a href="08. Analyze Vulnerabilities and Threats.html">08. Analyze Vulnerabilities and Threats</a>
+    </li>
+    <li class="">
+      <a href="09. Analyze Vulnerabilities and Threats Quizzes.html">09. Analyze Vulnerabilities and Threats Quizzes</a>
+    </li>
+    <li class="">
+      <a href="10. Analyze Vulnerabilities and Threats Exercise.html">10. Analyze Vulnerabilities and Threats Exercise</a>
+    </li>
+    <li class="">
+      <a href="11. Analyze Vulnerabilities and Threats Exercise Solution.html">11. Analyze Vulnerabilities and Threats Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="12. Recommend and Apply Basic Security Controls.html">12. Recommend and Apply Basic Security Controls</a>
+    </li>
+    <li class="">
+      <a href="13. Recommend and Apply Basic Security Controls Quizzes.html">13. Recommend and Apply Basic Security Controls Quizzes</a>
+    </li>
+    <li class="">
+      <a href="14. Recommend and Apply Basic Security Controls Exercise.html">14. Recommend and Apply Basic Security Controls Exercise</a>
+    </li>
+    <li class="">
+      <a href="15. Recommend and Apply Basic Security Controls Solution.html">15. Recommend and Apply Basic Security Controls Solution</a>
+    </li>
+    <li class="">
+      <a href="16. Communicate Risks Exercise.html">16. Communicate Risks Exercise</a>
+    </li>
+    <li class="">
+      <a href="17. Communicate Risks Exercise Solution.html">17. Communicate Risks Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="18. Lesson Conclusion.html">18. Lesson Conclusion</a>
+    </li>
+    <li class="">
+      <a href="19. Recap of Course.html">19. Recap of Course</a>
+    </li>
+    <li class="">
+      <a href="20. Congratulations.html">20. Congratulations</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">10. Analyze Vulnerabilities and Threats Exercise</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="analyze-vulnerabilities-and-threats-exercise">Analyze Vulnerabilities and Threats Exercise</h1>
+<h2 id="student-lab-setup">Student Lab Setup</h2>
+<p>For this exercise, you'll continue to use the Windows 10 virtual PC <strong>CYBERND01PRJ01</strong> to identify real or potential vulnerabilities. In particular, you want to look for shared files/folders, unneeded Windows services, and unpatched applications.  </p>
+<p>Sign in to the Windows 10 virtual PC provided with this class and complete the exercises below. If you don't know how to get remote control of the virtual PC, please follow <strong>Step 4. Return to lab VM</strong> in the document <a href="https://video.udacity-data.com/topher/2020/August/5f298342_setup-student-lab/setup-student-lab.pdf" rel="noopener noreferrer" target="_blank">Setup Student LAB</a></p>
+<ul>
+<li>Username: cyberadmin</li>
+<li>Password: <a href="https://github.com/UdacityLearning" rel="noopener noreferrer" target="_blank">@UdacityLearning</a>#1</li>
+</ul>
+<p><strong>IMPORTANT: Please always remember to shut down ALL of the virtual machines when not in use to avoid charges! The status of ALL virtual machines should be stopped!</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="part-1-shared-folders-and-files">Part 1: Shared Folders and Files</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Shared Folders and Files</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>Right-click on the Windows Start icon and select "Computer Management." In that window, select the &gt; symbol next to "Shared Folders" and click on "Shares." This shows the files or folders shared on this PC. Is there any shared folder? What is the name of the shared folder if there is any? Who are the people the folder is shared with?</p>
+<p>As part of a security assessment, you should review the file shares to ensure they are appropriate and that only those who need access have it. </p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>In the Identity and Access Control Exercise, you created a shared folder. You should see it in the Share Name column.</p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="part-2-windows-services">Part 2: Windows Services</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Windows Services</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>In the Computer Management window, click on the &gt; symbol next to "Services and Applications." Select "Services" to see the services available on this PC. You can also search for "Services" in the Windows run bar.  Click on a specific service to learn more about it. For example, click on the "Geolocation Service" to see how this tracks the location of the PC. In the space below, document 2-3 services running on this PC. </p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>You'll see there are many services running by default on a Windows PC. As a beginning IT or Cybersecurity student, you're not expected to know what all of these services mean. Use the description to learn more about each. This is a good opportunity to familiarize yourself with typical services. </p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="part-3-windows-and-application-updates">Part 3: Windows and Application Updates</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Windows and Application Updates </p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>The last step in this exercise is to ensure applications and the operating system are all up-to-date on patches. Let's start with applications.</p>
+<p>You need to make sure the Windows Operating System is up-to-date and that it will automatically be updated when patches are available from Microsoft. To do that, type "Update" from the Windows start bar. Click on "Check for updates" in System Settings. The "Windows Update" window will show you if this PC needs updates to any operating system component. At the bottom of the page, click on "Advanced options" to see the different options available for installing updates. Record your observations about Windows updates below.  </p>
+<p>Next, on the Windows 10 PC, search for "Control Panel" and click on it to open its window. From there, select "Programs" and then "Programs and Features" to see a list of applications or programs installed on the PC along with its version. Ensure all applications are at the latest version. You can also uninstall applications using this window. Record any applications that need to be updated in the field below. </p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>Student's answers may vary because applications and operating systems are continually updating. It's one of the best ways to reduce the likelihood of software vulnerabilities from impacting your work. </p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>IMPORTANT: Please always remember to shut down ALL of the virtual machines when not in use to avoid charges! The status of ALL virtual machines should be stopped!</strong></p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="11. Analyze Vulnerabilities and Threats Exercise Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('10. Analyze Vulnerabilities and Threats Exercise')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

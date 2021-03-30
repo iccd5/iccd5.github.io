@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.160
+Another common Windows vulnerability you explored with this exercise are the services,
+
+00:00:05.160 --> 00:00:09.240
+the executable programs running in the background of computer systems.
+
+00:00:09.240 --> 00:00:11.265
+To do this on the Windows platform,
+
+00:00:11.265 --> 00:00:14.085
+once again, go to Computer Management window.
+
+00:00:14.085 --> 00:00:18.210
+Here you can see the services and applications.
+
+00:00:18.210 --> 00:00:21.600
+To see the services running on a Windows platform,
+
+00:00:21.600 --> 00:00:23.940
+go to the Computer Management window,
+
+00:00:23.940 --> 00:00:27.600
+click on the arrow next to Services and Applications,
+
+00:00:27.600 --> 00:00:30.945
+and then highlight or click on "Services".
+
+00:00:30.945 --> 00:00:36.070
+This shows all of the background programs running on a Windows system.
+
+00:00:36.070 --> 00:00:38.420
+As you can see, there are many of them.
+
+00:00:38.420 --> 00:00:41.150
+For example, click on
+
+00:00:41.150 --> 00:00:48.550
+the Geolocation Service to see how this PC tracks the location of the users.
+
+00:00:48.550 --> 00:00:50.405
+If you double-click on it,
+
+00:00:50.405 --> 00:00:52.820
+you can read the description and learn more about
+
+00:00:52.820 --> 00:00:55.460
+it and change whether it's running or not.
+
+00:00:55.460 --> 00:00:58.460
+For example, if I wanted to stop the Geolocation,
+
+00:00:58.460 --> 00:01:00.035
+I would click on "Stop".
+
+00:01:00.035 --> 00:01:05.000
+Just be aware of the impacts that'll have on the PC,
+
+00:01:05.000 --> 00:01:06.980
+if you're stopping a running service,
+
+00:01:06.980 --> 00:01:09.035
+you can accidentally break things.
+
+00:01:09.035 --> 00:01:13.429
+You'll see there are many services running by default on a Windows PC.
+
+00:01:13.429 --> 00:01:16.280
+As a beginning IT or cybersecurity student,
+
+00:01:16.280 --> 00:01:19.600
+you're not expected to know what all of these services mean.
+
+00:01:19.600 --> 00:01:22.975
+Use the description to learn more about each.
+
+00:01:22.975 --> 00:01:26.150
+This is a good opportunity to familiarize yourself
+
+00:01:26.150 --> 00:01:30.060
+with typical services on a Windows operating system.
+
