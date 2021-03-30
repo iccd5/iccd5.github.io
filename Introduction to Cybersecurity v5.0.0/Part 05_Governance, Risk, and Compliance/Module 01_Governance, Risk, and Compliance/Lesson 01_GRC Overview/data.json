@@ -1,0 +1,462 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1037306,
+      "key": "7c3a7b07-83c1-42b5-b442-091be22d8362",
+      "title": "GRC Overview",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, we’ll be outlining the basic course structure and discussing the prerequisites that you should possess before taking the course. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/7c3a7b07-83c1-42b5-b442-091be22d8362/1037306/1602117400521/GRC+Overview+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/7c3a7b07-83c1-42b5-b442-091be22d8362/1037306/1602117397637/GRC+Overview+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1037307,
+          "key": "7b6ba94b-18c1-4d10-91de-dbcdcc071411",
+          "title": "Meet Your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7b6ba94b-18c1-4d10-91de-dbcdcc071411",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039142,
+              "key": "198dd0bc-25dc-4712-9423-a4b3fb6fb479",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet Your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039141,
+              "key": "050895f7-aa35-4692-af13-cc343c5161c2",
+              "title": "ND545 C4 L0 01 Meet Your Instructor",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QFIKXgr6_JI",
+                "china_cdn_id": "QFIKXgr6_JI.mp4"
+              }
+            },
+            {
+              "id": 1039140,
+              "key": "10273f2f-3680-4e9e-a271-028e60f291e4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Welcome to Governance, Risk, and Compliance for Cybersecurity! \n\nMy name is Sean Pike, and I'll be your instructor for this course.\n\nI've practiced cybersecurity for 20+ years, and most of that has been in some form of highly regulated industry--from healthcare to financial services to publicly traded companies. That experience taught me the value of GRC.\n\nAt the beginning of my career, I was very fortunate in that it coincided with so many important regulatory events that I was forced to understand the relationship between IT and outside influences like regulation and risk management.\n\nIn fact, I became so focused on harmonizing IT relationships that I helped create an IT audit firm. I also pursued some higher educational opportunities and became an attorney admitted to practice in the state of Maryland. I  also have a master's degree in Telecommunications. All of this was done in the pursuit of assisting organizations in developing mature cybersecurity and GRC practices.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037308,
+          "key": "893e645f-b842-4fae-af67-1b0b52a4afa2",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "893e645f-b842-4fae-af67-1b0b52a4afa2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1043404,
+              "key": "c3537701-fa21-48c7-8ac8-8f0329bb185d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037317,
+              "key": "58019679-7bb7-4459-87e5-4d368f91d11f",
+              "title": "ND545 C4 L0 02 Lesson Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0i0CHCH3kHw",
+                "china_cdn_id": "0i0CHCH3kHw.mp4"
+              }
+            },
+            {
+              "id": 1037318,
+              "key": "93375fbe-5b7d-478c-9b4f-5bae9e49bc89",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5eed03f5_screen-shot-2020-06-19-at-2.28.38-pm/screen-shot-2020-06-19-at-2.28.38-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/93375fbe-5b7d-478c-9b4f-5bae9e49bc89",
+              "caption": "",
+              "alt": "",
+              "width": 850,
+              "height": 242,
+              "instructor_notes": null
+            },
+            {
+              "id": 1039143,
+              "key": "0aaf77b7-6573-4cd9-b5b7-ca7246ce12f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, we’ll be outlining the basic course structure and discussing the prerequisites that you should possess before taking the course. Also, we’ll spend a little time talking about the importance of GRC, how GRC supports the business, and we’ll go through a brief introduction to the course’s final project.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037309,
+          "key": "39e6711f-5da1-4ec7-a961-9b3407265890",
+          "title": "Prerequisites",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "39e6711f-5da1-4ec7-a961-9b3407265890",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039145,
+              "key": "115133a8-6977-4ef5-a193-83dc85173a42",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Prerequisites",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039144,
+              "key": "a746d3f8-634c-4334-8c59-c1e9a848cb6a",
+              "title": "ND545 C4 L0 03 Prerequisites Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-hE5kznAEMQ",
+                "china_cdn_id": "-hE5kznAEMQ.mp4"
+              }
+            },
+            {
+              "id": 1039146,
+              "key": "0e504d85-3224-47fc-9757-a745cb60b2bb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are two overarching prerequisites for this course.  The first is that you have a basic knowledge of cybersecurity and cybersecurity controls.  In other words, you’ll know what the goals of cybersecurity are, what cybersecurity controls are, and when and where a control might be applied--security controls meaning specific controls such as:\n- Firewalls\n- Encryption\n- Identity and Access Management\n- Data Loss Prevention\n\nThe second prerequisite is having a basic understanding of the organizational structure and how businesses operate.  Governance, Risk, and Compliance professionals frequently need to navigate the organization and weigh business objectives against the need for certain security controls to reach an answer that works for the company.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037310,
+          "key": "e914b0ed-7e47-427e-b75c-a5210509392c",
+          "title": "Course Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e914b0ed-7e47-427e-b75c-a5210509392c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039148,
+              "key": "ca5441e7-2b95-4798-9c0d-fa47afaeeba9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039147,
+              "key": "500956db-6518-46e0-97a3-13d721917644",
+              "title": "ND545 C4 L0 04 Course Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kCSZEln7dbk",
+                "china_cdn_id": "kCSZEln7dbk.mp4"
+              }
+            },
+            {
+              "id": 1039149,
+              "key": "e44c56cc-e7a6-4a29-8bd3-94551ddc9188",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This course will focus on Governance, Risk, and Compliance as it relates to cybersecurity. The course begins with an overview of GRC and security GRC as practices. It then turns to define the key responsibilities for each GRC function--Governance, Risk, and Compliance--and the course completes with a review of Audit Management.\n\nIn the Governance lesson, we discuss the basics of Governance, how Governance professionals are required to think strategically, their role in championing security throughout the organization, and the main role of Governance professionals: measuring security control effectiveness and working with stakeholders to correct any issues.\n\nThe Risk management lesson highlights the experience Risk Management professionals must apply to security risks in the organization, discusses how risk management traditionally operates, and what that means for today’s organization.\n\nThe Compliance lesson explains what security compliance means to today’s organization, discusses where compliance obligations originate, how Compliance professionals evaluate obligations, and finally, how controls are assessed against the organization’s obligations.\n\nThe final lesson focuses on a critical GRC task--Audit Management. In Audit Management, we will discuss how audits originate and what GRC professionals must accomplish to ensure audits go smoothly.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037311,
+          "key": "c277e2ab-f4f3-4bf9-b2fb-ed314e0be2a6",
+          "title": "Why is GRC Important?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c277e2ab-f4f3-4bf9-b2fb-ed314e0be2a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039151,
+              "key": "ba0d1e91-953d-404c-8869-8f82751ee28d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Why is GRC Important?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039150,
+              "key": "7d220a37-93c1-41ab-a69e-e710ecbcd6c7",
+              "title": "ND545 C4 L0 05 Why Is GRC Important Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mN_38e08pcA",
+                "china_cdn_id": "mN_38e08pcA.mp4"
+              }
+            },
+            {
+              "id": 1039153,
+              "key": "c51237d8-afd9-4a5f-aff3-8ee6b22dc2c1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you examine most security breaches, you’ll find that some failure occurred related to security controls and/or the security GRC functions that could have identified concerns prior to their ultimate failure.  That doesn’t mean that every breach is the result of a failure.  In some cases, breaches occur even though organizations made perfectly reasoned risk management decisions, installed controls correctly, and governed their controls effectively.  In some cases, the smallest risk ends up being the cause of a breach, but these cases seem to be few and far between.  In most cases, control failure and multiple opportunities to remediate the failure cause breaches and make them more extensive than necessary.\n\nTake, for example, three of the most publicized breaches of all time (Target, Equifax, and the Office of Personnel Management).  That was the case with each of these breaches.  Control failures occurred, but opportunities along the way for GRC professionals to remediate those failures were missed.\n\n- [Target](https://www.forbes.com/sites/maggiemcgrath/2014/01/10/target-data-breach-spilled-info-on-as-many-as-70-million-customers/#33beb1a5e795) \n- [Equifax](https://www.csoonline.com/article/3444488/equifax-data-breach-faq-what-happened-who-was-affected-what-was-the-impact.html) \n- [Office of Personnel Management or OPM](https://www.wired.com/2016/10/inside-cyberattack-shocked-us-government/) \n\nThese are great examples of why Security GRC is so important.  GRC can help identify issues before they become breaches or work to minimize the overall impact of a breach.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037312,
+          "key": "7ddc8ed7-f6d1-4721-9207-7586919762ce",
+          "title": "Business Stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ddc8ed7-f6d1-4721-9207-7586919762ce",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039154,
+              "key": "d77e21a6-d328-4a96-8169-b7f2eaac4424",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Business Stakeholders",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039155,
+              "key": "a571adcf-7501-485a-a104-58769ecfbd60",
+              "title": "ND545 C4 L0 06 Business Stakeholders Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0THUaU1fvXU",
+                "china_cdn_id": "0THUaU1fvXU.mp4"
+              }
+            },
+            {
+              "id": 1039156,
+              "key": "9d7c6399-c596-40ee-8f40-9745d7f54702",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The key to any successful business is making sure the organization understands its mission and executes successfully on that mission. IT Operations, Security Operations, and Security GRC professionals all work to help the business accomplish that mission. A critical objective for the Security GRC professional is understanding how their tasks fit into the overall strategy. As a result, GRC professionals must develop communication and collaboration skills that help them work alongside business partners, identify opportunities to improve security posture and support business objectives.\n\nIn the past, security professionals were saddled with the reputation of playing a binary role in business processes --- making decisions about whether something is or is not secure. Today’s security professionals are really expected to help businesses find solutions that remain secure but help drive business goals forward.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037314,
+          "key": "4e4fa314-5484-4456-99ad-086e01f2124d",
+          "title": "Project: SwiftTech Report",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4e4fa314-5484-4456-99ad-086e01f2124d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039159,
+              "key": "e4d297b3-c25a-4f06-a683-d06dfeb542bf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project: SwiftTech Report",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039157,
+              "key": "48318126-3641-4b98-b7d0-a83a642d5ce1",
+              "title": "ND545 C4 L0 07 Project- SwiftTech Report Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oWiP61is6eo",
+                "china_cdn_id": "oWiP61is6eo.mp4"
+              }
+            },
+            {
+              "id": 1039158,
+              "key": "9f0207ec-200a-49c8-b00c-960fb9d620dd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To complete this course, you’ll apply what you’ve learned to a common GRC scenario.  Many GRC professionals walk into situations with immature GRC programs... and they were hired to mature the program quickly.  In fact, they may have been hired following a significant security event or in anticipation of a rapidly approaching assessment or business deadline.  In this project, that’s exactly the situation you’ll face.  You’ll walk into a growing company needing to react fast to solve some immediate GRC challenges. Among others, you’ll need to address policy issues and assist the organization in understanding what compliance obligations they should investigate to support expanding their successful business.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037315,
+          "key": "332b9d3b-4f78-4058-ae3a-f1e3cbf599b6",
+          "title": "Let's Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "332b9d3b-4f78-4058-ae3a-f1e3cbf599b6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039160,
+              "key": "470fc2dc-5439-41dd-a0e6-29d7b71b7c3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Let's Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1039161,
+              "key": "d9db9381-b989-4f46-8395-4d54e5dae232",
+              "title": "ND545 C4 L0 08 Lesson Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ao8TJlyWn4E",
+                "china_cdn_id": "ao8TJlyWn4E.mp4"
+              }
+            },
+            {
+              "id": 1039163,
+              "key": "3a4a74e4-f055-43c4-9c83-edfc3d347d73",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson we discussed prerequisites for the course. We also spent time explaining the importance of GRC, how GRC supports the business, and provided a brief introduction to the course’s final project.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049365,
+              "key": "ff0058db-0e0a-46a2-8a28-8146baacbb51",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1037316,
+          "key": "e85224c0-9787-45f9-a66f-f507d7049ebf",
+          "title": "Good Luck!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e85224c0-9787-45f9-a66f-f507d7049ebf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039162,
+              "key": "3c57c082-7bb8-4388-a1c4-ea88145055d1",
+              "title": "ND545 C4 L0 09 Good Luck! Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uty2V274a6A",
+                "china_cdn_id": "uty2V274a6A.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

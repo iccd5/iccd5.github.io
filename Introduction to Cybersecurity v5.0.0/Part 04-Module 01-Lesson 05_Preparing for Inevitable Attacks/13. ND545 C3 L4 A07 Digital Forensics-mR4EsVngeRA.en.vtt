@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.550
+Digital forensics is relevant at all stages of the incident response life cycle.
+
+00:00:05.550 --> 00:00:07.860
+During the preparation phase,
+
+00:00:07.860 --> 00:00:13.395
+having a plan and resources lined up in case you need digital forensics is key.
+
+00:00:13.395 --> 00:00:19.770
+Also during the middle steps of detection, analysis, containment,
+
+00:00:19.770 --> 00:00:24.030
+eradication and recovery, digital forensics can help
+
+00:00:24.030 --> 00:00:30.180
+incident teams understand what has happened during an incident in order to manage it.
+
+00:00:30.180 --> 00:00:36.380
+Finally, where this is most heavily used is in the post-incident activity.
+
+00:00:36.380 --> 00:00:40.460
+The point of digital forensics is all about evidence and so if
+
+00:00:40.460 --> 00:00:44.165
+you plan to pursue legal or other actions,
+
+00:00:44.165 --> 00:00:45.980
+especially after a breach,
+
+00:00:45.980 --> 00:00:48.395
+digital forensics is critical.
+
+00:00:48.395 --> 00:00:52.415
+Digital forensics helps shed light on what happened.
+
+00:00:52.415 --> 00:00:54.845
+What did the attacker access?
+
+00:00:54.845 --> 00:00:56.720
+What actions did they take?
+
+00:00:56.720 --> 00:00:58.415
+How can you prove this?
+
+00:00:58.415 --> 00:01:01.970
+So the process involves identifying,
+
+00:01:01.970 --> 00:01:07.985
+preserving, analyzing, and reporting on evidence.
+
+00:01:07.985 --> 00:01:10.370
+First is identifying.
+
+00:01:10.370 --> 00:01:13.760
+This is the practice of finding and collecting
+
+00:01:13.760 --> 00:01:19.255
+the suspected original source or assets believed to contain evidence.
+
+00:01:19.255 --> 00:01:22.670
+For example, an investigator may pinpoint
+
+00:01:22.670 --> 00:01:28.285
+suspicious activity from an IP address that's assigned to an employee's laptop.
+
+00:01:28.285 --> 00:01:31.475
+So the digital forensics investigator may have
+
+00:01:31.475 --> 00:01:36.095
+a co-worker send them the suspected laptop for analysis.
+
+00:01:36.095 --> 00:01:38.190
+Next is preserving.
+
+00:01:38.190 --> 00:01:41.570
+This is the practice of ensuring the integrity of
+
+00:01:41.570 --> 00:01:47.015
+the collected evidence and preserving a digital trail of the data or media.
+
+00:01:47.015 --> 00:01:51.875
+For example, it's essential to monitor how assets and
+
+00:01:51.875 --> 00:01:57.304
+any copies of data have been handled since being taken from the environment,
+
+00:01:57.304 --> 00:01:59.665
+along with who had access.
+
+00:01:59.665 --> 00:02:03.964
+You can also monitor tampering with official seals,
+
+00:02:03.964 --> 00:02:08.675
+file hashing, and other means to help check integrity.
+
+00:02:08.675 --> 00:02:13.340
+This also includes making sure that evidence isn't destroyed through
+
+00:02:13.340 --> 00:02:18.995
+adverse conditions such as overheating or water moisture damage.
+
+00:02:18.995 --> 00:02:20.770
+Then comes analyzing.
+
+00:02:20.770 --> 00:02:23.440
+This is the investigative portion of
+
+00:02:23.440 --> 00:02:27.670
+the process where a forensics expert begins to look into
+
+00:02:27.670 --> 00:02:31.270
+the acquired assets or the media's data to find
+
+00:02:31.270 --> 00:02:36.330
+evidence of the suspected crime or incident that has happened.
+
+00:02:36.330 --> 00:02:40.645
+For example, the investigator may look through documents,
+
+00:02:40.645 --> 00:02:43.660
+e-mails, and chat conversations,
+
+00:02:43.660 --> 00:02:47.365
+browser website history, hard drives,
+
+00:02:47.365 --> 00:02:52.555
+downloads on the computer and other user activities to find more clues.
+
+00:02:52.555 --> 00:02:56.120
+Finally, you do reporting.
+
+00:02:56.120 --> 00:02:59.890
+This is the process of creating a report of findings from
+
+00:02:59.890 --> 00:03:05.825
+the investigation for presentation to stakeholders and in some cases,
+
+00:03:05.825 --> 00:03:08.335
+an attorney or jury in court.
+
+00:03:08.335 --> 00:03:12.600
+Reporting has to be tailored to the audience.
+
+00:03:12.600 --> 00:03:16.805
+In a court case where the jury is not technically savvy,
+
+00:03:16.805 --> 00:03:22.204
+findings should be explained in a way that are easy to understand for everyone
+
+00:03:22.204 --> 00:03:28.300
+because failure to do so could make even the most incriminating evidence ineffective.
+
+00:03:28.300 --> 00:03:32.550
+Those are the four steps in the digital forensics process.
+

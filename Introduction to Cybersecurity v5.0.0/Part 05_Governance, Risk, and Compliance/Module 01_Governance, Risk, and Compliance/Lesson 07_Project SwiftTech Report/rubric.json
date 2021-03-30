@@ -1,0 +1,343 @@
+{
+  "id": 2856,
+  "project_id": 738,
+  "upload_types": [
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|ts|gradle|xml|rst|yml|yaml|rmd|pdf|docx|h|H|hh|hxx|h\\+\\+|c|C|cc|cpp|cxx|c\\+\\+)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "1.  Reference control frameworks -  As you make decisions about which compliance or control frameworks you would use, make sure to include that information as you answer other related questions in the project.\n2.  Rely on information that you covered or learned in class - There are many “best practices” available online but take the information in this project as it is presented and try not to rely on what you may have heard or read as a “best practice” elsewhere.\n",
+  "hide_criteria": false,
+  "created_at": "2020-06-12T16:38:41.474Z",
+  "updated_at": "2020-08-20T19:58:25.570Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd545-beta",
+    "nd545",
+    "nd545-ent"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 6126,
+      "name": "Submission Phase",
+      "created_at": "2020-06-12T16:41:42.167Z",
+      "updated_at": "2020-06-12T16:42:08.224Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17543,
+          "section_id": 6126,
+          "passed_description": "The presentation contains 10 total pages.  The first 5 pages are project content provided to the student to assist in completion of the project.  The final 5 pages contain student content created for this project.\n\nPage 6 will contain an explanatory paragraph related to the security posture of a fictional organization.\n\nPage 7 will contain a list of 2 or 3 security standards that the student used in preparing the remaining project content.\n\nPage 8 and page 9 (optional) will contain statements about risks / control objectives  made on page 2 of this presentation and whether the statements align with controls objectives the student selected on Page 7.  \n\nPage 10 will include a list of 3 statements or short paragraphs depicting a process for assessing controls necessary to meet certain security control objectives.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-12T16:42:08.543Z",
+          "updated_at": "2020-06-16T15:14:51.298Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Uploaded a presentation file for review.",
+          "exceedable": false
+        },
+        {
+          "id": 17573,
+          "section_id": 6126,
+          "passed_description": "\nThe spreadsheet should contain two tabs.  The primary tab contains the students risk assessment of security control objectives.  The second tab is cell data provided to the student in order to complete the project.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:14:57.342Z",
+          "updated_at": "2020-06-16T15:15:25.298Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The student has uploaded a spreadsheet for review.",
+          "exceedable": false
+        },
+        {
+          "id": 17574,
+          "section_id": 6126,
+          "passed_description": "\nThe document is an Information security policy for a fictional organization modified to include security control objectives identified throughout the remainder of this project.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:15:30.641Z",
+          "updated_at": "2020-06-16T15:16:05.444Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "The student has uploaded a document file for review.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6127,
+      "name": "Security Posture",
+      "created_at": "2020-06-12T16:42:11.965Z",
+      "updated_at": "2020-06-12T16:42:26.861Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17575,
+          "section_id": 6127,
+          "passed_description": "Makes a correct determinative statement about the organizations likely risk posture.\n\n\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:16:25.311Z",
+          "updated_at": "2020-06-16T15:18:14.728Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Make a determination as to the organization’s likely risk posture.\n",
+          "exceedable": false
+        },
+        {
+          "id": 17576,
+          "section_id": 6127,
+          "passed_description": "Cites specific information from the fictional company’s description to support their risk posture decision.\n\nFor example:  The organization is likely Risk Accepting because their success hinges on the ability to innovate and fail fast.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:18:19.839Z",
+          "updated_at": "2020-06-16T15:19:01.090Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Recognize unique organizational factors that influence risk posture and decision making.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6128,
+      "name": "Relevant Frameworks",
+      "created_at": "2020-06-12T16:42:27.184Z",
+      "updated_at": "2020-06-12T16:42:41.440Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17577,
+          "section_id": 6128,
+          "passed_description": "Must list two or three valid security control or risk frameworks.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:20:09.159Z",
+          "updated_at": "2020-06-16T15:21:03.102Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "List security / security control frameworks.",
+          "exceedable": false
+        },
+        {
+          "id": 17578,
+          "section_id": 6128,
+          "passed_description": "Selected frameworks relevant to the organization based on information provided to the student related to the organization's overall goals.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:21:06.545Z",
+          "updated_at": "2020-06-16T15:22:26.458Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Select relevant frameworks based on GRC goals.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6129,
+      "name": "Audit Against Frameworks",
+      "created_at": "2020-06-12T16:42:41.778Z",
+      "updated_at": "2020-06-12T16:43:02.721Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17579,
+          "section_id": 6129,
+          "passed_description": "For every control described on page 2 of the provided presentation document, create a list item and an assessment of the control.  That list should be reflected on pages 8 and 9 (optional) in the presentation document.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:23:12.593Z",
+          "updated_at": "2020-06-16T15:23:53.986Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Create a list of controls and control assessments.",
+          "exceedable": false
+        },
+        {
+          "id": 17580,
+          "section_id": 6129,
+          "passed_description": "Selected the correct frameworks and has provided direction to incorporate guidance provided in the sample MSA. \n\nAssessments of control statements should come from 1 of the 3 relevant frameworks or from the MSA.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:23:54.247Z",
+          "updated_at": "2020-06-16T15:26:19.656Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Align control assessment statements with selected control frameworks.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6130,
+      "name": "Risk Assessment",
+      "created_at": "2020-06-12T16:43:03.070Z",
+      "updated_at": "2020-06-12T16:43:18.158Z",
+      "deleted_at": null,
+      "position": 4,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17581,
+          "section_id": 6130,
+          "passed_description": "Provided answers in each cell of the provided risk assessment spreadsheet.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:26:33.845Z",
+          "updated_at": "2020-06-16T15:27:50.950Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Complete provided risk assessment template.",
+          "exceedable": false
+        },
+        {
+          "id": 17582,
+          "section_id": 6130,
+          "passed_description": "Suggested controls or control statements provided in the risk assessment spreadsheet are taken directly from Page 2 of the provided presentation document.  Created risk statements that might be derived from the control statements.  \n\nFor instance, if an organization only requires 2 character passwords, a logical risk might be that “there is a risk of password guessing” and therefore the ability for bad actors to access systems using stolen credentials.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:27:51.188Z",
+          "updated_at": "2020-06-16T15:28:45.862Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Align risk statements with the provided controls.",
+          "exceedable": false
+        },
+        {
+          "id": 17583,
+          "section_id": 6130,
+          "passed_description": "Assessed the likelihood and impact that the risk might actually occur. Described reasoning and provided an overall risk score (likelihood x impact).  \n\nRisk score reasoning should approximately align to the assessed likelihood and impact scores.  If, for instance, you assesses the likelihood and impact of a risk as “high”, the reasoning should indicate factors that make the risk of high consequence.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:28:56.882Z",
+          "updated_at": "2020-06-16T15:30:18.342Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Create reasonable assertions about levels of risk.\n",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6131,
+      "name": "Security Policy Development",
+      "created_at": "2020-06-12T16:43:18.473Z",
+      "updated_at": "2020-06-12T16:43:30.817Z",
+      "deleted_at": null,
+      "position": 5,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17584,
+          "section_id": 6131,
+          "passed_description": "Create policy statements that relate to information provided on page 2 of the presentation document.  Policy sections should include:\n\nData storage\nEnd user management\nNetwork controls\nVulnerability and patch management\nCode scanning\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:30:25.387Z",
+          "updated_at": "2020-06-16T15:31:04.430Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Create policy sections and short statements or paragraphs for relevant compliance headings.  ",
+          "exceedable": false
+        },
+        {
+          "id": 17585,
+          "section_id": 6131,
+          "passed_description": "Each policy statement says what the organization will or shall do.  Statements that include passive words like may, should, might, or can are not appropriate for most simple policy language.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:31:07.605Z",
+          "updated_at": "2020-06-16T15:32:04.845Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Create statements that are not permissive.\n",
+          "exceedable": false
+        },
+        {
+          "id": 17586,
+          "section_id": 6131,
+          "passed_description": "Each policy statement should clearly express what the organization will or shall do.  Each section should contain statements about what the organization will do based on prior work from the audit against frameworks section (Section 4.).  \n\nFor instance, if you believe that passwords should expire every 90 days, you should say that “passwords shall expire every 90 days”.",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:32:09.560Z",
+          "updated_at": "2020-06-16T15:33:34.896Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Relate statements to previous work in the audit against frameworks section. ",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 6132,
+      "name": "Governance ",
+      "created_at": "2020-06-12T16:43:31.241Z",
+      "updated_at": "2020-06-12T16:45:29.626Z",
+      "deleted_at": null,
+      "position": 6,
+      "rubric_id": 2856,
+      "rubric_items": [
+        {
+          "id": 17544,
+          "section_id": 6132,
+          "passed_description": "1. Created three control assessment statements that pertain directly to the end-user management controls provided on slide 2 of the presentation document.  \n\n2. Each statement should create a logical mechanism (such as reporting or testing) to ensure that controls are working as expected.  Each statement should also provide a time element that clearly explains how frequently the assessment mechanism should be run.  \n\n3. In Section 4, you are asked to audit existing controls against selected control frameworks.  Any assessment statements should be congruent with those assessments - meaning that the measurement mechanism is performed at a specific level or time schedule.\n\nFor instance, if you believe that password changes should occur every 90 days, the assessment mechanism should occur every 90 days on a schedule that would detect password changes that occur outside of the 90 day period.\n",
+          "exceeded_description": null,
+          "created_at": "2020-06-12T16:45:29.923Z",
+          "updated_at": "2020-06-16T15:37:06.217Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Create control assessment statements that are: \n\n1. Capable of effectively measuring provided end- user management controls. \n2. Congruent with control assessments. ",
+          "exceedable": false
+        },
+        {
+          "id": 17588,
+          "section_id": 6132,
+          "passed_description": "",
+          "exceeded_description": null,
+          "created_at": "2020-06-16T15:34:49.786Z",
+          "updated_at": "2020-06-16T15:34:49.786Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 738,
+    "name": "SwiftTech Report",
+    "nanodegree_key": "nd545",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 13,
+    "created_at": "2020-06-18T22:36:04.442Z",
+    "updated_at": "2021-03-29T22:07:03.974Z",
+    "price": "10.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

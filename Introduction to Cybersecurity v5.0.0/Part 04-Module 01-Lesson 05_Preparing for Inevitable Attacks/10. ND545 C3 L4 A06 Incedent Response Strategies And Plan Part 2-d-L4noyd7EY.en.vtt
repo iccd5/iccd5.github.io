@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.590
+I found myself in a situation early in my career where I got
+
+00:00:04.590 --> 00:00:09.870
+a notification that looked like a potential indicator of compromise.
+
+00:00:09.870 --> 00:00:16.200
+An application system went offline and users couldn't access it for a few hours,
+
+00:00:16.200 --> 00:00:18.660
+and then it came back up all of a sudden.
+
+00:00:18.660 --> 00:00:20.985
+Now, could this be an event?
+
+00:00:20.985 --> 00:00:24.330
+Could this be an incident? I had to explore?
+
+00:00:24.330 --> 00:00:29.310
+So I had to think through possibilities and also do some research by looking through
+
+00:00:29.310 --> 00:00:34.645
+logs and detection systems and more to figure out what might be going on.
+
+00:00:34.645 --> 00:00:39.130
+Well, it turns out the system was offline for routine updates,
+
+00:00:39.130 --> 00:00:42.560
+but some users just didn't see the email,
+
+00:00:42.560 --> 00:00:45.004
+and because it's routine maintenance,
+
+00:00:45.004 --> 00:00:46.400
+it's not an incident,
+
+00:00:46.400 --> 00:00:47.735
+it's more of an event.
+
+00:00:47.735 --> 00:00:50.600
+However, if in this example,
+
+00:00:50.600 --> 00:00:55.400
+I found that it was degraded because it was being hit with fake traffic,
+
+00:00:55.400 --> 00:00:56.975
+for example or there was
+
+00:00:56.975 --> 00:01:01.115
+a sketchy process running that was eating up all of the CPU power,
+
+00:01:01.115 --> 00:01:03.445
+that could be considered an incident.
+
+00:01:03.445 --> 00:01:08.194
+So in summary, an indicator of compromise can help you distinguish
+
+00:01:08.194 --> 00:01:11.000
+an event from an incident in order to
+
+00:01:11.000 --> 00:01:15.450
+determine if you should activate your incident response plan.
+

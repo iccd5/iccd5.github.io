@@ -1,0 +1,1522 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020228,
+      "key": "ce402909-5d83-4c03-90dd-f703a9f094c1",
+      "title": "Governance",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "This lesson focuses on the role of security governance. This is what puts the “G” in GRC.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/ce402909-5d83-4c03-90dd-f703a9f094c1/1020228/1602117410629/Governance+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/ce402909-5d83-4c03-90dd-f703a9f094c1/1020228/1602117407021/Governance+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1036710,
+          "key": "a1915a89-b280-46f2-b0e4-d1e46e0c30b9",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a1915a89-b280-46f2-b0e4-d1e46e0c30b9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047124,
+              "key": "4f83739d-0563-4ec7-ad3b-765b3c7125dd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036711,
+              "key": "4ef6c6e2-c2cc-40b5-b0a6-057428cae4ea",
+              "title": "ND545 C4 L2 01 Governance Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ssWDHxfq8yI",
+                "china_cdn_id": "ssWDHxfq8yI.mp4"
+              }
+            },
+            {
+              "id": 1036713,
+              "key": "69d404d8-eafe-4737-b553-63448a8be246",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee95cec_screen-shot-2020-06-16-at-7.54.55-pm/screen-shot-2020-06-16-at-7.54.55-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/69d404d8-eafe-4737-b553-63448a8be246",
+              "caption": "",
+              "alt": "",
+              "width": 1751,
+              "height": 475,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036712,
+              "key": "e062ab0f-044d-4462-8df1-6b55c5940deb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This lesson focuses on the role of security governance.  This is what puts the “G” in GRC.\n\nTogether, we'll go over: \n- A high-level overview of what governance means to the organization\n- Then will work our way through the most important governance functions, starting with strategic thinking\n- Followed by championing security\n\nThen we’ll  spend the rest of our time talking about how governance interacts with operational security controls in:\n\n- Designing measurement\n- Measurement and reporting\n- And finally, policy and procedure management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042944,
+              "key": "4ba8ae2d-af4f-4fcb-8fd3-1eb0003ecc9a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Governance is a wide-ranging GRC role with two important functions.  First, the governance role plays a large part in creating a bridge between the organization and security.  We’ll discuss this in our Strategic Thinking, Championing Security, and Policy and Procedure Management sections.  Second, the governance role is responsible for working with operational security stakeholders to measure the effectiveness of existing security controls and remediating any deficiencies.  We’ll discuss this part of the role in Designing Measurement and Measurement and Reporting.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038336,
+          "key": "3b3d7278-ba7b-42ad-b78c-9915ae0a7ddf",
+          "title": "Governance Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3b3d7278-ba7b-42ad-b78c-9915ae0a7ddf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038665,
+              "key": "6ecbdfd5-a63c-466d-bfb0-d22694472aa1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038337,
+              "key": "69b9920e-4e98-4918-a2b1-1a1f8317bdbd",
+              "title": "ND545 C4 L2 02 Governance Big Picture Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "l_2ZJkke0sc",
+                "china_cdn_id": "l_2ZJkke0sc.mp4"
+              }
+            },
+            {
+              "id": 1042945,
+              "key": "941b944c-a762-4246-aa0e-8e50cc8ae986",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Governance professionals have a tremendous amount of opportunity to influence throughout the organization.  They are relied upon to work with business stakeholders to help align security strategy and objectives with business strategy and objectives.  They are also relied upon to work with employees throughout the organization to ensure they are kept up-to-date on security policies, procedures, and new and emerging security threats.  In this way, governance acts as a bridge between security and the organization. \n\nGovernance professionals, however, also play a vital role in ensuring security controls are operating as expected.  They do this by examining the expected control’s function and designing tests to see if the control does perform as anticipated.  Performing this function consistently can improve an organization’s security posture dramatically by fixing malfunctioning controls before a security event can occur.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027418,
+          "key": "9d509796-520d-4bba-9695-f17e060d4153",
+          "title": "Quiz: Governance Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9d509796-520d-4bba-9695-f17e060d4153",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028006,
+              "key": "52c45d46-45ae-4f37-b6a4-7cff583447f6",
+              "title": "Governance Big Picture Quiz",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "52c45d46-45ae-4f37-b6a4-7cff583447f6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following tasks might a Governance professional encounter as part of their everyday activities?  Choose all that apply.",
+                "answers": [
+                  {
+                    "id": "a1590170719856",
+                    "text": "Performing security awareness training",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590171047287",
+                    "text": "Managing risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590171055944",
+                    "text": "Assisting in setting security strategy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590171081202",
+                    "text": "Measuring effectiveness of security controls",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038340,
+          "key": "b571310a-5759-4de2-b71c-a4a6cd5901f4",
+          "title": "Strategic Thinking",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b571310a-5759-4de2-b71c-a4a6cd5901f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042946,
+              "key": "350792eb-0593-4b31-91e4-458bdb13db0e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Strategic Thinking",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038342,
+              "key": "d2ff535b-a671-4de7-ba36-f0f5b9462f88",
+              "title": "ND545 C4 L2 03 Strategic Thinking Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KsUWkuyrtDg",
+                "china_cdn_id": "KsUWkuyrtDg.mp4"
+              }
+            },
+            {
+              "id": 1042947,
+              "key": "7a7bb607-e47a-4698-808f-082ced2ed0e9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "One way that Governance professionals are able to influence is by helping align business strategy with an operational security strategy.  Maybe the best opportunity to do this is through an information security steering committee.\n\nMost security best practice handbooks will describe information security steering committees as vital to demonstrating that the organization is invested in security and aligning security with business goals.  It is.  However, many large organizations will have a structured process in place for engaging security with less frequent meetings dedicated to the topic of security.  For companies that do maintain information security steering committees, they act as a platform for the free flow of information and ideas between the business and security.  In this way, security can be informed of any new business objectives or changes to the business, and the business can be kept up-to-date about security initiatives that may require business stakeholder input, like risk management, for example.\n\nThe idea is to keep a free flow of information between the business and security to:\n\n- Align goals\n- Allow the business to provide a certain level of security oversight\n- Work with the business to set and approve policy; and\n- Keep senior leadership informed of new security risks or security challenges\n\nBecause of the level of information sharing that occurs during steering committee meetings, it’s also important to have the right level of participation.  Typically, steering committee members should be in a position to broadly influence and be strategic thinkers.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1020233,
+          "key": "ca093cd7-681f-472a-a6f7-fba85d4b50a9",
+          "title": "Exercise: Strategic Thinking ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ca093cd7-681f-472a-a6f7-fba85d4b50a9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047126,
+              "key": "ca237c38-f167-4fab-a358-d3ce64df85e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Strategic Thinking ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022597,
+              "key": "3ea055c0-db29-4deb-8cd9-00dd740842c0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Your organization, SwiftTech, has an information security steering committee to ensure that the business and security strategies align.  Next week is this month's meeting and you have been provided with information related to business strategy and current security strategy (see images below).  Please review the information and answer the scenario.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022598,
+              "key": "44978010-ed8a-4a0b-a6c3-3c376d5a9cfe",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5ec2e8b0_strategy1/strategy1.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/44978010-ed8a-4a0b-a6c3-3c376d5a9cfe",
+              "caption": "",
+              "alt": "",
+              "width": 1280,
+              "height": 720,
+              "instructor_notes": null
+            },
+            {
+              "id": 1022658,
+              "key": "f6d1f9ad-3cf1-47bf-8ac5-39b72c334ef1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f19de15_strategy2/strategy2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f6d1f9ad-3cf1-47bf-8ac5-39b72c334ef1",
+              "caption": "",
+              "alt": "Table showing the goals, strategy, and budget for cybersecurity for the year.",
+              "width": 1280,
+              "height": 720,
+              "instructor_notes": null
+            },
+            {
+              "id": 1047165,
+              "key": "4443ba77-e81f-44e3-a777-9617857bd61a",
+              "title": "Answer the following scenario: ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4443ba77-e81f-44e3-a777-9617857bd61a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "As part of this month's information security steering committee meeting you know of a proposal that will be made. The proposal is to overhaul and modernize existing network security mechanisms because several of the devices are going to be end-of-life in 12-16 months. Based on what you know about the organization's strategy what might you advise the steering committee? The committee will also want to discuss the existing cybersecurity budget. Based on what you know, what assumptions might you make about the cybersecurity budget?\n\n"
+              },
+              "answer": {
+                "text": "- The key to answering this exercise is realizing that a disconnect exists between corporate strategy and security goals.\n- Business strategy is shifting away from an on-premise mindset \n- Business is concerned with speed and agility\n- Security is heavily invested in on-premise security controls\n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038343,
+          "key": "65340bc1-e00e-40ae-9434-51effbfbb838",
+          "title": "Exercise Solution: Strategic Thinking",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "65340bc1-e00e-40ae-9434-51effbfbb838",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047167,
+              "key": "bccab3cf-319b-4685-919b-cc4d7535e875",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Strategic Thinking",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038344,
+              "key": "b9d733e2-4767-4d8d-957f-c30370727796",
+              "title": "ND545 C4 L2 04 Strategic Thinking Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sgnL35IGNhE",
+                "china_cdn_id": "sgnL35IGNhE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038345,
+          "key": "48dc6478-0bd0-48f6-8c07-a84e34996282",
+          "title": "Championing Security",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "48dc6478-0bd0-48f6-8c07-a84e34996282",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047121,
+              "key": "d8b82b8a-04bd-45f7-b459-60f67d74a0b8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Championing Security",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038347,
+              "key": "14d31722-4cc0-439c-8cb9-b96ee2315335",
+              "title": "ND545 C4 L2 05 Championing Security Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DT1FXV2u88s",
+                "china_cdn_id": "DT1FXV2u88s.mp4"
+              }
+            },
+            {
+              "id": 1042948,
+              "key": "c133ee6e-e67b-4f25-984e-af5609b4c062",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Another important governance task is championing security throughout the organization.  Because governance professionals are well-versed in the organization’s policies and procedures, they are in a great position to explain those documents to other employees, and that can be done through information security awareness training.  That type of training, however, doesn’t have to be *solely* focused on policies and procedures.  This is a great time to bring interesting content to users that can be valuable at work and at home.  For instance, you can provide live incident response training, training related to phishing emails or fraud attempts, or live hacking demonstrations.  All of these trainings help improve your organization's security posture, reduce overall risk, help protect employees, and can be part of meeting certain compliance requirements.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027419,
+          "key": "ffc58731-00f5-4afb-b7b5-34a54bafd203",
+          "title": "Quiz: Championing Security",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ffc58731-00f5-4afb-b7b5-34a54bafd203",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028008,
+              "key": "0ec7b226-a2e4-4108-b49c-44041b2ef56c",
+              "title": "Quiz:  Championing Security",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0ec7b226-a2e4-4108-b49c-44041b2ef56c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are the reasons that a Governance professional might provide security awareness training?",
+                "answers": [
+                  {
+                    "id": "a1590172111861",
+                    "text": "To meet compliance requirements",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590174144473",
+                    "text": "To reduce risk",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590174146136",
+                    "text": "Strengthen security controls",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590174149069",
+                    "text": "Protect employees",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020317,
+          "key": "c1e7dd1e-b5e5-414d-be7c-d947396dac03",
+          "title": "Exercise: Championing Security",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c1e7dd1e-b5e5-414d-be7c-d947396dac03",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047169,
+              "key": "4e66e43d-1946-4d06-9cab-dc2ca6914ef6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Championing Security",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047168,
+              "key": "912fb54e-3a7f-4e42-b89a-969ccfc41235",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "912fb54e-3a7f-4e42-b89a-969ccfc41235",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "An essential part of the Governance professional's role is to participate in end-user or employee security training efforts. Phishing campaigns are one the most highly used attacks for bad actors when attempting to infiltrate an organization. As a result, many Governance professionals spend large amounts of their time developing training exercises in an effort to defeat phishing campaigns. \n\n**In this exercise, you have been tasked with creating an email that can be sent to all of your organization's users to train them on the pitfalls of phishing. Think about what you might say in an email to corporate users about phishing and respond below.**\n\nYou should have at least *two* paragraphs in your e-mail where you: \n\n- Define phishing\n- Describe examples of phishing, what do they look like? \n- Why is it important? \n- What should you do if you suspect a phishing e-mail in your inbox? "
+              },
+              "answer": {
+                "text": "Communicating the importance of phishing is very important to ensure that all employees are aware of taking it seriously and the impact it could have on their information, as well as the company's sensitive information. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038348,
+          "key": "08b3bbb5-f21d-48de-ae1f-9290edb7d6f5",
+          "title": "Exercise Solution: Championing Security",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "08b3bbb5-f21d-48de-ae1f-9290edb7d6f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047177,
+              "key": "ea1b4970-d8d8-4d32-8a59-0919ba7a5ca5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Championing Security",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038349,
+              "key": "a18585e8-81a1-443c-b61e-93c542bf8827",
+              "title": "ND545 C4 L2 06 Championing Security Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ZRmTFHodtrk",
+                "china_cdn_id": "ZRmTFHodtrk.mp4"
+              }
+            },
+            {
+              "id": 1047178,
+              "key": "81376e7f-1e1b-4536-b77e-6805ebe4d682",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Sample E-mail Example",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047173,
+              "key": "4021f353-cdb4-4c78-8827-3f10efef0d7b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To all company associates: \n\nPhishing campaigns remain one of the most highly used techniques by bad actors seeking to gain unauthorized access to our organization and its assets.  As a reminder, phishing attempts occur when a bad actor sends email messages attempting to trick users into clicking on a malicious hyperlink or provide personal information like corporate credentials in a web form.  More often than not, these emails are made to appear as if they are coming from well-known organizations, companies our organization works with, or from colleagues. \n\nIt is important to scrutinize every email.  Often phishing emails have spelling mistakes, look slightly different in appearance, or originate come from unexpected domains but sometimes phishing emails look perfectly harmless.  So, you should also scrutinize what the email is asking you to do.  Does it seem out-of-the-ordinary?  Is it something that you wouldn't ordinarily do outside of work (e.g. send money to someone unexpectedly)?  If you receive a phishing email or just aren't sure please contact the information security department at InfoSec@domain.com.\n\nThank you,\n\nCompany Governance Professional\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047179,
+              "key": "6300f8e9-7fe5-46c0-a389-7980b7e15a06",
+              "title": "Compare",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6300f8e9-7fe5-46c0-a389-7980b7e15a06",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How did your e-mail compare to the one above? How is it different? "
+              },
+              "answer": {
+                "text": "Remember, your e-mail should have included at least these following points: \n\n- Define phishing\n- Describe examples of phishing, what do they look like?\n- Why is it important?\n- What should you do if you suspect a phishing e-mail in your inbox?",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038350,
+          "key": "7ffdde89-3198-4705-87d1-6ea691847aad",
+          "title": "Designing Measurement",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ffdde89-3198-4705-87d1-6ea691847aad",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042950,
+              "key": "304ae96f-a5a5-415c-bca6-cedeef0db89a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Designing Measurement",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038351,
+              "key": "7471de7b-900a-42a0-8e8f-014cc53a3445",
+              "title": "ND545 C4 L2 07 Designing Measurement Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qbvN4UN7J3s",
+                "china_cdn_id": "qbvN4UN7J3s.mp4"
+              }
+            },
+            {
+              "id": 1042949,
+              "key": "355d0de3-98b0-4ea5-a8d2-09d2049254a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Besides acting as a conduit between the organization and security, governance professionals play an important role in measuring the effectiveness of operational security controls.  They measure whether controls are functioning as expected.  Governance does not concern itself initially with how the control came to be --- meaning what risk management decision or compliance requirement the control is intended to address.  Governance does concern itself with the intended function of the control and whether the control meets that intent. \n\nThis is done by examining the control in function and in time.  All controls have an intended function and an intended time with which they operate.  It could be that controls are intended to operate constantly, but it could be that controls are intended to operate at specific intervals.  Take, for instance, a firewall.  The firewall may be performing a number of intended functions, but let’s look at one function.  Perhaps the firewall is meant to block any inbound other than traffic on port 443.  The time element isn’t specified, so we’ll assume it is intended to always operate in the prescribed manner.  The function is that it blocks traffic over port 443.  What if the firewall allowed traffic on ports 443 and 8080?  It might meet our time element but fails the test of function.\nThis is how governance professionals should measure control effectiveness.  Discover the control’s intended function and time and test to ensure that the control operates in that way.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027420,
+          "key": "7c10f458-86bc-4667-8d94-b703fb31877d",
+          "title": "Quiz: Designing Measurement",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7c10f458-86bc-4667-8d94-b703fb31877d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047180,
+              "key": "46a4e9f7-ef96-4d3b-9f86-53a50a99be2b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Designing Measurement",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028009,
+              "key": "ce43e428-313e-481d-9d40-490b8fc03ce4",
+              "title": "Quiz:  Designing Measurement",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ce43e428-313e-481d-9d40-490b8fc03ce4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the below might you consider when designing a measurement for a security control?",
+                "answers": [
+                  {
+                    "id": "a1590174889383",
+                    "text": "The risk the control addresses",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590175364303",
+                    "text": "Time requirements",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590175399974",
+                    "text": "The percentage of security budget used to buy this tool",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590175405146",
+                    "text": "Corporate strategy",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038352,
+          "key": "4a4c2392-aea4-422a-8fd5-07a70ef9544a",
+          "title": "Measurement and Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4a4c2392-aea4-422a-8fd5-07a70ef9544a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047116,
+              "key": "da774faf-8ecf-40c3-8064-df0a1d54da2b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Measurement and Reporting",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047185,
+              "key": "a283b8ba-31a5-4e96-b28f-e7bb45f24245",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Measurement",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038353,
+              "key": "56e9eb0f-3b2f-4d05-862b-48e48bb9c425",
+              "title": "ND545 C4 L2 08 Measurement And Reporting Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oKrqxGrovys",
+                "china_cdn_id": "oKrqxGrovys.mp4"
+              }
+            },
+            {
+              "id": 1047186,
+              "key": "c40a9929-6991-4080-b194-66e9a1e9fc68",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Reporting",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038354,
+              "key": "b40e6055-9ce9-4488-ada6-d306695bb969",
+              "title": "ND545 C4 L2 09 Measurement And Reporting Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Iio9PBiQb4c",
+                "china_cdn_id": "Iio9PBiQb4c.mp4"
+              }
+            },
+            {
+              "id": 1042951,
+              "key": "45d7a6f9-a1b8-4c35-96cb-4047183204b3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Earlier in the course, we discussed the importance of GRC in mitigating potential security breaches.  Measuring the effectiveness of controls is a critical part of that equation.  Many organizations have 100’s of security controls, and a single failure or misconfiguration can have a devastating impact.\n\nThis also means, however, that you must make decisions about how best to test controls given limited resources and limited time.  While you should measure controls in function and in time, you must also consider factors that might limit your ability to test as comprehensively as you might like.  Factors like your testing budget, the amount of time you have to test, organizational strategy, and the purpose of your test should all be taken into consideration when designing the appropriate test.\n\nControl tests can be anything that you desire limited only by the considerations we mentioned above and the need to measure for the specific function and time required by the control you plan to assess.  Keep in mind that as you assess security controls, there are certain benefits that should be produced for the organization.  Control measurement should be performed in an effort to:\n\n- Assess existing security tools\n- Improve the organization’s security posture\n- Meet certain compliance obligations\n\nIt’s important that you record each of your control measurement activities, the test performed, when the test was performed, and the outcome.  You should also use control measurement documentation to meet with internal stakeholders to develop plans of action and milestones for remediation, assuming certain controls are not functioning as anticipated.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027421,
+          "key": "c04a194e-aa65-43ed-b83b-d488cece3dcd",
+          "title": "Quiz: Measurement and Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c04a194e-aa65-43ed-b83b-d488cece3dcd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047181,
+              "key": "9f74f73a-753d-4d6d-b460-2889b6691cc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Measurement and Reporting",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028010,
+              "key": "6b288b47-a99b-453a-964f-72c5ea62d730",
+              "title": "Question 1.",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6b288b47-a99b-453a-964f-72c5ea62d730",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A compliance standard dictates that your organization requires every visitor to your office location to sign in and sign out using a visitor management log.  To assess the effectiveness of the control, previous Governance team members would review the log once a month to make sure visitors are signing in and out.  Is this an effective control measurement?",
+                "answers": [
+                  {
+                    "id": "a1590175697436",
+                    "text": "Yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590176087482",
+                    "text": "No",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028078,
+              "key": "a1202e29-30b0-4152-a9e0-9ae9f1818b3a",
+              "title": "Question 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a1202e29-30b0-4152-a9e0-9ae9f1818b3a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You have just discovered that one of your critical security controls is not functioning correctly.  You have created a report on the control and your findings which show that the control is not operating as expected.  Who should you share the report with initially?  Check all that apply?",
+                "answers": [
+                  {
+                    "id": "a1590448297296",
+                    "text": "IT Steering Committee or Risk Management Committee",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590448430705",
+                    "text": "Control owner",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590448431962",
+                    "text": "The organization's Board of Directors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590448433139",
+                    "text": "Customers",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020318,
+          "key": "ea2cc02d-bd83-4a59-9d82-07c8fc26fbb6",
+          "title": "Exercise: Measurement and Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea2cc02d-bd83-4a59-9d82-07c8fc26fbb6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047182,
+              "key": "f4c66df4-39f1-482b-b724-b14a8c504961",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Measurement and Reporting",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022353,
+              "key": "f0d05d9b-277f-4636-994e-d483baae6ea0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Answer the questions below related to control measurement and reporting deficiencies. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022357,
+              "key": "67cda503-feaa-408f-8c1c-381ad8cdc1af",
+              "title": "Question 1.",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "67cda503-feaa-408f-8c1c-381ad8cdc1af",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Your organization uses a user behavioral analytics platform to aid your security team in identifying potential threats.  What type of control is user behavior analytics?",
+                "answers": [
+                  {
+                    "id": "a1589802527113",
+                    "text": "Preventive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589802939058",
+                    "text": "Detective",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589802946813",
+                    "text": "Corrective / Responsive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589802956860",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1022358,
+              "key": "ba764f4f-1adb-4b47-b4a2-dd1b519ba2d5",
+              "title": "Question 2.",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ba764f4f-1adb-4b47-b4a2-dd1b519ba2d5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Your organization employs VLANs on its routers to ensure that users / traffic from certain parts of your network infrastructure is unable to travel to other parts of your network infrastructure.  What type of control are VLANs?",
+                "answers": [
+                  {
+                    "id": "a1589803396901",
+                    "text": "Preventive",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589803528534",
+                    "text": "Detective",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589803538184",
+                    "text": "Corrective",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589803543222",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1022354,
+              "key": "88e3081f-0a35-4cde-b403-4cccfe509c46",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "88e3081f-0a35-4cde-b403-4cccfe509c46",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Your company maintains a vulnerability management procedure which states, \"vulnerabilities will be remediated on the following schedule (High - 30 days, Medium 60 days, Low 120 days)\".  How would you design a test to ensure that the control is functioning as expected?  "
+              },
+              "answer": {
+                "text": "For this test, the procedure provides specific guidelines, and it is important that the organization meets those guidelines.  You could design a test that samples remediation tickets that may be created by the information security team to see when the vulnerability was discovered and when the ticket was closed as remediated.  Otherwise, some vulnerability management tools have robust reporting that can demonstrate when a vulnerability was initially added to the report, and when the last occurrence of the vulnerability was seen.  ",
+                "video": null
+              }
+            },
+            {
+              "id": 1022355,
+              "key": "efeb2047-a483-47a0-90e4-1ae51e39c709",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "efeb2047-a483-47a0-90e4-1ae51e39c709",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Your company has committed to updating your Information Security Policy at least 1 time annually and ensuring that it is reviewed and approved by senior leadership.  What mechanism might you use to ensure the control is working as expected?"
+              },
+              "answer": {
+                "text": "You might review the policy and look for a revision schedule at the beginning or end of the policy that shows when changes were made and when and by whom the document was approved.  If the document has a revision schedule but lacks acknowledgment of senior leadership, you may additionally look for evidence of correspondence between the policy owner and senior leadership seeking their approval of the current document version.",
+                "video": null
+              }
+            },
+            {
+              "id": 1022356,
+              "key": "78944123-9ae0-4a79-89d6-cc5721602f47",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "78944123-9ae0-4a79-89d6-cc5721602f47",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Your organization is undergoing a lot of transformation as it relates to its network infrastructure.  As a result, the information security group has created a security control to ensure that no unauthorized changes are made to any firewall rules.  Before a rule is changed or a new rule is implemented, the change must go through a change management process where each change is given formal approval.  How would you design a test to ensure that every firewall rule change or addition has gained change management approval?  Can you think of any way to automate or enhance your method?"
+              },
+              "answer": {
+                "text": "Many governance assessments can be accomplished through sampling.  In this case, it is entirely possible to accomplish the test by sampling a number of firewall rule changes and additions and comparing those changes to what was presented to and approved during the change management process.  The challenge with this approach is that sampling at a single point in time could allow gaps to occur in the future that would not be rectified until after the process was retested.  In this case, it may be possible to assess the control more frequently (daily, weekly, etc.) or automate reporting that shows firewall changes as they happen.",
+                "video": null
+              }
+            },
+            {
+              "id": 1022360,
+              "key": "ffbed915-b220-422c-9562-66f9fbb9496f",
+              "title": "Question 6.",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ffbed915-b220-422c-9562-66f9fbb9496f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following might you consider before designing a corrective action plan for an ineffective control?  Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1589805179545",
+                    "text": "Budget",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805265093",
+                    "text": "Organizational Strategy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805266603",
+                    "text": "Security Risk",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805268000",
+                    "text": "Operational Risk",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805300926",
+                    "text": "Level of effort",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805342642",
+                    "text": "Control owner input",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589805447416",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1022359,
+              "key": "fcfb9231-3d42-4376-a654-09c5d213db00",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fcfb9231-3d42-4376-a654-09c5d213db00",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Recently, you spent time assessing the effectiveness of several of your organization's cybersecurity controls.  One of the controls you assessed was your organization's full disk encryption (FDE) platform.  The platform is intended to ensure that all of your organization's laptop hard drives are encrypted.  You sampled several work order tickets for the provisioning of new laptops, and all of them showed that hard drive encryption was implemented.  You decided to go a step further and ask for a report from your laptop administrators.  The report shows that about 15% of laptops are not currently encrypted.  Is the control effective?  Are there additional questions you might ask?  What would you report about this control?"
+              },
+              "answer": {
+                "text": "This scenario showcases that it may be necessary to dig deeper than initial testing when assessing controls.  Had you decided to stop assessing after examining work order tickets, the control would appear fully effective.  In this case, we still don't know if the control is effective or not.  Strictly speaking, the control is not 100% effective given that 15% of laptops are not currently encrypted, but you may want to understand when the control was implemented.  When was the control implemented?  Of the 15% of laptops that are unencrypted, were any issued before the control was implemented?  How many were issued after?  Is there already a plan in place to bring the 15% of laptops into compliance?  Are the laptop administrators doing any additional monitoring?  I would likely report that the control isn't operating at 100%, but I would need to understand more information about the current state and risk before recommending corrective action.    ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038355,
+          "key": "49e00bdc-018a-4f04-8ba9-8424a343800d",
+          "title": "Policy and Procedure Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49e00bdc-018a-4f04-8ba9-8424a343800d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047120,
+              "key": "36895e0c-4c4f-4429-887a-f916840547a4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Policy and Procedure Management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038356,
+              "key": "82f835e0-4c9d-4c13-bc39-8e22bcde52c8",
+              "title": "ND545 C4 L2 10 Policy And Procedure Management Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WPR092Zsa24",
+                "china_cdn_id": "WPR092Zsa24.mp4"
+              }
+            },
+            {
+              "id": 1042952,
+              "key": "671de53c-6193-49f5-9b0f-f86e690b7d96",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Policies and procedures make up the backbone of successful security organizations.  Policies set organizational direction and procedures explain exactly how critical tasks are to be executed. \n\nBecause policies are intended to set direction, they have a couple of key characteristics.  First, most policies should be determinative or use determinative language.  They should use words like **shall, shall not, must, most not, or will**.  They do this to very clearly tell readers what is and is not permitted behavior.  Clearly telling readers about expected behaviors is the second characteristic.  Policies are essentially listings of permitted or un-permitted behaviors that serve as security controls themselves.  Just like a firewall is intended to block malicious traffic, policies are intended to be preventive controls telling users that certain actions are or are not allowed.\n\nProcedures, on the other hand, are meant to be tactical documents that tell employees how to perform specific tasks.  Many times, procedures are actually written by non-GRC personnel to support day-to-day activities.  What is important about procedures is that they sometimes support policy.  In fact, nearly every policy statement should have a procedure which details how to accomplish the behavior the policy wishes to enforce.  For instance, if an Information Security Policy requires that user permissions are strictly controlled, there should be a procedure as to how the organization goes about controlling those permissions.\n\nWhile non-GRC personnel often write procedures, GRC staff do write a tremendous amount of policy and write and assess policies and procedures.  When writing or assessing a policy, governance professionals should keep 4 things in mind.  Policies should be:\n\n- Clear in purpose\n- Clear in scope\n- Non-tactical and concise; and\n- Determinative\n\nLike any control, governance professionals should ensure that procedures meet the needs of a control objective in function and in time.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027422,
+          "key": "37b5b006-f652-48e3-af80-1baa78d46f8e",
+          "title": "Quiz: Policy and Procedure",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37b5b006-f652-48e3-af80-1baa78d46f8e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047183,
+              "key": "0b61bd7d-482a-4fc9-8737-2964026eb1ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Policy and Procedure",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028012,
+              "key": "3a54755e-dc38-4993-9d8f-6333b0bbefc6",
+              "title": "Question 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3a54755e-dc38-4993-9d8f-6333b0bbefc6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are examples of permissive / passive language?",
+                "answers": [
+                  {
+                    "id": "a1590176694365",
+                    "text": "Shall",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590176791660",
+                    "text": "May",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590176798346",
+                    "text": "Must",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590176802417",
+                    "text": "Can",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590176810309",
+                    "text": "Shall not",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590176822853",
+                    "text": "Might",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028011,
+              "key": "9480fdab-539b-41d3-b2c3-ac3f0860e5f7",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9480fdab-539b-41d3-b2c3-ac3f0860e5f7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Policies typically use what kind of language?",
+                "answers": [
+                  {
+                    "id": "a1590176549166",
+                    "text": "Permissive / Passive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590176575934",
+                    "text": "Determinative",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020319,
+          "key": "ea19451d-0281-4be3-af9b-ae8e284f0b75",
+          "title": "Exercise: Policy and Procedure Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea19451d-0281-4be3-af9b-ae8e284f0b75",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047184,
+              "key": "4e3b79d1-dcfa-45d8-879c-cc9f03e77b9f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Policy and Procedure Management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022362,
+              "key": "5b69ba95-98ef-4f25-8aa9-711e070721db",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Review the following end-user / acceptable use policy and answer the scenario below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022363,
+              "key": "9820f2a0-cf13-4f62-b3bf-1f863232e9d1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5ec28b7d_userpolicy/userpolicy.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9820f2a0-cf13-4f62-b3bf-1f863232e9d1",
+              "caption": "",
+              "alt": "",
+              "width": 1280,
+              "height": 720,
+              "instructor_notes": null
+            },
+            {
+              "id": 1022361,
+              "key": "bf1d908b-8780-430e-835b-0d2a2066d807",
+              "title": "Answer the following scenario:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bf1d908b-8780-430e-835b-0d2a2066d807",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "It is day one at your new job and you have been asked to review the organization's end-user / acceptable use policy in preparation for an upcoming external assessment.  Unfortunately, you can see that the policy has a number of issues right away.  To begin with, the policy doesn't have a policy statement and it isn't clear who the policy affects.  There are also some sections that are too passive or are overly detailed.  \n\n**- Write a policy statement that clearly states what the policy is for **\n\n** - Create a scope section and statement**\n\n** - Make corrections to the remaining excerpts to make the policy audit ready **"
+              },
+              "answer": {
+                "text": "- **Purpose:**  The purpose of this document is to establish what is considered to be acceptable use of all company data and information assets.\n\n- **Scope:**  This policy covers all company data, employees, contractors, or any other individual permitted to use company data or information assets.\n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038357,
+          "key": "b32724bb-db50-4198-934b-ad4503939843",
+          "title": "Exercise Solution: Policy and Procedure Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b32724bb-db50-4198-934b-ad4503939843",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1047112,
+              "key": "07f2eccc-1ff1-42e7-a77d-c41995a1974f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Policy and Procedure Management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038358,
+              "key": "d6d8d37a-d93b-4edf-be76-53ef38dac90c",
+              "title": "ND545 C4 L2 12 Policy And Procedure Management Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RIOcWO2vzZA",
+                "china_cdn_id": "RIOcWO2vzZA.mp4"
+              }
+            },
+            {
+              "id": 1047113,
+              "key": "65841b3b-4188-448d-8ad7-45e400bfb8b0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution Image",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047114,
+              "key": "7cd3083c-8ae5-4370-9a8d-162fbef68d7d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f19c8eb_icyber-c3-policy-and-procedure-management-exercise-solution/icyber-c3-policy-and-procedure-management-exercise-solution.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7cd3083c-8ae5-4370-9a8d-162fbef68d7d",
+              "caption": "",
+              "alt": "An image of the content being described in the video highlighting certain parts of the text required for the Policy and Procedure Management exercise solution",
+              "width": 1399,
+              "height": 742,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1036714,
+          "key": "dcb13f8c-2a55-4421-a041-ce226f5d9051",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dcb13f8c-2a55-4421-a041-ce226f5d9051",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038359,
+              "key": "f58016ec-5aec-44c1-85d3-cc0c28b89826",
+              "title": "ND545 C4 L2 13 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "53apT_bureU",
+                "china_cdn_id": "53apT_bureU.mp4"
+              }
+            },
+            {
+              "id": 1036716,
+              "key": "67ae3858-540f-471a-8af3-c24ff36324ef",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee95d09_screen-shot-2020-06-16-at-7.54.55-pm/screen-shot-2020-06-16-at-7.54.55-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/67ae3858-540f-471a-8af3-c24ff36324ef",
+              "caption": "",
+              "alt": "",
+              "width": 1751,
+              "height": 475,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036717,
+              "key": "d10e13c9-8f81-43a8-97e6-84571c75e858",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\nTogether, we went over: \n- A high level overview of what governance means to the organization\n- Then will work our way through the most important governance functions, starting with strategic thinking\n- Followed by championing security\n\nThen we spent the rest of our time talking about how governance interacts with operational security controls in:\n\n- Designing measurement\n- Measurement and reporting\n- And finally, policy and procedure management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1042953,
+              "key": "1a57d951-03c3-4b3d-9362-67c9edbc46da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Congratulations on completing the Governance lesson.  In this lesson, we discussed how Governance has a wide-ranging ability to influence the organization by thinking strategically and interfacing with business stakeholders during Information Security Steering Committee meetings and championing security throughout the organization through policy and procedure development and training efforts.  We also learned about the critical day-to-day responsibilities that governance professionals have in measuring the effectiveness of security controls and working with stakeholders to remediate any deficiencies the controls might have.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049363,
+              "key": "bb315ae5-b303-48ff-ad27-26e3beaa095f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

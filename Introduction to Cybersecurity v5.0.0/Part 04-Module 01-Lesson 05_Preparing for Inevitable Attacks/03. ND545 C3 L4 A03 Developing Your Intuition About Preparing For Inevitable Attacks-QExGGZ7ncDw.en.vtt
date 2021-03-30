@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.490
+Incident response is about preparing and
+
+00:00:02.490 --> 00:00:06.735
+reacting in case a threat is successfully activated.
+
+00:00:06.735 --> 00:00:08.865
+Let's remember our home example,
+
+00:00:08.865 --> 00:00:12.450
+where you left for work and your window was wide open.
+
+00:00:12.450 --> 00:00:15.915
+You come home and you realize someone's in the house,
+
+00:00:15.915 --> 00:00:21.390
+you hear rumbling upstairs which means maybe the intruder is likely still there.
+
+00:00:21.390 --> 00:00:23.265
+What do you do?
+
+00:00:23.265 --> 00:00:27.975
+Do you leave so you remain safe and then call for help?
+
+00:00:27.975 --> 00:00:30.870
+Do you go and confront the threat actor?
+
+00:00:30.870 --> 00:00:34.595
+Do you turn on your remote enabled webcam upstairs,
+
+00:00:34.595 --> 00:00:36.995
+so you have evidence of what's going on?
+
+00:00:36.995 --> 00:00:39.575
+There are so many different options and
+
+00:00:39.575 --> 00:00:44.345
+each one can make or break your ability to save your belongings,
+
+00:00:44.345 --> 00:00:47.200
+and in drastic cases save your life.
+
+00:00:47.200 --> 00:00:49.970
+Now how hard would it be to decide on
+
+00:00:49.970 --> 00:00:53.420
+those things under pressure and in the moment if you
+
+00:00:53.420 --> 00:00:56.540
+hadn't thought about it before versus if you had
+
+00:00:56.540 --> 00:00:59.825
+a clearly written plan to follow when you're being robbed,
+
+00:00:59.825 --> 00:01:02.750
+who to call, where to go for safety,
+
+00:01:02.750 --> 00:01:05.590
+how to fight back if you have no other option.
+
+00:01:05.590 --> 00:01:08.800
+The same applies in incident response.
+
+00:01:08.800 --> 00:01:15.325
+Once, I found myself in a situation where I had to deal with the ransomware incident.
+
+00:01:15.325 --> 00:01:20.600
+Now, ransomware is an attack method where the hacker essentially encrypts
+
+00:01:20.600 --> 00:01:25.840
+or locks up your data and then asks you to pay ransom in order for them to unlock it.
+
+00:01:25.840 --> 00:01:27.965
+Well, on this fateful day,
+
+00:01:27.965 --> 00:01:32.825
+someone had clicked on a phishing e-mail that included ransomware,
+
+00:01:32.825 --> 00:01:35.305
+and so it encrypted their machine.
+
+00:01:35.305 --> 00:01:38.285
+But what you may not realize about ransomware, however,
+
+00:01:38.285 --> 00:01:40.385
+is that in some cases,
+
+00:01:40.385 --> 00:01:45.380
+it will also try to encrypt any other connected machines as well.
+
+00:01:45.380 --> 00:01:49.225
+So it can take down a company's entire network.
+
+00:01:49.225 --> 00:01:51.810
+In this case, in my experience,
+
+00:01:51.810 --> 00:01:54.315
+it spread like gossip in high school.
+
+00:01:54.315 --> 00:01:58.940
+Let's just say a lot of people were locked out of important systems that day.
+
+00:01:58.940 --> 00:02:03.170
+Thankfully, I was prepared and I had a plan.
+
+00:02:03.170 --> 00:02:06.605
+By involving the right people at the right time
+
+00:02:06.605 --> 00:02:10.550
+and also having prepared in advance with backups,
+
+00:02:10.550 --> 00:02:12.139
+a few hours later,
+
+00:02:12.139 --> 00:02:14.479
+you wouldn't have known anything happened.
+
+00:02:14.479 --> 00:02:17.365
+That's the power of incident response.
+
+00:02:17.365 --> 00:02:22.100
+The truth is, bad things will happen and you have to have a plan in
+
+00:02:22.100 --> 00:02:28.590
+place before the attack occurs so that you can respond in ways that are most effective.
+

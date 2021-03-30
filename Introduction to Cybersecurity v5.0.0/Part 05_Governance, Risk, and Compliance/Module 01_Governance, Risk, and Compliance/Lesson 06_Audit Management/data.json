@@ -1,0 +1,770 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020231,
+      "key": "09437126-9bb8-4ec1-9438-4ac043835705",
+      "title": "Audit Management",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "The lesson focuses on ensuring that audits go smoothly by developing an understanding of audit management fundamentals and how GRC professionals should plan for and remediate audit results.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/09437126-9bb8-4ec1-9438-4ac043835705/1020231/1602117426021/Audit+Management+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/09437126-9bb8-4ec1-9438-4ac043835705/1020231/1602117422258/Audit+Management+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1036719,
+          "key": "caccccba-60ac-43d1-ae64-67da69cd9601",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "caccccba-60ac-43d1-ae64-67da69cd9601",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039180,
+              "key": "fde7f540-0803-4899-9373-ac1617cbbbf5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036721,
+              "key": "faf0e4a2-2358-472c-b2ab-dc05741c0c8d",
+              "title": "ND545 C4 L5 01 Audit Management Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vsi-8jwg8tw",
+                "china_cdn_id": "vsi-8jwg8tw.mp4"
+              }
+            },
+            {
+              "id": 1036722,
+              "key": "0f438692-ace4-4dba-a0ee-0f752b978ea6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee95e3e_screen-shot-2020-06-16-at-8.04.41-pm/screen-shot-2020-06-16-at-8.04.41-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0f438692-ace4-4dba-a0ee-0f752b978ea6",
+              "caption": "",
+              "alt": "",
+              "width": 689,
+              "height": 338,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036723,
+              "key": "73f529fd-8eb2-4b19-8ea7-a91a6593a8d1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this Audit Management lesson, we will cover a critical component of Security GRC practice.  The reason audit management is so critical is that uncontrolled audits can take on a life of their own and set the security agenda for organizations for an entire year.  In other words, if too many issues arise during the audit, security teams may spend significant time remediating the issues.\n\nThe lesson focuses on ensuring that audits go smoothly by developing an understanding of audit management fundamentals and how GRC professionals should plan for and remediate audit results.  \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038557,
+          "key": "f5d2a9dd-ea35-43e3-9875-11be22f36b9b",
+          "title": "Why you must manage Audits",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f5d2a9dd-ea35-43e3-9875-11be22f36b9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039181,
+              "key": "34b2633e-1f2a-47f9-a69d-ec5b2829ae65",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Why you must manage Audits",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038558,
+              "key": "90535a8a-995c-48cd-954b-0882f7c73915",
+              "title": "ND545 C4 L5 02 Big Picture Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tBNfedo-vCw",
+                "china_cdn_id": "tBNfedo-vCw.mp4"
+              }
+            },
+            {
+              "id": 1039182,
+              "key": "a1c36fb3-320a-40c6-97d2-5c403ddf11bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "While this lesson is described as audit management, we are really referring to the audit or assessment of security controls throughout the organization and those assessments might manifest in any number of ways.  Audits may be required to by specific compliance obligations to demonstrate compliance, or may be something an organization pursues to measure security controls following a breach or prior to undertaking a new compliance path.  Whether we’re discussing an audit, assessment, examination, or other that is what this lesson describes. \n\nAs a quick note, there are historical differences between certain terms for audit.\n\nAudit really means:  An evaluation of whether processes and procedures are operating as expected\n\nAssessment really means:  An evaluation of whether processes and procedures are aligned with industry standards.\n\nThere are also other terms like examination or attestation, but it is not uncommon to hear these terms used somewhat interchangeably --- especially in Security GRC circles.  This is likely due to the large number of GRC professionals that come from traditional security operations roles and don’t have a strict audit or accounting background.\n\nRegardless as to what assessments or audits may be called, they are often associated with compliance activities.  The reason is that many compliance obligations require that organizations certify their compliance --- even if that certification is not performed by a 3rd party with special credentials to certify organizations against a compliance obligation like an accounting firm, for instance.\n\nCertain compliance obligations require outside certification by an independent 3rd party like PCI-DSS or SOC2 assessments.  Other compliance obligations like customer-based or self-assessments may not require 3rd party certification but are still recognized as part of the compliance lifecycle.  Each is important because complying with and certifying that your organization complies with various obligations can help it gain customers or permit it to take part in regulated activities.\n\nThere are some audits, however, that are not necessarily part of compliance like post-breach / incident audits.  While you may be required through certain obligations to perform an independent audit following a breach, these assessments are not typically part of compliance with a given standard.  They also operate a bit differently than a compliance audit.  Compliance audits aim to ensure that an organization is following a certain standard.  Post-breach audits aim to uncover as many security flaws as possible.\n\n While there are many ways that audits or assessments manifest themselves, the goal of any audit or assessment should be that fruitful, meaningful results should come from every audit.  The role of the GRC professional is to ensure that happens by setting the organization up for success.  If assessors are presented with poor quality information, it could result in company rework where internal stakeholders must:\n- Review audit findings\n- Work together to validate the findings\n- Review the information originally provided to assessors\n- Make corrections and provide revised information to assessors to revise audit reports\n\nThis can be a lengthy process so it's important that GRC professionals facilitate audits appropriately.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038559,
+          "key": "c188c9e0-d033-4a7a-b4a1-bc36f132183f",
+          "title": "Audit Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c188c9e0-d033-4a7a-b4a1-bc36f132183f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038560,
+              "key": "937811c9-b7a4-4138-b1ed-caae5e1694ab",
+              "title": "ND545 C4 L5 03 Developing Your Intuition About Audit Management Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5QPutRIpNM0",
+                "china_cdn_id": "5QPutRIpNM0.mp4"
+              }
+            },
+            {
+              "id": 1039183,
+              "key": "9fb5465b-bf37-4afc-84c4-df05f9f4379e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Audits are designed to root our organizational failures --- whether those failures are created by not having a security mechanism in place or having one that isn’t functioning at peak efficiency.  In and of itself, that can be a scary proposition for security management and operational security teams.  For each failure, or perceived failure, security teams likely will need to perform some action. \n\nBut security audits can be incredibly beneficial to the organization.  Done correctly, they can help the organization:\n\n- Set strategic direction for IT and Security Operations teams\n- Help determine budgetary needs for the fiscal year\n- Prove compliance with a standard; or\n- Expose weakness or failure in existing controls\n\nIn this way, audits can be a blessing and a curse.\n\nNow that you understand why audits are performed, you should also understand how they operate.  Audits are performed by auditors or assessors who are hired by your organization, customers, regulatory agencies, or others to assess the state of your security operations.  They can be similar to a Governance control assessment in that assessors ask you or your organization to provide documentation or evidence that your organization has a specific security control.  For instance, the assessor may ask you to provide evidence that anti-virus software is installed on every computer.  You would need to provide some type of list, or otherwise, that demonstrates that each computer does actually have anti-virus software installed.  The assessor will then match your provided evidence against a list of control objectives that come directly from compliance obligations or otherwise.  For any control objectives that your organization fails to address properly, the assessor will create a finding. \n\nIn preparing for an audit, it's important to understand exactly what an assessor might be looking for.  There are typically a few types of audits that might be performed.  They are:\n\n- Questionnaire based assessments:  Literal questionnaires asking specific questions about your organization’s security environment.\n- Technical assessments:  Hands-on automated or manual review of certain technical control, including penetration tests, vulnerability scanning, and, etc.\n- Manual assessments or review:  A manual review of policies, procedures, or technical configurations.\n- Interviews:  Interview with stakeholders to verify that controls are operating as expected.\n- Onsite assessments:  Assessors come onsite to organization locations and perform any number of the above.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038561,
+          "key": "96843bff-4256-404a-8a30-c665ec8e1779",
+          "title": "Audit Management Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "96843bff-4256-404a-8a30-c665ec8e1779",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039185,
+              "key": "6af30df5-eebc-4b11-8ac5-10eea5134d77",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Audit Management Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038562,
+              "key": "9d5fef85-7bc3-4319-bf0b-2783d29851eb",
+              "title": "ND545 C4 L5 04 Audit Management Fundamentals Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "8fhGu_KCxTU",
+                "china_cdn_id": "8fhGu_KCxTU.mp4"
+              }
+            },
+            {
+              "id": 1039184,
+              "key": "c31cfcc9-c74b-4c5b-aa51-ce8dc6fc2894",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "GRC Professionals typically have two responsibilities related to audits.  They need to both facilitate and control it.  It’s a fine line.  On one hand, GRC professionals bear the responsibility of ethically providing relevant and factual information to assessors so that they may fairly assess the organization’s security posture.  On the other hand, they need to control the level of information and access that assessors gain so as to keep the audit focused and on track.  Otherwise, assessors may continue to follow up on areas where they have the most expertise.\n\nIn facilitating or controlling an audit, we describe this as providing the assessor with the “best accurate answer.”  Provide the best answer the GRC professional can to keep the audit moving and paint the organization in a good light while being fully truthful and addressing the question asked.\n\nFacilitating an audit and controlling it are separate skills.  To facilitate the audit, you must be able to perform a number of project-management tasks, including:\n\n- Fully understanding the scope of the assessment\n- Stay engaged throughout the assessment and ask questions if you’re unsure of what the assessor is looking for\n- Assist the assessor in gaining access to the right stakeholders\n- Provide evidence that effectively answers assessment questions\n\nPerhaps the best way to approach both facilitating and controlling an audit is to make a checklist so that you can establish a repeatable process within the organization and with assessors.  This way, you can learn from each assessment and adjust your checklist as necessary to capture new tasks that you want to include in every audit.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027442,
+          "key": "7e310254-c466-4bae-ad8a-0b1b23e3c888",
+          "title": "Quiz: Audit Management Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7e310254-c466-4bae-ad8a-0b1b23e3c888",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028067,
+              "key": "24682047-04ba-4868-8db5-c67b01b78337",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "24682047-04ba-4868-8db5-c67b01b78337",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the most important part of audit management?",
+                "answers": [
+                  {
+                    "id": "a1590441481911",
+                    "text": "Delivering results to stakeholders",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590441507791",
+                    "text": "Facilitating evidence and time with stakeholders",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590441553654",
+                    "text": "Following up on remediation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590441581921",
+                    "text": "Scheduling the assessment at non-peak times",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028068,
+              "key": "06b2dbd3-3acd-496d-a139-80980a172bba",
+              "title": "Question 2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "06b2dbd3-3acd-496d-a139-80980a172bba",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "During an onsite assessment, an assessor asks your to provide evidence that the network is segmented in such a way that development environments are segmented from production environments.  You provide a network diagram but the assessor is not convinced.  What else might you do?  Choose the best answer(s).",
+                "answers": [
+                  {
+                    "id": "a1590441656730",
+                    "text": "Offer a conversation with a network engineer",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590442029773",
+                    "text": "Offer to provide router configurations",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590442047321",
+                    "text": "Ask the assesor what they might accept as additional evidence",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590442065100",
+                    "text": "Allow the assessor to create a finding and put together a remediation plan after the assessment.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020327,
+          "key": "a53ddd78-187d-4303-a6b7-365dd3da5eba",
+          "title": "Exercise: Audit Management Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a53ddd78-187d-4303-a6b7-365dd3da5eba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1021479,
+              "key": "dfba5b78-7d03-443b-a21c-508f124bad22",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this exercise, you will review a pre-audit letter and develop a checklist to keep yourself on track while working without outside assessors / auditors to complete an assessment of your corporate cybersecurity controls.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1022365,
+              "key": "2a555dae-40fe-448d-bd39-f748a131890d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5ec2aa8a_auditletter/auditletter.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2a555dae-40fe-448d-bd39-f748a131890d",
+              "caption": "",
+              "alt": "",
+              "width": 1280,
+              "height": 720,
+              "instructor_notes": null
+            },
+            {
+              "id": 1021482,
+              "key": "0ab24f47-0817-4efa-9920-c18534f7c59c",
+              "title": "Answer the scenario below:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0ab24f47-0817-4efa-9920-c18534f7c59c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Review the letter above, think about the resources that you might need to complete this assessment, and create an audit management checklist."
+              },
+              "answer": {
+                "text": "See the video explanation and sample audit checklist.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038563,
+          "key": "0be44345-b6be-4a9a-a110-a6feab2f424e",
+          "title": "Exercise Solution: Audit Management Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0be44345-b6be-4a9a-a110-a6feab2f424e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038564,
+              "key": "654fde1b-4cd5-4ea9-bd53-11a72f128618",
+              "title": "ND545 C4 L5 05 Audit Management Fundamentals Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4xsJ771r_H4",
+                "china_cdn_id": "4xsJ771r_H4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038565,
+          "key": "98317d9c-b631-4849-aae7-c50f4018d2d7",
+          "title": "Follow Up and Remediation Plans",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "98317d9c-b631-4849-aae7-c50f4018d2d7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039186,
+              "key": "8cdac687-4a9a-49bf-9d36-831a8588f495",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Follow Up and Remediation Plans",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038566,
+              "key": "e4e16c24-c5d7-421b-908c-53c017ae172c",
+              "title": "ND545 C4 L5 06 Follow-Up And Remediation Plans Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UdLtOhNwuwk",
+                "china_cdn_id": "UdLtOhNwuwk.mp4"
+              }
+            },
+            {
+              "id": 1039187,
+              "key": "7fe355a9-89b0-4f6a-aab8-6f886873540b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Earlier, we described the audit work product as findings.  After each audit, your assessor should provide the organization with a list of findings --- items that did not comply with the assessor’s expectations.  At a minimum, these findings should also include a general assessment of the organizational risk, and recommended plans of action.\n\nOnce received, it’s up to your organization’s GRC professionals to manage the findings, and there are two critical tasks that should be undertaken.  First, the organization should respond to each finding.  You can do this by creating a management response which lists each finding, and provides a high-level overview as to whether you agree, disagree, or partially agree with the finding, the assessor’s view or risk, and/or the assessor’s recommended remediation plans.  If you disagree, or partially agree, you should also state your reasons for doing so.  Second, each management response should be recorded and used to create plans of action and milestones (POAMs) for remediation of any items the organization plans to address.  These POAMs operate as previously discussed in other lessons. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1027443,
+          "key": "93430295-016a-4489-a173-36227313acff",
+          "title": "Quiz: Follow-up and Remediation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "93430295-016a-4489-a173-36227313acff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028069,
+              "key": "4a6a62e7-455e-4d6b-8993-d955842cf85d",
+              "title": "Question 1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4a6a62e7-455e-4d6b-8993-d955842cf85d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following should you consider in setting project timelines for remediation activities?  Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1590443695233",
+                    "text": "Opinion of IT Stakeholders",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590443737519",
+                    "text": "Opinion of Business Stakeholders",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590443758568",
+                    "text": "Opinion of certain Assessors",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590443779510",
+                    "text": "Business Strategy",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028070,
+              "key": "6b9def74-37ba-4306-a86c-1bd73ba2649e",
+              "title": "Question 2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6b9def74-37ba-4306-a86c-1bd73ba2649e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "A assessor has provided the following finding:  \"20 windows based computers are missing critical patches\".  What might be your first step in planning to remediate the finding?  Answer below."
+              },
+              "answer": {
+                "text": "If not already, I would likely ask the assessor to provide a list of the computers by IP or computer name along with a list of the missing patches.  Any assessor should be able to provide these results as part a final assessment report.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020328,
+          "key": "5c3e9412-b069-426f-be05-736e8b48d6f9",
+          "title": "Exercise: Remediation Plans",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c3e9412-b069-426f-be05-736e8b48d6f9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028107,
+              "key": "b5d38cd5-47f1-4659-b4f8-dd80b4d72070",
+              "title": "Question 1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b5d38cd5-47f1-4659-b4f8-dd80b4d72070",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "An assessor has recommended that you address a critical finding in the next 15 days. The finding states that your customer facing application allows cross-site scripting (XSS) which is a vulnerability listed on the OWASP top 10.  Briefly explain the steps you might take to create a remediation plan."
+              },
+              "answer": {
+                "text": "If I didn't have the information already, I would ask the assessor for detailed information as to where the vulnerability might be found.  I would also, if I didn't already know what XSS was or how to fix it, look up the vulnerability to find as much detail as necessary for me to clearly explain the issue, why it is important to fix, where to find the issue, and how to fix it (in general terms).  I would then ask the associated stakeholders if 15 days is enough time to fix the issue as recommended or if it is technically feasible.  If for any reason the recommended remediation cannot be applied within 15 days I would ask the stakeholders to provide details on either a) when the remediation might be applied or b) a proposed mitigating control.  Once agreed, I would work with the stakeholders to develop milestones and schedule check-in meetings to ensure everything stays on track.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038567,
+          "key": "d0dcd4f3-65eb-4952-a8cd-29dd04c00ff9",
+          "title": "Exercise Solution: Follow-Up and Remediation Plan",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d0dcd4f3-65eb-4952-a8cd-29dd04c00ff9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038568,
+              "key": "a9333ef3-87b2-40fa-a9b2-b883248cbf5d",
+              "title": "ND545 C4 L5 07 Remediation Plans Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CrhAODfA-d8",
+                "china_cdn_id": "CrhAODfA-d8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1036720,
+          "key": "28cbf357-b471-47ee-a68a-f099e6d7174b",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28cbf357-b471-47ee-a68a-f099e6d7174b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1036724,
+              "key": "e3eaea59-8419-4916-b9c4-db6a1f50be9c",
+              "title": "ND545 C4 L5 08 Lesson Conclusion Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oZUCxslXGpc",
+                "china_cdn_id": "oZUCxslXGpc.mp4"
+              }
+            },
+            {
+              "id": 1036725,
+              "key": "823cd17d-2261-4cd2-a661-10ff9f77977c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee95e78_screen-shot-2020-06-16-at-8.04.41-pm/screen-shot-2020-06-16-at-8.04.41-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/823cd17d-2261-4cd2-a661-10ff9f77977c",
+              "caption": "",
+              "alt": "",
+              "width": 689,
+              "height": 338,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036726,
+              "key": "c0df5156-b07b-42dd-81bc-567f6c3e17b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You made it to the end of the lesson! We covered:\n\n- Audit Management Fundamentals\n- Follow-Up and Remediation Plans\n\nWe discussed the goals of audits and assessments, learned how they are conducted, and the importance of guiding audits for every organization to maximize their usefulness.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049360,
+              "key": "38eb0af0-0d5d-4488-8451-da1618b46c17",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038569,
+          "key": "bb386bed-4fd5-47d3-82e5-44189c2633a3",
+          "title": "Course Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bb386bed-4fd5-47d3-82e5-44189c2633a3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039189,
+              "key": "55ccc94a-aae8-404d-9a90-febf41505bc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038570,
+              "key": "811f1f84-d4ba-4b94-b63f-1d660e9439bb",
+              "title": "ND545 C4 L5 09 Recap Of Course Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "arqVzfYlegQ",
+                "china_cdn_id": "arqVzfYlegQ.mp4"
+              }
+            },
+            {
+              "id": 1039188,
+              "key": "af267a93-c38f-4853-a2b3-f4fdf7e787d5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this course, we covered Governance, Risk, and Compliance as it relates to cybersecurity. We did that by looking at an overview of GRC and the evolution of traditional GRC vs. security GRC, defining security GRC, and examining how GRC relationships interrelate with one another and with the organization. Then, we turned our attention to examining the individual GRC functions and the critical task of audit management.\n\nIn the Governance lesson, we demonstrated how Governance professionals act as a bridge between cybersecurity and the rest of the organization by helping to align security strategy with organizational strategy and by championing security throughout.  We then focused on the day-to-day focus of Governance --- designing, measuring, and reporting on the effectiveness of cybersecurity controls and working with stakeholders to remediate any gaps between the perceived function of a control and its actual performance.\n\nIn the Risk lesson, we learned that while risk management has its roots in mathematical principles, the bulk of security risk management is performed by making rough assessments of risk based on the risk professional’s knowledge of business operations and security.  We additionally discussed how risk management operates in most organizations today by demonstrating how risk managers leverage risk management frameworks like NIST RMF and FAIR as a guide to craft internal risk assessments and strengthen controls.  Finally, we discussed the importance of customizing risk assessment and how GRC professionals can craft or find appropriate risk statements.\n\nIn the Compliance lesson, we discussed what a compliance obligation is and what the control objectives are within that obligation.  Additionally, we discussed the three ways that organizations typically attach themselves to a compliance obligation and talked about the important job that governance professionals do ensuring that the organization meets its compliance objectives.  Finally, we discussed how compliance professionals execute on their role by evaluating control objectives and assessing operational security measures against those objectives.\n\nFinally, in the Audit Management lesson, we discussed the goals of audits and assessments, how they are conducted, and the importance of guiding audits for every organization to maximize their usefulness.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038571,
+          "key": "378656cf-01b3-4a0f-84be-9fc06c888e5f",
+          "title": "Congratulations!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "378656cf-01b3-4a0f-84be-9fc06c888e5f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1039191,
+              "key": "6bc40a8a-7cb3-4bb6-848a-64ccc1c12969",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Congratulations!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038572,
+              "key": "68c2cb66-e28c-44ae-8eb3-b9a258b510f8",
+              "title": "ND545 C4 L5 10 Congratulations",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "m7dE7n4j4Pk",
+                "china_cdn_id": "m7dE7n4j4Pk.mp4"
+              }
+            },
+            {
+              "id": 1039190,
+              "key": "a560707f-737d-4d0c-9531-4a9c74fdd764",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Congratulations on finishing this course!  You should be very proud of the time you’ve invested and what you’ve learned throughout your journey.  Good luck as you continue your cybersecurity and GRC journey!",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

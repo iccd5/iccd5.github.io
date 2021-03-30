@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.090
+Now that we've identified where incident response
+
+00:00:03.090 --> 00:00:05.940
+falls into the contingency planning process,
+
+00:00:05.940 --> 00:00:07.515
+let's dig into that more.
+
+00:00:07.515 --> 00:00:11.100
+Now, the incident response process has several phases.
+
+00:00:11.100 --> 00:00:15.705
+Those phases are preparation, detection and analysis,
+
+00:00:15.705 --> 00:00:18.645
+containment, eradication and recovery,
+
+00:00:18.645 --> 00:00:21.495
+and finally, post incident activity.
+
+00:00:21.495 --> 00:00:24.510
+The first phase, preparation,
+
+00:00:24.510 --> 00:00:28.500
+involves building and training an incident response team.
+
+00:00:28.500 --> 00:00:31.730
+It also includes gathering the right tools and
+
+00:00:31.730 --> 00:00:35.735
+resources to adequately respond to incidents.
+
+00:00:35.735 --> 00:00:40.460
+During preparation, the organization works to mitigate risk and
+
+00:00:40.460 --> 00:00:45.725
+reduce the number of incidents that may occur by implementing security controls as well.
+
+00:00:45.725 --> 00:00:52.265
+Either way, some residual risk will continue to exist after controls are implemented,
+
+00:00:52.265 --> 00:00:56.420
+which is why incident response preparation is so important.
+
+00:00:56.420 --> 00:00:59.630
+Being able to detect and analyze incidence,
+
+00:00:59.630 --> 00:01:01.040
+which is the next phase,
+
+00:01:01.040 --> 00:01:04.280
+is a necessary step in order to fully understand
+
+00:01:04.280 --> 00:01:09.860
+the incident and alert the appropriate context whenever the incident occurs.
+
+00:01:09.860 --> 00:01:12.769
+This step is critical because in reality,
+
+00:01:12.769 --> 00:01:15.185
+it can take companies days, months,
+
+00:01:15.185 --> 00:01:18.545
+and sometimes years to detect an incident.
+
+00:01:18.545 --> 00:01:20.840
+Based on the severity of the incident,
+
+00:01:20.840 --> 00:01:23.780
+the organization can mitigate impact by
+
+00:01:23.780 --> 00:01:28.645
+containing and addressing the incident and ultimately recovering from it.
+
+00:01:28.645 --> 00:01:32.585
+During this phase, sometimes it creates a loop
+
+00:01:32.585 --> 00:01:36.440
+between containment and detection and analysis.
+
+00:01:36.440 --> 00:01:39.965
+For example, with the way malware can spread quickly,
+
+00:01:39.965 --> 00:01:44.840
+you may find that as you remove it and work to recover in one area,
+
+00:01:44.840 --> 00:01:49.685
+it gets discovered in another and the process starts again.
+
+00:01:49.685 --> 00:01:56.175
+After the incident is contained and recovery is well underway or complete,
+
+00:01:56.175 --> 00:01:59.330
+the organization creates reports that include
+
+00:01:59.330 --> 00:02:03.335
+information on the cause and financial impact of the incident,
+
+00:02:03.335 --> 00:02:08.585
+as well as lessons learned and steps the company can take to avoid future incidence.
+
+00:02:08.585 --> 00:02:13.520
+The entire incident response life cycle requires support and input
+
+00:02:13.520 --> 00:02:19.300
+from various key players within an organization to make it work effectively.
+
+00:02:19.300 --> 00:02:23.045
+There's usually a dedicated incident response team
+
+00:02:23.045 --> 00:02:26.075
+that includes representatives from various groups.
+
+00:02:26.075 --> 00:02:28.910
+The main planning in orchestration responsibility
+
+00:02:28.910 --> 00:02:32.060
+typically lies with the cyber security staff.
+
+00:02:32.060 --> 00:02:34.310
+These are the people, for example,
+
+00:02:34.310 --> 00:02:39.080
+who manage the cyber security incident detection technology and other resources.
+
+00:02:39.080 --> 00:02:43.009
+The management team establishes incident response policy,
+
+00:02:43.009 --> 00:02:49.210
+budget and staffing, which are fundamental pieces in the incident response team process.
+
+00:02:49.210 --> 00:02:54.980
+Next, IT support may also be needed during certain stages of incident handling.
+
+00:02:54.980 --> 00:02:59.045
+For example, to change firewall rules in the middle of an incident.
+
+00:02:59.045 --> 00:03:01.910
+Also, legal experts can help,
+
+00:03:01.910 --> 00:03:06.590
+especially in an incident where there might be legal ramifications,
+
+00:03:06.590 --> 00:03:12.365
+including evidence collection, prosecution of a suspect or other matters.
+
+00:03:12.365 --> 00:03:16.280
+Digital forensics experts are also another element here,
+
+00:03:16.280 --> 00:03:18.325
+and we'll talk about that a little more later.
+
+00:03:18.325 --> 00:03:22.070
+Next, depending on the magnitude and impact of the incident,
+
+00:03:22.070 --> 00:03:25.940
+you might need public affairs and media relations resources
+
+00:03:25.940 --> 00:03:30.790
+to inform the media and by extension, the public.
+
+00:03:30.790 --> 00:03:34.340
+You could also need HR involvement if, for example,
+
+00:03:34.340 --> 00:03:36.920
+you're dealing with a malicious insider who needs
+
+00:03:36.920 --> 00:03:39.905
+to be reprimanded or potentially terminated.
+
+00:03:39.905 --> 00:03:41.935
+The list goes on and on.
+
+00:03:41.935 --> 00:03:45.200
+But the bottom line is that when you're dealing with incident response,
+
+00:03:45.200 --> 00:03:46.930
+it truly takes a village.
+
+00:03:46.930 --> 00:03:49.580
+The incident response life cycle can require
+
+00:03:49.580 --> 00:03:52.820
+support from people outside of the organization as well,
+
+00:03:52.820 --> 00:03:55.400
+such as law enforcement agencies,
+
+00:03:55.400 --> 00:03:59.870
+Internet service providers, support vendors and more.
+
+00:03:59.870 --> 00:04:02.900
+For example, if you're experiencing a denial of
+
+00:04:02.900 --> 00:04:06.980
+service incident where you are being flooded with fake traffic,
+
+00:04:06.980 --> 00:04:10.160
+you may contact your Internet service provider to
+
+00:04:10.160 --> 00:04:13.780
+block that traffic and slow or stop the incident.
+
+00:04:13.780 --> 00:04:17.554
+Another example, if you're dealing with a cyber terrorist,
+
+00:04:17.554 --> 00:04:21.290
+you may need to get law enforcement or the FBI involved.
+
+00:04:21.290 --> 00:04:24.255
+Or if you're dealing with a zero-day exploit,
+
+00:04:24.255 --> 00:04:29.185
+you may work with your vendor or your support team to address the issue.
+
+00:04:29.185 --> 00:04:31.850
+The last example I'll share is that there are
+
+00:04:31.850 --> 00:04:34.730
+trusted information sharing organizations that
+
+00:04:34.730 --> 00:04:38.150
+incident response teams participate in so that they can learn from
+
+00:04:38.150 --> 00:04:42.025
+each other about the latest attack attempts and trends.
+
+00:04:42.025 --> 00:04:47.240
+The incident response team should document all of this contact information and all of
+
+00:04:47.240 --> 00:04:50.390
+these exchanges with external parties to make sure that you're
+
+00:04:50.390 --> 00:04:54.570
+covered from a liability standpoint and also as evidence.
+
