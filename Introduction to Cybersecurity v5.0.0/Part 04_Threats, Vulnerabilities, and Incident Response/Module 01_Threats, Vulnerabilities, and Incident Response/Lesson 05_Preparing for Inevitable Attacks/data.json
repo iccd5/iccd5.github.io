@@ -1,0 +1,1320 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020299,
+      "key": "38d597a4-5db1-4a09-aaca-1138be11704e",
+      "title": "Preparing for Inevitable Attacks",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Finally, we're going to cover incidents and recovery, events and incidents, the response lifecycle, and roles and response plans. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/38d597a4-5db1-4a09-aaca-1138be11704e/1020299/1602117358910/Preparing+for+Inevitable+Attacks+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/38d597a4-5db1-4a09-aaca-1138be11704e/1020299/1602117355233/Preparing+for+Inevitable+Attacks+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1035318,
+          "key": "80f7f7b7-5268-474e-b87c-92935265a298",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "80f7f7b7-5268-474e-b87c-92935265a298",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035321,
+              "key": "4184a7ea-c348-4a3c-b8a2-25b637eb71d9",
+              "title": "ND545 C3 L4 A01 Introduction To Preparing For Inevitable Attacks V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wkdX4onUTq0",
+                "china_cdn_id": "wkdX4onUTq0.mp4"
+              }
+            },
+            {
+              "id": 1035322,
+              "key": "3f4dc099-f3cd-4ab9-ad02-8b263e61c0e7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee03eba_screen-shot-2020-06-09-at-9.59.43-pm/screen-shot-2020-06-09-at-9.59.43-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3f4dc099-f3cd-4ab9-ad02-8b263e61c0e7",
+              "caption": "",
+              "alt": "",
+              "width": 2020,
+              "height": 608,
+              "instructor_notes": null
+            },
+            {
+              "id": 1035320,
+              "key": "53e689f6-b610-4c2a-95ca-6d800ff9c5bb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By the end of this lesson you’ll be able to:\n\n- Explain the relationship between incident response, disaster recovery and business continuity\n\n- Distinguish events from incidents and recognize indicators of compromise\n\n- Explain the incident response lifecycle\n\n- Recognize the key incident response team roles and core components of an incident response plan\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038301,
+          "key": "97679fc9-033a-46e4-bf39-0a05132d0466",
+          "title": "Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "97679fc9-033a-46e4-bf39-0a05132d0466",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048539,
+              "key": "daeb7756-3355-49f4-90c0-c5852ad0d79d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038302,
+              "key": "48d80f4a-3632-451a-972b-1a3f6f811b33",
+              "title": "ND545 C3 L4 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dBksVPtq_oc",
+                "china_cdn_id": "dBksVPtq_oc.mp4"
+              }
+            },
+            {
+              "id": 1038876,
+              "key": "48397559-51d7-4ac5-82cd-34bad514526d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It's impossible to find every vulnerability and prevent every threat. Fully preparing for the war against cyber threats means you must be prepared to respond when an attack happens. How you respond to attacks can make or break your company's reputation, financial posture, compliance status, and more.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038303,
+          "key": "3322ff66-c937-4c70-b8ce-e50d15063b8d",
+          "title": "Preparing for Attacks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3322ff66-c937-4c70-b8ce-e50d15063b8d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038878,
+              "key": "49d10ec3-9bea-4926-8d1a-dd2e2c22d880",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Preparing for Attacks",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038304,
+              "key": "e8e66ab4-8cbd-42ee-b93d-ddc52b95b1f4",
+              "title": "ND545 C3 L4 A03 Developing Your Intuition About Preparing For Inevitable Attacks",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QExGGZ7ncDw",
+                "china_cdn_id": "QExGGZ7ncDw.mp4"
+              }
+            },
+            {
+              "id": 1038877,
+              "key": "967f2815-4beb-4376-8a97-57fd079bf878",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nIncident response is the process of preparing and reacting in case a threat successfully activates. The truth is, bad things will happen. Eventually, a malicious hacker will indeed breach your system. When that times comes, organizations must be ready. You have to have a plan in place before the attack occurs so that you can respond in ways that are most effective.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1029464,
+          "key": "445e02e3-72db-4084-a714-de912b37b06b",
+          "title": "Contingency Planning Fundamentals\t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "445e02e3-72db-4084-a714-de912b37b06b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038924,
+              "key": "bb4d2a75-bd01-4a33-81f5-9187264ca79c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Contingency Planning Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029547,
+              "key": "69a6770f-08dd-437e-bd21-732a653b91e7",
+              "title": "ND545 C3 L4 A04 Contingency Planning Fundamentals V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Su_Dq7xL-IY",
+                "china_cdn_id": "Su_Dq7xL-IY.mp4"
+              }
+            },
+            {
+              "id": 1044244,
+              "key": "c2de2822-8197-41da-bb9c-2240f9b18037",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079878_contingency-planning-fundamentals/contingency-planning-fundamentals.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c2de2822-8197-41da-bb9c-2240f9b18037",
+              "caption": "",
+              "alt": "",
+              "width": 1454,
+              "height": 406,
+              "instructor_notes": null
+            },
+            {
+              "id": 1029546,
+              "key": "743b75ca-4581-4afe-a71b-f8511189bf11",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nWhile it's best to be proactive and prevent security threats from being a problem as early as possible, you cannot prevent everything. Eventually, something will go wrong, and it's important to prepare for that.\tCyber security breaches are on the rise and having a solid process for responding and containing the incident, can save companies millions of dollars in damages and prevent catastrophe. \tContingency Planning is the process of preparing a company to detect, react to, and recover from threats to assets. The main goal is to bring the company back to a state of normal operations following a disruptive event. \n\nThere are 3 key parts to contingency planning:\n\n**Incident Response:** The process of detecting and responding to to limit consequences of a malicious, unintentional, or circumstantial cyber attack against an organization’s information systems(s).\n\n**Business Continuity:** A predetermined process that describes how an organization’s mission/business processes will be sustained during and after a significant disruption.\n\n**Disaster Recovery:** A predetermined process that details how critical applications and processes will be restored to normal operations at the primary business site in the event of a major hardware or software failure or destruction of facilities.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028574,
+          "key": "0fd36a44-7294-4fd6-9c2a-66f011258cb1",
+          "title": "Contingency Planning Fundamentals Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0fd36a44-7294-4fd6-9c2a-66f011258cb1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038925,
+              "key": "f1c45a34-c638-40b2-b26e-d11005f350cb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Contingency Planning Fundamentals Quiz",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028774,
+              "key": "99115dc1-165d-4090-afe4-ae0f91c10a51",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "99115dc1-165d-4090-afe4-ae0f91c10a51",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which is the first step in the contingency planning process?\n",
+                "answers": [
+                  {
+                    "id": "a1590613038126",
+                    "text": "Incident response",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590613056569",
+                    "text": "Disaster recovery",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590613067866",
+                    "text": "Business continuity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590613076178",
+                    "text": "Business impact analysis",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028784,
+              "key": "6cacb4de-51d3-4e8c-b592-0e7c0223a40e",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6cacb4de-51d3-4e8c-b592-0e7c0223a40e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Which might be a trigger for activating each plan type?"
+                },
+                "concepts_label": "Trigger",
+                "answers_label": "Plan Type",
+                "concepts": [
+                  {
+                    "text": "You’re noticing presence of malware on the network and strange exfiltration attempts.",
+                    "correct_answer": {
+                      "id": "a1590615235646",
+                      "text": "Incident response"
+                    }
+                  },
+                  {
+                    "text": "A ransomware attack has shut down your entire business operations for 7 days and the impact is critical. You will remain shut down while you work to restore the company to pre-incident status.",
+                    "correct_answer": {
+                      "id": "a1590615273646",
+                      "text": "Disaster recovery"
+                    }
+                  },
+                  {
+                    "text": "There’s a power outage in your main office, and you are setting up generators to keep your data center running.",
+                    "correct_answer": {
+                      "id": "a1590615291292",
+                      "text": "Business continuity"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1590615273646",
+                    "text": "Disaster recovery"
+                  },
+                  {
+                    "id": "a1590615235646",
+                    "text": "Incident response"
+                  },
+                  {
+                    "id": "a1590615291292",
+                    "text": "Business continuity"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029465,
+          "key": "1923b365-0e5b-4166-abee-857f185ccdbf",
+          "title": "Incident Response Life Cycle\t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1923b365-0e5b-4166-abee-857f185ccdbf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038941,
+              "key": "943f9809-25f9-4bdb-81de-1a05e83e03da",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Incident Response Life Cycle\t",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038306,
+              "key": "fbf6e1c3-37f0-4d85-a14a-b07ddba7a62e",
+              "title": "ND545 C3 L4 A05 Incident Response Life Cycle",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "iwJ6r-rPc00",
+                "china_cdn_id": "iwJ6r-rPc00.mp4"
+              }
+            },
+            {
+              "id": 1044245,
+              "key": "45484dc7-559f-467e-98f8-12b41aa48b43",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f0798f5_incident-response-life-cycle/incident-response-life-cycle.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/45484dc7-559f-467e-98f8-12b41aa48b43",
+              "caption": "",
+              "alt": "",
+              "width": 2282,
+              "height": 1004,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031050,
+              "key": "1fb95887-61a5-443f-90f6-4b2196d22492",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nThough the details and nature of incidents may vary, all typically follow a standard response process organized in several phases:\n\n- **Preparation** \n\n- **Detection and analysis**\n\n- **Containment**\n\n- **Eradication and recovery**\n\n- **Post-incident activity**\n\nRead more about these phases in the NIST Computer Security Incident Handling Guide (https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044253,
+              "key": "b9d556fb-cb8d-4d1a-b080-c5deed7aa549",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Internal Incident Response Team",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044248,
+              "key": "9107d8ca-bec9-4d2c-b1f4-dec475c3cfb1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079ab2_internal-team-members/internal-team-members.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9107d8ca-bec9-4d2c-b1f4-dec475c3cfb1",
+              "caption": "",
+              "alt": "",
+              "width": 1498,
+              "height": 676,
+              "instructor_notes": null
+            },
+            {
+              "id": 1031051,
+              "key": "ac175235-9b20-436f-9621-aa544d428dc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Internal team members**\n\n- Management\n\n- Information Assurance\n\n-  IT Support:\n\n- Legal Department\n\n- Public Affairs and Media Relations\n\n- Human Resources\n\n- Business Continuity Planning\n\n- Physical Security and Facilities Management\n\nLearn more about these teams and their roles in the NIST Computer Security Incident Handling Guide (https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044251,
+              "key": "6e7b0cbd-7b54-44d6-bdee-8c3b7559abaf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## External Incident Response Team",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044252,
+              "key": "18859047-cc30-4c04-8c9d-54179e9a85de",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079b72_incident-response-team/incident-response-team.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/18859047-cc30-4c04-8c9d-54179e9a85de",
+              "caption": "",
+              "alt": "",
+              "width": 1046,
+              "height": 943,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044250,
+              "key": "58cedc97-eed7-4035-971b-c0dd47eb33f3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**External team members**\n\nThe incident response lifecycle can require support from people outside of the organization such as law enforcement agencies, internet service providers, support vendors, the media, other incident response teams, and more.\n\nReference: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028576,
+          "key": "92ff69ee-7c88-4d1b-9d84-1df8b033b287",
+          "title": "Incident Response Life Cycle Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92ff69ee-7c88-4d1b-9d84-1df8b033b287",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038926,
+              "key": "0b11cbf1-8d3e-49e6-ac59-3bce07e19ae5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Incident Response Life Cycle Quiz",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028785,
+              "key": "e6eb9cac-537e-4a06-be1a-91c34a5f38eb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e6eb9cac-537e-4a06-be1a-91c34a5f38eb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Your technology team is currently restoring data from backup storage locations. Which NIST IR phase does this activity fall under?",
+                "answers": [
+                  {
+                    "id": "a1590615334092",
+                    "text": "Containment, eradication, and recovery",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590615349663",
+                    "text": "Post incident activity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615356041",
+                    "text": "Detection and analysis",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615362127",
+                    "text": "Preparation ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020314,
+          "key": "1c528c93-5454-4398-ba72-42ccfb44b973",
+          "title": "Exercise: Incident Response Life Cycle",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1c528c93-5454-4398-ba72-42ccfb44b973",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038927,
+              "key": "9289a4e9-22b5-48de-a795-a5f00dc0e1a1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Incident Response Life Cycle",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047206,
+              "key": "06a97ed2-0486-4a8b-a1ca-06c571cdaa1c",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "06a97ed2-0486-4a8b-a1ca-06c571cdaa1c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You just received an alert that a critical server on your network is receiving traffic from various IP addresses and no longer has the capacity to handle the number of requests coming through – they are almost ten times the amount of normal traffic. What kind of attack is this and what are steps that can be taken during the preparation phase to prepare for this kind of incident?"
+              },
+              "answer": {
+                "text": "This is a Distributed Denial of Service Attack. A few example steps that can be taken to in preparation include:\n\n- Monitor networks for unusual activity daily\n- Document your infrastructure\n- Establish an inventory of your critical assets and processes\n- Test DDoS response plan\n- Implement an incident response policy that all employees must read\n- Implement a security strategy",
+                "video": null
+              }
+            },
+            {
+              "id": 1047204,
+              "key": "ec66ad41-adbc-415c-b301-ae302e7a8e8e",
+              "title": "Incident Response Lifecycle",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ec66ad41-adbc-415c-b301-ae302e7a8e8e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "You just received an alert that a critical server on your network is receiving traffic from various IP addresses and no longer has the capacity to handle the number of requests coming through – they are almost ten times the amount of normal traffic. Which actions relate to each phase of the incident response lifecycle?"
+                },
+                "concepts_label": "Lifecycle phase",
+                "answers_label": "Activity",
+                "concepts": [
+                  {
+                    "text": "Preparation",
+                    "correct_answer": {
+                      "id": "a1595559553749",
+                      "text": "Test DDoS response plan"
+                    }
+                  },
+                  {
+                    "text": "Detection and Analysis",
+                    "correct_answer": {
+                      "id": "a1595559708244",
+                      "text": "Review the logs of servers, routers, firewalls, applications, and other impacted infrastructure"
+                    }
+                  },
+                  {
+                    "text": "Containment, Eradication, and Recovery",
+                    "correct_answer": {
+                      "id": "a1595559733124",
+                      "text": "Contact ISP for support in blocking the traffic"
+                    }
+                  },
+                  {
+                    "text": "Post-Incident Activity",
+                    "correct_answer": {
+                      "id": "a1595559763753",
+                      "text": "Create a report summarizing the incident and challenges faced throughout"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1595559763753",
+                    "text": "Create a report summarizing the incident and challenges faced throughout"
+                  },
+                  {
+                    "id": "a1595559733124",
+                    "text": "Contact ISP for support in blocking the traffic"
+                  },
+                  {
+                    "id": "a1595559553749",
+                    "text": "Test DDoS response plan"
+                  },
+                  {
+                    "id": "a1595559708244",
+                    "text": "Review the logs of servers, routers, firewalls, applications, and other impacted infrastructure"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1035250,
+          "key": "427110d8-a005-4102-8a5b-31ea65937260",
+          "title": "Exercise Solution: Incident Response Life Cycle",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "427110d8-a005-4102-8a5b-31ea65937260",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038928,
+              "key": "e8ed185b-e56a-4d99-864c-9a17b218e68a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Incident Response Life Cycle",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035251,
+              "key": "aaa4db59-398a-4411-8102-1f8f78450ef7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You just received an alert that a critical server on your network is receiving traffic from various IP addresses and no longer has the capacity to handle the number of requests coming through – they are almost ten times the amount of normal traffic. Which actions relate to each phase of the incident response lifecycle?\n\nPreparation\n- Monitor networks for unusual activity daily\n- Document your infrastructure\n- Establish an inventory of your critical assets and processes\n- Test DDoS response plan\n- Implement an incident response policy that all employees must read\n- Implement a security strategy\n\nDetection and Analysis\n- Confirm that a distributed denial-of-service attack is occurring\n- Understand the logical flow of the DDoS attack and identifying the infrastructure components affected by it\n- Review the logs of servers, routers, firewalls, applications, and other impacted infrastructure\n\nContainment, Eradication, and Recovery\n- Throttle or block excessive traffic\n- Contact  ISP for support to in blocking traffic\n\nPost-Incident Activity\n- Create a report summarizing the incident and challenges faced throughout\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1029466,
+          "key": "2c5a50fa-352e-463b-b908-725e2a6c32a0",
+          "title": "Incident Response Planning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2c5a50fa-352e-463b-b908-725e2a6c32a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038929,
+              "key": "a5847eb8-8e82-4b5c-89e8-5b6cd2c22868",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Incident Response Planning",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029565,
+              "key": "00defb7d-aae5-4187-b166-649774cde811",
+              "title": "ND545 C3 L4 A06 Incedent Response Strategies And Plan Part 1 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5PEsROWtlI4",
+                "china_cdn_id": "5PEsROWtlI4.mp4"
+              }
+            },
+            {
+              "id": 1029551,
+              "key": "b6e4e8e4-caad-4d53-a260-df9c9366d518",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nPrepare to plan or plan to fail. Creating a straight forward incident response plan that stakeholders can follow is critical. The goal of the plan is to equip the company with the information and resources needed to detect and respond to limit consequences of malicious, unintentional, or circumstantial cyber attacks.\n\n**Common elements of a incident response planning process include:**\n\n- Establishing roles and contact information\n\n- Outlining notification steps\n\n- Creating an incident procedure checklist\n\n- Determining how to categorize  and prioritize incidents\n\n- Providing guidance on business continuity and disaster recovery triggers and steps\n\n- Provisions for continuous improvement process\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029560,
+              "key": "94cb069d-eaed-4260-9e3c-c1307a49fa9d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*How do you know when you need to use the incident response plan?*\n\nThe incident response plan usually gets activated when there is a credible indicator of compromise or confirmed incident. Here are key terms to know:\n\n- Event:  Any observable occurrence in an information system. \n\n- Indicators of compromise (IoC): A known signal that suggests a potential event is indeed an incident. \n\n- Incident: An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. \n\n*Plan Activation*\n\nIncident response plans are typically activated when there is a credible indicator of compromise or a known incident occurring within the organization. When determining activation triggers, it's important to distinguish events from incidents, as well as define what incident types and severities warrant plan activation.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038313,
+              "key": "6dac8df2-8eef-482d-9eab-230dc981a67a",
+              "title": "ND545 C3 L4 A06 Incedent Response Strategies And Plan Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d-L4noyd7EY",
+                "china_cdn_id": "d-L4noyd7EY.mp4"
+              }
+            },
+            {
+              "id": 1047199,
+              "key": "c1f8cfc4-b578-4ba2-8f27-255834fd1d68",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Key Takeaway** Events are every day activities that are monitored for any signs that suggest something suspicious is happening. Those suspicious signs are called indicator of compromise (IoC). When an IoC is confirmed, it typically get's labelled an incident. It's important to then understand which incidents, usually based on impact or severity level, require activation of the incident response plan. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028577,
+          "key": "d8231d67-8314-4c4d-a2d7-a93a389545f4",
+          "title": "Incident Response Planning Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d8231d67-8314-4c4d-a2d7-a93a389545f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038942,
+              "key": "30b52bd9-0ae3-4178-90a3-1655ea596078",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Incident Response Planning Quiz",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028786,
+              "key": "d9a6f1f3-b1ab-4522-9762-53c7beefbd36",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d9a6f1f3-b1ab-4522-9762-53c7beefbd36",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are likely indicators of compromise? (Select all that apply)\n",
+                "answers": [
+                  {
+                    "id": "a1590615733329",
+                    "text": "Use of dormant accounts",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590615747038",
+                    "text": "Deleted or edited logs",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590615753754",
+                    "text": "An employee login from a remote location",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615765343",
+                    "text": "Alerts from an intrusion detection system",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020315,
+          "key": "a28584e9-c5bb-41de-9ded-483ab0555f3a",
+          "title": "Exercise: Incident Response Planning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a28584e9-c5bb-41de-9ded-483ab0555f3a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038943,
+              "key": "399fe6b0-3667-466a-9e9e-ab08de5a55c6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Incident Response Planning",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026251,
+              "key": "8f6198a4-abf4-469b-bd8c-949d1671d854",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8f6198a4-abf4-469b-bd8c-949d1671d854",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "A critical applications performance was severely degraded for 60 minutes, and no one was able to access the application. Why might this be considered an event? Why might this be considered an incident?"
+              },
+              "answer": {
+                "text": "Well done!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029467,
+          "key": "03f69a1c-6b92-4d34-91a8-958694594edd",
+          "title": "Digital Forensics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "03f69a1c-6b92-4d34-91a8-958694594edd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038944,
+              "key": "c39d4a44-80d2-4d85-a3d6-36d045302b3e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Digital Forensics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029571,
+              "key": "fb3b4679-1cd4-4964-baa9-c6ea7f0437e0",
+              "title": "ND545 C3 L4 A07 Digital Forensics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mR4EsVngeRA",
+                "china_cdn_id": "mR4EsVngeRA.mp4"
+              }
+            },
+            {
+              "id": 1029570,
+              "key": "eb2eda03-67be-47e2-9227-d2529f244dc1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nWhen an attacker is able to breach security, you need to understand what they did and retrace their steps. Digital forensics enables security professionals to conduct investigations into breaches whether from external or internal threat actors. \n\n## What is digital forensics?\n\nDigital forensics is the application of computer science and investigative procedures involving the examination of digital evidence. The process includes collecting, preserving, analyzing, and reporting on evidence.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047107,
+              "key": "86fa024e-25d3-403b-8504-e41118b40b5b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Digital forensics is a highly sensitive area. It should not be attempted without core expertise—one wrong move when collecting evidence, and an entire case can be destroyed. For example, sending a general security expert without specific DF expertise to assess a digital crime scene could result in the accidental deletion of evidence and more. A common misconception in DF is that forensics experts can look into anything and everything in the company when there is a cybercrime or breach. This is not the case. For example, if a df expert is brought in with a warrant to search an employee computer for evidence of digital fraud, that may be the only thing they have permission to search for. If they come across evidence of other unrelated activities, they’d have to get additional permission/warrants or revisit the scope of the investigation before gathering the evidence. One exception to this rule is in the discovery of child pornography, which is typically required to be reported to authorities immediately. The bottom line is that digital forensics efforts must be highly focused to ensure the right assets are investigated, and the appropriate evidence gathered.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044256,
+              "key": "40b28c41-7a06-40b5-a1e7-b9d7f1a1b9b3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Digital Forensics Process",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044255,
+              "key": "58e25012-77d3-4a06-96e2-95aa08b44a0a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f079de7_digital-forensics-process/digital-forensics-process.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/58e25012-77d3-4a06-96e2-95aa08b44a0a",
+              "caption": "",
+              "alt": "",
+              "width": 1808,
+              "height": 244,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044257,
+              "key": "5794d215-b042-4719-8f8a-58d868ea0b4a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- Identifying – This is the practice of finding and collecting the suspected original source or asset believed to contain evidence. (Example: The investigator has pinpointed a suspicious IP address belonging to the laptop in Ohio. The digital forensics investigator may have a co-worker send them the suspected laptop for analysis.)\n\n- Preserving – This is the practice of ensuring the integrity of the collected evidence and preserving a \"digital trail\" of the data or media. (Example: It's essential to monitor how the computer and any copies of data have been handled since being taken from the employee, along with who had access.)\n\n- Analyzing – This is the investigative portion of the process where a forensics practitioner begins looking into the acquired asset or medias data to find evidence of the suspected crime. (Example: The investigator may look through documents, email and chat conversations, browser website history, hard drives, and other user activities.)\n\n- Reporting – This is the process of creating a report of findings from the investigation for presentation to stakeholders and, in some cases, an attorney or jury in court. Reporting must also be tailored to the audience. In a court case where the jury is not technically savvy, findings must be explained in ways that are easy to understand for everyone. Failure to do so might render even the most irrefutable evidence ineffective. (Example: A digital forensics investigator may debrief a company's technical leaders in detail and then give a high-level summary to the general manager.)\n\nReference: https://blog.veriato.com/the-evolution-of-digital-forensics",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028579,
+          "key": "909a0eb7-dd56-47a8-b4de-bf79ea6818d2",
+          "title": "Digital Forensics Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "909a0eb7-dd56-47a8-b4de-bf79ea6818d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038945,
+              "key": "0c9b7580-ff13-415e-87da-7469f23b8c3c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Digital Forensics Quiz",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028787,
+              "key": "8f73e2a7-6906-4d34-b025-0588d5177ded",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8f73e2a7-6906-4d34-b025-0588d5177ded",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which concept can best help determine if evidence has been tampered with?\n",
+                "answers": [
+                  {
+                    "id": "a1590615858491",
+                    "text": "Logs",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615867062",
+                    "text": "Hashing",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590615872539",
+                    "text": "Back-up copies",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615878706",
+                    "text": "Firewalls",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028788,
+              "key": "12496aae-4e63-40c2-b06b-8a187eaa158d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "12496aae-4e63-40c2-b06b-8a187eaa158d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "True or false: Digital forensics is only used after breaches requiring criminal investigation.\n",
+                "answers": [
+                  {
+                    "id": "a1590615900273",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615908992",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028789,
+              "key": "75695214-1675-405b-a7be-3a3f96ecf3b3",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "75695214-1675-405b-a7be-3a3f96ecf3b3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "During a July investigation in Nevada, a hard drive with evidence on it was placed in a car for several days with no air conditioning.  At what phase did the investigator fail?",
+                "answers": [
+                  {
+                    "id": "a1590615931311",
+                    "text": "Collect",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615946117",
+                    "text": "Preserve",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590615951489",
+                    "text": "Analyze",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590615956743",
+                    "text": "Report",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020316,
+          "key": "c9c7ff12-9e2f-4901-9f11-944aed9adad8",
+          "title": "Exercise: Digital Forensics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c9c7ff12-9e2f-4901-9f11-944aed9adad8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038946,
+              "key": "d512c954-01c1-4e26-a85f-3a2acbd9f1a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Digital Forensics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026252,
+              "key": "730e5de4-c48c-4eff-a2a3-b3fe57304392",
+              "title": "",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "730e5de4-c48c-4eff-a2a3-b3fe57304392",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Your team just received a tip reporting a potential crime plot. One of the culprits involved used the Windows 10 machine in your lab environment last week and you’ve been given permission to investigate. Explore the evidence the criminal left behind to try and piece together the kind of crime he was planning. Where are they planning the crime? What materials might they be collecting in preparation?"
+              },
+              "answer": {
+                "text": "Nice work!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1035256,
+          "key": "9eae4247-79cb-4fd9-986e-a94a471b3139",
+          "title": "Exercise Solution: Digital Forensics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9eae4247-79cb-4fd9-986e-a94a471b3139",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038947,
+              "key": "445f2242-3107-4286-a0e6-32c28fdf08a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Digital Forensics",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035257,
+              "key": "258c4649-a673-46dd-904d-0dca77bc853e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Your team just received a tip reporting a potential crime plot. One of the culprits involved used the Windows 10 machine in your lab environment last week and you’ve been given permission to investigate. Explore the evidence the criminal left behind to try and piece together the kind of crime he was planning. Where are they planning the crime? What materials might they be collecting in preparation?\n\nSimilar to physical crime scenes, criminals often leave behind tons of digital clues that can help shed light on criminal activity. Start by looking at obvious digital remnants like search history across the various browsers on the computer. Look at file download history. Check for auto login accounts that the user may still be signed in to. Look at recently deleted information. These are basic starting points. More advanced technology can be used to find hidden rootkits, carve out deleted files, pull metadata from images, and more. In this exercise case, after checking those items you can conclude they are planning a bank robbery. From the clues you can find the exact geo location of the bank they plan to rob within the web browser search history. You can also find the kinds of masks they might be wearing based on bookmarks. In the search history you may also realize that they are preparing to take hostages, and more.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035319,
+          "key": "8d1815eb-0781-4f7c-aae5-bb0fca44fef1",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d1815eb-0781-4f7c-aae5-bb0fca44fef1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038948,
+              "key": "a165a430-b166-4036-8937-b502fcca0cc5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035323,
+              "key": "e73d8d05-702c-464c-972c-480c7aa49505",
+              "title": "ND545 C3 L4 A08 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0mxhEkcoTJ4",
+                "china_cdn_id": "0mxhEkcoTJ4.mp4"
+              }
+            },
+            {
+              "id": 1035324,
+              "key": "da07a2cc-45b9-4a29-9920-29a82fd81485",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "While it's best to be proactive and prevent security threats from being a problem as early as possible, you cannot prevent everything. Eventually something will go wrong and it's important to prepare for that. Cyber security breaches are on the rise and having a solid process for responding and containing the incident, can save companies millions of dollars in damages and prevent catastrophe. That's what incident response is all about. At this point you now know: \n\n- The relationship between incident response, disaster recovery and business continuity\n- How to distinguish events from incidents and recognize indicators of compromise\n- The incident response lifecycle\n- Key incident response team roles and core components of an incident response plan\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049196,
+              "key": "3d6b8fe1-98fb-42bc-9256-426292c62f9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n| Term | Definition |\n| ----------- | ----------- |\n| Incident Response | The process of detecting and responding to to limit consequences of a malicious, unintentional, or circumstantial cyber attack against an organization’s information systems(s). |\n| Business Continuity | A predetermined process that describes how an organization’s mission/business processes will be sustained during and after a significant disruption. |\n| Disaster Recovery | A predetermined process that details how critical applications and processes will be restored to normal operations at the primary business site in the event of a major hardware or software failure or destruction of facilities. |\n| Event | Any observable occurrence in an information system. |\n| Indicators of compromise (IoC) | A known signal that suggests a potential event is indeed an incident. |\n| Incident | An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies. |\n| Digital forensics | Application of computer science and investigative procedures involving the examination of digital evidence. |\n| Identifying | This is the practice of finding and collecting the suspected original source or asset believed to contain evidence. |\n| Preserving | This is the practice of ensuring the integrity of the collected evidence and preserving a \"digital trail\" of the data or media. |\n| Analyzing | This is the investigative portion of the process where a forensics practitioner begins looking into the acquired asset or medias data to find evidence of the suspected crime. |\n| Reporting | This is the process of creating a report of findings from the investigation for presentation to stakeholders and, in some cases, an attorney or jury in court.  |",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049190,
+              "key": "23a798bb-60f6-4aa9-8e32-1dd5b3bb4aac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035412,
+          "key": "b182b8a6-e193-4c47-b90f-fe736952cb14",
+          "title": "Course Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b182b8a6-e193-4c47-b90f-fe736952cb14",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038949,
+              "key": "5ed1d64a-e4dc-49bb-b21a-5041e78dc935",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035413,
+              "key": "0f63b94a-3a75-40e2-ae88-1cb555144f03",
+              "title": "ND545 C3 L4 A08 Course Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UH06168zUzs",
+                "china_cdn_id": "UH06168zUzs.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

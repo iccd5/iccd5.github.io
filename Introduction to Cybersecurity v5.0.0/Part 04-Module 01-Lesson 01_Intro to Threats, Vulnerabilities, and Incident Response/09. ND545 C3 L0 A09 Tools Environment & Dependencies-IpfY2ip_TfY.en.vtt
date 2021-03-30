@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.815
+During this course, you'll use a series of tools and technology.
+
+00:00:04.815 --> 00:00:11.070
+Azure is the Cloud platform you'll use to access your virtual machine for labs.
+
+00:00:11.070 --> 00:00:17.265
+HashCat is a password cracking tool that you'll use to launch a password attack.
+
+00:00:17.265 --> 00:00:21.885
+You'll also use Windows CMD to run commands in HashCat.
+
+00:00:21.885 --> 00:00:25.365
+Nessus is a vulnerability scanning application
+
+00:00:25.365 --> 00:00:28.155
+that you'll leverage to find vulnerabilities.
+
+00:00:28.155 --> 00:00:32.970
+Finally, you'll leverage PowerPoint to present your findings,
+
+00:00:32.970 --> 00:00:36.790
+your recommended remediation strategy, and more.
+

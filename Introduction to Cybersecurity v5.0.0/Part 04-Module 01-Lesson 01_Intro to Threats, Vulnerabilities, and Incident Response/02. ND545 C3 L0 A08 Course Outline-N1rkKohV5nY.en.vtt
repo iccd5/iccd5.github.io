@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.890
+During this course, you'll learn all about how to assess threats,
+
+00:00:04.890 --> 00:00:07.965
+find and fix vulnerabilities,
+
+00:00:07.965 --> 00:00:10.985
+and prepare for inevitable attacks.
+
+00:00:10.985 --> 00:00:14.840
+In Lesson 1, we'll be talking about assessing threats.
+
+00:00:14.840 --> 00:00:19.585
+So here you'll be able to explain the relationship between threats,
+
+00:00:19.585 --> 00:00:23.070
+threat actors, vulnerabilities and exploits,
+
+00:00:23.070 --> 00:00:28.860
+utilize event contexts to identify potential threat actor motivations,
+
+00:00:28.860 --> 00:00:35.055
+identify security threats applicable to important organizational assets and finally,
+
+00:00:35.055 --> 00:00:38.415
+use standard formulas to assess threats,
+
+00:00:38.415 --> 00:00:41.425
+identify risks, and prioritize.
+
+00:00:41.425 --> 00:00:46.245
+During Lesson 2, we're going to discuss finding vulnerabilities.
+
+00:00:46.245 --> 00:00:48.980
+So here you'll be able to leverage
+
+00:00:48.980 --> 00:00:52.760
+the MITRE ATT&amp;CK framework to understand attack methods.
+
+00:00:52.760 --> 00:00:55.580
+You'll also configure and launch scans to find
+
+00:00:55.580 --> 00:01:00.685
+vulnerabilities and explain the steps required to conduct a penetration test.
+
+00:01:00.685 --> 00:01:05.355
+During Lesson 3, we'll be going over how to fix vulnerabilities.
+
+00:01:05.355 --> 00:01:09.280
+You'll be able to conduct vulnerability research,
+
+00:01:09.280 --> 00:01:11.540
+also validate scan results through
+
+00:01:11.540 --> 00:01:15.320
+manual testing and the application of business context.
+
+00:01:15.320 --> 00:01:19.760
+You'll learn how to prioritize security gaps discovered and recommend
+
+00:01:19.760 --> 00:01:23.015
+remediation strategies and also conduct
+
+00:01:23.015 --> 00:01:27.415
+vulnerability research using industry resources like MITRE CVE.
+
+00:01:27.415 --> 00:01:29.605
+Finally, in Lesson 4,
+
+00:01:29.605 --> 00:01:33.260
+we'll talk about how to prepare for inevitable attacks.
+
+00:01:33.260 --> 00:01:38.375
+You'll be able to explain the relationship between incident response,
+
+00:01:38.375 --> 00:01:41.800
+disaster recovery, and business continuity.
+
+00:01:41.800 --> 00:01:45.515
+You'll also learn to distinguish events from
+
+00:01:45.515 --> 00:01:49.840
+incidents and recognize indicators of compromise.
+
+00:01:49.840 --> 00:01:54.740
+You'll be able to explain the incident response life-cycle and finally,
+
+00:01:54.740 --> 00:01:57.890
+recognize the key incident response team roles
+
+00:01:57.890 --> 00:02:02.220
+and core components of an incident response plan.
+

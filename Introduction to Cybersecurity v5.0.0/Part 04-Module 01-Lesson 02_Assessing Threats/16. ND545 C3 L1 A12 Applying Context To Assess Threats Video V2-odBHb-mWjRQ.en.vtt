@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.610
+Up to this point of the assessment,
+
+00:00:02.610 --> 00:00:04.470
+you have identified threats,
+
+00:00:04.470 --> 00:00:06.450
+you've created threat profiles,
+
+00:00:06.450 --> 00:00:08.940
+and any other artifacts to document
+
+00:00:08.940 --> 00:00:12.630
+information so that you can start analyzing each threat.
+
+00:00:12.630 --> 00:00:15.720
+Until now, you can conduct impact assessments
+
+00:00:15.720 --> 00:00:19.185
+and apply context to start prioritizing threats,
+
+00:00:19.185 --> 00:00:21.060
+which is the ultimate goal here.
+
+00:00:21.060 --> 00:00:26.205
+This process will vary depending on the company, for example,
+
+00:00:26.205 --> 00:00:28.890
+I've worked with one company who preferred to
+
+00:00:28.890 --> 00:00:33.480
+prioritize threats solely on financial impact to the company,
+
+00:00:33.480 --> 00:00:37.850
+while another chose to prioritize based on the ones that were
+
+00:00:37.850 --> 00:00:43.225
+most likely to impact critical operations and customer safety.
+
+00:00:43.225 --> 00:00:45.740
+No matter what approach is taken,
+
+00:00:45.740 --> 00:00:49.540
+it's good to have a standard way to evaluate threats.
+
+00:00:49.540 --> 00:00:51.585
+In this basic example,
+
+00:00:51.585 --> 00:00:55.595
+the threat is evaluated based on potential impact,
+
+00:00:55.595 --> 00:00:58.225
+which can be defined many different ways.
+
+00:00:58.225 --> 00:01:04.010
+It also considered likelihood of that impact being realized from this threat,
+
+00:01:04.010 --> 00:01:07.210
+and what controls are in place to mitigate the threats.
+
+00:01:07.210 --> 00:01:10.470
+Let's say you profiled three threats,
+
+00:01:10.470 --> 00:01:14.705
+and need to know which one you should be most concerned about.
+
+00:01:14.705 --> 00:01:21.815
+You can see in the example matrix that threat 2 has high impact, meaning, for example,
+
+00:01:21.815 --> 00:01:25.640
+this threat could cost the company millions of dollars versus
+
+00:01:25.640 --> 00:01:30.460
+something that might be rated low if the cost is under $10,000.
+
+00:01:30.460 --> 00:01:34.130
+Threat 2 also has a high likelihood of
+
+00:01:34.130 --> 00:01:38.230
+occurring with a low amount of existing security controls.
+
+00:01:38.230 --> 00:01:41.900
+A low amount of controls could mean the system is missing
+
+00:01:41.900 --> 00:01:45.635
+encryption or it doesn't have up-to-date security patching.
+
+00:01:45.635 --> 00:01:47.670
+Whereas something rated high in
+
+00:01:47.670 --> 00:01:52.990
+security controls might have all of those security measures in place and more.
+
+00:01:52.990 --> 00:01:58.250
+Because the impact and likelihood of the threat are high and the controls are low,
+
+00:01:58.250 --> 00:02:03.335
+threat 2 is of greater concern than threat 3, for example,
+
+00:02:03.335 --> 00:02:07.055
+where they'll be impact and likelihood are high,
+
+00:02:07.055 --> 00:02:10.205
+there are more controls in place to mitigate them.
+
+00:02:10.205 --> 00:02:13.130
+Threat 1 is rated low all across,
+
+00:02:13.130 --> 00:02:15.605
+so that's not the greatest concern here.
+
+00:02:15.605 --> 00:02:17.825
+Based on this threat process,
+
+00:02:17.825 --> 00:02:21.855
+you may conclude threat 2 is the greatest threat.
+
+00:02:21.855 --> 00:02:25.190
+In many organizations, this information is
+
+00:02:25.190 --> 00:02:28.945
+what feeds the next steps in the risk management process.
+
+00:02:28.945 --> 00:02:34.985
+As you create the different categories that you use to evaluate threats,
+
+00:02:34.985 --> 00:02:40.780
+and determine how you want to score or rate what's low or what's high,
+
+00:02:40.780 --> 00:02:46.410
+those parameters should match up to your risk assessment process as well.
+

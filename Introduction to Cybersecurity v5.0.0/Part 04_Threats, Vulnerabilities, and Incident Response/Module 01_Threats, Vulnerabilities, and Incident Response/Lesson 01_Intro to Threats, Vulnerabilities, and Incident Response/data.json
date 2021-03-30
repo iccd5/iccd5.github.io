@@ -1,0 +1,673 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020295,
+      "key": "1d8c70f4-4bed-437a-9b20-63f8cbe7ba33",
+      "title": "Intro to Threats, Vulnerabilities, and Incident Response",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Meet your instructor, discuss what you'll learn in this course, and more!\n\n",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/1d8c70f4-4bed-437a-9b20-63f8cbe7ba33/1020295/1603869693558/Intro+to+Threats%2C+Vulnerabilities%2C+and+Incident+Response+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/1d8c70f4-4bed-437a-9b20-63f8cbe7ba33/1020295/1603869690355/Intro+to+Threats%2C+Vulnerabilities%2C+and+Incident+Response+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1035380,
+          "key": "49fcdee2-58c4-40d0-a021-d6f1ad6e34a2",
+          "title": "Meet Your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "49fcdee2-58c4-40d0-a021-d6f1ad6e34a2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038695,
+              "key": "78574677-2f00-4fe5-a179-b54971459de9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet Your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035381,
+              "key": "bab71d7d-1ff2-4647-943c-f85122c66dc6",
+              "title": "ND545 C3 L0 A01 Meet Your Instructor",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fUEeWawFwtM",
+                "china_cdn_id": "fUEeWawFwtM.mp4"
+              }
+            },
+            {
+              "id": 1038832,
+              "key": "4f1be87e-2c51-4bf0-95df-1344322e2f80",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## About Dr. Christine Izuakor\n\n- Founder and CEO of Cyber Pop-up\n\n- 10+ years of experience leading cyber security functions in Fortune 100 companies\n\n- PhD in Security Engineering\n\n- Graduate level cyber security professor\n\n- Certified Information Systems Security Professional (CISSP) and Certified Information Security Manager (CISM)\n\n- linkedIn.com/in/christineizuakor\n- *Fun fact:* I've visited 32 countries across 6 continents, thanks to my cyber security career in aviation. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035399,
+          "key": "74b2b831-f47b-4889-a279-0092c2c00048",
+          "title": "Course Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74b2b831-f47b-4889-a279-0092c2c00048",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038847,
+              "key": "e0c5765d-2128-4504-9993-3c01d6958480",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Outline Overview\n\nHere's a quick look at what you'll learn throughout the course.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035402,
+              "key": "0df0f258-a32f-4b8a-bf78-07bd047e83fd",
+              "title": "ND545 C3 L0 A08 Course Outline",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "N1rkKohV5nY",
+                "china_cdn_id": "N1rkKohV5nY.mp4"
+              }
+            },
+            {
+              "id": 1047159,
+              "key": "e23c304d-b816-4a77-874d-1e1ac55177ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047160,
+              "key": "61011e1e-4488-4341-ab5b-4c12d0659eb9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "During this lesson, we're going to cover:\n\n- An introduction to threat, vulnerabilities, and incident response\n- Key stakeholder involved in the process\n- Do's and Dont's to remember\n- The history and evolution of threats\n- The tools you'll use throughout the course\n- Your final project\n- The course outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047207,
+              "key": "e3518162-a299-4675-8eb9-29653820fd76",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Description\n\nCybersecurity breaches happen when a threat is able to successfully exploit a vulnerability within a business. To avoid these attacks, security professionals must understand threats the company is facing, including the various threat actors and their motivations. Security professionals must also be able to find vulnerabilities that can enable threats to attack through common practices such as vulnerability scanning and penetration testing. Finally, security professionals should be able to activate and follow incident response procedures to address cybersecurity incidents and breaches. Ultimately, during this course, students will learn how to identify security threats and gaps, fix issues, and respond to inevitable attacks.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038846,
+              "key": "5c30116c-72bc-40a2-9657-ec68b228db3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Outline\n\n#### Lesson One: Assessing Threats\n- Explain the relationship between threats, threat actors, vulnerabilities, and exploits\n- Utilize event context to identify potential threat actor motivations\n- Identify security threats applicable to important organizational assets\n- Use standard formulas to assess threats, identify risks, and prioritize\n\n\n#### Lesson Two: Finding security vulnerabilities\n- Leverage the MITRE ATT&CK framework to understand attack methods\n- Configure and launch scans to find vulnerabilities\n- Explain the steps required to conduct a penetration test\n\n#### Lesson Three: Fixing Security Vulnerabilities\n- Conduct vulnerability research using industry resources like MITRE CVE\n- Validate scan results through manual testing and application of business context\n- Prioritize security gaps discovered and recommend remediation strategies\n\n\n#### Lesson Four: Preparing for inevitable attacks\n- Explain the relationship between incident response, disaster recovery and business continuity\n- Distinguish events from incidents and recognize indicators of compromise\n- Explain the incident response lifecycle\n- Recognize the key incident response team roles and core components of an incident response plan\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035382,
+          "key": "4091faab-2ded-4300-b01b-437d23738928",
+          "title": "Prerequisites",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4091faab-2ded-4300-b01b-437d23738928",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042967,
+              "key": "b1912a6b-5fe7-4d55-8919-1c820d211781",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Prerequisites",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035384,
+              "key": "dd54872d-2735-4e56-9b52-50ef4420fb62",
+              "title": "ND545 C3 L0 A02 Prerequisites",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ADXmHKtcpgk",
+                "china_cdn_id": "ADXmHKtcpgk.mp4"
+              }
+            },
+            {
+              "id": 1038834,
+              "key": "dcf905af-dd2f-4776-8b46-24015260edea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To succeed in this course you should:\n- Understand cyber security fundamentals\n- Know the ins and outs of Windows operating systems, including how to use CMD\n- Be curious, open-minded, and willing to learn",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035383,
+          "key": "7fe3ef58-bf9d-4d4e-b1b7-4d575cdc4399",
+          "title": "Intro to Threats, Vulnerabilities, and Incident Response",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7fe3ef58-bf9d-4d4e-b1b7-4d575cdc4399",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038837,
+              "key": "01e2b7fa-9cdc-43da-889a-d7b34d012978",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Intro to Threats, Vulnerabilities, and Incident Response",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035385,
+              "key": "b8bf6919-553e-4d3b-acc6-f1887eaaba95",
+              "title": "ND545 C3 L0 A03 Introduction To Threats Vulnerabilities And Incident Response",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "czQ0YuZC59g",
+                "china_cdn_id": "czQ0YuZC59g.mp4"
+              }
+            },
+            {
+              "id": 1038836,
+              "key": "447d4112-71c7-45f3-8f9f-db5c13d715f1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As a security professional, your job will consist of answering the following questions on a regular basis:\n\n1. **[THREATS]** What are the greatest cyber threats I should be concerned about?\n2. **[VULNERABILITIES]** How can I find and fix security issues that cyber threat actors  may take advantage of?\n3. **[INCIDENT RESPONSE]** If I am faced with a security incident or potential breach, how can I respond?\n\nDuring this course, you'll learn about the tools, techniques and frameworks that you can follow to answer these questions on an ongoing basis.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035386,
+          "key": "3f83b93e-cf23-4b04-9c9c-2b5c2e3f1412",
+          "title": "Threats, Vulnerabilities, and Incident Response Is Important",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f83b93e-cf23-4b04-9c9c-2b5c2e3f1412",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042969,
+              "key": "7aa29be5-e0fc-48e3-8cd1-c6199bd48f57",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Threats, Vulnerabilities, and Incident Response Is Important",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035387,
+              "key": "89e9552f-f10d-4a32-bcac-533bdef5568a",
+              "title": "ND545 C3 L0 A04 Threats Vulnerabilities And Incident Response Is Important V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Qq6_3FKBvJY",
+                "china_cdn_id": "Qq6_3FKBvJY.mp4"
+              }
+            },
+            {
+              "id": 1038839,
+              "key": "1a0d9d19-da4d-497f-8b36-236aae3a932f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The cyber security industry is a fast evolving space, and professionals are tasks with dedicating to continuous learning. One way to remain up to speed on trends in the industry is to keep up with industry reports and statistics that continually highlight the significance and impact of threats and attacks against businesses.\n\n#### Keeping up with Threats:\n-  Hackers execute an attack every 39 seconds, or 2,244 daily. - [University of Maryland](https://eng.umd.edu/news/story/study-hackers-attack-every-39-seconds)\n\n#### Keeping up with Vulnerabilities:\n- 134 million credit cards were exposed costing Heartland Payment Systems over $145 million in compensation for fraud payments alone - [HPS](https://www.csoonline.com/article/2130877/the-biggest-data-breaches-of-the-21st-century.html)\n\n#### Keeping up with Incident Response:\n- It takes an average of 206 days to identify a breach and it takes about 314 days to contain a breach - [IBM](https://www.ibm.com/security/data-breach)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035388,
+          "key": "c7f75db8-88cb-4bd3-a1b4-e7e308fda3dc",
+          "title": "Stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c7f75db8-88cb-4bd3-a1b4-e7e308fda3dc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042970,
+              "key": "f669fcb9-fc80-4f02-a3d3-6d0dc44ff08d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Stakeholders",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035389,
+              "key": "90739729-9d5e-4e86-9d1c-5de02cb99f53",
+              "title": "ND545 C3 L0 A05 Business Stakeholders",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qgLsU-y0aug",
+                "china_cdn_id": "qgLsU-y0aug.mp4"
+              }
+            },
+            {
+              "id": 1038840,
+              "key": "bb0d1071-27e7-4a9e-b4b8-71ce1fe86ad5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When it comes to threats, vulnerabilities, and incident response, there are a variety of stakeholders involved both within the company and outside of the company. Example of key stakeholders include:\n\n- Mananagement\n- Security Professionals\n- IT Support\n- Human Resources\n- Legal Teams\n- External Groups (e.g. law enforcement)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038841,
+              "key": "556399ff-d683-40a7-93cc-a536c3df9a3e",
+              "title": "Stakeholders",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "556399ff-d683-40a7-93cc-a536c3df9a3e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which is NOT a typical example of a stakeholder in the threats, vulnerabilities, and incident response process?",
+                "answers": [
+                  {
+                    "id": "a1593394405243",
+                    "text": "Incident response analyst",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593394489874",
+                    "text": "Company lawyer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593394496661",
+                    "text": "Help desk personnel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593394538999",
+                    "text": "Finance analyst",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1035393,
+          "key": "5eff2823-350c-4e77-9270-2c0cd027db9c",
+          "title": "Do's and Don'ts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5eff2823-350c-4e77-9270-2c0cd027db9c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042971,
+              "key": "ed86931d-c5f0-4321-bd27-3c042785de8a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Do's and Dont's\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035395,
+              "key": "ac5b7033-6cee-4a48-b233-56117084db37",
+              "title": "ND545 C3 L0 A06 When To Use Or Not Use Threats Vulnerabilities And Incident Response",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "a54bDq1qt_I",
+                "china_cdn_id": "a54bDq1qt_I.mp4"
+              }
+            },
+            {
+              "id": 1038843,
+              "key": "3b1ec0a3-0f13-4aaf-bef0-6f361cbe378a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Identifying threats, finding and fixing vulnerabilities, and preparing to respond to incidents are ongoing tasks that are relevant everyday when working in a cyber security team. Here are key do's and don'ts to remember as you acquire these useful skillsets:\n\n#### Do's\n- Use the skills you learn to proactively identify business threats\n- Conduct approved vulnerability tests\n- Lawfully respond to and investigate incidents\n- Uphold the highest moral standards as a security professional\n\n#### Dont's\n- Abuse the skills you learn by conducting unauthorized security testing against systems or assets in personal or professional settings",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035396,
+          "key": "7826f2db-e5e6-4e08-ad32-36e935c1c1e8",
+          "title": "History of Threats, Vulnerabilities, and Incident Response ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7826f2db-e5e6-4e08-ad32-36e935c1c1e8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038845,
+              "key": "c661f58c-3b06-4cbb-8654-151a25868249",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# The Evolution of Threats",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035398,
+              "key": "2b6c7efd-5d4a-43b4-9151-612f26104aa0",
+              "title": "ND545 C3 L0 A07 History Of Threats Vulnerabilities And Incident Response",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Cukp_Zm7KNs",
+                "china_cdn_id": "Cukp_Zm7KNs.mp4"
+              }
+            },
+            {
+              "id": 1038844,
+              "key": "d241a3cb-e9fb-4ab3-ac70-f77b8a379d70",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Threats have been around for as long as human beings have been on this earth, and much longer. For example:\n\n- **Millions** of years ago, meteors were a detrimental threat to dinosaurs.\n- **Thousands** of years ago, wildcats were a detrimental threat to cavemen and cavewomen.\n- **Hundreds** of years ago, thieves were a detrimental threat to banks.\n- **Today**, digital threat can be detrimental to human beings when not adequately addressed. \n\nThe bottomline is that threats are constantly evolving, and adapting is a never-ending process.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035401,
+          "key": "bfe8d6bf-b261-4e6a-b4c0-81c3508cb055",
+          "title": "Tools, Environment & Dependencies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bfe8d6bf-b261-4e6a-b4c0-81c3508cb055",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042975,
+              "key": "a7cbccf4-22b8-479b-a1e5-e43c8e65256c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Tools, Environment & Dependencies",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038849,
+              "key": "710868eb-829b-473d-89eb-96530fd97a59",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Technology plays a critical role in the ability for a security professional to identify threats, find and fix vulnerabilities, and respond to incidents. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035403,
+              "key": "4c2fee3c-f2f1-47b4-94fe-aad7d77184ac",
+              "title": "ND545 C3 L0 A09 Tools Environment & Dependencies",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IpfY2ip_TfY",
+                "china_cdn_id": "IpfY2ip_TfY.mp4"
+              }
+            },
+            {
+              "id": 1038848,
+              "key": "6042dc1d-d76e-4fde-9222-38f1d29e64ee",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To gain some exposure to these tools and capabilities, during this course you'll leverage:\n\n- Azure Cloud Platform\n- HashCat Password Cracker\n- Nessus Vulnerability Scanner\n- Microsoft PowerPoint or Google Slides",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035405,
+          "key": "d09987c1-ac49-4a02-abb8-650eefe3ed74",
+          "title": "Project",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d09987c1-ac49-4a02-abb8-650eefe3ed74",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038851,
+              "key": "12c4f547-dc97-4dc1-a3d7-7f32a86f868a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project Overview \n\nYour final project is designed to give you hands-on exposure to a day in the life of a security professional responsible for navigating threats, vulnerabilities, and incident response within an organization.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035407,
+              "key": "88f4dd76-465a-4f0f-b12c-487537aef1f0",
+              "title": "ND545 C3 L0 A10 Project Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5kwzidWVNUM",
+                "china_cdn_id": "5kwzidWVNUM.mp4"
+              }
+            },
+            {
+              "id": 1038850,
+              "key": "48d94209-c6f8-436d-8cdb-a14076982723",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As a security professional, you may be asked to do tasks such as:\n- Summarizing and profiling a cyber threat\n- Conducting a vulnerability scan\n- Researching, analyzing and prioritizing vulnerabilities\n- Documenting incident response actions\n\nDuring the project, you'll leverage all of the skills learned throughout the course to complete these tasks.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035406,
+          "key": "a3aa8870-d090-46f5-ae88-5168fc30094e",
+          "title": "Let's Recap!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a3aa8870-d090-46f5-ae88-5168fc30094e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042977,
+              "key": "434bb72c-fdde-4fa2-ab09-830bd9b23405",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Let's Recap!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035408,
+              "key": "76f43715-940a-4389-a73a-d919f1e0fb17",
+              "title": "ND545 C3 L0 A11 Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aDddFvwW_v4",
+                "china_cdn_id": "aDddFvwW_v4.mp4"
+              }
+            },
+            {
+              "id": 1038855,
+              "key": "efd86030-5b5b-4edd-9692-5d4d5ce91144",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "During this lesson, we've covered:\n- An introduction to threat, vulnerabilities, and incident response\n-  Key stakeholder involved in the process\n- Do's and Dont's to remember\n- The history and evolution of threats\n- The tools you'll use throughout the course\n- Your final project\n- The course outline\n\nYou're ready to get started!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049367,
+              "key": "fc8dd73e-1f45-45c9-8289-ebc6b3292fc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035409,
+          "key": "1540f00e-ff69-4004-bd27-d74fa4a12f35",
+          "title": "Good Luck!",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1540f00e-ff69-4004-bd27-d74fa4a12f35",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1042979,
+              "key": "807517ff-d0c3-44fc-a1d0-9549f8c0bf8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Good Luck!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035410,
+              "key": "bd4278de-e96c-4f5f-97e3-dfa8d51638a8",
+              "title": "ND545 C3 L0 A12 Good Luck",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GUSgNyKuviM",
+                "china_cdn_id": "GUSgNyKuviM.mp4"
+              }
+            },
+            {
+              "id": 1038852,
+              "key": "8aae4e43-1ac2-4274-ae9b-d4810aa19ac8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "I'm wishing you the best of luck throughout the course!\n\n**-Dr. Christine Izuakor**",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

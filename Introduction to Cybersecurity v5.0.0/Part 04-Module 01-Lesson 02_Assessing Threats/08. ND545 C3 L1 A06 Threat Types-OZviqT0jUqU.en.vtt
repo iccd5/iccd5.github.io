@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.020
+Using the illustration of the home window that's left open,
+
+00:00:04.020 --> 00:00:06.629
+we know that while the vulnerability exists,
+
+00:00:06.629 --> 00:00:08.610
+we have to consider the threats.
+
+00:00:08.610 --> 00:00:11.790
+A threat can be categorized in several ways.
+
+00:00:11.790 --> 00:00:14.025
+A threat can be intentional,
+
+00:00:14.025 --> 00:00:16.050
+it can be unintentional,
+
+00:00:16.050 --> 00:00:21.210
+or otherwise circumstance, capability, action, or event.
+
+00:00:21.210 --> 00:00:27.900
+A thief planning to climb through the window and rob the place is an intentional threat,
+
+00:00:27.900 --> 00:00:33.360
+while a snake seeking shelter on a hot day could be an unintentional threat.
+
+00:00:33.360 --> 00:00:35.655
+While the snake may scare some people,
+
+00:00:35.655 --> 00:00:37.920
+it's not intentionally planning to hurt anyone,
+
+00:00:37.920 --> 00:00:39.915
+it's just looking for shade.
+
+00:00:39.915 --> 00:00:43.250
+If it starts thunder storming and water drenches
+
+00:00:43.250 --> 00:00:47.825
+your new computer that happens to be sitting on the desk next to the window,
+
+00:00:47.825 --> 00:00:50.980
+that is a circumstantial threat.
+
+00:00:50.980 --> 00:00:53.715
+Now bringing this back to the cyber world,
+
+00:00:53.715 --> 00:00:57.020
+an intentional threat might be a cyber criminal
+
+00:00:57.020 --> 00:01:00.470
+trying to hack a system while an employee who
+
+00:01:00.470 --> 00:01:03.680
+accidentally sends an e-mail with sensitive information to
+
+00:01:03.680 --> 00:01:07.675
+the wrong contact could be an unintentional threat.
+
+00:01:07.675 --> 00:01:10.870
+Finally, a threat of circumstance could
+
+00:01:10.870 --> 00:01:14.630
+be a wildfire that destroys all of your company's data.
+
+00:01:14.630 --> 00:01:18.350
+While each of these threats can be seen in different lights,
+
+00:01:18.350 --> 00:01:22.480
+they each can still expose a company to grave danger.
+
+00:01:22.480 --> 00:01:25.825
+Threats don't only come from malicious hackers.
+
+00:01:25.825 --> 00:01:28.600
+Majority of security breaches involve
+
+00:01:28.600 --> 00:01:32.650
+human error that often stems from a company's employees.
+
+00:01:32.650 --> 00:01:35.080
+For example in 2018,
+
+00:01:35.080 --> 00:01:39.490
+it was reported that an employee from Punjab National Bank caused the company
+
+00:01:39.490 --> 00:01:44.290
+to lose $1.8 billion, not millions, billions.
+
+00:01:44.290 --> 00:01:46.780
+To do that, he organized the issuance of
+
+00:01:46.780 --> 00:01:52.010
+fake loan requests which prompted two banks to provide those loans to PNB.
+
+00:01:52.010 --> 00:01:53.845
+The employee admitted to having
+
+00:01:53.845 --> 00:01:57.070
+unauthorized password access to their financial systems to
+
+00:01:57.070 --> 00:01:59.320
+issue those fraud documents and he even
+
+00:01:59.320 --> 00:02:02.215
+shared the credentials with others outside of the company.
+
+00:02:02.215 --> 00:02:07.850
+This is a real example of how insider threat happens and it happens very often.
+
+00:02:07.850 --> 00:02:11.540
+There are tons of external threat examples as well.
+
+00:02:11.540 --> 00:02:13.895
+One is Unitypoint Health.
+
+00:02:13.895 --> 00:02:17.690
+In 2018, the company released a report that it was hit
+
+00:02:17.690 --> 00:02:21.455
+with one successful breach from an external attacker,
+
+00:02:21.455 --> 00:02:23.150
+but it didn't end there.
+
+00:02:23.150 --> 00:02:25.850
+The company became a honeypot and
+
+00:02:25.850 --> 00:02:29.255
+attracted even more hackers to try and breach their systems.
+
+00:02:29.255 --> 00:02:30.875
+The first time around,
+
+00:02:30.875 --> 00:02:38.105
+a successful phishing attack resulted in the loss of 16,000 patient records.
+
+00:02:38.105 --> 00:02:41.615
+But in its second breach within that same year,
+
+00:02:41.615 --> 00:02:45.950
+the company was hit with more targeted phishing e-mails that led to the loss of
+
+00:02:45.950 --> 00:02:50.530
+1.4 million patient records on individuals.
+
+00:02:50.530 --> 00:02:53.465
+Though the external threat is obvious in this case,
+
+00:02:53.465 --> 00:02:58.110
+this example interestingly enough has threats on both ends.
+
+00:02:58.110 --> 00:03:03.140
+Not only is the external party that sent the phishing e-mail a threat,
+
+00:03:03.140 --> 00:03:08.855
+but the internal employee who clicked the link to enable the attack is a threat as well.
+
+00:03:08.855 --> 00:03:14.180
+Before cyber attackers hack into a system or technology,
+
+00:03:14.180 --> 00:03:19.975
+they usually target and leverage human beings first as we saw in the last example.
+
+00:03:19.975 --> 00:03:26.455
+As a result, roughly 80 percent of attacks are enabled by social engineering.
+
+00:03:26.455 --> 00:03:31.760
+Social engineering is an attempt to trick someone into revealing information
+
+00:03:31.760 --> 00:03:37.600
+such as a password that can be used to infiltrate systems or networks.
+
+00:03:37.600 --> 00:03:41.390
+They are usually disguised as something nice or
+
+00:03:41.390 --> 00:03:45.610
+helpful to the target like a sheep in wolf's clothing.
+
+00:03:45.610 --> 00:03:49.700
+Phishing for example, is a technique for attempting
+
+00:03:49.700 --> 00:03:53.750
+to acquire sensitive data such as bank account numbers through
+
+00:03:53.750 --> 00:03:58.310
+a fraudulent solicitation in an e-mail where the perpetrator
+
+00:03:58.310 --> 00:04:04.045
+acts like a legitimate business or reputable person that you can trust.
+
+00:04:04.045 --> 00:04:07.350
+There are other variations like vishing,
+
+00:04:07.350 --> 00:04:09.780
+in which it's like phishing,
+
+00:04:09.780 --> 00:04:14.065
+but it's executed through voice call, or smishing,
+
+00:04:14.065 --> 00:04:19.395
+which is executed through SMS or text message.
+
+00:04:19.395 --> 00:04:24.875
+These attacks against people are usually an enabler to executing
+
+00:04:24.875 --> 00:04:31.865
+other technology-based attacks such as delivering ransomware or malware to a victim,
+
+00:04:31.865 --> 00:04:36.190
+conducting password attacks, and so much more.
+

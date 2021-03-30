@@ -1,0 +1,1494 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020297,
+      "key": "0ef1bee4-4f81-4287-bbca-992110a45fc9",
+      "title": "Finding Security Vulnerabilities",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, we'll be discussing attack methods, scanning for vulnerabilities, and penetration testing. ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/0ef1bee4-4f81-4287-bbca-992110a45fc9/1020297/1603869718169/Finding+Security+Vulnerabilities+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/0ef1bee4-4f81-4287-bbca-992110a45fc9/1020297/1603869714558/Finding+Security+Vulnerabilities+Subtitles.zip"
+          },
+          {
+            "name": "Vulnerability Scan Results for Exercise",
+            "uri": "https://video.udacity-data.com/topher/2020/July/5f20bb2a_scan-results/scan-results.csv"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1034934,
+          "key": "3e9274df-9778-426a-a4b4-eddad7f5bfbb",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3e9274df-9778-426a-a4b4-eddad7f5bfbb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1034936,
+              "key": "a9baed93-c616-4040-8b9c-fedc879fa0f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Overview\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1034937,
+              "key": "2ff4cb97-a973-41a0-a104-e4ed87475983",
+              "title": "ND545 C3 L2 A01 Introduction To Finding Security Vulnerabilities V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YB4OIPFxHvU",
+                "china_cdn_id": "YB4OIPFxHvU.mp4"
+              }
+            },
+            {
+              "id": 1034939,
+              "key": "2201693c-1614-49d8-933b-3eb23a68d936",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this lesson, you'll learn how to: \n- Leverage the MITRE ATT&CK framework to understand attack methods\n- Configure and launch scans to find vulnerabilities\n- Explain the steps required to conduct a penetration test\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1034938,
+              "key": "460eac0d-028c-4435-81ca-7f99e205b476",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5eddaf83_screen-shot-2020-06-07-at-11.23.10-pm/screen-shot-2020-06-07-at-11.23.10-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/460eac0d-028c-4435-81ca-7f99e205b476",
+              "caption": "",
+              "alt": "",
+              "width": 1980,
+              "height": 598,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1038260,
+          "key": "360d20c8-ae18-4262-a042-1504e508e469",
+          "title": "Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "360d20c8-ae18-4262-a042-1504e508e469",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038700,
+              "key": "b77fbebd-ceb7-48d7-9925-1dc0f00dbc11",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038866,
+              "key": "8b12b01c-fd6f-4698-b013-094a9a66c421",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*“If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.”*\n\n Sun Tzu, The Art of War\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038261,
+              "key": "ff541905-68b3-4639-a7c3-e4f9539ebe56",
+              "title": "ND545 C3 L2 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "8Jpq4POFMyc",
+                "china_cdn_id": "8Jpq4POFMyc.mp4"
+              }
+            },
+            {
+              "id": 1038867,
+              "key": "3a0aabeb-0cb7-4930-89c3-eb17803f7590",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To win in cyber war, you must **Know Yourself**\n- your technology environment\n- your people, processes  and assets\n- security vulnerabilities and weaknesses \n- protection measures\n\nYou can learn more about your company through the processing of finding security vulnerabilities within your assets. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038263,
+          "key": "5e6c4f5e-93f8-4017-a536-c8df0e60ef13",
+          "title": "Finding Vulnerabilities",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e6c4f5e-93f8-4017-a536-c8df0e60ef13",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038701,
+              "key": "6145780d-89cb-4678-8acb-6dc674cf0e3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Finding Vulnerabilities",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038868,
+              "key": "27d06be9-ba28-4deb-8782-a92c38aa9f4e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**OVERVIEW**\n\nVulnerabilities are security holes or weaknesses within a system. Examples include:\n\n- missing updates\n- software flaws\n- improper error handling\n- and much more!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038871,
+              "key": "32e7bfec-c572-4d3c-96e8-cabd526f9b56",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Two near identical login error messages**",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038869,
+              "key": "aef7b3d9-8484-469a-bc25-8419e2bf51b5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef955d5_screen-shot-2020-06-28-at-9.45.03-pm/screen-shot-2020-06-28-at-9.45.03-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/aef7b3d9-8484-469a-bc25-8419e2bf51b5",
+              "caption": "",
+              "alt": "",
+              "width": 1790,
+              "height": 1446,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038870,
+              "key": "ca203151-1056-4607-b8f3-f23cc3f72860",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ca203151-1056-4607-b8f3-f23cc3f72860",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Which login window do you believe is more vulnerable, and why?"
+              },
+              "answer": {
+                "text": "Check out the lesson video to learn more!",
+                "video": null
+              }
+            },
+            {
+              "id": 1038264,
+              "key": "f66461e5-bda4-4147-afcc-82383a78369a",
+              "title": "ND545 C3 L2 A03 Developing Your Intuition About Finding Security Vulnerabilities",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BlcK4o3xhSs",
+                "china_cdn_id": "BlcK4o3xhSs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029456,
+          "key": "a74aa154-2fd2-46aa-84cc-2e5a68545ae5",
+          "title": "Understanding Attack Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a74aa154-2fd2-46aa-84cc-2e5a68545ae5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1044263,
+              "key": "21c20344-8b1f-4467-ad51-93f695985ed6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Understanding Attack Methods",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029476,
+              "key": "7598d6a4-d055-432d-862c-1c01d0d13951",
+              "title": "ND545 C3 L2 A04 Understanding Attack Methods Part 1 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "H4dq1AjyUdc",
+                "china_cdn_id": "H4dq1AjyUdc.mp4"
+              }
+            },
+            {
+              "id": 1029475,
+              "key": "f686271b-3045-4f40-bbec-ce9ac47d41b8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nWhile there are many different threats, threat actors, and scenarios, they typically follow a similar process. These have been summarized in the common cyber attack kill chain, and attack frameworks like MITRE ATT&CK.\n\n## Cyber Attack Process",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044260,
+              "key": "42959637-766a-4897-ab99-346e4659e533",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07a204_cyber-attack-process/cyber-attack-process.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/42959637-766a-4897-ab99-346e4659e533",
+              "caption": "",
+              "alt": "",
+              "width": 1926,
+              "height": 876,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044261,
+              "key": "eaee6097-59bb-4349-a935-030a4e087676",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are 7 common steps in the Cyber Attack Process, first articulated by Lockheed Martin as the cyber attack kill chain:\n\n1. Reconnaissance: The threat actor conducts research to find as much information as possible on the targets they want to attack, including vulnerabilities and weaknesses.\n2. Weaponization: The threat actor creates or acquires the arsenal for attack, such as malware. \n3. Delivery: The weapon is launched against the target and the operation begins.\n4. Exploitation: The threat actor must take advantage of vulnerability to gain access.\n5. Installation: The threat actor might install a backdoor or create ways to keep their access for the attack. \n6. Command and control: The threat actor enables remote control and manipulation of the target. \n7. Action on objectives: The threat actor accomplishes their mission and completes the attack goal.\n\nReference: \nFirst articulated by Lockheed Martin as the “kill chain” now used across the industry as a standard (https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html) \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044262,
+              "key": "73256830-2e42-4f8b-bd2f-f6d85424fc19",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## The MITRE ATT&CK Framework\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038266,
+              "key": "f1191436-3407-4385-968d-4ac73d4af79f",
+              "title": "ND545 C3 L2 A04 Understanding Attack Methods Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z7AlK93jikw",
+                "china_cdn_id": "z7AlK93jikw.mp4"
+              }
+            },
+            {
+              "id": 1029477,
+              "key": "e2747ad4-09ed-4a7c-a1e8-dc3568ef4472",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "ATT&CK refers to Adversarial Tactics, Techniques, and Common Knowledge. MITRE's attack framework is created to document common tactics, techniques, and procedures threats use against various enterprise systems. It outlines how attackers exploit vulnerabilities and weaknesses in systems to carry out attacks. As you work to find and fix vulnerabilities, this is a great resource to reference.\n\nTake a moment to explore the framework here: https://attack.mitre.org \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028562,
+          "key": "1185fbea-62da-462b-b94e-69c49ddb81b5",
+          "title": "Quiz: Understanding Attack Methods ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1185fbea-62da-462b-b94e-69c49ddb81b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048471,
+              "key": "d0cf731f-f87d-40e9-abe7-541344155446",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Understanding Attack Methods ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028667,
+              "key": "a9a0f659-1cbe-4f00-91f3-667f12a44e0b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a9a0f659-1cbe-4f00-91f3-667f12a44e0b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "During which step of the attack process does the threat actor gather information about the intended target?",
+                "answers": [
+                  {
+                    "id": "a1590611089413",
+                    "text": "Obfuscation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611196247",
+                    "text": "Reconnaissance",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611204202",
+                    "text": "Weaponization",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611211740",
+                    "text": "Command and control",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028678,
+              "key": "59fe1cbd-c704-462b-919a-48bd8e211a58",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "59fe1cbd-c704-462b-919a-48bd8e211a58",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "An attacker currently creating customized malware for an attack. The malicious hacker plans to use the malware to access the company’s customer database to a remote location. Which phase of the attack lifecycle is this?",
+                "answers": [
+                  {
+                    "id": "a1590611260204",
+                    "text": "Weaponization",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611306844",
+                    "text": "Action on Objective",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611313508",
+                    "text": "Exploitation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611318903",
+                    "text": "Command and Control",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611334245",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020305,
+          "key": "e4b32b38-d793-412a-94ce-e7ecbe5c4c6c",
+          "title": "Exercise: Understanding Attack Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e4b32b38-d793-412a-94ce-e7ecbe5c4c6c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1021460,
+              "key": "8e44c492-e54b-4144-b3e9-76819252dfb4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Understanding Attack Methods",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021459,
+              "key": "1a24a8ea-183c-49e4-a63d-34162b6f3a8a",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1a24a8ea-183c-49e4-a63d-34162b6f3a8a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Initiation and execution are the first steps in the ATT&CK framework. Use the social engineering attack tactic identified in the lesson one exercise scenario to conduct research within the ATT&CK framework. Select one attack method used from the initiation column, and then the execution column. Based on your research, what are ways to detect and mitigate these attack methods?"
+              },
+              "answer": {
+                "text": "Nice work!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038267,
+          "key": "dde52f7e-2dfb-4f2b-9d5e-a9bd504302f8",
+          "title": "Exercise Solution: Understanding Attack Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dde52f7e-2dfb-4f2b-9d5e-a9bd504302f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038702,
+              "key": "62e5d1d8-e33a-4913-acbe-a1d234632b51",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Understanding Attack Methods",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038268,
+              "key": "90ff571b-63ec-4be9-aff8-6890d268f1fd",
+              "title": "ND545 C3 L2 A05 Understanding Attack Methods Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-guOpLKrBa0",
+                "china_cdn_id": "-guOpLKrBa0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029457,
+          "key": "adecc964-c985-4239-8d5d-c57ab9cf508c",
+          "title": "Understanding Testing Methods and Tools\t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "adecc964-c985-4239-8d5d-c57ab9cf508c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038703,
+              "key": "c5b9b278-98b6-4188-a5b8-8c37bf1fb68c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Understanding Testing Methods and Tools\t",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038269,
+              "key": "d319ab37-4b91-4bc0-a2b2-e28a70bac339",
+              "title": "ND545 C3 L2 A06 Understanding Testing Methods And Tools",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fbvzblwFGQM",
+                "china_cdn_id": "fbvzblwFGQM.mp4"
+              }
+            },
+            {
+              "id": 1037438,
+              "key": "b69c50fc-00cb-4941-9691-3b8d3fd59fdd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nTo understand if an organization may be vulnerable to attacks businesses can do different levels and types of testing to identify vulnerabilities and proactively address them. This process of identifying gaps is a foundational part of the overall vulnerability management process.\n\n## Finding Gaps Through the Vulnerability Management Process\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037437,
+              "key": "fa089b6d-87fd-4325-9928-fc339924d5d0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f07a2d1_vulnerability-management-process/vulnerability-management-process.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fa089b6d-87fd-4325-9928-fc339924d5d0",
+              "caption": "",
+              "alt": "",
+              "width": 2042,
+              "height": 452,
+              "instructor_notes": null
+            },
+            {
+              "id": 1029482,
+              "key": "f3372359-8397-4981-8f58-43d8f7f5f216",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n**Scope:** Determine, conceptually what you want to test. For example, you can target a certain data center looking for a specific set of issues, a specific application, or other reasons.\n\n**Identify:** Pinpoint the specific host, network, application, or other resource targets. Here you may identify specific IP addresses or URLs for example.\n\n**Scan:** Configure and run the scan or test against the identified target. Here you are using various tools and methods, such as vulnerability scanning software, to find the issues.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029479,
+              "key": "93282a07-d745-4f80-b620-a49d9998fa75",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Common Testing Methods for Finding Vulnerabilities\n\n**Host and network vulnerability scans** are used to find vulnerabilities on servers, desktop, mobile devices, etc. within a network. Active vulnerability scanning used to traffic and actions to identify vulnerabilities. Passive scanning listens on the system and identifies issues in server and client software.\n\n**Application vulnerability scans** target security within code and its operation. The dynamic application scans test functionality while the program is executing operations, while static scans test functionality without running any code.\n\n**Penetration testing** is another level of actively trying to see if you can essentially break security. Penetration tests can target networks, hosts, people, and physical assets.\n\nReference: [NIST CRSC Glossary](https://csrc.nist.gov/glossary/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028563,
+          "key": "47c132b8-ff13-4e4e-9d21-edd48e79ecf9",
+          "title": "Quiz: Understanding Testing Methods and Tools ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "47c132b8-ff13-4e4e-9d21-edd48e79ecf9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048472,
+              "key": "ba7d6e0a-0149-4572-8bf9-218c3fa24698",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Understanding Testing Methods and Tools ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028691,
+              "key": "216bad62-4457-48c0-87f2-6830d7d665bd",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "216bad62-4457-48c0-87f2-6830d7d665bd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the difference between a static and dynamic scan?",
+                "answers": [
+                  {
+                    "id": "a1590611370302",
+                    "text": "Static scans test functionality while the program is executing operations, while dynamic scans test functionality without executing any code.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611389601",
+                    "text": "Static scans test whether or not an application is ready for production, while dynamic scans test whether or not there are common security bugs.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611405035",
+                    "text": "Dynamic scans test functionality while the program is executing operations, while static scans test functionality without executing any code.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611413808",
+                    "text": "Dynamic scans test whether or not an application is ready for production, while static scans test whether or not there are common security bugs.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028700,
+              "key": "3790700d-1fc2-401d-92b4-4fa3bf5d6cb1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3790700d-1fc2-401d-92b4-4fa3bf5d6cb1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You’ve recently learned that attackers are exploiting a vulnerability in Adobe Flash Player. Many employees in the company might be using this software, but you aren’t sure of which ones. Which kind of scan would you recommend as a next step?",
+                "answers": [
+                  {
+                    "id": "a1590611505439",
+                    "text": "Dynamic security scan",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611531880",
+                    "text": "Penetration test",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611539733",
+                    "text": "Host or network  vulnerability scan",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611554079",
+                    "text": "Application security scan",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611556011",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020306,
+          "key": "3a2230f2-6a3e-49ce-8cf1-b7ff5f3b4592",
+          "title": "Exercise: Understanding Testing Methods and Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3a2230f2-6a3e-49ce-8cf1-b7ff5f3b4592",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1021462,
+              "key": "050e39e3-e1c0-479c-8dc9-6ca4e10b21b1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Understanding Testing Methods and Tools",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021461,
+              "key": "5cc0d792-d881-4e9d-b75b-d07b32ff31b2",
+              "title": "Recommend",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5cc0d792-d881-4e9d-b75b-d07b32ff31b2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Recommend a security test type based on the scenario:\n\n- Your company is launching a new tool that will be used by all of your customers to create user profiles and connect with other users.\n- Your company just went through changes that required all of your network firewall rules to be updated to allow the new systems to access your environment.\n- One of your third-party partners shared that a new Windows Server 16 vulnerability was recently exploited by attackers in their environment.\n"
+              },
+              "answer": {
+                "text": "Nice work!",
+                "video": null
+              }
+            },
+            {
+              "id": 1021463,
+              "key": "ab36cbf8-d860-4ad7-9962-0af62ee44a9f",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ab36cbf8-d860-4ad7-9962-0af62ee44a9f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Recommend a security test type based on the scenario:"
+                },
+                "concepts_label": "Scenario",
+                "answers_label": "Test type",
+                "concepts": [
+                  {
+                    "text": "Your company is launching a new tool that will be used by all of your customers to create user profiles and connect with other users.",
+                    "correct_answer": {
+                      "id": "a1589581196436",
+                      "text": "Application scan, static and dynamic"
+                    }
+                  },
+                  {
+                    "text": "Your company just went through changes that required all of your network firewall rules to be updated to allow the new systems to access your environment.",
+                    "correct_answer": {
+                      "id": "a1589581255243",
+                      "text": "Penetration test"
+                    }
+                  },
+                  {
+                    "text": "One of your third-party partners shared that a new Windows Server 16 vulnerability was recently exploited by attackers in their environment.",
+                    "correct_answer": {
+                      "id": "a1589581274439",
+                      "text": "Vulnerability scan"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1589581196436",
+                    "text": "Application scan, static and dynamic"
+                  },
+                  {
+                    "id": "a1589581274439",
+                    "text": "Vulnerability scan"
+                  },
+                  {
+                    "id": "a1589581255243",
+                    "text": "Penetration test"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038270,
+          "key": "54772111-ab26-459d-88c4-98ad5b191aba",
+          "title": "Exercise Solution: Understanding Testing Methods and Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54772111-ab26-459d-88c4-98ad5b191aba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038704,
+              "key": "e7fb5194-56ee-4885-984d-54e008b73dee",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Understanding Testing Methods and Tools",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038271,
+              "key": "f76e11a6-82d9-4942-86f1-8234f80f27a5",
+              "title": "ND545 C3 L2 A07 Understanding Testing Methods And Tools Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UfO5RCmrnkc",
+                "china_cdn_id": "UfO5RCmrnkc.mp4"
+              }
+            },
+            {
+              "id": 1048546,
+              "key": "6dae698c-b0b8-4682-838a-8e438997333c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "These are the required scans that should be matched up based on each scenario: \n\n1. **Scenario one**: *Application scan.* \n\nApplication scans should be used to test new tools and applications being developed. You can also use them to check for security issues after a major code update or for ongoing maintenance.\n\n2. **Scenario two**: *Penetration test*. \n\nDuring penetration testing you’re trying to see if you can essentially break security like a malicious hacker would. When you make major changes to network configurations such as firewalls and routing changes...mistakes can happen that allow intruders in. Here you should recommend conducting a penetration test to discover those issue before the bad guys do.\n\n3. **Scenario three**: *Vulnerability scan*. \n\nNew vulnerabilities surface nonstop and it’s important to scan for those continuously. But you may also need to scan for them at specific points in time when you receive intel or tips from trusted sources about new vulnerabilities. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1029458,
+          "key": "167bd306-f0d1-46b3-95a9-160d59a25270",
+          "title": "Vulnerability Scanning\t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "167bd306-f0d1-46b3-95a9-160d59a25270",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1044264,
+              "key": "309fd1a9-787c-41b1-b267-7a586b3115c3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Vulnerability Scanning\t",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038272,
+              "key": "e0bdb89c-a27e-4cbc-8687-637d76b913b3",
+              "title": "ND545 C3 L2 A08 Vulnerability Scanning Part 1 V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IkWFPgMbrw4",
+                "china_cdn_id": "IkWFPgMbrw4.mp4"
+              }
+            },
+            {
+              "id": 1029483,
+              "key": "bac87a19-d401-425f-b195-2ac8ae630fdd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\nTo address the threats and attack methods relevant to your business, it's important to find vulnerabilities before the attacker do. In this section, you’ll learn how to conduct a vulnerability scan.\n\n## Using Vulnerability Scanners\n\nVulnerability scanners are tools that can be used to search assets for security holes. Nessus, the tools used in this class for example, is an open-source scanner that uses the Common Vulnerabilities and Exposures (CVE) model to find issues and efficiently conduct further research and analysis on the findings.\n\nTo run a scan, you'll need to identify the target you want to scan and establish what kinds of security issues you are seeking to find. There are also other factors to take into consideration such as what type of results report you'd like to see or what ports you want to include in the test. There are hundreds of configurations that can be changed to fine-tune a scan and the options will vary from scanning tool to scanning tool.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037441,
+              "key": "91b0f7a9-925c-4efa-bec4-183979f878f1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Reading Scan Results\n\nThe purpose of conducting the scan is so that you can find and fix vulnerabilities. All of the issues found by the scanner are delivered in the form of a vulnerability report. The scan results can be delivered in a variety of formats, including PDF, CSV, HMTL dashboard, and more. While the details of the report will vary from tool to tool, common details include are:\n\n- Hostname or IP address\n- Name and description of finding\n- Severity of finding\n- Mitigation recommendation, if available",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029484,
+              "key": "707eaceb-87b4-4fe2-8d35-94a0d9d9de1c",
+              "title": "ND545 C3 L2 A08 Vulnerability Scanning Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jw9dU1eVk4w",
+                "china_cdn_id": "jw9dU1eVk4w.mp4"
+              }
+            },
+            {
+              "id": 1037440,
+              "key": "24c4855b-7648-40b7-be8a-662c15691df9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To learn more about Nessus scanning, reference the Nessus user guide here: https://docs.tenable.com/nessus/8_0/Content/Resources/PDF/Nessus_8_0.pdf",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028565,
+          "key": "51d248c9-ff83-40f4-a60d-54e38bdf567a",
+          "title": "Quiz: Vulnerability Scanning ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "51d248c9-ff83-40f4-a60d-54e38bdf567a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048473,
+              "key": "3943280e-ddde-4ba8-b83f-20e965f073d5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Vulnerability Scanning ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028707,
+              "key": "3699b923-30f0-467d-9e9c-3c1489ea252f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3699b923-30f0-467d-9e9c-3c1489ea252f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which is a reason to run a discovery scan before running a vulnerability scan?",
+                "answers": [
+                  {
+                    "id": "a1590611621480",
+                    "text": "A discovery scan can help you pre-identify vulnerabilities before doing a full scan.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611632794",
+                    "text": "A discovery scan can help you identify assets on your network that you may not know about.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611639120",
+                    "text": "You cannot conduct a vulnerability scan without doing a discovery scan first.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611652624",
+                    "text": "None of the above.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020307,
+          "key": "1481bbe7-1e6a-4115-ad1b-8a02e1459b8f",
+          "title": "Exercise: Vulnerability Scanning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1481bbe7-1e6a-4115-ad1b-8a02e1459b8f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1021464,
+              "key": "f73ab983-0620-4b21-939d-8ac5541b7b14",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Vulnerability Scanning",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021466,
+              "key": "932b681b-a93f-4327-a8aa-934b5800871f",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "932b681b-a93f-4327-a8aa-934b5800871f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Download the [attached](https://video.udacity-data.com/topher/2020/July/5f20bb2a_scan-results/scan-results.csv) scan results."
+              ],
+              "positive_feedback": "Nice work!",
+              "video_feedback": null,
+              "description": "Vulnerability Scanning"
+            },
+            {
+              "id": 1048551,
+              "key": "75bd484c-7ffc-46f7-bd90-372f8bac17dd",
+              "title": "Analyze",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "75bd484c-7ffc-46f7-bd90-372f8bac17dd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Based on the results of the scan, answer the following questions below: \n\n1. What is the target host of the scan? \n2. How many vulnerabilities were found? \n3. What are their severity levels? \n4. Which TCP ports were found open? \n5. Which vulnerability was originally published in the year 2000?"
+              },
+              "answer": {
+                "text": "Dig into the CSV and see what you can identify here! ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038273,
+          "key": "8155df6c-049c-4e29-92b1-ffaf5effaecd",
+          "title": "Exercise Solution: Vulnerability Scanning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8155df6c-049c-4e29-92b1-ffaf5effaecd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038705,
+              "key": "0d97a04d-1c68-4fb0-b2ee-21613246f036",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Vulnerability Scanning",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038274,
+              "key": "6ccbe193-0721-4a5d-9dfa-2ad25f988e0a",
+              "title": "ND545 C3 L2 A08 Vulnerability Scanning Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NQq2yfdqQQs",
+                "china_cdn_id": "NQq2yfdqQQs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029459,
+          "key": "98dbd27e-428f-4d5e-98de-d41c73a849a0",
+          "title": "Penetration Testing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "98dbd27e-428f-4d5e-98de-d41c73a849a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048474,
+              "key": "e75ac367-57a6-46f0-8311-8018ed31ccc0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Penetration Testing",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029486,
+              "key": "935b40a8-859e-4cbf-a45d-db0c84694718",
+              "title": "ND545 C3 L2 A10 Penetration Testing V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jGXeLD56usA",
+                "china_cdn_id": "jGXeLD56usA.mp4"
+              }
+            },
+            {
+              "id": 1029485,
+              "key": "c86a1ef1-4eb8-4afd-bc41-d3c30ae34074",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nThe ultimate test of security is to put yourself in the shoes of an attacker and test your own system. This section covers how to organize and conduct a penetration test.  While from prior sections we've learned that there are many attack types hackers can choose from, we'll focus on password attacks as an example.\n\nPenetration testing, also known as pen testing, is a method of vulnerability discovery where ethical hackers target a resource to determine whether vulnerabilities can be exploited to compromise and environment or asset. These tests can target all resources from technology devices and networks, to physical offices and even employees via social engineering tests.\n\n## Red Team vs Blue Team\n\nPenetration tests include two sides that are categorized as teams. One side is the offensive team (red team) who are pretending to be the “bad” actors launching attacks. The other is the defensive team (blue team) who is acting as the “good” side trying to prevent attacks.\n\n## Penetration Testing Approaches\n\nPenetration tests are also characterized by how the red team approaches testing and how much insider knowledge is available to them. Typically, the less knowledge the penetration tester has, the more realistic the simulation is because attacks don’t usually know everything about a network they are targeting in the beginning. However, note that insider threats sometimes launch attacks as well and will have internal knowledge. The main testing approach are:\n\n-\tWhite box testing: A test methodology that assumes explicit and substantial knowledge of the internal structure and implementation detail of the assessment object.\n\n-\tBlack box testing: A test methodology that assumes no knowledge of the internal structure and implementation detail of the assessment object.\n\n-\tGray box testing: A test methodology that assumes some knowledge of the internal structure and implementation detail of the assessment object.\n\nDefinitions from the NIST CSRC Glossary: https://csrc.nist.gov/glossary/",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029487,
+              "key": "f3756b85-2666-4959-9edb-5729fe64627b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Penetration Test Example: Password Cracking using Dictionary Attack Mode\n\nAn example penetration test component that may be carried out, is a password cracking test.\n\nPassword cracking is the process of guessing, recovering, or reverse calculating a secret password stored in a computer system or transmitted over a network. It’s like picking a lock on a virtual door.\n\n**There are many approaches available to cracking a password:**\n\n•\tBrute Force Attack - The attacker tries every possible password combination until one works.\n\n•\tDictionary password attack – The attacker uses a dictionary list of common user passwords in a hashed format, and compares it to a password hash list \"stolen\" from a system. For example the MD5 hash for password123 is 482c811da5d5b4bc6d497ffa98491e38. If that string is found in system password file, it means that a user has their password set to \"password123\".\n\n•\tSocial engineering password  - Attackers who pretend to be employees try to get access to systems information by asking other employees for their usernames and passwords. Once they successfully get the credentials from the employees, they'll try to use the information to gain access to the company's systems. \n\n## Password Cracking Tools\n\nWeak passwords can be cracked in a matter of seconds using password cracking technology like HashCat (open source). Within HashCat, there are four components of basic attack:\n\n(hash type) (attack mode) (hash file) (dictionary file)\n\n## Example Command\n\nTo crack a password using a dictionary attack type, for example, you may specify this  command ** -m 0 -a 0 hash.txt file.txt** which translates into the following arguments:\n\n-\tHash type: - m 0 \n-\tAttack mode: -a 0\n-\tHash file: hash.txt\n-\tDictionary file:  file.dict\n\nTranslated example of command: -m 0 -a 0 hash.txt file.dict\n\n- -m 0 represents the hash type MD5\n\n- -a 0 represents to dictionary attack mode\n\n- -hash.txt and  secret.dict represent the target files\n\nCheck out the help section of the site to access source code, introductory videos, and more https://hashcat.net/hashcat/ \n\nSyntax for additional hash types can be found here: https://hashcat.net/wiki/doku.php?id=example_hashes\n\nIf you’d like to learn more about HashCAT, here’s a good intro video https://www.youtube.com/watch?v=EfqJCKWtGiU",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047105,
+              "key": "e2c46100-6ca4-4a37-a03d-4ea20d601d3a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are some cases in which penetration testing works well, such as to periodically check for security gaps or testing security after major network changes. However, there are also times when penetration testing may not be the best answer, or extra precautions should be taken. For example, Black Friday in the U.S is one of the biggest sales days for retailers. A retail company may not want to conduct a penetration test against the company website during this time since this activity could potentially take down services. It’s also important to outline rules of engagement with testers to provide guidance on just how far attackers can go. For example, if the test can hack the site and gain access to shut it down, should they stop there and notify you? Or should they keep going and actually try to shut it down? The bottom line is that planning a penetration test at the right time and with the right rules is important. In between, leverage vulnerability scanning and manual testing to continue finding issues with less potential impact. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029542,
+              "key": "05fa0336-2ba8-4790-98f9-a5092a3d3fec",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resource\n\nMost Popular Tool for Penetration Testing\nMetasploit: https://metasploit.help.rapid7.com/docs",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028567,
+          "key": "2ad96744-31c6-43a0-bf59-8f5e68861531",
+          "title": "Quiz: Penetration Testing ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2ad96744-31c6-43a0-bf59-8f5e68861531",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048475,
+              "key": "8b8ebf97-f61f-40ce-83d3-a12b6b04abc8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Penetration Testing ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028720,
+              "key": "aedd6b93-e195-44f7-8d5f-6f3e708f8744",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "aedd6b93-e195-44f7-8d5f-6f3e708f8744",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following cannot be the target of a penetration test?",
+                "answers": [
+                  {
+                    "id": "a1590611702395",
+                    "text": "Employees",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611713537",
+                    "text": "Servers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611719353",
+                    "text": "Virtual Networks",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611727108",
+                    "text": "A Physical Corporate Office",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611740309",
+                    "text": "None of the above",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028724,
+              "key": "325d04c8-a4fd-41d3-a582-283ff75b540a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "325d04c8-a4fd-41d3-a582-283ff75b540a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In which penetration testing type is no information given to the tester?",
+                "answers": [
+                  {
+                    "id": "a1590611835440",
+                    "text": "Gray box",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611845632",
+                    "text": "White box",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611851879",
+                    "text": "Red box",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611858155",
+                    "text": "Black box",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611869499",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020308,
+          "key": "cac7deb9-8f27-499c-aa68-6a1904e2eb89",
+          "title": "Exercise: Penetration Testing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cac7deb9-8f27-499c-aa68-6a1904e2eb89",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1026238,
+              "key": "435181f6-d6b0-48ca-b850-994d3bde0f28",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Penetration Testing",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026239,
+              "key": "cfde4a40-3cf7-4b2f-94f8-e83c6929e5ff",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cfde4a40-3cf7-4b2f-94f8-e83c6929e5ff",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Pick your own base keyword such as \"password\" or \"myname\"",
+                "Create 10 password variations you'd like to add to your dictionary for testing in clear text, such as \"password1234\" or \"PasSwOrd\"",
+                "Turn each of the passwords into a hash text string to form your dictionary list using a hashing function"
+              ],
+              "positive_feedback": "Nice work!",
+              "video_feedback": null,
+              "description": "There are tools and scripts that can be written to automate dictionary building as you advance, however we’ll create the list manually so that you fundamentally understand how password cracking works. Let’s say the base keyword you choose is “password”. You’d use the base to create variations like password123 and Password1234 because people tend to use common words and then add a few numbers or special characters. Passwords are usually stored on computers as hashes. To mimic this, once you have the list of common passwords, you can run them through a hash converter (e.g. http://onlinemd5.com) to come up with the hash string."
+            }
+          ]
+        },
+        {
+          "id": 1035258,
+          "key": "c714df0f-efde-49bf-87a5-89d484ea6d3b",
+          "title": "Exercise Solution: Penetration Testing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c714df0f-efde-49bf-87a5-89d484ea6d3b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038706,
+              "key": "f4ee6e6d-2eed-4280-9e4a-4f4c1489a29e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Penetration Testing",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035259,
+              "key": "62fbdde0-fe3e-41c8-8a04-d3eecc1de23f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5edfaf84_screen-shot-2020-06-09-at-11.48.33-am/screen-shot-2020-06-09-at-11.48.33-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/62fbdde0-fe3e-41c8-8a04-d3eecc1de23f",
+              "caption": "",
+              "alt": "",
+              "width": 1822,
+              "height": 592,
+              "instructor_notes": null
+            },
+            {
+              "id": 1035260,
+              "key": "631a9e30-7478-4f3c-93d8-2d2d402ee1ee",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’ve been tasked with generating a password dictionary for your attack. This is basically a hashed list of common passwords you can use to try to match up a password.\n\nThere are tools and scripts that can be written to automate this as you advance, however we’ll create the list manually so that you fundamentally understand how password cracking works. Let’s say the base keyword you choose is “password”. You’d create variations based on that because people tend to use common words and then add a few numbers or special characters. So, if you know your targets favorite color, or kids name, and other details like that this list can grow to include all kinds of combinations you might come up with, but here’s my example for the base word password. \n\nCleartext password list:\npassword\nPassword\npassword1\nPassword1\npassword123\nPassword123\nPassword123*\nP@Ssword\nP@$$word123\n\nAlso, if you know what the required length, casing, number, and special character rules are, you can create a more efficient list as an attacker. \n\nNow that you have this list, it’s still not all you need. Remember that systems don't typically store passwords in clear text. Once you have your list of passwords you think might be right, you’ll need to hash them.\n\nHere’s example hash output using MD5 hashing.\n5F4DCC3B5AA765D61D8327DEB882CF99\nDC647EB65E6711E155375218212B3964\n7C6A180B36896A0A8C02787EEAFB0E4C\n2AC9CB7DC02B3C0083EB70898E549B63\n482C811DA5D5B4BC6D497FFA98491E38\n42F749ADE7F9E195BF475F37A44CAFCB\nCBE10224496FB0BE0B7CA5178C932822\n175526654E72D88C37F1A630F1A976E2\n8B9674B89FE74D7F57A733AFB0F0D566\nFD32F63A223767E782A003C7985AF225\n\nThat becomes your dictionary file for the attack. In practice you’ll want to automate this with a script, use a rule based attack, or leverage existing dictionary files and functions already existing within password cracking tools. For example, there are some default dictionaries included in HashCat.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1034935,
+          "key": "5a22dae6-6ed3-4310-a7c8-e0de85d773a6",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5a22dae6-6ed3-4310-a7c8-e0de85d773a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1034940,
+              "key": "caeb32c0-40f9-4f12-af05-099abf3f06e9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1034941,
+              "key": "d8b5bb84-4b60-49e2-9a6f-e927f08cc792",
+              "title": "ND545 C3 L2 A11 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OPwct2WZJPE",
+                "china_cdn_id": "OPwct2WZJPE.mp4"
+              }
+            },
+            {
+              "id": 1034942,
+              "key": "183935d4-cfec-4833-8736-9d8247650be0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Now that we've completed the lesson, you should be able to:\n\n- Leverage the MITRE ATT&CK framework to understand attack methods\n- Configure and launch scans to find vulnerabilities\n- Explain the steps required to conduct a penetration test",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049191,
+              "key": "c828477e-b66f-4f31-b652-9e69eb4eba7e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary \n\n| Term | Definition |\n| ----------- | ----------- |\n| Scope | Determine, conceptually what you want to test. For example, you can target a certain data center looking for a specific set of issues, a specific application, or other reasons. |\n| Identify | Pinpoint the specific host, network, application, or other resource targets. Here you may identify specific IP addresses or URLs for example. |\n| Scan | Configure and run the scan or test against the identified target. Here you are using various tools and methods, such as vulnerability scanning software, to find the issues. |\n| Host and network vulnerability scans | Used to find vulnerabilities on servers, desktop, mobile devices, etc. within a network. Active vulnerability scanning used to traffic and actions to identify vulnerabilities. Passive scanning listens on the system and identifies issues in server and client software. |\n| Application vulnerability scans | Target security within code and its operation. The dynamic application scans test functionality while the program is executing operations, while static scans test functionality without running any code. |\n| Penetration testing | Another level of actively trying to see if you can essentially break security. Penetration tests can target networks, hosts, people, and physical assets. |\n| White box testing | A test methodology that assumes explicit and substantial knowledge of the internal structure and implementation detail of the assessment object. |\n| Black box testing | A test methodology that assumes no knowledge of the internal structure and implementation detail of the assessment object. |\n| Gray box testing | A test methodology that assumes some knowledge of the internal structure and implementation detail of the assessment object. |\n| Brute Force Attack | The attacker tries every possible password combination until one works. |\n| Dictionary password attack | The attacker uses a dictionary list of common user passwords in a hashed format, and compares it to a password hash list \"stolen\" from a system.|\n| Social engineering password | Attackers who pretend to be employees try to get access to systems information by asking other employees for their usernames and passwords. Once they successfully get the credentials from the employees, they'll try to use the information to gain access to the company's systems. |\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049188,
+              "key": "20bd65b4-461d-4caf-81a7-d45bab6942b7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

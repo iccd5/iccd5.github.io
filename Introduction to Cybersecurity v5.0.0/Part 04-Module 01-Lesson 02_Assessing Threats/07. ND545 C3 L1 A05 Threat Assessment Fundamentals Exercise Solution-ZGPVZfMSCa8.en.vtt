@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+In this exercise, the goal is to
+
+00:00:02.970 --> 00:00:06.795
+analyze the threat scenario image and identify the asset,
+
+00:00:06.795 --> 00:00:10.695
+the threat, the vulnerability, and the exploit.
+
+00:00:10.695 --> 00:00:14.100
+The ultimate threat is that the attacker might
+
+00:00:14.100 --> 00:00:17.775
+breach security and steal from the organization.
+
+00:00:17.775 --> 00:00:21.375
+The main vulnerability in this case is that
+
+00:00:21.375 --> 00:00:26.460
+the unpatched software which the attacker can aim to exploit is present.
+
+00:00:26.460 --> 00:00:28.470
+As we progress through lessons,
+
+00:00:28.470 --> 00:00:33.975
+you'll also learn that the employees ignorance is also a threat to security.
+
+00:00:33.975 --> 00:00:36.495
+The assets involved may vary.
+
+00:00:36.495 --> 00:00:40.880
+However, you can begin to hypothesize about what the target might be.
+
+00:00:40.880 --> 00:00:44.960
+Remember, assets are anything of value to the company.
+
+00:00:44.960 --> 00:00:50.060
+In this case, the asset could be the victim's computer and the data on it,
+
+00:00:50.060 --> 00:00:54.140
+it could be the financial system the attacker is looking to gain access to,
+
+00:00:54.140 --> 00:00:55.930
+it could be a lot of things.
+
+00:00:55.930 --> 00:01:02.135
+Finally, because the attacker is taking advantage of malware that was discovered today,
+
+00:01:02.135 --> 00:01:05.990
+you can infer that a zero-day exploit is being used.
+
+00:01:05.990 --> 00:01:07.850
+The attacker is also exploiting
+
+00:01:07.850 --> 00:01:11.945
+the naive and curious nature of human beings through social engineering,
+
+00:01:11.945 --> 00:01:14.730
+which we'll talk about more later as well.
+

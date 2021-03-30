@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.730
+In this exercise, you've just received
+
+00:00:02.730 --> 00:00:07.340
+new threat intelligence that Holly is associated with a group called Leviathan.
+
+00:00:07.340 --> 00:00:09.810
+You're using this along with information from
+
+00:00:09.810 --> 00:00:13.725
+previous exercises to create a Mac threat profile.
+
+00:00:13.725 --> 00:00:18.090
+Now with everything you know from those exercises and this new tip,
+
+00:00:18.090 --> 00:00:20.870
+you can start pulling together a threat profile.
+
+00:00:20.870 --> 00:00:24.885
+If we focus on the intentional threat in this case, Holly,
+
+00:00:24.885 --> 00:00:30.480
+you'd want to think through each element of the cyber prep framework with her in mind.
+
+00:00:30.480 --> 00:00:34.555
+The first thing you should do is research the group Leviathan.
+
+00:00:34.555 --> 00:00:37.970
+You'll find tons of information that can help you populate
+
+00:00:37.970 --> 00:00:41.600
+the threat profile along with what you already know.
+
+00:00:41.600 --> 00:00:45.380
+The MITRE ATT&amp;CK group's site is a great resource for that.
+
+00:00:45.380 --> 00:00:46.970
+If you haven't looked at it already,
+
+00:00:46.970 --> 00:00:49.285
+take a quick look there as a starting point.
+
+00:00:49.285 --> 00:00:52.439
+Now, when it comes to intent,
+
+00:00:52.439 --> 00:00:55.380
+Holly's goal appears to be fraud or theft.
+
+00:00:55.380 --> 00:01:00.045
+However, when you look into Leviathan you learn it's an espionage group.
+
+00:01:00.045 --> 00:01:04.445
+So she may be up to something else on behalf of the organization.
+
+00:01:04.445 --> 00:01:08.435
+The consequences in this case could be financial impact or
+
+00:01:08.435 --> 00:01:12.980
+loss of intellectual property if the attack is successful, but there could be more.
+
+00:01:12.980 --> 00:01:17.120
+There could be reputation impact if it gets publicized, for example.
+
+00:01:17.120 --> 00:01:19.895
+Also if Holly is stealing login credentials,
+
+00:01:19.895 --> 00:01:24.020
+she maybe trying to log in and out of the systems over time.
+
+00:01:24.020 --> 00:01:27.620
+Again, based on the image and the Intel you have,
+
+00:01:27.620 --> 00:01:30.500
+there may not be a definitive answer for everything,
+
+00:01:30.500 --> 00:01:34.090
+but you can start to hypothesize and do the research.
+
+00:01:34.090 --> 00:01:37.939
+Now regarding targets, since the threat group she's associated
+
+00:01:37.939 --> 00:01:42.455
+with seems to have a greater Maritime related mission.
+
+00:01:42.455 --> 00:01:46.640
+It's worth exploring if you have any partners or vendors,
+
+00:01:46.640 --> 00:01:50.530
+they may use you as a stepping stone to target.
+
+00:01:50.530 --> 00:01:53.825
+Lastly, when it comes to capabilities,
+
+00:01:53.825 --> 00:01:56.915
+you can include from looking into the threat group.
+
+00:01:56.915 --> 00:02:00.215
+They are state-sponsored and backed by China.
+
+00:02:00.215 --> 00:02:03.490
+So they may have tons of resources at their disposal.
+
+00:02:03.490 --> 00:02:07.219
+The common attack tactics include spear phishing,
+
+00:02:07.219 --> 00:02:09.940
+backdoors, credential theft, and more.
+
+00:02:09.940 --> 00:02:14.300
+The bottom line here to remember is that when threat profiling,
+
+00:02:14.300 --> 00:02:16.835
+again, you may not have all the answers and that's okay.
+
+00:02:16.835 --> 00:02:18.010
+That's the reality.
+
+00:02:18.010 --> 00:02:22.025
+You gather as much information as you can to drive your decisions.
+
+00:02:22.025 --> 00:02:25.805
+A bottom line to remember is that when threat profiling,
+
+00:02:25.805 --> 00:02:29.210
+you may not have all of the answers and that's okay.
+
+00:02:29.210 --> 00:02:30.995
+That's the reality.
+
+00:02:30.995 --> 00:02:36.540
+Gather as much information as you can to help drive your decisions.
+

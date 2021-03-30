@@ -1,0 +1,1535 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1020298,
+      "key": "43844e18-6260-4009-a613-09c243161d69",
+      "title": "Fixing Security Vulnerabilities",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "We're going to cover how to conduct vulnerability research, test and apply results, and how to prioritize and strategize the results in this lesson.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/43844e18-6260-4009-a613-09c243161d69/1020298/1602117354231/Fixing+Security+Vulnerabilities+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/43844e18-6260-4009-a613-09c243161d69/1020298/1602117350366/Fixing+Security+Vulnerabilities+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1035311,
+          "key": "0ac5dc5a-7f52-42b0-aeb4-d22823282bcf",
+          "title": "Lesson Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0ac5dc5a-7f52-42b0-aeb4-d22823282bcf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038930,
+              "key": "1ed5d294-3fb6-4f36-a50d-7727094342e1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035313,
+              "key": "7e5b7800-fa41-48a8-b0c0-700e96c34000",
+              "title": "ND545 C3 L3 A01 Introduction To Fixing Security Vulnerabilities",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gkJFUi81THc",
+                "china_cdn_id": "gkJFUi81THc.mp4"
+              }
+            },
+            {
+              "id": 1035315,
+              "key": "4d222cdb-725b-4fe9-b1aa-ec1f9a794990",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee03c58_screen-shot-2020-06-09-at-9.49.32-pm/screen-shot-2020-06-09-at-9.49.32-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4d222cdb-725b-4fe9-b1aa-ec1f9a794990",
+              "caption": "",
+              "alt": "",
+              "width": 1964,
+              "height": 510,
+              "instructor_notes": null
+            },
+            {
+              "id": 1035314,
+              "key": "4ff1148c-de9b-4926-99e6-054b567552e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By the end of this lesson you’ll be able to:\n\n- Conduct vulnerability research using industry resources like MITRE CVE frame\n\n- Validate scan results through manual testing and application of business context\n\n- Prioritize security gaps discovered and recommend remediation strategies\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1038277,
+          "key": "90ae679c-751c-42d3-88b7-9d9fe85c3b44",
+          "title": "Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90ae679c-751c-42d3-88b7-9d9fe85c3b44",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038931,
+              "key": "e13f256c-da41-44ea-ac9a-5a17ccbd1c4f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038932,
+              "key": "75c49240-b3f0-474f-bdf9-b5bb04584736",
+              "title": "ND545 C3 L3 A02 Big Picture",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BBUhbRtgQok",
+                "china_cdn_id": "BBUhbRtgQok.mp4"
+              }
+            },
+            {
+              "id": 1038873,
+              "key": "7d373df4-13dc-4a58-ab5b-efc8a70b8596",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef957de_screen-shot-2020-06-28-at-9.54.10-pm/screen-shot-2020-06-28-at-9.54.10-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7d373df4-13dc-4a58-ab5b-efc8a70b8596",
+              "caption": "",
+              "alt": "",
+              "width": 1264,
+              "height": 416,
+              "instructor_notes": null
+            },
+            {
+              "id": 1038872,
+              "key": "b7ee4dc8-f4de-4918-906d-43df996bbb8b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nFixing security issues is just as important as finding them. \n\n*What happens if you don’t fix a security gap you found?*\n\n-  Non-compliance with certain regulations\n- Legal liabilities\n- Security weaknesses are exposed to hackers\n- Higher chances of facing a breach",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038874,
+              "key": "355a89ed-8f41-4437-961a-e2da5b8adb7a",
+              "title": "Consequences of failing to fix vulnerabilities",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "355a89ed-8f41-4437-961a-e2da5b8adb7a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the follow is a potential consequence of failing to fix a security vulnerability in a timely fashion?",
+                "answers": [
+                  {
+                    "id": "a1593399296904",
+                    "text": "Non-compliance with certain requirements",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593399313861",
+                    "text": "Regulatory fines",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593399328719",
+                    "text": "Higher chances of facing a breach",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1593399333815",
+                    "text": "All of the above",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038278,
+          "key": "d1b7522b-4ecd-4c32-ab95-13f4a2b9d7af",
+          "title": "Fixing Vulnerabilities",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d1b7522b-4ecd-4c32-ab95-13f4a2b9d7af",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048462,
+              "key": "37251bca-a038-41a7-8622-ef63e87dc3ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#  Fixing Vulnerabilities",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038279,
+              "key": "9af1eee2-21cc-40e1-8fe9-b7aca094124f",
+              "title": "ND545 C3 L3 A03 Developing Your Intuition About Finding Security Vulnerabilities",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yc5me7_bqdA",
+                "china_cdn_id": "yc5me7_bqdA.mp4"
+              }
+            },
+            {
+              "id": 1038875,
+              "key": "41adc83e-298d-4000-ad0e-6ae452a19b6b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nSystem vulnerabilities need to be fixed to stop from being exploited by threats. Security patches and other fixes can be put in place to mitigate vulnerabilities. You may find thousands of security gaps and realize that all cannot be fixed at once. Determining which vulnerabilities to fix requires some analysis and prioritization. The next question becomes, how do you prioritize findings and then work to fix issues?\n\nThis is another natural instinct that humans have and practice every single day.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1029460,
+          "key": "1c8fc5bb-b3e9-47bc-9161-04af9f5f4b65",
+          "title": "Remediation Planning Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1c8fc5bb-b3e9-47bc-9161-04af9f5f4b65",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048463,
+              "key": "0d9d6776-3f4d-4007-bb8c-f34958029068",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Remediation Planning Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029574,
+              "key": "7637f2e2-8f08-4b3f-a65e-4ba1d97e413d",
+              "title": "ND545 C3 L3 A04 Remediation Planning Fundamentals Part 1 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3vuAHC9wVUU",
+                "china_cdn_id": "3vuAHC9wVUU.mp4"
+              }
+            },
+            {
+              "id": 1037445,
+              "key": "dbd1ea89-9902-4aeb-aeac-b92759091052",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nThe purpose of security testing is to find security gaps. To prevent attackers from exploiting those, they now have to be fixed. Remediation planning helps security professionals understand and prioritize which vulnerabilities matter most. This process of fixing gaps is a foundational part of the overall vulnerability management process.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029572,
+              "key": "04b00aae-eb31-427b-afa6-c8d05f545395",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*The vulnerability remediation process includes five main steps:*\n\n-\tValidate: Confirm that vulnerabilities are valid and remove any false positives.\n-\tPrioritize: Rank vulnerabilities based on risk and other factors that help signify what should be addressed first.\n-\tRemediate: Work with appropriate resources to fix the issues.\n-\tRetest: Rescan or retest to confirm that the vulnerability has been fixed, and that other gaps were not exposed in the process.\n-\tClose: Document the closure of the vulnerability.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037446,
+              "key": "6dd11ded-fc12-4c15-ba34-946c5ec4b889",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ef0359e_screen-shot-2020-06-21-at-11.37.29-pm/screen-shot-2020-06-21-at-11.37.29-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6dd11ded-fc12-4c15-ba34-946c5ec4b889",
+              "caption": "",
+              "alt": "",
+              "width": 2452,
+              "height": 1038,
+              "instructor_notes": null
+            },
+            {
+              "id": 1029573,
+              "key": "1443d235-b4da-430d-b917-338485fbf5de",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Understanding Vulnerabilities\n\nA core concept used to discuss and characterize vulnerabilities is the severity. Ratings are based on significance of vulnerability and common severity levels are Critical, High, Medium, and Low.\n\nBecause there are so many vulnerabilities spread across various systems, there needed to be a common scoring convention and way to measure severity. Without a standard, the same vulnerability could be defined as critical in one place, while it’s medium severity in another place. CVSS was created to address this. \n\nThe **Common Vulnerability Scoring System (CVSS)** provides a consistent way to score findings that can then be translated into a qualitative rating such as low, medium, high, and critical. This can help companies accurately evaluate and prioritize findings within their vulnerability management processes.\n\nScoring consists of three metric groups\nBase – access vector, access complexity, impact to CIA, etc.\nTemporal – exploitability, available remediation measure, vuln report confidence\nEnvironmental – collateral damage, target distribution, CIA impact \n\n\nLearn more by reviewing the user guide: https://www.first.org/cvss/user-guide, the FAQ https://www.first.org/cvss/v2/faq, and the calculator https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1037449,
+              "key": "cce95f50-d0eb-4aa0-9440-ee2f506d422a",
+              "title": "ND545 C3 L3 A04 Remediation Planning Fundamentals Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ul6ig2XIaAI",
+                "china_cdn_id": "ul6ig2XIaAI.mp4"
+              }
+            },
+            {
+              "id": 1047106,
+              "key": "7a11afac-9467-4fd9-8713-511ab75d64c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The point of CVSS scoring is to have a standardized way to qualify vulnerability severity levels. However, scanning tools and security vendors also often come up with their own custom ratings as well, which may be different from CVSS. While CVSS scoring is the most common and recommended standard, sometimes companies opt to stick with their own ratings or the ratings of a different vendor. For example, if you are conducting a scan using a tool that a vendor has developed, especially for your industry, you may choose to rely on the customized severity rating they use instead of the generic scoring provided through CVSS. There is no wrong answer; however, whichever route a company chooses, it’s important to remain consistent. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028568,
+          "key": "93465706-150a-4bf0-971c-644bcdf22f72",
+          "title": "Quiz: Remediation Planning Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "93465706-150a-4bf0-971c-644bcdf22f72",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048464,
+              "key": "05b94743-d41c-4096-8ac8-1057a646b2bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Remediation Planning Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028761,
+              "key": "dcebc2f0-6d79-40af-8f7b-0aa8b0981d07",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dcebc2f0-6d79-40af-8f7b-0aa8b0981d07",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following does not contribute to the CVSS scoring system?",
+                "answers": [
+                  {
+                    "id": "a1590611926429",
+                    "text": "Privileges required",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611935169",
+                    "text": "Confidentiality impact",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611946751",
+                    "text": "Threat actor",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590611953127",
+                    "text": "Attack complexity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590611959391",
+                    "text": "Exploitability",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028762,
+              "key": "065acea2-4837-467d-888b-8e9798b868f2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "065acea2-4837-467d-888b-8e9798b868f2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Is privileged access required to leverage this vulnerability? [CVE-2014-3211](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3211)",
+                "answers": [
+                  {
+                    "id": "a1590612327954",
+                    "text": "Yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612359126",
+                    "text": "No",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028763,
+              "key": "6a2c14fa-1f6b-4be6-b08a-1f8451693274",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6a2c14fa-1f6b-4be6-b08a-1f8451693274",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which component of the CIA triad does this vulnerability impact? [CVE-2014-3211](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3211)\n",
+                "answers": [
+                  {
+                    "id": "a1590612413686",
+                    "text": "Confidentiality",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612446688",
+                    "text": "Integrity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612451132",
+                    "text": "Availability",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020309,
+          "key": "65f93932-38c6-4081-9d32-e09eb0d73b59",
+          "title": "Exercise: Remediation Planning Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "65f93932-38c6-4081-9d32-e09eb0d73b59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1021469,
+              "key": "72b9afd3-4d4b-4a9a-acf4-c35acaf0946b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Remediation Planning Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1048547,
+              "key": "0c1b3738-4e14-4392-bed2-52f3f30eec86",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Work backwards to determine the calculated CVSS 3 score for the following vulnerability Vector String:\n\nAV:A/AC:H/PR:H/UI:R/S:C/C:L/I:H/A:H/E:P/RL:X/RC:C/CR:L/IR:L/AR:H/MAV:N/MAC:L/MPR:H/MUI:R/MS:U/MC:L/MI:L/MA:L",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026241,
+              "key": "ba4a59d5-a2a2-4b73-b4f0-f8d375425d49",
+              "title": "Calculate",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ba4a59d5-a2a2-4b73-b4f0-f8d375425d49",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Once you have the score metrics, enter them below.\n"
+              },
+              "answer": {
+                "text": "The Common Vulnerability Scoring System (CVSS) provides a consistent way to score findings that can then be translated into a qualitative rating such as low, medium, high, and critical. This can help companies accurately evaluate and prioritize findings within their vulnerability management processes.\n\nScoring consists of three metric groups Base – access vector, access complexity, impact to CIA, etc. Temporal – exploitability, available remediation measure, vulnerability report confidence Environmental – collateral damage, target distribution, CIA impact\n\nLearn more by reviewing the user guide: https://www.first.org/cvss/user-guide, the FAQ https://www.first.org/cvss/v2/faq, and the calculator https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1035237,
+          "key": "d2acdbdc-18be-4583-bb97-fb3e21943be9",
+          "title": "Exercise Solution: Remediation Planning Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d2acdbdc-18be-4583-bb97-fb3e21943be9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048465,
+              "key": "cb92f016-cfbe-4fce-b515-5a2cc22db240",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Remediation Planning Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035238,
+              "key": "becb2e50-ba9f-45bb-a0b9-1adf516d816d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5edf8c47_screen-shot-2020-06-09-at-9.18.21-am/screen-shot-2020-06-09-at-9.18.21-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/becb2e50-ba9f-45bb-a0b9-1adf516d816d",
+              "caption": "",
+              "alt": "",
+              "width": 2322,
+              "height": 870,
+              "instructor_notes": null
+            },
+            {
+              "id": 1035239,
+              "key": "3a200121-2427-4c7c-993d-052f5941188a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5edf8c82_screen-shot-2020-06-09-at-9.19.44-am/screen-shot-2020-06-09-at-9.19.44-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3a200121-2427-4c7c-993d-052f5941188a",
+              "caption": "",
+              "alt": "",
+              "width": 1680,
+              "height": 1436,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1029461,
+          "key": "33eacec5-6eab-444e-830a-ddaac630cc55",
+          "title": "Researching and Validating Findings\t",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33eacec5-6eab-444e-830a-ddaac630cc55",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048466,
+              "key": "5f34f530-beea-4279-a18c-3c7b62481e9f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Researching and Validating Findings\t",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038287,
+              "key": "5fa09f98-3e06-4396-b17c-234d3286b19d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nTo prioritize the findings, you have to understand the risk level, validate false positives, fine tune scan configurations, and more. There are resources available to help in this research including the MITRE CVE framework.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029576,
+              "key": "1da88dad-2378-4305-9d7d-97a4e5e126a9",
+              "title": "ND545 C3 L3 A05 Researching And Validating Findings Part 1 V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "28aCfEW8LWo",
+                "china_cdn_id": "28aCfEW8LWo.mp4"
+              }
+            },
+            {
+              "id": 1029575,
+              "key": "3d913342-a491-40a6-bbf5-0a316484c34c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Validating Vulnerabilities\n\nVulnerabilities can be categorized in three areas based on their validity: false positive, false negative, and true positive. \n\n- False positive: An alert that incorrectly indicates that a vulnerability is present. For example, there is not fire present, but a fire alarm is going off.\n\n- False negative: An instance in which a security tool intended to detect a particular threat fails to do so. For example, there is a fire present, but the fire alarm does not sound.\n\n- True positive: An alert that rightfully indicates a vulnerability is present. For example, there is a fire present and the fire alarm rightfully sounds.\n \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038289,
+              "key": "dd8ebe7b-855c-487a-9415-bdd1a1473a1d",
+              "title": "ND545 C3 L3 A05 Researching And Validating Findings Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fhH_apbetKE",
+                "china_cdn_id": "fhH_apbetKE.mp4"
+              }
+            },
+            {
+              "id": 1047198,
+              "key": "66b279f9-642c-49f9-8c8b-936e1898bd63",
+              "title": "Validating Vulnerabilities",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "66b279f9-642c-49f9-8c8b-936e1898bd63",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Your computer is missing a critical security patch, yet your anti-virus software says that your computer is up to date and secure. What type of vulnerability is this?",
+                "answers": [
+                  {
+                    "id": "a1595556539460",
+                    "text": "False positive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1595556743116",
+                    "text": "False negative",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1595556755823",
+                    "text": "True positive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038288,
+              "key": "2cb21b60-9bf9-4d43-b0b4-5f3267b6e1b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Researching Vulnerabilities\n\nThere are many details that can be associated with a vulnerability such as the severity, the techniques required to exploit the issue, fixes available, and more. Sometimes, finding this information requires additional research. To make this process easier and answer ensure that findings are labeled in a universal and consistent way, the MITRE CVE framework was created. MITRE CVE is a dictionary that provides definitions for publicly disclosed cybersecurity vulnerabilities and exposures. The goal of CVE is to make it easier to share data across separate vulnerability capabilities (tools, databases, and services) with these definitions. CVE Entries are comprised of an identification number, a description, and at least one public reference.\n\nTo learn more, visit the CVE getting started page for beginner tips: https://cve.mitre.org/about/getting_started.html",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1047197,
+              "key": "c11f653f-36bf-4b0c-bcef-7047bfbe3b14",
+              "title": "CVSS Scoring",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c11f653f-36bf-4b0c-bcef-7047bfbe3b14",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is a contributing factor in calculating the exploitability of a vulnerability using the CVSS framework? ",
+                "answers": [
+                  {
+                    "id": "a1595555996716",
+                    "text": "Attack Complexity",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1595556108083",
+                    "text": "Integrity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1595556108834",
+                    "text": "Confidentiality",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1595556109618",
+                    "text": "Risk",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1038315,
+              "key": "2a06c6f0-af2a-47cd-bdd3-72a34b2506ec",
+              "title": "ND545 C3 L3 A05 Researching And Validating Findings Part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0DFarNB3-zU",
+                "china_cdn_id": "0DFarNB3-zU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028569,
+          "key": "86ecf1c9-f414-4f85-9d16-c74f3d3f1827",
+          "title": "Quiz: Research and Validating Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86ecf1c9-f414-4f85-9d16-c74f3d3f1827",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048467,
+              "key": "8647a009-1d89-4464-8d6c-d024b10847b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Research and Validating Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028768,
+              "key": "80985359-1e69-4005-a291-7f43053a20bf",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "80985359-1e69-4005-a291-7f43053a20bf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the scenario to the label. "
+                },
+                "concepts_label": "Scenario",
+                "answers_label": "Label",
+                "concepts": [
+                  {
+                    "text": "There is a malicious file on the network, and the system didn’t trigger an alarm.",
+                    "correct_answer": {
+                      "id": "a1590612646143",
+                      "text": "False negative"
+                    }
+                  },
+                  {
+                    "text": "There is a malicious file on the network, and the system did trigger an alarm.\n",
+                    "correct_answer": {
+                      "id": "a1590612673786",
+                      "text": "True positive"
+                    }
+                  },
+                  {
+                    "text": "There is a safe file on the network, and the system did trigger an alarm.\n",
+                    "correct_answer": {
+                      "id": "a1590612675580",
+                      "text": "False positive"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1590612675580",
+                    "text": "False positive"
+                  },
+                  {
+                    "id": "a1590612646143",
+                    "text": "False negative"
+                  },
+                  {
+                    "id": "a1590612673786",
+                    "text": "True positive"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020310,
+          "key": "e573da8f-d4ca-4cca-80ff-61b18b16a806",
+          "title": "Exercise: Researching and Validating Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e573da8f-d4ca-4cca-80ff-61b18b16a806",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048468,
+              "key": "f842a72b-c934-4a03-b2e8-f0e9f4807c0b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Researching and Validating Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021472,
+              "key": "0ad51087-73ef-4e55-b6a5-f725f47ff1e1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Consider this to be a list of vulnerabilities found within your organization. Explore these issues and then answer the exercise question.\n- [CVE-2020-0609](https://www.tenable.com/cve/CVE-2020-0609) Remote code execution\n- [CVE-2019-7183](https://www.tenable.com/cve/CVE-2019-7183) Error handling\n- [CVE-2019-1483](https://www.tenable.com/cve/CVE-2019-1483) Windows priv escalation\n- [CVE-2019-16444](https://www.tenable.com/cve/CVE-2019-16444) Adobe Acrobat\n- [CVE-2019-8512](https://www.tenable.com/cve/CVE-2019-8512) iOS issue\n- [CVE-2014-3211](https://www.tenable.com/cve/CVE-2019-3211) Publify software\n- [CVE-2019-20669](https://www.tenable.com/cve/CVE-2019-20669) Netgear",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1032540,
+              "key": "889d208e-2ce7-4865-ae3a-06c2d96ba70b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Context\n\nThe company primarily uses Windows, but there are a few Apple devices as well. Last year the company started paying special attention to access security and put a privileged access management solution in place. In addition, to reduce risks, administrative rights have been removed from end-user devices, and Windows Remote Desktop Gateway (RD Gateway) has been disabled from all company systems through a group managed security policy.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026244,
+              "key": "c5e8081e-9cb7-4a85-b6e5-447b7fa3b6af",
+              "title": "Answer",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c5e8081e-9cb7-4a85-b6e5-447b7fa3b6af",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use the context provided to identify and explain which vulnerability might be a false positive in the provided list of issues. "
+              },
+              "answer": {
+                "text": "Good work! ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038291,
+          "key": "bace0f28-5a91-493b-8799-352e25ae96e7",
+          "title": "Exercise Solution: Researching and Validating Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bace0f28-5a91-493b-8799-352e25ae96e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048469,
+              "key": "aa6f55c2-2bc1-49d9-b5f8-9f80fcf2ccff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Researching and Validating Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038292,
+              "key": "3769452b-442f-4082-be08-a60b8c19d0b6",
+              "title": "ND545 C3 L3 A06 Researching And Validating Findings Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0_KNnsf5Shg",
+                "china_cdn_id": "0_KNnsf5Shg.mp4"
+              }
+            },
+            {
+              "id": 1047211,
+              "key": "c712790c-3d06-4484-8751-a1498c804dc2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The company primarily uses Windows, but there are a few Apple devices as well. Last year the company started paying special attention to access security and put a privileged access management solution in place. In addition, to reduce risks, administrative rights have been removed from end-user devices, and Windows Remote Desktop Gateway (RD Gateway) has been disabled from all company systems through a group managed security policy.\n\n## Solution\n\n-Potential False Positive [CVE-2020-0609](https://www.tenable.com/cve/CVE-2020-0609) Remote code execution\n\nThought process: This vulnerability exists in Windows Remote Desktop Gateway (RD Gateway). According to the context provided about the company, RDP is or at least should be disabled. This means that the finding could be a potential false positive. It's important to validate before accepting that hypothesis as an alternative truth may be that contrary to what the company believes, RDP really hasn't been disabled and the vulnerability is real. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1029462,
+          "key": "b034cc59-3ae1-4dc7-8c94-8c5a35ad78d8",
+          "title": "Prioritizing Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b034cc59-3ae1-4dc7-8c94-8c5a35ad78d8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1048470,
+              "key": "47a04cca-ee65-42a4-82a4-b57d2038aef2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Prioritizing Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1029578,
+              "key": "4f98dd46-b3f5-4f1f-9807-4d9ca48ac40f",
+              "title": "ND545 C3 L3 A07 Considerations When Prioritizing Findings",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Pcp-zLlYwFs",
+                "china_cdn_id": "Pcp-zLlYwFs.mp4"
+              }
+            },
+            {
+              "id": 1029577,
+              "key": "ed55597a-e4fb-4b7f-b54a-4417bf38323c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nYou've done application, network, and host scans and need to take all of the results, streamline them, understand the effort required to fix them, what should be done now, next, and later, and who is responsible. \t\n\nAt this stage the context gathered through vulnerability research and validation can be used to prioritize the findings across numerous vulnerability inputs. Once the false positives are gone and you have a clean list you must focus on, you can use the risk level information and context gathered in prior steps to group findings into remediation categories based on variables like: \n\n- Severity level\n- Budget\n- Time and effort to remediate\n- Cost benefit analysis\n- Regulatory requirements\n\nNote that before starting this process, it's important to remove any false positives where possible through vulnerability research and manual testing, or additional means. Prioritization efforts should focus on true positives. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038380,
+              "key": "f837ba96-6a79-4d29-bbb9-080980a50924",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### General tips for prioritizing findings:\n-\tSeverity: The higher the severity level, the more urgent it may be to fix the issue. For example, “critical” severity issues generally should be prioritized before those rated at “high” severity.\n-\tCost benefit analysis: The cost to fix the vulnerability should not be more than the potential negative impact of the vulnerability exposure.\n-\tCorporate considerations: Unique factors, such as regulatory compliance implications must be taken into account. For example, if failing to fix a vulnerability will lead the company to fail an audit or land in legal trouble the team may choose to prioritize fixing those findings. \n\n#### Standardizing prioritization process: \n\nEstablishing a standard prioritization process can help make the remediation process clean and consistent. Through service level agreements, an organization can outline parameters regarding how to approach remediation. For example, a rule might be that any critical issues need to be fixed within 30 days of discovery, while low severity issues can wait 90 days. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028571,
+          "key": "21dd8a54-7105-4473-9c6b-95d0ab1b231b",
+          "title": "Quiz: Prioritizing Findings ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "21dd8a54-7105-4473-9c6b-95d0ab1b231b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038933,
+              "key": "b775e424-f0d6-4f65-bad8-9718c3e0eac1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Prioritizing Findings ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028770,
+              "key": "117cd49a-c971-4563-be00-44d30d788095",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "117cd49a-c971-4563-be00-44d30d788095",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which context element, or elements, can be used to prioritize remediation efforts?",
+                "answers": [
+                  {
+                    "id": "a1590612785065",
+                    "text": "Available budget",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612796635",
+                    "text": "Time to remediate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612802659",
+                    "text": "Severity level",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612808833",
+                    "text": "Regulatory requirements",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612815386",
+                    "text": "All of the above",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028771,
+              "key": "ad345e05-929f-480c-b21f-6f972902eaec",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad345e05-929f-480c-b21f-6f972902eaec",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the purpose of manual vulnerability verification after a scan? ",
+                "answers": [
+                  {
+                    "id": "a1590612846354",
+                    "text": "Confirm the vulnerability is a true positive risk.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590612862977",
+                    "text": "Find new undetected vulnerabilities.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612870628",
+                    "text": "Prove that the vulnerability should be included in the penetration test.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612883364",
+                    "text": "Ensure you have an audit trail of security testing steps. ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020311,
+          "key": "69bf157b-2c22-484d-a3b3-21346f965f1c",
+          "title": "Exercise: Prioritizing Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "69bf157b-2c22-484d-a3b3-21346f965f1c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038934,
+              "key": "4f677667-71a5-4c65-829f-176b547d7965",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Prioritizing Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021473,
+              "key": "08a61aa3-d41d-46a1-a519-2543e795024e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Consider this to be a list of vulnerabilities found within your organization. Explore these issues and then answer the exercise question.\n- [CVE-2020-0609](https://www.tenable.com/cve/CVE-2020-0609) Remote code execution\n- [CVE-2019-7183](https://www.tenable.com/cve/CVE-2019-7183) Error handling\n- [CVE-2019-1483](https://www.tenable.com/cve/CVE-2019-1483) Windows priv escalation\n- [CVE-2019-16444](https://www.tenable.com/cve/CVE-2019-16444) Adobe Acrobat\n- [CVE-2019-8512](https://www.tenable.com/cve/CVE-2019-8512) iOS issue\n- [CVE-2014-3211](https://www.tenable.com/cve/CVE-2014-3211) Publify software\n- [CVE-2019-20669](https://www.tenable.com/cve/CVE-2019-20669) Netgear",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026245,
+              "key": "f1815e4e-9c24-4d0d-a52a-0f04298450fe",
+              "title": "Prioritize",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f1815e4e-9c24-4d0d-a52a-0f04298450fe",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Let's say you've done validation and all of the findings in the list are true positives. Which vulnerability would you fix first, what harm could it cause, and how can it be fixed?"
+              },
+              "answer": {
+                "text": "Well done!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1038295,
+          "key": "06c6c2c9-46eb-4604-a42c-32d6a5ad7790",
+          "title": "Exercise Solution: Prioritizing Findings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "06c6c2c9-46eb-4604-a42c-32d6a5ad7790",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038936,
+              "key": "2de909c6-e91d-499e-aa3a-f9e24631d122",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Prioritizing Findings",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038296,
+              "key": "ee4302e8-21f6-4382-a6d4-bb2a18e097f0",
+              "title": "ND545 C3 L3 A08 Prioritizing Findings Exercise Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t5BoYWmaPOM",
+                "china_cdn_id": "t5BoYWmaPOM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1029463,
+          "key": "2d459a9a-0358-4cb3-bebf-3c6c17122b4c",
+          "title": "Recommending Remediation Strategies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2d459a9a-0358-4cb3-bebf-3c6c17122b4c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1044259,
+              "key": "20252092-e87d-478e-b266-625ffda7125e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Recommending Remediation Strategies",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038298,
+              "key": "a0f37f76-4bbd-4431-a4af-bfdcd28e103a",
+              "title": "ND545 C3 L3 A09 Recommending Remediation Strategies V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QHl25BzxUVo",
+                "china_cdn_id": "QHl25BzxUVo.mp4"
+              }
+            },
+            {
+              "id": 1038381,
+              "key": "17f104bf-5ff2-4877-a746-60eafce09bbc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Overview\n\nThe final step in the process is take all of the prioritized vulnerabilities and gaps found by the company, and leverage the vulnerability research information and company context to establish a remediation strategy. The strategy is typically shared with stakeholders such as leadership or technical resources involved in fixing the gaps. \n\nThere are three main paths of action for remediation:\n\n-\tAvoid the vulnerability: The gap can be avoided by fixing the issue, adding controls to mitigate potential impact, or eliminating the asset. If the recommended strategy is the fix the issue, a rescan should be conducted afterward to ensure that the issue has indeed been fixed and that other new vulnerabilities were not exposed in the process. \n-\tAccept the vulnerability: The gap can be accepted by documenting the risk and gaining authorization from an accountable individual. For example, if the cost to fix an issue is greater than the potential vulnerability impact, you may consider accepting the issue. \n-\tTransfer the vulnerability: The gap can be transferred to other entities via insurance or vendor support options. \n\n\nCompanies usually do not have the resources to address *every* finding right away. In the remediation strategy, a final recommendation should be selected, documented, and tracked for every vulnerability.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1028572,
+          "key": "cb91e773-7964-4d40-a9e2-483361b322d7",
+          "title": "Quiz: Recommending Remediation Strategies ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cb91e773-7964-4d40-a9e2-483361b322d7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038937,
+              "key": "96fbbd5f-81d7-444e-b9b7-98c10878955b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Quiz: Recommending Remediation Strategies ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028772,
+              "key": "28638ca3-0972-4188-9c8c-03bc3c9efe2c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "28638ca3-0972-4188-9c8c-03bc3c9efe2c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which is not a risk mitigation strategy?",
+                "answers": [
+                  {
+                    "id": "a1590612915139",
+                    "text": "Avoid the risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612931243",
+                    "text": "Accept the risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612941533",
+                    "text": "Transfer the risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612947329",
+                    "text": "Challenge the risk",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028773,
+              "key": "ed510044-d251-4319-ae95-f8a3148751b3",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ed510044-d251-4319-ae95-f8a3148751b3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You have found that a vulnerability has a low likelihood of impacting your organization. In addition, the cost to upgrade the system to address the finding, is five times the cost of the risk. Which is not a viable action?",
+                "answers": [
+                  {
+                    "id": "a1590612974264",
+                    "text": "Document and accept the risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612986997",
+                    "text": "Transfer the risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590612998696",
+                    "text": "Upgrade the system to close the gap",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590613005559",
+                    "text": "Avoid the risk with mitigating controls",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1020312,
+          "key": "c85aeec8-4615-4936-b672-8b4be4ac211d",
+          "title": "Exercise: Recommending Remediation Strategies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c85aeec8-4615-4936-b672-8b4be4ac211d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038938,
+              "key": "ab6f267b-abcf-4671-abbb-54ae72a4f029",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Recommending Remediation Strategies",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021474,
+              "key": "faa41f0a-124f-4f87-bebb-9eac1ba95a8a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- [CVE-2020-0609](https://www.tenable.com/cve/CVE-2020-0609) Remote code execution\n- [CVE-2019-7183](https://www.tenable.com/cve/CVE-2019-7183) Error handling\n- [CVE-2019-1483](https://www.tenable.com/cve/CVE-2019-1483) Windows priv escalation\n- [CVE-2019-16444](https://www.tenable.com/cve/CVE-2019-16444) Adobe Acrobat\n- [CVE-2019-8512](https://www.tenable.com/cve/CVE-2019-8512) iOS issue\n- [CVE-2014-3211](https://www.tenable.com/cve/CVE-2019-3211) Publify software\n- [CVE-2019-20669](https://www.tenable.com/cve/CVE-2019-20669) Netgear",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1032539,
+              "key": "93637ca1-47d5-4a4f-8b7b-bc2e2a1c837b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Context\n\nThe company primarily uses Windows, but there are a few Apple devices as well. Last year the company started paying special attention to access security and put a privileged access management solution in place. In addition, to reduce risks, administrative rights have been removed from end-user devices, and Windows Remote Desktop Gateway (RD Gateway) has been disabled from all company systems through a group managed security policy.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1026246,
+              "key": "c4b93692-0130-481f-b42b-4f22505816dc",
+              "title": "Answer",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c4b93692-0130-481f-b42b-4f22505816dc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Assume that each issue takes 15 days to fix, and you only have resources to fix two at a time. Which issues would you place in each of the mitigation strategy buckets for the next 30 days?"
+              },
+              "answer": {
+                "text": "Good job!",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1035240,
+          "key": "6fc16966-4a17-4a41-8b14-98d08850ddfc",
+          "title": "Exercise Solution: Recommending Remediation Strategies",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6fc16966-4a17-4a41-8b14-98d08850ddfc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038939,
+              "key": "ebefadc6-3953-4a45-bb94-7a63de3aaf22",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise Solution: Recommending Remediation Strategies",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035241,
+              "key": "55162a85-59c9-4e89-8f66-0384321eb507",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Depending on your thought process you may come up with different sequences for fixing the issues. Generally you want to think about which risks you should accept, avoid, or transfer.\n\n**Avoid**: Adjust program requirements or constraints to eliminate or reduce the risk. This adjustment could be accommodated by a change in funding, schedule, or technical requirements. These four are here because they are higher risk.\nCVE-2019-16444 Adobe Acrobat (critical according to MITRE/high nessus)\nCVE-2019-7183 Error handling (critical according to MITRE/high nessus)\nCVE-2019-1483 Windows priv escalation (High unanimously)\nCVE-2019-8512 iOS issue(medium MITRE/high nessus)\n\n**Transfer**: Reassign organizational accountability, responsibility, and authority to another stakeholder willing to accept the risk.\n\n**Accept**: Acknowledge the existence of a particular risk, and make a deliberate decision to accept it without engaging in special efforts to control it. Approval of project or program leaders is required.\nCVE-2019-20669 Netgear (low risk)\nCVE-2014-3211 Publify software (medium/high however blogging engine may not be as critical)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1035312,
+          "key": "fa014bbe-3a67-47f7-a3e9-1ce14294063d",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fa014bbe-3a67-47f7-a3e9-1ce14294063d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1038940,
+              "key": "c4384803-48ef-4ac1-92ce-0ee6aaf6afc6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Recap",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035316,
+              "key": "1e39515f-2580-4fed-9a32-039c3ba3b927",
+              "title": "ND545 C3 L3 A10 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BXdKa-LMxU4",
+                "china_cdn_id": "BXdKa-LMxU4.mp4"
+              }
+            },
+            {
+              "id": 1035317,
+              "key": "6fd69b4b-b3f6-440e-bc5d-defbc80c49a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Remediation planning helps security professionals understand and prioritize which vulnerabilities matter most. At this point you should be able to:\n\n- Conduct vulnerability research using industry resources like MITRE CVE frame\n- Validate scan results through manual testing and application of business context\n- Prioritize security gaps discovered and recommend remediation strategies\n\nKudos on making it thus far! You’re now aware of some of the factors to be considered as you work to prioritize and remediate these findings.           \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049194,
+              "key": "8c4d98fd-048c-4b20-b5a5-2f2b5dc98bc0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n| Term | Definition |\n| ----------- | ----------- |\n| False positive | An alert that incorrectly indicates that a vulnerability is present. |\n| False negative | An instance in which a security tool intended to detect a particular threat fails to do so. |\n| True positive | An alert that rightfully indicates a vulnerability is present. |\n| Validate | Confirm that vulnerabilities are valid and remove any false positives. |\n| Prioritize | Rank vulnerabilities based on risk and other factors that help signify what should be addressed first. |\n| Remediate | Work with appropriate resources to fix the issues. |\n| Retest | Rescan or retest to confirm that the vulnerability has been fixed, and that other gaps were not exposed in the process. |\n| Close | Document the closure of the vulnerability. |",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1049189,
+              "key": "dc05dee0-7812-4720-88d6-a38bb6a05c12",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*As a side note, this course is a foundational course that is meant to help build the knowledge to become job-ready, but you will likely need additional training and/or coursework in order to obtain a job in this field. These foundations will set you up for success going forward and are vital to your success in this field.*",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

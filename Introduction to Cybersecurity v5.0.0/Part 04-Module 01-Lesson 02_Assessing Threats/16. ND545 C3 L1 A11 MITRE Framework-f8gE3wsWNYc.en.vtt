@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.155
+We've talked about how once a thread is identified,
+
+00:00:04.155 --> 00:00:06.300
+then threat scenarios, models,
+
+00:00:06.300 --> 00:00:10.845
+and profiles can be built to better understand and assess the threat.
+
+00:00:10.845 --> 00:00:12.825
+To provide an example,
+
+00:00:12.825 --> 00:00:17.025
+we're going to walk through how to create a threat profile.
+
+00:00:17.025 --> 00:00:19.860
+While there are many approaches to doing this,
+
+00:00:19.860 --> 00:00:23.970
+standard frameworks are a common starting point in companies.
+
+00:00:23.970 --> 00:00:27.360
+MITRE Cyber Prep Framework is an example
+
+00:00:27.360 --> 00:00:30.794
+that focuses on three key traits for threat profiling.
+
+00:00:30.794 --> 00:00:34.110
+The intention of the threat actor,
+
+00:00:34.110 --> 00:00:37.760
+the target, and the capability.
+
+00:00:37.760 --> 00:00:40.865
+Intent considers questions like,
+
+00:00:40.865 --> 00:00:44.450
+what's the ultimate goal of the threat actor and
+
+00:00:44.450 --> 00:00:48.520
+what is the consequence that will result if they are successful?
+
+00:00:48.520 --> 00:00:51.160
+This also considers the time-frame.
+
+00:00:51.160 --> 00:00:54.860
+Do they intend to come in very quickly, do damage and leave?
+
+00:00:54.860 --> 00:00:59.015
+Or are they operating in stealth or persistent mode?
+
+00:00:59.015 --> 00:01:01.945
+Which means they're in it for the long call.
+
+00:01:01.945 --> 00:01:04.460
+They are trying to stick around your environment and
+
+00:01:04.460 --> 00:01:07.294
+learn quietly over time before striking.
+
+00:01:07.294 --> 00:01:10.430
+This timing is important to consider.
+
+00:01:10.430 --> 00:01:13.490
+If you think about a major bank heist, for example,
+
+00:01:13.490 --> 00:01:18.530
+the mastermind may spend months or years planning the attacks,
+
+00:01:18.530 --> 00:01:20.825
+learning where the cameras are,
+
+00:01:20.825 --> 00:01:24.140
+knowing who will be on staff and what their weaknesses
+
+00:01:24.140 --> 00:01:27.615
+are before actually conducting the robbery.
+
+00:01:27.615 --> 00:01:30.960
+The same is the case in cyber-security.
+
+00:01:30.960 --> 00:01:35.090
+An attacker can sit quietly in a network for years without being
+
+00:01:35.090 --> 00:01:40.090
+detected as they plan a major attack or steal things slowly.
+
+00:01:40.090 --> 00:01:44.180
+The next part is to understand the target of the attack.
+
+00:01:44.180 --> 00:01:45.949
+Is it a certain system,
+
+00:01:45.949 --> 00:01:48.575
+network, product, or a person?
+
+00:01:48.575 --> 00:01:52.280
+Also note, that an organization can be attacked as
+
+00:01:52.280 --> 00:01:57.665
+a stepping stone in an attack on one of its partners or customers.
+
+00:01:57.665 --> 00:01:59.810
+Businesses also have to take into
+
+00:01:59.810 --> 00:02:04.145
+consideration whether they are actually the intended target.
+
+00:02:04.145 --> 00:02:07.070
+These are things that threat intelligence and research
+
+00:02:07.070 --> 00:02:10.100
+on threat actors can help you understand.
+
+00:02:10.100 --> 00:02:15.155
+Finally, you need to know what the threat actor's capabilities are.
+
+00:02:15.155 --> 00:02:20.630
+What resources and methods do they have available to carry out an attack?
+
+00:02:20.630 --> 00:02:26.255
+If a threat actor has all of these big intentions and dreams of attacks,
+
+00:02:26.255 --> 00:02:31.790
+but you find it's a teen operating as a script kiddie on a college budget,
+
+00:02:31.790 --> 00:02:36.560
+it's not to say they couldn't get funding from somewhere or be successful.
+
+00:02:36.560 --> 00:02:42.530
+But you may consider the threat differently than you would a government backed
+
+00:02:42.530 --> 00:02:46.115
+nation state actor with a multi-million dollar budget
+
+00:02:46.115 --> 00:02:50.645
+and an army of attackers available to carry out on their mission.
+
+00:02:50.645 --> 00:02:54.815
+During this section, you can explore and document
+
+00:02:54.815 --> 00:03:00.265
+what attack patterns and methods the attacker has typically use as well.
+
+00:03:00.265 --> 00:03:04.160
+Another free resource from MITRE I recommend you explore
+
+00:03:04.160 --> 00:03:08.420
+is the group section tied to the MITRE attack framework.
+
+00:03:08.420 --> 00:03:12.010
+We'll walk through that framework in greater detail later.
+
+00:03:12.010 --> 00:03:13.700
+But in that group section,
+
+00:03:13.700 --> 00:03:17.765
+they aggregate tons of intelligence information on known threat actors,
+
+00:03:17.765 --> 00:03:20.435
+including what their goals and motivations are,
+
+00:03:20.435 --> 00:03:23.360
+their typical attack methods and more and you can
+
+00:03:23.360 --> 00:03:27.240
+use this information to add to your threat profile.
+

@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.175
+Threat assessment is a fundamental part of the cyber security risk management process,
+
+00:00:05.175 --> 00:00:09.045
+and I want to start with a quote that truly drives this point.
+
+00:00:09.045 --> 00:00:10.845
+In The Art of War,
+
+00:00:10.845 --> 00:00:15.510
+Sun Tzu shared an infamous quote that still rings true today.
+
+00:00:15.510 --> 00:00:20.750
+A key point made here is that if you don't know yourself and you don't know your enemy,
+
+00:00:20.750 --> 00:00:22.695
+you will lose every battle.
+
+00:00:22.695 --> 00:00:25.330
+Now this doesn't just apply to physical wars.
+
+00:00:25.330 --> 00:00:30.110
+In order to overcome cyber battles in defend against cyber attacks,
+
+00:00:30.110 --> 00:00:32.015
+you have essentially know two things,
+
+00:00:32.015 --> 00:00:34.540
+yourself and your enemy.
+
+00:00:34.540 --> 00:00:37.730
+What this means in practice is that you have to
+
+00:00:37.730 --> 00:00:41.375
+know the ins and outs of the company you are trying to protect.
+
+00:00:41.375 --> 00:00:44.254
+Be familiar with the technology environment,
+
+00:00:44.254 --> 00:00:46.475
+the people, the processes,
+
+00:00:46.475 --> 00:00:49.730
+and all of the assets that make the company run,
+
+00:00:49.730 --> 00:00:52.340
+and then by the phrase know your enemy,
+
+00:00:52.340 --> 00:00:55.450
+it means that you also need to know the threats you face.
+
+00:00:55.450 --> 00:00:57.915
+Who is out to get you and why?
+
+00:00:57.915 --> 00:00:59.600
+By the end of this lesson,
+
+00:00:59.600 --> 00:01:03.330
+you'll be able to explain the relationship between threats,
+
+00:01:03.330 --> 00:01:06.530
+threat actors, vulnerabilities, and exploits,
+
+00:01:06.530 --> 00:01:12.695
+you'll be able to utilize event contexts to identify potential threat actor motivations,
+
+00:01:12.695 --> 00:01:15.140
+you'll be able to identify security threats
+
+00:01:15.140 --> 00:01:18.350
+applicable to important organizational assets,
+
+00:01:18.350 --> 00:01:22.250
+and you'll also learn to use standard frameworks to assess threats,
+
+00:01:22.250 --> 00:01:26.970
+identify risks, and prioritize assets. Now let's get to it.
+
