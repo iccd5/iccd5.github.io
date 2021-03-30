@@ -1,0 +1,274 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.260
+Let's talk about evaluating our compliance obligations.
+
+00:00:04.260 --> 00:00:07.485
+Now, when I'm thinking about doing this evaluation,
+
+00:00:07.485 --> 00:00:09.930
+whether it's a standard or regulation, law,
+
+00:00:09.930 --> 00:00:11.760
+contract, what have you,
+
+00:00:11.760 --> 00:00:16.425
+I like to think about breaking down the control objectives to their simplest form.
+
+00:00:16.425 --> 00:00:19.650
+I do this by thinking about Boolean logic.
+
+00:00:19.650 --> 00:00:24.105
+Boolean, of course, generally representing a binary variable,
+
+00:00:24.105 --> 00:00:26.535
+true or false, on or off.
+
+00:00:26.535 --> 00:00:30.420
+That's the reason I think about control objectives in that way.
+
+00:00:30.420 --> 00:00:33.270
+I want to know exactly what my organization must
+
+00:00:33.270 --> 00:00:36.240
+do without any of the pretense or extraneous language.
+
+00:00:36.240 --> 00:00:37.765
+Let me give you an example.
+
+00:00:37.765 --> 00:00:41.300
+What are the steps that you need to play basketball?
+
+00:00:41.300 --> 00:00:44.975
+First, before we get to the steps,
+
+00:00:44.975 --> 00:00:48.575
+your control objectives will always have a subject.
+
+00:00:48.575 --> 00:00:50.930
+You have to find that subject.
+
+00:00:50.930 --> 00:00:56.295
+In this example, the subject is playing basketball.
+
+00:00:56.295 --> 00:00:58.695
+That's our actual objective.
+
+00:00:58.695 --> 00:01:02.750
+Then we'll say that there are three initial steps to playing basketball.
+
+00:01:02.750 --> 00:01:05.015
+You have to buy a basketball,
+
+00:01:05.015 --> 00:01:09.115
+pump it up, and spend some time dribbling it.
+
+00:01:09.115 --> 00:01:13.815
+In Boolean search, there four operative search terms.
+
+00:01:13.815 --> 00:01:16.415
+There's AND, there's NOT,
+
+00:01:16.415 --> 00:01:19.775
+there's OR, and there's AND NOT.
+
+00:01:19.775 --> 00:01:23.170
+That's the lens that I want to look at our example through.
+
+00:01:23.170 --> 00:01:25.400
+If I want to play basketball,
+
+00:01:25.400 --> 00:01:27.460
+I have to do all three.
+
+00:01:27.460 --> 00:01:35.830
+Meaning, buy the basketball and pump it up and dribble it or doesn't work here.
+
+00:01:35.830 --> 00:01:38.915
+Can I buy a basketball or pump it up?
+
+00:01:38.915 --> 00:01:42.860
+No, that wouldn't be compliant with our statement.
+
+00:01:42.860 --> 00:01:45.605
+Let's look at a more real-world example.
+
+00:01:45.605 --> 00:01:49.130
+Here's an extract from the 14 Cloud Security Principles.
+
+00:01:49.130 --> 00:01:51.890
+This is a little more wordy than our last example,
+
+00:01:51.890 --> 00:01:54.410
+but Section 5.2 spells out,
+
+00:01:54.410 --> 00:01:58.130
+what service providers must do related to
+
+00:01:58.130 --> 00:02:01.430
+vulnerability management and the goals that they must
+
+00:02:01.430 --> 00:02:05.195
+accomplish in order to become compliant.
+
+00:02:05.195 --> 00:02:08.245
+These are control objectives.
+
+00:02:08.245 --> 00:02:11.730
+Let's try to get at this with a more Boolean approach.
+
+00:02:11.730 --> 00:02:15.230
+Section 5.2 says that service providers should have
+
+00:02:15.230 --> 00:02:19.010
+a management process in place to identify,
+
+00:02:19.010 --> 00:02:21.895
+triage, and mitigate vulnerabilities.
+
+00:02:21.895 --> 00:02:23.970
+What's in our subject?
+
+00:02:23.970 --> 00:02:26.945
+It says that we have to have management processes.
+
+00:02:26.945 --> 00:02:29.240
+That's a pretty good place to start.
+
+00:02:29.240 --> 00:02:32.465
+But these aren't just any management processes,
+
+00:02:32.465 --> 00:02:35.015
+they're ones that identify, triage,
+
+00:02:35.015 --> 00:02:38.975
+and mitigate vulnerabilities, so we should include that as well.
+
+00:02:38.975 --> 00:02:42.580
+Then we've got to move to our control objectives.
+
+00:02:42.580 --> 00:02:44.700
+These are the goals.
+
+00:02:44.700 --> 00:02:48.560
+Each of the bullet points here represents its own goal.
+
+00:02:48.560 --> 00:02:51.485
+Here we actually see three of those.
+
+00:02:51.485 --> 00:02:56.695
+Knowing that each bullet point represents its own control objective,
+
+00:02:56.695 --> 00:02:58.865
+let's look at the first two,
+
+00:02:58.865 --> 00:03:01.400
+starting with the first control objective.
+
+00:03:01.400 --> 00:03:03.665
+What's it really asking for?
+
+00:03:03.665 --> 00:03:08.720
+Remember, we said that our subject was a management process that identifies,
+
+00:03:08.720 --> 00:03:11.780
+triages, and mitigates vulnerabilities.
+
+00:03:11.780 --> 00:03:16.790
+I've rewritten the first objective here just to indicate that we have
+
+00:03:16.790 --> 00:03:23.045
+a management process that identifies potential new threats, vulnerabilities, and etc.
+
+00:03:23.045 --> 00:03:25.600
+That's one control objective.
+
+00:03:25.600 --> 00:03:28.260
+Now, same thing with the second one.
+
+00:03:28.260 --> 00:03:31.160
+I've written it here to make it clear that
+
+00:03:31.160 --> 00:03:35.875
+the second control objective is a separate objective altogether.
+
+00:03:35.875 --> 00:03:39.640
+Are you required to do one or both of these?
+
+00:03:39.640 --> 00:03:44.045
+There really is no language indicating that you have a choice between the two.
+
+00:03:44.045 --> 00:03:46.355
+To meet the latter of this section,
+
+00:03:46.355 --> 00:03:50.845
+you must meet the first control objective and the second.
+
+00:03:50.845 --> 00:03:53.375
+Now let's complicate this just a bit.
+
+00:03:53.375 --> 00:03:55.415
+What if we had another option?
+
+00:03:55.415 --> 00:03:59.180
+What if we could hire a company to manage these for us?
+
+00:03:59.180 --> 00:04:01.970
+This really means that we can meet
+
+00:04:01.970 --> 00:04:07.640
+this control objective by either doing the first two items,
+
+00:04:07.640 --> 00:04:11.360
+one and two, or the third.
+
+00:04:11.360 --> 00:04:13.850
+We've talked a lot about how governance
+
+00:04:13.850 --> 00:04:17.375
+professionals evaluate obligations and control objectives.
+
+00:04:17.375 --> 00:04:21.590
+But what happens when a security obligation is non-specific?
+
+00:04:21.590 --> 00:04:26.860
+Meaning, there aren't control objectives that detail security expectations.
+
+00:04:26.860 --> 00:04:30.919
+It's pretty common. Not every obligation is specific.
+
+00:04:30.919 --> 00:04:34.085
+Here's an example of something you might see.
+
+00:04:34.085 --> 00:04:38.795
+Vendors must maintain an information security management system
+
+00:04:38.795 --> 00:04:41.710
+that aligns with industry best practices.
+
+00:04:41.710 --> 00:04:44.555
+What would you do in a case like this?
+
+00:04:44.555 --> 00:04:49.850
+Typically what you want to do is just do your best and be able to provide
+
+00:04:49.850 --> 00:04:55.510
+some reasoning as to why what you're doing complies with the spirit of this statement.
+
+00:04:55.510 --> 00:04:59.570
+A great way to do that is to examine some best practices and
+
+00:04:59.570 --> 00:05:05.785
+other standards to design a control or program that works for your organization.
+
+00:05:05.785 --> 00:05:10.655
+If you can explain that you've examined three separate standards, for instance,
+
+00:05:10.655 --> 00:05:13.789
+and that your program is based on those standards,
+
+00:05:13.789 --> 00:05:16.710
+you're probably in pretty good shape.
+

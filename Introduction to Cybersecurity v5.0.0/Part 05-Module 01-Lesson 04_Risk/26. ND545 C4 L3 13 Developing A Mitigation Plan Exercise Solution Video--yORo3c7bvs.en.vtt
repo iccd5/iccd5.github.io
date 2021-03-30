@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.980
+There are two keys to understanding how to build a risk mitigation plan in this scenario.
+
+00:00:04.980 --> 00:00:09.450
+The first is understanding that while patches are considered critical,
+
+00:00:09.450 --> 00:00:13.140
+that does not necessarily translate to critical risks.
+
+00:00:13.140 --> 00:00:19.905
+In fact, you assess the likelihood of exploitation as medium and the impact is high.
+
+00:00:19.905 --> 00:00:23.085
+Now we didn't talk about mitigating controls.
+
+00:00:23.085 --> 00:00:25.815
+So we may still need to better understand if there are
+
+00:00:25.815 --> 00:00:28.980
+other factors at play that might reduce risk.
+
+00:00:28.980 --> 00:00:32.160
+Regardless, building a risk mitigation plan
+
+00:00:32.160 --> 00:00:35.070
+probably starts in this case with discussing with
+
+00:00:35.070 --> 00:00:41.460
+the control owner the most appropriate way and how to implement critical patches.
+
+00:00:41.460 --> 00:00:44.840
+But we do have one other key element.
+
+00:00:44.840 --> 00:00:48.905
+We also know that patch management policies aren't being followed.
+
+00:00:48.905 --> 00:00:53.140
+This is probably another conversation with control owners,
+
+00:00:53.140 --> 00:00:56.520
+but here you have some additional options.
+
+00:00:56.520 --> 00:00:59.960
+You may need to work with your governance team to make sure that
+
+00:00:59.960 --> 00:01:03.050
+they are measuring the effectiveness of the policy control.
+
+00:01:03.050 --> 00:01:05.630
+Or you may simply need to
+
+00:01:05.630 --> 00:01:09.740
+reinforce the need to follow the patch management policy more closely.
+
+00:01:09.740 --> 00:01:13.445
+The point is that defining mitigation plans
+
+00:01:13.445 --> 00:01:18.060
+involves input from control owners, and other stakeholders.
+

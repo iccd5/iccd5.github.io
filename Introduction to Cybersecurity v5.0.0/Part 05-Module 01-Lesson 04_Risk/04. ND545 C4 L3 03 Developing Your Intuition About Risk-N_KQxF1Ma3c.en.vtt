@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.470
+Because security risk management relies heavily on mathematical principles,
+
+00:00:04.470 --> 00:00:07.905
+we can end up with abstract assessments of risk.
+
+00:00:07.905 --> 00:00:13.829
+Security risk often becomes a function of whether the likelihood in impact are critical,
+
+00:00:13.829 --> 00:00:16.215
+high, medium, or low.
+
+00:00:16.215 --> 00:00:19.995
+Meaning that risks can become a matter of experience and bias.
+
+00:00:19.995 --> 00:00:24.270
+In mathematical formulas, there can be variables that transform
+
+00:00:24.270 --> 00:00:28.710
+risk expression from a highly positive outlook to a highly negative one.
+
+00:00:28.710 --> 00:00:31.260
+But those models are adjusted over time and
+
+00:00:31.260 --> 00:00:34.800
+measured for effectiveness against real outcomes.
+
+00:00:34.800 --> 00:00:39.590
+Here, we're dealing with a much less refined assessment mechanism.
+
+00:00:39.590 --> 00:00:42.215
+What this means is that our formula;
+
+00:00:42.215 --> 00:00:45.304
+risk equals likelihood times impact,
+
+00:00:45.304 --> 00:00:48.970
+is not really meant to be a mathematical equation.
+
+00:00:48.970 --> 00:00:52.235
+We use it just to express a measure of risk.
+
+00:00:52.235 --> 00:00:54.965
+We're not actually multiplying anything.
+
+00:00:54.965 --> 00:00:59.450
+Here's an example of a risk: a disgruntled employee publishes
+
+00:00:59.450 --> 00:01:03.860
+your organization's entire customer contact list to an online blog.
+
+00:01:03.860 --> 00:01:06.825
+What's the likelihood of that occurring?
+
+00:01:06.825 --> 00:01:08.505
+Well, I'm not sure;
+
+00:01:08.505 --> 00:01:11.150
+could we build a formula for starting to measure
+
+00:01:11.150 --> 00:01:14.320
+mathematically what that impact might look like?
+
+00:01:14.320 --> 00:01:18.470
+Sure. We could say that the likelihood is a function of
+
+00:01:18.470 --> 00:01:23.974
+employee dissatisfaction times opportunity minus mitigating controls;
+
+00:01:23.974 --> 00:01:25.895
+maybe there are other factors.
+
+00:01:25.895 --> 00:01:29.300
+But how practical is it to build a formula and gather
+
+00:01:29.300 --> 00:01:32.970
+inputs for every potential security risk,
+
+00:01:32.970 --> 00:01:37.655
+and how much do we really know about things like measuring employee satisfaction?
+
+00:01:37.655 --> 00:01:39.095
+Probably not a lot.
+
+00:01:39.095 --> 00:01:42.230
+So instead, we perform rough calculations about
+
+00:01:42.230 --> 00:01:46.180
+likelihood based on experience and unique circumstances.
+
+00:01:46.180 --> 00:01:49.435
+So maybe the risk here we decide is medium.
+
+00:01:49.435 --> 00:01:51.600
+Well, what about the impact?
+
+00:01:51.600 --> 00:01:53.640
+The same is true for impact.
+
+00:01:53.640 --> 00:01:57.410
+We could envision a formula for measuring the value of
+
+00:01:57.410 --> 00:02:01.510
+an exploited risk or impact and it might look something like this.
+
+00:02:01.510 --> 00:02:05.495
+But how much do we know about the value of customer records
+
+00:02:05.495 --> 00:02:09.975
+or the value of an average customer contract or reputational damage?
+
+00:02:09.975 --> 00:02:13.025
+Sometimes it's difficult to find that information out.
+
+00:02:13.025 --> 00:02:15.320
+So let's call this medium as well.
+
+00:02:15.320 --> 00:02:19.625
+So in general, we're making a value judgment based on
+
+00:02:19.625 --> 00:02:25.080
+our experience and that by itself can present some risk.
+
+00:02:25.080 --> 00:02:27.560
+We'll actually allow our own experience and
+
+00:02:27.560 --> 00:02:31.040
+our own risk appetite to color our view of risk.
+
+00:02:31.040 --> 00:02:32.820
+Let's look at another example.
+
+00:02:32.820 --> 00:02:36.080
+A phishing attempt successfully exploits a user
+
+00:02:36.080 --> 00:02:39.920
+and contaminates several workstations and servers with ransomware.
+
+00:02:39.920 --> 00:02:41.870
+What's the likelihood of that?
+
+00:02:41.870 --> 00:02:45.215
+What's the impact? Again, I'm not sure.
+
+00:02:45.215 --> 00:02:47.780
+Let me give you some additional context.
+
+00:02:47.780 --> 00:02:55.085
+What if I told you that phishing is the most widely used attack vector by a large margin?
+
+00:02:55.085 --> 00:02:58.745
+Does that change your opinion or does that color your opinion?
+
+00:02:58.745 --> 00:03:03.680
+Well, what if I said that we do anti-phishing training one time a year?
+
+00:03:03.680 --> 00:03:06.875
+Does that change the likelihood of occurrence?
+
+00:03:06.875 --> 00:03:09.235
+Would it change the impact?
+
+00:03:09.235 --> 00:03:13.940
+What if I said that a company that you previously worked for got phished
+
+00:03:13.940 --> 00:03:17.720
+a single time but that resulted in ransomware being
+
+00:03:17.720 --> 00:03:21.905
+placed on every computer and caused the company to go bankrupt?
+
+00:03:21.905 --> 00:03:24.245
+Does that mean that in your mind,
+
+00:03:24.245 --> 00:03:27.660
+this phishing example is critical?
+

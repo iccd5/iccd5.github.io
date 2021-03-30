@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.190
+I'd like to start talking about
+
+00:00:02.190 --> 00:00:06.810
+Risk Management Frameworks with a National Institute of Standards and Technology,
+
+00:00:06.810 --> 00:00:10.140
+Risk Management Framework, or the NIST, RMF.
+
+00:00:10.140 --> 00:00:12.630
+We'll start here, because I think it represents some of
+
+00:00:12.630 --> 00:00:15.525
+the best practices associated with risk management.
+
+00:00:15.525 --> 00:00:21.960
+But at the same time goes well beyond what I think of as the risk management function,
+
+00:00:21.960 --> 00:00:25.615
+and actually, bleeds into other governance risk and compliance roles.
+
+00:00:25.615 --> 00:00:30.980
+For context, NIST developed this framework to be used by federal systems and
+
+00:00:30.980 --> 00:00:33.290
+contractors in an attempt to have
+
+00:00:33.290 --> 00:00:37.430
+consistent classification of controls across many systems.
+
+00:00:37.430 --> 00:00:39.140
+If you look at the graphic,
+
+00:00:39.140 --> 00:00:41.960
+there are number of steps defined in the middle with
+
+00:00:41.960 --> 00:00:46.720
+corresponding guidance documentation defined on the exterior rings.
+
+00:00:46.720 --> 00:00:50.685
+Combined all of this information is quite large,
+
+00:00:50.685 --> 00:00:53.125
+so federal agencies and contractors,
+
+00:00:53.125 --> 00:00:57.140
+often have individuals dedicated to federal compliance,
+
+00:00:57.140 --> 00:01:00.280
+but I'd like to look at a few of the key aspects.
+
+00:01:00.280 --> 00:01:05.315
+Let's start at categorizing information in systems and selecting controls.
+
+00:01:05.315 --> 00:01:08.750
+System categorization refers to placing
+
+00:01:08.750 --> 00:01:12.305
+information or systems into predefined categories;
+
+00:01:12.305 --> 00:01:14.105
+low, medium, or high.
+
+00:01:14.105 --> 00:01:18.605
+With each category designed to be reflective of the overall impact
+
+00:01:18.605 --> 00:01:24.470
+that system or information might have on the organization or individuals.
+
+00:01:24.470 --> 00:01:29.980
+In other organizations, we refer to these things as business impact analysis.
+
+00:01:29.980 --> 00:01:32.720
+We then select controls appropriate for
+
+00:01:32.720 --> 00:01:35.570
+the level of categorization and those controls are
+
+00:01:35.570 --> 00:01:37.850
+contained in the various policy documents
+
+00:01:37.850 --> 00:01:41.785
+reflected in that risk management framework diagram.
+
+00:01:41.785 --> 00:01:44.190
+Let's look at how that operates.
+
+00:01:44.190 --> 00:01:51.064
+Special publication 800-63-3, which is digital identity guidelines,
+
+00:01:51.064 --> 00:01:56.510
+provides an overview of working with digital identities and authentication methods.
+
+00:01:56.510 --> 00:02:02.405
+Now, that document refers to special publication 800-63a,
+
+00:02:02.405 --> 00:02:08.390
+which set standards for how system users are allowed to prove their identity based
+
+00:02:08.390 --> 00:02:09.680
+on the system or
+
+00:02:09.680 --> 00:02:15.355
+information classification we discussed in the categorization step earlier.
+
+00:02:15.355 --> 00:02:17.640
+Based on the classification,
+
+00:02:17.640 --> 00:02:22.120
+system owners chooses specific identity assurance level,
+
+00:02:22.120 --> 00:02:24.725
+either 1, 2 or 3,
+
+00:02:24.725 --> 00:02:27.640
+with one being the least stringent.
+
+00:02:27.640 --> 00:02:33.580
+From there, we can refer to 800-63b to understand
+
+00:02:33.580 --> 00:02:36.850
+which corresponding authenticator assurance levels should
+
+00:02:36.850 --> 00:02:40.670
+be used and what that means in terms of specific controls.
+
+00:02:40.670 --> 00:02:43.555
+If you're looking at passwords for instance,
+
+00:02:43.555 --> 00:02:48.480
+they're permitted under AAO1 and 2,
+
+00:02:48.480 --> 00:02:53.035
+but all of those passwords must be at least eight characters in length.
+
+00:02:53.035 --> 00:02:55.225
+You can probably tell from this,
+
+00:02:55.225 --> 00:02:57.580
+it can be a really complex system.
+
+00:02:57.580 --> 00:03:02.634
+But I also want to point out that here's an example of where I believe the RMF,
+
+00:03:02.634 --> 00:03:04.985
+it goes well beyond risk management.
+
+00:03:04.985 --> 00:03:10.205
+All of the work that I just described is typically reserved for compliance professionals.
+
+00:03:10.205 --> 00:03:15.550
+They are generally responsible for ensuring that controls meet specific standards.
+
+00:03:15.550 --> 00:03:19.595
+Now, let's talk about the implement and assess steps.
+
+00:03:19.595 --> 00:03:22.055
+Once you've selected controls,
+
+00:03:22.055 --> 00:03:24.430
+you obviously need to implement them.
+
+00:03:24.430 --> 00:03:28.610
+That's really a job for our operational security counterparts.
+
+00:03:28.610 --> 00:03:33.010
+Once complete, our next step is assessing them.
+
+00:03:33.010 --> 00:03:37.740
+Here's another area where the RMF goes beyond simple risk-management.
+
+00:03:37.740 --> 00:03:41.000
+Assessing controls, as we discussed earlier,
+
+00:03:41.000 --> 00:03:44.735
+is traditionally the role of a Governance Professional.
+
+00:03:44.735 --> 00:03:48.050
+But then this risk management framework is not
+
+00:03:48.050 --> 00:03:52.054
+necessarily designed to serve as a playbook for risk management activities,
+
+00:03:52.054 --> 00:03:54.965
+it's really designed to reduce risk.
+
+00:03:54.965 --> 00:03:58.010
+In that way it operates to support a number of
+
+00:03:58.010 --> 00:04:03.184
+GRC activities and makes reference to risk management standards where necessary.
+
+00:04:03.184 --> 00:04:05.210
+The last component of
+
+00:04:05.210 --> 00:04:08.705
+the risk management framework that we'll discuss is system authorization.
+
+00:04:08.705 --> 00:04:09.950
+This is why I like to think,
+
+00:04:09.950 --> 00:04:12.350
+that the real risk management work happens,
+
+00:04:12.350 --> 00:04:16.400
+this is work that's traditionally done by risk managers.
+
+00:04:16.400 --> 00:04:20.600
+Here's where the target system is authorized to operate by
+
+00:04:20.600 --> 00:04:24.740
+considering the totality of security controls implemented throughout the NIST,
+
+00:04:24.740 --> 00:04:28.520
+risk management framework process and the residual risk
+
+00:04:28.520 --> 00:04:32.450
+the system creates for the organization, the government,
+
+00:04:32.450 --> 00:04:35.360
+and individuals keeping in mind,
+
+00:04:35.360 --> 00:04:38.630
+that the framework was really developed with a goal of creating
+
+00:04:38.630 --> 00:04:43.345
+consistent controls and security standards for federal agencies.
+
+00:04:43.345 --> 00:04:50.540
+All of the steps for authorization are detailed in NIST special publication 800-37.
+
+00:04:50.540 --> 00:04:54.065
+I think all of those service are pretty good guide for
+
+00:04:54.065 --> 00:04:58.400
+understanding the steps that you need to perform in risk management.
+
+00:04:58.400 --> 00:05:05.420
+Task 1, authorization package that roughly equates to identifying risks.
+
+00:05:05.420 --> 00:05:07.655
+Then you'll analyze the risk,
+
+00:05:07.655 --> 00:05:11.475
+under step 2, you will respond to the risk,
+
+00:05:11.475 --> 00:05:12.950
+you will treat the risk,
+
+00:05:12.950 --> 00:05:16.550
+which we'll talk about in just a little while and then finally,
+
+00:05:16.550 --> 00:05:19.920
+we'll report the risk to senior leadership.
+

@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.540
+It's imperative at this stage that we step away from talking
+
+00:00:03.540 --> 00:00:06.960
+specifically about security risk management for just a moment,
+
+00:00:06.960 --> 00:00:10.575
+and think about the overall risk management context.
+
+00:00:10.575 --> 00:00:13.920
+Many organizations rely on what's described as
+
+00:00:13.920 --> 00:00:17.565
+the three lines of defense model for managing risk.
+
+00:00:17.565 --> 00:00:21.150
+Even if that's not formally, even if they don't know it.
+
+00:00:21.150 --> 00:00:27.990
+The three lines of defense model really consists of control or risk owners;
+
+00:00:27.990 --> 00:00:29.955
+these are the system owners,
+
+00:00:29.955 --> 00:00:33.710
+or the individuals that are actually responsible for addressing the risk.
+
+00:00:33.710 --> 00:00:35.565
+Then we have risk managers;
+
+00:00:35.565 --> 00:00:40.700
+these are the internal risk assessors who identify risk and perform risk assessment.
+
+00:00:40.700 --> 00:00:43.840
+This is primarily where we're focusing our time,
+
+00:00:43.840 --> 00:00:48.109
+this is where the GRC role would fit as part of this process.
+
+00:00:48.109 --> 00:00:51.490
+Then finally, you have internal audit;
+
+00:00:51.490 --> 00:00:54.140
+they're the folks that provide oversight over
+
+00:00:54.140 --> 00:00:57.334
+the entire risk management process and the outcomes.
+
+00:00:57.334 --> 00:01:03.020
+As I said, most organizations have some version of this structure in place already.
+
+00:01:03.020 --> 00:01:06.665
+At a high level, the risk management frameworks we discussed
+
+00:01:06.665 --> 00:01:11.240
+earlier tend to operate at the second and third lines of defense,
+
+00:01:11.240 --> 00:01:14.555
+being used as mechanisms to guide risk management,
+
+00:01:14.555 --> 00:01:17.395
+the structure, and the process.
+
+00:01:17.395 --> 00:01:22.700
+The first line of defense really being more concerned by the operation
+
+00:01:22.700 --> 00:01:27.860
+of business processes and then the implementation of risk mitigating controls.
+
+00:01:27.860 --> 00:01:32.945
+The bridge between our second line of defense and our first line are risk assessments.
+
+00:01:32.945 --> 00:01:35.675
+Now, if you're tracking this against the nist RMS,
+
+00:01:35.675 --> 00:01:38.450
+this would roughly relate to task R1;
+
+00:01:38.450 --> 00:01:41.020
+this is where we're rooting out our risks.
+
+00:01:41.020 --> 00:01:44.480
+Risk assessments are performed by risk managers like
+
+00:01:44.480 --> 00:01:48.860
+GRC professionals measuring systems against potential risk.
+
+00:01:48.860 --> 00:01:54.670
+The risks being the risk statements that we talked about much earlier.
+
+00:01:54.670 --> 00:01:59.090
+The risk assessments themselves operate by placing
+
+00:01:59.090 --> 00:02:03.695
+a risk statement in the context of a particular business process,
+
+00:02:03.695 --> 00:02:06.740
+a system, or an organization.
+
+00:02:06.740 --> 00:02:15.030
+Then making an informed decision about the likelihood and the impact of the risk.
+
+00:02:15.030 --> 00:02:18.710
+Weighing any additional controls that might actually help reduce that risk,
+
+00:02:18.710 --> 00:02:23.060
+and then finally, creating a residual risk rating.
+
+00:02:23.060 --> 00:02:28.295
+For instance, let's look at an example of antivirus software.
+
+00:02:28.295 --> 00:02:34.265
+We have a risk statement that anti-virus systems are not updated,
+
+00:02:34.265 --> 00:02:37.070
+which may allow access to sensitive data.
+
+00:02:37.070 --> 00:02:41.405
+During our assessment, we find that antivirus software
+
+00:02:41.405 --> 00:02:45.775
+isn't installed on a number of servers that contain highly sensitive information.
+
+00:02:45.775 --> 00:02:51.020
+Our job is to assess how likely it is that risk could be exploited,
+
+00:02:51.020 --> 00:02:53.070
+what the impact might be,
+
+00:02:53.070 --> 00:02:56.885
+and then finally reached an overall risk score.
+
+00:02:56.885 --> 00:03:01.370
+Remember that risk is equal to the likelihood times impact,
+
+00:03:01.370 --> 00:03:03.215
+so in this case,
+
+00:03:03.215 --> 00:03:06.570
+we've concluded that the risk is high.
+

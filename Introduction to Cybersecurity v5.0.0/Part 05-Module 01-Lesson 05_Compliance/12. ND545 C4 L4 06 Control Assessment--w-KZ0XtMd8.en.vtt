@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.955
+Now, that you understand obligations,
+
+00:00:02.955 --> 00:00:05.490
+and how to understand control objectives,
+
+00:00:05.490 --> 00:00:09.165
+let's turn the one of the main priorities for the compliance professional,
+
+00:00:09.165 --> 00:00:12.210
+evaluating your organization's controls.
+
+00:00:12.210 --> 00:00:17.040
+We went through the whole process of learning how to understand control objectives,
+
+00:00:17.040 --> 00:00:20.430
+so that we could measure our controls against them.
+
+00:00:20.430 --> 00:00:22.530
+Very much like risk assessment,
+
+00:00:22.530 --> 00:00:25.470
+your organization should keep a risk register of
+
+00:00:25.470 --> 00:00:28.980
+your control objectives and what compliance obligations they
+
+00:00:28.980 --> 00:00:32.040
+originate from and then you should be able to line up
+
+00:00:32.040 --> 00:00:36.145
+your existing security controls against those control objectives.
+
+00:00:36.145 --> 00:00:39.810
+Then we'll evaluate your control similarly to how we did
+
+00:00:39.810 --> 00:00:43.430
+in governance in terms of function and time,
+
+00:00:43.430 --> 00:00:46.920
+but without all of the extra considerations.
+
+00:00:46.920 --> 00:00:49.100
+Let's look at how you, actually,
+
+00:00:49.100 --> 00:00:51.530
+evaluate your controls against objectives.
+
+00:00:51.530 --> 00:00:53.720
+Here's an example objective.
+
+00:00:53.720 --> 00:00:57.830
+Our control says, "Firewall rules must
+
+00:00:57.830 --> 00:01:01.745
+be continuously monitored for unauthorized changes."
+
+00:01:01.745 --> 00:01:05.750
+Our control says, that the security team reviews
+
+00:01:05.750 --> 00:01:10.270
+firewall logs one time per week to look for unapproved changes.
+
+00:01:10.270 --> 00:01:16.850
+Now, does our control meet the control objective in both function and time?
+
+00:01:16.850 --> 00:01:19.525
+We're reviewing the logs,
+
+00:01:19.525 --> 00:01:21.555
+we're meeting the function.
+
+00:01:21.555 --> 00:01:23.160
+What about time?
+
+00:01:23.160 --> 00:01:26.010
+We're not really monitoring continuously.
+
+00:01:26.010 --> 00:01:28.265
+What do you think we, actually, need here?
+
+00:01:28.265 --> 00:01:31.000
+It's probably something more automated.
+
+00:01:31.000 --> 00:01:34.115
+Let's spend a few minutes on common controls.
+
+00:01:34.115 --> 00:01:39.050
+A common control is a single control that meets multiple objectives.
+
+00:01:39.050 --> 00:01:41.740
+Let's take a look at an example here.
+
+00:01:41.740 --> 00:01:44.235
+You have two control objectives.
+
+00:01:44.235 --> 00:01:47.090
+The first one says, that "Firewall rules must
+
+00:01:47.090 --> 00:01:50.410
+be continuously monitored for unauthorized changes."
+
+00:01:50.410 --> 00:01:52.440
+The second objective says,
+
+00:01:52.440 --> 00:01:57.860
+that "Firewall rules must be monitored for changes at least weekly."
+
+00:01:57.860 --> 00:02:01.025
+Now, let's look at our existing controls.
+
+00:02:01.025 --> 00:02:04.480
+Does Control 1 meet the objectives?
+
+00:02:04.480 --> 00:02:07.910
+Control 1 says, "The security team reviews
+
+00:02:07.910 --> 00:02:12.275
+firewall logs one time per week to look for unapproved changes."
+
+00:02:12.275 --> 00:02:16.345
+So it probably does not meet both objectives.
+
+00:02:16.345 --> 00:02:19.025
+It probably meets the second objective,
+
+00:02:19.025 --> 00:02:20.750
+but not the first.
+
+00:02:20.750 --> 00:02:23.570
+What about the second control?
+
+00:02:23.570 --> 00:02:25.150
+The second control says,
+
+00:02:25.150 --> 00:02:29.360
+"The security team is alerted anytime a firewall change is made,
+
+00:02:29.360 --> 00:02:32.180
+and they review the alerts immediately."
+
+00:02:32.180 --> 00:02:33.800
+If we do this,
+
+00:02:33.800 --> 00:02:36.650
+it probably meets both objectives.
+
+00:02:36.650 --> 00:02:43.970
+It covers us for monitoring at unspecified intervals, and continuous monitoring.
+
+00:02:43.970 --> 00:02:48.065
+Now finally, there are compensating controls.
+
+00:02:48.065 --> 00:02:53.270
+These are controls that don't necessarily meet the letter of a compliance obligation,
+
+00:02:53.270 --> 00:02:55.820
+but may meet the spirit at least
+
+00:02:55.820 --> 00:02:59.515
+sufficient enough to remain in compliance with the standard.
+
+00:02:59.515 --> 00:03:05.710
+The idea being that the controls compensate for not having specific controls.
+
+00:03:05.710 --> 00:03:09.110
+Let's take a quick look at an example of this.
+
+00:03:09.110 --> 00:03:11.240
+Let's look at our control objective,
+
+00:03:11.240 --> 00:03:13.970
+"Users should not be allowed to access
+
+00:03:13.970 --> 00:03:17.995
+the Internet in order to prevent unauthorized data sharing."
+
+00:03:17.995 --> 00:03:20.030
+Our company doesn't do that,
+
+00:03:20.030 --> 00:03:23.510
+but we do have two other controls in place.
+
+00:03:23.510 --> 00:03:26.930
+Control 1 says, that "User Internet activity
+
+00:03:26.930 --> 00:03:30.805
+is strictly controlled by using web filtering software."
+
+00:03:30.805 --> 00:03:32.910
+Then Control 2 says,
+
+00:03:32.910 --> 00:03:35.810
+that "Endpoint data loss prevention clients are
+
+00:03:35.810 --> 00:03:40.010
+installed on computers that prohibit data sharing via the Internet."
+
+00:03:40.010 --> 00:03:44.075
+While this isn't exactly what the objective wants,
+
+00:03:44.075 --> 00:03:48.310
+these controls may be sufficient to remain compliant.
+
+00:03:48.310 --> 00:03:52.910
+But typically, you're going to need an external assessor to help you make
+
+00:03:52.910 --> 00:03:55.310
+the decision as to whether or not these controls
+
+00:03:55.310 --> 00:03:59.220
+truly compensate for the control objective.
+

@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.770
+What do you do with risk?
+
+00:00:01.770 --> 00:00:05.130
+We've talked about how to identify risk and how to measure it.
+
+00:00:05.130 --> 00:00:07.110
+But what do you do about it?
+
+00:00:07.110 --> 00:00:11.295
+Once you've identified that risk exists, what do you do?
+
+00:00:11.295 --> 00:00:16.395
+The whole purpose of risk management is to understand and act on risk.
+
+00:00:16.395 --> 00:00:19.980
+Traditionally, there are five ways to deal with risk.
+
+00:00:19.980 --> 00:00:22.660
+We call these risk treatment.
+
+00:00:22.660 --> 00:00:25.095
+The first is acceptance.
+
+00:00:25.095 --> 00:00:28.750
+Accepting the risk without taking any further action.
+
+00:00:28.750 --> 00:00:32.600
+It's acknowledging that it exists and doing nothing.
+
+00:00:32.600 --> 00:00:35.705
+The second is modifying the risk.
+
+00:00:35.705 --> 00:00:40.885
+This is implementing a control that lessens or changes the risk in some way.
+
+00:00:40.885 --> 00:00:42.615
+Then there's transfer.
+
+00:00:42.615 --> 00:00:47.180
+In most cases, cybersecurity risk transference means insuring against
+
+00:00:47.180 --> 00:00:51.800
+the risk occurring through a cybersecurity insurance policy of some sort.
+
+00:00:51.800 --> 00:00:56.525
+Or you can create a shared liability model with a vendor.
+
+00:00:56.525 --> 00:00:58.175
+Then there's avoidance.
+
+00:00:58.175 --> 00:01:03.580
+You can literally choose to avoid the risk by just doing something different altogether.
+
+00:01:03.580 --> 00:01:07.970
+Then finally, you'll notice that I have capitalize marked in red.
+
+00:01:07.970 --> 00:01:11.240
+The reason for that is that, capitalizing on risk,
+
+00:01:11.240 --> 00:01:14.980
+very much relates to financial and business risk management.
+
+00:01:14.980 --> 00:01:19.610
+Identifying for instance, a high risk investment and then choosing to attempt to
+
+00:01:19.610 --> 00:01:24.230
+capitalize on that risk by investing even more resources is pretty common.
+
+00:01:24.230 --> 00:01:29.735
+But security DRC is much more focused on the other four risk treatment methods.
+
+00:01:29.735 --> 00:01:34.025
+Certainly there are times when an organization will accept security risk,
+
+00:01:34.025 --> 00:01:36.590
+but there aren't really any examples that come to
+
+00:01:36.590 --> 00:01:40.355
+mind where it's possible to capitalize on that risk.
+
+00:01:40.355 --> 00:01:43.660
+Now, who decides what that risk treatment is?
+
+00:01:43.660 --> 00:01:47.090
+I think it's one of the more interesting components of risk management,
+
+00:01:47.090 --> 00:01:53.570
+because it's often a function of the organization's appetite for risk, it's maturity,
+
+00:01:53.570 --> 00:01:56.705
+and it's maturity in practicing security hygiene,
+
+00:01:56.705 --> 00:02:00.755
+it's size, and then collaboration with stakeholders.
+
+00:02:00.755 --> 00:02:03.050
+Now, depending on the organization,
+
+00:02:03.050 --> 00:02:05.105
+the controller risk owners,
+
+00:02:05.105 --> 00:02:08.780
+may take a large part in deciding the best risk treatment.
+
+00:02:08.780 --> 00:02:15.545
+Other organizations may see most of the risk decision-making to the risk managers.
+
+00:02:15.545 --> 00:02:20.885
+Generally taking those recommendations of the risk managers at face value.
+
+00:02:20.885 --> 00:02:26.690
+Then others rely on a collective effort really involving stakeholders to either reach
+
+00:02:26.690 --> 00:02:33.020
+consensus or present the risk decisions to leadership for a final resolution.
+
+00:02:33.020 --> 00:02:38.315
+For me, I think that collaborative approach is the most effective.
+
+00:02:38.315 --> 00:02:42.290
+Leaving the decision in hands of risk owners potentially put
+
+00:02:42.290 --> 00:02:46.760
+security decision-making in the hands of untrained individuals,
+
+00:02:46.760 --> 00:02:51.230
+and then leaving it in the hands of risk managers can create a situation
+
+00:02:51.230 --> 00:02:56.240
+where only a handful of individuals are setting the organization's security strategy.
+
+00:02:56.240 --> 00:03:01.240
+Now, I mentioned that leadership are sometimes used for final risk resolution.
+
+00:03:01.240 --> 00:03:04.610
+Even though you may choose to accept a risk or
+
+00:03:04.610 --> 00:03:07.535
+modify it in only some slight way for instance,
+
+00:03:07.535 --> 00:03:09.830
+those actions have to be recorded.
+
+00:03:09.830 --> 00:03:13.220
+The reason for that is because sometimes you'll need
+
+00:03:13.220 --> 00:03:17.305
+senior stakeholders to participate in the decision making.
+
+00:03:17.305 --> 00:03:21.140
+You also want to make sure that your decision making aligns with
+
+00:03:21.140 --> 00:03:23.240
+your organizational strategy and
+
+00:03:23.240 --> 00:03:27.770
+your senior leadership and their involvement can help provide that.
+
+00:03:27.770 --> 00:03:31.820
+Recording the risk, and then involving management can also
+
+00:03:31.820 --> 00:03:35.945
+provide some temporary relief to risk management functions,
+
+00:03:35.945 --> 00:03:37.670
+meaning that they can help write
+
+00:03:37.670 --> 00:03:42.955
+management exceptions that may allow you not to address risk immediately.
+
+00:03:42.955 --> 00:03:46.580
+Then finally, recording that risk helps showcase
+
+00:03:46.580 --> 00:03:51.360
+that the risk management process in your organization is really mature.
+

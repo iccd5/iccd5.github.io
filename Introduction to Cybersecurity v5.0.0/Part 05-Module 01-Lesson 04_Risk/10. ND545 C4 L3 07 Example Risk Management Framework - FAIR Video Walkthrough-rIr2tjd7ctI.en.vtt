@@ -1,0 +1,211 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.585
+Let's take a look at FAIR in context.
+
+00:00:03.585 --> 00:00:06.390
+FAIR provides a free tool on their website where
+
+00:00:06.390 --> 00:00:09.660
+anyone can perform a value at risk assessment.
+
+00:00:09.660 --> 00:00:11.490
+I think when time permits,
+
+00:00:11.490 --> 00:00:14.870
+you should spend some time familiarizing yourself with it.
+
+00:00:14.870 --> 00:00:16.755
+We're going to take a brief look at it here.
+
+00:00:16.755 --> 00:00:22.729
+Now, we're going to do that using the tool sample risk assessment of a fishing exploit,
+
+00:00:22.729 --> 00:00:25.100
+which has resulted in some data loss.
+
+00:00:25.100 --> 00:00:30.295
+In the tool, you can create a guided analysis of a potential loss of it,
+
+00:00:30.295 --> 00:00:33.905
+you do that in the loss event frequency cluster.
+
+00:00:33.905 --> 00:00:36.860
+Here you're going to inner variables like,
+
+00:00:36.860 --> 00:00:39.710
+how often you expect a loss event to occur,
+
+00:00:39.710 --> 00:00:43.645
+or how many times that you think a risk might be exploited,
+
+00:00:43.645 --> 00:00:46.340
+and you can even enter things like,
+
+00:00:46.340 --> 00:00:51.095
+how sophisticated an attack might need to be in order to be successful.
+
+00:00:51.095 --> 00:00:55.190
+You'll do that here in the threat capability section.
+
+00:00:55.190 --> 00:00:58.850
+Now, all of those factors are going to
+
+00:00:58.850 --> 00:01:02.810
+be weighed against your anticipated loss per event,
+
+00:01:02.810 --> 00:01:06.370
+that occurs in the loss magnitude cluster.
+
+00:01:06.370 --> 00:01:11.630
+What you'll want to weigh is both your primary loss and your secondary losses.
+
+00:01:11.630 --> 00:01:14.465
+That's where I think we need to be really careful.
+
+00:01:14.465 --> 00:01:16.340
+We're attempting to estimate first,
+
+00:01:16.340 --> 00:01:18.289
+how much a record costs,
+
+00:01:18.289 --> 00:01:24.880
+and then second, what regulatory or customer reactions might be to our loss.
+
+00:01:24.880 --> 00:01:30.710
+For instance, are we going to get fined by an agency or are we going to lose a customer?
+
+00:01:30.710 --> 00:01:34.985
+I think both of these things are extremely difficult to estimate.
+
+00:01:34.985 --> 00:01:37.340
+If you review this example,
+
+00:01:37.340 --> 00:01:40.970
+our primary losses, actually, look pretty low.
+
+00:01:40.970 --> 00:01:45.530
+These are losses associated with customer records or customer data.
+
+00:01:45.530 --> 00:01:47.629
+But our secondary risks,
+
+00:01:47.629 --> 00:01:50.770
+those are really high, those are substantial.
+
+00:01:50.770 --> 00:01:53.510
+This is where we've estimated again,
+
+00:01:53.510 --> 00:01:58.910
+the cost of loss of a regulatory fine or customer reaction.
+
+00:01:58.910 --> 00:02:08.125
+So what we end up with is an annualized loss scenario of up to $7.1 million.
+
+00:02:08.125 --> 00:02:11.990
+As you can see, this is really substantial and
+
+00:02:11.990 --> 00:02:14.989
+that's where I think we need to be ultimately very careful,
+
+00:02:14.989 --> 00:02:16.775
+I'm going to explain why now.
+
+00:02:16.775 --> 00:02:19.190
+Now, as I mentioned, I think that type of
+
+00:02:19.190 --> 00:02:22.835
+loss exposure seems really high for most organizations.
+
+00:02:22.835 --> 00:02:26.410
+As you know, we see organizations being breached all the time,
+
+00:02:26.410 --> 00:02:31.145
+and it's hard to imagine that too many companies could sustain a few loss events,
+
+00:02:31.145 --> 00:02:35.015
+the total millions of dollars in losses every single year.
+
+00:02:35.015 --> 00:02:38.165
+One of the reasons it sounds high, I think,
+
+00:02:38.165 --> 00:02:43.625
+is because it's difficult to assign a value to a piece of data or a single record.
+
+00:02:43.625 --> 00:02:47.345
+You may have spent only a few $100 acquiring a customer,
+
+00:02:47.345 --> 00:02:52.280
+but the same customer may be worth hundreds of thousands of dollars in revenue,
+
+00:02:52.280 --> 00:02:55.865
+are the customers collective records worth hundreds of thousands of dollars,
+
+00:02:55.865 --> 00:02:59.315
+or the records really without value and it's
+
+00:02:59.315 --> 00:03:03.710
+just the customer itself that represents value to your organization.
+
+00:03:03.710 --> 00:03:06.340
+How much is public sentiment worth?
+
+00:03:06.340 --> 00:03:08.300
+We know that high profile breaches,
+
+00:03:08.300 --> 00:03:09.395
+like the target breach,
+
+00:03:09.395 --> 00:03:12.065
+didn't appear to affect sentiment over time.
+
+00:03:12.065 --> 00:03:14.270
+Now, we saw a slight drop in
+
+00:03:14.270 --> 00:03:19.480
+target stock price following the public disclosure of their breach.
+
+00:03:19.480 --> 00:03:25.370
+But the stock return to fresh highs just weeks later and it really hasn't slowed down.
+
+00:03:25.370 --> 00:03:28.000
+That's the chart here on the right.
+
+00:03:28.000 --> 00:03:30.860
+Finally, as it relates to value at risk,
+
+00:03:30.860 --> 00:03:34.520
+this analysis can be time-consuming.
+
+00:03:34.520 --> 00:03:39.085
+It can be time-consuming to create realistic value assessments.
+
+00:03:39.085 --> 00:03:46.180
+Security controls aren't really ever applied evenly across specific risks in a system.
+
+00:03:46.180 --> 00:03:49.430
+So even if you nail the value at risk assessment,
+
+00:03:49.430 --> 00:03:52.190
+it might be difficult to say that you've addressed
+
+00:03:52.190 --> 00:03:55.895
+that risk by implementing a targeted control.
+
+00:03:55.895 --> 00:04:01.580
+Firewalls, for example, aren't normally implemented to control a single risk,
+
+00:04:01.580 --> 00:04:04.975
+but they control risks across the organization.
+
+00:04:04.975 --> 00:04:08.360
+This doesn't mean that value at risk is without value,
+
+00:04:08.360 --> 00:04:12.395
+it does mean that I think it's probably too complex and
+
+00:04:12.395 --> 00:04:18.000
+too time-consuming to be your primary method of assessing risk.
+

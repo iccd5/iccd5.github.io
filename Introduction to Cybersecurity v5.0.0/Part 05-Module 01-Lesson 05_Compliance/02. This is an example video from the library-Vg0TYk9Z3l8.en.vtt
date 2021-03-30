@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.775
+Let's put a little context around compliance.
+
+00:00:02.775 --> 00:00:08.580
+If you think back to how we said that GRC goals roughly equate to organizational roles,
+
+00:00:08.580 --> 00:00:12.945
+you'll remember that I said compliance equates to being trustworthy.
+
+00:00:12.945 --> 00:00:14.820
+At a more micro level,
+
+00:00:14.820 --> 00:00:18.870
+it means that we're doing the things that we should be doing as a company,
+
+00:00:18.870 --> 00:00:21.645
+that we're following through on our obligations.
+
+00:00:21.645 --> 00:00:24.210
+Because of that, there tends to be
+
+00:00:24.210 --> 00:00:28.080
+a legal connotation surrounding the practice of compliance,
+
+00:00:28.080 --> 00:00:32.265
+and many of our obligations do stem from law or regulation.
+
+00:00:32.265 --> 00:00:37.485
+But obligations don't have to be legal obligations.
+
+00:00:37.485 --> 00:00:40.425
+They don't always originate fear of the law.
+
+00:00:40.425 --> 00:00:42.680
+Our obligations do however,
+
+00:00:42.680 --> 00:00:45.715
+tie directly back to security controls.
+
+00:00:45.715 --> 00:00:49.130
+We meet our obligations via controls.
+
+00:00:49.130 --> 00:00:52.700
+Finally, I said that compliance functions tend to be less flexible.
+
+00:00:52.700 --> 00:00:56.870
+What I mean by that is that compliance is mostly a binary function.
+
+00:00:56.870 --> 00:01:01.130
+You either align with compliance obligations or you don't,
+
+00:01:01.130 --> 00:01:02.900
+with a few caveats.
+
+00:01:02.900 --> 00:01:06.055
+Now, where did security compliance come from?
+
+00:01:06.055 --> 00:01:08.240
+Much earlier in this course,
+
+00:01:08.240 --> 00:01:10.940
+we talked about poor business practices, fraud,
+
+00:01:10.940 --> 00:01:16.415
+and failure, combining to give life to what we described as operational GRC.
+
+00:01:16.415 --> 00:01:19.460
+If you recall, we start to see
+
+00:01:19.460 --> 00:01:24.785
+operational GRC practices in earnest over the last 30 years or so.
+
+00:01:24.785 --> 00:01:29.510
+There are two other forces that are starting to emerge at the same time.
+
+00:01:29.510 --> 00:01:34.055
+One of those forces is technology acting as a business driver.
+
+00:01:34.055 --> 00:01:36.530
+Business is really just beginning
+
+00:01:36.530 --> 00:01:41.825
+the early stages of their Cloud journeys and digital transformation.
+
+00:01:41.825 --> 00:01:46.665
+The second force is security as a technology enabler.
+
+00:01:46.665 --> 00:01:51.755
+Maybe more accurately, the disabling of bad actors.
+
+00:01:51.755 --> 00:01:55.130
+Because technology becomes integral to business,
+
+00:01:55.130 --> 00:01:59.690
+bad actors flock to technology as a primary attack vector.
+
+00:01:59.690 --> 00:02:04.250
+Security then becomes necessary to protect technology,
+
+00:02:04.250 --> 00:02:10.070
+ensuring operations, avoiding breaches, and avoiding fraud.
+
+00:02:10.070 --> 00:02:13.445
+This becomes the root of security compliance.
+
+00:02:13.445 --> 00:02:15.815
+Security, as we've said,
+
+00:02:15.815 --> 00:02:21.200
+is a collection of processes and technologies designed to protect the confidentiality,
+
+00:02:21.200 --> 00:02:24.895
+integrity, and availability of technology and data.
+
+00:02:24.895 --> 00:02:30.320
+Of course, the force of security is really a push to expand protections or
+
+00:02:30.320 --> 00:02:36.745
+controls to all areas of the business which are now supported by technology.
+
+00:02:36.745 --> 00:02:39.435
+It's a fairly straightforward concept.
+
+00:02:39.435 --> 00:02:44.580
+Security protects technology or data and technology enables business.
+
+00:02:44.580 --> 00:02:48.725
+Therefore, as business grows and technology grows,
+
+00:02:48.725 --> 00:02:51.775
+so must our security implementation.
+
+00:02:51.775 --> 00:02:57.665
+There's a recognition about security becoming a necessary element of business operations,
+
+00:02:57.665 --> 00:03:00.770
+and these forces begin to bleed into regulation.
+
+00:03:00.770 --> 00:03:04.700
+You really start to see the impact of that at the turn of the century.
+
+00:03:04.700 --> 00:03:10.040
+Here's an example. Now, we touched on Sarbanes-Oxley earlier.
+
+00:03:10.040 --> 00:03:16.040
+To remind you, Sarbanes-Oxley is US legislation passed in 2002.
+
+00:03:16.040 --> 00:03:22.620
+It's indirect response to corporate fraud from the late '90s to the early 2000s.
+
+00:03:22.620 --> 00:03:28.255
+I want us to look just a little closer at two specific sections of that act.
+
+00:03:28.255 --> 00:03:31.245
+The first section is Section 302.
+
+00:03:31.245 --> 00:03:34.380
+This section holds senior officers and
+
+00:03:34.380 --> 00:03:39.545
+public companies accountable for ensuring financial statements are accurate.
+
+00:03:39.545 --> 00:03:42.490
+Now, let's talk about Section 404.
+
+00:03:42.490 --> 00:03:49.085
+Section 404 relates to internal controls and management assessment of those controls.
+
+00:03:49.085 --> 00:03:51.410
+In large financial institutions,
+
+00:03:51.410 --> 00:03:57.475
+in order to certify accuracy of financial information and verify internal controls,
+
+00:03:57.475 --> 00:03:59.280
+what do you think that means?
+
+00:03:59.280 --> 00:04:00.915
+What does that mean today?
+
+00:04:00.915 --> 00:04:05.860
+We're really going to have to look at the technology that supports the business.
+
+00:04:05.860 --> 00:04:09.740
+Ultimately, if we want to ensure the integrity of the data,
+
+00:04:09.740 --> 00:04:15.565
+that means ensuring that security controls are in place and functioning as expected.
+
+00:04:15.565 --> 00:04:19.640
+So today, Section 404 operates as
+
+00:04:19.640 --> 00:04:24.215
+an IT and security control assessment for banks and public companies.
+
+00:04:24.215 --> 00:04:25.804
+If you want to be compliant,
+
+00:04:25.804 --> 00:04:28.330
+you must comply with those standards.
+
+00:04:28.330 --> 00:04:29.930
+The goal, of course,
+
+00:04:29.930 --> 00:04:32.780
+is to create security standards that organizations
+
+00:04:32.780 --> 00:04:35.975
+must comply with to protect the common good.
+
+00:04:35.975 --> 00:04:41.690
+If large organizations or banks are failing because of fraud or security failure,
+
+00:04:41.690 --> 00:04:44.985
+it might hurt lots of individuals.
+
+00:04:44.985 --> 00:04:49.220
+It's not just large public companies or the financial sector,
+
+00:04:49.220 --> 00:04:50.585
+believe it or not,
+
+00:04:50.585 --> 00:04:53.810
+other industries have also figured out that forcing
+
+00:04:53.810 --> 00:04:58.805
+organizations to comply with some minimal standard reduces risk.
+
+00:04:58.805 --> 00:05:01.670
+So practically speaking, no company and
+
+00:05:01.670 --> 00:05:07.160
+no industry is immune from understanding and dealing with security compliance.
+
+00:05:07.160 --> 00:05:10.440
+This is where compliance comes from.
+
