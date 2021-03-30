@@ -1,0 +1,238 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.674
+We started out with a high level-picture of GRC,
+
+00:00:03.674 --> 00:00:07.710
+and then I briefly demonstrated how security GRC relates to it.
+
+00:00:07.710 --> 00:00:09.690
+I'd like to zoom back out though for
+
+00:00:09.690 --> 00:00:13.125
+just a few minutes to create some additional context.
+
+00:00:13.125 --> 00:00:20.205
+Now we just concluded that security GRC is more tactical than GRC at a high level.
+
+00:00:20.205 --> 00:00:24.205
+That high level, I describe as operational GRC,
+
+00:00:24.205 --> 00:00:26.070
+that's where I want to start.
+
+00:00:26.070 --> 00:00:32.110
+Let's start with operational GRC before we get specific about security GRC.
+
+00:00:32.110 --> 00:00:36.305
+The core components of GRC have been part of business for some time.
+
+00:00:36.305 --> 00:00:39.005
+We talked about some of our business goals before,
+
+00:00:39.005 --> 00:00:40.760
+but GRC as a practice,
+
+00:00:40.760 --> 00:00:43.600
+has really emerged over the past 30 years.
+
+00:00:43.600 --> 00:00:46.430
+In fact, the first book dedicated to
+
+00:00:46.430 --> 00:00:50.540
+operational risk management wasn't even written until the 1960s.
+
+00:00:50.540 --> 00:00:52.730
+But things evolve pretty quickly.
+
+00:00:52.730 --> 00:00:55.460
+In large part, the practice has matured because of
+
+00:00:55.460 --> 00:00:58.685
+widespread fraud and widespread business failure.
+
+00:00:58.685 --> 00:01:02.240
+Some of that maturity driven by regulation and some of
+
+00:01:02.240 --> 00:01:07.400
+that maturity driven by businesses just being more prudent and planning for resilience.
+
+00:01:07.400 --> 00:01:10.250
+Now the timing of that maturity really makes sense.
+
+00:01:10.250 --> 00:01:16.135
+Historically, we've seen major crises in financial events drive regulatory change.
+
+00:01:16.135 --> 00:01:18.825
+After the Great Depression, for instance,
+
+00:01:18.825 --> 00:01:24.905
+we had the creation of both the FDIC in 1933 and the SEC in 1934.
+
+00:01:24.905 --> 00:01:27.920
+Then, in the early 2000s,
+
+00:01:27.920 --> 00:01:29.650
+we see the tech bubble burst,
+
+00:01:29.650 --> 00:01:31.370
+and then we also see one of
+
+00:01:31.370 --> 00:01:36.155
+the largest financial scandals in history leading to Enron's bankruptcy.
+
+00:01:36.155 --> 00:01:42.670
+Those events then lead directly to the passage of the Sarbanes-Oxley Act, in 2002.
+
+00:01:42.670 --> 00:01:45.650
+That, of course, established sweeping changes to audit
+
+00:01:45.650 --> 00:01:49.190
+financial regulations for publicly traded companies.
+
+00:01:49.190 --> 00:01:50.795
+Now at the same time,
+
+00:01:50.795 --> 00:01:54.590
+you've got groups like the Open Compliance and Ethics Group,
+
+00:01:54.590 --> 00:01:58.555
+or OCEG, being founded in 2002.
+
+00:01:58.555 --> 00:02:02.615
+They're founded as a think tank focused on the practice of GRC.
+
+00:02:02.615 --> 00:02:05.360
+This again is in direct response to
+
+00:02:05.360 --> 00:02:08.620
+the same fraud that led to the passage of Sarbanes-Oxley.
+
+00:02:08.620 --> 00:02:12.500
+Their purpose, to build a framework for professionals to
+
+00:02:12.500 --> 00:02:17.350
+ensure organizations are operating both effectively and efficiently.
+
+00:02:17.350 --> 00:02:21.200
+Let's look at what the OCEG says about GRC.
+
+00:02:21.200 --> 00:02:23.430
+They define it like this,
+
+00:02:23.430 --> 00:02:27.680
+"GRC is the integrated collection of capabilities that
+
+00:02:27.680 --> 00:02:31.835
+enable an organization to reliably achieve objectives,
+
+00:02:31.835 --> 00:02:35.820
+address uncertainty, and act with integrity."
+
+00:02:35.820 --> 00:02:39.140
+Now, thinking back to our business goals that we laid out before,
+
+00:02:39.140 --> 00:02:42.035
+this definition maps directly to them.
+
+00:02:42.035 --> 00:02:43.770
+But there is a disconnect.
+
+00:02:43.770 --> 00:02:46.515
+It's not one of OCEGs making,
+
+00:02:46.515 --> 00:02:50.255
+but one of the goals of their model is to break down
+
+00:02:50.255 --> 00:02:54.745
+organizational silos and manage the business holistically.
+
+00:02:54.745 --> 00:02:57.650
+If you think about all the processes necessary
+
+00:02:57.650 --> 00:03:00.500
+to ensure a business is operating at peak efficiency,
+
+00:03:00.500 --> 00:03:04.210
+you'll see that they all flow together to make up one system.
+
+00:03:04.210 --> 00:03:07.760
+But you have something else happening in the early 2000s,
+
+00:03:07.760 --> 00:03:12.490
+companies are starting to rapidly embrace technology of all kinds.
+
+00:03:12.490 --> 00:03:16.295
+The challenge that's created is that technology
+
+00:03:16.295 --> 00:03:20.780
+can't be viewed in the same way other business processes are viewed.
+
+00:03:20.780 --> 00:03:24.560
+Business operations operate differently than financial management.
+
+00:03:24.560 --> 00:03:28.405
+IT operations operate differently than security.
+
+00:03:28.405 --> 00:03:30.695
+If you take audit, for instance,
+
+00:03:30.695 --> 00:03:36.784
+you wouldn't audit financial records in the same way that you would assess IT systems.
+
+00:03:36.784 --> 00:03:41.375
+As a result, you end up with a historical split between
+
+00:03:41.375 --> 00:03:47.195
+operational GRC and what is commonly referred to as IT GRC.
+
+00:03:47.195 --> 00:03:50.675
+One of those is focused on business,
+
+00:03:50.675 --> 00:03:56.060
+and one of those is focused on the systems that support the business objectives.
+
+00:03:56.060 --> 00:04:00.560
+Now functionally, this division still persist
+
+00:04:00.560 --> 00:04:05.725
+with security GRC making up a large share of IT GRC.
+
+00:04:05.725 --> 00:04:07.755
+There is a small caveat.
+
+00:04:07.755 --> 00:04:13.910
+The GRC industry, particularly GRC software and service providers,
+
+00:04:13.910 --> 00:04:20.485
+often talk about operational GRC and IT GRC as a single holistic function.
+
+00:04:20.485 --> 00:04:26.975
+One of the reasons for that is the pervasiveness of IT as part of every business process,
+
+00:04:26.975 --> 00:04:28.700
+or what we call today,
+
+00:04:28.700 --> 00:04:31.060
+the digitization of business.
+
+00:04:31.060 --> 00:04:34.295
+Security GRC has gained prominence
+
+00:04:34.295 --> 00:04:38.465
+because of security's importance in successful IT operations,
+
+00:04:38.465 --> 00:04:42.395
+and the potential for customer impact as security plays
+
+00:04:42.395 --> 00:04:46.465
+a really large role in establishing trust with customers.
+
+00:04:46.465 --> 00:04:49.550
+We, however, will continue to talk about
+
+00:04:49.550 --> 00:04:55.440
+security GRC and operational GRC as completely separate entities.
+

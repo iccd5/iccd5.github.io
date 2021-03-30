@@ -1,0 +1,244 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.845
+It's always a good idea to measure the effectiveness of your security controls.
+
+00:00:04.845 --> 00:00:07.920
+The most important reason is that it
+
+00:00:07.920 --> 00:00:11.130
+helps improve your security posture and that's a big deal.
+
+00:00:11.130 --> 00:00:14.805
+Many organizations have hundreds of security controls.
+
+00:00:14.805 --> 00:00:18.780
+Each one of those designed to protect against specific threats.
+
+00:00:18.780 --> 00:00:22.440
+The governance role helps ensure each one is functioning.
+
+00:00:22.440 --> 00:00:26.220
+Measurement also allows you to assess existing tools.
+
+00:00:26.220 --> 00:00:31.905
+It helps you make sure that what you're paying for meets the organization's needs.
+
+00:00:31.905 --> 00:00:35.460
+Proofs of concept and product demos are always helpful.
+
+00:00:35.460 --> 00:00:39.120
+But companies normally don't understand the limitations of software or
+
+00:00:39.120 --> 00:00:43.040
+hardware until after the products are installed or running.
+
+00:00:43.040 --> 00:00:47.780
+Sometimes you have to do it as part of a compliance requirement.
+
+00:00:47.780 --> 00:00:50.285
+We'll talk about compliance in a separate lesson.
+
+00:00:50.285 --> 00:00:55.990
+But you should know that sometimes governance activities are controls themselves.
+
+00:00:55.990 --> 00:00:58.940
+While you're measuring control effectiveness,
+
+00:00:58.940 --> 00:01:03.775
+that very action provides another control layer that can be measured.
+
+00:01:03.775 --> 00:01:07.760
+Now if your security controls are not operating as intended,
+
+00:01:07.760 --> 00:01:12.545
+your risk profile actually might be much higher than anticipated.
+
+00:01:12.545 --> 00:01:15.320
+Think about checking your door locks at night.
+
+00:01:15.320 --> 00:01:17.135
+You know the locks are there,
+
+00:01:17.135 --> 00:01:18.655
+but you still check them.
+
+00:01:18.655 --> 00:01:22.185
+Why? Now, sure, it gives you peace of mind,
+
+00:01:22.185 --> 00:01:25.910
+but that peace of mind comes from knowing that you've significantly
+
+00:01:25.910 --> 00:01:29.990
+reduced the risk of an unwanted guest showing up in your home.
+
+00:01:29.990 --> 00:01:32.120
+In the last section,
+
+00:01:32.120 --> 00:01:35.600
+we talked about time and function as
+
+00:01:35.600 --> 00:01:39.650
+the major considerations necessary for measuring control effectiveness.
+
+00:01:39.650 --> 00:01:42.620
+There are some additional considerations to think about.
+
+00:01:42.620 --> 00:01:45.170
+I think about the last section as
+
+00:01:45.170 --> 00:01:49.310
+discovering what it is that you're attempting to measure.
+
+00:01:49.310 --> 00:01:54.215
+In this section, we're actually going to talk about how to perform the measurement.
+
+00:01:54.215 --> 00:01:56.900
+The actual measurement can be done in a couple of ways.
+
+00:01:56.900 --> 00:02:00.295
+You can do it manually or you can do it programmatically.
+
+00:02:00.295 --> 00:02:01.925
+It can be done once,
+
+00:02:01.925 --> 00:02:05.015
+continuously, or scheduled intervals.
+
+00:02:05.015 --> 00:02:11.180
+Your only limitations on how you choose to test are based on factors like your budget,
+
+00:02:11.180 --> 00:02:13.505
+corporate or security strategy,
+
+00:02:13.505 --> 00:02:15.340
+and the purpose of your assessment.
+
+00:02:15.340 --> 00:02:19.355
+Are you measuring the control for internal assessment purposes?
+
+00:02:19.355 --> 00:02:23.585
+Are you designing measurement to satisfy an external requirement?
+
+00:02:23.585 --> 00:02:26.270
+Knowing that there are many factors in designing
+
+00:02:26.270 --> 00:02:29.405
+a test to measure the effectiveness of a security control,
+
+00:02:29.405 --> 00:02:31.445
+let's walk through that process.
+
+00:02:31.445 --> 00:02:36.635
+We first need to understand what it is that we're trying to measure.
+
+00:02:36.635 --> 00:02:41.390
+We're asking what are the function and time variables for the control?
+
+00:02:41.390 --> 00:02:44.855
+Then we need to think about our other considerations.
+
+00:02:44.855 --> 00:02:46.520
+These are things like,
+
+00:02:46.520 --> 00:02:48.590
+what is the purpose of measurement?
+
+00:02:48.590 --> 00:02:52.180
+Is it for an internal assessment or an external one?
+
+00:02:52.180 --> 00:02:53.930
+Does the control need to be measured
+
+00:02:53.930 --> 00:02:58.420
+continuously or does it only needs to be measured once or a few times?
+
+00:02:58.420 --> 00:03:00.260
+Or what's your budget? What are
+
+00:03:00.260 --> 00:03:03.935
+the technical skills that are available to you as resources?
+
+00:03:03.935 --> 00:03:07.700
+Then finally, do we design a manual test or
+
+00:03:07.700 --> 00:03:11.795
+a programmatic one that runs continuously or at specific intervals?
+
+00:03:11.795 --> 00:03:15.215
+It all depends on your assessment of the control function,
+
+00:03:15.215 --> 00:03:18.350
+the time variable, and those other considerations.
+
+00:03:18.350 --> 00:03:20.455
+Let's look at a brief scenario.
+
+00:03:20.455 --> 00:03:27.530
+Imagine that you have a policy that says users shall not take any confidential data home.
+
+00:03:27.530 --> 00:03:31.760
+The what the function and the time variables are.
+
+00:03:31.760 --> 00:03:34.255
+That it's a preventive control.
+
+00:03:34.255 --> 00:03:39.445
+It's intended to not allow users to take data home, but it's policy-based.
+
+00:03:39.445 --> 00:03:42.565
+So there's really no technology enforcing it,
+
+00:03:42.565 --> 00:03:44.590
+and there is no timing element.
+
+00:03:44.590 --> 00:03:47.650
+So we're going to have to assume that it's continuous.
+
+00:03:47.650 --> 00:03:52.255
+The policy never wants an employee to take confidential data home.
+
+00:03:52.255 --> 00:03:55.750
+Now how would you test and make sure that control works?
+
+00:03:55.750 --> 00:03:59.015
+Let's think through our other considerations.
+
+00:03:59.015 --> 00:04:03.895
+If you didn't have very much budget and you just wanted to test at one time,
+
+00:04:03.895 --> 00:04:05.395
+you could send out a survey.
+
+00:04:05.395 --> 00:04:07.330
+That doesn't take a lot of effort.
+
+00:04:07.330 --> 00:04:10.180
+But employees can answer really any way they want it.
+
+00:04:10.180 --> 00:04:12.020
+So maybe that's not effective.
+
+00:04:12.020 --> 00:04:14.505
+What if you wanted more certainty?
+
+00:04:14.505 --> 00:04:18.470
+You could stop every single employee one
+
+00:04:18.470 --> 00:04:20.630
+evening and then check to make sure that they
+
+00:04:20.630 --> 00:04:22.960
+weren't taking any confidential data with them.
+
+00:04:22.960 --> 00:04:25.550
+Now, that also doesn't take a lot of effort,
+
+00:04:25.550 --> 00:04:28.925
+but it only measures the control effectiveness wants.
+
+00:04:28.925 --> 00:04:33.870
+Is that good enough? What would you do if you wanted to check everyday?
+

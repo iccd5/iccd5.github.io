@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.315
+Every organization has unique needs.
+
+00:00:03.315 --> 00:00:05.610
+They have their own way of doing business,
+
+00:00:05.610 --> 00:00:07.859
+their own operational strategy,
+
+00:00:07.859 --> 00:00:09.855
+their own IT strategies,
+
+00:00:09.855 --> 00:00:11.835
+and their own security posture.
+
+00:00:11.835 --> 00:00:16.290
+Because of that, I tell folks that are just starting out their GRC careers that
+
+00:00:16.290 --> 00:00:20.685
+you almost need to know the business better than it knows itself.
+
+00:00:20.685 --> 00:00:26.700
+Now, what I mean by that is that there are no one size fits all security controls,
+
+00:00:26.700 --> 00:00:30.639
+and there aren't any one size fits all GRC strategies.
+
+00:00:30.639 --> 00:00:35.405
+Instead, you must work within the context to the business.
+
+00:00:35.405 --> 00:00:39.230
+Security GRC really does provide the support structure and
+
+00:00:39.230 --> 00:00:43.640
+oversight for the security mechanisms that protect each business.
+
+00:00:43.640 --> 00:00:47.270
+But knowing how to apply GRC concepts to
+
+00:00:47.270 --> 00:00:51.575
+unique business profiles takes a good deal of practice.
+
+00:00:51.575 --> 00:00:53.450
+Let's take, for example,
+
+00:00:53.450 --> 00:00:56.485
+a relatively common organizational scenario.
+
+00:00:56.485 --> 00:00:58.610
+Your organization has a bunch of
+
+00:00:58.610 --> 00:01:02.315
+servers that are really behind their patch management schedules.
+
+00:01:02.315 --> 00:01:07.310
+What do you do? What if I told you that those applications,
+
+00:01:07.310 --> 00:01:11.360
+that those servers support are scheduled to go away within a year,
+
+00:01:11.360 --> 00:01:13.155
+does that change your answer?
+
+00:01:13.155 --> 00:01:16.520
+What if I told you that they were scheduled to go away in six months?
+
+00:01:16.520 --> 00:01:19.100
+What about that? Does that change your answer?
+
+00:01:19.100 --> 00:01:22.310
+Or what if I told you they were scheduled to go away in 10 days?
+
+00:01:22.310 --> 00:01:29.820
+That's just an example of how business context can change what you do as a GRC analyst.
+

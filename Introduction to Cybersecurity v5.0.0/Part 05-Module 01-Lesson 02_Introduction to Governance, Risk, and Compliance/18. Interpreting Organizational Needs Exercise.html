@@ -1,0 +1,242 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interpreting Organizational Needs Exercise</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Introduction to Governance, Risk, and Compliance</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Introduction.html">01. Lesson Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Introduction to Governance, Risk, and Compliance.html">02. Introduction to Governance, Risk, and Compliance</a>
+    </li>
+    <li class="">
+      <a href="03. Overview.html">03. Overview</a>
+    </li>
+    <li class="">
+      <a href="04. Quiz Overview.html">04. Quiz: Overview</a>
+    </li>
+    <li class="">
+      <a href="05. Security Governance, Risk, and Compliance.html">05. Security Governance, Risk, and Compliance</a>
+    </li>
+    <li class="">
+      <a href="06. Quiz Security Governance, Risk, and Compliance.html">06. Quiz: Security Governance, Risk, and Compliance</a>
+    </li>
+    <li class="">
+      <a href="07. Security Controls.html">07. Security Controls</a>
+    </li>
+    <li class="">
+      <a href="08. Defining GRC Roles.html">08. Defining GRC Roles</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Defining GRC Roles.html">09. Quiz: Defining GRC Roles</a>
+    </li>
+    <li class="">
+      <a href="10. Defining GRC Roles Exercise.html">10. Defining GRC Roles Exercise</a>
+    </li>
+    <li class="">
+      <a href="11. Defining GRC Roles Exercise Solution.html">11. Defining GRC Roles Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="12. GRC Interrelation.html">12. GRC Interrelation</a>
+    </li>
+    <li class="">
+      <a href="13. Quiz GRC Interrelation.html">13. Quiz: GRC Interrelation</a>
+    </li>
+    <li class="">
+      <a href="14. GRC Interrelation Exercise.html">14. GRC Interrelation Exercise</a>
+    </li>
+    <li class="">
+      <a href="15. GRC Interrelation Exercise Solution.html">15. GRC Interrelation Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="16. Interpreting Organizational Needs.html">16. Interpreting Organizational Needs</a>
+    </li>
+    <li class="">
+      <a href="17. Quiz Interpreting Organizational Needs.html">17. Quiz: Interpreting Organizational Needs</a>
+    </li>
+    <li class="">
+      <a href="18. Interpreting Organizational Needs Exercise.html">18. Interpreting Organizational Needs Exercise</a>
+    </li>
+    <li class="">
+      <a href="19. Lesson Recap.html">19. Lesson Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">18. Interpreting Organizational Needs Exercise</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="interpreting-organizational-needs-exercise">Interpreting Organizational Needs Exercise</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Prioritizing Findings</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>Your organization, SwiftTech, recently underwent a security audit. During the audit, the assessor noted 4 findings that you need to address in your capacity as a GRC analyst outlined below:</p>
+<ul>
+<li><p>One of the findings is a critical vulnerability in a web application. It will likely be difficult to fix immediately.</p></li>
+<li><p>A separate finding is a high vulnerability in the web server that supports the same web application with the critical vulnerability. It will likely be relatively easy to fix.</p></li>
+<li><p>Related to the same application, there are two medium vulnerabilities in the database that supports the application. They will be moderately difficult to fix.</p></li>
+<li><p>Finally, there is a low level vulnerability related to credential management throughout the organization. It will be moderately difficult to fix.</p></li>
+</ul>
+<p>The web application and the supporting infrastructure is scheduled to be decommissioned in the next 12 months. Knowing this, how would you prioritize fixing the vulnerabilities above? Why? Write a paragraph below outlining which items would be most important. </p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>There is probably no one "right" answer to this question.  Your answer will likely depend on your organization's tolerance for risk and any policies that you might have defining when a vulnerability must be fixed.  These types of policies are also dependent on your organization's risk tolerance (also known as risk posture).</p>
+<p>If your organization, for instance, is somewhat risk averse (meaning you want to reduce risk as much as possible) you may choose to remediate every one of the flaws or choose to fix the critical and high vulnerabilities leaving the medium and low level vulnerabilities alone because the application is scheduled to be decommissioned relatively soon.  This is probably the path that I would take.  I'd likely choose to remediate the critical vulnerability because the application is scheduled to be decommissioned in a year.  If the application was going to be decommissioned in 3 months, it might change my mind but a year is a long time to live with a critical web application vulnerability even if it will likely be difficult to fix.  Fixing the high vulnerabilities that are easy to fix is a no-brainer.  Fixing the medium and low vulnerabilities will likely come down to a discussion about just how much effort it will take to fix them vs. exactly how bad the vulnerabilities are.  </p>
+<p>In any case, if you choose to accept the risk of any vulnerability due to an application being decommissioned, you will likely need to create a management exception detailing exactly why the risk did not rise to the level that it needed to be fixed in accordance with your organization's typically vulnerability remediation schedule. </p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="19. Lesson Recap.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('18. Interpreting Organizational Needs Exercise')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

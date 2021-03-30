@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.775
+At security, GRC is very highest level.
+
+00:00:02.775 --> 00:00:04.980
+The three parts operate like this.
+
+00:00:04.980 --> 00:00:09.885
+Governance is responsible for ensuring security controls are operating effectively.
+
+00:00:09.885 --> 00:00:13.035
+Risk is responsible for measuring risk.
+
+00:00:13.035 --> 00:00:17.220
+Compliance is responsible for making sure that
+
+00:00:17.220 --> 00:00:23.265
+security meets compliance obligations or what we might call control objectives.
+
+00:00:23.265 --> 00:00:26.640
+To this point, we've talked about GRC
+
+00:00:26.640 --> 00:00:30.525
+as a collection of high level outcomes or functions.
+
+00:00:30.525 --> 00:00:37.035
+But the practice of GRC isn't one individual process with these three components,
+
+00:00:37.035 --> 00:00:39.775
+it's really three separate roles.
+
+00:00:39.775 --> 00:00:44.560
+Each individual role is responsible for the outcomes that you see here.
+
+00:00:44.560 --> 00:00:48.435
+Again, governance, ensuring controls operate effectively,
+
+00:00:48.435 --> 00:00:50.840
+risk measuring risk, and compliance,
+
+00:00:50.840 --> 00:00:53.075
+ensuring compliance obligations are met.
+
+00:00:53.075 --> 00:00:57.440
+Keeping in mind that we're going to talk about each GRC function as a role,
+
+00:00:57.440 --> 00:01:00.320
+let's highlight just a few day-to-day responsibilities
+
+00:01:00.320 --> 00:01:02.830
+that a governance professional might encounter.
+
+00:01:02.830 --> 00:01:09.670
+Governance professionals in many ways act as a bridge between security and business.
+
+00:01:09.670 --> 00:01:13.970
+One of the ways that they do that is by managing many of the policies
+
+00:01:13.970 --> 00:01:18.290
+and procedures that establish the dos and don'ts of security in a accompany.
+
+00:01:18.290 --> 00:01:21.560
+These are things like the information security policy or
+
+00:01:21.560 --> 00:01:26.405
+even the acceptable use policies that literally dictate how security operates,
+
+00:01:26.405 --> 00:01:30.545
+and how end users should treat information and technology assets.
+
+00:01:30.545 --> 00:01:34.855
+They also help in aligning security strategy with business strategy,
+
+00:01:34.855 --> 00:01:36.680
+and as I've mentioned before,
+
+00:01:36.680 --> 00:01:40.085
+they spend a great deal of time designing tests
+
+00:01:40.085 --> 00:01:44.330
+to measure whether or not security controls are operating as intended.
+
+00:01:44.330 --> 00:01:48.730
+The risk professional, they're are laser focused on risk.
+
+00:01:48.730 --> 00:01:52.849
+They're responsible for identifying security risks or threats,
+
+00:01:52.849 --> 00:01:56.255
+measuring the organization's exposure to the threats,
+
+00:01:56.255 --> 00:01:58.975
+and then reporting risk to management.
+
+00:01:58.975 --> 00:02:04.040
+Then finally, they have to work together with stakeholders to identify
+
+00:02:04.040 --> 00:02:09.025
+ways of mitigating unacceptable risk and ensuring that those activities are completed.
+
+00:02:09.025 --> 00:02:11.135
+Now, finally, you have compliance.
+
+00:02:11.135 --> 00:02:15.395
+The main role of the compliance professional is to identify
+
+00:02:15.395 --> 00:02:19.565
+organization's security compliance obligations and then
+
+00:02:19.565 --> 00:02:24.235
+assess the organization's level of compliance against those obligations.
+
+00:02:24.235 --> 00:02:27.350
+In other words, understand what you must
+
+00:02:27.350 --> 00:02:31.955
+do and then measure whether or not you're actually doing it.
+
+00:02:31.955 --> 00:02:37.040
+They also assist operational security in becoming more efficient by designing
+
+00:02:37.040 --> 00:02:42.655
+controls that might meet one or more of the organization's security obligations.
+
+00:02:42.655 --> 00:02:46.870
+We'll talk much more about all of those obligations in another lesson.
+
+00:02:46.870 --> 00:02:48.800
+Finally, in this lesson,
+
+00:02:48.800 --> 00:02:52.025
+I want to spend just a moment on operational security.
+
+00:02:52.025 --> 00:02:54.790
+We've said that term a number of times.
+
+00:02:54.790 --> 00:02:57.470
+When I say operational security,
+
+00:02:57.470 --> 00:03:00.350
+I mean the folks that are actually installing,
+
+00:03:00.350 --> 00:03:03.215
+operating, and monitoring security controls.
+
+00:03:03.215 --> 00:03:05.755
+We haven't talked much about their role,
+
+00:03:05.755 --> 00:03:09.875
+but now that you have a high level overview of each GRC role,
+
+00:03:09.875 --> 00:03:13.570
+it's important to talk about what GRC isn't.
+
+00:03:13.570 --> 00:03:16.940
+GRC roles normally have no involvement in
+
+00:03:16.940 --> 00:03:22.130
+day-to-day control activities other than writing policies and procedures,
+
+00:03:22.130 --> 00:03:23.449
+which if you remember,
+
+00:03:23.449 --> 00:03:25.970
+I'm calling those preventive controls.
+
+00:03:25.970 --> 00:03:29.240
+Everything else though, configuring firewalls,
+
+00:03:29.240 --> 00:03:33.010
+configuring other equipment, all of that is off limits.
+
+00:03:33.010 --> 00:03:38.675
+The reason for that is that GRC roles serve to provide a level of oversight.
+
+00:03:38.675 --> 00:03:41.885
+Following the principle of segregation of duties,
+
+00:03:41.885 --> 00:03:46.420
+an individual can't be responsible for assessing their own work.
+
+00:03:46.420 --> 00:03:49.095
+You want to have independent monitors.
+
+00:03:49.095 --> 00:03:54.660
+That's the role that GRC plays as it relates to operational security.
+

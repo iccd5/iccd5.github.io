@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.920
+Let's examine this scenario.
+
+00:00:01.920 --> 00:00:06.615
+What if your organization maintains an information security policy?
+
+00:00:06.615 --> 00:00:10.260
+These require to be updated one time every year.
+
+00:00:10.260 --> 00:00:11.670
+The purpose of that,
+
+00:00:11.670 --> 00:00:15.720
+is to ensure that accurate information is provided to every employee.
+
+00:00:15.720 --> 00:00:18.000
+What's the time component here?
+
+00:00:18.000 --> 00:00:19.915
+What's one time per year?
+
+00:00:19.915 --> 00:00:24.420
+What's the function? The function is to update the policy.
+
+00:00:24.420 --> 00:00:27.270
+So what about our measurement options?
+
+00:00:27.270 --> 00:00:31.080
+What makes sense given the information that you have?
+
+00:00:31.080 --> 00:00:35.520
+Could you check periodically throughout the year to make sure that the policy is updated?
+
+00:00:35.520 --> 00:00:38.130
+Sure. Could you check one time
+
+00:00:38.130 --> 00:00:40.875
+near the end of the year to make sure the policy was updated?
+
+00:00:40.875 --> 00:00:45.530
+You could do that also. There are probably others that you can think of.
+
+00:00:45.530 --> 00:00:47.525
+Now in that previous example,
+
+00:00:47.525 --> 00:00:50.435
+we wanted to make sure that the policy was updated.
+
+00:00:50.435 --> 00:00:52.475
+But what if it wasn't?
+
+00:00:52.475 --> 00:00:55.850
+Remember that the overall objectives of control
+
+00:00:55.850 --> 00:00:59.945
+assessment include: improving security posture,
+
+00:00:59.945 --> 00:01:02.270
+assessing our existing tools,
+
+00:01:02.270 --> 00:01:04.930
+and then addressing compliance requirements.
+
+00:01:04.930 --> 00:01:07.895
+So when a control fails your test,
+
+00:01:07.895 --> 00:01:09.965
+you have to take action.
+
+00:01:09.965 --> 00:01:14.875
+Typically, that comes in the form of reporting and remediation plans.
+
+00:01:14.875 --> 00:01:18.200
+There are three critical tasks that governance
+
+00:01:18.200 --> 00:01:21.590
+professionals must complete when measuring control effectiveness.
+
+00:01:21.590 --> 00:01:26.315
+The first, we just talked about: designing an effective measurement strategy.
+
+00:01:26.315 --> 00:01:29.855
+The second, is maintaining a comprehensive schedule
+
+00:01:29.855 --> 00:01:33.970
+for all the measurement activities you plan to perform throughout the year.
+
+00:01:33.970 --> 00:01:39.785
+Without that list, you might fail to complete some of the required testing objectives.
+
+00:01:39.785 --> 00:01:45.940
+Then third, you must maintain a list of all of the tests outcomes.
+
+00:01:45.940 --> 00:01:48.500
+The reason for recording the test results,
+
+00:01:48.500 --> 00:01:51.830
+is so that you can report outcomes to stakeholders and then work
+
+00:01:51.830 --> 00:01:56.870
+together to develop plans of action to remediate any deficiencies.
+
+00:01:56.870 --> 00:02:00.155
+Just two quick notes here, test results,
+
+00:02:00.155 --> 00:02:04.420
+especially failures, represent risks to your organization.
+
+00:02:04.420 --> 00:02:08.960
+You want to make sure that your plans of action are closely guarded,
+
+00:02:08.960 --> 00:02:12.965
+and really only shared with appropriate stakeholders.
+
+00:02:12.965 --> 00:02:17.075
+Then second, well, we haven't yet discussed risk management.
+
+00:02:17.075 --> 00:02:20.330
+Remediation plans for control failure can actually be
+
+00:02:20.330 --> 00:02:25.260
+combined with remediation plans resulting from risk management activities.
+

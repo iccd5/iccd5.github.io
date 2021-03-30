@@ -1,0 +1,250 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.950
+Our last governance function,
+
+00:00:01.950 --> 00:00:03.900
+is Policy and Procedure Management.
+
+00:00:03.900 --> 00:00:08.365
+Policies are often written by governance professionals, and earlier we said,
+
+00:00:08.365 --> 00:00:12.210
+that part of the reason for that is that much of the decision-making from
+
+00:00:12.210 --> 00:00:16.700
+our information security steering committees wind up a security policy.
+
+00:00:16.700 --> 00:00:22.770
+In that way, security policies become lists of organizational controls.
+
+00:00:22.770 --> 00:00:27.230
+They set direction by expressing what leadership has decided or
+
+00:00:27.230 --> 00:00:31.660
+appropriate security controls or inappropriate employee behaviors.
+
+00:00:31.660 --> 00:00:36.060
+To be effective, they are almost always determinative,
+
+00:00:36.060 --> 00:00:41.555
+meaning that they use forceful binary language to avoid ambiguity.
+
+00:00:41.555 --> 00:00:46.890
+Words like must, must not, shall, and others.
+
+00:00:46.890 --> 00:00:52.000
+Because these documents dictate what the organization and its employees must do,
+
+00:00:52.000 --> 00:00:54.800
+and users are trained to be aware of their content,
+
+00:00:54.800 --> 00:00:57.295
+they operate as controls themselves.
+
+00:00:57.295 --> 00:01:00.455
+While policies dictate organizational behaviors,
+
+00:01:00.455 --> 00:01:06.205
+procedures dictate specific behaviors but exist to support policy.
+
+00:01:06.205 --> 00:01:11.195
+When a policy dictates something that must occur or will occur,
+
+00:01:11.195 --> 00:01:13.910
+the procedure is there to make sure that those
+
+00:01:13.910 --> 00:01:17.930
+responsible perform that action in a uniform way.
+
+00:01:17.930 --> 00:01:20.985
+In that way procedures are tactical,
+
+00:01:20.985 --> 00:01:26.000
+they provide detailed line by line instructions about how to accomplish a task,
+
+00:01:26.000 --> 00:01:30.595
+and of course, since they ensure that those tasks were completed,
+
+00:01:30.595 --> 00:01:33.165
+they also operate as controls.
+
+00:01:33.165 --> 00:01:36.950
+Now, policies often get conflated with procedures.
+
+00:01:36.950 --> 00:01:38.780
+One of the reasons for that,
+
+00:01:38.780 --> 00:01:41.915
+is that folks try to make policies overly detailed,
+
+00:01:41.915 --> 00:01:44.695
+the detail should be in the procedure.
+
+00:01:44.695 --> 00:01:46.880
+Let's look at a couple of examples.
+
+00:01:46.880 --> 00:01:51.630
+If our policy is to cook a different meal everyday,
+
+00:01:51.630 --> 00:01:54.345
+our procedure is today's recipe,
+
+00:01:54.345 --> 00:01:59.874
+or you might have a policy requiring users to report security incidents,
+
+00:01:59.874 --> 00:02:02.340
+how to report them is the procedure.
+
+00:02:02.340 --> 00:02:04.070
+Now, notice in this procedure,
+
+00:02:04.070 --> 00:02:06.140
+we actually have some passive language.
+
+00:02:06.140 --> 00:02:11.585
+It says, that users should contact IT security by,
+
+00:02:11.585 --> 00:02:13.775
+and then it gives them a couple of options.
+
+00:02:13.775 --> 00:02:19.460
+Passive language is okay in both policies and procedures,
+
+00:02:19.460 --> 00:02:23.525
+but it should only be used when you're providing users with choices.
+
+00:02:23.525 --> 00:02:26.720
+If your intention is to require users to do something,
+
+00:02:26.720 --> 00:02:29.330
+you have to use determinative language.
+
+00:02:29.330 --> 00:02:30.910
+Let's look at another example.
+
+00:02:30.910 --> 00:02:33.125
+When you're writing or assessing a policy,
+
+00:02:33.125 --> 00:02:36.515
+it should be looking for four things immediately.
+
+00:02:36.515 --> 00:02:38.165
+Is it clear on purpose?
+
+00:02:38.165 --> 00:02:41.935
+Meaning does the policy have a clear and definitive purpose,
+
+00:02:41.935 --> 00:02:43.950
+so when an employee picks it up,
+
+00:02:43.950 --> 00:02:46.610
+will they know exactly why the policy exists.
+
+00:02:46.610 --> 00:02:48.125
+Is it clear on scope,
+
+00:02:48.125 --> 00:02:52.025
+will that same employee be able to tell exactly what the policy applies to?
+
+00:02:52.025 --> 00:02:53.240
+Is it every employee?
+
+00:02:53.240 --> 00:02:56.605
+Is it every computer system or is it only some of them?
+
+00:02:56.605 --> 00:02:59.525
+Policies should never be tactical.
+
+00:02:59.525 --> 00:03:03.319
+If you're reading a policy and it describes an entire process,
+
+00:03:03.319 --> 00:03:05.030
+that process should, generally,
+
+00:03:05.030 --> 00:03:07.195
+be moved to a procedure document.
+
+00:03:07.195 --> 00:03:09.620
+Policies are meant to be concise,
+
+00:03:09.620 --> 00:03:12.305
+explaining what is permitted or not.
+
+00:03:12.305 --> 00:03:16.565
+Procedures represent how something should, actually, be accomplished.
+
+00:03:16.565 --> 00:03:20.150
+Finally, policies in particular should use
+
+00:03:20.150 --> 00:03:25.580
+determinative language to make it clear that the defined behavior is a requirement.
+
+00:03:25.580 --> 00:03:29.485
+There are some occasions when you may use passive language,
+
+00:03:29.485 --> 00:03:33.425
+but it is nearly always followed by some determinative action.
+
+00:03:33.425 --> 00:03:37.280
+Here, the user has a choice to bring their own mobile device,
+
+00:03:37.280 --> 00:03:39.560
+but if they exercise that choice,
+
+00:03:39.560 --> 00:03:42.250
+they must follow additional guidelines.
+
+00:03:42.250 --> 00:03:45.555
+Now, let's walk through just a few more examples.
+
+00:03:45.555 --> 00:03:49.280
+In this instance, the purpose of the policy serves
+
+00:03:49.280 --> 00:03:52.700
+to guide the organization in protection of the confidentiality,
+
+00:03:52.700 --> 00:03:56.560
+integrity, and availability of information and technology assets,
+
+00:03:56.560 --> 00:04:00.905
+but then the purpose goes on to describe other actions.
+
+00:04:00.905 --> 00:04:03.625
+Typically, we'd want to remove that.
+
+00:04:03.625 --> 00:04:07.820
+The policy also talks about security incident reporting and it says that,
+
+00:04:07.820 --> 00:04:11.165
+"Users may contact the Information Security Department
+
+00:04:11.165 --> 00:04:13.570
+if their laptop is lost or stolen."
+
+00:04:13.570 --> 00:04:15.705
+That language isn't determinative,
+
+00:04:15.705 --> 00:04:17.189
+and as we've discussed,
+
+00:04:17.189 --> 00:04:20.515
+in policies, you want to use determinative language.
+
+00:04:20.515 --> 00:04:24.475
+It should say, "users must or users shall".
+
+00:04:24.475 --> 00:04:27.660
+Then finally, firewall monitoring, it says that,
+
+00:04:27.660 --> 00:04:30.890
+"Firewall logs will be reviewed one time every quarter
+
+00:04:30.890 --> 00:04:35.435
+by," and then it provides a rather lengthy explanation how to do that.
+
+00:04:35.435 --> 00:04:39.780
+This is language best saved for procedure.
+

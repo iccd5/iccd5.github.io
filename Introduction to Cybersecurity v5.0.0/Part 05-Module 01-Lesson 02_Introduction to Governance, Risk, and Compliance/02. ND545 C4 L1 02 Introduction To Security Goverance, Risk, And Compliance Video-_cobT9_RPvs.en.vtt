@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.275
+You probably have some rough idea of what GRC means.
+
+00:00:04.275 --> 00:00:08.925
+In literal terms, GRC stands for governance, risk, and compliance.
+
+00:00:08.925 --> 00:00:10.725
+But what does that mean?
+
+00:00:10.725 --> 00:00:12.465
+Now if I asked you,
+
+00:00:12.465 --> 00:00:15.165
+how would you want to run your business?
+
+00:00:15.165 --> 00:00:19.225
+You're probably going to tell me you want to be mission-oriented,
+
+00:00:19.225 --> 00:00:24.035
+hyper-focused on your goals and strategy. You want to be shrewd.
+
+00:00:24.035 --> 00:00:25.730
+You want to make sure that you don't make
+
+00:00:25.730 --> 00:00:29.335
+bad decisions and you take advantage when you can.
+
+00:00:29.335 --> 00:00:31.040
+You want to be trustworthy.
+
+00:00:31.040 --> 00:00:33.470
+You want your customers to trust
+
+00:00:33.470 --> 00:00:36.460
+that you're doing the things that you need to do as a company.
+
+00:00:36.460 --> 00:00:40.155
+Everything we just described is GRC.
+
+00:00:40.155 --> 00:00:43.475
+You can roughly translate business goals into
+
+00:00:43.475 --> 00:00:47.135
+individual components of governance, risk, and compliance.
+
+00:00:47.135 --> 00:00:51.585
+Mission-oriented, that focus on the mission and strategy,
+
+00:00:51.585 --> 00:00:54.735
+well, that equates roughly to governance.
+
+00:00:54.735 --> 00:00:57.500
+Shrewdness, the idea that you want to make
+
+00:00:57.500 --> 00:01:01.440
+well-founded decisions, that's risk management.
+
+00:01:01.440 --> 00:01:05.000
+Trustworthiness, making sure that you do the things
+
+00:01:05.000 --> 00:01:08.580
+that you're expected to do as a company, well, that's compliance.
+
+00:01:08.580 --> 00:01:11.960
+We'll talk more about the individual components throughout the course,
+
+00:01:11.960 --> 00:01:16.460
+but I want to make sure that everyone has a really clear understanding of GRC
+
+00:01:16.460 --> 00:01:21.535
+at this macro level before we talk more about security GRC specifically.
+
+00:01:21.535 --> 00:01:24.650
+We just talked about how certain business goals roughly
+
+00:01:24.650 --> 00:01:28.160
+translate to GRC functions at a macro level.
+
+00:01:28.160 --> 00:01:30.710
+But remember, in this course,
+
+00:01:30.710 --> 00:01:35.554
+we're going to be discussing four broad topics of security governance,
+
+00:01:35.554 --> 00:01:38.230
+risk, and also compliance.
+
+00:01:38.230 --> 00:01:42.440
+What that means is security governance specifically,
+
+00:01:42.440 --> 00:01:46.385
+security compliance, and security risk management.
+
+00:01:46.385 --> 00:01:52.240
+We'll also spend time talking about security assessments and how they fit in.
+
+00:01:52.240 --> 00:01:55.730
+Now, you're probably wondering at this point though,
+
+00:01:55.730 --> 00:02:01.640
+what's the real difference between GRC at that macro level and security GRC?
+
+00:02:01.640 --> 00:02:05.210
+In general, security GRC is more tactical
+
+00:02:05.210 --> 00:02:09.385
+than what I would call traditional or operational GRC.
+
+00:02:09.385 --> 00:02:13.070
+We'll talk more about that historical contexts in just a moment,
+
+00:02:13.070 --> 00:02:17.185
+but for now, I would think of security GRC as tactical.
+
+00:02:17.185 --> 00:02:22.085
+Meaning that mission-oriented really becomes a question
+
+00:02:22.085 --> 00:02:27.140
+of whether security is acting in a manner that supports our business goals.
+
+00:02:27.140 --> 00:02:33.890
+Shrewdness becomes a question as to whether we're making good decisions about security.
+
+00:02:33.890 --> 00:02:40.930
+Trustworthiness now asks what security is actually required of our organization?
+
+00:02:40.930 --> 00:02:45.140
+You can see how the questions relate to the original business goals,
+
+00:02:45.140 --> 00:02:47.180
+but now we're really asking,
+
+00:02:47.180 --> 00:02:51.030
+how does security support business objectives?
+

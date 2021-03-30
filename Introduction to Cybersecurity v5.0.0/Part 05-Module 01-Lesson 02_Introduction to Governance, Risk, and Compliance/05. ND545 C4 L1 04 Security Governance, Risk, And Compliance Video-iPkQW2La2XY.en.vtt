@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+We've talked about a definition for operational GRC,
+
+00:00:03.600 --> 00:00:06.615
+and we've broadly talked about some of the differences
+
+00:00:06.615 --> 00:00:10.245
+between operational GRC and security GRC.
+
+00:00:10.245 --> 00:00:13.830
+But I think it's time we reach a definition for security GRC.
+
+00:00:13.830 --> 00:00:18.855
+Now, I happen to like the OSG definition of GRC.
+
+00:00:18.855 --> 00:00:23.190
+I think we can modify that to show the more tactical approach that
+
+00:00:23.190 --> 00:00:28.740
+security GRC requires and then still demonstrate support for the organization.
+
+00:00:28.740 --> 00:00:33.240
+Let's try this. Cybersecurity GRC is
+
+00:00:33.240 --> 00:00:36.600
+the integrated collection of capabilities that enable
+
+00:00:36.600 --> 00:00:40.845
+an organization to set and meet strategic goals,
+
+00:00:40.845 --> 00:00:45.240
+that's governance, to address existing and emerging threats,
+
+00:00:45.240 --> 00:00:49.740
+that's our risk, and then finally to meet our obligations,
+
+00:00:49.740 --> 00:00:51.975
+that equates to compliance.
+
+00:00:51.975 --> 00:00:53.825
+All of those, of course,
+
+00:00:53.825 --> 00:00:56.150
+as they relate to security.
+
+00:00:56.150 --> 00:01:01.405
+That definition, I think gets us to a more tactical view of the organization.
+
+00:01:01.405 --> 00:01:03.225
+Now what do I mean by that?
+
+00:01:03.225 --> 00:01:06.260
+What do I mean specifically about tactical?
+
+00:01:06.260 --> 00:01:11.860
+Security GRC functions generally center on security controls.
+
+00:01:11.860 --> 00:01:16.295
+While the mission of security GRC is to support the organization.
+
+00:01:16.295 --> 00:01:19.310
+Day-to-day activities are focused on ensuring
+
+00:01:19.310 --> 00:01:25.435
+the operational effectiveness and efficiency of controls that support that mission.
+
+00:01:25.435 --> 00:01:27.710
+By controls, of course,
+
+00:01:27.710 --> 00:01:31.205
+I mean actual security controls, firewalls,
+
+00:01:31.205 --> 00:01:33.410
+data loss prevention mechanisms,
+
+00:01:33.410 --> 00:01:37.195
+authentication, policies, and procedures, and more.
+
+00:01:37.195 --> 00:01:41.795
+Now, how are we supporting the business mission as GRC professionals?
+
+00:01:41.795 --> 00:01:44.060
+Here are a couple ways. Every time you
+
+00:01:44.060 --> 00:01:46.460
+hear about a high-profile breach, what do you think?
+
+00:01:46.460 --> 00:01:48.275
+You think that something failed.
+
+00:01:48.275 --> 00:01:49.640
+We don't think, "Wow,
+
+00:01:49.640 --> 00:01:51.910
+those hackers must have been amazing."
+
+00:01:51.910 --> 00:01:54.360
+We think the company failed,
+
+00:01:54.360 --> 00:01:56.250
+and sometimes that's the case.
+
+00:01:56.250 --> 00:01:58.055
+Here are a couple of examples.
+
+00:01:58.055 --> 00:02:01.955
+Take for instance, the May 2017 breach of Booz Allen Hamilton.
+
+00:02:01.955 --> 00:02:04.700
+They reportedly exposed battlefield imagery and
+
+00:02:04.700 --> 00:02:10.115
+other sensitive account information all by an unsecured AWS S3 bucket or
+
+00:02:10.115 --> 00:02:13.820
+the 2015 breach of the OPM that
+
+00:02:13.820 --> 00:02:18.360
+resulted in approximately 21.5 million records being stolen.
+
+00:02:18.360 --> 00:02:20.630
+Now the government believes that was the result of
+
+00:02:20.630 --> 00:02:23.185
+social engineering like a phishing attack.
+
+00:02:23.185 --> 00:02:29.750
+Either of these issues may have been discovered before breach with healthy GRC practices.
+
+00:02:29.750 --> 00:02:33.650
+That is how GRC supports the business's overall mission,
+
+00:02:33.650 --> 00:02:38.820
+by helping to avoid control failure that leads to costly mistakes.
+
+00:02:38.820 --> 00:02:44.810
+Now, that isn't to say that GRC would solve every potential breach before it occurs.
+
+00:02:44.810 --> 00:02:46.414
+But in these cases,
+
+00:02:46.414 --> 00:02:52.520
+security GRC may have identified controls that weren't working effectively,
+
+00:02:52.520 --> 00:02:57.065
+might have identified the risks that could have led to better controls,
+
+00:02:57.065 --> 00:03:00.110
+or had compliance obligations that would have
+
+00:03:00.110 --> 00:03:04.110
+created a control to solve these challenges as well.
+

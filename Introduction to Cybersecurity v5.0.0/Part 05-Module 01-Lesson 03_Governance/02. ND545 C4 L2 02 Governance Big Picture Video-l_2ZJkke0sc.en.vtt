@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.030
+At its highest level, I think of governance as
+
+00:00:03.030 --> 00:00:06.465
+a bridge between the organization and security.
+
+00:00:06.465 --> 00:00:09.719
+That doesn't mean that governance professionals are managing
+
+00:00:09.719 --> 00:00:13.020
+or overseeing the rest of the GRC roles per se.
+
+00:00:13.020 --> 00:00:16.890
+It does mean that governance professionals have a higher number of
+
+00:00:16.890 --> 00:00:21.825
+opportunities to influence a wide range of stakeholders,
+
+00:00:21.825 --> 00:00:25.305
+for instance, they tend to spend lots of time
+
+00:00:25.305 --> 00:00:31.500
+managing policies and procedures that focus on both security and on end-users.
+
+00:00:31.500 --> 00:00:33.995
+Like the information security policy,
+
+00:00:33.995 --> 00:00:36.470
+and also the acceptable use policy,
+
+00:00:36.470 --> 00:00:41.540
+or if you've ever had to sit through security training and accompany,
+
+00:00:41.540 --> 00:00:43.715
+you can thank of Governance Professional,
+
+00:00:43.715 --> 00:00:45.440
+they probably created it.
+
+00:00:45.440 --> 00:00:48.140
+Now, just through those couple of examples,
+
+00:00:48.140 --> 00:00:51.730
+you can begin to see how they influence end users.
+
+00:00:51.730 --> 00:00:53.630
+In addition to that,
+
+00:00:53.630 --> 00:00:56.960
+there are also charged with helping to align
+
+00:00:56.960 --> 00:01:00.925
+the security strategy with overall business strategy.
+
+00:01:00.925 --> 00:01:04.129
+Before we spend much more time talking about influence,
+
+00:01:04.129 --> 00:01:07.880
+there is a second critical function that governance professionals play,
+
+00:01:07.880 --> 00:01:12.965
+they also measure security controls to ensure that they're operating as expected.
+
+00:01:12.965 --> 00:01:17.585
+In fact, this is a core day-to-day governance activity.
+
+00:01:17.585 --> 00:01:20.140
+In future lessons, we'll talk about how
+
+00:01:20.140 --> 00:01:24.310
+risk management professionals ensure that controls address risk,
+
+00:01:24.310 --> 00:01:29.075
+and how compliance can influence or dictate what controls, actually, exist.
+
+00:01:29.075 --> 00:01:33.670
+But the Governance Professional in its oversight role is more
+
+00:01:33.670 --> 00:01:38.725
+concerned with whether security controls are producing expected results,
+
+00:01:38.725 --> 00:01:42.114
+they do this by designing tests,
+
+00:01:42.114 --> 00:01:49.270
+measuring the control, and using the results to align controls with operational strategy.
+
+00:01:49.270 --> 00:01:51.340
+Let's look at a quick example.
+
+00:01:51.340 --> 00:01:56.780
+What do we mean by a control producing expected results or being effective.
+
+00:01:56.780 --> 00:02:02.630
+Imagine for a moment that your organization has a web filter mechanism in place.
+
+00:02:02.630 --> 00:02:09.850
+The organization intends to block some broad categories of websites including gambling,
+
+00:02:09.850 --> 00:02:14.230
+adult themed websites, time wasting websites,
+
+00:02:14.230 --> 00:02:16.455
+or even weapon based websites.
+
+00:02:16.455 --> 00:02:18.660
+This is not an uncommon scenario,
+
+00:02:18.660 --> 00:02:22.500
+the control is the Web filter mechanism,
+
+00:02:22.500 --> 00:02:25.600
+the job of the Governance Professional is to measure
+
+00:02:25.600 --> 00:02:30.505
+whether or not the control that web filter is working as intended.
+
+00:02:30.505 --> 00:02:35.165
+In this case, are these websites, actually, being blocked?
+
+00:02:35.165 --> 00:02:38.320
+We're not making any judgment about whether the categories are
+
+00:02:38.320 --> 00:02:41.825
+correct or whether this creates a reduces risk,
+
+00:02:41.825 --> 00:02:44.810
+the only question we're trying to answer is,
+
+00:02:44.810 --> 00:02:46.880
+are these website's blocked?
+
+00:02:46.880 --> 00:02:50.850
+If they are, your control is producing as expected.
+

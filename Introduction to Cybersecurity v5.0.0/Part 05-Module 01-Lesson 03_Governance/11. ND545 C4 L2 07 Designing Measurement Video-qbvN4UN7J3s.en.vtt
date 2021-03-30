@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.990
+Until this point, we've talked about the governance role mostly as
+
+00:00:03.990 --> 00:00:08.310
+a conduit between the security function and business leaders and employees.
+
+00:00:08.310 --> 00:00:12.690
+But the role does play a critical function in supporting operational security.
+
+00:00:12.690 --> 00:00:16.965
+I've mentioned it earlier during my example of the web filtering technology.
+
+00:00:16.965 --> 00:00:20.220
+Governance is responsible for providing oversight as it
+
+00:00:20.220 --> 00:00:23.670
+relates to the effectiveness of operational security controls.
+
+00:00:23.670 --> 00:00:27.180
+Let me oversimplify the objectives for just a moment,
+
+00:00:27.180 --> 00:00:29.535
+to illustrate that governance goal.
+
+00:00:29.535 --> 00:00:35.355
+Governance is generally not concerned with why a control exists.
+
+00:00:35.355 --> 00:00:39.720
+It doesn't talk about how the control addresses risk or compliance.
+
+00:00:39.720 --> 00:00:42.315
+It takes a more binary approach.
+
+00:00:42.315 --> 00:00:48.920
+It does care about what the control is and how it's supposed to function.
+
+00:00:48.920 --> 00:00:50.825
+I oversimplified before.
+
+00:00:50.825 --> 00:00:52.640
+Let's get a little more exacting.
+
+00:00:52.640 --> 00:00:56.660
+Ideally, security controls are being measured against whether they're
+
+00:00:56.660 --> 00:01:01.205
+accomplishing their intended objective in both function and time.
+
+00:01:01.205 --> 00:01:06.710
+Earlier, I said that a governance professional is not concerned with risk management.
+
+00:01:06.710 --> 00:01:11.600
+What I meant by that is that they're not concerned with the assessment of risk.
+
+00:01:11.600 --> 00:01:13.730
+What they are concerned with is,
+
+00:01:13.730 --> 00:01:18.660
+does the control appropriately address the risk it was intended to address?
+
+00:01:18.660 --> 00:01:22.010
+In other words, they don't care about the risk being high or low,
+
+00:01:22.010 --> 00:01:26.540
+they do care if mitigation requires a control to do X,
+
+00:01:26.540 --> 00:01:30.490
+that the control effectively delivers X.
+
+00:01:30.490 --> 00:01:33.690
+That is the measuring control function.
+
+00:01:33.690 --> 00:01:35.570
+Before we talk about time,
+
+00:01:35.570 --> 00:01:38.390
+let's recap for a second on security controls.
+
+00:01:38.390 --> 00:01:40.640
+We have detective controls.
+
+00:01:40.640 --> 00:01:44.335
+Those are the controls that detect security issues.
+
+00:01:44.335 --> 00:01:50.240
+Preventive controls, they're designed to block behavior before it creates an issue;
+
+00:01:50.240 --> 00:01:54.170
+and reactive, which are designed to allow for rapid reaction,
+
+00:01:54.170 --> 00:01:57.050
+once an issue is actually detected.
+
+00:01:57.050 --> 00:02:01.790
+When we talk about measuring controls and function at a macro level,
+
+00:02:01.790 --> 00:02:04.550
+I am referring to these categories.
+
+00:02:04.550 --> 00:02:09.500
+For instance, if you're measuring traditional firewall behavior,
+
+00:02:09.500 --> 00:02:12.574
+meaning blocking or allowing ports,
+
+00:02:12.574 --> 00:02:15.245
+we think of that as preventive.
+
+00:02:15.245 --> 00:02:17.285
+At a more granular level,
+
+00:02:17.285 --> 00:02:19.160
+governance professionals are measuring
+
+00:02:19.160 --> 00:02:23.885
+whether their preventive behavior functions as it should.
+
+00:02:23.885 --> 00:02:25.820
+Thinking about that same firewall,
+
+00:02:25.820 --> 00:02:32.065
+if it's intended to block any traffic other than traffic originating on port 443,
+
+00:02:32.065 --> 00:02:35.750
+that function is what we need to measure is the firewall
+
+00:02:35.750 --> 00:02:39.850
+preventing traffic other than on port 443?
+
+00:02:39.850 --> 00:02:43.565
+The other half of the control measurement process is time.
+
+00:02:43.565 --> 00:02:45.710
+What I mean by time is,
+
+00:02:45.710 --> 00:02:50.000
+does the control act within the time for which it was specified to act?
+
+00:02:50.000 --> 00:02:52.045
+So some examples here.
+
+00:02:52.045 --> 00:02:54.845
+Is it supposed to work continuously?
+
+00:02:54.845 --> 00:02:58.730
+Is the control supposed to be always on? Is it event-driven?
+
+00:02:58.730 --> 00:03:03.995
+Is the control suppose to take action when something else happens first
+
+00:03:03.995 --> 00:03:11.425
+or does it happen exactly at a specific time or within some specified time period.
+
+00:03:11.425 --> 00:03:13.430
+Let's look at our firewall again.
+
+00:03:13.430 --> 00:03:17.615
+The firewall only allows traffic over port 443.
+
+00:03:17.615 --> 00:03:19.670
+That sounds continuous to me.
+
+00:03:19.670 --> 00:03:21.635
+There's not a time qualifier.
+
+00:03:21.635 --> 00:03:25.160
+What if the firewall is suppose to detect traffic over port
+
+00:03:25.160 --> 00:03:29.510
+443 from a specific IP address and then send an alert?
+
+00:03:29.510 --> 00:03:32.050
+That sounds event-driven to me.
+
+00:03:32.050 --> 00:03:37.235
+What if those policies are suppose to be reviewed every Friday at 5:00 PM?
+
+00:03:37.235 --> 00:03:39.050
+That's a specific time.
+
+00:03:39.050 --> 00:03:43.175
+If the firewall policies are suppose to be reviewed once per week,
+
+00:03:43.175 --> 00:03:46.770
+that's within a specified time period.
+
