@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.355
+How would I fix this issue?
+
+00:00:02.355 --> 00:00:05.160
+Well, if I didn't have the information already,
+
+00:00:05.160 --> 00:00:06.990
+I'd ask the assessor for
+
+00:00:06.990 --> 00:00:10.905
+detailed information as to where the vulnerability might be found.
+
+00:00:10.905 --> 00:00:16.485
+I would also, if I didn't already know what cross-site scripting was or how to fix it,
+
+00:00:16.485 --> 00:00:19.500
+lookup the vulnerability to find as much details as
+
+00:00:19.500 --> 00:00:24.660
+necessary for me to clearly explain why it's important to fix,
+
+00:00:24.660 --> 00:00:27.930
+where to find the issue, and how to fix it.
+
+00:00:27.930 --> 00:00:33.230
+I then ask associated stakeholders if 15 days is enough time to fix
+
+00:00:33.230 --> 00:00:39.920
+the issue as recommended by the assessor or if it's technically feasible.
+
+00:00:39.920 --> 00:00:45.725
+If for any reason the recommended remediation cannot be applied within 15 days,
+
+00:00:45.725 --> 00:00:49.835
+I would ask the stakeholders to provide details on either a,
+
+00:00:49.835 --> 00:00:54.470
+winner remediation might be applied or b,
+
+00:00:54.470 --> 00:00:56.450
+a proposed mitigating control.
+
+00:00:56.450 --> 00:01:00.080
+Once agreed, I'd work with the stakeholders to develop
+
+00:01:00.080 --> 00:01:05.700
+milestones and schedule check-in meetings to ensure everything stays on track.
+

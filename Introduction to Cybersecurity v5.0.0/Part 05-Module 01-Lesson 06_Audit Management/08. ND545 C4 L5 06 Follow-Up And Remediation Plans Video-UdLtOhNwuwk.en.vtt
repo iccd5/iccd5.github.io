@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.830
+Throughout this lesson, I've talked about findings.
+
+00:00:02.830 --> 00:00:05.910
+Let me take just a moment and explain what I mean by that.
+
+00:00:05.910 --> 00:00:08.220
+Remember that at a high level,
+
+00:00:08.220 --> 00:00:11.370
+the goal of an audit relates to exposing weaknesses
+
+00:00:11.370 --> 00:00:14.535
+or failures in your information security systems,
+
+00:00:14.535 --> 00:00:18.130
+proving compliance, setting budget, and etc.
+
+00:00:18.130 --> 00:00:22.560
+But the weaknesses or threats that are exposed and suggestions made by
+
+00:00:22.560 --> 00:00:27.855
+the assessor during the audit process are what we're referring to as findings.
+
+00:00:27.855 --> 00:00:31.290
+Those audit findings operate similarly to how
+
+00:00:31.290 --> 00:00:34.920
+risk registers or governance findings might operate.
+
+00:00:34.920 --> 00:00:37.565
+There will be a finding or a risk statement,
+
+00:00:37.565 --> 00:00:40.130
+an assessment of the risk by the assessor,
+
+00:00:40.130 --> 00:00:43.370
+and a recommendation of how to remediate the risk.
+
+00:00:43.370 --> 00:00:45.890
+But assessors will generally only provide
+
+00:00:45.890 --> 00:00:50.420
+the actual findings and not a complete outcome for everything assessed.
+
+00:00:50.420 --> 00:00:53.330
+If many controls successfully passed an audit,
+
+00:00:53.330 --> 00:00:56.240
+there's going to be little mention of those in the report,
+
+00:00:56.240 --> 00:01:01.305
+except maybe perhaps in a very brief statement in an executive summary.
+
+00:01:01.305 --> 00:01:06.350
+The only real cognizable difference between the audit report findings and those from
+
+00:01:06.350 --> 00:01:09.380
+internal activities will be that risk ratings will
+
+00:01:09.380 --> 00:01:12.935
+likely come with recommended time frames for remediation.
+
+00:01:12.935 --> 00:01:17.075
+You absolutely want to keep a close eye on what those time frames are.
+
+00:01:17.075 --> 00:01:19.100
+One of the reasons you want to pay
+
+00:01:19.100 --> 00:01:23.010
+such close attention to recommendations for remediation and
+
+00:01:23.010 --> 00:01:26.000
+their associated time frames is organizations will
+
+00:01:26.000 --> 00:01:29.420
+typically issue management responses to findings.
+
+00:01:29.420 --> 00:01:33.080
+This is your opportunity to respond to an assessor.
+
+00:01:33.080 --> 00:01:36.100
+Normally, you'll respond in one of three ways.
+
+00:01:36.100 --> 00:01:42.170
+First, you'll agree with the finding and the recommendations for remediation,
+
+00:01:42.170 --> 00:01:47.120
+or you'll partially agree with the finding or the recommendations,
+
+00:01:47.120 --> 00:01:51.710
+modifying the finding to suit your view of the organization's needs,
+
+00:01:51.710 --> 00:01:55.010
+or you'll disagree with the finding and cite
+
+00:01:55.010 --> 00:01:58.280
+some reason as to why you believe the finding misrepresents
+
+00:01:58.280 --> 00:02:01.500
+your control or how it misrepresents
+
+00:02:01.500 --> 00:02:05.220
+your associated risk or the recommendations for remediation.
+
+00:02:05.220 --> 00:02:08.120
+Plans of action following audits operate
+
+00:02:08.120 --> 00:02:11.090
+just like plans of actions that we've discussed previously.
+
+00:02:11.090 --> 00:02:15.350
+As always, you'll want to involve the appropriate stakeholders to
+
+00:02:15.350 --> 00:02:20.350
+negotiate timing or response and specific control adjustments.
+
+00:02:20.350 --> 00:02:24.320
+You'll want to keep track of all of those remediation activities so that
+
+00:02:24.320 --> 00:02:29.280
+you're able to report status to leadership and make adjustments as necessary.
+

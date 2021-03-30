@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+Audits and assessments really do have the ability to set
+
+00:00:03.330 --> 00:00:07.235
+an organization security strategy for an entire calendar year.
+
+00:00:07.235 --> 00:00:11.880
+The reason for that is audits are designed to root out failure,
+
+00:00:11.880 --> 00:00:15.945
+your goal is to expose where the organization is failing.
+
+00:00:15.945 --> 00:00:19.050
+That probably sounds a little counter-intuitive.
+
+00:00:19.050 --> 00:00:22.890
+We've spent our whole life trying to avoid admitting failure or
+
+00:00:22.890 --> 00:00:28.155
+mistakes and here we might be paying for someone to find as many as possible,
+
+00:00:28.155 --> 00:00:30.405
+it sounds like a scary proposition.
+
+00:00:30.405 --> 00:00:33.480
+Imagine being responsible for operational security for
+
+00:00:33.480 --> 00:00:37.105
+a company and an auditor finds hundreds of security failures.
+
+00:00:37.105 --> 00:00:38.520
+It happens all the time.
+
+00:00:38.520 --> 00:00:41.055
+But that's why this section is so important.
+
+00:00:41.055 --> 00:00:42.830
+As a GRC professional,
+
+00:00:42.830 --> 00:00:47.690
+you have a responsibility to manage audits in a way that makes them productive,
+
+00:00:47.690 --> 00:00:51.260
+non-threatening, and without too many surprises.
+
+00:00:51.260 --> 00:00:55.265
+If managed properly, they'll help set strategic direction,
+
+00:00:55.265 --> 00:00:59.000
+set budgetary needs, prove compliance with standards,
+
+00:00:59.000 --> 00:01:01.780
+and expose control weakness or failure.
+
+00:01:01.780 --> 00:01:05.540
+As explained earlier, it's certainly better to expose failure
+
+00:01:05.540 --> 00:01:09.320
+in an audit rather than as part of a customer assessment.
+
+00:01:09.320 --> 00:01:11.735
+Before we talk about how to manage audits,
+
+00:01:11.735 --> 00:01:14.510
+it's important to understand that there are many different types.
+
+00:01:14.510 --> 00:01:20.135
+We're not talking about how the audits originate or the goals,
+
+00:01:20.135 --> 00:01:23.855
+but we are talking about how the audits are actually performed.
+
+00:01:23.855 --> 00:01:28.220
+They're question-based assessments, meaning that you'll be answering
+
+00:01:28.220 --> 00:01:32.695
+questions about controls and often providing supporting documentation.
+
+00:01:32.695 --> 00:01:37.400
+They're technical assessments aimed at looking at technical security controls,
+
+00:01:37.400 --> 00:01:40.100
+only either automated or otherwise,
+
+00:01:40.100 --> 00:01:45.335
+thinking about things like code reviews or vulnerability and penetration tests.
+
+00:01:45.335 --> 00:01:48.140
+There could also be fully manual assessments,
+
+00:01:48.140 --> 00:01:50.240
+things like configuration settings,
+
+00:01:50.240 --> 00:01:55.990
+again, code reviews, or where we see this a lot is reviewing policies and procedures.
+
+00:01:55.990 --> 00:01:57.785
+There are also interviews,
+
+00:01:57.785 --> 00:02:03.065
+meaning literal interviews of IT personnel and business stakeholders,
+
+00:02:03.065 --> 00:02:06.035
+and then finally, there're onsite assessments,
+
+00:02:06.035 --> 00:02:09.595
+which could literally mean any of the things that we just discussed.
+
+00:02:09.595 --> 00:02:12.515
+Let's put some of what we just learned to work.
+
+00:02:12.515 --> 00:02:15.170
+A customer wants to perform an audit.
+
+00:02:15.170 --> 00:02:18.410
+They want to assess whether the security mechanisms you
+
+00:02:18.410 --> 00:02:22.175
+have in place to support them are functioning as expected.
+
+00:02:22.175 --> 00:02:27.690
+Now they've requested to perform a penetration test and a vulnerability assessment.
+
+00:02:27.690 --> 00:02:31.705
+What kind of assessment are they asking to perform? That's right.
+
+00:02:31.705 --> 00:02:34.545
+Both of these appear to be technical assessments.
+
+00:02:34.545 --> 00:02:36.735
+The big question, however,
+
+00:02:36.735 --> 00:02:39.880
+is will you allow the customer to perform the test?
+
+00:02:39.880 --> 00:02:42.535
+We've already said that some customers
+
+00:02:42.535 --> 00:02:45.760
+have contractual rights to assess your security environment,
+
+00:02:45.760 --> 00:02:52.050
+but it's part of your role to understand exactly what they've contracted to do.
+
+00:02:52.050 --> 00:02:54.580
+It's also important to understand
+
+00:02:54.580 --> 00:02:58.285
+what standards the customer is planning to assess you against.
+
+00:02:58.285 --> 00:03:01.630
+What if the customer is planning to assess you or
+
+00:03:01.630 --> 00:03:05.135
+your controls against a really strict standard,
+
+00:03:05.135 --> 00:03:08.055
+maybe one that your organization doesn't follow?
+
+00:03:08.055 --> 00:03:10.575
+That's where you can really get into some trouble.
+
+00:03:10.575 --> 00:03:14.010
+One last point here, what if this were a prospective customer?
+
+00:03:14.010 --> 00:03:16.460
+Chances are you're not going to allow
+
+00:03:16.460 --> 00:03:20.090
+prospective customers to assess your environment because it's
+
+00:03:20.090 --> 00:03:23.120
+going to create the opportunity for non-customers to make
+
+00:03:23.120 --> 00:03:26.585
+demands of the organization without any future obligations.
+
+00:03:26.585 --> 00:03:31.890
+All of these things are things that you'll need to consider when you're managing audits.
+

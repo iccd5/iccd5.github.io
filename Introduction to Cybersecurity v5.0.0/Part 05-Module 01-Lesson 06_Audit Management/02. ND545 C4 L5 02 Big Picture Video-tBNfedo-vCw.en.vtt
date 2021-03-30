@@ -1,0 +1,385 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.505
+We've called this section, Audit Management.
+
+00:00:02.505 --> 00:00:05.130
+But I should clarify that we're really talking about
+
+00:00:05.130 --> 00:00:08.670
+the process of being assessed in some way.
+
+00:00:08.670 --> 00:00:13.695
+There are historical connotations of the words audit and assessment.
+
+00:00:13.695 --> 00:00:17.190
+Audit, is really meant as an evaluation of
+
+00:00:17.190 --> 00:00:20.910
+whether processes and procedures are operating as expected.
+
+00:00:20.910 --> 00:00:24.540
+Assessment, really means an evaluation of whether
+
+00:00:24.540 --> 00:00:28.500
+processes and procedures align with industry standards.
+
+00:00:28.500 --> 00:00:32.955
+But those two terms are often used interchangeably.
+
+00:00:32.955 --> 00:00:36.620
+There are other words like, examination or attestation,
+
+00:00:36.620 --> 00:00:41.265
+they are also used when describing the audit or assessment of an organization.
+
+00:00:41.265 --> 00:00:43.195
+Although I will note,
+
+00:00:43.195 --> 00:00:47.630
+that attestation generally continues to carry the connotation,
+
+00:00:47.630 --> 00:00:49.780
+that it's the end product of an audit.
+
+00:00:49.780 --> 00:00:53.575
+Meaning that I'm assessing your organization,
+
+00:00:53.575 --> 00:00:58.025
+and then attesting that your process is aligned with that assessment.
+
+00:00:58.025 --> 00:01:01.010
+But for practical purposes in this section,
+
+00:01:01.010 --> 00:01:03.230
+when I refer to audit management,
+
+00:01:03.230 --> 00:01:08.420
+I again mean the collective process of being assessed in some way.
+
+00:01:08.420 --> 00:01:12.635
+The collective audits can originate in a number of ways,
+
+00:01:12.635 --> 00:01:15.010
+but in general, they are linked to compliance.
+
+00:01:15.010 --> 00:01:20.090
+Here is why, formal compliance or certification of compliance with the standard,
+
+00:01:20.090 --> 00:01:23.390
+may require that an independent assessment and
+
+00:01:23.390 --> 00:01:27.845
+attestation that you comply with some minimum amount of control objectives.
+
+00:01:27.845 --> 00:01:30.770
+Or you may choose to perform
+
+00:01:30.770 --> 00:01:34.340
+a self-assessment to ensure that you're compliant with the standard even if
+
+00:01:34.340 --> 00:01:37.160
+it's not required for compliance certification
+
+00:01:37.160 --> 00:01:41.315
+or to test readiness for an upcoming compliance assessment.
+
+00:01:41.315 --> 00:01:46.240
+Customers may be allowed contractually to perform audits against your environment.
+
+00:01:46.240 --> 00:01:50.210
+Finally, organizations may actually choose to have
+
+00:01:50.210 --> 00:01:54.670
+an external assessment performed after a security incident occurs.
+
+00:01:54.670 --> 00:01:56.165
+As we noted before,
+
+00:01:56.165 --> 00:02:01.850
+compliance professionals spend a good deal of time managing these types of assessments.
+
+00:02:01.850 --> 00:02:05.420
+I mentioned that certain audits may be required to prove
+
+00:02:05.420 --> 00:02:09.755
+compliance or certify our organization against the standard.
+
+00:02:09.755 --> 00:02:13.550
+Here are a couple of examples of when an audit might be required.
+
+00:02:13.550 --> 00:02:17.000
+If your organization processes credit cards and
+
+00:02:17.000 --> 00:02:20.915
+maintains a PCI DSS compliance certification.
+
+00:02:20.915 --> 00:02:24.290
+Certification requires assessment, by
+
+00:02:24.290 --> 00:02:27.650
+what's called a qualified security assessor, or QSA.
+
+00:02:27.650 --> 00:02:33.320
+A SOC 2, that certification requires assessment by an AICPA,
+
+00:02:33.320 --> 00:02:35.300
+certified public accounting firm.
+
+00:02:35.300 --> 00:02:38.360
+Also, customers may be allowed contractually
+
+00:02:38.360 --> 00:02:41.555
+to assess your organization against a particular standard,
+
+00:02:41.555 --> 00:02:45.395
+or require an independent assessment against some standard.
+
+00:02:45.395 --> 00:02:47.720
+Or some standards like high trust,
+
+00:02:47.720 --> 00:02:50.080
+which is geared toward the healthcare industry,
+
+00:02:50.080 --> 00:02:54.160
+they allow you to perform your own self-assessment prior to certification.
+
+00:02:54.160 --> 00:02:57.545
+We've already talked about some audits being required,
+
+00:02:57.545 --> 00:03:00.994
+meaning that if you don't have the assessment performed,
+
+00:03:00.994 --> 00:03:04.610
+you'll lose certification or fall out of compliance.
+
+00:03:04.610 --> 00:03:08.285
+So it's important to manage the audit process for that reason,
+
+00:03:08.285 --> 00:03:12.575
+to make sure you're having audits performed within the required time frames.
+
+00:03:12.575 --> 00:03:15.430
+But even if you're managing your audit schedule,
+
+00:03:15.430 --> 00:03:18.650
+you still have to actively manage the audits.
+
+00:03:18.650 --> 00:03:21.590
+That means liaising between the auditor and
+
+00:03:21.590 --> 00:03:26.015
+the organization to ensure questions are answered timely and accurately.
+
+00:03:26.015 --> 00:03:27.815
+In the worst case scenario,
+
+00:03:27.815 --> 00:03:31.415
+poorly managed audit could lead to loss of certification.
+
+00:03:31.415 --> 00:03:33.350
+In the best-case scenario,
+
+00:03:33.350 --> 00:03:38.165
+poorly managed audit can lead to an organization scrambling to fix problems,
+
+00:03:38.165 --> 00:03:41.710
+and being consumed by fixing audit findings for a full year.
+
+00:03:41.710 --> 00:03:45.740
+Audits are designed to measure compliance with standards or best practices,
+
+00:03:45.740 --> 00:03:50.185
+and uncover risk and control failure so that it can be remediated.
+
+00:03:50.185 --> 00:03:52.740
+The truth is, audits work.
+
+00:03:52.740 --> 00:03:57.939
+But poorly managed audits can make it appear that an organization isn't in compliance,
+
+00:03:57.939 --> 00:04:04.175
+is poorly managed, or lacks oversight sufficient for successful security organization.
+
+00:04:04.175 --> 00:04:06.245
+I've seen assessments before,
+
+00:04:06.245 --> 00:04:12.700
+where inexperienced GRC professionals provided inaccurate and incomplete information.
+
+00:04:12.700 --> 00:04:16.159
+Now based on that poor quality information,
+
+00:04:16.159 --> 00:04:20.195
+the assessors found that the organization was nowhere near compliant.
+
+00:04:20.195 --> 00:04:21.500
+What they did find,
+
+00:04:21.500 --> 00:04:25.175
+is that the organization needed to address hundreds of findings,
+
+00:04:25.175 --> 00:04:30.185
+and the organizations spent months with more experienced GRC personnel,
+
+00:04:30.185 --> 00:04:33.320
+trying to track down the correct information and then
+
+00:04:33.320 --> 00:04:36.910
+remediate findings that never truly existed.
+
+00:04:36.910 --> 00:04:42.485
+Hundreds of findings, translates to at least hundreds of hours of human capital.
+
+00:04:42.485 --> 00:04:46.000
+The GRC personnel have to review the findings,
+
+00:04:46.000 --> 00:04:49.129
+they have to ask stakeholders to provide information,
+
+00:04:49.129 --> 00:04:52.100
+review that information, and then finally,
+
+00:04:52.100 --> 00:04:56.695
+provide those results in a digestible format back to the assessor.
+
+00:04:56.695 --> 00:04:59.000
+In the post incident audit,
+
+00:04:59.000 --> 00:05:00.850
+the pitfalls can be even greater.
+
+00:05:00.850 --> 00:05:02.990
+Typically, that's because you're now opening
+
+00:05:02.990 --> 00:05:06.970
+your organization to an independent assessor without much constraint.
+
+00:05:06.970 --> 00:05:08.765
+In a normal audit,
+
+00:05:08.765 --> 00:05:12.845
+you will likely already have an ideas to what's going to be assessed,
+
+00:05:12.845 --> 00:05:16.115
+and you're going to provide the necessary information for that.
+
+00:05:16.115 --> 00:05:18.880
+But assessors don't tend to pull on threats.
+
+00:05:18.880 --> 00:05:21.035
+In a post incident assessment,
+
+00:05:21.035 --> 00:05:23.375
+assessors will pull on every threat.
+
+00:05:23.375 --> 00:05:27.815
+The reason for that, is that your organization, during an incident,
+
+00:05:27.815 --> 00:05:30.385
+it didn't experience a single failure,
+
+00:05:30.385 --> 00:05:32.865
+it experienced multiple failures.
+
+00:05:32.865 --> 00:05:35.780
+Let's think about the Equifax breach for a moment.
+
+00:05:35.780 --> 00:05:38.090
+It's reported that bad actors used
+
+00:05:38.090 --> 00:05:43.025
+a widespread web vulnerability to steal more than 140 million records.
+
+00:05:43.025 --> 00:05:48.100
+But a patch was released for that web vulnerability in March of 2017.
+
+00:05:48.100 --> 00:05:51.125
+Equifax failed to pass in a timely manner.
+
+00:05:51.125 --> 00:05:52.820
+That's one failure.
+
+00:05:52.820 --> 00:05:58.595
+Then bad actors exploited their systems in May,
+
+00:05:58.595 --> 00:06:01.950
+but it wasn't noticed. That's another failure.
+
+00:06:01.950 --> 00:06:04.090
+It wasn't noticed in June,
+
+00:06:04.090 --> 00:06:08.200
+when the bad actors discovered a stockpile of personal information,
+
+00:06:08.200 --> 00:06:11.435
+10 weeks later, the breach was finally detected.
+
+00:06:11.435 --> 00:06:15.065
+How many failures must have occurred between May and July?
+
+00:06:15.065 --> 00:06:19.415
+That's why these audits don't just focus on compliance with a single standard,
+
+00:06:19.415 --> 00:06:23.185
+but they focus on really exposing control and process failure.
+
+00:06:23.185 --> 00:06:26.870
+What's more, is organizational management
+
+00:06:26.870 --> 00:06:29.930
+will be heavily involved in these types of assessments.
+
+00:06:29.930 --> 00:06:32.375
+I want to bring this back to compliance,
+
+00:06:32.375 --> 00:06:37.085
+and demonstrate why audit is necessary for just about every company today.
+
+00:06:37.085 --> 00:06:39.710
+We said that some compliance initiatives require
+
+00:06:39.710 --> 00:06:42.590
+independent assessment to certify an organization.
+
+00:06:42.590 --> 00:06:47.260
+Others don't, but it's still a good idea to audit to get certain standards.
+
+00:06:47.260 --> 00:06:49.530
+Here's the reason why it's so important.
+
+00:06:49.530 --> 00:06:52.845
+Certifying or self-certifying against a certain standard,
+
+00:06:52.845 --> 00:06:55.909
+gives you the ability to demonstrate to customers,
+
+00:06:55.909 --> 00:06:59.140
+that your organization take security seriously.
+
+00:06:59.140 --> 00:07:04.130
+Remember, we've already talked about how security is part of that trust assessment,
+
+00:07:04.130 --> 00:07:08.090
+that perspective customers use to evaluate you as a vendor.
+
+00:07:08.090 --> 00:07:09.790
+The last thing you want,
+
+00:07:09.790 --> 00:07:13.970
+is for customers who have a contractual right to perform a security assessment,
+
+00:07:13.970 --> 00:07:17.530
+to find threats or vulnerabilities that you're not aware of.
+
+00:07:17.530 --> 00:07:20.300
+That can create the risk of customer loss,
+
+00:07:20.300 --> 00:07:23.870
+or having to deal with endless remediation efforts,
+
+00:07:23.870 --> 00:07:26.940
+just to satisfy that one customer.
+

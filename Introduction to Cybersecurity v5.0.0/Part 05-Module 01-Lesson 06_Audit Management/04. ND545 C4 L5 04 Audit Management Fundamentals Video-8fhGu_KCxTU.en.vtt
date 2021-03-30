@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.760
+We've talked a good deal about what audits are,
+
+00:00:02.760 --> 00:00:05.115
+how they originate, and their goals.
+
+00:00:05.115 --> 00:00:10.530
+We've also briefly touched on a few reasons as to why managing audits is so important.
+
+00:00:10.530 --> 00:00:13.305
+I'd like to drill down on that here.
+
+00:00:13.305 --> 00:00:19.570
+As GRC professionals, you have a responsibility to facilitate and control audits,
+
+00:00:19.570 --> 00:00:22.730
+because it helps reduce risk.
+
+00:00:22.730 --> 00:00:24.990
+It does that by ensuring auditors have
+
+00:00:24.990 --> 00:00:28.454
+a complete view of your security posture and your controls,
+
+00:00:28.454 --> 00:00:31.380
+it helps to protect your compliance standing or
+
+00:00:31.380 --> 00:00:34.665
+certification with certain compliance standards.
+
+00:00:34.665 --> 00:00:37.830
+Something that's related to protecting certification,
+
+00:00:37.830 --> 00:00:40.860
+it ensures that your audit results are consistent.
+
+00:00:40.860 --> 00:00:43.250
+You never want audit findings to vary
+
+00:00:43.250 --> 00:00:46.610
+wildly from year to year or from assessment to assessment,
+
+00:00:46.610 --> 00:00:51.160
+it makes it difficult to understand where your true failures might actually be.
+
+00:00:51.160 --> 00:00:55.940
+Controlling the assessment might also mean helping your company avoid scope creep,
+
+00:00:55.940 --> 00:00:59.630
+or making sure that only what needs to be audited gets audited.
+
+00:00:59.630 --> 00:01:03.880
+I'll talk about this in a little bit more detail in just a moment.
+
+00:01:03.880 --> 00:01:08.270
+Finally, facilitation helps reduce unnecessary failure,
+
+00:01:08.270 --> 00:01:10.610
+meaning that your assessment results reflect
+
+00:01:10.610 --> 00:01:14.420
+only findings that are real weaknesses or control failures.
+
+00:01:14.420 --> 00:01:16.505
+Let's take an even closer look,
+
+00:01:16.505 --> 00:01:20.855
+why is it important that we do all of these things?Reduce failure,
+
+00:01:20.855 --> 00:01:23.065
+avoid scope, creep, etc.
+
+00:01:23.065 --> 00:01:25.685
+There's a delicate balance in audit.
+
+00:01:25.685 --> 00:01:31.145
+On one side, you have a duty to answer assessor questions with integrity,
+
+00:01:31.145 --> 00:01:32.825
+on the other side,
+
+00:01:32.825 --> 00:01:36.460
+you have a duty to protect the interests of the business.
+
+00:01:36.460 --> 00:01:40.070
+In most cases, your goal is either to gain
+
+00:01:40.070 --> 00:01:44.750
+compliance or get through with these fewer findings as possible,
+
+00:01:44.750 --> 00:01:48.725
+demonstrating that your organization has a strong security program.
+
+00:01:48.725 --> 00:01:54.140
+So every step you take in controlling an assessment helps get you closer to that goal,
+
+00:01:54.140 --> 00:01:58.310
+but you must provide complete and accurate information to the assessor.
+
+00:01:58.310 --> 00:02:03.290
+We talk about this as providing your best honest answer,
+
+00:02:03.290 --> 00:02:05.525
+best answer for the company, well,
+
+00:02:05.525 --> 00:02:07.790
+honestly answering an assessors questions.
+
+00:02:07.790 --> 00:02:11.945
+Now that we understand the conflict that GRC professionals deal with,
+
+00:02:11.945 --> 00:02:15.685
+let's talk about how to facilitate an assessment versus controlling it.
+
+00:02:15.685 --> 00:02:20.485
+Facilitating meaning that an assessor gets what they need while controlling it,
+
+00:02:20.485 --> 00:02:23.255
+meaning that you create some guard rails.
+
+00:02:23.255 --> 00:02:25.200
+Let's start with control.
+
+00:02:25.200 --> 00:02:28.850
+The reason I start with control is because you have to understand
+
+00:02:28.850 --> 00:02:33.245
+the scoping of assessment long before you begin the facilitate it.
+
+00:02:33.245 --> 00:02:34.870
+Let me give you an example.
+
+00:02:34.870 --> 00:02:37.715
+We talked about a customer assessment earlier,
+
+00:02:37.715 --> 00:02:42.125
+what's the first thing you should do if a customer asks you to perform an assessment?
+
+00:02:42.125 --> 00:02:47.360
+Without question, you need to understand if you're contractually obligated to allow it,
+
+00:02:47.360 --> 00:02:50.085
+and if you are, what scope is allowed.
+
+00:02:50.085 --> 00:02:51.875
+Now point of fact,
+
+00:02:51.875 --> 00:02:54.080
+all of this work should have been done during
+
+00:02:54.080 --> 00:02:57.380
+contract negotiations so that there aren't any surprises.
+
+00:02:57.380 --> 00:03:02.005
+But you'll probably need to look the contract up anyway, just to be sure.
+
+00:03:02.005 --> 00:03:05.000
+Anyhow, if a customer's contract allows
+
+00:03:05.000 --> 00:03:08.070
+them to assess security for a specific product or service,
+
+00:03:08.070 --> 00:03:11.345
+you can't allow them to assess outside of that scope.
+
+00:03:11.345 --> 00:03:14.510
+Because otherwise, they'll be assessing items
+
+00:03:14.510 --> 00:03:17.960
+that don't affect them and they may not be familiar with,
+
+00:03:17.960 --> 00:03:20.075
+and that assessment will drag on,
+
+00:03:20.075 --> 00:03:25.360
+speaking of which, you should always try to limit all of your assessments in time.
+
+00:03:25.360 --> 00:03:28.595
+You don't want customers or other assessments to have
+
+00:03:28.595 --> 00:03:32.465
+unlimited chances to reassess or demand additional information,
+
+00:03:32.465 --> 00:03:35.495
+and here are some additional ways if you can control on it.
+
+00:03:35.495 --> 00:03:38.795
+I'd like you to review these when you have some additional time.
+
+00:03:38.795 --> 00:03:41.405
+If control is about placing guard rails,
+
+00:03:41.405 --> 00:03:44.420
+facilitation is about helping an assessor as much as
+
+00:03:44.420 --> 00:03:48.770
+possible while keeping the organization informed and at ease.
+
+00:03:48.770 --> 00:03:51.935
+Your goal was to provide the best information possible,
+
+00:03:51.935 --> 00:03:57.000
+and there's only a handful of things that you need to do that we'll: First,
+
+00:03:57.000 --> 00:04:00.890
+create a project plan so that you understand the assessment schedule,
+
+00:04:00.890 --> 00:04:04.765
+and you can line up technology and people resources ahead of time.
+
+00:04:04.765 --> 00:04:08.405
+Ask for assessment questions and expectations early,
+
+00:04:08.405 --> 00:04:11.930
+so you're not trying to chase down resources last minute.
+
+00:04:11.930 --> 00:04:15.050
+Be engaged, staying engaged will help you guide
+
+00:04:15.050 --> 00:04:18.265
+the assessment and reduce the chance for conflict.
+
+00:04:18.265 --> 00:04:23.000
+Fully understand the scope to ensure the assessment doesn't veer off track,
+
+00:04:23.000 --> 00:04:27.835
+and then finally, ensure that there's a successful transfer of information.
+
+00:04:27.835 --> 00:04:31.670
+To make sure your control assessments go the right way,
+
+00:04:31.670 --> 00:04:34.310
+it's a good idea for organizations to agree on
+
+00:04:34.310 --> 00:04:38.670
+some pre-assessment rules of engagement and then create some checklists.
+
+00:04:38.670 --> 00:04:40.730
+Those checklists can help reduce
+
+00:04:40.730 --> 00:04:44.870
+institutional knowledge by giving every GRC employee a starting point,
+
+00:04:44.870 --> 00:04:47.270
+if they become responsible for managing
+
+00:04:47.270 --> 00:04:51.050
+an audit and they'll help reduce friction with IT and
+
+00:04:51.050 --> 00:04:54.230
+security operations staff by making sure that you're
+
+00:04:54.230 --> 00:04:58.739
+providing the best information available about upcoming assessments.
+
