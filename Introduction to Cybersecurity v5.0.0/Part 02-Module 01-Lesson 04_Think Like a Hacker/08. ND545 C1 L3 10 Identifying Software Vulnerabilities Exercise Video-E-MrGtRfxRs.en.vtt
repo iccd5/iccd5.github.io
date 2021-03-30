@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+With so many vulnerabilities in all of our systems,
+
+00:00:03.180 --> 00:00:07.850
+it's nice that there are plenty of resources to help us identify and analyze them.
+
+00:00:07.850 --> 00:00:11.130
+For this exercise, you explore two of them.
+
+00:00:11.130 --> 00:00:15.510
+The primary resources you'll use are the MITER Common Vulnerabilities and
+
+00:00:15.510 --> 00:00:21.060
+Exposure or CVE list found at cve.mitre.org,
+
+00:00:21.060 --> 00:00:28.260
+and the NIST National Vulnerability Database or NVD found at nvd.nist.gov.
+
+00:00:28.260 --> 00:00:30.615
+Let me show you what they look like.
+
+00:00:30.615 --> 00:00:37.295
+CVE is a list of common identifiers for publicly known cybersecurity vulnerabilities.
+
+00:00:37.295 --> 00:00:41.045
+It was started over 20 years ago to create a common language,
+
+00:00:41.045 --> 00:00:43.855
+a naming convention for all vulnerabilities.
+
+00:00:43.855 --> 00:00:47.000
+In the early days, manufacturers would have their own names and
+
+00:00:47.000 --> 00:00:50.510
+identification numbers which became very confusing.
+
+00:00:50.510 --> 00:00:55.915
+Now CVE is the industry standard for vulnerability and exposure identifiers.
+
+00:00:55.915 --> 00:00:59.000
+The process of creating a CVE entry begins
+
+00:00:59.000 --> 00:01:02.105
+with the discovery of a potential security vulnerability.
+
+00:01:02.105 --> 00:01:07.445
+That information is then assigned a CVE ID by the numbering authority,
+
+00:01:07.445 --> 00:01:10.415
+who then writes the description and adds references.
+
+00:01:10.415 --> 00:01:16.999
+Then a completed entry is added to the CVE list and posted on the CVE website.
+
+00:01:16.999 --> 00:01:20.375
+The National Vulnerability Database or NVD,
+
+00:01:20.375 --> 00:01:25.460
+is the US government's repository of standards-based vulnerability management data.
+
+00:01:25.460 --> 00:01:30.755
+They perform analysis on the CVEs that have been published to the CVE dictionary.
+
+00:01:30.755 --> 00:01:35.030
+They do this by aggregating data points from the description references
+
+00:01:35.030 --> 00:01:40.075
+applied in any supplemental data that can be found publicly at the time.
+
+00:01:40.075 --> 00:01:45.240
+You'll get to work with these two websites as a part of the exercise.
+

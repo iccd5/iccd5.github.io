@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.045
+In this lesson, you learned about establishing security defenses on computer systems.
+
+00:00:06.045 --> 00:00:10.875
+It's what you need to do to prevent an unauthorized access on your systems and networks.
+
+00:00:10.875 --> 00:00:16.200
+It's done by layering the defenses which is that defense in depth.
+
+00:00:16.200 --> 00:00:21.360
+Having identity access control in place with user IDs,
+
+00:00:21.360 --> 00:00:24.825
+passwords, or even better yet, multi factor authentication.
+
+00:00:24.825 --> 00:00:29.655
+Minimizing vulnerabilities by keeping your devices and applications
+
+00:00:29.655 --> 00:00:34.590
+updated and using email and the web safely.
+
+00:00:34.590 --> 00:00:37.520
+By now, you should be able to explain ways to
+
+00:00:37.520 --> 00:00:40.880
+create and manage the security of a network,
+
+00:00:40.880 --> 00:00:44.880
+computing environment, and applications.
+

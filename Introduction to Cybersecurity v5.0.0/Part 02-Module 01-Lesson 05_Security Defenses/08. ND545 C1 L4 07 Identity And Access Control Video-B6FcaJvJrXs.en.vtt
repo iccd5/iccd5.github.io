@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.670
+This section is about controlling access to computer systems applications and data.
+
+00:00:05.670 --> 00:00:07.560
+By the end of this section,
+
+00:00:07.560 --> 00:00:11.490
+you'll be able to explain parts of identity and access control and
+
+00:00:11.490 --> 00:00:15.720
+identify common identity and access control protection techniques.
+
+00:00:15.720 --> 00:00:19.755
+Think about when you log into a computer or application.
+
+00:00:19.755 --> 00:00:23.370
+It starts with your user ID which is also known
+
+00:00:23.370 --> 00:00:27.240
+as an identifier which lets the computer know who you are.
+
+00:00:27.240 --> 00:00:30.120
+This is usually an e-mail address or
+
+00:00:30.120 --> 00:00:33.565
+some form of your name like first initial, last name.
+
+00:00:33.565 --> 00:00:36.800
+But how do you prove it's really you?
+
+00:00:36.800 --> 00:00:40.535
+I mean, figuring out someone's login ID is pretty easy.
+
+00:00:40.535 --> 00:00:43.145
+That's why we need a second part.
+
+00:00:43.145 --> 00:00:48.305
+Something that proves it's really you also known as authentication.
+
+00:00:48.305 --> 00:00:51.190
+This is often a password, or a pin,
+
+00:00:51.190 --> 00:00:54.110
+or on some devices like your smartphone,
+
+00:00:54.110 --> 00:00:58.490
+it can be your fingerprint or face for biometrics.
+
+00:00:58.490 --> 00:01:04.250
+Third way is that device itself that can also be used to prove it's you.
+
+00:01:04.250 --> 00:01:06.350
+All of this is to confirm to
+
+00:01:06.350 --> 00:01:10.955
+a remote computer that it's really you and not some imposter.
+
+00:01:10.955 --> 00:01:15.455
+In a nutshell, this is what identity and access control is all about.
+
+00:01:15.455 --> 00:01:17.410
+Proving who you are.
+
+00:01:17.410 --> 00:01:21.140
+For stronger security and to ensure it's really you we use
+
+00:01:21.140 --> 00:01:25.400
+something known as multi-factor authentication or MFA.
+
+00:01:25.400 --> 00:01:29.765
+This is something you know like your password,
+
+00:01:29.765 --> 00:01:33.350
+something you are like your fingerprint, or voice,
+
+00:01:33.350 --> 00:01:39.760
+or even facial recognition or something you have like a smart card or smartphone.
+
+00:01:39.760 --> 00:01:45.350
+Many websites like my bank now use multi-factor authentication.
+
+00:01:45.350 --> 00:01:49.310
+I'll sign in with my user ID and then password and
+
+00:01:49.310 --> 00:01:53.320
+then get a code sent to my phone that I then need to enter.
+
+00:01:53.320 --> 00:01:57.130
+So it's something I know and something I have.
+
+00:01:57.130 --> 00:02:01.570
+There is another part of access control, authorization.
+
+00:02:01.570 --> 00:02:04.220
+This answers the questions of,
+
+00:02:04.220 --> 00:02:10.130
+what should you be allowed to access once you login with your user ID and password?
+
+00:02:10.130 --> 00:02:16.100
+Can you see everything on a network or just certain computers or applications?
+
+00:02:16.100 --> 00:02:18.635
+What should you be allowed to do?
+
+00:02:18.635 --> 00:02:22.609
+Managers in the organization should answer these questions.
+
+00:02:22.609 --> 00:02:27.260
+Authorization can also be based on what you need to do with the object,
+
+00:02:27.260 --> 00:02:29.780
+which is your access rights.
+
+00:02:29.780 --> 00:02:33.335
+Do you need to only see or read the file,
+
+00:02:33.335 --> 00:02:35.705
+or do you need to make changes to it,
+
+00:02:35.705 --> 00:02:38.915
+or delete or execute it if it's a program?
+
+00:02:38.915 --> 00:02:41.465
+All of these permissions can be set for
+
+00:02:41.465 --> 00:02:46.115
+individual items and for individual users within an operating system.
+
+00:02:46.115 --> 00:02:51.470
+Authorization limits access based on the principle of least privilege.
+
+00:02:51.470 --> 00:02:56.620
+Only have access to the stuff you need to do your job.
+
+00:02:56.620 --> 00:02:59.435
+Let me give you quick examples.
+
+00:02:59.435 --> 00:03:04.595
+First, if you're flying and you need to go through TSA security,
+
+00:03:04.595 --> 00:03:06.185
+you provide your ticket,
+
+00:03:06.185 --> 00:03:07.865
+which is your identifier.
+
+00:03:07.865 --> 00:03:12.040
+It shows you have a need to be in the secure area of the airport.
+
+00:03:12.040 --> 00:03:16.865
+You also need to provide something to authenticate it's really you.
+
+00:03:16.865 --> 00:03:20.765
+An official document like your passport or driver's license.
+
+00:03:20.765 --> 00:03:23.660
+Then you need to be authorized to
+
+00:03:23.660 --> 00:03:27.995
+a specific area of the airport and then a specific plane.
+
+00:03:27.995 --> 00:03:32.270
+You're only allowed to ride on the plane not fly it.
+
+00:03:32.270 --> 00:03:34.615
+That's also a type of authorization.
+
+00:03:34.615 --> 00:03:38.855
+The equivalent in computers is your user ID
+
+00:03:38.855 --> 00:03:42.950
+which is your identifier tied to your password or pin,
+
+00:03:42.950 --> 00:03:44.860
+or maybe even your fingerprint.
+
+00:03:44.860 --> 00:03:48.680
+Then you're allowed to access specific data or
+
+00:03:48.680 --> 00:03:53.465
+files or applications within that particular computer system.
+
+00:03:53.465 --> 00:04:00.210
+You'll now practice setting identity and access control configuration in the exercise.
+

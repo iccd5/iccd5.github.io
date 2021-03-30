@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+A part of layering security is hardening systems.
+
+00:00:03.600 --> 00:00:06.120
+This means applying optimal security settings to
+
+00:00:06.120 --> 00:00:09.030
+your systems and applications to protect against attacks,
+
+00:00:09.030 --> 00:00:11.565
+misuse, or even human error.
+
+00:00:11.565 --> 00:00:15.360
+Rather than creating your own technical security standards,
+
+00:00:15.360 --> 00:00:17.745
+it's better to follow what others are doing.
+
+00:00:17.745 --> 00:00:20.970
+Fortunately, we have a resource for that.
+
+00:00:20.970 --> 00:00:23.400
+The Center for Internet Security,
+
+00:00:23.400 --> 00:00:26.625
+provides benchmark guides for common networking devices,
+
+00:00:26.625 --> 00:00:29.310
+operating systems, and applications.
+
+00:00:29.310 --> 00:00:35.355
+The CIS guides, provide a target for optimal security on specific technologies,
+
+00:00:35.355 --> 00:00:39.999
+and can be used to compare an organization systems against those targets.
+
+00:00:39.999 --> 00:00:46.485
+The Center for Internet Security benchmarks website, cisecurity.org, CIS benchmarks,
+
+00:00:46.485 --> 00:00:49.910
+provides over 140 technical guidelines
+
+00:00:49.910 --> 00:00:53.680
+providing best practices for securing the systems configuration.
+
+00:00:53.680 --> 00:00:57.950
+CIS benchmarks are distributed free of charge in PDF format.
+
+00:00:57.950 --> 00:01:00.860
+There are so many examples of their benchmarks
+
+00:01:00.860 --> 00:01:03.860
+when you scroll down on their website that you can see.
+
+00:01:03.860 --> 00:01:05.450
+Let me show you some of
+
+00:01:05.450 --> 00:01:09.620
+the Microsoft benchmarks provided by the Center for Internet Security.
+
+00:01:09.620 --> 00:01:12.740
+If you need to secure your Internet Information Server,
+
+00:01:12.740 --> 00:01:16.324
+that's Microsoft IIS or Microsoft Office,
+
+00:01:16.324 --> 00:01:20.270
+or if you're using Windows desktop or server,
+
+00:01:20.270 --> 00:01:23.815
+they have guides for how to secure it.
+
+00:01:23.815 --> 00:01:28.430
+Let's look at the CIS securing Microsoft Windows desktop benchmark.
+
+00:01:28.430 --> 00:01:31.400
+You'll need to sign up on their website,
+
+00:01:31.400 --> 00:01:33.020
+to see this specific guide.
+
+00:01:33.020 --> 00:01:36.640
+When you do, you'll get an email with a link to this PDF.
+
+00:01:36.640 --> 00:01:41.525
+The table of contents for the CIS benchmark for Windows desktop,
+
+00:01:41.525 --> 00:01:44.185
+gives you an idea of what it contains.
+
+00:01:44.185 --> 00:01:49.670
+Basically, it's a long list of recommended configuration settings.
+
+00:01:49.670 --> 00:01:54.200
+As an example, let's look at just some of the account policies.
+
+00:01:54.200 --> 00:01:59.945
+The table of contents gives you an idea of what this CIS benchmark contains.
+
+00:01:59.945 --> 00:02:02.150
+It's basically a long list of
+
+00:02:02.150 --> 00:02:06.205
+recommended configuration settings for your Windows desktop.
+
+00:02:06.205 --> 00:02:09.015
+Let's look at some account policies.
+
+00:02:09.015 --> 00:02:11.520
+When you're setting a password policy,
+
+00:02:11.520 --> 00:02:13.370
+this will tell you the different settings.
+
+00:02:13.370 --> 00:02:17.750
+For example, history should remember 24 passwords.
+
+00:02:17.750 --> 00:02:21.120
+How many days you should take before you reset a password?
+
+00:02:21.120 --> 00:02:24.055
+Is 60 according to Center for Internet Security.
+
+00:02:24.055 --> 00:02:27.735
+Minimum password, length 14 characters.
+
+00:02:27.735 --> 00:02:30.365
+These are the optimal settings.
+
+00:02:30.365 --> 00:02:32.240
+If you go through this document,
+
+00:02:32.240 --> 00:02:36.020
+you'll see that there are over 1300 pages of
+
+00:02:36.020 --> 00:02:41.455
+these different configuration settings to really lock down a Microsoft desktop.
+
+00:02:41.455 --> 00:02:43.165
+Use this as an example,
+
+00:02:43.165 --> 00:02:46.430
+as you're securing your Windows desktop systems.
+
+00:02:46.430 --> 00:02:49.310
+This is just a quick taste of the benchmarks
+
+00:02:49.310 --> 00:02:51.730
+available through the Center for Internet Security.
+
+00:02:51.730 --> 00:02:54.260
+You should take time to explore their website,
+
+00:02:54.260 --> 00:02:57.240
+and their tremendous resources.
+

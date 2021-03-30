@@ -1,0 +1,271 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hacking Lifecycle</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Think Like a Hacker</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Outline.html">02. Lesson Outline</a>
+    </li>
+    <li class="">
+      <a href="03. Hacker Process.html">03. Hacker Process</a>
+    </li>
+    <li class="">
+      <a href="04. Hacking Lifecycle.html">04. Hacking Lifecycle</a>
+    </li>
+    <li class="">
+      <a href="05. Hacking Lifecycle Quizzes.html">05. Hacking Lifecycle Quizzes</a>
+    </li>
+    <li class="">
+      <a href="06. Hacking Lifecycle - Exercise Part 1.html">06. Hacking Lifecycle - Exercise Part 1</a>
+    </li>
+    <li class="">
+      <a href="07. Hacking Lifecycle - Exercise Part 2.html">07. Hacking Lifecycle - Exercise Part 2</a>
+    </li>
+    <li class="">
+      <a href="08. Vulnerability Management.html">08. Vulnerability Management</a>
+    </li>
+    <li class="">
+      <a href="09. Vulnerability Management Quizzes.html">09. Vulnerability Management Quizzes</a>
+    </li>
+    <li class="">
+      <a href="10. Identifying Software Vulnerabilities Exercise.html">10. Identifying Software Vulnerabilities Exercise</a>
+    </li>
+    <li class="">
+      <a href="11. Identifying Vulnerabilities Exercise Solution.html">11. Identifying Vulnerabilities Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="12. Introduction to Threats, Attacks, and Exploits .html">12. Introduction to Threats, Attacks, and Exploits </a>
+    </li>
+    <li class="">
+      <a href="13. Introduction to Threats, Attacks, and Exploits Quizzes.html">13. Introduction to Threats, Attacks, and Exploits Quizzes</a>
+    </li>
+    <li class="">
+      <a href="14. Introduction to Threats, Attacks, and Exploits Exercise.html">14. Introduction to Threats, Attacks, and Exploits Exercise</a>
+    </li>
+    <li class="">
+      <a href="15. Introduction to Threats, Attacks, and Exploits Solution.html">15. Introduction to Threats, Attacks, and Exploits Solution</a>
+    </li>
+    <li class="">
+      <a href="16. Lesson Conclusion.html">16. Lesson Conclusion</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Hacking Lifecycle</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="hacking-lifecycle">Hacking Lifecycle</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C1 L3 04 Hacking Lifecycle Video</p></h3>
+  <video controls>
+  <source src="04. ND545 C1 L3 04 Hacking Lifecycle Video-LUYLQJgqv_E.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND545 C1 L3 04 Hacking Lifecycle Video-LUYLQJgqv_E.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/l3-lifex.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="hacking-lifecycle">Hacking Lifecycle</h1>
+<p>Throughout history, hackers have followed the same lifecycle process:</p>
+<ol>
+<li>A target or goal: understand why you are assessing it’s security.</li>
+<li>Learn it: learn as much as you can about it</li>
+<li>Explore it:  understand how it works and what others know about it. This is known as reconnaissance. </li>
+<li>Break it: understand the target’s weaknesses or vulnerabilities.</li>
+<li>Fix it: secure operating systems, applications and networks.</li>
+<li>Make it better: figure out a better way to secure the asset. </li>
+<li>Tell others: tell others what we find. It’s called ethical disclosure. </li>
+</ol>
+<p>This is in order to categorize assets, risks, threats, vulnerabilities, and exploits affecting computer systems </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="new-terms">New terms</h2>
+<ul>
+<li><strong>Asset:</strong> A major application, general support system, high impact program, physical plant, mission-critical system, personnel, equipment, or a logically related group of systems.</li>
+<li><strong>Vulnerability:</strong> Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat</li>
+<li><strong>Threat:</strong> Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service</li>
+<li><strong>Risk:</strong> A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence</li>
+<li><strong>Penetration Testing:</strong> A test methodology in which assessors, typically working under specific constraints, attempt to circumvent or defeat the security features of an information system.</li>
+</ul>
+<p>Source: <a href="https://csrc.nist.gov/glossary/" rel="noopener noreferrer" target="_blank">https://csrc.nist.gov/glossary/</a></p>
+<h2 id="further-research">Further research</h2>
+<ul>
+<li>The <a href="http://www.catb.org/jargon/html/index.html" rel="noopener noreferrer" target="_blank">Jargon File</a> contains a more thorough explanation of the hacking lifecycle including a comprehensive <a href="http://www.catb.org/jargon/html/go01.html" rel="noopener noreferrer" target="_blank">glossary</a> of hacking terms. </li>
+<li>If you enjoy history and want to learn more about original hackers, read <em>How To Become A Hacker</em> by Eric Steven Raymond found at <a href="http://www.catb.org/~esr/faqs/hacker-howto.html" rel="noopener noreferrer" target="_blank">http://www.catb.org/~esr/faqs/hacker-howto.html</a>. <br>You can also read <em>The Jargon File</em> at <a href="http://www.catb.org/jargon/" rel="noopener noreferrer" target="_blank">http://www.catb.org/jargon/</a>, which is "a comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor."</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Hacking Lifecycle Quizzes.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Hacking Lifecycle')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

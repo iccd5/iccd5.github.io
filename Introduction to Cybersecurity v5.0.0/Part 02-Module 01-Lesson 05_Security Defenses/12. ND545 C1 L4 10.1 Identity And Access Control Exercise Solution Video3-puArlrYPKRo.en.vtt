@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.690
+KeePass and other password managers reduce the need to
+
+00:00:03.690 --> 00:00:07.245
+memorize multiple passwords for applications and websites.
+
+00:00:07.245 --> 00:00:13.335
+A password generator application prevent users from creating easily guessable passwords.
+
+00:00:13.335 --> 00:00:18.150
+By using one, you can set much longer and complex passwords.
+
+00:00:18.150 --> 00:00:20.585
+Let me show you how KeePass works.
+
+00:00:20.585 --> 00:00:22.955
+Just start by opening it.
+
+00:00:22.955 --> 00:00:25.694
+In KeePass once it opens,
+
+00:00:25.694 --> 00:00:28.275
+click File, and then New.
+
+00:00:28.275 --> 00:00:30.735
+You'll need to create the new database,
+
+00:00:30.735 --> 00:00:33.450
+read the instructions when you do.
+
+00:00:33.450 --> 00:00:36.900
+Click Okay once you've read the instructions,
+
+00:00:36.900 --> 00:00:41.330
+and now you need to set the location for your master database.
+
+00:00:41.330 --> 00:00:43.300
+I'm just going with the defaults.
+
+00:00:43.300 --> 00:00:47.340
+At this point, you need to create a master password.
+
+00:00:47.340 --> 00:00:52.280
+You want this something to be really long and really strong.
+
+00:00:52.280 --> 00:00:56.710
+I'm just setting a random password here.
+
+00:00:56.710 --> 00:01:02.810
+You can see the quality is not very good because I just used keyboard strokes.
+
+00:01:02.810 --> 00:01:08.600
+If I begin to make it a lot longer and change some of the keyboard strokes,
+
+00:01:08.600 --> 00:01:10.895
+it may change some of the quality.
+
+00:01:10.895 --> 00:01:15.425
+The three dots next to it lets you see what you're typing.
+
+00:01:15.425 --> 00:01:22.545
+Once you're ready, click Okay to set this password for your master database.
+
+00:01:22.545 --> 00:01:25.730
+You should then see the pop-up saying the password is week.
+
+00:01:25.730 --> 00:01:27.385
+I'm just going to go with this one.
+
+00:01:27.385 --> 00:01:29.415
+At this point I can name the database.
+
+00:01:29.415 --> 00:01:32.295
+I'm just going to call it TestDB.
+
+00:01:32.295 --> 00:01:34.380
+Now, you see a pop-up for
+
+00:01:34.380 --> 00:01:39.355
+the KeePass emergency sheet that contains important information.
+
+00:01:39.355 --> 00:01:42.770
+If you have a printer or you can just save this as a PDF,
+
+00:01:42.770 --> 00:01:45.380
+consider printing this out because you may
+
+00:01:45.380 --> 00:01:48.665
+need this if you ever lose or forget your master password.
+
+00:01:48.665 --> 00:01:51.400
+So I'm just going to click Skip for now.
+
+00:01:51.400 --> 00:01:53.310
+As you can see within KeePass,
+
+00:01:53.310 --> 00:01:54.900
+we have some samples.
+
+00:01:54.900 --> 00:01:59.675
+In your database, you can then add items by clicking Add Entry,
+
+00:01:59.675 --> 00:02:03.430
+also found in the entry drop-down menu.
+
+00:02:03.430 --> 00:02:05.340
+So let's click on Add Entry.
+
+00:02:05.340 --> 00:02:07.590
+We can call this Website,
+
+00:02:07.590 --> 00:02:10.130
+and this could be whatever website that I may be on.
+
+00:02:10.130 --> 00:02:13.655
+My username, there is a user name, of course.
+
+00:02:13.655 --> 00:02:17.770
+You can have it set or generate a password.
+
+00:02:17.770 --> 00:02:23.810
+The password generator is really a cool tool to enable unique passwords.
+
+00:02:23.810 --> 00:02:25.430
+You can set many of the different types of
+
+00:02:25.430 --> 00:02:28.825
+special characters and the digits that you want.
+
+00:02:28.825 --> 00:02:33.595
+So I added that in there and I'm clicking generate a password.
+
+00:02:33.595 --> 00:02:38.120
+It automatically will generate a password for me that's long and strong.
+
+00:02:38.120 --> 00:02:39.965
+That I don't need to remember.
+
+00:02:39.965 --> 00:02:42.925
+When I'm ready with this entry, just click OK,
+
+00:02:42.925 --> 00:02:46.854
+and you can see it's automatically added into the database.
+
+00:02:46.854 --> 00:02:49.550
+KeePass has a number of other features.
+
+00:02:49.550 --> 00:02:53.870
+It's open source, meaning it's openly available and free.
+
+00:02:53.870 --> 00:03:00.090
+So I suggest you check it out to learn more about identity and access management.
+

@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.370
+For this exercise, you reviewed domain ownership for udacity.com.
+
+00:00:05.370 --> 00:00:09.330
+Let me show you how it looks on domaintools.com.
+
+00:00:09.330 --> 00:00:13.470
+Each IP address and domain on the internet has an owner.
+
+00:00:13.470 --> 00:00:16.725
+This is the organization or person who registered it.
+
+00:00:16.725 --> 00:00:22.575
+In the exercise you practiced viewing ownership of internet domains and IP addresses.
+
+00:00:22.575 --> 00:00:25.875
+For example, udacity.com.
+
+00:00:25.875 --> 00:00:28.590
+If you go to whois.domaintools.com,
+
+00:00:28.590 --> 00:00:32.745
+you can enter any URL you want to find out who owns it.
+
+00:00:32.745 --> 00:00:36.285
+Let's see who owns udacity.com.
+
+00:00:36.285 --> 00:00:40.950
+The Whois record for udacity.com then appears.
+
+00:00:40.950 --> 00:00:42.970
+You can see who registered it,
+
+00:00:42.970 --> 00:00:44.900
+when it was registered,
+
+00:00:44.900 --> 00:00:46.940
+their domain name servers,
+
+00:00:46.940 --> 00:00:51.690
+contact information, IP addresses, and their history.
+
+00:00:51.690 --> 00:00:56.315
+This is a wealth of information about a particular website,
+
+00:00:56.315 --> 00:01:00.260
+all available from the domaintools.com.
+
+00:01:00.260 --> 00:01:06.660
+Whois lookup.I recommend you practice on this using other domains.
+

@@ -1,0 +1,343 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Patching &amp; Updating Exercise</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Security Defenses</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Establishing Security Defenses.html">02. Establishing Security Defenses</a>
+    </li>
+    <li class="">
+      <a href="03. Lesson Outline.html">03. Lesson Outline</a>
+    </li>
+    <li class="">
+      <a href="04. Layering Protection.html">04. Layering Protection</a>
+    </li>
+    <li class="">
+      <a href="05. Layering Protection Quizzes.html">05. Layering Protection Quizzes</a>
+    </li>
+    <li class="">
+      <a href="06. Layering Protection Exercise.html">06. Layering Protection Exercise</a>
+    </li>
+    <li class="">
+      <a href="07. Layering Protection Exercise Solution.html">07. Layering Protection Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="08. Identity and Access Control.html">08. Identity and Access Control</a>
+    </li>
+    <li class="">
+      <a href="09. Identity and Access Control Quizzes.html">09. Identity and Access Control Quizzes</a>
+    </li>
+    <li class="">
+      <a href="10. Connect to Exercise VM.html">10. Connect to Exercise VM</a>
+    </li>
+    <li class="">
+      <a href="11. Identity and Access Control Exercise.html">11. Identity and Access Control Exercise</a>
+    </li>
+    <li class="">
+      <a href="12. Identity and Access Control Exercise Solution.html">12. Identity and Access Control Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="13. Patching &amp; Updating.html">13. Patching &amp; Updating</a>
+    </li>
+    <li class="">
+      <a href="14. Patching &amp; Updating Quizzes.html">14. Patching &amp; Updating Quizzes</a>
+    </li>
+    <li class="">
+      <a href="15. Patching &amp; Updating Exercise.html">15. Patching &amp; Updating Exercise</a>
+    </li>
+    <li class="">
+      <a href="16. Patching &amp; Updating Exercise Solution.html">16. Patching &amp; Updating Exercise Solution</a>
+    </li>
+    <li class="">
+      <a href="17. Web and Email Security.html">17. Web and Email Security</a>
+    </li>
+    <li class="">
+      <a href="18. Web and Email Security Quizzes.html">18. Web and Email Security Quizzes</a>
+    </li>
+    <li class="">
+      <a href="19. Web and Email Security Exercises.html">19. Web and Email Security Exercises</a>
+    </li>
+    <li class="">
+      <a href="20. Web and Email Security Solutions.html">20. Web and Email Security Solutions</a>
+    </li>
+    <li class="">
+      <a href="21. Lesson Conclusion.html">21. Lesson Conclusion</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">15. Patching & Updating Exercise</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="patching--updating-exercise">Patching &amp; Updating Exercise</h1>
+<p>In this exercise, you'll review the <a href="https://portal.msrc.microsoft.com/en-us/" rel="noopener noreferrer" target="_blank">Microsoft Security Resource Center (MSCR)</a> where they provide information on security updates for their products. </p>
+<p>Also as part of this exercise, you'll practice updating your own applications. If you are using any Microsoft products, you can use the information provided from the MSCR in understanding the update process for your devices, software and applications. Other vendors provide similar information. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="exercise-1-updating-your-applications">Exercise 1: Updating your applications</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Updating your applications</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>In the Hacking Lifecycle lesson, you took an inventory of your home systems and applications. This is also the first step for both the NIST CSF and CIS Controls.</br></p>
+<ol>
+<li>Using that list, document below the systems and applications that need to be updated. Quite often today, applications are automatically updated. In those cases, document the latest version. </li>
+<li>Are all of your applications and operating systems completely up-to-date? Why or why not? </li>
+</ol>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><ol>
+<li>You should list the same applications previously used in your software inventory. Each one should now show it's on the latest version available from the manufacturer. </br><br />
+Your answers may vary. The intent is for you to ensure all of the applications you use are updated to the latest version. </li>
+<li>Sometimes we don't update software for many reasons: </li>
+</ol>
+<blockquote>
+  <ul>
+  <li>It's an application we don't use very often</li>
+  <li>We don't realize it needs to be updated. For example, smartphone apps are updated through a separate function and not as a part of the app. </li>
+  <li>We don't know or understand the impact of the update and are fearful it will disrupt us using the app.</li>
+  <li>We want to make sure the application is fully tested and vetted by others before we install it.</li>
+  </ul>
+</blockquote></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="exercise-2-microsoft-security-resource-center-msrc">Exercise 2: Microsoft Security Resource Center (MSRC)</h2>
+<p>The Microsoft Security Resource Center (MSRC) is a centralized location for information about vulnerabilities and updates to Microsoft products. In this exercise, you'll explore the MSRC to understand Microsoft's process patch process.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Microsoft Security Resource Center (MSCR) - Part 1</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <ol>
+<li>Go to the <a href="https://portal.msrc.microsoft.com/en-us/" rel="noopener noreferrer" target="_blank">Microsoft Security Resource Center (MSCR)</a>. Click on <a href="https://www.microsoft.com/en-us/msrc/faqs-security-update-guide" rel="noopener noreferrer" target="_blank">Read the Security Update Guide FAQ</a> to go to that page. Answer these questions:</li>
+</ol>
+<blockquote>
+  <ul>
+  <li>When does Microsoft release security updates?</li>
+  <li>How can you receive notifications about Microsoft updates? </li>
+  </ul>
+</blockquote>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>The MSCR is a one-stop-shop for all information about Microsoft patches, updates and vulnerabilities. </p>
+<blockquote>
+  <ul>
+  <li>Microsoft schedules the release of security updates on "Patch Tuesday," the second Tuesday of each month at 10:00 AM PST. Please note that there are some products that do not follow the Patch Tuesday schedule.</li>
+  <li>Microsoft sends out a notification whenever there is material information that affects customers’ security. Microsoft's free monthly Security Notification Service provides links to security-related software updates and notification of re-released security updates.</li>
+  </ul>
+</blockquote></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Microsoft Security Resource Center (MSCR) -  Part 2</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <ol start="2">
+<li>You can also use the <a href="https://portal.msrc.microsoft.com/en-us/security-guidance" rel="noopener noreferrer" target="_blank">Security Update Guide (SUG)</a> to understand vulnerabilities associated with their products. It helps IT professionals understand and use Microsoft security release information, processes, communications, and tools so they can manage organizational risk and develop a repeatable, effective deployment mechanism for security updates. </br> On the SUG, find three vulnerabilities and explain them below. </li>
+</ol>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>Student's answers will vary. The intent is to get you familiar with this website as a resource for general information about known vulnerabilities, patches, and Microsoft articles for updating their products. <br></p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Microsoft Security Resource Center (MSCR) -  Part 3</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <ol start="3">
+<li>Go to the <a href="https://support.microsoft.com/en-us/help/12373/windows-update-faq" rel="noopener noreferrer" target="_blank">Windows Update FAQ website</a>. In particular, look at the FAQ questions supplied below and provide your observations in the answer space. <br>We encourage you to become familiar with this process since so many organizations use Windows operating systems. </li>
+</ol>
+<blockquote>
+  <ul>
+  <li>How do I manually update my Windows PC? </li>
+  <li>How long does it take to download updates?</li>
+  </ul>
+</blockquote>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>Student's answers will vary. The intent is to get you familiar with this website as a resource for information about Windows 10 updating process. <br><br />
+Answers to the specific FAQ questions:</p>
+<ul>
+<li>Some updates may not be available on all devices at the same time—we’re making sure updates are ready and compatible.<br>To stay up to date, select the Start  button &gt; Settings  &gt; Update &amp; Security  &gt; Windows Update, and then select Check for updates.</li>
+<li>The time required to download updates primarily depends on internet connection speed, network settings, and update size. Make sure your device is plugged in and connected to the internet to download updates faster.</li>
+</ul></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="16. Patching &amp; Updating Exercise Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('15. Patching &amp; Updating Exercise')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

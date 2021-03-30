@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.240
+In this scenario, you're helping Jilin and Royce set
+
+00:00:03.240 --> 00:00:08.085
+their identification and authentication rules under Windows 10 PC.
+
+00:00:08.085 --> 00:00:12.270
+Once you log into the virtual Windows 10 system assigned to you,
+
+00:00:12.270 --> 00:00:17.415
+you can set the password policy on the computer by using the local security policy.
+
+00:00:17.415 --> 00:00:20.010
+To do this, go to the Windows start bar,
+
+00:00:20.010 --> 00:00:21.450
+click inside of it,
+
+00:00:21.450 --> 00:00:23.720
+and you just begin typing what you want to do.
+
+00:00:23.720 --> 00:00:26.730
+In this case setting a local security policy.
+
+00:00:26.730 --> 00:00:31.070
+What's nice, it automatically pops up as the app you want and you click on it.
+
+00:00:31.070 --> 00:00:34.925
+A window then appears with the local security policy.
+
+00:00:34.925 --> 00:00:39.844
+This is all of the different configuration settings for security on Windows.
+
+00:00:39.844 --> 00:00:45.935
+This works for both local systems as well as group systems across a whole domain.
+
+00:00:45.935 --> 00:00:51.050
+Note though you need Windows 10 professional or enterprise in order for this to work,
+
+00:00:51.050 --> 00:00:52.810
+doesn't work with Windows Home.
+
+00:00:52.810 --> 00:00:57.035
+Within the local security policy look at the different security settings.
+
+00:00:57.035 --> 00:01:00.890
+For this exercise, we're looking at the account policies to see then,
+
+00:01:00.890 --> 00:01:03.130
+you click on the little carat next to it.
+
+00:01:03.130 --> 00:01:05.270
+In particular we want to address
+
+00:01:05.270 --> 00:01:10.540
+the password policies and then also the account lockout policies.
+
+00:01:10.540 --> 00:01:14.450
+First the password policies, for example,
+
+00:01:14.450 --> 00:01:18.610
+let's say we want to set the maximum password age.
+
+00:01:18.610 --> 00:01:22.685
+This is the number of days before someone needs to change their password.
+
+00:01:22.685 --> 00:01:25.570
+The default in Windows is 42.
+
+00:01:25.570 --> 00:01:30.635
+Let's just say we want it to be 90 days for Joel and Royce.
+
+00:01:30.635 --> 00:01:35.180
+So you click 90, you can click "Apply" or "Okay",
+
+00:01:35.180 --> 00:01:37.615
+and it'll automatically set it.
+
+00:01:37.615 --> 00:01:41.645
+You can also set the minimum password length similarly.
+
+00:01:41.645 --> 00:01:44.210
+Say we want it to be 10 characters.
+
+00:01:44.210 --> 00:01:46.265
+Now for any of these settings,
+
+00:01:46.265 --> 00:01:47.390
+if you have a question,
+
+00:01:47.390 --> 00:01:49.610
+you can click on the "Explain" tab.
+
+00:01:49.610 --> 00:01:54.900
+This will show you a description of this particular setting.
+
+00:01:54.900 --> 00:01:59.315
+Really comes in handy when you need help about how a setting works.
+
+00:01:59.315 --> 00:02:03.600
+We'll keep this at 10 characters and there you go.
+
+00:02:03.600 --> 00:02:06.650
+You can see we are changing the password policy.
+
+00:02:06.650 --> 00:02:10.249
+Similarly with the account lockout policy,
+
+00:02:10.249 --> 00:02:14.075
+where we can change the number of invalid login attempts.
+
+00:02:14.075 --> 00:02:19.545
+Let's just say five mis typed passwords and they will be locked out.
+
+00:02:19.545 --> 00:02:23.110
+In Windows it'll automatically set a lockout duration,
+
+00:02:23.110 --> 00:02:28.760
+and how soon to reset the 30 minutes, really easy.
+
+00:02:28.760 --> 00:02:32.105
+This is how you use the local security policy,
+
+00:02:32.105 --> 00:02:37.740
+account policies to change security settings within a Windows 10 system.
+

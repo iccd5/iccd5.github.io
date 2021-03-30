@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.145
+Real hackers, both good and bad,
+
+00:00:02.145 --> 00:00:04.035
+don't randomly attack things,
+
+00:00:04.035 --> 00:00:08.340
+they use a specific life cycle or process to meet their goals.
+
+00:00:08.340 --> 00:00:12.180
+This is in order to categorize the assets, risks, threats,
+
+00:00:12.180 --> 00:00:16.575
+vulnerabilities, and exploits affecting computer systems.
+
+00:00:16.575 --> 00:00:19.035
+It starts with a goal or target.
+
+00:00:19.035 --> 00:00:23.640
+In cybersecurity, this is the computer application or network you're assessing.
+
+00:00:23.640 --> 00:00:26.505
+Side note that you should never attack
+
+00:00:26.505 --> 00:00:30.960
+a computer system you don't own or have explicit permission to attack.
+
+00:00:30.960 --> 00:00:32.565
+As you're setting your goal,
+
+00:00:32.565 --> 00:00:35.770
+understand why you're assessing its security.
+
+00:00:35.770 --> 00:00:39.170
+Step 2 is to learn as much as you can about it.
+
+00:00:39.170 --> 00:00:40.760
+This means googling it.
+
+00:00:40.760 --> 00:00:43.434
+Hackers don't work from ignorance.
+
+00:00:43.434 --> 00:00:47.525
+Step 3 is to explore your goal from all perspectives.
+
+00:00:47.525 --> 00:00:50.645
+Understand how it works and what others know about it.
+
+00:00:50.645 --> 00:00:53.320
+This is known as reconnaissance.
+
+00:00:53.320 --> 00:00:56.160
+In ethical hacking, you add Step 4;
+
+00:00:56.160 --> 00:00:59.835
+break it if and only if you have permission.
+
+00:00:59.835 --> 00:01:03.800
+Here you understand the targets, weaknesses, or vulnerabilities.
+
+00:01:03.800 --> 00:01:09.095
+Hired security penetration testers may have an extra job of attacking the target,
+
+00:01:09.095 --> 00:01:14.180
+which means exploiting those vulnerabilities to simulate how the bad guys may act.
+
+00:01:14.180 --> 00:01:16.190
+Those bad guys, by the way,
+
+00:01:16.190 --> 00:01:18.435
+are known as threats.
+
+00:01:18.435 --> 00:01:20.410
+If you break something, well,
+
+00:01:20.410 --> 00:01:23.065
+you need to fix it. That's Step 5.
+
+00:01:23.065 --> 00:01:25.735
+In this step, you secure operating systems,
+
+00:01:25.735 --> 00:01:29.180
+applications, and networks to keep the bad guys out.
+
+00:01:29.180 --> 00:01:32.185
+Step 6, is part of the hacker ethos,
+
+00:01:32.185 --> 00:01:35.275
+where you always try to make the world a better place,
+
+00:01:35.275 --> 00:01:38.435
+figure out a better way to secure that asset.
+
+00:01:38.435 --> 00:01:41.275
+While evil hackers like to keep secrets,
+
+00:01:41.275 --> 00:01:43.690
+ethical hackers are the exact opposite.
+
+00:01:43.690 --> 00:01:45.580
+You tell others what you find.
+
+00:01:45.580 --> 00:01:47.575
+It's called ethical disclosure.
+
+00:01:47.575 --> 00:01:50.740
+For example, if you notice a problem on a website,
+
+00:01:50.740 --> 00:01:52.910
+you'll let the website owner know about it.
+
+00:01:52.910 --> 00:01:56.310
+It's really tied to making it better.
+
+00:01:56.310 --> 00:02:00.750
+You'll start with an exercise where you perform reconnaissance on your own computers.
+
+00:02:00.750 --> 00:02:04.430
+You will also perform reconnaissance on internet addresses to
+
+00:02:04.430 --> 00:02:09.390
+understand what is publicly known about the internet assets.
+

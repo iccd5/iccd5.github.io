@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.850
+On the virtual Windows 10 system assigned to you,
+
+00:00:02.850 --> 00:00:07.575
+you can create local user accounts by following these steps.
+
+00:00:07.575 --> 00:00:11.655
+It starts by using the control panel.
+
+00:00:11.655 --> 00:00:14.295
+Again, in the start bar,
+
+00:00:14.295 --> 00:00:17.490
+pull up the control panel by typing it,
+
+00:00:17.490 --> 00:00:21.785
+and you can go into the control panel app.
+
+00:00:21.785 --> 00:00:23.415
+From the control panel app,
+
+00:00:23.415 --> 00:00:25.230
+you see numerous options for
+
+00:00:25.230 --> 00:00:29.010
+security and administration settings on the Windows 10 system.
+
+00:00:29.010 --> 00:00:32.909
+For this exercise, we are looking at user accounts.
+
+00:00:32.909 --> 00:00:34.785
+So select that one.
+
+00:00:34.785 --> 00:00:39.810
+From user accounts, you click in "User Accounts" again,
+
+00:00:39.810 --> 00:00:43.180
+and then "Manage Another Account".
+
+00:00:43.180 --> 00:00:45.470
+To add a new user,
+
+00:00:45.470 --> 00:00:50.014
+you click on the "Add New User in PC Settings" link.
+
+00:00:50.014 --> 00:00:52.580
+A pop-up window will then appear,
+
+00:00:52.580 --> 00:00:55.160
+which allows you the opportunity to see
+
+00:00:55.160 --> 00:00:59.210
+the current users and then add someone else to this PC.
+
+00:00:59.210 --> 00:01:01.580
+Another way of getting into the screen,
+
+00:01:01.580 --> 00:01:03.485
+for those who are more technically adept,
+
+00:01:03.485 --> 00:01:07.625
+this is what's known as the local user manager pop-up.
+
+00:01:07.625 --> 00:01:11.615
+So you can actually go to this directly from the start bar as well.
+
+00:01:11.615 --> 00:01:13.999
+But from here you click on "Users",
+
+00:01:13.999 --> 00:01:16.670
+and when you right-click in the area,
+
+00:01:16.670 --> 00:01:19.765
+in the middle click on "New User".
+
+00:01:19.765 --> 00:01:22.400
+Here I can type a new users name.
+
+00:01:22.400 --> 00:01:25.910
+So test user, whatever full name you want.
+
+00:01:25.910 --> 00:01:27.440
+If you want a description,
+
+00:01:27.440 --> 00:01:30.395
+include a password, always a good idea.
+
+00:01:30.395 --> 00:01:34.519
+Of course, I'm not using the word password123 for their password,
+
+00:01:34.519 --> 00:01:36.650
+and then you re-enter it.
+
+00:01:36.650 --> 00:01:40.400
+It's recommended you keep the default setting of user must
+
+00:01:40.400 --> 00:01:44.740
+change password at next login, click "Create".
+
+00:01:44.740 --> 00:01:47.465
+Once you create the new user,
+
+00:01:47.465 --> 00:01:49.645
+you will see it applied here.
+
+00:01:49.645 --> 00:01:53.765
+On this computer, you want to make sure all of the accounts are valid,
+
+00:01:53.765 --> 00:01:56.060
+and that they are not administrators.
+
+00:01:56.060 --> 00:02:00.935
+So how do you know if a particular account is an administrator or not?
+
+00:02:00.935 --> 00:02:09.005
+Well, you can find that out by clicking on them and going into properties and member of.
+
+00:02:09.005 --> 00:02:12.215
+If you see the group administrators,
+
+00:02:12.215 --> 00:02:14.420
+then this person would be a member of
+
+00:02:14.420 --> 00:02:18.710
+an administrator group which has full power on this PC.
+
+00:02:18.710 --> 00:02:22.850
+So Jill, in this case is not an administrator.
+
+00:02:22.850 --> 00:02:26.495
+From the local users and groups panel,
+
+00:02:26.495 --> 00:02:29.210
+you can add users, remove users,
+
+00:02:29.210 --> 00:02:32.045
+disable them, and change their groups.
+
+00:02:32.045 --> 00:02:35.150
+It's another powerful Windows setting that you can
+
+00:02:35.150 --> 00:02:39.120
+use as you're securing operating systems.
+

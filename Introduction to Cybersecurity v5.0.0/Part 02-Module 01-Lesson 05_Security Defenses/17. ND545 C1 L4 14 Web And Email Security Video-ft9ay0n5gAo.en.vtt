@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.790
+Web browsing and e-mail are the top ways computers can get infected with malware,
+
+00:00:05.790 --> 00:00:08.715
+information is stolen, and data gets breached.
+
+00:00:08.715 --> 00:00:11.235
+Think about the number of e-mail you receive,
+
+00:00:11.235 --> 00:00:13.500
+and the number of websites you go to daily.
+
+00:00:13.500 --> 00:00:18.150
+If one one-hundredth of one percent is potentially malicious,
+
+00:00:18.150 --> 00:00:21.730
+there's a good chance your computer can be infected with malware.
+
+00:00:21.730 --> 00:00:24.135
+In this lesson, you'll understand
+
+00:00:24.135 --> 00:00:29.010
+basic protection techniques for e-mail and other communication methods.
+
+00:00:29.010 --> 00:00:32.625
+I'll start by giving you ways to protect your e-mail.
+
+00:00:32.625 --> 00:00:36.135
+First, you want to have an inventory of e-mail accounts.
+
+00:00:36.135 --> 00:00:38.970
+Like we have an inventory of software and hardware,
+
+00:00:38.970 --> 00:00:41.995
+we need one for the e-mail accounts too.
+
+00:00:41.995 --> 00:00:44.780
+For business, this means confirming all
+
+00:00:44.780 --> 00:00:47.465
+of your employees e-mail accounts are still valid.
+
+00:00:47.465 --> 00:00:51.620
+I've known organizations that allow people to keep their e-mail even after they
+
+00:00:51.620 --> 00:00:55.795
+terminate to help clean up accounts in case a client still contacts them.
+
+00:00:55.795 --> 00:00:58.370
+The problem is that they'll forget they're
+
+00:00:58.370 --> 00:01:02.110
+active and could be used to spoof malicious e-mail.
+
+00:01:02.110 --> 00:01:06.110
+Second, you should know if your e-mail information has been breached.
+
+00:01:06.110 --> 00:01:10.400
+The website haveibeenpwned.com provides this information.
+
+00:01:10.400 --> 00:01:13.610
+You'll get to test it as part of the exercise.
+
+00:01:13.610 --> 00:01:18.470
+Third, make sure you use a standard format for your e-mail addresses.
+
+00:01:18.470 --> 00:01:20.120
+For example, first initial,
+
+00:01:20.120 --> 00:01:22.400
+last name at company.com.
+
+00:01:22.400 --> 00:01:26.435
+Some use the full first name or have a period.
+
+00:01:26.435 --> 00:01:30.590
+So why is it important to have a standard format for e-mail?
+
+00:01:30.590 --> 00:01:32.540
+Well, because if you have multiple formats,
+
+00:01:32.540 --> 00:01:37.160
+it could be easier for a malicious hacker to spoof your email and someone not notice.
+
+00:01:37.160 --> 00:01:41.215
+You should also do this for your personal e-mail too.
+
+00:01:41.215 --> 00:01:45.890
+Another step that protects both your e-mail and your website domain is to
+
+00:01:45.890 --> 00:01:50.195
+make sure your provider uses the e-mail authentication protocols,
+
+00:01:50.195 --> 00:01:53.115
+SPF, DKIM, and DMARC,
+
+00:01:53.115 --> 00:01:54.945
+I'll explain these in a second.
+
+00:01:54.945 --> 00:01:57.940
+These make it harder for scammers to impersonate
+
+00:01:57.940 --> 00:02:02.735
+your domain and send phishing e-mails that look like they're from you.
+
+00:02:02.735 --> 00:02:06.015
+Sender Policy Framework, SPF,
+
+00:02:06.015 --> 00:02:10.240
+tells external receiving e-mail servers that your organizations
+
+00:02:10.240 --> 00:02:15.310
+e-mail servers are proved to send e-mails from your business' domain name.
+
+00:02:15.310 --> 00:02:18.920
+Domain Keys Identified Mail or DKIM,
+
+00:02:18.920 --> 00:02:21.050
+adds a digital signature.
+
+00:02:21.050 --> 00:02:24.535
+It's like a stamp to your outgoing e-mail,
+
+00:02:24.535 --> 00:02:30.750
+so that external e-mail servers can confirm that your e-mail is from your domain.
+
+00:02:30.750 --> 00:02:35.380
+Domain-based Message Authentication Reporting and Conformance,
+
+00:02:35.380 --> 00:02:42.280
+or DMARC, verifies the address the server uses matches the from address.
+
+00:02:42.280 --> 00:02:45.680
+It also tells external e-mail servers what to
+
+00:02:45.680 --> 00:02:49.780
+do with potentially suspicious e-mail from your domain.
+
+00:02:49.780 --> 00:02:54.725
+When you send an e-mail from your organization using these security protocols,
+
+00:02:54.725 --> 00:03:00.235
+the receiving servers can confirm that you sent that email and it's not an impostor.
+
+00:03:00.235 --> 00:03:02.555
+If the e-mail is not validated,
+
+00:03:02.555 --> 00:03:07.165
+the receiving servers can send an alert or block the e-mail.
+
+00:03:07.165 --> 00:03:09.470
+We all love web browsing,
+
+00:03:09.470 --> 00:03:12.935
+but how do you know where you're going on the Internet is safe?
+
+00:03:12.935 --> 00:03:17.345
+How can you reduce the chance you'll get breached when your web browsing?
+
+00:03:17.345 --> 00:03:21.515
+There are a few simple steps for web browser safety.
+
+00:03:21.515 --> 00:03:25.610
+First, keep whatever browser you're using, whether it's Chrome,
+
+00:03:25.610 --> 00:03:29.180
+Firefox, Brave, Edge, whatever browser,
+
+00:03:29.180 --> 00:03:30.560
+keep it up to date.
+
+00:03:30.560 --> 00:03:34.135
+I'll explain how to do this in another session.
+
+00:03:34.135 --> 00:03:40.160
+Second, make sure that all the websites are using HTTPS,
+
+00:03:40.160 --> 00:03:42.980
+which is the secure version of HTTP,
+
+00:03:42.980 --> 00:03:48.230
+that uses a protocol known as TLS, Transport Layer Security.
+
+00:03:48.230 --> 00:03:52.715
+This is the padlock you see on the browser URL address bar.
+
+00:03:52.715 --> 00:03:55.610
+It does two things for a security.
+
+00:03:55.610 --> 00:03:57.695
+It encrypts the transmissions,
+
+00:03:57.695 --> 00:04:00.410
+meaning it scrambles what you send and receive,
+
+00:04:00.410 --> 00:04:02.620
+so no one in the middle can see it.
+
+00:04:02.620 --> 00:04:05.865
+Two, it provides a digital certificate,
+
+00:04:05.865 --> 00:04:10.840
+verifying the website you're on actually belongs to that organization.
+
+00:04:10.840 --> 00:04:15.290
+Third step is to use web browser security settings,
+
+00:04:15.290 --> 00:04:20.554
+which includes pop-up blockers and managing your cookies.
+
+00:04:20.554 --> 00:04:23.960
+I'll demonstrate what this means next.
+
+00:04:23.960 --> 00:04:28.940
+All of these are simple and low-cost steps to protect your e-mail,
+
+00:04:28.940 --> 00:04:32.730
+web browsing, and other communications.
+

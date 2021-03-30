@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.450
+The first step of the hacking lifecycle is to understand the networks,
+
+00:00:03.450 --> 00:00:06.360
+devices, systems, and applications you're revealing.
+
+00:00:06.360 --> 00:00:08.760
+This is known as reconnaissance.
+
+00:00:08.760 --> 00:00:10.830
+Recall earlier lessons about
+
+00:00:10.830 --> 00:00:15.870
+the NIST cybersecurity framework and the CIS critical security controls,
+
+00:00:15.870 --> 00:00:19.785
+they both start the same way with an asset inventory.
+
+00:00:19.785 --> 00:00:24.000
+You have to know what you have in order to know how it's best secured.
+
+00:00:24.000 --> 00:00:28.815
+For this exercise, you need to take an inventory of your computers or devices,
+
+00:00:28.815 --> 00:00:31.980
+whatever you have around you in your home or apartment.
+
+00:00:31.980 --> 00:00:36.245
+You can use whatever device or computer you're using for this course for the exercise.
+
+00:00:36.245 --> 00:00:39.845
+For example, if I was using my cell phone as an asset,
+
+00:00:39.845 --> 00:00:44.580
+it's an iPhone 8 with iOS 13.4.1.
+
+00:00:44.580 --> 00:00:46.550
+When you're completing the exercise,
+
+00:00:46.550 --> 00:00:49.760
+answer these questions about the device you're using for the course,
+
+00:00:49.760 --> 00:00:53.555
+such as, what's the hardware manufacturer, make and model?
+
+00:00:53.555 --> 00:00:55.760
+What operating system does it use?
+
+00:00:55.760 --> 00:01:00.455
+Include the addition version and operating system build if available.
+
+00:01:00.455 --> 00:01:04.535
+Last, list two or three applications used on your device.
+
+00:01:04.535 --> 00:01:08.320
+For each, include the version information if available.
+
+00:01:08.320 --> 00:01:14.520
+You'll use all of this information in the next lesson on vulnerability management.
+

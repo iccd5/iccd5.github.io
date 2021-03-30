@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.710
+To set file and folder permissions in Windows, follow these steps.
+
+00:00:04.710 --> 00:00:08.280
+First of all, just create a folder on the desktop,
+
+00:00:08.280 --> 00:00:11.400
+right-click and then select "New",
+
+00:00:11.400 --> 00:00:13.590
+and then "Folder", easy as that.
+
+00:00:13.590 --> 00:00:16.215
+You can rename it to be whatever you want.
+
+00:00:16.215 --> 00:00:18.030
+With the new folder created,
+
+00:00:18.030 --> 00:00:22.800
+right-click on it, select "Give access to".
+
+00:00:22.800 --> 00:00:26.355
+This point I'm just going to give access to Jill.
+
+00:00:26.355 --> 00:00:29.775
+In the Network Access window that pops up,
+
+00:00:29.775 --> 00:00:33.000
+select, "Yes, share the items".
+
+00:00:33.000 --> 00:00:36.945
+This now shares the folder with Jill.
+
+00:00:36.945 --> 00:00:40.550
+To ensure that users have full access to the folder as opposed to
+
+00:00:40.550 --> 00:00:44.360
+just read-only access, right-click again,
+
+00:00:44.360 --> 00:00:48.230
+I encourage you practice right-clicking on things instead of left clicking,
+
+00:00:48.230 --> 00:00:52.455
+right-click highlight properties and click on it.
+
+00:00:52.455 --> 00:00:57.975
+Click on the "Sharing" tab and then select "Share".
+
+00:00:57.975 --> 00:01:01.575
+From this window you can choose people to share with.
+
+00:01:01.575 --> 00:01:04.800
+As you can see, Jill right now just has read access,
+
+00:01:04.800 --> 00:01:07.010
+and we want her to have read and write,
+
+00:01:07.010 --> 00:01:09.185
+meaning she can change this file.
+
+00:01:09.185 --> 00:01:13.265
+Click the "Share" button when you're done, click "Done".
+
+00:01:13.265 --> 00:01:17.480
+Now this whatever folder is shared with Jill.
+
+00:01:17.480 --> 00:01:23.645
+You can take the opposite approach to remove file-sharing as well from users,
+
+00:01:23.645 --> 00:01:27.240
+which you may need to do in a future exercise.
+

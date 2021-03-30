@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.270
+Now let me explain the answers to the exercise.
+
+00:00:03.270 --> 00:00:06.825
+Using the Jill and Roy's Accounting as a case study,
+
+00:00:06.825 --> 00:00:08.325
+for a typical company,
+
+00:00:08.325 --> 00:00:11.894
+you said that there are many layers in place,
+
+00:00:11.894 --> 00:00:14.265
+starting with that network layer,
+
+00:00:14.265 --> 00:00:16.110
+they have a Linksys switch.
+
+00:00:16.110 --> 00:00:18.900
+Question is, has that been hardened?
+
+00:00:18.900 --> 00:00:22.945
+Is it locked down to prevent who can access it and what they can do?
+
+00:00:22.945 --> 00:00:26.165
+The next layer is the mobile technologies.
+
+00:00:26.165 --> 00:00:28.250
+For example, they use iPhones,
+
+00:00:28.250 --> 00:00:31.970
+but they also have a bring your own device or BYOD policy.
+
+00:00:31.970 --> 00:00:35.210
+So you don't know what other type of mobile devices could
+
+00:00:35.210 --> 00:00:39.170
+potentially be used for Jill and Roy's accounting services.
+
+00:00:39.170 --> 00:00:41.975
+The next layer is the operating system,
+
+00:00:41.975 --> 00:00:43.850
+in this case Windows 10,
+
+00:00:43.850 --> 00:00:45.830
+which should be locked down to provide
+
+00:00:45.830 --> 00:00:50.680
+optimum defenses against known vulnerabilities and threats.
+
+00:00:50.680 --> 00:00:53.805
+The fourth layer is the application layer,
+
+00:00:53.805 --> 00:00:58.985
+and Jill and Roy's uses the application of QuickBooks for their accounting systems.
+
+00:00:58.985 --> 00:01:04.930
+This includes very sensitive tax and accounting data that needs to be protected.
+
+00:01:04.930 --> 00:01:08.295
+The last layer is that data layer.
+
+00:01:08.295 --> 00:01:10.130
+They're using very sensitive data,
+
+00:01:10.130 --> 00:01:13.490
+so it should be encrypted within a database,
+
+00:01:13.490 --> 00:01:17.120
+within any files, and even across the network.
+
+00:01:17.120 --> 00:01:19.970
+Each of these are different layers of
+
+00:01:19.970 --> 00:01:24.320
+protection that needs to be used not just for the Jill and Roy's case study,
+
+00:01:24.320 --> 00:01:27.065
+but for all organizations.
+
+00:01:27.065 --> 00:01:30.120
+The Center for Internet Security benchmarks that apply to
+
+00:01:30.120 --> 00:01:33.245
+Jill and Roy's are Microsoft Office,
+
+00:01:33.245 --> 00:01:36.985
+because that's what they're running for their email on Word and Excel.
+
+00:01:36.985 --> 00:01:39.199
+The Microsoft Windows Desktop,
+
+00:01:39.199 --> 00:01:41.060
+because they use Windows 10.
+
+00:01:41.060 --> 00:01:42.845
+From the case study,
+
+00:01:42.845 --> 00:01:44.210
+they have a print server,
+
+00:01:44.210 --> 00:01:47.240
+that means they print things to some type of a device.
+
+00:01:47.240 --> 00:01:48.995
+That should be locked down.
+
+00:01:48.995 --> 00:01:53.195
+The last CIS benchmark would be for Google Chrome,
+
+00:01:53.195 --> 00:01:58.160
+because it's mentioned in the case study that they use Chrome for web browsing.
+
+00:01:58.160 --> 00:02:00.650
+The Debian Linux operating system and
+
+00:02:00.650 --> 00:02:04.955
+Apache Tomcat web server application are not mentioned in the case study,
+
+00:02:04.955 --> 00:02:07.375
+so you can ignore those benchmarks.
+
+00:02:07.375 --> 00:02:11.000
+If you were a security consultant helping Jill and Roy's,
+
+00:02:11.000 --> 00:02:17.700
+you can use these benchmarks as guides to secure or harden their infrastructure.
+

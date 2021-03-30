@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.490
+For this exercise, you explore the CVE and NVD websites.
+
+00:00:05.490 --> 00:00:09.240
+To find out vulnerabilities about common technologies,
+
+00:00:09.240 --> 00:00:14.550
+really is you start with the website and click on "Search the CVE List".
+
+00:00:14.550 --> 00:00:16.320
+In the search bar,
+
+00:00:16.320 --> 00:00:18.770
+you can put in whatever application you want.
+
+00:00:18.770 --> 00:00:23.095
+For example, let's look at Google Chrome, click "Submit".
+
+00:00:23.095 --> 00:00:26.360
+This then brings up a very long list
+
+00:00:26.360 --> 00:00:30.425
+of all of the known vulnerabilities associated with Chrome.
+
+00:00:30.425 --> 00:00:32.945
+Let me show you what one looks like.
+
+00:00:32.945 --> 00:00:37.235
+If we go into CVE 2020-6484,
+
+00:00:37.235 --> 00:00:42.950
+we can learn what's the description and how it could potentially be exploited.
+
+00:00:42.950 --> 00:00:48.545
+The type of threat like this as a remote attacker can bypass navigation restrictions.
+
+00:00:48.545 --> 00:00:50.855
+To learn more about the vulnerability,
+
+00:00:50.855 --> 00:00:55.295
+you can then go to the National Vulnerability Database entry about it,
+
+00:00:55.295 --> 00:00:59.105
+which provides more details on this specific vulnerability,
+
+00:00:59.105 --> 00:01:02.215
+and which versions of Chrome will correct it.
+
+00:01:02.215 --> 00:01:05.225
+What I really appreciate about the NVD site,
+
+00:01:05.225 --> 00:01:08.075
+you see the base score here,
+
+00:01:08.075 --> 00:01:11.760
+giving it a 6.5 out of 10 scale.
+
+00:01:11.760 --> 00:01:17.375
+This will tell you how quickly you should potentially patch this type of a vulnerability.
+
+00:01:17.375 --> 00:01:25.155
+Take some time exploring both the NVD and the CVE websites,
+
+00:01:25.155 --> 00:01:30.150
+to learn more about the vulnerability management process.
+

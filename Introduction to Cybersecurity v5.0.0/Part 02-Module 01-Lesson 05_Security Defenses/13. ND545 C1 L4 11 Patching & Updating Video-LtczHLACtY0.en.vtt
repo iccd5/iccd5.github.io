@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.700
+In this video, I'll explain how you keep
+
+00:00:02.700 --> 00:00:06.675
+your computers and applications up-to-date with patches.
+
+00:00:06.675 --> 00:00:12.165
+This is often one of the easiest and most cost-effective ways to secure systems.
+
+00:00:12.165 --> 00:00:17.325
+Patches fix vulnerabilities before evil hackers have a chance to exploit them.
+
+00:00:17.325 --> 00:00:19.410
+By the end, you'll be able to describe
+
+00:00:19.410 --> 00:00:22.260
+the process and techniques for applying computer patches into
+
+00:00:22.260 --> 00:00:27.840
+updates and determine patch levels for common systems and applications.
+
+00:00:27.840 --> 00:00:32.010
+To explain patching I'll use our car analogy.
+
+00:00:32.010 --> 00:00:37.860
+You can't get a brand new car every time something gets old or needs to be fixed.
+
+00:00:37.860 --> 00:00:42.440
+What do you do to keep your cars as new as possible?
+
+00:00:42.440 --> 00:00:46.990
+Well, we're told to perform routine maintenance like changing the oil,
+
+00:00:46.990 --> 00:00:48.340
+putting air and tires,
+
+00:00:48.340 --> 00:00:52.520
+and taking it in for service if there's a manufacturer's recall.
+
+00:00:52.520 --> 00:00:56.100
+Simple maintenance can keep our cars updated.
+
+00:00:56.100 --> 00:01:00.135
+If our tire gets a hole, what are options?
+
+00:01:00.135 --> 00:01:06.840
+Well, we can put a patch on it or we can buy new tires or even a new car.
+
+00:01:06.840 --> 00:01:10.185
+But what's most cost effective?
+
+00:01:10.185 --> 00:01:15.705
+A patch. It's the same idea for our computers.
+
+00:01:15.705 --> 00:01:19.750
+Whenever there's a problem like the vulnerabilities you learned earlier,
+
+00:01:19.750 --> 00:01:23.495
+we usually don't buy a new computer or get a new application.
+
+00:01:23.495 --> 00:01:28.175
+We fix it by installing a patch or update from the manufacturer.
+
+00:01:28.175 --> 00:01:31.280
+Side note, the best practice is to always get
+
+00:01:31.280 --> 00:01:35.555
+software updates from a trusted source like the manufacturer.
+
+00:01:35.555 --> 00:01:41.800
+Beware of third-party sites distributing fixes as they may have malicious code embedded.
+
+00:01:41.800 --> 00:01:44.480
+In cybersecurity, a patch,
+
+00:01:44.480 --> 00:01:47.345
+meaning a software code revision,
+
+00:01:47.345 --> 00:01:50.705
+is used to fix some type of an issue,
+
+00:01:50.705 --> 00:01:52.670
+whether it's with functionality,
+
+00:01:52.670 --> 00:01:55.180
+security, or to add new features.
+
+00:01:55.180 --> 00:01:57.665
+You probably noticed that software patches,
+
+00:01:57.665 --> 00:02:00.365
+updates, and upgrades happen all the time,
+
+00:02:00.365 --> 00:02:02.360
+and that it can be overwhelming,
+
+00:02:02.360 --> 00:02:07.000
+especially for a large enterprise with lots of computers and applications.
+
+00:02:07.000 --> 00:02:12.170
+That's why organizations need a patch management process.
+
+00:02:12.170 --> 00:02:15.500
+From NIST, the patch management process are
+
+00:02:15.500 --> 00:02:18.710
+the steps you take for getting patches on computers.
+
+00:02:18.710 --> 00:02:20.875
+There are five steps.
+
+00:02:20.875 --> 00:02:24.685
+First, notification, which is the vendor announcement.
+
+00:02:24.685 --> 00:02:27.050
+They tell you, "Hey, we have a patch ready,
+
+00:02:27.050 --> 00:02:29.365
+you can download it and install it."
+
+00:02:29.365 --> 00:02:32.310
+Second is that identification.
+
+00:02:32.310 --> 00:02:35.255
+Remember your earlier asset inventory?
+
+00:02:35.255 --> 00:02:39.820
+You need to identify if the patch even make sense for your environment.
+
+00:02:39.820 --> 00:02:41.855
+Third step is deployment,
+
+00:02:41.855 --> 00:02:43.895
+downloading it to the computers,
+
+00:02:43.895 --> 00:02:46.190
+getting it ready for the next step,
+
+00:02:46.190 --> 00:02:50.900
+which is installation, which puts it or installs it on the computer.
+
+00:02:50.900 --> 00:02:54.295
+Last, and you don't want to forget this,
+
+00:02:54.295 --> 00:02:58.350
+is verification, confirming it's there.
+
+00:02:58.350 --> 00:03:03.805
+Often, this step is skipped and you don't realize you're behind in patches.
+
+00:03:03.805 --> 00:03:06.050
+By following this process,
+
+00:03:06.050 --> 00:03:11.970
+we can ensure our computers and software stay up-to-date and therefore more secure.
+

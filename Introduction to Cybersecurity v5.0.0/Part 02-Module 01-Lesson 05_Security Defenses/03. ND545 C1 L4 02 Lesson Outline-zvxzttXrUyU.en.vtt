@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.090
+Throughout this lesson, you'll understand methods for
+
+00:00:03.090 --> 00:00:06.615
+establishing and maintaining the security of a network,
+
+00:00:06.615 --> 00:00:09.615
+computing environment, and applications.
+
+00:00:09.615 --> 00:00:11.505
+There are four sections.
+
+00:00:11.505 --> 00:00:15.780
+First, layering protection, which is that defense in depth.
+
+00:00:15.780 --> 00:00:18.555
+Second, identity and access control.
+
+00:00:18.555 --> 00:00:21.525
+Knowing who can access what assets.
+
+00:00:21.525 --> 00:00:25.230
+Patching and updating, taking care of vulnerabilities,
+
+00:00:25.230 --> 00:00:27.345
+making sure they can't be exploited.
+
+00:00:27.345 --> 00:00:30.810
+Last, web and e-mail security since this
+
+00:00:30.810 --> 00:00:34.335
+is the most prominent way hackers get into systems.
+
+00:00:34.335 --> 00:00:39.965
+The lesson's learning objectives are to explain how security defenses are layered through
+
+00:00:39.965 --> 00:00:42.020
+different security architectures and
+
+00:00:42.020 --> 00:00:45.690
+explaining components for identity and access control.
+
+00:00:45.690 --> 00:00:48.350
+Who can gain access to information systems.
+
+00:00:48.350 --> 00:00:53.480
+Determining patched levels for common systems to take care of vulnerabilities.
+
+00:00:53.480 --> 00:00:56.959
+Describe the process and technique for plying
+
+00:00:56.959 --> 00:01:03.420
+protection techniques like for e-mail and other ways of communicating over the Internet.
+

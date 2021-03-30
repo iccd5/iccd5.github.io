@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.105
+Defense in depth provides multiple layers on our computer networks, systems and data.
+
+00:00:06.105 --> 00:00:10.440
+It's like a castle that has multiple checkpoints to get to those crown jewels.
+
+00:00:10.440 --> 00:00:15.000
+Our modern computing system have multiple levels of security.
+
+00:00:15.000 --> 00:00:16.905
+By the end of this lesson,
+
+00:00:16.905 --> 00:00:19.845
+you'll be able to explain how security defenses
+
+00:00:19.845 --> 00:00:23.235
+are layered throughout the different system architectures.
+
+00:00:23.235 --> 00:00:25.350
+It starts with a network layer,
+
+00:00:25.350 --> 00:00:29.910
+usually a router that connects a network to other networks like the Internet,
+
+00:00:29.910 --> 00:00:33.765
+or a switch that connects computers to a network.
+
+00:00:33.765 --> 00:00:37.250
+Today, mobile devices such as tablets and
+
+00:00:37.250 --> 00:00:41.765
+smartphones are used in work environments and provide an additional layer.
+
+00:00:41.765 --> 00:00:46.730
+The operating system is the software that supports a computer's basic functions.
+
+00:00:46.730 --> 00:00:50.225
+This provides an additional layer of protection,
+
+00:00:50.225 --> 00:00:53.500
+for example, Windows and MacOS.
+
+00:00:53.500 --> 00:00:57.440
+Applications are on top of the operating system,
+
+00:00:57.440 --> 00:01:01.300
+and in our example, it's databases.
+
+00:01:01.300 --> 00:01:06.170
+On top of that is the data that you access by the application,
+
+00:01:06.170 --> 00:01:08.390
+this could be sensitive information like
+
+00:01:08.390 --> 00:01:12.589
+tax data or your personally identifiable information.
+
+00:01:12.589 --> 00:01:16.865
+Surrounding all of these areas are humans,
+
+00:01:16.865 --> 00:01:19.485
+which interact with each layer.
+
+00:01:19.485 --> 00:01:22.165
+Now let's talk about layering protection.
+
+00:01:22.165 --> 00:01:26.765
+Each layer has some protection to keep the whole system safe.
+
+00:01:26.765 --> 00:01:32.035
+For example, an employee that has access to a database of client information,
+
+00:01:32.035 --> 00:01:37.660
+they would first need to attach to the local network either directly at the worksite,
+
+00:01:37.660 --> 00:01:41.155
+or remotely over the Internet through a VPN.
+
+00:01:41.155 --> 00:01:43.840
+The employee would then need to log into
+
+00:01:43.840 --> 00:01:46.660
+the operating system using their valid credentials,
+
+00:01:46.660 --> 00:01:48.910
+a user ID and a password.
+
+00:01:48.910 --> 00:01:54.715
+They would also need special permissions to access the database on the inner network.
+
+00:01:54.715 --> 00:01:58.300
+The server housing the database will also have layers of
+
+00:01:58.300 --> 00:02:02.030
+defense with its own firewall and access control lists,
+
+00:02:02.030 --> 00:02:05.225
+and should be hardened against attacks.
+
+00:02:05.225 --> 00:02:11.920
+The sensitive data should also be encrypted as an additional layer of protection,
+
+00:02:11.920 --> 00:02:15.215
+encryption is just the scrambling of the data.
+
+00:02:15.215 --> 00:02:17.600
+Whether they realize it or not,
+
+00:02:17.600 --> 00:02:20.705
+the employee touches each of these layers,
+
+00:02:20.705 --> 00:02:24.875
+although they may only think of the application and the data they may see.
+
+00:02:24.875 --> 00:02:29.640
+The more layers, the more secure the endpoints.
+
