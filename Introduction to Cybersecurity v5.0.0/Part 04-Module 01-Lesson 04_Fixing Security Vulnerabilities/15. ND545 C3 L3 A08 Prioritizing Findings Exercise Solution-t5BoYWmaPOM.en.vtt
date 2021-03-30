@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.540
+In this exercise, you're tasked with determining,
+
+00:00:03.540 --> 00:00:06.780
+what's the most critical vulnerability in this list?
+
+00:00:06.780 --> 00:00:08.445
+What harm could it cause,
+
+00:00:08.445 --> 00:00:10.260
+and how can it be fixed?
+
+00:00:10.260 --> 00:00:17.820
+CVE-2020-0609 is one of the critical severity items in the list.
+
+00:00:17.820 --> 00:00:24.510
+Typically, critical issues are just that critical and needs to be fixed right away.
+
+00:00:24.510 --> 00:00:27.945
+In this case, it's a remote execution issue.
+
+00:00:27.945 --> 00:00:31.425
+One of the worst because it means if exploited,
+
+00:00:31.425 --> 00:00:35.985
+people can control or manipulate your system from virtually anywhere.
+
+00:00:35.985 --> 00:00:41.195
+So when an unauthenticated attacker connects to
+
+00:00:41.195 --> 00:00:47.180
+the target system using RDP and sends specially crafted requests to exploit this,
+
+00:00:47.180 --> 00:00:50.300
+they could execute arbitrary code on
+
+00:00:50.300 --> 00:00:54.795
+the target system and so an attacker could then install programs,
+
+00:00:54.795 --> 00:01:00.985
+they can view, change or delete data or create new accounts with full user rights.
+
+00:01:00.985 --> 00:01:03.440
+To exploit this vulnerability,
+
+00:01:03.440 --> 00:01:09.440
+an attacker would need to send a specially crafted request to the target system's,
+
+00:01:09.440 --> 00:01:12.415
+RD Gateway via RDP.
+
+00:01:12.415 --> 00:01:14.585
+In terms of the solution,
+
+00:01:14.585 --> 00:01:18.980
+there's a patch update available that addresses this issue and so
+
+00:01:18.980 --> 00:01:23.710
+that corrects how RD Gateway handles connection requests.
+
+00:01:23.710 --> 00:01:29.130
+So that patch just needs to be applied and this vulnerability will be fixed.
+

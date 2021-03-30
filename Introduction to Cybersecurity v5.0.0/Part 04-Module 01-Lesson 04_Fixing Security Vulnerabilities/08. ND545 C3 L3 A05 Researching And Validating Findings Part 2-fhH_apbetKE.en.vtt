@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.135
+When it comes to validating vulnerabilities,
+
+00:00:03.135 --> 00:00:06.795
+there are three commonly used terms in the industry you should know.
+
+00:00:06.795 --> 00:00:08.805
+Those are false negative,
+
+00:00:08.805 --> 00:00:12.485
+false positive, and true positive.
+
+00:00:12.485 --> 00:00:16.170
+A false negative is an instance in which a security tool
+
+00:00:16.170 --> 00:00:19.980
+intended to detect a particular threat fails to do so.
+
+00:00:19.980 --> 00:00:22.815
+If there's a fire and smoke everywhere,
+
+00:00:22.815 --> 00:00:24.660
+but the alarm remain silent,
+
+00:00:24.660 --> 00:00:26.445
+that's a false negative,
+
+00:00:26.445 --> 00:00:28.800
+and the same applies in technology.
+
+00:00:28.800 --> 00:00:33.665
+For example, if your computer is missing several security patches,
+
+00:00:33.665 --> 00:00:36.415
+but your vulnerability scanner doesn't detect it,
+
+00:00:36.415 --> 00:00:38.360
+that's a false negative.
+
+00:00:38.360 --> 00:00:44.810
+A false positive is an alert that incorrectly indicates that a vulnerability is present.
+
+00:00:44.810 --> 00:00:50.180
+If your fire alarm goes off when there is no smoke or no fire,
+
+00:00:50.180 --> 00:00:52.100
+that's a false positive,
+
+00:00:52.100 --> 00:00:54.860
+and the same happens in technology as well.
+
+00:00:54.860 --> 00:00:58.085
+For example, if your vulnerability scanner detects
+
+00:00:58.085 --> 00:01:01.940
+a weak encryption algorithm that's being used on the system,
+
+00:01:01.940 --> 00:01:03.275
+but when you double-check,
+
+00:01:03.275 --> 00:01:05.584
+that algorithm is already disabled,
+
+00:01:05.584 --> 00:01:08.530
+that's considered a false positive.
+
+00:01:08.530 --> 00:01:11.615
+Finally, a true positive is an alert
+
+00:01:11.615 --> 00:01:14.990
+that rightfully indicates a vulnerability is present.
+
+00:01:14.990 --> 00:01:21.140
+Finally, if there is a fire and smoke everywhere and the alarm does go off,
+
+00:01:21.140 --> 00:01:22.740
+that's a true positive,
+
+00:01:22.740 --> 00:01:25.245
+so it's doing exactly what it should do.
+
+00:01:25.245 --> 00:01:28.020
+The same applies in technology as well.
+
+00:01:28.020 --> 00:01:34.850
+For example, if your password is 12345 and the scanner detects that,
+
+00:01:34.850 --> 00:01:38.990
+hey, you have weak password, it's absolutely right.
+
+00:01:38.990 --> 00:01:41.640
+That is a true positive.
+

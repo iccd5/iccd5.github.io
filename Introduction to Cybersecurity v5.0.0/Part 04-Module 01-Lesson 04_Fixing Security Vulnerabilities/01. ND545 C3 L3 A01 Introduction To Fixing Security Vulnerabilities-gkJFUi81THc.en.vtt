@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.205
+The purpose of security testing is to find security gaps.
+
+00:00:04.205 --> 00:00:07.215
+To prevent attackers from exploiting those,
+
+00:00:07.215 --> 00:00:09.280
+they now have to be fixed.
+
+00:00:09.280 --> 00:00:13.140
+Remediation planning helps security professionals understand
+
+00:00:13.140 --> 00:00:17.205
+and prioritize which vulnerabilities matter most.
+
+00:00:17.205 --> 00:00:19.900
+Not only is this good security practice,
+
+00:00:19.900 --> 00:00:26.215
+but it can help save companies tons of legal and financial troubles in the long run.
+
+00:00:26.215 --> 00:00:27.890
+By the end of this lesson,
+
+00:00:27.890 --> 00:00:31.265
+you'll be able to conduct vulnerability research
+
+00:00:31.265 --> 00:00:35.515
+using industry resources like Mitre's CVE framework.
+
+00:00:35.515 --> 00:00:38.180
+You'll be able to validate scan results through
+
+00:00:38.180 --> 00:00:41.720
+manual testing and apply business contexts,
+
+00:00:41.720 --> 00:00:44.660
+and you'll also be able to prioritize security gaps
+
+00:00:44.660 --> 00:00:49.590
+discovered and recommend remediation strategies. Now let's jump right in.
+

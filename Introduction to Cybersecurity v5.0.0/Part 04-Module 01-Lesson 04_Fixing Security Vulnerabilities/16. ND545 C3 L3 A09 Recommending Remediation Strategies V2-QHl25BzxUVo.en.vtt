@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.160
+Now you need to take all of this and communicate it to the right stakeholders.
+
+00:00:05.160 --> 00:00:08.460
+Note that the security professional who does
+
+00:00:08.460 --> 00:00:12.255
+the scan may not be the person who fixes the issue.
+
+00:00:12.255 --> 00:00:16.560
+In fact, in my entire career as a vulnerability manager,
+
+00:00:16.560 --> 00:00:20.730
+I personally didn't fix majority of the issues I found.
+
+00:00:20.730 --> 00:00:26.165
+I worked hand in hand with the engineers across the company to fix those issues.
+
+00:00:26.165 --> 00:00:29.105
+For example, if there was a firewall issue,
+
+00:00:29.105 --> 00:00:33.620
+I had to share an easy to understand reports of the findings,
+
+00:00:33.620 --> 00:00:38.230
+why it's important and the recommended fix with the engineering team.
+
+00:00:38.230 --> 00:00:44.225
+Information on the fix can be found in the scan report and through CVE research.
+
+00:00:44.225 --> 00:00:47.945
+But I also had to learn the corporate infrastructure
+
+00:00:47.945 --> 00:00:51.880
+to provide thoughtful and realistic recommendations.
+
+00:00:51.880 --> 00:00:54.735
+With that, they'd fixed the issue,
+
+00:00:54.735 --> 00:00:57.900
+I would re-scan just to make sure it was fixed,
+
+00:00:57.900 --> 00:01:00.075
+and then they'd close it.
+
+00:01:00.075 --> 00:01:02.835
+Re-scanning is an important step.
+
+00:01:02.835 --> 00:01:08.155
+I also had someone fix one issue by changing a configuration,
+
+00:01:08.155 --> 00:01:10.385
+and when I ran the scan again,
+
+00:01:10.385 --> 00:01:12.275
+that old issue was fixed,
+
+00:01:12.275 --> 00:01:16.675
+but five new ones popped up and it almost became a game of whack-a-mole.
+
+00:01:16.675 --> 00:01:20.675
+So the cure should not be worse than the disease.
+
+00:01:20.675 --> 00:01:25.715
+You may come out of your prioritization effort with some key realizations.
+
+00:01:25.715 --> 00:01:29.240
+There are things that it doesn't make sense to fix or that you
+
+00:01:29.240 --> 00:01:33.055
+can't fix right away and need a long-term plan.
+
+00:01:33.055 --> 00:01:37.925
+This is where remediation strategy options matter as well.
+
+00:01:37.925 --> 00:01:41.870
+So after your analysis and prioritization effort,
+
+00:01:41.870 --> 00:01:45.505
+you can decide on how you want to address each finding.
+
+00:01:45.505 --> 00:01:49.790
+You can choose to avoid the vulnerability by fixing the issue,
+
+00:01:49.790 --> 00:01:52.625
+adding controls to mitigate the potential impact,
+
+00:01:52.625 --> 00:01:55.944
+or eliminating the asset altogether.
+
+00:01:55.944 --> 00:01:58.919
+You can accept the vulnerability,
+
+00:01:58.919 --> 00:02:00.530
+so essentially do nothing.
+
+00:02:00.530 --> 00:02:02.225
+But if you take this route,
+
+00:02:02.225 --> 00:02:05.330
+the decision and justification should be
+
+00:02:05.330 --> 00:02:09.730
+documented and signed off by an authorized individual.
+
+00:02:09.730 --> 00:02:13.830
+Or you can transfer the impact elsewhere.
+
+00:02:13.830 --> 00:02:18.835
+For example, you can cover it through insurance or through vendor support.
+
+00:02:18.835 --> 00:02:21.800
+Sometimes software becomes obsolete, for example,
+
+00:02:21.800 --> 00:02:28.080
+and vendors offer special customized packages to help manage that vulnerability.
+

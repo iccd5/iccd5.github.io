@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.030
+You should already know from the previous lesson that
+
+00:00:03.030 --> 00:00:06.750
+the overall vulnerability management process includes eight steps.
+
+00:00:06.750 --> 00:00:10.710
+The first three are what contribute to finding gaps.
+
+00:00:10.710 --> 00:00:13.980
+After that process, you should have one of
+
+00:00:13.980 --> 00:00:18.840
+several reports from the vulnerability scanner or from your penetration test.
+
+00:00:18.840 --> 00:00:25.560
+With that list, the last five steps in the process contribute to fixing the issues.
+
+00:00:25.560 --> 00:00:27.300
+Here are the steps.
+
+00:00:27.300 --> 00:00:30.210
+First, you validate findings.
+
+00:00:30.210 --> 00:00:37.280
+This is where you confirm that vulnerabilities are valid and remove any false positives.
+
+00:00:37.280 --> 00:00:40.125
+The next step is to prioritize.
+
+00:00:40.125 --> 00:00:43.745
+You rank the vulnerabilities based on risk and
+
+00:00:43.745 --> 00:00:48.505
+other factors that help signify what should be addressed first.
+
+00:00:48.505 --> 00:00:50.280
+Then remediate.
+
+00:00:50.280 --> 00:00:54.610
+You work with appropriate resources to fix the issues.
+
+00:00:54.610 --> 00:00:56.370
+After that, you retest.
+
+00:00:56.370 --> 00:01:00.110
+Rescan or retest to confirm that the vulnerability has been
+
+00:01:00.110 --> 00:01:04.385
+fixed and that other gaps were not exposed in the process.
+
+00:01:04.385 --> 00:01:06.735
+Finally, close.
+
+00:01:06.735 --> 00:01:10.195
+This is where you document the closure of the vulnerability.
+
+00:01:10.195 --> 00:01:15.395
+One of the common terms when discussing vulnerabilities is the severity level.
+
+00:01:15.395 --> 00:01:18.155
+Just as on a hot summer day,
+
+00:01:18.155 --> 00:01:20.614
+if it's 80 degrees Fahrenheit,
+
+00:01:20.614 --> 00:01:23.635
+you might say, "It's hot outside."
+
+00:01:23.635 --> 00:01:26.445
+If it's 90 degrees,
+
+00:01:26.445 --> 00:01:29.895
+you might say, "It's very hot outside."
+
+00:01:29.895 --> 00:01:32.460
+If it's 100 degrees,
+
+00:01:32.460 --> 00:01:34.740
+you might say, "It is scorching."
+
+00:01:34.740 --> 00:01:39.290
+So you apply different terms based on how hot it is.
+
+00:01:39.290 --> 00:01:42.820
+The same applies to security vulnerabilities.
+
+00:01:42.820 --> 00:01:48.920
+Severity ratings are applied based on how significant the vulnerability is.
+
+00:01:48.920 --> 00:01:52.565
+Common severity levels include critical,
+
+00:01:52.565 --> 00:01:57.330
+high, medium, and low.
+
+00:01:57.330 --> 00:02:00.110
+These become the foundation for understanding
+
+00:02:00.110 --> 00:02:04.100
+your vulnerabilities and prioritizing your remediation efforts.
+
+00:02:04.100 --> 00:02:09.590
+Because there are so many vulnerabilities spread across various systems,
+
+00:02:09.590 --> 00:02:16.555
+there needed to be a common scoring convention and way to measure severity.
+
+00:02:16.555 --> 00:02:19.295
+Otherwise, through different perspectives,
+
+00:02:19.295 --> 00:02:22.355
+the same vulnerability could be defined as critical
+
+00:02:22.355 --> 00:02:26.260
+in one place while it's medium in another.
+
+00:02:26.260 --> 00:02:30.880
+CVSS was a framework created to address this.
+
+00:02:30.880 --> 00:02:35.875
+The common vulnerability scoring system, also called CVSS,
+
+00:02:35.875 --> 00:02:39.560
+provides a way to capture the principal characteristics of
+
+00:02:39.560 --> 00:02:44.674
+a vulnerability and produced a numerical score that reflects its severity.
+
+00:02:44.674 --> 00:02:47.300
+That score can be translated into
+
+00:02:47.300 --> 00:02:51.080
+a qualitative representations such as low, medium, high,
+
+00:02:51.080 --> 00:02:54.290
+or critical to help companies properly assess and
+
+00:02:54.290 --> 00:02:57.770
+prioritize their vulnerability management process.
+
+00:02:57.770 --> 00:03:00.575
+In a nutshell, it's a system for measuring
+
+00:03:00.575 --> 00:03:03.980
+the relative severity of different vulnerabilities.
+
+00:03:03.980 --> 00:03:09.165
+Now the score is calculated based on, first, exploitability.
+
+00:03:09.165 --> 00:03:13.820
+This is considering elements like the attack vector,
+
+00:03:13.820 --> 00:03:17.995
+whether privileged credentials are required, and more.
+
+00:03:17.995 --> 00:03:20.355
+The next one is impact.
+
+00:03:20.355 --> 00:03:23.510
+This is taking into consideration how does it impact
+
+00:03:23.510 --> 00:03:26.390
+the CIA triad or the confidentiality,
+
+00:03:26.390 --> 00:03:30.200
+integrity, and availability of the system.
+
+00:03:30.200 --> 00:03:34.470
+Lastly, temporal and environmental factors.
+
+00:03:34.470 --> 00:03:38.405
+For example, what remediation options are available?
+
+00:03:38.405 --> 00:03:42.770
+Now the resulting number can be translated again into critical, high,
+
+00:03:42.770 --> 00:03:48.210
+medium, or low issues and that becomes the basis of your remediation planning.
+

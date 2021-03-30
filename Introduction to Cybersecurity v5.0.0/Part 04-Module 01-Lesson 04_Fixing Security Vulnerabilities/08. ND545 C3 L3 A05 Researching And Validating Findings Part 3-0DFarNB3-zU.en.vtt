@@ -1,0 +1,226 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.820
+One way to research and learn more about
+
+00:00:02.820 --> 00:00:06.510
+vulnerabilities is through MITRE's CVE framework.
+
+00:00:06.510 --> 00:00:12.420
+We're going to do a quick introduction to this and tie everything we've learned together.
+
+00:00:12.420 --> 00:00:16.770
+Now, if you wanted to do a search within this framework,
+
+00:00:16.770 --> 00:00:19.050
+you can either search by keyword,
+
+00:00:19.050 --> 00:00:23.445
+or you can search by the specific CVE if that is known.
+
+00:00:23.445 --> 00:00:28.290
+Let's say we're looking for vulnerabilities associated with brute-force attacks.
+
+00:00:28.290 --> 00:00:32.055
+If we type in bruteforce and hit "Enter",
+
+00:00:32.055 --> 00:00:39.905
+you get a list of different brute-force related vulnerabilities and descriptions.
+
+00:00:39.905 --> 00:00:43.360
+Now you can click into each one to learn more, of course.
+
+00:00:43.360 --> 00:00:47.240
+Let's say we wanted to click on the most recent one because as you can see,
+
+00:00:47.240 --> 00:00:49.430
+they're labeled by year.
+
+00:00:49.430 --> 00:00:51.140
+If we click into this one,
+
+00:00:51.140 --> 00:00:52.820
+I know there's a lot of information here,
+
+00:00:52.820 --> 00:00:55.355
+but we can zone in on the things that matter the most.
+
+00:00:55.355 --> 00:00:57.635
+You have the CVE-ID,
+
+00:00:57.635 --> 00:01:02.060
+which is the common identifier across all platforms.
+
+00:01:02.060 --> 00:01:03.590
+You have a description here.
+
+00:01:03.590 --> 00:01:08.255
+In this case, this ID looks like it's associated with an API
+
+00:01:08.255 --> 00:01:13.035
+that doesn't implement measures that prevent account lockout.
+
+00:01:13.035 --> 00:01:15.260
+Basically, an attacker can try
+
+00:01:15.260 --> 00:01:19.055
+different passwords in unlimited amount of time with no consequences.
+
+00:01:19.055 --> 00:01:20.470
+That's the issue here.
+
+00:01:20.470 --> 00:01:23.990
+You can check the references section to see more links
+
+00:01:23.990 --> 00:01:27.760
+and more information that can help you research this,
+
+00:01:27.760 --> 00:01:34.280
+and you can see that it was created on this date in February of 2020,
+
+00:01:34.280 --> 00:01:36.320
+and so you know when it came out.
+
+00:01:36.320 --> 00:01:41.720
+But one of the most important elements of tying the CVE back to
+
+00:01:41.720 --> 00:01:47.405
+what you've learned so far is linking over to the National Vulnerability Database.
+
+00:01:47.405 --> 00:01:48.755
+If you click this link,
+
+00:01:48.755 --> 00:01:52.690
+it takes you over to the National Vulnerability Database.
+
+00:01:52.690 --> 00:01:54.830
+What you can find in here is
+
+00:01:54.830 --> 00:01:58.655
+a lot more information related to the calculator that you learned about.
+
+00:01:58.655 --> 00:02:00.740
+You have the CVE number here,
+
+00:02:00.740 --> 00:02:01.850
+which again is important,
+
+00:02:01.850 --> 00:02:03.875
+you have the description,
+
+00:02:03.875 --> 00:02:07.195
+but here it ties in that severity rating.
+
+00:02:07.195 --> 00:02:12.680
+Here you can see the base score we talked about is a 7.5, so it's high.
+
+00:02:12.680 --> 00:02:14.435
+If you click on this,
+
+00:02:14.435 --> 00:02:16.850
+you get taken back to the calculator.
+
+00:02:16.850 --> 00:02:19.640
+You can look into some of the details there,
+
+00:02:19.640 --> 00:02:21.560
+and you can begin to, again,
+
+00:02:21.560 --> 00:02:25.234
+if you wanted to add some context relevant to your company,
+
+00:02:25.234 --> 00:02:27.470
+you can begin to add some of that in to see
+
+00:02:27.470 --> 00:02:30.725
+a more accurate score for what you're dealing with.
+
+00:02:30.725 --> 00:02:35.450
+Then another thing if we go back to the main page we were just on,
+
+00:02:35.450 --> 00:02:39.730
+is you'll recognize this vector string that we talked about as well.
+
+00:02:39.730 --> 00:02:45.770
+You can start to see what different requirements and elements are included in the score.
+
+00:02:45.770 --> 00:02:47.300
+Again, if you hover over,
+
+00:02:47.300 --> 00:02:49.290
+you can also begin to see some of those details.
+
+00:02:49.290 --> 00:02:53.930
+Again, tying it all together and researching vulnerabilities in
+
+00:02:53.930 --> 00:02:57.140
+the CVE MITRE framework to bringing it and
+
+00:02:57.140 --> 00:03:00.545
+tying it into the CVSS score is really important.
+
+00:03:00.545 --> 00:03:07.170
+We'll go back to our Nessus scan results and tie this all together.
+
+00:03:07.170 --> 00:03:09.005
+Back on this page,
+
+00:03:09.005 --> 00:03:12.790
+you remember the list of vulnerabilities that we discovered.
+
+00:03:12.790 --> 00:03:15.545
+If we look into the results we reviewed before,
+
+00:03:15.545 --> 00:03:18.725
+we can click into that and get more information.
+
+00:03:18.725 --> 00:03:23.605
+Let's say we wanted to tie this back together to this medium finding here.
+
+00:03:23.605 --> 00:03:25.320
+If you click on that, you'll remember,
+
+00:03:25.320 --> 00:03:26.420
+you can see the title,
+
+00:03:26.420 --> 00:03:27.650
+you can see the severity,
+
+00:03:27.650 --> 00:03:29.140
+the description, and so on.
+
+00:03:29.140 --> 00:03:32.300
+But if you scroll over here all the way to the right,
+
+00:03:32.300 --> 00:03:35.780
+you can tie this information back to what we just learned.
+
+00:03:35.780 --> 00:03:39.500
+Here you can automatically see what the CVSS scores are.
+
+00:03:39.500 --> 00:03:43.025
+You can see that vector string straight from your results,
+
+00:03:43.025 --> 00:03:49.785
+and you can even go down and see the CVE-ID associated with this finding in Nessus.
+
+00:03:49.785 --> 00:03:52.805
+This is an example of how you can tie
+
+00:03:52.805 --> 00:03:56.135
+the research tools that are out there from MITRE and from
+
+00:03:56.135 --> 00:03:58.880
+other sources back to scan results in
+
+00:03:58.880 --> 00:04:02.945
+the actual scanner that you are using to make this a lot easier.
+
+00:04:02.945 --> 00:04:06.680
+That's how you can conduct research on vulnerabilities
+
+00:04:06.680 --> 00:04:11.520
+using the MITRE CVE framework and tie it back to your scan results.
+

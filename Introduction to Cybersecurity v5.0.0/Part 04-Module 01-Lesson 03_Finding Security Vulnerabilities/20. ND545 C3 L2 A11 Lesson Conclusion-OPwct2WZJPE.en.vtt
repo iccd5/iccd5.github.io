@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.795
+This lesson has been all about finding issues.
+
+00:00:03.795 --> 00:00:05.640
+When you know your weaknesses,
+
+00:00:05.640 --> 00:00:08.010
+you are in a better position to turn them into
+
+00:00:08.010 --> 00:00:11.970
+strings or at least make sure people can't exploit them.
+
+00:00:11.970 --> 00:00:14.880
+At this point, you should be able to leverage
+
+00:00:14.880 --> 00:00:18.929
+the MITRE ATT&amp;CK framework to understand attack methods,
+
+00:00:18.929 --> 00:00:22.725
+you should be able to configure and launch skins to find vulnerabilities,
+
+00:00:22.725 --> 00:00:26.250
+and you know the steps required to conduct a penetration tests,
+
+00:00:26.250 --> 00:00:28.650
+and even crack a password.
+
+00:00:28.650 --> 00:00:33.240
+I encourage you to take some time to explore the MITRE ATT&amp;CK framework,
+
+00:00:33.240 --> 00:00:35.280
+exploring NASA scanner more,
+
+00:00:35.280 --> 00:00:38.440
+and explore Hashcat in your spare time.
+

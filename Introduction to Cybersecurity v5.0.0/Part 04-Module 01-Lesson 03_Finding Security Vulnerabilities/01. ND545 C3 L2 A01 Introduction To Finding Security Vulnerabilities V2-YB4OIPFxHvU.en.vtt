@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.965
+While many different threats,
+
+00:00:01.965 --> 00:00:04.440
+threat actors and scenarios exist,
+
+00:00:04.440 --> 00:00:07.545
+they typically follow a similar process.
+
+00:00:07.545 --> 00:00:10.950
+It's called a cyber attack kill chain.
+
+00:00:10.950 --> 00:00:13.590
+It's important to understand that process so that
+
+00:00:13.590 --> 00:00:16.470
+as you seek to find security vulnerabilities,
+
+00:00:16.470 --> 00:00:21.040
+you have a good understanding of how attackers might use them against you.
+
+00:00:21.040 --> 00:00:24.660
+I spent a significant portion of my career doing just
+
+00:00:24.660 --> 00:00:28.454
+this and manage the process of scanning corporate environments,
+
+00:00:28.454 --> 00:00:32.820
+looking for security issues and working with people to fix them.
+
+00:00:32.820 --> 00:00:36.020
+It's an important job and I learned so much in
+
+00:00:36.020 --> 00:00:40.220
+the process about just how many security issues are out there and
+
+00:00:40.220 --> 00:00:43.640
+how it's a never ending process of finding and
+
+00:00:43.640 --> 00:00:48.185
+fixing with new curve balls thrown at you every single day,
+
+00:00:48.185 --> 00:00:49.625
+which keeps it interesting.
+
+00:00:49.625 --> 00:00:51.230
+So during this lesson,
+
+00:00:51.230 --> 00:00:55.820
+you'll learn all about the process of how to find security vulnerabilities.
+
+00:00:55.820 --> 00:00:57.650
+By the end of this lesson,
+
+00:00:57.650 --> 00:01:03.250
+you'll be able to leverage the miter attack framework to understand the attack methods,
+
+00:01:03.250 --> 00:01:07.345
+configure and launch scans to find vulnerabilities,
+
+00:01:07.345 --> 00:01:11.705
+and also explain the steps required to conduct a penetration test.
+
+00:01:11.705 --> 00:01:14.010
+Let's go over these now.
+

@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.215
+Vulnerability is our security holes or weaknesses.
+
+00:00:04.215 --> 00:00:07.620
+The bank vault door I mentioned earlier should
+
+00:00:07.620 --> 00:00:11.175
+not automatically open after 10 failed attempts.
+
+00:00:11.175 --> 00:00:13.830
+That creates a vulnerability.
+
+00:00:13.830 --> 00:00:18.780
+You deal with these in everyday life as well, an unlocked car,
+
+00:00:18.780 --> 00:00:22.635
+an open house door and unattended backpack,
+
+00:00:22.635 --> 00:00:26.010
+a broken window or scenarios where
+
+00:00:26.010 --> 00:00:31.080
+vulnerability can allow someone to break in and steal valuable items.
+
+00:00:31.080 --> 00:00:37.365
+In cybersecurity, vulnerabilities can surface as missing updates,
+
+00:00:37.365 --> 00:00:41.450
+software flaws, improper error handling,
+
+00:00:41.450 --> 00:00:43.205
+and many other types.
+
+00:00:43.205 --> 00:00:46.205
+Let's take error handling for example.
+
+00:00:46.205 --> 00:00:52.565
+You want to make sure that system errors don't fail in a way that helps threat actors.
+
+00:00:52.565 --> 00:00:55.774
+If a user enters in the wrong password,
+
+00:00:55.774 --> 00:00:59.585
+does the system respond in a way that can help an attacker?
+
+00:00:59.585 --> 00:01:02.735
+If so, that's a weakness in the system.
+
+00:01:02.735 --> 00:01:06.680
+Take a look at these two login error pages,
+
+00:01:06.680 --> 00:01:09.805
+which do you think would help an attacker?
+
+00:01:09.805 --> 00:01:12.500
+If you look closely at the error messages,
+
+00:01:12.500 --> 00:01:18.980
+the first one discloses that the ID the user tried to enter is not yet taken.
+
+00:01:18.980 --> 00:01:23.870
+If you start entering different IDs until that message doesn't show up,
+
+00:01:23.870 --> 00:01:28.940
+then you know that you've been able to guess and enter an ID that's valid,
+
+00:01:28.940 --> 00:01:31.415
+and now you just need a password.
+
+00:01:31.415 --> 00:01:35.390
+The second error message exposes less vulnerability
+
+00:01:35.390 --> 00:01:39.815
+because it doesn't tell the user much about what they've entered incorrectly,
+
+00:01:39.815 --> 00:01:42.570
+and so they have to start from scratch.
+

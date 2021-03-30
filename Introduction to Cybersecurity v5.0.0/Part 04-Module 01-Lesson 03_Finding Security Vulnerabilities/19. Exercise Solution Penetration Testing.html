@@ -1,0 +1,267 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise Solution: Penetration Testing</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Finding Security Vulnerabilities</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Overview.html">01. Lesson Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Overview.html">02. Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Finding Vulnerabilities.html">03. Finding Vulnerabilities</a>
+    </li>
+    <li class="">
+      <a href="04. Understanding Attack Methods.html">04. Understanding Attack Methods</a>
+    </li>
+    <li class="">
+      <a href="05. Quiz Understanding Attack Methods .html">05. Quiz: Understanding Attack Methods </a>
+    </li>
+    <li class="">
+      <a href="06. Exercise Understanding Attack Methods.html">06. Exercise: Understanding Attack Methods</a>
+    </li>
+    <li class="">
+      <a href="07. Exercise Solution Understanding Attack Methods.html">07. Exercise Solution: Understanding Attack Methods</a>
+    </li>
+    <li class="">
+      <a href="08. Understanding Testing Methods and Tools.html">08. Understanding Testing Methods and Tools	</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Understanding Testing Methods and Tools .html">09. Quiz: Understanding Testing Methods and Tools </a>
+    </li>
+    <li class="">
+      <a href="10. Exercise Understanding Testing Methods and Tools.html">10. Exercise: Understanding Testing Methods and Tools</a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Solution Understanding Testing Methods and Tools.html">11. Exercise Solution: Understanding Testing Methods and Tools</a>
+    </li>
+    <li class="">
+      <a href="12. Vulnerability Scanning.html">12. Vulnerability Scanning	</a>
+    </li>
+    <li class="">
+      <a href="13. Quiz Vulnerability Scanning .html">13. Quiz: Vulnerability Scanning </a>
+    </li>
+    <li class="">
+      <a href="14. Exercise Vulnerability Scanning.html">14. Exercise: Vulnerability Scanning</a>
+    </li>
+    <li class="">
+      <a href="15. Exercise Solution Vulnerability Scanning.html">15. Exercise Solution: Vulnerability Scanning</a>
+    </li>
+    <li class="">
+      <a href="16. Penetration Testing.html">16. Penetration Testing</a>
+    </li>
+    <li class="">
+      <a href="17. Quiz Penetration Testing .html">17. Quiz: Penetration Testing </a>
+    </li>
+    <li class="">
+      <a href="18. Exercise Penetration Testing.html">18. Exercise: Penetration Testing</a>
+    </li>
+    <li class="">
+      <a href="19. Exercise Solution Penetration Testing.html">19. Exercise Solution: Penetration Testing</a>
+    </li>
+    <li class="">
+      <a href="20. Lesson Recap.html">20. Lesson Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">19. Exercise Solution: Penetration Testing</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="exercise-solution-penetration-testing">Exercise Solution: Penetration Testing</h1>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2020-06-09-at-11.48.33-am.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>You’ve been tasked with generating a password dictionary for your attack. This is basically a hashed list of common passwords you can use to try to match up a password.</p>
+<p>There are tools and scripts that can be written to automate this as you advance, however we’ll create the list manually so that you fundamentally understand how password cracking works. Let’s say the base keyword you choose is “password”. You’d create variations based on that because people tend to use common words and then add a few numbers or special characters. So, if you know your targets favorite color, or kids name, and other details like that this list can grow to include all kinds of combinations you might come up with, but here’s my example for the base word password. </p>
+<p>Cleartext password list:<br />
+password<br />
+Password<br />
+password1<br />
+Password1<br />
+password123<br />
+Password123<br />
+Password123*<br />
+P@Ssword<br />
+P@$$word123</p>
+<p>Also, if you know what the required length, casing, number, and special character rules are, you can create a more efficient list as an attacker. </p>
+<p>Now that you have this list, it’s still not all you need. Remember that systems don't typically store passwords in clear text. Once you have your list of passwords you think might be right, you’ll need to hash them.</p>
+<p>Here’s example hash output using MD5 hashing.<br />
+5F4DCC3B5AA765D61D8327DEB882CF99<br />
+DC647EB65E6711E155375218212B3964<br />
+7C6A180B36896A0A8C02787EEAFB0E4C<br />
+2AC9CB7DC02B3C0083EB70898E549B63<br />
+482C811DA5D5B4BC6D497FFA98491E38<br />
+42F749ADE7F9E195BF475F37A44CAFCB<br />
+CBE10224496FB0BE0B7CA5178C932822<br />
+175526654E72D88C37F1A630F1A976E2<br />
+8B9674B89FE74D7F57A733AFB0F0D566<br />
+FD32F63A223767E782A003C7985AF225</p>
+<p>That becomes your dictionary file for the attack. In practice you’ll want to automate this with a script, use a rule based attack, or leverage existing dictionary files and functions already existing within password cracking tools. For example, there are some default dictionaries included in HashCat.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="20. Lesson Recap.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('19. Exercise Solution: Penetration Testing')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.510
+Though most vulnerability scanning tools simply show you
+
+00:00:03.510 --> 00:00:08.850
+the CVSS score so you don't have to manually calculate them yourself,
+
+00:00:08.850 --> 00:00:13.275
+it's important to understand how these scores are generated.
+
+00:00:13.275 --> 00:00:17.865
+It helps you both understand how bad some gaps might be,
+
+00:00:17.865 --> 00:00:21.390
+as well as score things yourself if you manually find
+
+00:00:21.390 --> 00:00:26.145
+a vulnerability for which a CVSS score hasn't been assigned.
+
+00:00:26.145 --> 00:00:30.600
+The first half of the page here shows the scoring dashboard.
+
+00:00:30.600 --> 00:00:33.090
+It's empty now because we haven't selected anything,
+
+00:00:33.090 --> 00:00:35.535
+but you'll see it change as we do.
+
+00:00:35.535 --> 00:00:39.795
+In the second half of the page,
+
+00:00:39.795 --> 00:00:45.350
+this shows the sections for each of the scoring factor categories that we discussed.
+
+00:00:45.350 --> 00:00:47.690
+This feed the overall score.
+
+00:00:47.690 --> 00:00:50.780
+You have your bass section, your temporal section,
+
+00:00:50.780 --> 00:00:52.490
+and your environmental section,
+
+00:00:52.490 --> 00:00:54.800
+again, just as we discussed.
+
+00:00:54.800 --> 00:00:58.115
+If you look at the base section, for example,
+
+00:00:58.115 --> 00:01:04.020
+you'll see that a lot of the different factors play into how it's scores,
+
+00:01:04.020 --> 00:01:05.970
+everything from the attack vector.
+
+00:01:05.970 --> 00:01:08.330
+If you look at the boxes underneath,
+
+00:01:08.330 --> 00:01:10.295
+you'll see what the options are for that.
+
+00:01:10.295 --> 00:01:14.600
+I'll show there's a quick trick here to just hover over
+
+00:01:14.600 --> 00:01:16.820
+the astrix and that will give you
+
+00:01:16.820 --> 00:01:20.585
+a description of what each is if you want to learn more information.
+
+00:01:20.585 --> 00:01:23.680
+Attack vector is really how this attack happens.
+
+00:01:23.680 --> 00:01:28.490
+It can happen over the network if you hover over that and see more information as well,
+
+00:01:28.490 --> 00:01:31.010
+it can happen over adjacent networks,
+
+00:01:31.010 --> 00:01:33.035
+local and so on.
+
+00:01:33.035 --> 00:01:38.350
+Basically everything that you select here then populates that score.
+
+00:01:38.350 --> 00:01:42.020
+I'm just going to put in some basic tests selections
+
+00:01:42.020 --> 00:01:44.510
+here just to show what a score would look like.
+
+00:01:44.510 --> 00:01:46.865
+Let's say for user interaction,
+
+00:01:46.865 --> 00:01:50.900
+none is required and we'll say the scope has changed.
+
+00:01:50.900 --> 00:01:53.480
+We're just putting in a couple of examples here.
+
+00:01:53.480 --> 00:01:54.750
+It talks about impacts.
+
+00:01:54.750 --> 00:01:57.230
+How does this impact confidentiality?
+
+00:01:57.230 --> 00:01:59.255
+Let's say the impact is high for that,
+
+00:01:59.255 --> 00:02:04.580
+but it's low for integrity and let's say it's high for availability, whatever that is.
+
+00:02:04.580 --> 00:02:06.020
+Deciding on those things, again,
+
+00:02:06.020 --> 00:02:07.835
+depends on the vulnerability.
+
+00:02:07.835 --> 00:02:13.384
+But once we've selected those things for all of the sections below,
+
+00:02:13.384 --> 00:02:16.260
+that's when the score actually populates.
+
+00:02:16.260 --> 00:02:19.380
+Again, every one of those selections contributes to the number.
+
+00:02:19.380 --> 00:02:23.630
+What you have here is a depiction of the scoring
+
+00:02:23.630 --> 00:02:28.565
+for each of the different categories across each domain.
+
+00:02:28.565 --> 00:02:30.410
+Then finally, you have an overall score,
+
+00:02:30.410 --> 00:02:34.880
+which is probably the most important thing that you'll see across various tools.
+
+00:02:34.880 --> 00:02:37.190
+You have this overall score,
+
+00:02:37.190 --> 00:02:40.680
+in this case, is 6.7.
+
+00:02:40.680 --> 00:02:45.910
+But one differentiator I want to explain is you'll see a lot of use of this base score,
+
+00:02:45.910 --> 00:02:49.580
+and the difference between bass and overall is that the base score
+
+00:02:49.580 --> 00:02:53.675
+takes into account only details about the vulnerability specifically,
+
+00:02:53.675 --> 00:02:59.600
+while the temporal score and environmental score that contributes to this overall score
+
+00:02:59.600 --> 00:03:02.345
+take into account context around
+
+00:03:02.345 --> 00:03:06.460
+timing that's required and enterprises actual environment.
+
+00:03:06.460 --> 00:03:09.770
+This part can change and be somewhat subjective,
+
+00:03:09.770 --> 00:03:12.590
+but this is the part that is usually pretty consistent,
+
+00:03:12.590 --> 00:03:15.230
+and so you get an overall score.
+
+00:03:15.230 --> 00:03:21.235
+The other thing that is important to note here is this severity vector string.
+
+00:03:21.235 --> 00:03:25.910
+This string here, you'll see across different vulnerability reports,
+
+00:03:25.910 --> 00:03:28.430
+you'll see it in different tools,
+
+00:03:28.430 --> 00:03:30.980
+and so it's a common thing to keep in mind.
+
+00:03:30.980 --> 00:03:34.610
+What this does is summarize all of the selections that
+
+00:03:34.610 --> 00:03:39.020
+come from these tables because you might not have this in every report.
+
+00:03:39.020 --> 00:03:41.420
+If we break this down and look into it even more,
+
+00:03:41.420 --> 00:03:44.705
+I'm going to zoom in so that you can see this string more.
+
+00:03:44.705 --> 00:03:48.765
+The first three letters are AVP,
+
+00:03:48.765 --> 00:03:52.580
+and if you look at this section right here on attack vector,
+
+00:03:52.580 --> 00:03:59.225
+you'll see the abbreviation is AV and physical is P, so it's AVP.
+
+00:03:59.225 --> 00:04:04.040
+You can tell from this string that from an exploitability standpoint,
+
+00:04:04.040 --> 00:04:07.790
+the attack vector is physical and each of these sections between
+
+00:04:07.790 --> 00:04:12.620
+the slashes is associated with one of these categories.
+
+00:04:12.620 --> 00:04:14.300
+Let's say we wanted to find this,
+
+00:04:14.300 --> 00:04:15.920
+its confidentiality is high,
+
+00:04:15.920 --> 00:04:18.355
+CH, and so that matches up.
+
+00:04:18.355 --> 00:04:24.925
+The next string here in this section is CH in terms of confidentiality impact being high.
+
+00:04:24.925 --> 00:04:28.820
+That's how you can read vector strings to learn more
+
+00:04:28.820 --> 00:04:33.290
+about how severe or more details on vulnerability in general.
+
+00:04:33.290 --> 00:04:35.660
+That's a high level overview of how to use
+
+00:04:35.660 --> 00:04:39.080
+this framework and I encourage you again to go through this,
+
+00:04:39.080 --> 00:04:41.300
+play around with it, hover over the boxes,
+
+00:04:41.300 --> 00:04:43.400
+and learn more about each one of them means,
+
+00:04:43.400 --> 00:04:46.920
+because it'll help you understand vulnerabilities better.
+

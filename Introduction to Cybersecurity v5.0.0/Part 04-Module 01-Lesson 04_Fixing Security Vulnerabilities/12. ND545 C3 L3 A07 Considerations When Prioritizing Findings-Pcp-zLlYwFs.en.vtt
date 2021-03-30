@@ -1,0 +1,169 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.000
+Once you've validated everything and know
+
+00:00:03.000 --> 00:00:06.390
+that for the most part you're focusing on true positives,
+
+00:00:06.390 --> 00:00:09.840
+remediation of issues can be ranked based on
+
+00:00:09.840 --> 00:00:14.100
+several factors depending on what makes the most sense for the company.
+
+00:00:14.100 --> 00:00:18.105
+Some of those factors include: the severity level,
+
+00:00:18.105 --> 00:00:21.450
+the budget available to fix the issue,
+
+00:00:21.450 --> 00:00:25.635
+the time and effort it takes to remediate the issue,
+
+00:00:25.635 --> 00:00:29.115
+cost-benefit analysis on whether the potential loss
+
+00:00:29.115 --> 00:00:33.750
+the vulnerability can cause is greater than the cost it would take to fix it,
+
+00:00:33.750 --> 00:00:37.500
+and last but not least, regulatory requirements.
+
+00:00:37.500 --> 00:00:43.970
+Sometimes not fixing an issue no matter what the severity can land you in legal trouble.
+
+00:00:43.970 --> 00:00:47.165
+So these are the common factors to keep in mind,
+
+00:00:47.165 --> 00:00:49.870
+but companies may also choose to add others.
+
+00:00:49.870 --> 00:00:52.380
+When prioritizing vulnerabilities,
+
+00:00:52.380 --> 00:00:56.990
+a general rule of thumb is that the higher the severity,
+
+00:00:56.990 --> 00:00:59.330
+the sooner you'll want to close the gap.
+
+00:00:59.330 --> 00:01:05.780
+But also anytime there's a regulatory compliance issue such as a law that mandates a fix,
+
+00:01:05.780 --> 00:01:08.240
+you may want to prioritize that too.
+
+00:01:08.240 --> 00:01:12.950
+However, this all boils down to cost-benefit analysis.
+
+00:01:12.950 --> 00:01:17.765
+For example, if a fine for non-compliance to the company is, let's say,
+
+00:01:17.765 --> 00:01:21.575
+$1,000 and the fix is $100,000,
+
+00:01:21.575 --> 00:01:24.595
+but you have other mitigating controls in place already,
+
+00:01:24.595 --> 00:01:30.305
+you might decide to accept the risk of that fine for now and not fix the issue.
+
+00:01:30.305 --> 00:01:33.320
+On the contrary, if a vulnerability costs,
+
+00:01:33.320 --> 00:01:35.225
+let's say, $10,000 to fix,
+
+00:01:35.225 --> 00:01:38.335
+but the potential impact of the gap is a million dollars,
+
+00:01:38.335 --> 00:01:41.930
+you might want to consider committing to full remediation.
+
+00:01:41.930 --> 00:01:44.990
+Additional manual testing can also be done during
+
+00:01:44.990 --> 00:01:48.229
+this phase to ensure you are focusing on true positives.
+
+00:01:48.229 --> 00:01:50.960
+Just remember, it's an ongoing process.
+
+00:01:50.960 --> 00:01:55.760
+Prioritizing the findings brings you one step closer to remediation.
+
+00:01:55.760 --> 00:02:02.810
+During this process, it's good to have a standard framework or service-level agreements,
+
+00:02:02.810 --> 00:02:07.255
+also termed SLAs, for executing on remediation.
+
+00:02:07.255 --> 00:02:13.310
+This can help you consistently determine how quickly you should fix certain issues.
+
+00:02:13.310 --> 00:02:17.495
+You already know, you need to take into consideration different factors,
+
+00:02:17.495 --> 00:02:20.350
+including severity when you prioritize.
+
+00:02:20.350 --> 00:02:23.915
+Those factors can also influence your SLAs.
+
+00:02:23.915 --> 00:02:28.550
+Let's say we are focusing on using severity to drive your SLAs.
+
+00:02:28.550 --> 00:02:31.220
+You may come up with a standard like this.
+
+00:02:31.220 --> 00:02:34.940
+You might say low severity issues are optional to fix,
+
+00:02:34.940 --> 00:02:38.150
+medium severities need to be fixed within 90 days,
+
+00:02:38.150 --> 00:02:40.295
+high severity within 60 days,
+
+00:02:40.295 --> 00:02:43.205
+and critical severity within 30 days.
+
+00:02:43.205 --> 00:02:45.320
+But you might add that, hey,
+
+00:02:45.320 --> 00:02:49.220
+if something applies to a regulatory issue or environment,
+
+00:02:49.220 --> 00:02:50.960
+even if it's not critical,
+
+00:02:50.960 --> 00:02:53.575
+it must be fixed within 30 days.
+
+00:02:53.575 --> 00:02:56.195
+There are many different combinations to this,
+
+00:02:56.195 --> 00:02:58.355
+and it depends on the company,
+
+00:02:58.355 --> 00:03:01.160
+but you must have something to guide this process.
+
+00:03:01.160 --> 00:03:05.585
+I remember when I manage vulnerability remediation earlier in my career,
+
+00:03:05.585 --> 00:03:07.805
+the minute I created a standard like this,
+
+00:03:07.805 --> 00:03:11.705
+I went from barely being able to keep up with fixes each month
+
+00:03:11.705 --> 00:03:16.100
+to accomplishing full remediation of all issues on a monthly basis.
+
+00:03:16.100 --> 00:03:21.720
+We even had a record breaking streak and so this makes a huge difference.
+

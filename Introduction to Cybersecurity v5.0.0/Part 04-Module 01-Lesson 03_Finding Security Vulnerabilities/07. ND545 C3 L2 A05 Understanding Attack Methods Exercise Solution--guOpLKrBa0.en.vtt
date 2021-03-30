@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.085
+In this exercise, you're tasked with suggesting ways to detect and
+
+00:00:05.085 --> 00:00:10.785
+mitigate the attack tactics leveraged by hacker Holly against Mary.
+
+00:00:10.785 --> 00:00:17.340
+So with special attention to initiation and the execution phases of the attack framework.
+
+00:00:17.340 --> 00:00:20.625
+So we're looking at these two buckets here specifically.
+
+00:00:20.625 --> 00:00:26.100
+Now the attacker we know leveraged spear phishing for initiation and also
+
+00:00:26.100 --> 00:00:28.875
+leveraged user execution to make the attack happen
+
+00:00:28.875 --> 00:00:31.860
+because in order for a spear phishing attack to work,
+
+00:00:31.860 --> 00:00:34.170
+a user has to click on the e-mail.
+
+00:00:34.170 --> 00:00:37.000
+So that's how we know which boxes we need to use.
+
+00:00:37.000 --> 00:00:39.435
+From this attack framework,
+
+00:00:39.435 --> 00:00:41.475
+you would start with initiation.
+
+00:00:41.475 --> 00:00:43.800
+If we know that it was a spear phishing attack,
+
+00:00:43.800 --> 00:00:45.480
+you'd go to spear phishing,
+
+00:00:45.480 --> 00:00:47.960
+it included a link that she had to log into
+
+00:00:47.960 --> 00:00:50.825
+and so we can assume that that's a spear phishing link.
+
+00:00:50.825 --> 00:00:53.210
+If we click into this,
+
+00:00:53.210 --> 00:00:55.100
+similar to what you saw in the lesson,
+
+00:00:55.100 --> 00:00:59.225
+you get a lot of rich information on what a spear phishing link is,
+
+00:00:59.225 --> 00:01:04.530
+what procedures have been used by various attack groups in this case.
+
+00:01:04.530 --> 00:01:05.910
+If we keep scrolling down,
+
+00:01:05.910 --> 00:01:07.670
+the question is around what our mitigation
+
+00:01:07.670 --> 00:01:10.720
+tactics and detection techniques that can be used?
+
+00:01:10.720 --> 00:01:12.500
+This is where you can find all of
+
+00:01:12.500 --> 00:01:16.610
+that helpful information to pull together and answer for this solution.
+
+00:01:16.610 --> 00:01:19.220
+We know that you can restrict web-based content,
+
+00:01:19.220 --> 00:01:23.715
+you can use user training and so on to detect this.
+
+00:01:23.715 --> 00:01:29.000
+Then if we look at the execution side of things,
+
+00:01:29.000 --> 00:01:33.300
+we know that this required user intervention or user action.
+
+00:01:33.300 --> 00:01:36.410
+So this is where you'd be exploring all of
+
+00:01:36.410 --> 00:01:39.470
+the different attack tactics used here and you would
+
+00:01:39.470 --> 00:01:43.100
+come to the conclusion based on knowing that it was user execution,
+
+00:01:43.100 --> 00:01:45.910
+that that's the box that you need to be looking at here.
+
+00:01:45.910 --> 00:01:47.860
+Once you click on "User Execution",
+
+00:01:47.860 --> 00:01:50.300
+you get to the user execution page.
+
+00:01:50.300 --> 00:01:52.805
+Similarly, you see a lot of information.
+
+00:01:52.805 --> 00:01:56.270
+You can again go down to the bottom
+
+00:01:56.270 --> 00:01:59.480
+here and learn what the mitigation and detection techniques are.
+
+00:01:59.480 --> 00:02:03.680
+So in this case, there are some technical things that you can do to
+
+00:02:03.680 --> 00:02:08.705
+mitigate this around application whitelisting, network intrusion prevention.
+
+00:02:08.705 --> 00:02:10.130
+But then also again,
+
+00:02:10.130 --> 00:02:13.280
+we've talked about throughout the course to this point that
+
+00:02:13.280 --> 00:02:16.760
+user error can be huge and insider threats are huge.
+
+00:02:16.760 --> 00:02:20.290
+So this user training is very important as well.
+
+00:02:20.290 --> 00:02:24.650
+Then you can see more on how to detect this type of tactic as well.
+
+00:02:24.650 --> 00:02:28.620
+So that's the solution for this exercise.
+

@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.390
+Remediation planning helps security professionals
+
+00:00:03.390 --> 00:00:08.025
+understand and prioritize which vulnerabilities matter most.
+
+00:00:08.025 --> 00:00:11.445
+At this point, you should be able to conduct
+
+00:00:11.445 --> 00:00:17.175
+vulnerability research using industry resources like MITRE's CVE framework.
+
+00:00:17.175 --> 00:00:19.995
+You should be able to validate scan results,
+
+00:00:19.995 --> 00:00:23.850
+also prioritize security gaps that have been discovered,
+
+00:00:23.850 --> 00:00:26.820
+and recommend remediation strategies.
+
+00:00:26.820 --> 00:00:29.295
+So kudos on making it this far,
+
+00:00:29.295 --> 00:00:32.174
+you're now aware of some of the factors to be considered
+
+00:00:32.174 --> 00:00:36.700
+as you work to prioritize and remediate your findings.
+

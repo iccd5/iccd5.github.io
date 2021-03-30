@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.685
+Strengthening a system requires closing any holes or weaknesses,
+
+00:00:04.685 --> 00:00:06.485
+and you do this every day.
+
+00:00:06.485 --> 00:00:11.280
+If air is leaking out of a tire and you realize it may go flat,
+
+00:00:11.280 --> 00:00:13.110
+you might patch the hole,
+
+00:00:13.110 --> 00:00:18.360
+or if you're on a boat and there's water seeping through a hole in the bottom,
+
+00:00:18.360 --> 00:00:20.670
+you might plug it to keep water out.
+
+00:00:20.670 --> 00:00:25.020
+These are fixes meant to mitigate a vulnerability.
+
+00:00:25.020 --> 00:00:28.530
+This same principle applies in Cybersecurity.
+
+00:00:28.530 --> 00:00:33.765
+System vulnerabilities need to be fixed to stop them from being exploited.
+
+00:00:33.765 --> 00:00:38.370
+However, the challenge as you search for vulnerabilities is that you may find
+
+00:00:38.370 --> 00:00:43.355
+hundreds or thousands of issues and it's impossible to fix them all.
+
+00:00:43.355 --> 00:00:47.660
+You have to start asking tough questions to prioritize.
+
+00:00:47.660 --> 00:00:50.105
+Let's dig into the boat example.
+
+00:00:50.105 --> 00:00:53.140
+Let's say there are three holes in the boat.
+
+00:00:53.140 --> 00:00:55.130
+One is pretty small,
+
+00:00:55.130 --> 00:00:56.720
+but in the center of the floor,
+
+00:00:56.720 --> 00:00:59.690
+and about a gallon of water leaks in per hour.
+
+00:00:59.690 --> 00:01:02.765
+The other two holes are very large,
+
+00:01:02.765 --> 00:01:04.400
+but they're on the sides of the boat,
+
+00:01:04.400 --> 00:01:08.405
+so a gallon leaks in maybe every five hours.
+
+00:01:08.405 --> 00:01:10.805
+Do you patch the biggest hole first?
+
+00:01:10.805 --> 00:01:13.445
+Without context, you might say yes.
+
+00:01:13.445 --> 00:01:17.705
+But since there's more water coming in over time through the smaller one,
+
+00:01:17.705 --> 00:01:19.685
+do you patch that one first?
+
+00:01:19.685 --> 00:01:23.195
+Do you have enough capacity to patch all of them at once?
+
+00:01:23.195 --> 00:01:27.080
+These are the questions that you'd start to consider to determine,
+
+00:01:27.080 --> 00:01:28.475
+what to fix first?
+
+00:01:28.475 --> 00:01:32.105
+Who should fix it? When they should fix it and how?
+
+00:01:32.105 --> 00:01:35.910
+This is essentially remediation management.
+

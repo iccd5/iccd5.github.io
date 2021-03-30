@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.025
+To complete this activity,
+
+00:00:02.025 --> 00:00:05.805
+you'd need to understand that each of the vulnerabilities listed,
+
+00:00:05.805 --> 00:00:09.420
+and how the context provided might impact them.
+
+00:00:09.420 --> 00:00:11.625
+For example, in the context,
+
+00:00:11.625 --> 00:00:14.895
+you can see that RDP is,
+
+00:00:14.895 --> 00:00:20.550
+or at least should be disabled across the entire company through group policy,
+
+00:00:20.550 --> 00:00:24.990
+which is a centralized way to manage security settings.
+
+00:00:24.990 --> 00:00:33.255
+Now, vulnerability, CVE-2020-0609 is associated with RDP,
+
+00:00:33.255 --> 00:00:38.205
+though it's been detected based on the context regarding the company.
+
+00:00:38.205 --> 00:00:43.675
+This could be a false positive until before officially addressing it as such.
+
+00:00:43.675 --> 00:00:50.390
+It's important to verify either yourself or with the technical team to determine if it is
+
+00:00:50.390 --> 00:00:53.690
+truly a false positive or figure out why
+
+00:00:53.690 --> 00:00:57.685
+it's alerting when the protocol isn't enabled within the company.
+
+00:00:57.685 --> 00:01:00.660
+You may find it's an oversight in the tool,
+
+00:01:00.660 --> 00:01:06.810
+or you may indeed find that RDP is not disabled, like you thought.
+

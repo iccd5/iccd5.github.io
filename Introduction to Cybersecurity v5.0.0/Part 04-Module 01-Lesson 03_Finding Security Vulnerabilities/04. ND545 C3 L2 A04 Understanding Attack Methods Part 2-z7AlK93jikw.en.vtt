@@ -1,0 +1,247 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.835
+This is the MITRE Attack Framework.
+
+00:00:02.835 --> 00:00:08.850
+So it's a globally accessible knowledge base of adversary tactics and techniques based on
+
+00:00:08.850 --> 00:00:12.360
+real-world observation and there's so much rich insight in
+
+00:00:12.360 --> 00:00:16.275
+this framework that comes from a variety of intelligence sources.
+
+00:00:16.275 --> 00:00:19.215
+Now, I will walk you through the framework at a high level here,
+
+00:00:19.215 --> 00:00:25.425
+but also encourage you to take some time to click through a few more areas on your own.
+
+00:00:25.425 --> 00:00:32.100
+Now, the top column headers in the gray bar along the top signify
+
+00:00:32.100 --> 00:00:35.215
+the different goals of the threat actor
+
+00:00:35.215 --> 00:00:39.710
+during various parts of the attack while the rows underneath,
+
+00:00:39.710 --> 00:00:42.560
+so the white boxes with blue text in them,
+
+00:00:42.560 --> 00:00:47.860
+show the attack tactics that are commonly used to achieve those goals.
+
+00:00:47.860 --> 00:00:53.225
+So each one of these provides a ton of rich context around these attack methods.
+
+00:00:53.225 --> 00:00:55.310
+So if you're wondering, let's say,
+
+00:00:55.310 --> 00:00:58.505
+how an attacker might gain initial access to our system.
+
+00:00:58.505 --> 00:01:00.605
+That's this section over here.
+
+00:01:00.605 --> 00:01:04.205
+If you click on "Initial Access," you'd see more information
+
+00:01:04.205 --> 00:01:07.900
+on this attack method, the definition here.
+
+00:01:07.900 --> 00:01:12.005
+So you can see it's an adversary trying to get access to your network, pretty basic.
+
+00:01:12.005 --> 00:01:13.460
+If you scroll down,
+
+00:01:13.460 --> 00:01:15.920
+you see the different techniques that attackers can
+
+00:01:15.920 --> 00:01:18.785
+use to accomplish this and descriptions.
+
+00:01:18.785 --> 00:01:21.230
+So they could do a drive-by compromise,
+
+00:01:21.230 --> 00:01:24.680
+they can use external remote services and so on.
+
+00:01:24.680 --> 00:01:26.680
+Let's pick one to dig in a little bit more.
+
+00:01:26.680 --> 00:01:33.965
+Let's say we want to explore how attackers can use valid accounts to gain initial access.
+
+00:01:33.965 --> 00:01:35.810
+If we click into that one,
+
+00:01:35.810 --> 00:01:38.170
+you'll see even more information.
+
+00:01:38.170 --> 00:01:40.310
+Here's a definition of what it is,
+
+00:01:40.310 --> 00:01:43.805
+and it continues to get into greater detail below but basically,
+
+00:01:43.805 --> 00:01:48.170
+if an attacker is trying to use valid accounts to get initial access,
+
+00:01:48.170 --> 00:01:51.110
+they're using different techniques to capture
+
+00:01:51.110 --> 00:01:54.915
+credentials and so on through social engineering to get access.
+
+00:01:54.915 --> 00:01:57.410
+On the right side of the screen here,
+
+00:01:57.410 --> 00:02:00.320
+you can see more details about this tactic.
+
+00:02:00.320 --> 00:02:04.280
+So everything from some descriptive terms that are used
+
+00:02:04.280 --> 00:02:09.035
+to what platforms does this apply to and more information here.
+
+00:02:09.035 --> 00:02:11.464
+If you keep scrolling down,
+
+00:02:11.464 --> 00:02:13.490
+you'll see procedure examples.
+
+00:02:13.490 --> 00:02:17.450
+So these are real examples where threat actors have
+
+00:02:17.450 --> 00:02:22.085
+used this attack method of using valid accounts to gain initial access.
+
+00:02:22.085 --> 00:02:25.505
+You can see some of the tactics and things they've used.
+
+00:02:25.505 --> 00:02:29.305
+For example, let's look at APT39,
+
+00:02:29.305 --> 00:02:31.355
+is the name of this one.
+
+00:02:31.355 --> 00:02:35.530
+They have used stolen credentials to compromise Outlook Web Access.
+
+00:02:35.530 --> 00:02:38.525
+If you wanted to look even further into how they did this,
+
+00:02:38.525 --> 00:02:43.790
+you would click on this group and you can see a ton of more information about them.
+
+00:02:43.790 --> 00:02:46.670
+You learned more about these groups in lesson 1.
+
+00:02:46.670 --> 00:02:48.935
+So we won't go into too much detail here,
+
+00:02:48.935 --> 00:02:51.320
+but you can learn so much about the groups who
+
+00:02:51.320 --> 00:02:54.155
+have carried out attacks using that method.
+
+00:02:54.155 --> 00:02:57.990
+So a long list here and so much information.
+
+00:02:57.990 --> 00:03:00.350
+If you continue to scroll down the page,
+
+00:03:00.350 --> 00:03:02.480
+you then get to a lot
+
+00:03:02.480 --> 00:03:06.715
+more helpful information around mitigation techniques and detection.
+
+00:03:06.715 --> 00:03:08.450
+When we say mitigation,
+
+00:03:08.450 --> 00:03:11.255
+we mean now that we know that this attack method exists,
+
+00:03:11.255 --> 00:03:14.840
+like what are the different ways to mitigate that and to avoid it.
+
+00:03:14.840 --> 00:03:18.620
+There are recommendations here on everything from making sure that
+
+00:03:18.620 --> 00:03:22.160
+sensitive credentials are not stored in an insecure ways
+
+00:03:22.160 --> 00:03:26.030
+to auditing source code and so on and you
+
+00:03:26.030 --> 00:03:30.385
+can even click into each of these options to get more information.
+
+00:03:30.385 --> 00:03:34.790
+Then finally, scrolling down to detection and resources.
+
+00:03:34.790 --> 00:03:36.440
+So from a detection standpoint,
+
+00:03:36.440 --> 00:03:38.225
+this is telling you,
+
+00:03:38.225 --> 00:03:43.250
+how do I know that this attack tactic is being used in my network?
+
+00:03:43.250 --> 00:03:44.495
+How do I detect it?
+
+00:03:44.495 --> 00:03:46.700
+So there's tips on how to do that.
+
+00:03:46.700 --> 00:03:49.790
+Then this references area is golden,
+
+00:03:49.790 --> 00:03:52.760
+because here you can really start to do additional research and look
+
+00:03:52.760 --> 00:03:57.260
+into more detail on various artifacts and various resources.
+
+00:03:57.260 --> 00:04:02.330
+So a wealth of information here and I want to call out as we go back to
+
+00:04:02.330 --> 00:04:07.430
+the main page that we only clicked into one box and got all of that information.
+
+00:04:07.430 --> 00:04:10.085
+So when you see how many different boxes are here,
+
+00:04:10.085 --> 00:04:12.470
+that can give you a sense of just how
+
+00:04:12.470 --> 00:04:16.390
+detailed your research can get when you're looking into these attacks.
+
+00:04:16.390 --> 00:04:19.790
+The last thing that I'll call out is this Get
+
+00:04:19.790 --> 00:04:24.770
+Started resource here is another super-helpful thing to look into.
+
+00:04:24.770 --> 00:04:26.660
+So here you have blog posts,
+
+00:04:26.660 --> 00:04:29.240
+you have starter videos that can really help you dig into
+
+00:04:29.240 --> 00:04:33.460
+this framework a lot more and learn some additional details.
+
+00:04:33.460 --> 00:04:36.550
+That is the MITRE Attack Framework.
+

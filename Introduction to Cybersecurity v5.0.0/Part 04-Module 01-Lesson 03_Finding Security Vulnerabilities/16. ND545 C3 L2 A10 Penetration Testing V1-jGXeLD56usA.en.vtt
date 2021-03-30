@@ -1,0 +1,319 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.510
+Penetration testing is a method of testing where
+
+00:00:03.510 --> 00:00:07.140
+ethical hackers target a resource to determine
+
+00:00:07.140 --> 00:00:14.985
+whether vulnerabilities can be exploited to compromise an environment or asset.
+
+00:00:14.985 --> 00:00:17.910
+There are two sides to penetration testing.
+
+00:00:17.910 --> 00:00:21.090
+The blue team is the group responsible for
+
+00:00:21.090 --> 00:00:24.675
+defending and enterprises use of information systems.
+
+00:00:24.675 --> 00:00:30.645
+So their job is to maintain the security posture against a group of mock attackers.
+
+00:00:30.645 --> 00:00:33.195
+For example, the red team, which we'll talk about next.
+
+00:00:33.195 --> 00:00:39.950
+Typically, the blue team and its supporters must defend against real or simulated attacks
+
+00:00:39.950 --> 00:00:46.700
+that happen over a significant period of time in a representative operational contexts,
+
+00:00:46.700 --> 00:00:52.580
+for example, as a part of an operational exercise and according to rules
+
+00:00:52.580 --> 00:00:55.460
+established and monitored with the help of
+
+00:00:55.460 --> 00:00:58.835
+a neutral group that's refereeing the exercise,
+
+00:00:58.835 --> 00:01:02.920
+so almost like someone who's there to judge how well the test is going.
+
+00:01:02.920 --> 00:01:08.330
+The red team is a group of people authorized and organized to emulate
+
+00:01:08.330 --> 00:01:10.940
+a potential adversaries attack or
+
+00:01:10.940 --> 00:01:15.940
+exploitation capabilities against an enterprise security posture.
+
+00:01:15.940 --> 00:01:19.680
+These are ethical hackers essentially.
+
+00:01:19.680 --> 00:01:25.490
+The red team's objective is to improve enterprise security by demonstrating
+
+00:01:25.490 --> 00:01:31.549
+the impacts of successful attacks and by demonstrating what works for the defenders,
+
+00:01:31.549 --> 00:01:33.010
+otherwise known as the blue team,
+
+00:01:33.010 --> 00:01:36.005
+that we just talked about in an operating environment.
+
+00:01:36.005 --> 00:01:38.900
+These are different approaches to testing that
+
+00:01:38.900 --> 00:01:42.275
+a red team can use to conduct a penetration test.
+
+00:01:42.275 --> 00:01:46.785
+One of the types is referred to as white-box testing,
+
+00:01:46.785 --> 00:01:49.715
+so this is a testing methodology that assumes
+
+00:01:49.715 --> 00:01:53.240
+explicit and substantial knowledge of
+
+00:01:53.240 --> 00:01:58.925
+the internal structure and implementation details of the assessment target.
+
+00:01:58.925 --> 00:02:01.550
+This is good for testing insider threats
+
+00:02:01.550 --> 00:02:05.065
+because they tend to have insider knowledge of the system as well.
+
+00:02:05.065 --> 00:02:08.475
+The second type is called black-box testing.
+
+00:02:08.475 --> 00:02:13.175
+Black-box testing is a methodology that assumes no knowledge
+
+00:02:13.175 --> 00:02:18.575
+of the internal structure and implementation detail on the assessment target.
+
+00:02:18.575 --> 00:02:22.580
+This one is good for testing external threats because
+
+00:02:22.580 --> 00:02:26.000
+typical non insider hackers don't have a lot of
+
+00:02:26.000 --> 00:02:29.840
+knowledge on the inner workings of the company upfront.
+
+00:02:29.840 --> 00:02:33.175
+The last type is called gray-box testing.
+
+00:02:33.175 --> 00:02:37.820
+Gray-box testing is a methodology that assumes some knowledge of
+
+00:02:37.820 --> 00:02:42.710
+the internal structure and implementation details on the assessment target.
+
+00:02:42.710 --> 00:02:46.710
+This is a good middle ground between the two types.
+
+00:02:46.710 --> 00:02:51.800
+We've already established that penetration testing is all about trying to
+
+00:02:51.800 --> 00:02:58.300
+test and potentially break into your own systems before malicious hackers do.
+
+00:02:58.300 --> 00:03:01.460
+One of the most common ways that systems get
+
+00:03:01.460 --> 00:03:05.285
+breached is through weak or compromised passwords.
+
+00:03:05.285 --> 00:03:07.850
+These are an easy shoe in for attackers,
+
+00:03:07.850 --> 00:03:10.595
+and it's also a good area to pentest,.
+
+00:03:10.595 --> 00:03:12.790
+That's what we'll use as an example.
+
+00:03:12.790 --> 00:03:17.600
+Let's say you're on a red team tasked with testing password security.
+
+00:03:17.600 --> 00:03:20.720
+So your job is to actively try to
+
+00:03:20.720 --> 00:03:24.835
+exploit a weak password vulnerability by cracking the password.
+
+00:03:24.835 --> 00:03:30.515
+There are a variety of methods you can use to crack a password, for example,
+
+00:03:30.515 --> 00:03:33.410
+brute force attacks or where you try
+
+00:03:33.410 --> 00:03:37.675
+every possible combination of characters until one works.
+
+00:03:37.675 --> 00:03:43.520
+Dictionary attacks involve identifying commonly used passwords by trying
+
+00:03:43.520 --> 00:03:46.730
+to match a known list of password hashes
+
+00:03:46.730 --> 00:03:50.665
+with the list of hashed passwords you are trying to crack.
+
+00:03:50.665 --> 00:03:52.574
+Here's a basic example,
+
+00:03:52.574 --> 00:03:55.530
+remember that passwords are stored as hashes,
+
+00:03:55.530 --> 00:03:58.040
+and so if you are able to get the hash of
+
+00:03:58.040 --> 00:04:01.239
+an employee's password while you were doing a pentest,
+
+00:04:01.239 --> 00:04:04.370
+that alone might not get you into the system.
+
+00:04:04.370 --> 00:04:06.110
+However, if you can find
+
+00:04:06.110 --> 00:04:11.150
+the employees password hash in your attack dictionary of common words that you've hashed,
+
+00:04:11.150 --> 00:04:13.130
+then you can guess the password.
+
+00:04:13.130 --> 00:04:18.425
+In this example, based on the employee hash ending in 77,
+
+00:04:18.425 --> 00:04:24.400
+you can look at the attack dictionary and know that the employees password is pink,
+
+00:04:24.400 --> 00:04:28.135
+this is a basic example of a dictionary attack.
+
+00:04:28.135 --> 00:04:32.540
+You can carry out these attacks quickly with password cracking tools.
+
+00:04:32.540 --> 00:04:35.755
+In this course, we'll use a tool called hashcat.
+
+00:04:35.755 --> 00:04:38.445
+If you wanted to crack a password in hashcat,
+
+00:04:38.445 --> 00:04:41.870
+you'd need to specify the type of hash being used.
+
+00:04:41.870 --> 00:04:44.960
+For example, MD5, sha256,
+
+00:04:44.960 --> 00:04:48.655
+and others, you'd need to specify the attack mode.
+
+00:04:48.655 --> 00:04:53.105
+In hashcat, the options include brute force or dictionary attacks,
+
+00:04:53.105 --> 00:04:55.220
+rule-based attacks, and more.
+
+00:04:55.220 --> 00:04:58.490
+Then you need to point to the file that
+
+00:04:58.490 --> 00:05:02.285
+contains the hashes of the passwords you want to crack,
+
+00:05:02.285 --> 00:05:06.245
+and the file that contains the hashed dictionary terms.
+
+00:05:06.245 --> 00:05:09.740
+All of this will make up the command line that you enter
+
+00:05:09.740 --> 00:05:13.115
+in to the command prompt or user-interface,
+
+00:05:13.115 --> 00:05:16.565
+depending on what version of hashcat you decide to use.
+
+00:05:16.565 --> 00:05:18.994
+In this class, we're using Windows,
+
+00:05:18.994 --> 00:05:22.070
+and so it would be in the CMD application.
+
+00:05:22.070 --> 00:05:24.505
+We'll come up with an example string.
+
+00:05:24.505 --> 00:05:27.085
+If you have MD5 hashes,
+
+00:05:27.085 --> 00:05:29.470
+and you're trying to run a dictionary attack,
+
+00:05:29.470 --> 00:05:31.385
+here's an example command.
+
+00:05:31.385 --> 00:05:35.810
+In this case, the hash type is -M0.
+
+00:05:35.810 --> 00:05:38.540
+Now, there is a list of hundreds of hash types in the tool,
+
+00:05:38.540 --> 00:05:40.535
+so if you wanted to use different ones,
+
+00:05:40.535 --> 00:05:44.440
+you'd change the number from zero to the correct corresponding number.
+
+00:05:44.440 --> 00:05:47.565
+Attack mode is -a0,
+
+00:05:47.565 --> 00:05:49.280
+so same as hash types,
+
+00:05:49.280 --> 00:05:50.630
+there are other attack modes,
+
+00:05:50.630 --> 00:05:54.820
+and you can change the number from zero to other options in the tool.
+
+00:05:54.820 --> 00:05:57.315
+Next is the hash file,
+
+00:05:57.315 --> 00:06:00.480
+which is hash.txt in this case.
+
+00:06:00.480 --> 00:06:03.185
+Finally, you point to your dictionary file,
+
+00:06:03.185 --> 00:06:06.235
+which in this case a secret.dict.
+
+00:06:06.235 --> 00:06:10.670
+Now, once you hit enter on this command in a hashcat,
+
+00:06:10.670 --> 00:06:13.220
+it will run the process to check and see if
+
+00:06:13.220 --> 00:06:16.745
+any passwords in the hash file are in the dictionary.
+
+00:06:16.745 --> 00:06:18.379
+If there are matches,
+
+00:06:18.379 --> 00:06:20.860
+it will expose them in clear text.
+
+00:06:20.860 --> 00:06:26.670
+This is one of the many ways to actively test security and find weaknesses.
+

@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.150
+Before we dive into focusing on vulnerability scanning and penetration testing,
+
+00:00:06.150 --> 00:00:10.530
+it's important to understand the overall vulnerability management process.
+
+00:00:10.530 --> 00:00:13.635
+It typically includes these eight phases.
+
+00:00:13.635 --> 00:00:17.760
+The first three are what contributes to finding gaps and
+
+00:00:17.760 --> 00:00:22.170
+includes scoping, identifying, and scanning.
+
+00:00:22.170 --> 00:00:25.395
+The first is to set the scope,
+
+00:00:25.395 --> 00:00:30.100
+so this is where you determine conceptually what you want to test.
+
+00:00:30.100 --> 00:00:35.705
+For example, you can target a certain datacenter looking for a specific set of issues,
+
+00:00:35.705 --> 00:00:39.305
+a specific application or other reasons.
+
+00:00:39.305 --> 00:00:41.260
+Next is identify.
+
+00:00:41.260 --> 00:00:48.890
+Here, you pinpoint the specific host network application or other resource targets.
+
+00:00:48.890 --> 00:00:55.630
+At this point, you may identify specific IP addresses or URLs that you're targeting.
+
+00:00:55.630 --> 00:00:59.370
+The third step in finding gaps is to scan.
+
+00:00:59.370 --> 00:01:05.815
+You can figure and run the scan or test against the identified target.
+
+00:01:05.815 --> 00:01:09.545
+Here, you are using a variety of tools and methods such
+
+00:01:09.545 --> 00:01:13.460
+as vulnerability scanning software to find the issues.
+
+00:01:13.460 --> 00:01:17.460
+We'll cover the remaining steps in greater depth in a later lesson.
+
+00:01:17.460 --> 00:01:22.340
+However, it's important to understand this overarching process up front.
+
+00:01:22.340 --> 00:01:26.120
+There are many different ways to find vulnerabilities.
+
+00:01:26.120 --> 00:01:31.430
+Two key categories are vulnerability scanning and penetration testing.
+
+00:01:31.430 --> 00:01:33.980
+On the vulnerability scanning side,
+
+00:01:33.980 --> 00:01:40.730
+host and network vulnerability scans are used to find security gaps on servers,
+
+00:01:40.730 --> 00:01:45.770
+desktops, mobile devices, and more within a network.
+
+00:01:45.770 --> 00:01:49.045
+There are also different modes of vulnerability scanning.
+
+00:01:49.045 --> 00:01:55.100
+Active scanning uses real traffic and actions to identify vulnerabilities while
+
+00:01:55.100 --> 00:01:57.860
+passive scanning listens on the network and
+
+00:01:57.860 --> 00:02:01.580
+identifies issues in server and client software.
+
+00:02:01.580 --> 00:02:05.745
+Application vulnerability scanning targets security
+
+00:02:05.745 --> 00:02:09.765
+within AppCode and how the app operates.
+
+00:02:09.765 --> 00:02:12.785
+There are also different modes for app scanning as well.
+
+00:02:12.785 --> 00:02:16.220
+For example, dynamic application scans,
+
+00:02:16.220 --> 00:02:21.130
+test functionality while the program is executing operations.
+
+00:02:21.130 --> 00:02:23.750
+While static scanned on the other hand,
+
+00:02:23.750 --> 00:02:29.705
+test application functionality and security without executing any code at all.
+
+00:02:29.705 --> 00:02:31.775
+Now regardless of mode,
+
+00:02:31.775 --> 00:02:37.970
+application vulnerability scans should be used to test new applications being developed,
+
+00:02:37.970 --> 00:02:41.225
+as well as to check for security issues after
+
+00:02:41.225 --> 00:02:45.230
+a major code update or for ongoing maintenance.
+
+00:02:45.230 --> 00:02:48.920
+On the other end, penetration testing is
+
+00:02:48.920 --> 00:02:54.065
+an additional level of actively aiming to essentially break your own security.
+
+00:02:54.065 --> 00:02:58.220
+Penetration tests can target anything from networks and
+
+00:02:58.220 --> 00:03:03.135
+hosts to people, to physical assets.
+
+00:03:03.135 --> 00:03:06.965
+These types of tests should be conducted regularly as
+
+00:03:06.965 --> 00:03:12.545
+a best practice and especially after any major changes to network configurations,
+
+00:03:12.545 --> 00:03:16.110
+such as firewalls and routing changes.
+

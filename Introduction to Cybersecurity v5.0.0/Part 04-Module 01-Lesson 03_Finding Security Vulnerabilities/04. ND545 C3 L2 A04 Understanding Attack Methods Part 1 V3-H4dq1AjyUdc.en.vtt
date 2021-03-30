@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.795
+Attacks usually follow a standard process.
+
+00:00:03.795 --> 00:00:06.735
+As you work to identify vulnerabilities,
+
+00:00:06.735 --> 00:00:09.450
+understanding this process can help you know
+
+00:00:09.450 --> 00:00:12.805
+how attackers take advantage of your weaknesses.
+
+00:00:12.805 --> 00:00:16.110
+The first step is reconnaissance.
+
+00:00:16.110 --> 00:00:20.970
+The threat actor conducts research to find as much information as possible,
+
+00:00:20.970 --> 00:00:23.235
+on the target they want to attack,
+
+00:00:23.235 --> 00:00:27.090
+including finding vulnerabilities and weaknesses.
+
+00:00:27.090 --> 00:00:30.734
+During this phase, they might be collecting e-mail addresses,
+
+00:00:30.734 --> 00:00:34.499
+identifying employees on social media networks,
+
+00:00:34.499 --> 00:00:37.260
+finding public server information,
+
+00:00:37.260 --> 00:00:39.310
+scanning for security holes,
+
+00:00:39.310 --> 00:00:43.030
+and anything else that can help them learn about the target.
+
+00:00:43.030 --> 00:00:45.585
+Next is weaponization.
+
+00:00:45.585 --> 00:00:51.395
+Here, the threat actor creates or acquires the arsenal for attack, such as malware.
+
+00:00:51.395 --> 00:00:52.910
+So during this phase,
+
+00:00:52.910 --> 00:00:55.550
+they might be writing malware code or pulling
+
+00:00:55.550 --> 00:00:58.840
+together existing malware resources for use.
+
+00:00:58.840 --> 00:01:01.860
+The next step is delivery.
+
+00:01:01.860 --> 00:01:07.100
+The weapon is launched against the target and the operation begins.
+
+00:01:07.100 --> 00:01:11.750
+During this phase, they might send an e-mail that includes the malware,
+
+00:01:11.750 --> 00:01:14.795
+or share the malware on a USB stick,
+
+00:01:14.795 --> 00:01:18.320
+or setup a malicious website, or other options.
+
+00:01:18.320 --> 00:01:21.200
+Then exploration begins.
+
+00:01:21.200 --> 00:01:26.920
+So here the threat actor must take advantage of a vulnerability to gain access.
+
+00:01:26.920 --> 00:01:30.140
+During this phase, they are leveraging the weapons that they've
+
+00:01:30.140 --> 00:01:33.335
+created to exploit vulnerabilities.
+
+00:01:33.335 --> 00:01:38.470
+So these might be exploits against software, hardware, or people.
+
+00:01:38.470 --> 00:01:43.190
+Remember we talked earlier about those different kinds of attacks.
+
+00:01:43.190 --> 00:01:45.815
+The sixth step is installation.
+
+00:01:45.815 --> 00:01:49.070
+The threat actor might install a backdoor or
+
+00:01:49.070 --> 00:01:53.200
+create ways to keep their access for the attack.
+
+00:01:53.200 --> 00:01:57.499
+So here they may install a web shell on a web server,
+
+00:01:57.499 --> 00:02:01.070
+or add services such as auto-run keys.
+
+00:02:01.070 --> 00:02:03.715
+Next is command and control.
+
+00:02:03.715 --> 00:02:09.175
+Here, the threat actor enables remote control and manipulation of the target.
+
+00:02:09.175 --> 00:02:13.660
+So they may open two-way communication channel infrastructure,
+
+00:02:13.660 --> 00:02:18.140
+likely over web, DNS, or e-mail protocols.
+
+00:02:18.140 --> 00:02:21.480
+The last piece is action on objectives.
+
+00:02:21.480 --> 00:02:26.405
+Here, the threat actor accomplishes their mission and completes the attack goal.
+
+00:02:26.405 --> 00:02:29.575
+Finally, they do whatever they intended to do.
+
+00:02:29.575 --> 00:02:31.495
+So for this part of the attack,
+
+00:02:31.495 --> 00:02:33.670
+it could be stealing data,
+
+00:02:33.670 --> 00:02:37.255
+escalating privileges, destroying a system,
+
+00:02:37.255 --> 00:02:38.890
+or whatever their goal was,
+
+00:02:38.890 --> 00:02:41.170
+and then it starts all over again.
+
+00:02:41.170 --> 00:02:44.320
+It's important to know that a threat actor may go through
+
+00:02:44.320 --> 00:02:47.510
+this cycle several times during one attack,
+
+00:02:47.510 --> 00:02:50.735
+and it may not always happen in this direct sequence.
+
+00:02:50.735 --> 00:02:55.160
+There can be loops and times when an attacker strikes out at one stage,
+
+00:02:55.160 --> 00:02:57.650
+for example, and has to go back.
+
+00:02:57.650 --> 00:03:02.910
+Now, you know the key steps in the cyber attack process.
+
