@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.250
+There will be times when the principle of
+
+00:00:02.250 --> 00:00:05.475
+least privilege cannot be followed as closely as we would like.
+
+00:00:05.475 --> 00:00:08.520
+I have often encountered applications that will not work
+
+00:00:08.520 --> 00:00:12.120
+properly without running on the machine as an administrator or root.
+
+00:00:12.120 --> 00:00:14.520
+You can create a specific account for
+
+00:00:14.520 --> 00:00:17.415
+this application and grant it the permissions it requires,
+
+00:00:17.415 --> 00:00:20.115
+while limiting the account to just that machine.
+
+00:00:20.115 --> 00:00:21.900
+As you gain experience,
+
+00:00:21.900 --> 00:00:24.180
+you'll see the resolution to edge cases has
+
+00:00:24.180 --> 00:00:27.120
+a certain familiarity to it in the form of monitoring.
+
+00:00:27.120 --> 00:00:30.585
+Gather as many real-time logs as possible from this machine,
+
+00:00:30.585 --> 00:00:33.075
+and set alerts for suspicious behavior.
+
+00:00:33.075 --> 00:00:36.660
+Finally, you can isolate the machine the application
+
+00:00:36.660 --> 00:00:41.380
+resides on as much as possible to limit the surface attack area.
+

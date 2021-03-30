@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.650
+Intuition lies at the intersection of knowledge and experience.
+
+00:00:04.650 --> 00:00:06.255
+The more you have of each,
+
+00:00:06.255 --> 00:00:08.100
+the more intuition you develop.
+
+00:00:08.100 --> 00:00:09.645
+By taking this course,
+
+00:00:09.645 --> 00:00:11.520
+you are well on your way to developing
+
+00:00:11.520 --> 00:00:14.430
+the intuition needed for a career in cybersecurity.
+
+00:00:14.430 --> 00:00:17.715
+For instance, you work in an organization
+
+00:00:17.715 --> 00:00:21.105
+that is regularly audited for multiple compliances.
+
+00:00:21.105 --> 00:00:25.810
+You have been tasked with installing a new collaboration application,
+
+00:00:25.810 --> 00:00:28.460
+and the documentation calls for the account that
+
+00:00:28.460 --> 00:00:31.750
+connects to the database to have sys admin privileges.
+
+00:00:31.750 --> 00:00:34.704
+Due to your knowledge of layered security,
+
+00:00:34.704 --> 00:00:37.640
+and your experience of going through compliance audits,
+
+00:00:37.640 --> 00:00:41.720
+you will instantly know this violates the principle of lease privilege,
+
+00:00:41.720 --> 00:00:44.465
+opens a gaping hole in your database security,
+
+00:00:44.465 --> 00:00:49.350
+which could result in a data breach and will no doubt be caught by the auditor.
+

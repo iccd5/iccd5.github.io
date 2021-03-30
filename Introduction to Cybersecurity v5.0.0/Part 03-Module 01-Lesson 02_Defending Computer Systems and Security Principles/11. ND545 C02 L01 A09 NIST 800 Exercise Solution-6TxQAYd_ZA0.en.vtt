@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.090
+For this exercise, you are asked to review
+
+00:00:03.090 --> 00:00:09.510
+the NIST 800-41 revision 1 standard and provide five key considerations.
+
+00:00:09.510 --> 00:00:12.960
+Let's see how you did. Here are several considerations I
+
+00:00:12.960 --> 00:00:16.365
+came up with, stateful versus stateless.
+
+00:00:16.365 --> 00:00:21.480
+A stateful firewall provides additional protection as opposed to a stateless firewall.
+
+00:00:21.480 --> 00:00:26.400
+If possible, purchase a firewall that contains deep packet inspection.
+
+00:00:26.400 --> 00:00:30.240
+This will allow the traffic to be analyzed deeper than simply ports.
+
+00:00:30.240 --> 00:00:33.120
+If also using a firewall as a VPN,
+
+00:00:33.120 --> 00:00:34.680
+a firewall with NAC,
+
+00:00:34.680 --> 00:00:37.275
+that's Network Access Control can inspect
+
+00:00:37.275 --> 00:00:40.620
+incoming traffic for things such as updated anti-virus,
+
+00:00:40.620 --> 00:00:43.950
+time since last scan, and other configurations.
+
+00:00:43.950 --> 00:00:47.690
+UTM, Unified Threat Management is where
+
+00:00:47.690 --> 00:00:51.905
+the firewall can dynamically detect suspicious probes and malware,
+
+00:00:51.905 --> 00:00:54.395
+proxy services for Internet browsing,
+
+00:00:54.395 --> 00:00:57.020
+additional security by implementing NAT,
+
+00:00:57.020 --> 00:00:59.270
+which is Network Address Translation.
+
+00:00:59.270 --> 00:01:03.274
+The outside world does not communicate with internal IP addresses.
+
+00:01:03.274 --> 00:01:05.645
+It's fine if your list doesn't match this one.
+
+00:01:05.645 --> 00:01:10.770
+The key takeaway is to use the wealth of recommendations in these NIST standards.
+

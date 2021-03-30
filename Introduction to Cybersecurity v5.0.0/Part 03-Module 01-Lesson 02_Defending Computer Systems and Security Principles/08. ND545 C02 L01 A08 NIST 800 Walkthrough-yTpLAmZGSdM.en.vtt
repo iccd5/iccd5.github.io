@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.000
+Let's take a look at a sample NIST 800 standard
+
+00:00:03.000 --> 00:00:06.600
+together and see how it could aid in setting up our security program.
+
+00:00:06.600 --> 00:00:12.165
+In Google, type NIST 880-83 Revision 1.
+
+00:00:12.165 --> 00:00:15.645
+The first thing I like to do is check the date published.
+
+00:00:15.645 --> 00:00:17.010
+This is a little old,
+
+00:00:17.010 --> 00:00:20.130
+but if you notice, it is the most current version.
+
+00:00:20.130 --> 00:00:23.840
+Click "Local Download" and here we are.
+
+00:00:23.840 --> 00:00:26.270
+This particular standard is the Guide to
+
+00:00:26.270 --> 00:00:30.185
+Malware Incident Prevention and Handling for Desktops and Laptops.
+
+00:00:30.185 --> 00:00:34.340
+This standard gives information on terminology associated with malware,
+
+00:00:34.340 --> 00:00:35.750
+such as viruses, worms,
+
+00:00:35.750 --> 00:00:39.125
+and Trojans, the tools an attacker may use,
+
+00:00:39.125 --> 00:00:41.760
+including information on mitigating malware.
+
+00:00:41.760 --> 00:00:45.050
+It gives advice on defensive tools such as antivirus,
+
+00:00:45.050 --> 00:00:48.050
+IDS, IPS, firewalls, and etc.
+
+00:00:48.050 --> 00:00:52.590
+This standard will come in handy when creating your anti-malware strategy.
+

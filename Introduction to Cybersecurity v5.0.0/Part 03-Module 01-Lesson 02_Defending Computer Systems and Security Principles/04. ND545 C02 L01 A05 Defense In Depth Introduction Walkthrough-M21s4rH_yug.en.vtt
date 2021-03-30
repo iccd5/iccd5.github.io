@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.165
+Let's walk through a scenario for defense in depth
+
+00:00:03.165 --> 00:00:06.810
+and see what layers we can identify that will need addressing.
+
+00:00:06.810 --> 00:00:09.730
+Put your thinking cap on and let's get to it.
+
+00:00:09.730 --> 00:00:12.465
+It's natural to focus on big picture
+
+00:00:12.465 --> 00:00:15.075
+when it comes to defense in depth and layered security.
+
+00:00:15.075 --> 00:00:16.560
+So for this scenario,
+
+00:00:16.560 --> 00:00:18.645
+let's drill in a little deeper.
+
+00:00:18.645 --> 00:00:21.655
+We're looking at a typical web server.
+
+00:00:21.655 --> 00:00:27.455
+It is open to the public Internet and it does manage some customer information.
+
+00:00:27.455 --> 00:00:31.055
+What are several things that come to mind that will need addressing?
+
+00:00:31.055 --> 00:00:34.820
+We know that being a web server open to the Internet,
+
+00:00:34.820 --> 00:00:37.070
+traffic to it should be restricted to
+
+00:00:37.070 --> 00:00:41.560
+just Internet-related ports such as 80 in 443 and the firewall.
+
+00:00:41.560 --> 00:00:46.100
+This would be an excellent opportunity to use the host based firewall as well.
+
+00:00:46.100 --> 00:00:49.070
+Depending on whether it is Windows or Linux,
+
+00:00:49.070 --> 00:00:52.300
+we could disable unnecessary services or daemons.
+
+00:00:52.300 --> 00:00:55.760
+Check the permissions on all accounts, files,
+
+00:00:55.760 --> 00:00:59.450
+and directories required using the principle of least privilege.
+
+00:00:59.450 --> 00:01:03.460
+Determine if the machine has the proper patches installed.
+
+00:01:03.460 --> 00:01:05.835
+Every website has a database.
+
+00:01:05.835 --> 00:01:08.070
+Is the connection secure and are
+
+00:01:08.070 --> 00:01:11.660
+the account's privileges appropriate for the needed access?
+
+00:01:11.660 --> 00:01:16.150
+Are the files and disks encrypted on the server as well as the database?
+
+00:01:16.150 --> 00:01:21.440
+Is monitoring enabled to alert on anomalies as well as performance issues?
+
+00:01:21.440 --> 00:01:24.709
+As you can see at just a cursory glance,
+
+00:01:24.709 --> 00:01:28.700
+we came up with eight layers of security for a single web host.
+
+00:01:28.700 --> 00:01:31.430
+Take your time, take good notes,
+
+00:01:31.430 --> 00:01:33.530
+and you will be implementing defense in depth
+
+00:01:33.530 --> 00:01:36.600
+in your own organization before you know it.
+

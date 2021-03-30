@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+In this lesson, we learned about using defense and
+
+00:00:02.970 --> 00:00:06.015
+depth to create a layered defensive strategy.
+
+00:00:06.015 --> 00:00:08.610
+We also introduced the three components of
+
+00:00:08.610 --> 00:00:11.910
+security that will be used frequently in subsequent lessons.
+
+00:00:11.910 --> 00:00:15.270
+They are, prevent, detect, and respond.
+
+00:00:15.270 --> 00:00:19.485
+We also learned about the wealth of security standards offered by NIST,
+
+00:00:19.485 --> 00:00:21.870
+and specifically NIST 800.
+
+00:00:21.870 --> 00:00:26.280
+We close this lesson out with an introduction to the principle of least privilege.
+
+00:00:26.280 --> 00:00:29.760
+This specifically is something we will revisit throughout the course.
+
+00:00:29.760 --> 00:00:32.610
+In lesson 2, we'll take these principles and
+
+00:00:32.610 --> 00:00:36.250
+apply them to network and host based security.
+

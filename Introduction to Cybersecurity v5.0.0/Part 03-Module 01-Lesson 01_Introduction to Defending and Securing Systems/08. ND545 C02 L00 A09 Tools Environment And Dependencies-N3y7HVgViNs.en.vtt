@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.235
+Here's what you'll need for this course.
+
+00:00:02.235 --> 00:00:05.700
+You will access this on any computer that can successfully render
+
+00:00:05.700 --> 00:00:09.660
+the videos and connect to remote desktop, and potentially SSH.
+
+00:00:09.660 --> 00:00:13.275
+Tablets, are not recommended and may affect your experience.
+
+00:00:13.275 --> 00:00:17.460
+There are a total of five virtual machines that are hosted in Azure.
+
+00:00:17.460 --> 00:00:24.290
+Two of them, Windows Server 2016 and CentOS 7.X are for the labs and three of them,
+
+00:00:24.290 --> 00:00:25.505
+a Windows 10 machine,
+
+00:00:25.505 --> 00:00:30.000
+server 2016 and CentOS 7.X are for the course project.
+
+00:00:30.000 --> 00:00:32.490
+While it is included in the instructions,
+
+00:00:32.490 --> 00:00:35.895
+I want to remind you that when you are not using the Azure VMs,
+
+00:00:35.895 --> 00:00:39.850
+you need to power them off to save usage credits and money.
+

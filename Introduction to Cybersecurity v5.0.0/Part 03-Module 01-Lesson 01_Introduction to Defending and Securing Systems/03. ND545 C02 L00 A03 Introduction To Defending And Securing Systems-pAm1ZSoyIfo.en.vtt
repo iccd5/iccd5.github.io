@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.845
+In the lessons that follow,
+
+00:00:01.845 --> 00:00:04.755
+you will learn that security is a layered proposition,
+
+00:00:04.755 --> 00:00:06.300
+the more layers you have,
+
+00:00:06.300 --> 00:00:08.505
+the more they support one another and act
+
+00:00:08.505 --> 00:00:11.340
+as building blocks to protect your organization.
+
+00:00:11.340 --> 00:00:12.915
+In addition to layers,
+
+00:00:12.915 --> 00:00:15.240
+we will frame all of the subsequent skills you'll
+
+00:00:15.240 --> 00:00:18.720
+learn in the form of a three component model of security.
+
+00:00:18.720 --> 00:00:21.240
+The first component is prevention.
+
+00:00:21.240 --> 00:00:23.430
+When most people think of cybersecurity,
+
+00:00:23.430 --> 00:00:24.840
+they're thinking of this component,
+
+00:00:24.840 --> 00:00:27.660
+keep the bad guys out and the good stuff in.
+
+00:00:27.660 --> 00:00:30.030
+The second component is detection.
+
+00:00:30.030 --> 00:00:34.575
+Should the adversary get past our preventative defenses, we want to know.
+
+00:00:34.575 --> 00:00:36.780
+Response is the final component.
+
+00:00:36.780 --> 00:00:41.410
+You must have an incident response plan for those events that are detected.
+

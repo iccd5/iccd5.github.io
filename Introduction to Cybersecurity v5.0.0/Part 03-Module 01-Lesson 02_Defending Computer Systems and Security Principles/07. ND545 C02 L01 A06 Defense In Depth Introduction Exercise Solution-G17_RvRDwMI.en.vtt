@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+You are tasked with providing four examples of
+
+00:00:02.970 --> 00:00:05.925
+key defense in depth security points for an organization.
+
+00:00:05.925 --> 00:00:11.460
+It has one headquarters location that contains all of the on-premises server hardware,
+
+00:00:11.460 --> 00:00:13.800
+three branch offices that connect to
+
+00:00:13.800 --> 00:00:17.385
+the headquarters facility for email and other applications,
+
+00:00:17.385 --> 00:00:23.820
+a minimal cloud infrastructure that is contacted by customers as well as employees,
+
+00:00:23.820 --> 00:00:26.340
+a workforce with laptops,
+
+00:00:26.340 --> 00:00:29.415
+workstations, and a mix of Windows and Mac.
+
+00:00:29.415 --> 00:00:31.050
+Let's see how you did.
+
+00:00:31.050 --> 00:00:33.600
+Here are six examples, let's go through them.
+
+00:00:33.600 --> 00:00:36.315
+The headquarters location would need a larger,
+
+00:00:36.315 --> 00:00:41.125
+more powerful firewall to handle the additional traffic from the branch offices.
+
+00:00:41.125 --> 00:00:44.645
+If the primary infrastructure is located at the headquarters,
+
+00:00:44.645 --> 00:00:47.990
+controlled access to the server room is a necessity.
+
+00:00:47.990 --> 00:00:51.665
+The server infrastructure, both on-prem and cloud,
+
+00:00:51.665 --> 00:00:55.960
+will require proper permissions given their purpose and operating system.
+
+00:00:55.960 --> 00:00:58.520
+The workforce is using laptops,
+
+00:00:58.520 --> 00:01:00.200
+which implies several things,
+
+00:01:00.200 --> 00:01:01.775
+encryption of the hard disk,
+
+00:01:01.775 --> 00:01:06.280
+VPN access, and perhaps a cloud-based antivirus are needed.
+
+00:01:06.280 --> 00:01:11.455
+The branch offices will utilize a firewall and likely secured wireless.
+
+00:01:11.455 --> 00:01:17.675
+An audit of the cloud infrastructure to ensure no public access exist must be completed.
+
+00:01:17.675 --> 00:01:20.170
+It's fine if you didn't come up with the same list.
+
+00:01:20.170 --> 00:01:23.010
+There are many options to choose from.
+

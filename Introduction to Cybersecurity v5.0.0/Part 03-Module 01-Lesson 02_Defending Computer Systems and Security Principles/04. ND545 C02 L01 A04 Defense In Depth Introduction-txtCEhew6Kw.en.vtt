@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.520
+Cybersecurity is not a monolith.
+
+00:00:02.520 --> 00:00:05.280
+There is no one size fits all approach that you
+
+00:00:05.280 --> 00:00:08.010
+can forklift into your organization and call it a day.
+
+00:00:08.010 --> 00:00:12.240
+It is a multidimensional field that should be treated like a living thing.
+
+00:00:12.240 --> 00:00:16.020
+The challenges change daily and you have to stay on your toes.
+
+00:00:16.020 --> 00:00:18.120
+The adversary certainly does.
+
+00:00:18.120 --> 00:00:19.425
+Having said all that,
+
+00:00:19.425 --> 00:00:21.390
+there are some fundamentals that are in place.
+
+00:00:21.390 --> 00:00:22.665
+If you get those right,
+
+00:00:22.665 --> 00:00:24.135
+you'll be well on your way.
+
+00:00:24.135 --> 00:00:29.369
+With Defense in Depth will learn that in order to secure our organization systems,
+
+00:00:29.369 --> 00:00:32.250
+we'll need several components as opposed to one.
+
+00:00:32.250 --> 00:00:36.075
+You may have heard that cybersecurity is a layered approach.
+
+00:00:36.075 --> 00:00:37.800
+There are many different takes,
+
+00:00:37.800 --> 00:00:40.885
+but for this course we're going with three components.
+
+00:00:40.885 --> 00:00:44.060
+Prevention, detection, and response.
+
+00:00:44.060 --> 00:00:46.600
+We'll reference these throughout the course.
+
+00:00:46.600 --> 00:00:49.105
+First up is Defense in Depth.
+
+00:00:49.105 --> 00:00:50.945
+By the end of this section,
+
+00:00:50.945 --> 00:00:53.855
+you will understand what Defense in Depth is,
+
+00:00:53.855 --> 00:00:56.915
+be able to explain the different components,
+
+00:00:56.915 --> 00:01:00.200
+and apply what you've learned to your own organization.
+
+00:01:00.200 --> 00:01:04.595
+Where does Defense in Depth fit in our three component model of security?
+
+00:01:04.595 --> 00:01:09.465
+It has all three: prevention, detection, and response.
+
+00:01:09.465 --> 00:01:12.960
+So what exactly is Defense in Depth?
+
+00:01:12.960 --> 00:01:16.835
+Defense in Depth is adapted from military lingo.
+
+00:01:16.835 --> 00:01:18.890
+It refers to putting multiple,
+
+00:01:18.890 --> 00:01:21.560
+and diverse types of obstacles in front of the enemy,
+
+00:01:21.560 --> 00:01:24.955
+to require additional use of their resources and effort.
+
+00:01:24.955 --> 00:01:27.304
+By adding complimentary defenses,
+
+00:01:27.304 --> 00:01:31.040
+the weakness of one defense is covered by the strength of another.
+
+00:01:31.040 --> 00:01:34.025
+Similarly, if one defense fails completely,
+
+00:01:34.025 --> 00:01:37.375
+another's right behind it, thus minimizing risk.
+
+00:01:37.375 --> 00:01:42.185
+For this course, we're going to focus on the following components of Defense in Depth.
+
+00:01:42.185 --> 00:01:46.565
+Security policies and procedures appear throughout the course.
+
+00:01:46.565 --> 00:01:50.200
+These along with the principles you'll learn in this lesson.
+
+00:01:50.200 --> 00:01:55.015
+Will provide the blueprint to guide the implementation of your security program.
+
+00:01:55.015 --> 00:02:00.185
+We'll learn about firewalls and other network protection devices in later lessons.
+
+00:02:00.185 --> 00:02:03.605
+Monitoring is a key component in security.
+
+00:02:03.605 --> 00:02:05.959
+If you aren't watching alerts,
+
+00:02:05.959 --> 00:02:08.885
+performance metrics, and other indicators.
+
+00:02:08.885 --> 00:02:12.005
+How can you tell how effective your defenses are?
+
+00:02:12.005 --> 00:02:14.230
+Aside from personnel and data.
+
+00:02:14.230 --> 00:02:17.585
+The most interior layer of security is host security.
+
+00:02:17.585 --> 00:02:21.845
+We'll look at several methods for securing the servers in your organization.
+
+00:02:21.845 --> 00:02:27.365
+As you will see, the goal is to defend the data that your organization values.
+
+00:02:27.365 --> 00:02:29.270
+Whether that's customer data,
+
+00:02:29.270 --> 00:02:32.555
+intellectual property, or various patterns.
+
+00:02:32.555 --> 00:02:36.560
+From there, we add layer upon layer of defenses.
+
+00:02:36.560 --> 00:02:38.570
+This is a high level visual,
+
+00:02:38.570 --> 00:02:40.100
+but as you'll see later,
+
+00:02:40.100 --> 00:02:44.430
+each layer has potential multiple sub-layers.
+

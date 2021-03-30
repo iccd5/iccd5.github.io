@@ -1,0 +1,283 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.324
+In continuing with security principles,
+
+00:00:02.324 --> 00:00:04.830
+we're turning our attention to the NIST framework.
+
+00:00:04.830 --> 00:00:07.860
+We'll learn how to apply the recommendations included
+
+00:00:07.860 --> 00:00:11.445
+within the framework to our organizations security program.
+
+00:00:11.445 --> 00:00:13.305
+By the end of this section,
+
+00:00:13.305 --> 00:00:15.495
+you'll understand what NIST is,
+
+00:00:15.495 --> 00:00:18.135
+we'll review several sample standards.
+
+00:00:18.135 --> 00:00:23.775
+Finally, we'll compare the NIST 800 standards with the NIST cybersecurity framework.
+
+00:00:23.775 --> 00:00:28.005
+Where does NIST fit in our three component model of security,
+
+00:00:28.005 --> 00:00:30.780
+primarily in prevention and detection.
+
+00:00:30.780 --> 00:00:33.435
+So what exactly is NIST?
+
+00:00:33.435 --> 00:00:37.684
+NIST is the National Institute of Standards and Technology.
+
+00:00:37.684 --> 00:00:40.190
+It was founded in 1901 to help
+
+00:00:40.190 --> 00:00:44.660
+the US industrial sector standardize technology, metrics and measurements.
+
+00:00:44.660 --> 00:00:49.490
+It has since been expanded to include thousands of standards relating to computers,
+
+00:00:49.490 --> 00:00:52.930
+nuclear, AI, and many other technologies.
+
+00:00:52.930 --> 00:00:56.540
+NIST compliance is mandatory for many federal contracts.
+
+00:00:56.540 --> 00:00:58.430
+It is such a ubiquitous standard to
+
+00:00:58.430 --> 00:01:01.325
+many commercial contracts including the framework as well.
+
+00:01:01.325 --> 00:01:06.020
+For this course, we'll be focusing on standards within the NIST 800 framework,
+
+00:01:06.020 --> 00:01:09.445
+but also taking a look at the NIST cybersecurity framework.
+
+00:01:09.445 --> 00:01:11.340
+Let's look at a few examples.
+
+00:01:11.340 --> 00:01:16.400
+As stated before, there are many NIST standards that apply to cyber security.
+
+00:01:16.400 --> 00:01:19.535
+We're going to be taking a look at three sample standards.
+
+00:01:19.535 --> 00:01:22.220
+Remember, you use standards as guides to
+
+00:01:22.220 --> 00:01:25.760
+assist in setting up the various components of your security program.
+
+00:01:25.760 --> 00:01:31.015
+Let's kick things off with NIST 800-41 Revision 1,
+
+00:01:31.015 --> 00:01:33.050
+one of the standards for firewalls.
+
+00:01:33.050 --> 00:01:37.055
+It includes information on firewall types and technologies,
+
+00:01:37.055 --> 00:01:38.855
+which we'll visit in lesson 2.
+
+00:01:38.855 --> 00:01:45.100
+It provides network design examples and recommendations via high-level network layouts.
+
+00:01:45.100 --> 00:01:47.570
+The standard provides terminology and
+
+00:01:47.570 --> 00:01:51.409
+information regarding access control in networking protocols.
+
+00:01:51.409 --> 00:01:54.020
+Finally, it gives advice on planning
+
+00:01:54.020 --> 00:01:57.680
+your firewall implementation by consulting the standard,
+
+00:01:57.680 --> 00:02:02.060
+as well as manufacturer documentation when architecting your edge defenses,
+
+00:02:02.060 --> 00:02:05.675
+you are developing a formidable layer in your defensive layout.
+
+00:02:05.675 --> 00:02:12.105
+The next example is the 800-123 General Server Security Standard.
+
+00:02:12.105 --> 00:02:15.875
+While this particular example is considered a legacy standard,
+
+00:02:15.875 --> 00:02:18.905
+it is worth visiting for the principles contained in it.
+
+00:02:18.905 --> 00:02:23.540
+Use it when discussing server implementation at a conceptual level.
+
+00:02:23.540 --> 00:02:28.760
+Specifically, it contains valuable information for server vulnerabilities and threats,
+
+00:02:28.760 --> 00:02:32.210
+as well as acting as a guide for categorizing what level
+
+00:02:32.210 --> 00:02:36.140
+of risk a particular server may represent given its purpose.
+
+00:02:36.140 --> 00:02:41.420
+Next, it has considerations for deploying your server in terms of datatypes,
+
+00:02:41.420 --> 00:02:44.975
+applications, and network requirements.
+
+00:02:44.975 --> 00:02:51.334
+800-123 also offers recommendations on security controls from physical,
+
+00:02:51.334 --> 00:02:53.675
+to logins, to security updates.
+
+00:02:53.675 --> 00:02:58.535
+Finally, the standard gives recommendations on logging and monitoring.
+
+00:02:58.535 --> 00:03:01.040
+Remember, this standard is not
+
+00:03:01.040 --> 00:03:04.910
+a procedure in that it does not provide specific instructions.
+
+00:03:04.910 --> 00:03:10.855
+Rather, it offers valuable insights in the form of server security principles.
+
+00:03:10.855 --> 00:03:18.520
+The final NIST 800 example we'll learn about is 800-175B, Revision 1.
+
+00:03:18.520 --> 00:03:21.995
+If your organization is considering implementing encryption,
+
+00:03:21.995 --> 00:03:24.865
+this standard will provide valuable insight.
+
+00:03:24.865 --> 00:03:27.735
+This standard provides important terminology,
+
+00:03:27.735 --> 00:03:32.960
+as well as offers technical specification from the IEEE and IETF,
+
+00:03:32.960 --> 00:03:36.875
+that's Institute of Electrical and Electronic Engineers
+
+00:03:36.875 --> 00:03:39.814
+and Internet Engineering Task Force, respectively.
+
+00:03:39.814 --> 00:03:45.830
+It provides high-level technical explanations on technologies such as cryptography,
+
+00:03:45.830 --> 00:03:48.995
+hash generation, and verification.
+
+00:03:48.995 --> 00:03:51.050
+Finally, the standard offers
+
+00:03:51.050 --> 00:03:55.325
+valuable information and recommendations on Key Generation and Management.
+
+00:03:55.325 --> 00:03:59.870
+Now, we're turning our attention to the NIST Cybersecurity Framework.
+
+00:03:59.870 --> 00:04:03.100
+The CSF was created in 2014,
+
+00:04:03.100 --> 00:04:06.875
+and Version 1.1 was released in 2018.
+
+00:04:06.875 --> 00:04:12.649
+It is a high level document aimed at the executive level of industries and governments.
+
+00:04:12.649 --> 00:04:15.980
+What are some items included in the Cybersecurity Framework?
+
+00:04:15.980 --> 00:04:20.285
+Strategies for identity management, risk assessments,
+
+00:04:20.285 --> 00:04:22.790
+managing security in the supply chain,
+
+00:04:22.790 --> 00:04:25.460
+and vulnerability disclosures and more.
+
+00:04:25.460 --> 00:04:28.185
+How do you use the CSF?
+
+00:04:28.185 --> 00:04:31.685
+First, you determine what your security profile is.
+
+00:04:31.685 --> 00:04:36.410
+That means, is your company at the forefront of being proactive about security?
+
+00:04:36.410 --> 00:04:39.725
+Or do you typically wait and react when an event occurs?
+
+00:04:39.725 --> 00:04:43.460
+Ideally, you want to be more proactive and less reactive.
+
+00:04:43.460 --> 00:04:46.400
+At this point, you're ready for a risk assessment.
+
+00:04:46.400 --> 00:04:51.785
+Many organizations began with a self-assessment to resolve any obvious discrepancies.
+
+00:04:51.785 --> 00:04:53.660
+But to get a clear understanding,
+
+00:04:53.660 --> 00:04:56.225
+it's best to consult an outside vendor.
+
+00:04:56.225 --> 00:04:57.815
+The vendor will produce
+
+00:04:57.815 --> 00:05:02.480
+a post assessment report that will include a list of gaps and your security.
+
+00:05:02.480 --> 00:05:07.130
+Often these will be categorized from critical to simple recommendation.
+
+00:05:07.130 --> 00:05:10.400
+You'll want to analyze this report with your management team.
+
+00:05:10.400 --> 00:05:13.865
+Once the report has been analyzed and priorities are set,
+
+00:05:13.865 --> 00:05:17.690
+you develop a plan of action to remedy the findings and start again.
+
+00:05:17.690 --> 00:05:19.640
+So which should you use?
+
+00:05:19.640 --> 00:05:24.430
+The NIST 800 framework or the Cybersecurity Framework? Use both.
+
+00:05:24.430 --> 00:05:29.660
+The NIST 800 standards are more practical and offer specific recommendations to secure
+
+00:05:29.660 --> 00:05:32.540
+your organization while the CSF is a
+
+00:05:32.540 --> 00:05:35.810
+bit more theoretical and is aimed at the leadership level.
+
+00:05:35.810 --> 00:05:38.270
+Using both will allow you to explain to
+
+00:05:38.270 --> 00:05:43.410
+the executive team how your security tactics align with their strategy.
+

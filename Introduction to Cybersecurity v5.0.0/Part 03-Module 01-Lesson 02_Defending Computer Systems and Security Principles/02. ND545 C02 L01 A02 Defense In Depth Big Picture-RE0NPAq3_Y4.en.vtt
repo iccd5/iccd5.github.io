@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.460
+Why do security principles matter?
+
+00:00:02.460 --> 00:00:06.345
+In courtrooms, judges often look for precedence.
+
+00:00:06.345 --> 00:00:09.060
+Cases with similar characteristics as
+
+00:00:09.060 --> 00:00:12.390
+their current one that had been adjudicated in the past.
+
+00:00:12.390 --> 00:00:16.215
+While they make up their own mind based on the facts and the law,
+
+00:00:16.215 --> 00:00:20.155
+they use those prior cases as reference points and frameworks.
+
+00:00:20.155 --> 00:00:23.030
+The cybersecurity profession is no different.
+
+00:00:23.030 --> 00:00:25.440
+Why reinvent the wheel when you can
+
+00:00:25.440 --> 00:00:28.530
+use other proven sources to build your security program?
+
+00:00:28.530 --> 00:00:32.315
+Every organization is different, even within industries.
+
+00:00:32.315 --> 00:00:34.310
+In building your security program,
+
+00:00:34.310 --> 00:00:36.295
+you will reference many sources.
+
+00:00:36.295 --> 00:00:41.030
+For this course, we will use three primary categories of sources,
+
+00:00:41.030 --> 00:00:43.715
+frameworks and best practices,
+
+00:00:43.715 --> 00:00:48.350
+vendor documentation and regulatory requirements.
+
+00:00:48.350 --> 00:00:51.485
+First up, frameworks and best practices.
+
+00:00:51.485 --> 00:00:55.145
+A framework is a set of agreed upon policies,
+
+00:00:55.145 --> 00:00:59.680
+procedures, and processes that define how information is managed.
+
+00:00:59.680 --> 00:01:02.180
+There are hundreds of security frameworks.
+
+00:01:02.180 --> 00:01:04.850
+But for this course, we'll primarily use NIST,
+
+00:01:04.850 --> 00:01:07.879
+the National Institute of Standards and Technology.
+
+00:01:07.879 --> 00:01:11.015
+Best practices are very similar in nature.
+
+00:01:11.015 --> 00:01:14.030
+They are procedures and processes that are
+
+00:01:14.030 --> 00:01:17.290
+widely accepted within an industry as being effective.
+
+00:01:17.290 --> 00:01:22.220
+The primary difference is a framework is an official document with controls on how it
+
+00:01:22.220 --> 00:01:27.335
+is modified and best practices are generally more organically created and maintained.
+
+00:01:27.335 --> 00:01:30.140
+Next is vendor documentation.
+
+00:01:30.140 --> 00:01:33.440
+Vendor documentation is a combination of
+
+00:01:33.440 --> 00:01:38.335
+requirements and suggestions for the specific security configuration of their product.
+
+00:01:38.335 --> 00:01:42.125
+An example would be Microsoft Server Security Guide.
+
+00:01:42.125 --> 00:01:45.935
+It contains advice and recommendations on updates,
+
+00:01:45.935 --> 00:01:49.540
+security settings, identity management, and much more.
+
+00:01:49.540 --> 00:01:53.195
+Before implementing a new application or a piece of hardware,
+
+00:01:53.195 --> 00:01:56.645
+be sure you have reviewed all the appropriate documentation.
+
+00:01:56.645 --> 00:02:00.560
+If your organization is subject to regulatory compliance,
+
+00:02:00.560 --> 00:02:02.980
+such as FERPA, HIPAA,
+
+00:02:02.980 --> 00:02:07.805
+or PCI, there will certainly be documentation in the form of requirements,
+
+00:02:07.805 --> 00:02:12.210
+best practices, and recommendations for your security program.
+

@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.835
+Let's do a quick overview of this course.
+
+00:00:02.835 --> 00:00:06.885
+Lesson 1 will give us a working knowledge of defense in depth.
+
+00:00:06.885 --> 00:00:09.600
+We'll explore the NIST 800 framework
+
+00:00:09.600 --> 00:00:12.735
+and we'll take a look at the principle of least privilege.
+
+00:00:12.735 --> 00:00:15.375
+Lesson 2 has a lot to take in.
+
+00:00:15.375 --> 00:00:17.280
+We'll begin with the different types of
+
+00:00:17.280 --> 00:00:20.789
+firewalls and how to create a basic firewall rule.
+
+00:00:20.789 --> 00:00:24.480
+We'll take a look at best practices for securing enterprise wireless,
+
+00:00:24.480 --> 00:00:27.150
+then we'll learn about intrusion detection systems and
+
+00:00:27.150 --> 00:00:31.515
+intrusion protection systems including writing a basic IDS signature.
+
+00:00:31.515 --> 00:00:36.605
+We close this lesson out with a look at securing Windows and Linux operating systems.
+
+00:00:36.605 --> 00:00:40.130
+Lesson 3 is all about detection and response.
+
+00:00:40.130 --> 00:00:42.830
+We learn about system event logs,
+
+00:00:42.830 --> 00:00:47.395
+monitoring network traffic, and close it out with a look at SIEMs.
+
+00:00:47.395 --> 00:00:48.995
+In the final lesson,
+
+00:00:48.995 --> 00:00:51.994
+we go through an introduction to encryption,
+
+00:00:51.994 --> 00:00:54.350
+then we learn about encryption in transit,
+
+00:00:54.350 --> 00:00:58.619
+and we close it out with file hashes and digital signatures.
+

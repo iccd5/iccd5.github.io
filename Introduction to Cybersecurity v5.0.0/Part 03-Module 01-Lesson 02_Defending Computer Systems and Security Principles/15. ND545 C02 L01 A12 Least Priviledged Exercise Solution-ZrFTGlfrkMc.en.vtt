@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.850
+You were tasked with using what you've learned here,
+
+00:00:02.850 --> 00:00:05.790
+as well as your own research to identify areas where
+
+00:00:05.790 --> 00:00:07.260
+an IT department could perform
+
+00:00:07.260 --> 00:00:10.395
+its duties while implementing the principle of least privilege.
+
+00:00:10.395 --> 00:00:12.720
+Let's see how you did. Here are
+
+00:00:12.720 --> 00:00:16.230
+two suggestions that could be implemented separately or combined.
+
+00:00:16.230 --> 00:00:20.080
+There are privileged management applications such as CyberArk,
+
+00:00:20.080 --> 00:00:24.915
+that allow the checking out of administrator or root level accounts and passwords.
+
+00:00:24.915 --> 00:00:30.210
+Effectively, they generate a one-time password that will be used for that single event.
+
+00:00:30.210 --> 00:00:34.110
+The IT department can configure two different user accounts.
+
+00:00:34.110 --> 00:00:36.110
+For a vast majority of their day,
+
+00:00:36.110 --> 00:00:38.440
+they'll be using their user-level account.
+
+00:00:38.440 --> 00:00:41.075
+When an administrator or root account is needed,
+
+00:00:41.075 --> 00:00:44.255
+they'll login with their privilege account just for that task.
+
+00:00:44.255 --> 00:00:46.520
+For example, Jane Smith can have
+
+00:00:46.520 --> 00:00:51.750
+a normal jsmith account with an administrator account of!jsmith,
+
+00:00:51.750 --> 00:00:54.790
+also known as bang jsmith
+
