@@ -1,0 +1,22 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.930
+It is important to know what encryption you are utilizing in your environment.
+
+00:00:03.930 --> 00:00:08.865
+Let's check the encryption we're using for SSH on our CentOS Lab machine.
+
+00:00:08.865 --> 00:00:17.400
+Type sudo sshd -T and then | grep with cipher in quotes,
+
+00:00:17.400 --> 00:00:20.829
+you will be asked to re-authenticate.
+
+00:00:21.260 --> 00:00:24.540
+As you can see, this server supports
+
+00:00:24.540 --> 00:00:29.470
+all three AES algorithms as well as Blowfish and triple-DES.
+

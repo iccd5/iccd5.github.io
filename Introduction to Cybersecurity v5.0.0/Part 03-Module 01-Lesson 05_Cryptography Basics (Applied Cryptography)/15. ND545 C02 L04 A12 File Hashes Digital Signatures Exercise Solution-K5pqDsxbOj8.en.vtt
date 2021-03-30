@@ -1,0 +1,19 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.660
+You were tasked logging on to the Windows 2016 server that was
+
+00:00:03.660 --> 00:00:07.470
+provided and getting the file hashes for three files placed there for you.
+
+00:00:07.470 --> 00:00:09.330
+Let's see what you came up with.
+
+00:00:09.330 --> 00:00:10.995
+This should match your output.
+
+00:00:10.995 --> 00:00:14.530
+Notice the algorithm is SHA 256.
+

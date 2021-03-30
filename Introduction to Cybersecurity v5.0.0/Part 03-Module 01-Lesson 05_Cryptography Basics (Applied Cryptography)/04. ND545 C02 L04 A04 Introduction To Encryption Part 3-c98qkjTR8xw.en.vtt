@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.270
+Now let's take a look at asymmetric encryption.
+
+00:00:03.270 --> 00:00:07.810
+Asymmetric is a form of encryption where keys are in pairs.
+
+00:00:07.810 --> 00:00:10.605
+It is known as public key cryptography,
+
+00:00:10.605 --> 00:00:14.145
+as one of the keys is usually public and the other secret.
+
+00:00:14.145 --> 00:00:17.625
+One key encrypts and the other decrypts.
+
+00:00:17.625 --> 00:00:21.270
+To work successfully, asymmetric relies on
+
+00:00:21.270 --> 00:00:25.530
+a key management system in the form of a public key infrastructure.
+
+00:00:25.530 --> 00:00:28.620
+A public key infrastructure, or PKI,
+
+00:00:28.620 --> 00:00:30.765
+is a set of servers, software,
+
+00:00:30.765 --> 00:00:34.245
+and protocols that manage the keys of a group of users.
+
+00:00:34.245 --> 00:00:38.235
+PKI uses digital certificates to verify identity.
+
+00:00:38.235 --> 00:00:41.145
+Certificate authorities, or CAs,
+
+00:00:41.145 --> 00:00:44.720
+are organizations that act to validate identities and bind them
+
+00:00:44.720 --> 00:00:48.680
+to cryptographic key pairs by issuing those digital certificates.
+
+00:00:48.680 --> 00:00:52.175
+Let's go through some examples of asymmetric encryption.
+
+00:00:52.175 --> 00:00:56.950
+First up, Rivest-Shamir-Adleman, better known as RSA,
+
+00:00:56.950 --> 00:01:01.325
+it is used primarily for computer messaging, think HTTPS.
+
+00:01:01.325 --> 00:01:04.250
+RSAs keys are created by generating
+
+00:01:04.250 --> 00:01:08.465
+two large prime numbers and perform additional mathematical formulations on them,
+
+00:01:08.465 --> 00:01:10.015
+creating the public key.
+
+00:01:10.015 --> 00:01:13.100
+The public key is then sent to anyone that requests it.
+
+00:01:13.100 --> 00:01:16.490
+They encrypt the data and send it back to the recipient.
+
+00:01:16.490 --> 00:01:19.040
+At this point, the private key is used in
+
+00:01:19.040 --> 00:01:22.865
+conjunction with one of the original prime numbers to decrypt the data.
+
+00:01:22.865 --> 00:01:26.765
+We'll close asymmetric encryption with Diffie-Hellman.
+
+00:01:26.765 --> 00:01:31.625
+In DH, the keys are not exchange necessarily as much as they are jointly derived.
+
+00:01:31.625 --> 00:01:36.335
+The initial key is agreed upon publicly in the form of a very large prime number,
+
+00:01:36.335 --> 00:01:38.405
+think 2,000 bits in length.
+
+00:01:38.405 --> 00:01:44.285
+Each participant chooses another prime number that serves as their secret or private key.
+
+00:01:44.285 --> 00:01:48.290
+To encrypt, each participant combines their private key with
+
+00:01:48.290 --> 00:01:52.810
+the public key and sends to the other who adds their private key and sends back.
+
+00:01:52.810 --> 00:01:55.640
+To decrypt, the recipient simply removes
+
+00:01:55.640 --> 00:01:58.895
+their private key and the public key leaving the data.
+
+00:01:58.895 --> 00:02:03.055
+More information on this and all the techniques can be found in the classroom.
+
+00:02:03.055 --> 00:02:07.100
+Let's look at some strengths and weaknesses of asymmetric encryption.
+
+00:02:07.100 --> 00:02:09.815
+Asymmetric encryption allows you to verify
+
+00:02:09.815 --> 00:02:12.890
+the identity of a sender with digital certificates.
+
+00:02:12.890 --> 00:02:15.740
+Another strength of asymmetric encryption is that
+
+00:02:15.740 --> 00:02:19.505
+the private key never needs to be shared, thus adding security.
+
+00:02:19.505 --> 00:02:21.500
+Let's look at a couple of weaknesses.
+
+00:02:21.500 --> 00:02:24.080
+Asymmetric encryption is much slower than
+
+00:02:24.080 --> 00:02:27.409
+symmetric due to the requirement of public key exchange.
+
+00:02:27.409 --> 00:02:31.900
+With certificate authorities being required for authentication of digital certificates,
+
+00:02:31.900 --> 00:02:34.790
+it has created the need to trust a third party.
+
+00:02:34.790 --> 00:02:39.280
+What are the common use cases for both symmetric and asymmetric encryption?
+
+00:02:39.280 --> 00:02:41.960
+Let's find out. Many banking systems
+
+00:02:41.960 --> 00:02:45.200
+use symmetric encryption due to its performance advantage.
+
+00:02:45.200 --> 00:02:49.160
+Data at rest, files that are stored on a hard drive,
+
+00:02:49.160 --> 00:02:53.105
+often use symmetric encryption because the system or the user hold the key.
+
+00:02:53.105 --> 00:02:56.075
+For asymmetric, common use cases are
+
+00:02:56.075 --> 00:03:00.055
+digital certificates to verify identity with a third party.
+
+00:03:00.055 --> 00:03:03.500
+Finally, asymmetric is perhaps most commonly associated with
+
+00:03:03.500 --> 00:03:07.265
+TLS in the form of HTTPS or secure web browsing.
+
+00:03:07.265 --> 00:03:09.650
+Think that little lock in your address bar.
+
+00:03:09.650 --> 00:03:12.260
+The perfect use case is to use both.
+
+00:03:12.260 --> 00:03:14.305
+For example, in VPN traffic,
+
+00:03:14.305 --> 00:03:17.780
+the connection is established using asymmetric encryption
+
+00:03:17.780 --> 00:03:21.994
+then private keys are exchanged and symmetric encryption is established.
+
+00:03:21.994 --> 00:03:25.530
+SSH operates in much the same way.
+

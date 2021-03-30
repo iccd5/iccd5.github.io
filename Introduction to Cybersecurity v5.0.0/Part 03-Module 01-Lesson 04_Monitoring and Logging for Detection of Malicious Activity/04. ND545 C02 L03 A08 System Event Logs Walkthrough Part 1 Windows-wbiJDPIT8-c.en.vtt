@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.270
+Here we are in our Windows lab environment.
+
+00:00:03.270 --> 00:00:06.960
+If we wanted to check for failed login attempts to save time,
+
+00:00:06.960 --> 00:00:08.835
+we could open up PowerShell.
+
+00:00:08.835 --> 00:00:12.430
+Be sure to right-click and run as administrator,
+
+00:00:15.560 --> 00:00:18.285
+and then run the following command.
+
+00:00:18.285 --> 00:00:19.665
+Git event log.
+
+00:00:19.665 --> 00:00:21.524
+The log name is security,
+
+00:00:21.524 --> 00:00:24.150
+the instance ID is 4625,
+
+00:00:24.150 --> 00:00:27.179
+which you will recall are failed logins,
+
+00:00:27.179 --> 00:00:29.490
+then we're going to look at the newest 25.
+
+00:00:29.490 --> 00:00:32.370
+In this case, we spotted something interesting.
+
+00:00:32.370 --> 00:00:35.595
+We also want to do a deeper dive in Event Viewer.
+
+00:00:35.595 --> 00:00:38.085
+To get there, hit your Windows key,
+
+00:00:38.085 --> 00:00:41.770
+type Event Viewer, hit enter,
+
+00:00:43.610 --> 00:00:48.495
+navigate to Windows logs, security,
+
+00:00:48.495 --> 00:00:50.700
+sort by audit failure,
+
+00:00:50.700 --> 00:00:56.340
+and there we can view the event 4625s that have happened on this machine.
+

@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.605
+Just a few moments ago,
+
+00:00:01.605 --> 00:00:03.300
+we learned about the Caesar Cipher.
+
+00:00:03.300 --> 00:00:05.550
+Let's take a look at it in action.
+
+00:00:05.550 --> 00:00:08.250
+Here's a basic Python script that will perform
+
+00:00:08.250 --> 00:00:11.460
+the rotation for us and give us our encrypted message.
+
+00:00:11.460 --> 00:00:14.310
+We can also use it to decrypt the message.
+
+00:00:14.310 --> 00:00:18.870
+To run the script, you type python and then the name of the script.
+
+00:00:18.870 --> 00:00:22.575
+The message to encrypt, we'll type Brutus.
+
+00:00:22.575 --> 00:00:24.990
+The key will be how far we shift it.
+
+00:00:24.990 --> 00:00:27.495
+We're going to shift it over four letters.
+
+00:00:27.495 --> 00:00:31.530
+As you see, there's our output, f, v, y,
+
+00:00:31.530 --> 00:00:35.430
+x, y, w. Each letter shifted four spaces to the right.
+
+00:00:35.430 --> 00:00:40.604
+To decrypt, you type in the encrypted message,
+
+00:00:40.604 --> 00:00:42.995
+and then you go the opposite direction,
+
+00:00:42.995 --> 00:00:48.480
+minus four, and there's the decrypted message.
+

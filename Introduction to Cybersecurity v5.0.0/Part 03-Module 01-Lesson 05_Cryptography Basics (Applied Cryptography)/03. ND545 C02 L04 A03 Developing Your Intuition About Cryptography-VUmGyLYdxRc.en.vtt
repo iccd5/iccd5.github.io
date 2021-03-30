@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.875
+Let's use our heart or an intuition to solve this data breach case.
+
+00:00:04.875 --> 00:00:06.900
+You have alerts set up on
+
+00:00:06.900 --> 00:00:10.935
+several dark websites for information related to your organization.
+
+00:00:10.935 --> 00:00:13.170
+You receive an alert that has a list of
+
+00:00:13.170 --> 00:00:16.485
+documents that appear to have originated within your company.
+
+00:00:16.485 --> 00:00:20.670
+Your first thought is you have been attacked and your systems have been breached.
+
+00:00:20.670 --> 00:00:24.720
+You quickly notify management and shift into incident response mode.
+
+00:00:24.720 --> 00:00:28.860
+You scour the trail from outside your organization all the way to
+
+00:00:28.860 --> 00:00:33.540
+the database the data resides on looking for openings, none detected.
+
+00:00:33.540 --> 00:00:38.315
+You know your database is encrypted as is the storage it resides on,
+
+00:00:38.315 --> 00:00:41.195
+there doesn't seem to be any misconfigurations.
+
+00:00:41.195 --> 00:00:45.770
+Your knowledge and experience tells you that most encryption is transparent to
+
+00:00:45.770 --> 00:00:50.720
+the user as long as they have appropriate login credentials and an authorized machine.
+
+00:00:50.720 --> 00:00:52.805
+Your intuition is telling you,
+
+00:00:52.805 --> 00:00:54.800
+this is an insider threat.
+
+00:00:54.800 --> 00:00:57.920
+You quickly get permission to deploy honey tokens in
+
+00:00:57.920 --> 00:01:00.995
+the form of documents that are similar to the ones taken.
+
+00:01:00.995 --> 00:01:03.170
+A honey token or canary token,
+
+00:01:03.170 --> 00:01:05.900
+is a file or record that is designed to be
+
+00:01:05.900 --> 00:01:09.175
+abused and leave a trail leading back to the offender.
+
+00:01:09.175 --> 00:01:12.300
+Within 48 hours, you receive two alerts.
+
+00:01:12.300 --> 00:01:15.440
+One, new dark web alert and the other from the honey
+
+00:01:15.440 --> 00:01:18.805
+token leading back to the employee leaking the data.
+
+00:01:18.805 --> 00:01:21.590
+The employee was leaving the company soon after being passed
+
+00:01:21.590 --> 00:01:25.590
+over for promotion and wanted to cause damage on the way out.
+

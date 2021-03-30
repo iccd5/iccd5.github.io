@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.615
+To view the current connections on your set OS distro,
+
+00:00:03.615 --> 00:00:09.340
+connect via SSH and type netstat space minus at.
+
+00:00:09.890 --> 00:00:13.845
+As you can see, there's not many connections at the moment.
+
+00:00:13.845 --> 00:00:18.030
+Let's take a look at the routing table type netstat space minus
+
+00:00:18.030 --> 00:00:24.570
+r. Here you see information on how this machine connects with the outside world.
+
+00:00:24.570 --> 00:00:27.240
+To view only the ports listening to traffic,
+
+00:00:27.240 --> 00:00:33.615
+type netstat space minus l. To view all of the current SSH connections,
+
+00:00:33.615 --> 00:00:41.530
+type netstat space minus atep pipe, grep ssh.
+

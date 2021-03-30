@@ -1,0 +1,265 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise: Cryptography Basics Final</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Cryptography Basics (Applied Cryptography)</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Cryptography Basics.html">01. Cryptography Basics</a>
+    </li>
+    <li class="">
+      <a href="02. Cryptography Overview.html">02. Cryptography Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Cryptography Basics (Applied Cryptography).html">03. Cryptography Basics (Applied Cryptography)</a>
+    </li>
+    <li class="">
+      <a href="04. Introduction to Encryption.html">04. Introduction to Encryption</a>
+    </li>
+    <li class="">
+      <a href="05. Quizzes Introduction to Encryption .html">05. Quizzes: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="06. Exercise Introduction to Encryption .html">06. Exercise: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="07. Exercise Solution Introduction to Encryption .html">07. Exercise Solution: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="08. Encryption in Transit.html">08. Encryption in Transit</a>
+    </li>
+    <li class="">
+      <a href="09. Quizzes Encryption in Transit .html">09. Quizzes: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="10. Exercise Encryption in Transit .html">10. Exercise: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Solution Encryption in Transit .html">11. Exercise Solution: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="12. File HashesDigital Signatures.html">12. File Hashes/Digital Signatures</a>
+    </li>
+    <li class="">
+      <a href="13. Quizzes File HashesDigital Signatures .html">13. Quizzes: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="14. Exercise File HashesDigital Signatures .html">14. Exercise: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="15. Exercise Solution File HashesDigital Signatures .html">15. Exercise Solution: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="16. When Encryption is not a Good idea.html">16. When Encryption is not a Good idea</a>
+    </li>
+    <li class="">
+      <a href="17. Exercise Cryptography Basics Final.html">17. Exercise: Cryptography Basics Final</a>
+    </li>
+    <li class="">
+      <a href="18. Cryptography Basics (Applied Cryptography) Lesson Conclusion.html">18. Cryptography Basics (Applied Cryptography) Lesson Conclusion</a>
+    </li>
+    <li class="">
+      <a href="19. Course Recap.html">19. Course Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">17. Exercise: Cryptography Basics Final</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Using 7zip to Encrypt</p></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Complete the following activities to encrypt some files and send them to a friend.</p>
+<ul>
+<li><a href="https://7ziphelp.com/password-protect-on-7zip" rel="noopener noreferrer" target="_blank">7zip Download and Encryption Instructions</a></li>
+</ul>
+<p><strong>Note</strong>: If you get stuck downloading and using 7zip, please take a look at the <a href="https://sourceforge.net/p/sevenzip/discussion/45797/" rel="noopener noreferrer" target="_blank">7zip support pages</a></p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--0">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--0"><p>On your personal computer, create a folder on the desktop called Udacity Exercises.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--1">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--1"><p>In it, create 4 text files named File_1, File_2, File_3 and File_4. You can add whatever text you want to send to your friends.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--2">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--2"><p>Download <a href="https://www.7-zip.org/" rel="noopener noreferrer" target="_blank">7zip</a> and encrypt the folder with AES256 encryption and require a password.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--3">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--3"><p>Send your file to a friend to see if the encryption works.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--4">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--4"><p>Then send them the password and see if the file can be decrypted properly.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="ed51fcf4-b703-4374-9a56-35792cfd1e0f--5">
+        <label for="ed51fcf4-b703-4374-9a56-35792cfd1e0f--5"><p>If it doesn't work, try again!</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>If your friend or you can access the files with your password, you did it right. Great job!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="18. Cryptography Basics (Applied Cryptography) Lesson Conclusion.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. Exercise: Cryptography Basics Final')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

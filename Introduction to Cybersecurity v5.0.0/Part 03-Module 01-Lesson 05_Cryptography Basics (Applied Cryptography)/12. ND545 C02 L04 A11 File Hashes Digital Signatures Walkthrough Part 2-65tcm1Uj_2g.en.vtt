@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.585
+Earlier this lesson, we ran a Python script to show the Caesar cipher in action.
+
+00:00:04.585 --> 00:00:07.200
+Say for instance, I wanted to send a script to you,
+
+00:00:07.200 --> 00:00:10.185
+and if we wanted to be sure the script wasn't manipulated,
+
+00:00:10.185 --> 00:00:14.370
+we could use the file hash feature to compare the digital fingerprint of the file.
+
+00:00:14.370 --> 00:00:16.795
+Let's take a look at the hash for the script.
+
+00:00:16.795 --> 00:00:19.010
+For this, I'm using PowerShell.
+
+00:00:19.010 --> 00:00:21.780
+You simply type in get dash file hash,
+
+00:00:21.780 --> 00:00:23.955
+and the path plus filename.
+
+00:00:23.955 --> 00:00:26.505
+If PowerShell is already in the directory,
+
+00:00:26.505 --> 00:00:29.745
+you simply type get dash file hash,
+
+00:00:29.745 --> 00:00:31.740
+and then the name of the file,
+
+00:00:31.740 --> 00:00:33.780
+which in this case it's cc dot py.
+
+00:00:33.780 --> 00:00:39.010
+Here's the SHA256 hash for that file.
+

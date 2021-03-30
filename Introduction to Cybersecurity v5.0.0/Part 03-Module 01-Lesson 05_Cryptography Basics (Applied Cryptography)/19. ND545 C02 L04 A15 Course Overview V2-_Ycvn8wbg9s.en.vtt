@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.570
+In Lesson 1, we learned about valuable principles,
+
+00:00:03.570 --> 00:00:06.975
+processes, and procedures such as defense and depth,
+
+00:00:06.975 --> 00:00:10.845
+using the NIST 800 framework in developing your security program,
+
+00:00:10.845 --> 00:00:13.125
+and finally, the principle of least privilege,
+
+00:00:13.125 --> 00:00:15.210
+which popped up throughout the course.
+
+00:00:15.210 --> 00:00:17.955
+In Lesson 2, we learned about firewalls,
+
+00:00:17.955 --> 00:00:20.190
+including learning our own basic rule.
+
+00:00:20.190 --> 00:00:24.945
+We learned terminology and best practices for securing our wireless infrastructure.
+
+00:00:24.945 --> 00:00:29.550
+We spent some time learning about intrusion detection and wrote a sample signature,
+
+00:00:29.550 --> 00:00:31.130
+and closing Lesson 2 out,
+
+00:00:31.130 --> 00:00:35.180
+we spent quite a bit of time securing Windows and Linux operating systems.
+
+00:00:35.180 --> 00:00:38.645
+In Lesson 3, we covered a bit logs,
+
+00:00:38.645 --> 00:00:43.165
+monitoring network traffic, and we closed it out with a look at SIEMs.
+
+00:00:43.165 --> 00:00:44.585
+In the final lesson,
+
+00:00:44.585 --> 00:00:46.760
+we had an introduction to encryption.
+
+00:00:46.760 --> 00:00:49.040
+We learned about encryption and transit,
+
+00:00:49.040 --> 00:00:52.460
+and we close that one out with file Hashes and Digital signatures.
+
+00:00:52.460 --> 00:00:54.750
+Now it's time for the project.
+

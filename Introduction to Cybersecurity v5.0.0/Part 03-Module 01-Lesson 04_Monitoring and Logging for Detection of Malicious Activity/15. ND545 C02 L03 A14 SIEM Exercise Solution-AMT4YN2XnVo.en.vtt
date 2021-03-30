@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.070
+You were tasked with explaining why an organization that is PCI compliant and has
+
+00:00:05.070 --> 00:00:06.990
+multiple locations with over 1,000
+
+00:00:06.990 --> 00:00:10.425
+employees and hundreds of servers would benefit from running a SIEM.
+
+00:00:10.425 --> 00:00:12.830
+Let's see how you did. Here are
+
+00:00:12.830 --> 00:00:16.745
+several items to consider when making the case to implement a SIEM.
+
+00:00:16.745 --> 00:00:20.260
+A SIEM is centralized log aggregation repository.
+
+00:00:20.260 --> 00:00:24.850
+All the logs across the entire organization will be available in one spot.
+
+00:00:24.850 --> 00:00:27.795
+It will meet your PCI compliance requirements.
+
+00:00:27.795 --> 00:00:29.550
+Beyond just storing the logs,
+
+00:00:29.550 --> 00:00:32.290
+the SIEM applies logic that enhances the data,
+
+00:00:32.290 --> 00:00:36.140
+saving time when researching security and performance events.
+
+00:00:36.140 --> 00:00:40.445
+The real-time monitoring can alert for potentially malicious events.
+
+00:00:40.445 --> 00:00:42.770
+You can retain the data for much longer with
+
+00:00:42.770 --> 00:00:46.470
+the SIEM than are in most networking equipment and servers.
+

@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.235
+We learned in a previous lesson
+
+00:00:02.235 --> 00:00:05.955
+that intuition lies at the crossroads of knowledge and experience.
+
+00:00:05.955 --> 00:00:09.495
+There's no better example of this than when monitoring your environment.
+
+00:00:09.495 --> 00:00:14.835
+For instance, party or monitoring includes alerts for logins in foreign countries.
+
+00:00:14.835 --> 00:00:19.595
+Your knowledge tells you it isn't uncommon for members of your organization to travel.
+
+00:00:19.595 --> 00:00:23.850
+So the alerts are reviewed on a schedule as opposed to real time.
+
+00:00:23.850 --> 00:00:27.090
+Your experience tells you that Stephanie in sales,
+
+00:00:27.090 --> 00:00:28.500
+often travels to Europe.
+
+00:00:28.500 --> 00:00:33.570
+So the alert from a login in the Netherlands isn't necessarily actionable just yet.
+
+00:00:33.570 --> 00:00:36.420
+However, the intuition you've developed by
+
+00:00:36.420 --> 00:00:40.000
+reviewing these logs everyday tells you that when reviewing,
+
+00:00:40.000 --> 00:00:44.975
+you search all of the logins from the affected team members around the time of the alert,
+
+00:00:44.975 --> 00:00:46.795
+not just when the alert fired.
+
+00:00:46.795 --> 00:00:50.000
+In doing so, you see that the alert fired for
+
+00:00:50.000 --> 00:00:53.795
+a login from the Netherlands at 11:00 pm and one hour later,
+
+00:00:53.795 --> 00:00:56.135
+Stephanie logged in from Austin, Texas.
+
+00:00:56.135 --> 00:00:59.435
+In cyber security, this is called the Superman theory.
+
+00:00:59.435 --> 00:01:02.660
+Only Superman could go from the Netherlands to Austin,
+
+00:01:02.660 --> 00:01:04.295
+Texas in one hour.
+
+00:01:04.295 --> 00:01:07.880
+It is likely that Stephanie's credentials have been compromised.
+
+00:01:07.880 --> 00:01:12.365
+By using the data your systems provide you and your own intuition,
+
+00:01:12.365 --> 00:01:15.095
+you have mitigated a threat to your organization
+
+00:01:15.095 --> 00:01:19.050
+much more quickly and proactively to many of your peers.
+

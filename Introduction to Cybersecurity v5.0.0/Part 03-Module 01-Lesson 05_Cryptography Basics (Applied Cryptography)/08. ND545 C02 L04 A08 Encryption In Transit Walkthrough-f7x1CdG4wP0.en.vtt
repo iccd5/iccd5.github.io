@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+Let's take a look at the encryption for google.com.
+
+00:00:03.330 --> 00:00:05.580
+Navigate there in your favorite web browser,
+
+00:00:05.580 --> 00:00:08.280
+and click the Lock in the far left of the address bar.
+
+00:00:08.280 --> 00:00:10.755
+We'll look at what encryption is being used,
+
+00:00:10.755 --> 00:00:14.340
+what TLS version, then we'll look at the certificate.
+
+00:00:14.340 --> 00:00:17.520
+Note, the following screenshots are from Firefox.
+
+00:00:17.520 --> 00:00:19.590
+If you're using Chrome or another browser,
+
+00:00:19.590 --> 00:00:20.745
+the visuals will be different,
+
+00:00:20.745 --> 00:00:22.530
+but the information will be the same.
+
+00:00:22.530 --> 00:00:24.765
+The encryption information is highlighted.
+
+00:00:24.765 --> 00:00:30.330
+Notice we're running AES 128-bit encryption and TLS version 1.3.
+
+00:00:30.330 --> 00:00:33.480
+Now click on the "View Certificate" button.
+
+00:00:33.480 --> 00:00:38.015
+Here you can see the issuer of the certificate is Google Trust Services.
+
+00:00:38.015 --> 00:00:39.355
+You can see the dates,
+
+00:00:39.355 --> 00:00:40.850
+the certificate is valid.
+
+00:00:40.850 --> 00:00:44.675
+You can also see the site is using the elliptic curve algorithm,
+
+00:00:44.675 --> 00:00:48.170
+which is a variation of the Diffie-Hellman algorithm we learned about.
+
+00:00:48.170 --> 00:00:51.210
+The public key is shown at the bottom.
+

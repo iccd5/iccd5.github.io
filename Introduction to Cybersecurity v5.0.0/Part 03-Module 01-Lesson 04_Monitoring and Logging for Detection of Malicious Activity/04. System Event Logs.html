@@ -1,0 +1,439 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>System Event Logs</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Monitoring and Logging for Detection of Malicious Activity</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Monitoring and Logging for Detection of Malicious Activity Lesson Introduction.html">01. Monitoring and Logging for Detection of Malicious Activity Lesson Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Monitoring and Logging Overview.html">02. Monitoring and Logging Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Monitoring and Logging for Detection of Malicious Activity.html">03. Monitoring and Logging for Detection of Malicious Activity</a>
+    </li>
+    <li class="">
+      <a href="04. System Event Logs.html">04. System Event Logs</a>
+    </li>
+    <li class="">
+      <a href="05. Quizzes System Event Logs .html">05. Quizzes: System Event Logs </a>
+    </li>
+    <li class="">
+      <a href="06. Exercise System Event Logs .html">06. Exercise: System Event Logs </a>
+    </li>
+    <li class="">
+      <a href="07. Exercise Solution System Event Logs .html">07. Exercise Solution: System Event Logs </a>
+    </li>
+    <li class="">
+      <a href="08. Monitoring Network Traffic.html">08. Monitoring Network Traffic</a>
+    </li>
+    <li class="">
+      <a href="09. Quizzes Monitoring Network Traffic .html">09. Quizzes: Monitoring Network Traffic </a>
+    </li>
+    <li class="">
+      <a href="10. Exercise Monitoring Network Traffic .html">10. Exercise: Monitoring Network Traffic </a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Solution Monitoring Network Traffic .html">11. Exercise Solution: Monitoring Network Traffic </a>
+    </li>
+    <li class="">
+      <a href="12. SIEM Framework.html">12. SIEM Framework</a>
+    </li>
+    <li class="">
+      <a href="13. Quizzes SIEM .html">13. Quizzes: SIEM </a>
+    </li>
+    <li class="">
+      <a href="14. Exercise SIEM .html">14. Exercise: SIEM </a>
+    </li>
+    <li class="">
+      <a href="15. Exercise Solution SIEM .html">15. Exercise Solution: SIEM </a>
+    </li>
+    <li class="">
+      <a href="16. When is an alert not an alert.html">16. When is an alert not an alert?</a>
+    </li>
+    <li class="">
+      <a href="17. Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion.html">17. Monitoring and Logging for Detection of Malicious Activity Lesson Conclusion</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. System Event Logs</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>System Event Logs Heading</p></h3>
+  <div>
+  <h2 id="system-event-logs">System Event Logs</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L03 A07 System Event Logs Part 1</p></h3>
+  <video controls>
+  <source src="04. ND545 C02 L03 A07 System Event Logs Part 1-S1z2wybbQwo.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND545 C02 L03 A07 System Event Logs Part 1-S1z2wybbQwo.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>System Event Logs Notes</p></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>Event logs are records of events that take place on the computer.</li>
+<li>Used for troubleshooting and auditing.</li>
+<li>Perfect for setting alerts on suspicious events.</li>
+<li>3 Primary Categories of Event Logs in Windows<ul>
+<li><strong>System</strong> The System event log is for general system events, Services starting and stopping etc.</li>
+<li><strong>Security</strong> The Security event log is for login attempts and permissions events.</li>
+<li><strong>Application</strong> The Application log is for events associated specifically with applications. Think Office or Adobe.</li></ul></li>
+<li>There are 5 Types of Events.<ul>
+<li><strong>Error</strong> An error represents a real problem with the system. A hung Service or a Disk that is failing.</li>
+<li><strong>Warning</strong> A Warning is an event that indicates a pending problem, low disk space for example.</li>
+<li><strong>Information</strong> This is the most common event, it simply logs that an event took place successfully.</li>
+<li><strong>Success Audit</strong> A Success Audit is when an audited event was successful. Such as you typed your password in correctly to login.</li>
+<li><strong>Failure Audit</strong>  A Failure Audit is when an audited event was unsuccessful. When you attempt to access a folder without permissions for example.</li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>System Event Logs Image</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-23.png" alt="Anatomy of a Windows Event" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Anatomy of a Windows Event</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="additional-thoughts">Additional Thoughts:</h2>
+<ul>
+<li>There are actually 2 additional event logs in standard Windows installations. They aren't used quite as much.<ul>
+<li><strong>Setup</strong> The Windows Setup Event log contains events that occurred when the operating system was being installed.</li>
+<li><strong>Forwarded Events</strong> If the particular machine you are on has forwarded events that indicate that another Windows install on your network is sending its logs to your machine. We'll cover this topic more later.</li></ul></li>
+</ul>
+<h2 id="additional-resources">Additional Resources:</h2>
+<ul>
+<li><a href="https://www.xplg.com/windows-server-security-events-list/" rel="noopener noreferrer" target="_blank">Windows Event IDs</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor" rel="noopener noreferrer" target="_blank">More Windows Event IDs</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>System Event Logs Further Research</p></h3>
+  <div>
+  <h2 id="linux-logs">Linux Logs</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L03 A07 System Event Logs Part 2</p></h3>
+  <video controls>
+  <source src="04. ND545 C02 L03 A07 System Event Logs Part 2-xJ2G3jLl1Fk.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND545 C02 L03 A07 System Event Logs Part 2-xJ2G3jLl1Fk.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>CentOS logs are stored in /var/log</li>
+<li>We installed the application <strong>Audit</strong> to make viewing logs easier. There are other applications as well.</li>
+<li>Here are some logs that you may consider alerting on:<ul>
+<li>Failed Login Attempts</li>
+<li>Cron jobs, these are scheduled tasks and can be used to establish persistence</li>
+<li>Yum updates, in particular if the machine should not be receiving updates</li>
+<li>There's likely to be logs for the applications your Linux server is hosting that are worthy of alerts.</li></ul></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-24.png" alt="The text in white represents **files**." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The text in white represents <strong>files</strong>.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-25.png" alt="The text in blue represents **directories**." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The text in blue represents <strong>directories</strong>.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-26.png" alt="The text in red represents an **archive file**." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The text in red represents an <strong>archive file</strong>.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-27.png" alt="An example of a log file you may be interested in, the **Yum** log." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>An example of a log file you may be interested in, the <strong>Yum</strong> log.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-28.png" alt="The **Secure** log file is where successful and failed login attempts reside." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>The <strong>Secure</strong> log file is where successful and failed login attempts reside.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-29.png" alt="**Cron** log contains information on scheduled tasks. " class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p><strong>Cron</strong> log contains information on scheduled tasks. </p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="windows-walkthrough">Windows Walkthrough</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L03 A08 System Event Logs Walkthrough Part 1 Windows</p></h3>
+  <video controls>
+  <source src="04. ND545 C02 L03 A08 System Event Logs Walkthrough Part 1 Windows-wbiJDPIT8-c.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND545 C02 L03 A08 System Event Logs Walkthrough Part 1 Windows-wbiJDPIT8-c.en.vtt" label="en">
+</video>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <p>Command: Get-EventLog -Logname Security -InstanceID 4625 -Newest 25</p>
+  </div>
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="linux-walkthrough">Linux Walkthrough</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L03 A08 System Event Logs Walkthrough Part 2 Linux</p></h3>
+  <video controls>
+  <source src="04. ND545 C02 L03 A08 System Event Logs Walkthrough Part 2 Linux-FoEPIrJIXMs.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="04. ND545 C02 L03 A08 System Event Logs Walkthrough Part 2 Linux-FoEPIrJIXMs.en.vtt" label="en">
+</video>
+
+
+  <div class="jumbotron" style="margin-top: 50px; margin-bottom: 50px;">
+    <h3>INSTRUCTOR NOTE:</h3>
+    <p>Command: sudo aureport -au -i --failed | more</p>
+  </div>
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="additional-resources">Additional Resources</h3>
+<ul>
+<li><a href="https://www.linuxjournal.com/content/sysadmin-101-alerting" rel="noopener noreferrer" target="_blank">Linux Alerting</a></li>
+<li><a href="https://www.2daygeek.com/check-track-successful-failed-login-attempts-linux/" rel="noopener noreferrer" target="_blank">Linux Logs</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Quizzes System Event Logs .html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. System Event Logs')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

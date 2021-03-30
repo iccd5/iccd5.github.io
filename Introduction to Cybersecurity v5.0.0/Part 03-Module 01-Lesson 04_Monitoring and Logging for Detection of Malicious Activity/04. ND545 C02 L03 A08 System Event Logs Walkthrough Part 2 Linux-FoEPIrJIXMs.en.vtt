@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.135
+If you recall from just a few moments ago,
+
+00:00:03.135 --> 00:00:06.225
+we viewed failed login attempts on our CentOS machine.
+
+00:00:06.225 --> 00:00:08.925
+Let's do that in real time and see what we find.
+
+00:00:08.925 --> 00:00:13.245
+Remember, we're using the audit app to make the logs more readable.
+
+00:00:13.245 --> 00:00:21.420
+Type the command sudo and aureport space minus AU space minus I,
+
+00:00:21.420 --> 00:00:25.860
+space dash, dash failed, and hit Enter.
+
+00:00:25.860 --> 00:00:28.740
+Because of sudo, it's elevated privileges,
+
+00:00:28.740 --> 00:00:30.810
+we have to enter our password again.
+
+00:00:30.810 --> 00:00:34.220
+As you can see, there are a lot of failed login attempts.
+
+00:00:34.220 --> 00:00:38.140
+That is why good security and good monitoring are a must.
+

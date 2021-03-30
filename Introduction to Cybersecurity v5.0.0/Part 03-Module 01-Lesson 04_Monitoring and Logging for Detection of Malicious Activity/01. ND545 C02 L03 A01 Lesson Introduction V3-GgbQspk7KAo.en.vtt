@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.785
+Welcome to the next lesson.
+
+00:00:01.785 --> 00:00:03.975
+Now that we've learned about security principles
+
+00:00:03.975 --> 00:00:06.270
+and apply them to network and host security,
+
+00:00:06.270 --> 00:00:08.680
+we're ready to turn our attention to monitoring.
+
+00:00:08.680 --> 00:00:10.790
+This is a very important lesson.
+
+00:00:10.790 --> 00:00:12.570
+Monitoring your environment is one of
+
+00:00:12.570 --> 00:00:15.540
+the most significant responsibilities of a security analyst.
+
+00:00:15.540 --> 00:00:20.070
+If you recall our three component model of security, prevent, detect,
+
+00:00:20.070 --> 00:00:25.050
+and respond, this lesson will focus primarily on detection and response.
+
+00:00:25.050 --> 00:00:28.500
+We'll learn about system event logs,
+
+00:00:28.500 --> 00:00:34.570
+monitoring network traffic, and close it out with a look at SIEMs. Let's dig in.
+

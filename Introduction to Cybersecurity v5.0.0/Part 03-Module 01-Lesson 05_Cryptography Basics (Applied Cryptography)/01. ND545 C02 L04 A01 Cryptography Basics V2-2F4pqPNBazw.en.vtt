@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.965
+Welcome to the final lesson.
+
+00:00:01.965 --> 00:00:04.140
+Let's turn our attention to cryptography.
+
+00:00:04.140 --> 00:00:06.465
+We've already learned about securing our hosts,
+
+00:00:06.465 --> 00:00:08.010
+now we need to secure our data,
+
+00:00:08.010 --> 00:00:10.650
+and what's more important than that in cyber security.
+
+00:00:10.650 --> 00:00:13.740
+We'll go through an introduction to encryption,
+
+00:00:13.740 --> 00:00:16.125
+then we'll learn about encryption in transit,
+
+00:00:16.125 --> 00:00:20.890
+and we'll close it out with file hashes and digital signatures. Let's dig in.
+

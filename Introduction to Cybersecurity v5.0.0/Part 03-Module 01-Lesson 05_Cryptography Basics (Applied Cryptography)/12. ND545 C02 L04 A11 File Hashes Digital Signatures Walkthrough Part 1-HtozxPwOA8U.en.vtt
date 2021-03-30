@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.565
+If you recall from the walk-through we did earlier,
+
+00:00:02.565 --> 00:00:06.465
+we viewed the certificate information for google.com in the Firefox browser.
+
+00:00:06.465 --> 00:00:08.220
+Let's go back to that again.
+
+00:00:08.220 --> 00:00:10.680
+Click on the View Certificate button.
+
+00:00:10.680 --> 00:00:13.545
+Once the certificate is open, if you scroll down,
+
+00:00:13.545 --> 00:00:15.885
+you can see the digital signatures that are offered;
+
+00:00:15.885 --> 00:00:19.540
+both a SHA-256 and a SHA-1.
+

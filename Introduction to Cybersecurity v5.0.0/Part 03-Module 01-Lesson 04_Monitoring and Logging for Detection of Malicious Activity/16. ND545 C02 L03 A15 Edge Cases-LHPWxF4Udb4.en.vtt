@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.630
+When is an alert not an alert?
+
+00:00:03.630 --> 00:00:08.220
+Earlier, we reviewed a Firewall Threat Report on SSH traffic.
+
+00:00:08.220 --> 00:00:10.860
+SSH is a favorite target of
+
+00:00:10.860 --> 00:00:15.015
+adversaries as it is easy to script an automated brute force attack.
+
+00:00:15.015 --> 00:00:19.155
+However, it is not uncommon for these alerts to be a false positive.
+
+00:00:19.155 --> 00:00:22.875
+This is where the intuition we've been working on comes into play.
+
+00:00:22.875 --> 00:00:25.815
+The more you know your environment and work these alerts,
+
+00:00:25.815 --> 00:00:27.060
+you'll know that many times,
+
+00:00:27.060 --> 00:00:29.940
+these alerts come from a script that has a misconfiguration,
+
+00:00:29.940 --> 00:00:32.730
+such as a typo in the username or password,
+
+00:00:32.730 --> 00:00:36.270
+or possibly your management has ordered a penetration test.
+
+00:00:36.270 --> 00:00:37.515
+If that's the case,
+
+00:00:37.515 --> 00:00:39.060
+when you look up the source IP,
+
+00:00:39.060 --> 00:00:42.160
+you'll see that it's a valid pen test vendor.
+

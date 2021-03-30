@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.270
+There's a saying that what gets measured gets control.
+
+00:00:03.270 --> 00:00:06.030
+This applies to system health statistics in
+
+00:00:06.030 --> 00:00:08.190
+your computing environment that let you spot
+
+00:00:08.190 --> 00:00:11.145
+problems and opportunities before they become an issue.
+
+00:00:11.145 --> 00:00:17.370
+For example, say a celebrity posts a photo of your product on their social media page,
+
+00:00:17.370 --> 00:00:20.910
+there would be a rapid increase in visits to your website.
+
+00:00:20.910 --> 00:00:23.490
+By monitoring performance statistics,
+
+00:00:23.490 --> 00:00:25.155
+you could be ahead of that wave.
+
+00:00:25.155 --> 00:00:28.230
+A sudden spike in failed login attempts is
+
+00:00:28.230 --> 00:00:31.245
+a possible indication of an attack in progress.
+
+00:00:31.245 --> 00:00:34.175
+If an IP address is attempting connections to
+
+00:00:34.175 --> 00:00:37.100
+hundreds of ports on your public facing IPs,
+
+00:00:37.100 --> 00:00:39.790
+you are likely being scanned for vulnerabilities.
+
+00:00:39.790 --> 00:00:43.175
+By establishing baselines and understanding your environment,
+
+00:00:43.175 --> 00:00:46.115
+eventually, it all comes together almost as a story.
+
+00:00:46.115 --> 00:00:50.160
+You can tell when something is wrong based on alerts long before the systems crash,
+
+00:00:50.160 --> 00:00:52.765
+or an adversary compromises the system.
+
+00:00:52.765 --> 00:00:57.065
+By collecting and processing events and system logs correctly,
+
+00:00:57.065 --> 00:00:58.910
+you can adequately monitor
+
+00:00:58.910 --> 00:01:03.240
+your environment to successfully mitigate these issues and more.
+

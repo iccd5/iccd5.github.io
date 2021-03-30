@@ -1,0 +1,202 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.400
+Now we're moving on to Linux logs.
+
+00:00:02.400 --> 00:00:06.045
+Keep in mind, we're using CentOS version 7.x.
+
+00:00:06.045 --> 00:00:08.970
+We'll review the primary location for logs,
+
+00:00:08.970 --> 00:00:11.490
+we'll learn what types of logs are kept,
+
+00:00:11.490 --> 00:00:14.880
+we'll install audit that makes viewing logs easier.
+
+00:00:14.880 --> 00:00:18.315
+Then we'll view some sample events. Let's get started.
+
+00:00:18.315 --> 00:00:24.360
+The directory for logs can be found in /var/log.
+
+00:00:24.360 --> 00:00:26.700
+Once you've navigated to var/log,
+
+00:00:26.700 --> 00:00:29.220
+type "ls" to see the contents.
+
+00:00:29.220 --> 00:00:32.740
+Let's look at some of the logs in our CentOS lab server.
+
+00:00:32.740 --> 00:00:35.935
+The texts in white are log files,
+
+00:00:35.935 --> 00:00:39.615
+directories are represented by blue text,
+
+00:00:39.615 --> 00:00:44.215
+and finally, an archive file is featured in red text.
+
+00:00:44.215 --> 00:00:48.825
+As you recall, we used yum to view updates in lesson 2.
+
+00:00:48.825 --> 00:00:51.725
+You'll see the log file for yum listed here.
+
+00:00:51.725 --> 00:00:55.220
+Also important is the secure log file,
+
+00:00:55.220 --> 00:00:59.120
+this is where successful and failed login information is stored.
+
+00:00:59.120 --> 00:01:01.045
+More on that in just a moment.
+
+00:01:01.045 --> 00:01:04.050
+Lastly, you'll see the cron log file.
+
+00:01:04.050 --> 00:01:07.980
+cron is the application Linux uses to schedule tasks.
+
+00:01:07.980 --> 00:01:10.060
+As you can see, there are many others,
+
+00:01:10.060 --> 00:01:12.820
+these are just a few key examples that are noteworthy.
+
+00:01:12.820 --> 00:01:15.970
+Let's install Audit to make viewing logs easier.
+
+00:01:15.970 --> 00:01:18.865
+To do so type "sudo",
+
+00:01:18.865 --> 00:01:21.564
+which you'll recall grants us elevated privileges,
+
+00:01:21.564 --> 00:01:24.585
+"yum install audit" and hit "Enter",
+
+00:01:24.585 --> 00:01:26.570
+you'll be prompted for your password.
+
+00:01:26.570 --> 00:01:30.425
+We use audit to view successful and failed login attempts.
+
+00:01:30.425 --> 00:01:35.150
+To view successful logins type the command as shown in hit "Enter".
+
+00:01:35.150 --> 00:01:38.870
+Your exact results will vary based on the logins attempted on your server,
+
+00:01:38.870 --> 00:01:40.570
+but the output should be similar.
+
+00:01:40.570 --> 00:01:42.450
+To view failed logins,
+
+00:01:42.450 --> 00:01:44.040
+type this command as shown.
+
+00:01:44.040 --> 00:01:46.220
+Again, your data will vary,
+
+00:01:46.220 --> 00:01:48.220
+but the output should look similar.
+
+00:01:48.220 --> 00:01:52.580
+Now that we've learned where our CentOS distro stores its logs,
+
+00:01:52.580 --> 00:01:53.795
+and how to view them,
+
+00:01:53.795 --> 00:01:55.925
+what should we monitor an alert on?
+
+00:01:55.925 --> 00:02:00.270
+We should absolutely monitor an alert on failed login attempts,
+
+00:02:00.270 --> 00:02:02.745
+this is patient zero when it comes to security.
+
+00:02:02.745 --> 00:02:05.860
+An adversary is attempting to log into your computer,
+
+00:02:05.860 --> 00:02:08.900
+disabled and new cron jobs could be away for
+
+00:02:08.900 --> 00:02:12.130
+an adversary to establish persistence and should be monitored.
+
+00:02:12.130 --> 00:02:14.685
+Remember, cron jobs are scheduled tasks,
+
+00:02:14.685 --> 00:02:18.170
+it is not uncommon for an adversary to use scheduled tasks
+
+00:02:18.170 --> 00:02:21.980
+to re-establish a connection in the event their connection is lost.
+
+00:02:21.980 --> 00:02:24.110
+As we learned in a previous lesson,
+
+00:02:24.110 --> 00:02:28.465
+there are edge cases where we do not want updates installed on specific servers,
+
+00:02:28.465 --> 00:02:30.920
+due to legacy or custom applications.
+
+00:02:30.920 --> 00:02:34.585
+We may want to alert on yum updates for those servers.
+
+00:02:34.585 --> 00:02:38.945
+Finally, most Linux servers are installed to support applications.
+
+00:02:38.945 --> 00:02:41.270
+There will likely be many logs that are subject to
+
+00:02:41.270 --> 00:02:44.035
+monitoring and alerting in your organization.
+
+00:02:44.035 --> 00:02:47.225
+Unless you are dealing with a small amount of servers,
+
+00:02:47.225 --> 00:02:51.425
+it is recommended that you enable log shipping on all of your devices,
+
+00:02:51.425 --> 00:02:54.080
+otherwise, you will spend most of your time
+
+00:02:54.080 --> 00:02:57.115
+connecting and disconnecting from servers to view logs.
+
+00:02:57.115 --> 00:03:00.200
+This greatly increases the odds you'll miss something.
+
+00:03:00.200 --> 00:03:01.895
+By enabling log shipping,
+
+00:03:01.895 --> 00:03:05.420
+you can utilize centralized storage for all of your log files.
+
+00:03:05.420 --> 00:03:08.900
+This allows you to administer your environment more effectively,
+
+00:03:08.900 --> 00:03:12.710
+as there is now one single location for all of your system logs.
+
+00:03:12.710 --> 00:03:17.705
+Monitoring your devices will be considerably more streamlined with the logs in one place.
+
+00:03:17.705 --> 00:03:21.005
+By having all of your applicable system logs in one place,
+
+00:03:21.005 --> 00:03:23.000
+it eases compliance requirements.
+
+00:03:23.000 --> 00:03:26.160
+We'll cover more of this later in the lesson.
+

@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.385
+Now that we've learned about event logs,
+
+00:00:02.385 --> 00:00:05.595
+let's turn our attention to monitoring network traffic.
+
+00:00:05.595 --> 00:00:07.665
+By the end of this section,
+
+00:00:07.665 --> 00:00:10.680
+you will understand why you should monitor traffic,
+
+00:00:10.680 --> 00:00:14.640
+choose the types of traffic to monitor in your organization,
+
+00:00:14.640 --> 00:00:17.295
+what methods are available to collect data,
+
+00:00:17.295 --> 00:00:20.840
+view active connections in Windows and Linux.
+
+00:00:20.840 --> 00:00:24.044
+Finally, interpret reports from network devices.
+
+00:00:24.044 --> 00:00:28.570
+Where does monitoring network traffic fit in our three component model of security?
+
+00:00:28.570 --> 00:00:32.335
+Somewhat in prevention, but primarily in detection and response.
+
+00:00:32.335 --> 00:00:34.730
+Why should we monitor traffic at all?
+
+00:00:34.730 --> 00:00:36.140
+At a bare minimum,
+
+00:00:36.140 --> 00:00:38.960
+every organization should monitor firewall logs for
+
+00:00:38.960 --> 00:00:42.515
+failed attacks as well as suspicious successful connections.
+
+00:00:42.515 --> 00:00:45.370
+These are generally the first sign of an attack.
+
+00:00:45.370 --> 00:00:48.395
+As we learned earlier, by monitoring traffic,
+
+00:00:48.395 --> 00:00:52.565
+you can intercept some performance problems before they become big problems.
+
+00:00:52.565 --> 00:00:54.530
+You can use network traffic and
+
+00:00:54.530 --> 00:00:58.840
+other performance statistics to know when to scale your operations.
+
+00:00:58.840 --> 00:01:03.710
+Finally, many compliance regulations require monitoring of specific devices.
+
+00:01:03.710 --> 00:01:06.140
+The types of traffic you'll want to monitor
+
+00:01:06.140 --> 00:01:09.055
+vary greatly from organization to organization.
+
+00:01:09.055 --> 00:01:12.050
+However, there are some fundamentals worth covering.
+
+00:01:12.050 --> 00:01:16.175
+As previously stated, you'll want to monitor your firewall closely.
+
+00:01:16.175 --> 00:01:20.480
+Think of your firewall as the first alarm to sound in a potential attack.
+
+00:01:20.480 --> 00:01:23.705
+If your organization has a public facing presence,
+
+00:01:23.705 --> 00:01:26.720
+you'll want to monitor all traffic to and from it.
+
+00:01:26.720 --> 00:01:31.480
+It's possible your public facing servers will run as normal while being compromised.
+
+00:01:31.480 --> 00:01:35.645
+It is a good idea to monitor the logs on your wireless network,
+
+00:01:35.645 --> 00:01:39.095
+particularly if your organization has nearby neighbors.
+
+00:01:39.095 --> 00:01:42.845
+Anywhere you have sensitive data or intellectual property,
+
+00:01:42.845 --> 00:01:45.830
+you will want to know what traffic is coming and going.
+
+00:01:45.830 --> 00:01:48.320
+The last thing your organization wants is to
+
+00:01:48.320 --> 00:01:51.410
+notify customers and partners of a data breach.
+
+00:01:51.410 --> 00:01:56.455
+There will no doubt be traffic specific to your organization that you'll want to monitor.
+
+00:01:56.455 --> 00:01:59.645
+With so many different types of devices communicating,
+
+00:01:59.645 --> 00:02:02.405
+there are likely hundreds of collection methods.
+
+00:02:02.405 --> 00:02:06.085
+We're going to take a high-level look at several of the most common.
+
+00:02:06.085 --> 00:02:09.575
+NetFlow is a Cisco proprietary technology
+
+00:02:09.575 --> 00:02:12.350
+that allows the collection of data on network traffic.
+
+00:02:12.350 --> 00:02:15.200
+It collects information on source IP,
+
+00:02:15.200 --> 00:02:17.945
+destination IP, source port,
+
+00:02:17.945 --> 00:02:20.400
+destination port, and protocol.
+
+00:02:20.400 --> 00:02:25.405
+SFlow is an open standards version that can be used on other products.
+
+00:02:25.405 --> 00:02:30.760
+These are excellent for collecting statistics on items such as switches and routers.
+
+00:02:30.760 --> 00:02:34.485
+SNMP, Simple Network Management Protocol,
+
+00:02:34.485 --> 00:02:36.505
+performs similarly to NetFlow.
+
+00:02:36.505 --> 00:02:40.190
+There are security risks to consider before implementing SNMP,
+
+00:02:40.190 --> 00:02:41.825
+such as traffic sniffing,
+
+00:02:41.825 --> 00:02:44.240
+man in the middle, and brute force attacks.
+
+00:02:44.240 --> 00:02:47.960
+Wireshark is a free and open source packet analyzer.
+
+00:02:47.960 --> 00:02:49.730
+It is used for network troubleshooting,
+
+00:02:49.730 --> 00:02:52.285
+analysis software, and communications.
+
+00:02:52.285 --> 00:02:55.760
+Netstat stands for network statistics and as
+
+00:02:55.760 --> 00:03:00.620
+a command line utility to show active connections and routing information on hosts.
+
+00:03:00.620 --> 00:03:03.235
+We'll be taking a closer look at this in a moment.
+
+00:03:03.235 --> 00:03:06.560
+Perfmon is a Windows performance monitor
+
+00:03:06.560 --> 00:03:09.565
+that provides tools for analyzing system performance.
+
+00:03:09.565 --> 00:03:12.790
+It is likely your organization will run several of these and
+
+00:03:12.790 --> 00:03:16.585
+potentially more to collect the data desired for your monitoring solution.
+
+00:03:16.585 --> 00:03:19.135
+Whether trouble-shooting an application issue
+
+00:03:19.135 --> 00:03:22.120
+or investigating if a machine is compromised,
+
+00:03:22.120 --> 00:03:25.490
+viewing active connections can yield valuable information.
+
+00:03:25.490 --> 00:03:30.255
+We'll use Netstat and Perfmon to see what's connecting to your machine.
+
+00:03:30.255 --> 00:03:33.995
+You can use your own windows machine or connect to the server provided.
+
+00:03:33.995 --> 00:03:37.540
+Hit the "Windows" key and type PowerShell and hit "Enter".
+
+00:03:37.540 --> 00:03:39.400
+Then type Netstat.
+
+00:03:39.400 --> 00:03:42.760
+The local address is the address of the machine we're on,
+
+00:03:42.760 --> 00:03:46.200
+the multiple listings are representing different connections.
+
+00:03:46.200 --> 00:03:50.810
+The foreign connections are all the IP addresses our machine is connected to.
+
+00:03:50.810 --> 00:03:54.715
+As you can see, this could be very valuable in researching an issue.
+
+00:03:54.715 --> 00:03:56.730
+Now let's try Perfmon.
+
+00:03:56.730 --> 00:04:00.410
+Hit the Windows key and R to pull up a run dialog,
+
+00:04:00.410 --> 00:04:04.565
+type Perfmon /res and hit "Enter".
+
+00:04:04.565 --> 00:04:06.895
+You should see something similar to this.
+
+00:04:06.895 --> 00:04:10.309
+While it does not include as much information as Netstat,
+
+00:04:10.309 --> 00:04:13.115
+it does include the PID by default.
+
+00:04:13.115 --> 00:04:16.610
+The PID is the process ID that could help you
+
+00:04:16.610 --> 00:04:21.150
+track down an application if you noticed something suspicious.
+

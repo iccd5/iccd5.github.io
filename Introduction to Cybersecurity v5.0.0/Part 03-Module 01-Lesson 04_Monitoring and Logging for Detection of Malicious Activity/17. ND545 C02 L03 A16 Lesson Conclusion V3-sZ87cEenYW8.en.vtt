@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.580
+In this lesson, we learned about how system log
+
+00:00:02.580 --> 00:00:05.160
+the events that occur and where they store them.
+
+00:00:05.160 --> 00:00:09.720
+We then learn about the importance of monitoring the traffic in our organization.
+
+00:00:09.720 --> 00:00:13.680
+We closed with learning how SEIMs can take all of that information and
+
+00:00:13.680 --> 00:00:17.865
+store it in a central location that allows us to query and alert on the data.
+
+00:00:17.865 --> 00:00:19.380
+In the next lesson,
+
+00:00:19.380 --> 00:00:22.060
+we're going to learn about cryptography.
+

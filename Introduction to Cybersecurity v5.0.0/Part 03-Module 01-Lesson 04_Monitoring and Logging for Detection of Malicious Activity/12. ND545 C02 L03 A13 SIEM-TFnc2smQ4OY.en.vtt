@@ -1,0 +1,313 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.020
+So far we've learned about Event Logs in monitoring traffic,
+
+00:00:04.020 --> 00:00:06.555
+will close it out with learning about SIEM.
+
+00:00:06.555 --> 00:00:08.445
+By the end of this section,
+
+00:00:08.445 --> 00:00:10.920
+you will understand what a SIEM is,
+
+00:00:10.920 --> 00:00:14.490
+understand why SIEM is important for your organization.
+
+00:00:14.490 --> 00:00:16.770
+Choose which SIEM is right for you,
+
+00:00:16.770 --> 00:00:18.510
+open source or commercial.
+
+00:00:18.510 --> 00:00:20.400
+Learn about the different ways logs are
+
+00:00:20.400 --> 00:00:24.720
+ingested and finally learn the basics of querying a SIEM.
+
+00:00:24.720 --> 00:00:28.215
+Where does the SIEM fit in R3 component model of security?
+
+00:00:28.215 --> 00:00:31.680
+All three, prevention, detection, and response.
+
+00:00:31.680 --> 00:00:33.795
+What is a SIEM?
+
+00:00:33.795 --> 00:00:38.115
+It stands for Security Information and Event Management.
+
+00:00:38.115 --> 00:00:42.480
+That means it's an application that serves as a log aggregator.
+
+00:00:42.480 --> 00:00:45.890
+What sets it apart from just being centralized log storage,
+
+00:00:45.890 --> 00:00:47.900
+are the logic and features involved?
+
+00:00:47.900 --> 00:00:51.145
+These features analyze the data and make it queryable.
+
+00:00:51.145 --> 00:00:53.085
+Why is the SIEM important?
+
+00:00:53.085 --> 00:00:57.260
+Organizations utilize SIEMs to effectively analyze, monitor,
+
+00:00:57.260 --> 00:00:59.210
+and protect their most important data,
+
+00:00:59.210 --> 00:01:01.595
+and establish proof that they are doing so,
+
+00:01:01.595 --> 00:01:04.600
+which allows them to meet compliance requirements.
+
+00:01:04.600 --> 00:01:06.435
+By offloading them to your SIEM,
+
+00:01:06.435 --> 00:01:08.925
+you can look much farther back in time.
+
+00:01:08.925 --> 00:01:10.590
+How do you choose the SIEM?
+
+00:01:10.590 --> 00:01:12.735
+There are many options to choose from.
+
+00:01:12.735 --> 00:01:15.680
+You have to factor in the size of your organization,
+
+00:01:15.680 --> 00:01:19.505
+whether there'll be a dedicated resource and of course, budgets.
+
+00:01:19.505 --> 00:01:22.405
+Here's some considerations when choosing your solution.
+
+00:01:22.405 --> 00:01:24.225
+What is the licensing model?
+
+00:01:24.225 --> 00:01:27.050
+Is it storage based or volume of events?
+
+00:01:27.050 --> 00:01:29.495
+Does it allow for unlimited sources?
+
+00:01:29.495 --> 00:01:32.960
+Scalability? If your organization grows rapidly,
+
+00:01:32.960 --> 00:01:35.060
+does this solution grow gracefully?
+
+00:01:35.060 --> 00:01:38.014
+Does the solution provide real time alerts?
+
+00:01:38.014 --> 00:01:40.775
+How complicated is the query a language?
+
+00:01:40.775 --> 00:01:43.795
+Are there built-in customizable dashboards?
+
+00:01:43.795 --> 00:01:47.220
+Should you choose an open-source SIEM such as ELK?
+
+00:01:47.220 --> 00:01:51.950
+Being open source, these products will be highly customizable to your specific needs.
+
+00:01:51.950 --> 00:01:55.030
+There's generally a strong support community,
+
+00:01:55.030 --> 00:01:58.895
+most have a lack of restrictions on how much data is ingested.
+
+00:01:58.895 --> 00:02:03.080
+The biggest drawbacks to open source come in the form of support and
+
+00:02:03.080 --> 00:02:07.625
+in the quality and quantity built-in features such as dashboards.
+
+00:02:07.625 --> 00:02:11.690
+There are quite a few commercial SIEMs such as logarithm,
+
+00:02:11.690 --> 00:02:14.630
+QRadar, chronicle, and splunk.
+
+00:02:14.630 --> 00:02:17.150
+The strengths of commercial SIEM are,
+
+00:02:17.150 --> 00:02:22.010
+support part of your licensing fees includes access to the support team.
+
+00:02:22.010 --> 00:02:25.190
+While all SIEMs require extensive configuration,
+
+00:02:25.190 --> 00:02:28.070
+most commercial versions do a little more out of the box.
+
+00:02:28.070 --> 00:02:30.200
+A commercial SIEM will often come with
+
+00:02:30.200 --> 00:02:33.430
+more applications and dashboards already installed.
+
+00:02:33.430 --> 00:02:36.860
+The primary drawback to commercial SIEMs is the price.
+
+00:02:36.860 --> 00:02:38.465
+If you have a large environment,
+
+00:02:38.465 --> 00:02:40.550
+they can be extremely expensive.
+
+00:02:40.550 --> 00:02:44.915
+Having said all that, many open-source SIEMs perform just as well as commercial.
+
+00:02:44.915 --> 00:02:48.655
+It is truly more about fitting your organization's needs.
+
+00:02:48.655 --> 00:02:50.990
+In any type of log aggregation,
+
+00:02:50.990 --> 00:02:53.120
+whether it's Event Forwarding in Windows,
+
+00:02:53.120 --> 00:02:55.565
+syslog or a full SIEM application,
+
+00:02:55.565 --> 00:02:57.065
+the logs have to get there.
+
+00:02:57.065 --> 00:02:59.720
+What are the ways that log files travel?
+
+00:02:59.720 --> 00:03:04.805
+A push is where the source objects sends the files in real time to the destination.
+
+00:03:04.805 --> 00:03:09.320
+A pull occurs when the destination request the logs in real time,
+
+00:03:09.320 --> 00:03:14.480
+when the files are pushed or pulled all at once on a schedule would be in batch form.
+
+00:03:14.480 --> 00:03:17.000
+Many SIEMs operate using agents that are
+
+00:03:17.000 --> 00:03:19.900
+installed on the source and keep the log synchronized.
+
+00:03:19.900 --> 00:03:22.835
+All SIEMs are different in their query structure.
+
+00:03:22.835 --> 00:03:27.620
+However, there are strategies that can be used to write better queries in any SIEM.
+
+00:03:27.620 --> 00:03:30.470
+Broad keyword searches use more resources
+
+00:03:30.470 --> 00:03:33.290
+on the SIEM as well as take valuable time from you.
+
+00:03:33.290 --> 00:03:35.525
+The better you organize your query,
+
+00:03:35.525 --> 00:03:38.480
+the faster and more accurate your results will be.
+
+00:03:38.480 --> 00:03:42.035
+For example, if you know you're looking for Windows traffic,
+
+00:03:42.035 --> 00:03:47.435
+utilize your chosen SIEM's query language to identify Windows event logs as the source.
+
+00:03:47.435 --> 00:03:50.525
+By focusing your query on a single type of source,
+
+00:03:50.525 --> 00:03:53.750
+it will automatically exclude searching anywhere else.
+
+00:03:53.750 --> 00:03:56.930
+It's okay to allow for a greater range of time.
+
+00:03:56.930 --> 00:03:59.225
+But know that the tighter the timeframe,
+
+00:03:59.225 --> 00:04:01.355
+the fewer logs their artists search.
+
+00:04:01.355 --> 00:04:04.520
+If you know that the event happened in the last couple days,
+
+00:04:04.520 --> 00:04:06.985
+don't select a search for the last 30.
+
+00:04:06.985 --> 00:04:09.275
+While it may take a bit more time,
+
+00:04:09.275 --> 00:04:11.870
+start with a slightly more general query.
+
+00:04:11.870 --> 00:04:15.305
+For example, if you are troubleshooting an issue on your website,
+
+00:04:15.305 --> 00:04:18.200
+run the query against all of your web servers,
+
+00:04:18.200 --> 00:04:21.290
+and then work your way down to a specific machine.
+
+00:04:21.290 --> 00:04:22.865
+As with any new skill,
+
+00:04:22.865 --> 00:04:24.485
+it takes time to develop it.
+
+00:04:24.485 --> 00:04:26.945
+The more you work on it, the better you'll get.
+
+00:04:26.945 --> 00:04:29.870
+For example, this 24-hour search for
+
+00:04:29.870 --> 00:04:33.785
+Google.com in my environment turned up nearly one million events.
+
+00:04:33.785 --> 00:04:36.770
+But if I know the event happened in last couple hours,
+
+00:04:36.770 --> 00:04:39.770
+I can change the range to four hours and narrow it down
+
+00:04:39.770 --> 00:04:43.240
+from nearly one million to just under 150,000.
+
+00:04:43.240 --> 00:04:46.745
+If I know that I'm looking for a specific DNS entries,
+
+00:04:46.745 --> 00:04:51.665
+I can change my source type from any to only querying DNS logs.
+
+00:04:51.665 --> 00:04:57.215
+I'm keeping the search at the last four hours and get just under 14,000 entries.
+
+00:04:57.215 --> 00:05:00.230
+As you can see, the more specific your search,
+
+00:05:00.230 --> 00:05:01.310
+the faster it runs,
+
+00:05:01.310 --> 00:05:03.874
+and the fewer results that you have to analyze.
+
+00:05:03.874 --> 00:05:08.570
+The power of a SIEM is that it allows you to search your entire environment,
+
+00:05:08.570 --> 00:05:11.225
+alert on events your organization values,
+
+00:05:11.225 --> 00:05:16.440
+and retain logs as long as necessary and you can do this from one screen.
+

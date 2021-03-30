@@ -1,0 +1,394 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Monitoring and Securing the DFI Environment</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Project: Monitoring and Securing the DFI Environment</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Monitoring and Securing the DFI Environment Introduction.html">01. Monitoring and Securing the DFI Environment Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Environment.html">02. Environment</a>
+    </li>
+    <li class="">
+      <a href="03. Instructions.html">03. Instructions</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Monitoring and Securing the DFI Environment.html">Project Description - Monitoring and Securing the DFI Environment</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Monitoring and Securing the DFI Environment.html">Project Rubric - Monitoring and Securing the DFI Environment</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">Monitoring and Securing the DFI Environment</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            
+      <div>
+        <h2><p>Connecting, Reporting and Analysis</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The student will demonstrate an understanding of connecting and navigating inside the provided computing environment.</p>
+        </td>
+        <td>
+          <ul>
+<li>Screenshot provided to show a proper connection to Windows Workstation using RDP</li>
+<li>Screenshot provided to show a proper connection to the Linux server using SSH.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student will demonstrate an understanding of the NIST Framework, Defense-in-Depth and documentation from Microsoft by performing an analysis of the security configuration on the servers provided.</p>
+        </td>
+        <td>
+          <ul>
+<li>A report detailing 3 primary areas<ul>
+<li>File Permissions that need modified</li>
+<li>Roles that are not needed on Windows server</li>
+<li>Any services that should or should not be running</li></ul></li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The student will demonstrate an understanding of the appropriate encryption for data in transit.</p>
+        </td>
+        <td>
+          <ul>
+<li>Choose one of the appropriate encryption methods from the documentation provided. Provide justification for the method you chose.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Automation is only discussed, not implemented. The students will be able to recommend at a very high level what should be automated and how.</p>
+        </td>
+        <td>
+          <ul>
+<li>In report or table form, provide 3 areas where automation could be deployed to DFI. </li>
+<li>Example: Area: Active Directory. The item for automation: Automatic account lockout if login from 2 geographically distant IPs.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Understanding the needs of the organization (vis-a-vis the server configuration) with what is needed via NIST 800-43 and Microsoft's Security Update Guide the student will select the appropriate updates for install.</p>
+        </td>
+        <td>
+          <ul>
+<li>The student will provide a table that lists at least 3 updates that should be installed and 3 updates that are not necessary.</li>
+<li>Justify your recommendations as to why you are making your choices.</li>
+</ul>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Firewalls and IDS Configuration</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>The students will demonstrate a basic understanding of firewall concepts and how to craft a simple firewall rule.</p>
+        </td>
+        <td>
+          <ul>
+<li>Provide the commands necessary to complete the firewall rule given the scenario in the template. </li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>The students will demonstrate a basic understanding of IDS concepts and how to craft simple IDS rules.</p>
+        </td>
+        <td>
+          <ul>
+<li>Provide the commands necessary to complete both of the scenarios given in the template.</li>
+<li>For documentation purposes, explain your commands for non-technical management.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Students will demonstrate a basic understanding of how to appropriately mitigate a threat via firewall alerts.</p>
+        </td>
+        <td>
+          <ul>
+<li>The student will provide mitigation recommendations based on their analysis of the report with a focus on friend/foe of the source IP as well as an additional layer of protection for the destination IP.</li>
+</ul>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div>
+        <h2><p>Encryption, Hashes and Linux</p></h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr class="thead-dark">
+              <th>Criteria</th>
+              <th>Meet Specification</th>
+            </tr>
+          </thead>
+          
+    <tbody>
+      
+      <tr scope="row">
+        <td>
+          <p>Students will demonstrate the ability to ensure executables are legitimate by comparing file hash with a known good copy or with a hash provided in advance.</p>
+        </td>
+        <td>
+          <ul>
+<li>Provide a screenshot that displays the command that was run as well as the file hash.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Students will demonstrate an understanding of how to log certain events, in this case, failed RDP attempts.</p>
+        </td>
+        <td>
+          <ul>
+<li>Export the results to CSV on the server provided.</li>
+<li>Open the CSV with notepad.</li>
+<li>Provide a screenshot of the results</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Students will demonstrate an understanding of Linux permissions by creating a directory and then assigning appropriate permissions.</p>
+        </td>
+        <td>
+          <ul>
+<li>Create the directories listed in the request.</li>
+<li>Create the groups listed in the request.</li>
+<li>Create the users listed and place them in the appropriate groups.</li>
+<li>Set the directory permissions where the groups are the owners of their respective directories.</li>
+<li>Explain the syntax used for setting the permissions.</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Students will produce a narrative 'status report' that will tie all of the projects together in the form of a report to management.</p>
+        </td>
+        <td>
+          <ul>
+<li>Explain all of the tasks performed in the first two weeks.</li>
+<li>Explain any recommendations for changes in permissions.</li>
+<li>Tie all of the work done together in a big picture narrative.</li>
+<li>Recommend the way forward for DFI in terms of security products (at least 2) and policies (also at least 2.)</li>
+</ul>
+        </td>
+      </tr>
+    
+      <tr scope="row">
+        <td>
+          <p>Demonstrate encrypting a directory.</p>
+        </td>
+        <td>
+          <ul>
+<li>Encrypt the deliverables in the previous steps using 7zip and a strong password.</li>
+<li>Upload the file to Udacity for testing.</li>
+<li>Provide the password to the file in the notes to the reviewer.</li>
+</ul>
+        </td>
+      </tr>
+    
+    </tbody>
+  
+        </table>
+
+      </div>
+    
+      <div class="jumbotron">
+        <h3>Tips to make your project standout:</h3>
+        <p><ol>
+<li>When recommending automations, expand your recommendations beyond the areas explicitly listed.</li>
+<li>When reviewing Windows permissions suggest ways to streamline and centralize the ability to secure systems.</li>
+<li>In addition to reviewing failed RDP logins, include other recommendations using Syslog or a SIEM to centralize log aggregation. You'll need to provide explanations about why that should be considered.</li>
+<li>For your final report, provide a clear, thoughtful explanation understanding of the work that was performed and how it contributes to the organization.</li>
+</ol></p>
+      </div>
+    
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('Monitoring and Securing the DFI Environment')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

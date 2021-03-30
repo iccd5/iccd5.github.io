@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.220
+In general, there are few, if any,
+
+00:00:02.220 --> 00:00:04.515
+edge cases for not using encryption.
+
+00:00:04.515 --> 00:00:07.770
+With performance being at or near unencrypted levels,
+
+00:00:07.770 --> 00:00:10.020
+it makes sense to encrypt everything.
+
+00:00:10.020 --> 00:00:12.750
+One item comes to mind that is still not quite
+
+00:00:12.750 --> 00:00:15.495
+where it needs to be with encryption, and that's e-mail.
+
+00:00:15.495 --> 00:00:17.640
+It was not designed to be secure.
+
+00:00:17.640 --> 00:00:20.970
+There are many moving parts, various clients, servers,
+
+00:00:20.970 --> 00:00:22.965
+devices, and ISPs involved,
+
+00:00:22.965 --> 00:00:25.230
+and those may or may not support encryption.
+
+00:00:25.230 --> 00:00:27.960
+You have to find a way to share your public key,
+
+00:00:27.960 --> 00:00:29.610
+and if it's by e-mail,
+
+00:00:29.610 --> 00:00:32.160
+that has to be unencrypted, at least to begin with.
+
+00:00:32.160 --> 00:00:35.025
+Generally, only the attachments are encrypted,
+
+00:00:35.025 --> 00:00:36.810
+not the body of the e-mail.
+
+00:00:36.810 --> 00:00:38.940
+If the person receiving the message has
+
+00:00:38.940 --> 00:00:42.320
+poor operational security and leaves their phone unattended,
+
+00:00:42.320 --> 00:00:44.215
+the information is easily leaked.
+
+00:00:44.215 --> 00:00:45.750
+Encryption fatigue.
+
+00:00:45.750 --> 00:00:48.740
+It isn't uncommon for senders and recipients to get fed
+
+00:00:48.740 --> 00:00:52.175
+up trying to use encrypted e-mail and revert back to plain texts.
+
+00:00:52.175 --> 00:00:53.540
+Having said all that,
+
+00:00:53.540 --> 00:00:58.010
+if personal or sensitive data is being transmitted and you are a compliant organization,
+
+00:00:58.010 --> 00:01:00.300
+you must use encryption.
+

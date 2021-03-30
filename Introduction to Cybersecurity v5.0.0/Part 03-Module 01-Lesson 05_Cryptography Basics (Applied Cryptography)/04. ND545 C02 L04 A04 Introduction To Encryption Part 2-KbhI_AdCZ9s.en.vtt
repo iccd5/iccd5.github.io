@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.510
+Now we're turning our focus towards the different types of encryption.
+
+00:00:03.510 --> 00:00:05.370
+Let's begin with symmetric.
+
+00:00:05.370 --> 00:00:09.585
+Symmetric encryption uses only one key, in this case,
+
+00:00:09.585 --> 00:00:14.730
+a private or secret key to both encrypt and decrypt the data.
+
+00:00:14.730 --> 00:00:18.840
+The key can be in the form of a passcode or a series of
+
+00:00:18.840 --> 00:00:24.045
+randomized letters and numbers from a random number generator or RNG.
+
+00:00:24.045 --> 00:00:27.900
+There are two types of symmetric encryption algorithms.
+
+00:00:27.900 --> 00:00:30.735
+Block algorithms in which set length
+
+00:00:30.735 --> 00:00:34.455
+a bits are encrypted with the use of a specific secret key.
+
+00:00:34.455 --> 00:00:36.585
+As the data is being encrypted,
+
+00:00:36.585 --> 00:00:41.230
+the system holds the data in memory as it waits for the block to complete.
+
+00:00:41.230 --> 00:00:46.020
+The second type of symmetric encryption algorithm is stream algorithms.
+
+00:00:46.020 --> 00:00:51.455
+Here, the data is encrypted as it streams and is not retained in system memory.
+
+00:00:51.455 --> 00:00:54.830
+Here are a few examples of symmetric encryption.
+
+00:00:54.830 --> 00:00:59.090
+First up is Advanced Encryption Standard or AES.
+
+00:00:59.090 --> 00:01:03.625
+It was designed around the start of this century to replace DES.
+
+00:01:03.625 --> 00:01:06.095
+If you recall from just a moment ago,
+
+00:01:06.095 --> 00:01:08.390
+it uses blocked algorithms.
+
+00:01:08.390 --> 00:01:11.520
+It's block size is 128 bits.
+
+00:01:11.520 --> 00:01:15.460
+However, AES performs its actions in 16 bytes.
+
+00:01:15.460 --> 00:01:18.485
+If you recall, a byte equals eight bits.
+
+00:01:18.485 --> 00:01:23.405
+Each block the algorithm processes is four columns of four bytes.
+
+00:01:23.405 --> 00:01:26.750
+AES uses rounds of encryption in that it adds
+
+00:01:26.750 --> 00:01:30.680
+a key to the initial block of data using the XOR cipher,
+
+00:01:30.680 --> 00:01:32.825
+which is an additive algorithm.
+
+00:01:32.825 --> 00:01:36.905
+From there, it substitutes bytes with a predetermined table,
+
+00:01:36.905 --> 00:01:39.335
+shifts the rows one step to the left,
+
+00:01:39.335 --> 00:01:40.865
+and then mixes columns.
+
+00:01:40.865 --> 00:01:45.710
+In layman's terms, this means it performs three different types of shuffling to the data.
+
+00:01:45.710 --> 00:01:47.440
+This is one round.
+
+00:01:47.440 --> 00:01:50.730
+AES has key sizes of 128,
+
+00:01:50.730 --> 00:01:53.775
+192, or 256 bits.
+
+00:01:53.775 --> 00:01:56.670
+With 128, there are nine of those rounds.
+
+00:01:56.670 --> 00:01:58.830
+With 192, there are 11,
+
+00:01:58.830 --> 00:02:01.140
+and 256 has 13 of these.
+
+00:02:01.140 --> 00:02:02.700
+As you can see,
+
+00:02:02.700 --> 00:02:04.330
+this is quite complicated.
+
+00:02:04.330 --> 00:02:09.485
+AES-256, which you remember from our wireless lesson, is very secure.
+
+00:02:09.485 --> 00:02:12.230
+There are links to additional reading in the classroom.
+
+00:02:12.230 --> 00:02:15.210
+Next up, we have Twofish encryption.
+
+00:02:15.210 --> 00:02:17.645
+It has several similarities with AES,
+
+00:02:17.645 --> 00:02:22.990
+such as 128 bit block that it also processes as 16 bytes.
+
+00:02:22.990 --> 00:02:26.040
+It has the same key sizes of 128,
+
+00:02:26.040 --> 00:02:28.800
+192, and 256 bits.
+
+00:02:28.800 --> 00:02:31.560
+It also uses the XOR algorithm.
+
+00:02:31.560 --> 00:02:33.230
+Where it differs with AES,
+
+00:02:33.230 --> 00:02:36.200
+is in the manner of how it shuffles the data.
+
+00:02:36.200 --> 00:02:40.925
+It performs 16 rounds of this shuffling regardless of key size.
+
+00:02:40.925 --> 00:02:44.300
+The third and final symmetric encryption example we're going to learn
+
+00:02:44.300 --> 00:02:48.820
+about is Rivest Cipher 4 or RC4.
+
+00:02:48.820 --> 00:02:54.825
+RC4 differs from AES and Twofish in that it is a stream cipher encryption.
+
+00:02:54.825 --> 00:02:59.130
+It has a key size of 40-256 bits,
+
+00:02:59.130 --> 00:03:01.730
+it encrypts by creating a table of
+
+00:03:01.730 --> 00:03:06.230
+256 elements and using an internal variable length key,
+
+00:03:06.230 --> 00:03:09.140
+which converts that into a pseudo random stream of
+
+00:03:09.140 --> 00:03:12.415
+information that has then blended with the plaintext data.
+
+00:03:12.415 --> 00:03:14.760
+RC4 is primarily retired.
+
+00:03:14.760 --> 00:03:17.315
+It hasn't been officially broken on its own,
+
+00:03:17.315 --> 00:03:20.015
+but has shown to be broken when used with TLS,
+
+00:03:20.015 --> 00:03:22.910
+Transport Layer Security, which we'll discuss later.
+
+00:03:22.910 --> 00:03:26.615
+Let's look at some strengths and weaknesses of symmetric encryption.
+
+00:03:26.615 --> 00:03:29.285
+Symmetric encryption is much faster than
+
+00:03:29.285 --> 00:03:32.965
+asymmetric in that there's no waiting on a public key exchange.
+
+00:03:32.965 --> 00:03:37.789
+Because each party must have the key outside of the data exchange process,
+
+00:03:37.789 --> 00:03:41.195
+the data can be sent over any link regardless of security,
+
+00:03:41.195 --> 00:03:44.245
+thus making data transfer very secure.
+
+00:03:44.245 --> 00:03:46.565
+Let's look at a couple weaknesses.
+
+00:03:46.565 --> 00:03:49.865
+Key transportation is probably the most difficult hurdle.
+
+00:03:49.865 --> 00:03:54.190
+The only truly secure way to exchange symmetric keys is personally.
+
+00:03:54.190 --> 00:03:56.280
+Once the key has been exchanged,
+
+00:03:56.280 --> 00:04:00.700
+there is no true way to verify the identity of the other party.
+

@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.590
+Netstat is a powerful utility on both Windows and Linux.
+
+00:00:04.590 --> 00:00:07.394
+I encourage you to explore the various commands.
+
+00:00:07.394 --> 00:00:15.300
+We're going to view netstat -at and netstat -r here.
+
+00:00:15.300 --> 00:00:21.060
+Once you've connected to your CentOS server, type netstat -at.
+
+00:00:21.060 --> 00:00:24.600
+Your output may vary but will look similar to this.
+
+00:00:24.600 --> 00:00:26.940
+As you can see, there's not much going on,
+
+00:00:26.940 --> 00:00:29.070
+but the output is similar in nature to what we saw
+
+00:00:29.070 --> 00:00:31.530
+in Windows with local and foreign addresses.
+
+00:00:31.530 --> 00:00:35.235
+Now let's try netstat -r here.
+
+00:00:35.235 --> 00:00:38.385
+This will show us our routing table for this machine.
+
+00:00:38.385 --> 00:00:42.860
+This would be valuable if we were troubleshooting connection issues to another device.
+
+00:00:42.860 --> 00:00:44.825
+As you will recall from Lesson 2,
+
+00:00:44.825 --> 00:00:47.180
+we set up firewall and IDS rules.
+
+00:00:47.180 --> 00:00:50.405
+Now let's see what happens when those type of alerts fire.
+
+00:00:50.405 --> 00:00:53.350
+Then we'll learn what mitigation steps we can take.
+
+00:00:53.350 --> 00:00:58.145
+Here you see a modified version of a real report I review daily.
+
+00:00:58.145 --> 00:01:01.610
+Across the top, you see all of the relevant categories.
+
+00:01:01.610 --> 00:01:03.800
+I have selected WordPress attacks,
+
+00:01:03.800 --> 00:01:05.855
+but there are many others to choose from.
+
+00:01:05.855 --> 00:01:11.270
+The primary attacks we see are the brute force login attacks and a vulnerability attack.
+
+00:01:11.270 --> 00:01:13.760
+A brute force attack is where the attacker
+
+00:01:13.760 --> 00:01:16.805
+throws as many passwords as possible at a target.
+
+00:01:16.805 --> 00:01:21.485
+A vulnerability attack is where there's a known vulnerability with a piece of software.
+
+00:01:21.485 --> 00:01:24.230
+You see the source and destination IPs.
+
+00:01:24.230 --> 00:01:28.565
+I've hidden parts of the sources and modified the destinations for privacy purposes.
+
+00:01:28.565 --> 00:01:31.595
+What steps can we take to mitigate this threat?
+
+00:01:31.595 --> 00:01:33.905
+We researched the IPs involved.
+
+00:01:33.905 --> 00:01:36.715
+Is this source a friend or foe?
+
+00:01:36.715 --> 00:01:38.585
+Is it on any block lists?
+
+00:01:38.585 --> 00:01:41.915
+Does our IP even host WordPress or vBulletin.
+
+00:01:41.915 --> 00:01:47.690
+To research an IP, you can visit abuseipdb.com.
+
+00:01:47.690 --> 00:01:50.030
+Keep in mind, this is community-driven,
+
+00:01:50.030 --> 00:01:54.425
+but it can yield trends such as an IP being reported hundreds of times.
+
+00:01:54.425 --> 00:01:57.710
+Also, VirusTotal is an excellent resource,
+
+00:01:57.710 --> 00:02:00.020
+it can provide whether an IP,
+
+00:02:00.020 --> 00:02:02.860
+URL or FAO is malicious or clean.
+
+00:02:02.860 --> 00:02:05.570
+If you find the traffic is indeed malicious,
+
+00:02:05.570 --> 00:02:08.210
+you can file a complaint with the ISP hosting it.
+
+00:02:08.210 --> 00:02:10.729
+To report an IP to an ISP,
+
+00:02:10.729 --> 00:02:12.800
+you can search the "who is" information,
+
+00:02:12.800 --> 00:02:15.785
+and by law, the contact for abuse must be present.
+
+00:02:15.785 --> 00:02:20.240
+You can add the IP to your manual block list we'd learned about in Lesson 2.
+
+00:02:20.240 --> 00:02:22.100
+You'll also need to verify that
+
+00:02:22.100 --> 00:02:25.685
+your WordPress and vBulletin installations are fully patched.
+
+00:02:25.685 --> 00:02:29.200
+Here we have real alerts from a Snort IDS.
+
+00:02:29.200 --> 00:02:32.435
+Across the top you see the number of alerts,
+
+00:02:32.435 --> 00:02:36.345
+IPs involved, and what signature fired.
+
+00:02:36.345 --> 00:02:38.370
+How do we mitigate these alerts?
+
+00:02:38.370 --> 00:02:40.640
+In much the same way as the firewall report,
+
+00:02:40.640 --> 00:02:44.240
+we look up each signature and verify it applies to our IP.
+
+00:02:44.240 --> 00:02:47.615
+We also verify if the external IP is friend or foe.
+
+00:02:47.615 --> 00:02:50.165
+If you find the traffic is indeed malicious,
+
+00:02:50.165 --> 00:02:52.720
+you can file a complaint with the ISP hosting it.
+
+00:02:52.720 --> 00:02:57.440
+Again, you can add the IP to your manual blocklist we learned about in Lesson 2.
+
+00:02:57.440 --> 00:02:59.570
+If the vulnerability was correct,
+
+00:02:59.570 --> 00:03:02.400
+you will need to update the software involved.
+

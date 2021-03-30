@@ -1,0 +1,356 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Encryption in Transit</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Cryptography Basics (Applied Cryptography)</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Cryptography Basics.html">01. Cryptography Basics</a>
+    </li>
+    <li class="">
+      <a href="02. Cryptography Overview.html">02. Cryptography Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Cryptography Basics (Applied Cryptography).html">03. Cryptography Basics (Applied Cryptography)</a>
+    </li>
+    <li class="">
+      <a href="04. Introduction to Encryption.html">04. Introduction to Encryption</a>
+    </li>
+    <li class="">
+      <a href="05. Quizzes Introduction to Encryption .html">05. Quizzes: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="06. Exercise Introduction to Encryption .html">06. Exercise: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="07. Exercise Solution Introduction to Encryption .html">07. Exercise Solution: Introduction to Encryption </a>
+    </li>
+    <li class="">
+      <a href="08. Encryption in Transit.html">08. Encryption in Transit</a>
+    </li>
+    <li class="">
+      <a href="09. Quizzes Encryption in Transit .html">09. Quizzes: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="10. Exercise Encryption in Transit .html">10. Exercise: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Solution Encryption in Transit .html">11. Exercise Solution: Encryption in Transit </a>
+    </li>
+    <li class="">
+      <a href="12. File HashesDigital Signatures.html">12. File Hashes/Digital Signatures</a>
+    </li>
+    <li class="">
+      <a href="13. Quizzes File HashesDigital Signatures .html">13. Quizzes: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="14. Exercise File HashesDigital Signatures .html">14. Exercise: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="15. Exercise Solution File HashesDigital Signatures .html">15. Exercise Solution: File Hashes/Digital Signatures </a>
+    </li>
+    <li class="">
+      <a href="16. When Encryption is not a Good idea.html">16. When Encryption is not a Good idea</a>
+    </li>
+    <li class="">
+      <a href="17. Exercise Cryptography Basics Final.html">17. Exercise: Cryptography Basics Final</a>
+    </li>
+    <li class="">
+      <a href="18. Cryptography Basics (Applied Cryptography) Lesson Conclusion.html">18. Cryptography Basics (Applied Cryptography) Lesson Conclusion</a>
+    </li>
+    <li class="">
+      <a href="19. Course Recap.html">19. Course Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">08. Encryption in Transit</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Encryption in Transit Heading</p></h3>
+  <div>
+  <h2 id="encryption-in-transit">Encryption in Transit</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L04 A07 Encryption In Transit Part 1 V2</p></h3>
+  <video controls>
+  <source src="08. ND545 C02 L04 A07 Encryption In Transit Part 1 V2-Gtb6YHAHd90.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. ND545 C02 L04 A07 Encryption In Transit Part 1 V2-Gtb6YHAHd90.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Encryption in Transit Notes</p></h3>
+  <div>
+  <h2 id="recap">Recap:</h2>
+<ul>
+<li>If data is moving from one location to another, particularly over public internet it is very vulnerable to compromise.<ul>
+<li>Either encrypt the data prior to sending it.</li>
+<li>Or encrypt the data <strong>while</strong> it's in motion. That's what this section is about.</li></ul></li>
+<li>Data in transit generally uses Asymmetric Encryption and PKI.</li>
+<li>We learned about several common techniques for data in transit:<ul>
+<li><strong>HTTPS/TLS</strong> HyperText Transport Protocol/Transport Layer Security</li>
+<li><strong>SSH</strong> Secure Shell</li>
+<li><strong>SFTP/FTPS</strong> Secure File Transfer Protocol/File Transfer Protocol over SSL.</li>
+<li><strong>RDP</strong> Remote Desktop Protocol</li></ul></li>
+</ul>
+<h2 id="key-terms">Key Terms</h2>
+<ul>
+<li><strong>Bitlocker</strong>: is a full volume encryption feature included with Microsoft Windows.</li>
+<li><strong>Data at rest</strong>: means inactive data that is stored physically in any digital form.</li>
+<li><strong>7-zip</strong>: is a free and open-source file archiver, a utility used to place groups of files within compressed, encrypted containers known as "archives".</li>
+<li><strong>Data in transit</strong>: also referred to as data in motion, is defined into two categories, information that flows over the Internet and data that flows in the confines of a private network.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Encryption in Transit Heading Image</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-48.png" alt="Encryption in Transit" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Encryption in Transit</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="choosing-the-right-encryption">Choosing the Right Encryption</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L04 A07 Encryption In Transit Part 2</p></h3>
+  <video controls>
+  <source src="08. ND545 C02 L04 A07 Encryption In Transit Part 2-uZemehgdk4Q.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. ND545 C02 L04 A07 Encryption In Transit Part 2-uZemehgdk4Q.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="choosing-the-right-encryption">Choosing the Right Encryption</h3>
+<p>How do you know which encryption method is right for data in transit?<br />
+For data in transit, the choices are a bit more clear and based on what you're trying to accomplish.</p>
+<table>
+<thead>
+<tr>
+<th id="type">Type</th>
+<th id="goal">Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTTP/TLS</td>
+<td>Processing or hosting sensitive data accessible from the internet</td>
+</tr>
+<tr>
+<td>SSH</td>
+<td>Hosting servers (particularly Linux) to execute commands and process jobs</td>
+</tr>
+<tr>
+<td>SFTP or FTPS</td>
+<td>Hosting files for others to download (Choice depends on the configuration of the host they reside on)</td>
+</tr>
+<tr>
+<td>Encryption at Rest</td>
+<td>For additional security, consider using on files that are to be accessed via SSH or SFTP/FTPS</td>
+</tr>
+</tbody>
+</table>
+<p><em>Note: If you recall from a previous lesson it is wise to not have SSH open to the internet, likewise RDP. consider setting up a VPN for those use cases as an additional layer of security.</em></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/images-for-classroom.-49.png" alt="Choosing the Right Encryption" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>Choosing the Right Encryption</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ND545 C02 L04 A08 Encryption In Transit Walkthrough</p></h3>
+  <video controls>
+  <source src="08. ND545 C02 L04 A08 Encryption In Transit Walkthrough-f7x1CdG4wP0.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="08. ND545 C02 L04 A08 Encryption In Transit Walkthrough-f7x1CdG4wP0.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Encryption in Transit Heading New Terms</p></h3>
+  <div>
+  <h3 id="additional-resources">Additional Resources:</h3>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview" rel="noopener noreferrer" target="_blank">Bitlocker</a></li>
+<li><a href="https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work" rel="noopener noreferrer" target="_blank">SSH</a></li>
+<li><a href="https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/" rel="noopener noreferrer" target="_blank">HTTPS/TLS</a></li>
+<li><a href="https://www.cyberark.com/resources/threat-research-blog/explain-like-i-m-5-remote-desktop-protocol-rdp" rel="noopener noreferrer" target="_blank">RDP</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="09. Quizzes Encryption in Transit .html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. Encryption in Transit')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
