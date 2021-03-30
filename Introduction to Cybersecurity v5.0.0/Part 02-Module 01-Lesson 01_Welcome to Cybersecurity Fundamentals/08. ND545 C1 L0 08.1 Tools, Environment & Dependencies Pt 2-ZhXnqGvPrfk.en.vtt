@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.200
+The last tool I want to show you is called 7-Zip.
+
+00:00:04.200 --> 00:00:07.760
+It's normally used to compress files, make them smaller.
+
+00:00:07.760 --> 00:00:09.740
+You can also use it to encrypt.
+
+00:00:09.740 --> 00:00:10.925
+Let me show you.
+
+00:00:10.925 --> 00:00:13.805
+I created a folder, just called Files.
+
+00:00:13.805 --> 00:00:16.815
+I already have downloaded and installed 7-Zip,
+
+00:00:16.815 --> 00:00:18.825
+which is freely available.
+
+00:00:18.825 --> 00:00:25.950
+To encrypt, all I need to do is I right-click on the folder, "Add to archive".
+
+00:00:25.950 --> 00:00:29.340
+The 7-Zip application will then open,
+
+00:00:29.340 --> 00:00:32.340
+and I can name the archive.
+
+00:00:32.340 --> 00:00:34.485
+I can change the compression rate.
+
+00:00:34.485 --> 00:00:35.960
+This is really what I want to show you,
+
+00:00:35.960 --> 00:00:38.510
+is I can now password protect this file.
+
+00:00:38.510 --> 00:00:41.125
+I can call it whatever I want.
+
+00:00:41.125 --> 00:00:48.890
+This is just a very simple way to encrypt files using the AES-256 encryption method.
+
+00:00:48.890 --> 00:00:51.605
+This is the advanced encryption standard
+
+00:00:51.605 --> 00:00:54.595
+from the National Institute of Standards and Technology,
+
+00:00:54.595 --> 00:00:57.665
+and it has a 256-bit length,
+
+00:00:57.665 --> 00:01:00.110
+meaning it's pretty strong encryption,
+
+00:01:00.110 --> 00:01:02.275
+fairly hard to crack.
+
+00:01:02.275 --> 00:01:07.129
+This is a very easy way though to encrypt files.
+
+00:01:07.129 --> 00:01:10.130
+I'll then send the encrypted file over the Internet,
+
+00:01:10.130 --> 00:01:14.485
+say through email, and then give the person the password through another means.
+
+00:01:14.485 --> 00:01:17.150
+Consider using 7-Zip just as
+
+00:01:17.150 --> 00:01:22.690
+an easy way to use encryption of files that may contain some sensitive data.
+
+00:01:22.690 --> 00:01:24.715
+Once I click "OK",
+
+00:01:24.715 --> 00:01:30.155
+there's now an encrypted folder on my desktop, that's an archive.
+
+00:01:30.155 --> 00:01:32.570
+To extract the folder's contents,
+
+00:01:32.570 --> 00:01:34.825
+I'll have to put in the password.
+
+00:01:34.825 --> 00:01:37.050
+There's one last tool.
+
+00:01:37.050 --> 00:01:39.470
+I'd be remiss if I didn't talk to you about,
+
+00:01:39.470 --> 00:01:42.545
+because it's the number one tool used by hackers worldwide,
+
+00:01:42.545 --> 00:01:44.000
+both the white hat good type,
+
+00:01:44.000 --> 00:01:45.715
+black hat bad type.
+
+00:01:45.715 --> 00:01:47.475
+It's simply Google.
+
+00:01:47.475 --> 00:01:50.075
+We're always googling for answers.
+
+00:01:50.075 --> 00:01:52.010
+You can't know everything,
+
+00:01:52.010 --> 00:01:55.805
+but it's more important to know where to find information.
+
+00:01:55.805 --> 00:02:01.595
+Google is very powerful in terms of what it can find across the Internet.
+
+00:02:01.595 --> 00:02:06.410
+One part I want to show you is the advanced search within Google,
+
+00:02:06.410 --> 00:02:11.120
+google.com/advanced_search, where now you can search
+
+00:02:11.120 --> 00:02:16.820
+for all word or an exact phrase, or any word.
+
+00:02:16.820 --> 00:02:18.170
+You can change language,
+
+00:02:18.170 --> 00:02:21.680
+look for a particular region on a specific domain.
+
+00:02:21.680 --> 00:02:31.030
+If I wanted to find everything about cybersecurity at udacity.com,
+
+00:02:31.030 --> 00:02:32.970
+click the "Advanced Search",
+
+00:02:32.970 --> 00:02:39.940
+and this is now showing me just the results at Udacity for cybersecurity.
+
+00:02:39.940 --> 00:02:43.120
+No other websites.
+
+00:02:43.910 --> 00:02:50.525
+The Google Advanced Search should be on one of the top sites you visit daily,
+
+00:02:50.525 --> 00:02:53.300
+as part of your hacking lifecycle,
+
+00:02:53.300 --> 00:02:57.660
+and as you're expanding your knowledge of cybersecurity.
+

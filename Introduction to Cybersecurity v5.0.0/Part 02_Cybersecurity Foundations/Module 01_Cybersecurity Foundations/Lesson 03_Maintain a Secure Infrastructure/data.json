@@ -1,0 +1,1874 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1018875,
+      "key": "9990926b-66af-4644-be88-6039a205e8af",
+      "title": "Maintain a Secure Infrastructure",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn some cybersecurity laws and some basics about security governance, compliance, and regulations.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/9990926b-66af-4644-be88-6039a205e8af/1018875/1600802365121/Maintain+a+Secure+Infrastructure+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/9990926b-66af-4644-be88-6039a205e8af/1018875/1600802360820/Maintain+a+Secure+Infrastructure+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1018876,
+          "key": "0453cea6-39fd-4725-b867-977b28ac0ada",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0453cea6-39fd-4725-b867-977b28ac0ada",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018877,
+              "key": "b3c4cbf9-0596-43c4-a80d-1fb219c90d1d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018878,
+              "key": "7ee85e60-b7ed-45e3-9a07-88e4a8ae8e0f",
+              "title": "ND545 C1 L2 01 Introduction Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zGZiteHvXho",
+                "china_cdn_id": "zGZiteHvXho.mp4"
+              }
+            },
+            {
+              "id": 1018879,
+              "key": "68f858c0-8ba2-4ebd-9d3f-e8470ef9cedc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nOrganizations worldwide are required to maintain a secure technical infrastructure for the reasons stated earlier. <br>\nIn this lesson, we'll go over some of the leading cybersecurity laws, regulations, standards, and frameworks. These help organizations of all sizes know what to do in securing their infrastructure. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018880,
+          "key": "be7a60d2-583d-49a3-94b0-75cc903e8af5",
+          "title": "Rules Governing Cybersecurity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "be7a60d2-583d-49a3-94b0-75cc903e8af5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018882,
+              "key": "9797c604-d163-48e5-8807-69e48c7741a3",
+              "title": "ND545 C1 L2 02 Big Picture & Developing Your Intuition  Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KwiVy2zhOy4",
+                "china_cdn_id": "KwiVy2zhOy4.mp4"
+              }
+            },
+            {
+              "id": 1018885,
+              "key": "d6315533-d20b-4041-815a-4f7dd088f4f6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIt’s important for you to know the rules governing cybersecurity you'll need to make sure you and your organization are following those rules. In this lesson, you'll learn about influential, international organizations that develop and maintain the standards used by companies worldwide to defend data, computers, and networks.\n\nThere are organizations responsible for setting the standards in the US and Internationally. There are also ones that focus on specific areas. \n* In the United States, that organization is the **National Institute of Standards and Technology**, also known as NIST. \n* The **International Organization for Standards** or ISO works with the International Electrotechnical Commission or IEC to set worldwide technology standards. \n* There are also governing bodies that set the rules for specific areas. For example, the **Payment Card Industry** (PCI) has the Data Security Standards that are required for any business accepting or handling credit card data. \n\nWhy do we need security standards? \n* For safety, to make sure technology doesn’t cause problems for people or other technologies\n* Allow technology interconnectivity\n* Make sure everyone is playing by the same rules (this is known as compliance)\n* For efficiency",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027701,
+              "key": "5ed2c6a4-38f8-4f3b-bf78-6dcb27282199",
+              "title": "Cybersecurity Standards",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5ed2c6a4-38f8-4f3b-bf78-6dcb27282199",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Why is it important to set standards for technology and cybersecurity? [Pick all that appy]",
+                "answers": [
+                  {
+                    "id": "a1590089835669",
+                    "text": "Compliance",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590089878965",
+                    "text": "Safety",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590089894844",
+                    "text": "Stop Hackers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590089915506",
+                    "text": "Efficiency",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018886,
+          "key": "64c20590-5219-4838-bbbd-730b4b64dc2c",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "64c20590-5219-4838-bbbd-730b4b64dc2c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018893,
+              "key": "768de817-05c6-49b3-aa0f-2a89f605abf1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018894,
+              "key": "c0cd85db-bf85-473f-a7d3-2f75dd88e5ca",
+              "title": "ND545 C1 L2 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "unH0xhig4bo",
+                "china_cdn_id": "unH0xhig4bo.mp4"
+              }
+            },
+            {
+              "id": 1018895,
+              "key": "c577b600-b62b-458e-8b70-01b891895c3e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee84dc3_l2-lo/l2-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c577b600-b62b-458e-8b70-01b891895c3e",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 356,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018897,
+              "key": "8950face-57c9-4323-9094-807e27117115",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn this lesson, we’ll cover the following topics:\n* Governance and compliance\n* Security regulations\n* NIST Cybersecurity Framework \n* Center for Internet Security’s Critical Security Controls (CIS CSC)\n\n## Lesson learning objective\n\nBy the end of this lesson, you will be able to:\n* Explain cybersecurity governance concepts\n* Apply methods to enforce cybersecurity governance\n* Identify common security regulations and frameworks\n- Explain how current security laws, regulations and standards applied to cybersecurity and data privacy\n- Recognize components of the NIST Cybersecurity Framework (CSF) \n- Recognize components of the CIS CSC\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018898,
+          "key": "b5117cdc-5003-43c6-a5e2-c6a92c30a6ba",
+          "title": "Governance and Compliance",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b5117cdc-5003-43c6-a5e2-c6a92c30a6ba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018899,
+              "key": "16fb885a-3e0e-43fe-aff4-c25b843d8ca8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Governance and Compliance",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018900,
+              "key": "cd8ec271-2c52-4ed1-b66c-efd3df04e515",
+              "title": "ND545 C1 L2 04 Governance And Compliance Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "48iu7Bt5wQA",
+                "china_cdn_id": "48iu7Bt5wQA.mp4"
+              }
+            },
+            {
+              "id": 1018902,
+              "key": "a2022f49-9d61-473f-8c21-e5732e1bc5f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThis lesson explains *governance* and *compliance* and how policies are used as a form of communicating corporate rules and enforcing compliance.<br>\n\n* **Governance** -  A strategic planning responsibility providing organizational oversight that sets policies and establishes practices to enforcement.\n* **Compliance** - Requirement all affected parties follow the same rules.\n* **Audit** - Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures. (NIST Glossary)\n\n- **Policies** are the bedrock of a security program. Policies are:\n> * Formal statements, rules or assertions that specify the correct or expected behavior of an entity.\n> * Example: Acceptable Use Policy (AUP)\n> * Enforcement and compliance\n> * Written and accessible\n\n\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018904,
+              "key": "bdbf98f7-f368-4caf-8892-b16d9e17522c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Governance:** A strategic planning responsibility providing organizational oversight that sets policies and establishes practices to enforcement\n- **Compliance:** The requirements of all affected parties follow the same rules.\n- **Audit:** An independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures. \n- **Policy:** Statements, rules, or assertions that specify the correct or expected behavior of an entity.\n\nDefinitions from the NIST CSRC Glossary: https://csrc.nist.gov/glossary\n\n## Further research\n* ISACA, IT Governance Institute: https://www.isaca.org/about-isaca/it-governance-institute/pages/default.aspx\n* NIST Glossary: https://csrc.nist.gov/glossary/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018905,
+          "key": "811deaf4-384f-408f-b4ad-d5541b07e282",
+          "title": "Governance and Compliance Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "811deaf4-384f-408f-b4ad-d5541b07e282",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018906,
+              "key": "98d6d19d-1886-4f51-88ac-116e89a943f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Governance and Compliance Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028020,
+              "key": "745f9418-e54d-408d-a1b0-2f917ca8ff7c",
+              "title": "Terms",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "745f9418-e54d-408d-a1b0-2f917ca8ff7c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "These are statements, rules or assertions that specify the correct or expected behavior for an organization, it's users and customers.",
+                "answers": [
+                  {
+                    "id": "a1590248371917",
+                    "text": "Governance",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590248429516",
+                    "text": "Policies",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590248433817",
+                    "text": "Compliance",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590248437413",
+                    "text": "Standards",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028021,
+              "key": "c8728b2a-959b-4b52-ba59-0f06c163bae3",
+              "title": "Value of Governance",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c8728b2a-959b-4b52-ba59-0f06c163bae3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Why should you know about corporate governance, compliance and policies? (Check all that that are true) ",
+                "answers": [
+                  {
+                    "id": "a1590248570969",
+                    "text": "You will be jailed for failure to comply",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590248651698",
+                    "text": "New employees need to follow organizational rules",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590248694797",
+                    "text": "You may have the job of writing, updating or enforcing compliance with policies ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590248721773",
+                    "text": "You may work with auditors as they assess compliance with policies",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018909,
+          "key": "ec4c5b56-ade0-485f-aea6-2e14b57c0380",
+          "title": "Governance and Compliance Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec4c5b56-ade0-485f-aea6-2e14b57c0380",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018910,
+              "key": "7e7a59bd-6da1-45c3-9061-353ebf2fe2f7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Governance and Compliance Exercise\nAs you learned during the lesson, Governance establishes authority, management, and decision making related to information systems and data. The different types of policy documents set the rules all need to follow or at least be aware of. </br>Udacity uses Governance for its users so you know their rules and expectations. These are often required by government regulators to be compliant with data security and privacy laws. In this exercise, we'll explore some of the Udacity policies on their legal website: https://www.udacity.com/legal. </br>On that website, click on Udacity's [Terms of Use](https://www.udacity.com/legal/en-us/terms-of-use), which sets the rules for using Udacity's website and services and answer the quiz questions below. \n\nSecurity and Privacy Professionals need to be very knowledgeable about the different types of Policies and how they are used. I encourage you to explore Udacity's policies as an example. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019942,
+              "key": "e1ec9d4a-4591-4fd4-b052-c4367dcb1a4a",
+              "title": "Udacity Terms of Use",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e1ec9d4a-4591-4fd4-b052-c4367dcb1a4a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "From [Udacity's Terms of Use (ToU)](https://www.udacity.com/legal/en-us/terms-of-use), under the Access and User Accounts section, which term means that you have created a User Account (defined below) registered and have enrolled in and paid for access to the Online Courses and other Udacity’s Services and/or services.",
+                "answers": [
+                  {
+                    "id": "a1588951097698",
+                    "text": "A Visitor",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1588951241871",
+                    "text": "A Student",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1588951248397",
+                    "text": "An Attendee",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1588951253956",
+                    "text": "An Instructor",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1019943,
+              "key": "70c32722-106c-4113-9676-9038f63c0921",
+              "title": "Udacity's Terms of Use",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "70c32722-106c-4113-9676-9038f63c0921",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " [Udacity's Terms of Use (ToU)](https://www.udacity.com/legal/en-us/terms-of-use), under the User Conduct Policy, what are you prohibited from posting, uploading or transmitting through Udacity's services (aka \"unauthorized content\")? Select all that apply.  ",
+                "answers": [
+                  {
+                    "id": "a1588951558252",
+                    "text": "Any communication that is obscene, fraudulent, indecent, or libelous or that defames, abuses, harasses, discriminates against or threatens others",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1588951581000",
+                    "text": "Any communication that contains malicious software (aka malware)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1588951631899",
+                    "text": "Course projects as part of normal course of study",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1588951655090",
+                    "text": "Any communication that infringes the copyright, patent, trademark, trade secret, right of publicity, or other intellectual property or proprietary right of any third party; that violates",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1019941,
+              "key": "80d8d257-e5ad-4e8e-9c53-c4f3cfbd73fe",
+              "title": "Exploring Udacity's Privacy Policy",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "80d8d257-e5ad-4e8e-9c53-c4f3cfbd73fe",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "In this exercise, we'll explore Udacity's Privacy policy. It explains how we treat the information collected and received from your use of our Services (as defined in our Terms of Use or “ToU”) provided through the website, http://www.udacity.com and any other websites or applications we own, operate, or control (the “Website(s)”).</br>\nStep 1: Go to [Udacity's Privacy Policy website](https://www.udacity.com/legal/en-us/privacy). </br>\nStep 2: In the answer box, list at least three items for each:\n* Types of information Udacity collects from users\n* How Udacity collects the information from users\n* How Udacity uses the information we collect\n"
+              },
+              "answer": {
+                "text": "Udacity's Privacy Policy is comprehensive in stating the information it collects, how it collects it, and how it uses that information. </br>\nSample answers for each question are below:\n* Types of information Udacity collects from users\n> * Name, address, telephone number and email address\n> * Log-in credentials, if you register a User Account with us\n> * Information about purchases or other transactions with us, such as your shipping address. \n> * Information about your customer service and maintenance interactions with us\n> * Demographic information, such as your gender, socio-economic status, and other personal information\n* How Udacity collects the information from users\n> * Using any of our Services, including registering for a User Account through the Website(s)\n> * Making a purchase from us, including registering and enrolling in any Online Course\n> * Signing up for email updates\n> * Uploading or posting to public forums included through the Services\n> * Submitting requests or questions to us via forms or email\n* How Udacity uses the information we collect\n> * Send you information in connection with the Services\n> * Respond to your communications and requests\n> * Manage and process Online Courses\n> * Contact you by email, postal mail, or phone (including via SMS messages) regarding Udacity and third-party products, services, surveys, research studies, promotions, special events, and other subjects\n> * Help us better understand your interests and needs, and improve the Services\n> * Engage in analysis, research, and reports regarding use of the Services\n> * Secure the Services\n> * Comply with any procedures, laws, and regulations",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028776,
+          "key": "3566a6fe-f6ea-4922-9242-32aed6a10797",
+          "title": "Governance and Compliance Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3566a6fe-f6ea-4922-9242-32aed6a10797",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028783,
+              "key": "fb1fc4a2-e66b-4813-9317-96b51336bd9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Governance and Compliance Exercise Solution\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028778,
+              "key": "072c461b-394c-417b-b513-d90f43b2222c",
+              "title": "ND545 C1 L2 05 Governance And Compliance Exercise Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mjnwA0eca6s",
+                "china_cdn_id": "mjnwA0eca6s.mp4"
+              }
+            },
+            {
+              "id": 1028777,
+              "key": "8bd7480a-6165-4f8c-99a8-06e677ba3f6f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution Summary\nIn this exercise, you explored some of the Udacity policies on their [legal website](https://www.udacity.com/legal) and the Udacity's [Terms of Use](https://www.udacity.com/legal/en-us/terms-of-use). These set the rules for using Udacity's website and services.\nIn particular, please pay attention to the *Services* they provide, Udacity's rights regarding those services, *Access and User Accounts* definitions and requirements, and the *User Conduct Policy*.\n\nOn the [Udacity Privacy Policy](https://www.udacity.com/legal/en-us/privacy), note how they may use your information and what they may collect. You can also see how they use analytics as part of their services. Lastly, review how they may share or disclose the user's private information. \n\nSecurity and Privacy Professionals need to be very knowledgeable about the different types of policies and how they are used. I encourage you to explore Udacity's policies as examples. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018916,
+          "key": "d397d84b-b61c-4d30-86a4-3c9f74885a31",
+          "title": "Intro to Security Regulations",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d397d84b-b61c-4d30-86a4-3c9f74885a31",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018917,
+              "key": "aa688658-b918-4fb2-b39a-88aa4caeb6a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Intro to Security Regulations and Frameworks",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018918,
+              "key": "7d9b8425-7fb1-4055-b000-98f497320a94",
+              "title": "ND545 C1 L2 06 Intro To Security Regulations Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xFuKs3nSDvk",
+                "china_cdn_id": "xFuKs3nSDvk.mp4"
+              }
+            },
+            {
+              "id": 1018920,
+              "key": "4cce9649-fe69-4ea7-a410-7fdc8b48909f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nEvery organization, no matter its size, structure or sector has a governing body saying what security rules must be followed. These laws, regulations, standards and frameworks provide oversight and direction for security programs. They supply a process for securing an organization's infrastructure. Many also have very specific rules or controls that must be followed. \n\nThis section helps you identify these common security regulations and frameworks that you will see as a cybersecurity professional.\n\n## Security Frameworks\n### ISO 27000 Series\n- ISO/IEC 27001:2013, *Information Security Management System (ISMS) Specification*\n- ISO/IEC 27002:2013, *The Code of Practice for Information Security Management*\n  * 14 security control groups \n  * 35 control objectives \n  * More than 110 individual controls\n- ISO/IEC 27005:2011, *ISMS Risk Management*\n\n### NIST Computer Security Resources Center Special Publications\nThe NIST CSRC provides resources including standards, practice guides and requirement documents on a computer, cyber, and information security and privacy. <br>\nIn particular, the Special Publication or SP 800 Series comprises guidelines, recommendations, technical specifications, and annual reports of NIST’s cybersecurity activities. See: https://www.nist.gov/itl/publications-0/nist-special-publication-800-series-general-information\n\n### Industry-Specific Regulations\n\n- HIPAA Security and Privacy rules - Safeguarding Protected Health Information (PHI)\n- Payment Card Industry Data Security Standard (PCI DSS) - Rules for processing, storing or transmitting Cardholder Data\n- European Union’s General Data Privacy Regulation (GDPR) - EU’s law on data protection and privacy\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018922,
+              "key": "f9333022-82df-4f2a-af3d-bc614771caa5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **ISMS:** Information Security Management System\n\n## Further research\n* ISO/IEC 27000 Series - https://www.iso.org/isoiec-27001-information-security.html\n* NIST CSRC - https://csrc.nist.gov/\n* NIST Special Publications - https://csrc.nist.gov/publications \n* HIPAA Privacy Rule - https://www.hhs.gov/hipaa/for-professionals/privacy/index.html\n* HIPAA Security Rule - https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html \n* PCI DSS - https://www.pcisecuritystandards.org/\n* EU GDPR - https://gdpr-info.eu/ ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018923,
+          "key": "320f3835-394f-486e-8ba6-54286c2e01f4",
+          "title": "Intro to Security Regulations Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "320f3835-394f-486e-8ba6-54286c2e01f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018924,
+              "key": "191128d8-9085-4374-891b-75ff4603ef96",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Intro to Security Regulations Quizzes\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028022,
+              "key": "01a3af53-9e75-46d1-a759-278fee6db627",
+              "title": "ISO Security Standards",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "01a3af53-9e75-46d1-a759-278fee6db627",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which document from the ISO/IEC 27000 Series has more than 110 individual security controls?",
+                "answers": [
+                  {
+                    "id": "a1590262715293",
+                    "text": "ISO/IEC 27001",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590262782641",
+                    "text": "ISO/IEC 27002",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590262793304",
+                    "text": "ISO/IEC 27003",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590262798974",
+                    "text": "ISO/IEC 27005",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028023,
+              "key": "d2b4c90a-b657-400f-a98b-4599930fc528",
+              "title": "Security Regulations",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d2b4c90a-b657-400f-a98b-4599930fc528",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the Security Regulation with its topic area."
+                },
+                "concepts_label": "Security Regulation",
+                "answers_label": "Topic Area",
+                "concepts": [
+                  {
+                    "text": "HIPAA",
+                    "correct_answer": {
+                      "id": "a1590263340114",
+                      "text": "Safeguarding Protected Health Information (PHI)"
+                    }
+                  },
+                  {
+                    "text": "PCI DSS",
+                    "correct_answer": {
+                      "id": "a1590263405310",
+                      "text": "Handling Cardholder (Credit Card) Data"
+                    }
+                  },
+                  {
+                    "text": "ISO 27000",
+                    "correct_answer": {
+                      "id": "a1590263435004",
+                      "text": "International Information Security Management System (ISMS) Specification"
+                    }
+                  },
+                  {
+                    "text": "GDPR",
+                    "correct_answer": {
+                      "id": "a1590263472494",
+                      "text": "European Union's Privacy Law"
+                    }
+                  },
+                  {
+                    "text": "NIST",
+                    "correct_answer": {
+                      "id": "a1590263499999",
+                      "text": "US Federal Standards"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1590263499999",
+                    "text": "US Federal Standards"
+                  },
+                  {
+                    "id": "a1590263405310",
+                    "text": "Handling Cardholder (Credit Card) Data"
+                  },
+                  {
+                    "id": "a1590263435004",
+                    "text": "International Information Security Management System (ISMS) Specification"
+                  },
+                  {
+                    "id": "a1590263340114",
+                    "text": "Safeguarding Protected Health Information (PHI)"
+                  },
+                  {
+                    "id": "a1590263472494",
+                    "text": "European Union's Privacy Law"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018927,
+          "key": "99251176-55a9-4369-9c3e-fba465133556",
+          "title": "Intro to Security Regulations Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99251176-55a9-4369-9c3e-fba465133556",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018928,
+              "key": "b88fb290-7f80-4f18-81cd-484ebe89c675",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Intro to Security Regulations Exercise\nFor this exercise, you are to explore the [NIST Computer Security Resources Center (CSRC)](https://csrc.nist.gov/) Special Publications found at https://csrc.nist.gov/publications/sp. NIST is chartered to provide information security and data privacy standards and guidelines, which are contained in their Special Publications. The 800 Series are the ones dedicated to security. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1020012,
+              "key": "642754eb-b0a3-483b-8a2f-9e14a5f6b2a6",
+              "title": "NIST Special Publications",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "642754eb-b0a3-483b-8a2f-9e14a5f6b2a6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Go to the NIST Special Publications SP 800 Series website: https://csrc.nist.gov/publications/sp800. Using that website, match the title of the Special Publication with its SP number. You don't need to be concerned about the version or revision number. "
+                },
+                "concepts_label": "SP Number",
+                "answers_label": "SP Title",
+                "concepts": [
+                  {
+                    "text": "SP 800-171",
+                    "correct_answer": {
+                      "id": "a1588972361992",
+                      "text": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
+                    }
+                  },
+                  {
+                    "text": "SP 800-160",
+                    "correct_answer": {
+                      "id": "a1588972820112",
+                      "text": "Developing Cyber Resilient Systems: A Systems Security Engineering Approach"
+                    }
+                  },
+                  {
+                    "text": "SP 800-63-3",
+                    "correct_answer": {
+                      "id": "a1588972860364",
+                      "text": "Digital Identity Guidelines"
+                    }
+                  },
+                  {
+                    "text": "SP 800-53",
+                    "correct_answer": {
+                      "id": "a1588972922413",
+                      "text": "Security and Privacy Controls for Information Systems and Organizations"
+                    }
+                  },
+                  {
+                    "text": "SP 800-61",
+                    "correct_answer": {
+                      "id": "a1588972966289",
+                      "text": "Computer Security Incident Handling Guide"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1588972966289",
+                    "text": "Computer Security Incident Handling Guide"
+                  },
+                  {
+                    "id": "a1588972361992",
+                    "text": "Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
+                  },
+                  {
+                    "id": "a1588972922413",
+                    "text": "Security and Privacy Controls for Information Systems and Organizations"
+                  },
+                  {
+                    "id": "a1588972820112",
+                    "text": "Developing Cyber Resilient Systems: A Systems Security Engineering Approach"
+                  },
+                  {
+                    "id": "a1588972860364",
+                    "text": "Digital Identity Guidelines"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1020017,
+              "key": "083b9cb1-366a-4ae8-9cbc-a46288b4242e",
+              "title": "Reflect on NIST SPs",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "083b9cb1-366a-4ae8-9cbc-a46288b4242e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "From the NIST Special Publications [SP 800 Series website](https://csrc.nist.gov/publications/sp800), pick one of the publications and explain what it contains and how you would use it. Below are some examples for you to explore:\n* [NIST SP 800-210(Draft) - General Access Control Guidance for Cloud Systems](https://csrc.nist.gov/publications/detail/sp/800-210/draft)\n* [NIST SP 800-181 - National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework](https://csrc.nist.gov/publications/detail/sp/800-181/final)\n* [NIST SP SP 800-61 Rev. 2 - Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)"
+              },
+              "answer": {
+                "text": "Answers may vary. NIST Special Publications are used throughout cybersecurity. Use this as an opportunity to understand how they can help you as a security professional and your organization secure their infrastructure. \n* **NIST SP 800-210** presents an initial step toward understanding security challenges in cloud systems by analyzing the access control (AC) considerations in all three cloud service delivery models—Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).\n* **NIST SP 800-181** describes the National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework (NICE Framework), a reference structure that describes the interdisciplinary nature of the cybersecurity work. It serves as a fundamental reference resource for describing and sharing information about cybersecurity work and the knowledge, skills, and abilities (KSAs) needed to complete tasks that can strengthen the cybersecurity posture of an organization. \n* **NIST SP800-61** assists organizations in establishing computer security incident response capabilities and handling incidents efficiently and effectively. This publication provides guidelines for incident handling, particularly for analyzing incident-related data and determining the appropriate response to each incident.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1028779,
+          "key": "0cc87345-9a27-4d30-b1a2-44d9a3f2dd3f",
+          "title": "Intro to Security Regulations Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0cc87345-9a27-4d30-b1a2-44d9a3f2dd3f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1028780,
+              "key": "e6c1c635-32ab-4a2d-8793-8a2af38ce410",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Intro to Security Regulations Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028782,
+              "key": "dad884d5-732b-47ee-8185-0341995738b0",
+              "title": "ND545 C1 L2 07 Intro To Security Regulations Exercise Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "K1OBhnYyg_U",
+                "china_cdn_id": "K1OBhnYyg_U.mp4"
+              }
+            },
+            {
+              "id": 1028781,
+              "key": "ba701bfd-550c-4476-9f8c-9893a328135a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nFor this exercise, you reviewed the NIST Special Publications. These are documents you’ll reference regularly as a security professional. For the exercise, you should have used that website and match the title of the Special Publication with its SP number. You don't need to be concerned about the version or revision number. \n\nFor part 2 of the exercise, you should have picked one of the publications and explain what it contains and how you would use it.\nSome that I found interesting are:\n* [NIST SP 800-210(Draft) - General Access Control Guidance for Cloud Systems](https://csrc.nist.gov/publications/detail/sp/800-210/draft)\n* [NIST SP 800-181 - National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework](https://csrc.nist.gov/publications/detail/sp/800-181/final)\n* [NIST SP SP 800-61 Rev. 2 - Computer Security Incident Handling Guide](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018933,
+          "key": "329a1b50-4f11-456e-a3f9-117eb64a6168",
+          "title": "NIST Cybersecurity Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "329a1b50-4f11-456e-a3f9-117eb64a6168",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018934,
+              "key": "5e270dbf-0a91-428b-b08f-e77101dd9d53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# NIST Cybersecurity Framework",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036539,
+              "key": "30585bf6-6066-42a1-8919-1f370cb973d3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST Cybersecurity Framework - Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018935,
+              "key": "6912145a-56a7-4aea-87ec-e7e2a118070a",
+              "title": "ND545 C1 L2 08 NIST Cybersecurity Framework Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sswkjyAm1IU",
+                "china_cdn_id": "sswkjyAm1IU.mp4"
+              }
+            },
+            {
+              "id": 1036544,
+              "key": "2c2798fe-275b-4a15-853a-8b244f2c4e6d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST CSF\n**The NIST Cybersecurity Framework** helps to simplify the process of maturing an organization’s cybersecurity program. By following NIST CSF, businesses experience fewer breaches and compliance issues. NIST CSF  consists of standards, guidelines, and practices to promote the protection of critical infrastructure.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036540,
+              "key": "83fe6db2-f026-48e9-adb6-e5d37b959e8e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee84f9c_tiers/tiers.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/83fe6db2-f026-48e9-adb6-e5d37b959e8e",
+              "caption": "The NIST CSF Tiers",
+              "alt": "The NIST CSF Tiers",
+              "width": 400,
+              "height": 396,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036545,
+              "key": "285d413c-878e-4984-bbf3-68f60f73e963",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**The Framework Tiers** describe *how mature* an organization is when it comes to cybersecurity technology, management, and operational practices. The more mature, the more efficient, effective, and secure. There are *four* tiers. A company new to NIST would start at Tier 1, while a mature program would be a level 3 or 4.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036541,
+              "key": "0f3d058a-de87-4dd2-9943-dd9d3daa6d39",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee84fc6_framework/framework.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0f3d058a-de87-4dd2-9943-dd9d3daa6d39",
+              "caption": "NIST CSF Core",
+              "alt": "NIST CSF Core",
+              "width": 600,
+              "height": 582,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036546,
+              "key": "925d1e8a-9796-48a9-b4e7-b318cb15333b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**The CSF Core** is a set of cybersecurity activities organized into high-level *functions* and *categories*.  Using non-technical and straightforward language, it provides a translation layer among multi-disciplinary teams. The Core includes five high-level functions: Identity, Protect, Detect, Respond, and Recover. The categories fit within the functions and provide greater direction on implementing the function.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036542,
+              "key": "98a32159-071b-468f-9d96-2cb299830f42",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee85015_profile/profile.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/98a32159-071b-468f-9d96-2cb299830f42",
+              "caption": "NIST CSF Profile",
+              "alt": "NIST CSF Profile",
+              "width": 300,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018937,
+              "key": "c14f354b-8836-4405-9dbe-69d087629af1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**The NIST CSF organizational Profile** forms the company’s unique alignment of business objectives, threats, risks, and requirements. By comparing the current profile with a target profile, the company can identify the area to improve the cybersecurity.\n\nThe NIST CSF Tiers, Core, and Profile provide direction on implementing a compliant security program that manages its cybersecurity risks to acceptable levels.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036538,
+              "key": "9ec227d6-451d-448e-9061-5ec162c9ebce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "##  NIST Cybersecurity Framework Core",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036537,
+              "key": "19c789cb-798f-40dd-bfd0-ff234220dbea",
+              "title": "ND545 C1 L2 09 CSF Core",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3boPmAMTWoU",
+                "china_cdn_id": "3boPmAMTWoU.mp4"
+              }
+            },
+            {
+              "id": 1028025,
+              "key": "a36d1e84-ddc7-4596-b6b9-7cccb1939b09",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST CSF Core - Functions\nThe NIST CSF five **Functions** or steps are Identify, Protect, Detect, Respond, and Recover.\n1. Identify valuable company assets and data. \n2. Protect valuable company assets and data from threats.\n3. Detect when a cyber incident occurs.\n4. Respond quickly and efficiently to a cyber incident.\n5. Recover from an incident and get back to business\n\n\n## NIST CSF Core - Categories\nThe next layer of the CSF Core is **Categories**, which are a set of cybersecurity activities and outcomes organized into 23 Categories. Each category has a unique identifier based on the function and category name. It’s what you need to do or prove you do for a cybersecurity program. It uses simplistic and non-technical language to provide easy communication between multi-disciplinary teams. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019268,
+              "key": "6ab9c358-6745-479d-8a6a-eb969a923cff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further research\n* NIST CSF, \"An Introduction to the Components of the Framework\" - https://www.nist.gov/cyberframework/online-learning/components-framework\n* NIST CSF Five Functions - https://www.nist.gov/cyberframework/online-learning/five-functions ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018938,
+          "key": "ac77dde3-90cd-44a3-8740-0ebb1026cd25",
+          "title": "NIST Cybersecurity Framework Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ac77dde3-90cd-44a3-8740-0ebb1026cd25",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018939,
+              "key": "24786a63-737c-4d52-a754-407034c06561",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# NIST Cybersecurity Framework Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1035359,
+              "key": "fb4963e2-d52d-44db-9ef8-023f66a6fded",
+              "title": "NIST CSF Core",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fb4963e2-d52d-44db-9ef8-023f66a6fded",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "This describes how mature an organization is when it comes to cybersecurity technology, management and operational practices.",
+                "answers": [
+                  {
+                    "id": "a1591811290232",
+                    "text": "Tiers",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1591811302814",
+                    "text": "Functions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1591811307094",
+                    "text": "Categories",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1591811314170",
+                    "text": "Organizational Profile",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028027,
+              "key": "897c2b8e-15da-44f8-9146-87f2ba3aafe3",
+              "title": "NIST CSF Functions and Categories",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "897c2b8e-15da-44f8-9146-87f2ba3aafe3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the NIST CSF category with its function. "
+                },
+                "concepts_label": "Category",
+                "answers_label": "Function",
+                "concepts": [
+                  {
+                    "text": "Anomalies and Events",
+                    "correct_answer": {
+                      "id": "a1590332114192",
+                      "text": "Detect"
+                    }
+                  },
+                  {
+                    "text": "Recovery Planning",
+                    "correct_answer": {
+                      "id": "a1590332164151",
+                      "text": "Recover"
+                    }
+                  },
+                  {
+                    "text": "Mitigation",
+                    "correct_answer": {
+                      "id": "a1590332183593",
+                      "text": "Respond"
+                    }
+                  },
+                  {
+                    "text": "Governance",
+                    "correct_answer": {
+                      "id": "a1590332196503",
+                      "text": "Identify"
+                    }
+                  },
+                  {
+                    "text": "Access Control",
+                    "correct_answer": {
+                      "id": "a1590332208305",
+                      "text": "Protect"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1590332164151",
+                    "text": "Recover"
+                  },
+                  {
+                    "id": "a1590332183593",
+                    "text": "Respond"
+                  },
+                  {
+                    "id": "a1590332114192",
+                    "text": "Detect"
+                  },
+                  {
+                    "id": "a1590332196503",
+                    "text": "Identify"
+                  },
+                  {
+                    "id": "a1590332208305",
+                    "text": "Protect"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018942,
+          "key": "d3e0dfc7-95cb-4ed8-9132-ba40f6ae83f9",
+          "title": "NIST Cybersecurity Framework (CSF) Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d3e0dfc7-95cb-4ed8-9132-ba40f6ae83f9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018943,
+              "key": "6422e906-8468-4ec6-81b0-7d40226637b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# NIST Cybersecurity Framework (CSF) Exercise\nThe [NIST Cybersecurity Framework (CSF) Core](https://www.nist.gov/cyberframework/online-learning/components-framework) includes five high level functions: Identify, Protect, Detect, Respond, and Recovery and 23 Categories that are split across the five Functions.  The image below depicts the Framework Core's Functions and Categories.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019946,
+              "key": "f0cb84a0-be4c-4c04-8f7e-560791523967",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee85053_fwtable/fwtable.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f0cb84a0-be4c-4c04-8f7e-560791523967",
+              "caption": "",
+              "alt": "",
+              "width": 500,
+              "height": 500,
+              "instructor_notes": null
+            },
+            {
+              "id": 1019947,
+              "key": "83d1031f-30d4-4317-a6ae-9ed522301660",
+              "title": "Identify Function",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "83d1031f-30d4-4317-a6ae-9ed522301660",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "The Identify Function assists in developing an organizational understanding in managing cybersecurity risk to systems, people, assets, data, and capabilities. Understanding the business context, the resources that support critical functions, and the related cybersecurity risks enable an organization to focus and prioritize its efforts, consistent with its risk management strategy and business needs.\n\nList at least three examples of the Identify Function. "
+              },
+              "answer": {
+                "text": "Examples of outcome Categories within the Identify Function include:\n* Identifying physical and software assets within the organization to establish the basis of an Asset Management program\n* Identifying the Business Environment the organization supports including the organization's role in the supply chain and the organization's place in the critical infrastructure sector\n* Identifying cybersecurity policies established within the organization to define the Governance program as well as identifying legal and regulatory requirements regarding the cybersecurity capabilities of the organization\n* Identifying asset vulnerabilities, threats to internal and external organizational resources, and risk response activities as a basis for the organization's Risk Assessment\n* Identifying a Risk Management Strategy for the organization including establishing risk tolerances\n* Identifying a Supply Chain Risk Management strategy including priorities, constraints, risk tolerances, and assumptions used to support risk decisions associated with managing supply chain risks\n\nAnswers found at https://www.nist.gov/cyberframework/online-learning/five-functions",
+                "video": null
+              }
+            },
+            {
+              "id": 1019948,
+              "key": "10a863a3-779c-4bba-a658-d2989a684d25",
+              "title": "Protect Function",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "10a863a3-779c-4bba-a658-d2989a684d25",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "The Protect Function outlines appropriate safeguards to ensure delivery of critical infrastructure services. The Protect Function supports the ability to limit or contain the impact of a potential cybersecurity event.\n\nList at least three examples of the Protect Function."
+              },
+              "answer": {
+                "text": "Examples of outcome Categories within the Protect Function include:\n\n* Protections for Identity Management and Access Control within the organization including physical and remote access\n* Empowering staff within the organization through Awareness and Training including role based and privileged user training\n* Establishing Data Security protection consistent with the organization’s risk strategy to protect the confidentiality, integrity, and availability of information\n* Implementing Information Protection Processes and Procedures to maintain and manage the protection of information systems and assets\n* Protecting organizational resources through Maintenance, including remote maintenance, activities\n* Managing Protective Technology to ensure the security and resilience of systems and assists are consistent with organizational policies, procedures, and agreements\n\nAnswers found at https://www.nist.gov/cyberframework/online-learning/five-functions",
+                "video": null
+              }
+            },
+            {
+              "id": 1019950,
+              "key": "de6a2a42-ab67-47fa-822d-eaa97361ec40",
+              "title": "Detect Function",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "de6a2a42-ab67-47fa-822d-eaa97361ec40",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "The Detect Function describes suitable actions to recognize the existence of a cybersecurity event. The Detect Function allows the identification of cybersecurity events.\n\nList at least three examples of the Detect Function."
+              },
+              "answer": {
+                "text": "Examples of categories within the Detect Function include:\n\n* Ensuring Anomalies and Events are identified, and their possible effects are analyzed\n* Implementing Security Continuous Monitoring capabilities to watch for cybersecurity events and verify the usefulness of defensive methods including network and physical activities\n* Maintaining Detection Processes to provide awareness of anomalous events\n\nAnswers found at https://www.nist.gov/cyberframework/online-learning/five-functions",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018944,
+          "key": "a5aa89a1-f3bf-48b8-b817-c20f5b32d959",
+          "title": "NIST Cybersecurity Framework Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a5aa89a1-f3bf-48b8-b817-c20f5b32d959",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018945,
+              "key": "68f83fe4-2008-4dc2-887d-3e2ebd52820e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# NIST Cybersecurity Framework Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036505,
+              "key": "836c506a-ce5c-488e-bc5e-7225c7f17137",
+              "title": "ND545 C1 L2 09.1 NIST Cybersecurity Framework Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "u34D1H7Zby4",
+                "china_cdn_id": "u34D1H7Zby4.mp4"
+              }
+            },
+            {
+              "id": 1018947,
+              "key": "4f4b4e51-30f8-4cf3-8b61-47451166ac58",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## NIST CSF function summary\n- The first function, **Identify**: identify and document your valuable business assets and inventories. This step assists you with recognizing the valuable technology, data, and other resources your company owns.\n\n- The second function, **Protect**: ways you can secure the items you identified in step one. Ways to establish valid protection come in many forms, including nontechnical human components, such as security awareness. On the other side are technical products or services requiring some level of expertise, such as network security with firewalls and web filters, malware and virus protection, patching and updating, and encryption.\n\n- The third function, **Detect**: a real or potential incident as quickly as possible. This allows you to quickly and easily respond and recover. Detect is a process of developing and implementing activities to identify the occurrence of a cybersecurity event, with a focus on *finding* of such events. \n\n- The fourth function, **Respond**: Once you detect a problem, whether it’s a security breach, network outage, or system misconfiguration, you need to *respond*. This is your plan for handling incidents to ensure minimal organizational impacts. \n\n- The fifth function, **Recovery**: when an incident is properly responded, you may need to recover your organizational activities. To get your operations quickly back to normal can lessen the financial and human costs of a cybersecurity incident. The more resilient you are, the less your organization is effected. \n\nBy using the NIST CSF functions and categories, organizations experience fewer breaches and security compliance issues.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018948,
+          "key": "aaea5bfa-c899-467d-b77a-a7d46ca0cc1c",
+          "title": "Center for Internet Security Controls",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aaea5bfa-c899-467d-b77a-a7d46ca0cc1c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018949,
+              "key": "6d80f49b-5bf2-4117-9e5d-f943e3fbca75",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Center for Internet Security Controls",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018950,
+              "key": "9a3cf373-8c1f-495b-a48d-69614f3e06d8",
+              "title": "ND545 C1 L2 10 Center For Internet Security Controls Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mMNJqnKVKVw",
+                "china_cdn_id": "mMNJqnKVKVw.mp4"
+              }
+            },
+            {
+              "id": 1018951,
+              "key": "873efda0-1612-455e-b85d-02997476fd9f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Center for Internet Security Best Practices\nIn the final section of this lesson, we look at the Center for Internet Security (CIS) Cybersecurity Best Practices. The Center for Internet Security is a non-profit organization that leads a global community of IT professionals in developing security standards to safeguard against emerging threats. \n\nTheir best practices are made up of two parts: \n* The Critical Security Controls, also known as the CIS CSC or CIS Controls™ which are the top 20 activities for organizational security.\n* The CIS Benchmarks™ are guidelines to secure or lockdown operating systems, software, applications and networks\n\nThey are both developed by a community of cybersecurity professionals from many different areas with the goal of establishing a form of a checklist of activities as organizations mature their cybersecurity programs. \n\nThe CIS Controls™ is separated into three functional areas that the CIS calls Implementation Groups: \n- Basic Controls\n- Foundational Controls\n- Organizational Controls\n\n\n## Further research\n* CIS Best Practices: https://www.cisecurity.org/cybersecurity-best-practices/ \n* CIS Controls List: https://www.cisecurity.org/controls/cis-controls-list/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018952,
+          "key": "76c401d0-074b-4330-9a00-4cb94a582181",
+          "title": "Center for Internet Security Controls Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "76c401d0-074b-4330-9a00-4cb94a582181",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018954,
+              "key": "a9bfaaa8-5981-4725-a644-b4bb527b83cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Center for Internet Security Controls Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028031,
+              "key": "f9bbaad0-1837-4f5a-bd96-ba98be5c5961",
+              "title": "CIS Controls order",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f9bbaad0-1837-4f5a-bd96-ba98be5c5961",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The CIS Controls can be done in any order as long as they are all accomplished prior to a security audit. ",
+                "answers": [
+                  {
+                    "id": "a1590346523835",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590346561107",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028029,
+              "key": "c21c379f-468c-4f3f-a570-9134cdf340c0",
+              "title": "CIS Basic Controls",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c21c379f-468c-4f3f-a570-9134cdf340c0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which controls fit into the **Basic Controls** implementation group? ",
+                "answers": [
+                  {
+                    "id": "a1590345795076",
+                    "text": "Hardware and Software inventory",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590345860451",
+                    "text": "Vulnerability Management",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590345879416",
+                    "text": "Malware Defenses",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590345886601",
+                    "text": "Data Protection",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590345894439",
+                    "text": "Controlling the use of administrator accounts",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590345957196",
+                    "text": "Security Awareness Training",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028030,
+              "key": "de6b2e4f-8454-4171-a23d-9c8a8c653047",
+              "title": "CIS Controls",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "de6b2e4f-8454-4171-a23d-9c8a8c653047",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which controls fit into the **Foundational Controls** implementation group?",
+                "answers": [
+                  {
+                    "id": "a1590346072392",
+                    "text": "Email and Web Browser Security",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590346123153",
+                    "text": "Monitoring and Analysis of Audit Logs",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590346137286",
+                    "text": "Data Recovery",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590346154764",
+                    "text": "Wireless Access",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590346164704",
+                    "text": "Application Security",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018957,
+          "key": "395db687-3874-4c1c-8984-92d90c4025ee",
+          "title": "Center for Internet Security Controls Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "395db687-3874-4c1c-8984-92d90c4025ee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018958,
+              "key": "2bf37a3b-22a9-4692-99f5-8b69781abd20",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Center for Internet Security Controls Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1050590,
+              "key": "e38e65b8-e5b2-4b18-91d1-65caa275ae6a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "CIS control is a great resource you can use to secure your business. You will perform a similar analysis in the final project.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036543,
+              "key": "c1313bbc-9497-4854-8384-ff549f97ffdb",
+              "title": "ND545 C1 L2 11 Center For Internet Security Controls Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NXleiEsV3yE",
+                "china_cdn_id": "NXleiEsV3yE.mp4"
+              }
+            },
+            {
+              "id": 1020118,
+              "key": "cde1b3f4-14d3-4317-93e8-cf8842a8aeca",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Jill & Roy's Accounting - Case Study\n\nJill and Roy provide accounting services throughout their area. They employ 7 full-time workers: 4 accountants, 1 office administrator, and themselves. They also have about a dozen seasonal workers during tax season. \n\nThey use Microsoft 365 (aka Office 365) for all of their office applications (email, word processing, spreadsheets, etc.). For their accounting, they use Intuit's Quickbooks and ProConnect online versions. They have a single office with a network router to their ISP, a Linksys LGS116P Ethernet Switch and a Linksys AC1900 WiFi Router. \n\nThe full-time accountants each have a Lenovo ThinkPad T490 and the office administrator has a Lenovo desktop. All company workstation computers use Windows 10 and all users have administrator access on their PC. They also have one internal Windows 10 Lenovo desktop that they use as a centralized print and file server that sits in the main office area. Only Roy, Jill and the office admin have an account on it. The temporary workers use their own laptops, which are a mixture of Windows and Macs. \n\nThe office has a Bring Your Own Device (BYOD) Policy for all cell phones. They have a contract with a local IT company to provide services, which includes a weekly backup of the file/print server, monthly updating of all computers, and maintenance of the network equipment. \n\nFor each of the CIS Controls below, provide your interpretation of how they may apply to Jill & Roy's Accounting. You may use the CIS CSC website https://www.cisecurity.org/controls/cis-controls-list/ to help you answer these questions.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1020119,
+              "key": "34a981cb-ec1c-436b-ba59-36966d0070b8",
+              "title": "Hardware and Software Inventory",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "34a981cb-ec1c-436b-ba59-36966d0070b8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "CIS Control #1 is <i>Inventory and Control of Hardware Assets</i> and #2 is <I>Inventory and Control of Software Assets</i>. </br>\n* How do these controls apply to the company? \n* What can they do to make sure they meet them? \n"
+              },
+              "answer": {
+                "text": "Having a good software and hardware inventory is the starting point for any security program.\n\nSample Answer:</br>\nJill & Roy should have a written inventory of all major hardware devices and computers. This includes all company-owned laptops, desktops, printers, networking equipment, and devices. They should also have an inventory of all software in use by the company, including anything installed on company PCs and cloud services. This inventory should be reviewed at least monthly and updated as needed. \n",
+                "video": null
+              }
+            },
+            {
+              "id": 1020120,
+              "key": "8313eb42-b4a1-448e-aa2c-f75eac35e4fe",
+              "title": "CIS Controls",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8313eb42-b4a1-448e-aa2c-f75eac35e4fe",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Select the CIS Controls that should be the top priority for Jill & Roy's Accounting. Focus on ones in the Basic and Foundational groups.",
+                "answers": [
+                  {
+                    "id": "a1589057274488",
+                    "text": "Secure Configuration for Hardware and Software on Mobile Devices, Laptops, Workstations, and Servers",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589057331414",
+                    "text": "Continuous Vulnerability Management",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589057357798",
+                    "text": "Malware Defenses",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589057420425",
+                    "text": "Email and Browser Protections ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589057566621",
+                    "text": "Account Monitoring and Control",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589057613086",
+                    "text": "Penetration Tests and Red Team Exercises",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1020121,
+              "key": "91c77bec-3a3b-4fd1-848b-a1a9337cd26b",
+              "title": "Reflect on Using the CIS Controls",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "91c77bec-3a3b-4fd1-848b-a1a9337cd26b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "In the box below, provide additional observations on how Jill and Roy's Accounting can use the CIS Controls to improve the security in their business. "
+              },
+              "answer": {
+                "text": "Your answers may vary. The CIS Controls helps businesses of all sizes mature their security programs by taking them through a step-by-step process for securing their infrastructure. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018959,
+          "key": "f4d5fe4b-434d-437e-8a4e-dbddc922e994",
+          "title": "Center for Internet Security Controls Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f4d5fe4b-434d-437e-8a4e-dbddc922e994",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018960,
+              "key": "1e1cd361-f345-4d28-ba28-4d81a4ec92a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Center for Internet Security Controls Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018961,
+              "key": "11ec4da9-d537-469b-9f1f-3289423ec326",
+              "title": "ND545 C1 L2 12 Center For Internet Security Controls Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uE_57oVrYkw",
+                "china_cdn_id": "uE_57oVrYkw.mp4"
+              }
+            },
+            {
+              "id": 1018962,
+              "key": "fc552a32-0d7d-4a74-b0df-fe2129b34b43",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nJill and Roy's Accounting is a typical small business that uses a mix of local and cloud computing. Many small businesses rely on others to provide IT and security services. The Center for Internet Security Controls helps organizations of all sizes know what to do for security and how to do it. You can almost use the top 20 controls like a security checklist. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018971,
+          "key": "10028cca-96fc-4347-9c87-a924ae065839",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "10028cca-96fc-4347-9c87-a924ae065839",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018972,
+              "key": "bbfc1b22-a8ab-4f6e-b623-0bb3abeb2a3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018974,
+              "key": "3d02c101-9ecf-4b6c-9e93-e18b039c139d",
+              "title": "ND545 C1 L2 13 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "60y_lCW_NW0",
+                "china_cdn_id": "60y_lCW_NW0.mp4"
+              }
+            },
+            {
+              "id": 1018975,
+              "key": "9cc01a0e-829b-4c66-bbe2-461612247dc3",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee850fb_l2-lo/l2-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9cc01a0e-829b-4c66-bbe2-461612247dc3",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 356,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018973,
+              "key": "f101bcbe-ed55-4c67-9e7c-7e3ada8821f9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Summary\nIn the *Maintaining a Secure Critical Infrastructure* lesson, we evaluated specific security techniques used to administer a system that meets industry standards and core controls.\nWe covered the following areas:\n1. Governance and Compliance\n2. Security Regulations\n3. NIST Cybersecurity Framework\n4. Center for Internet Security Critical Security Controls\n\nBy now, you should be able to\n* Explain cybersecurity governance concepts\n* Apply method to enforce cybersecurity governance\n* Identify common security regulations and frameworks\n* Explain how current security laws, regulations and standards applied to cybersecurity and data privacy\n* Recognize components of the NIST Cybersecurity Framework (CSF) \n* Recognize components of the CIS Controls\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028310,
+              "key": "893c3d98-2a32-4b98-9a8c-073dfd13ccec",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n- **Governance:** A strategic planning responsibility providing organizational oversight that sets policies and establishes practices to enforcement\n- **Compliance:** The requirements all affected parties follow the same rules.\n- **Audit:** An independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance with established policies and operational procedures. (NIST Glossary)\n- **Policy:** Statements, rules, or assertions that specify the correct or expected behavior of an entity. (NIST)\n- **ISMS:** Information Security Management System\n\nSource: https://csrc.nist.gov/glossary\n\n## Further research\n* ISACA, IT Governance Institute: https://www.isaca.org/about-isaca/it-governance-institute/pages/default.aspx\n* NIST Glossary: https://csrc.nist.gov/glossary/\n* ISO/IEC 27000 Series - https://www.iso.org/isoiec-27001-information-security.html\n* NIST CSRC - https://csrc.nist.gov/\n* NIST Special Publications - https://csrc.nist.gov/publications \n* HIPAA Privacy Rule - https://www.hhs.gov/hipaa/for-professionals/privacy/index.html\n* HIPAA Security Rule - https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html \n* PCI DSS - https://www.pcisecuritystandards.org/\n* EU GDPR - https://gdpr-info.eu/ \n* NIST CSF, \"An Introduction to the Components of the Framework\" - https://www.nist.gov/cyberframework/online-learning/components-framework\n* NIST CSF Five Functions - https://www.nist.gov/cyberframework/online-learning/five-functions \n* CIS Best Practices: https://www.cisecurity.org/cybersecurity-best-practices/ \n* CIS Controls List: https://www.cisecurity.org/controls/cis-controls-list/\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

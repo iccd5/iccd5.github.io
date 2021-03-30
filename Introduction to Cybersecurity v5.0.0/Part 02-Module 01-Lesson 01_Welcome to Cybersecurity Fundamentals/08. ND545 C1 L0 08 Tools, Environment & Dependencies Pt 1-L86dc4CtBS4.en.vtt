@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.365
+To work in cyber security you need to be familiar with typical environments,
+
+00:00:04.365 --> 00:00:06.525
+operating systems, and tools.
+
+00:00:06.525 --> 00:00:10.350
+In this course, we'll mainly focus on the Windows 10 operating system,
+
+00:00:10.350 --> 00:00:14.805
+since it's the predominant platform for most end-users and business.
+
+00:00:14.805 --> 00:00:19.020
+It's okay if you don't have one to use as we'll give you access to one.
+
+00:00:19.020 --> 00:00:22.860
+Most Windows operating systems come with built-in security tools.
+
+00:00:22.860 --> 00:00:27.270
+Some of the Windows components you'll use are the Control Panel,
+
+00:00:27.270 --> 00:00:31.875
+Computer Management, and Local Security Policies.
+
+00:00:31.875 --> 00:00:37.665
+I'll describe each one of these native Windows capabilities in depth in future videos.
+
+00:00:37.665 --> 00:00:42.185
+There are also other tools that help you as a cybersecurity professional,
+
+00:00:42.185 --> 00:00:45.230
+these include Sysinternals Suite.
+
+00:00:45.230 --> 00:00:47.690
+We use these utilities to troubleshoot, diagnose,
+
+00:00:47.690 --> 00:00:51.095
+and manage Windows operating systems and applications.
+
+00:00:51.095 --> 00:00:54.890
+Windows God Mode, which is simply a shortcut folder
+
+00:00:54.890 --> 00:00:59.800
+containing Windows utilities found in the Control Panel and Computer Management.
+
+00:00:59.800 --> 00:01:04.430
+NMap network mapper, which is a tool for mapping networks.
+
+00:01:04.430 --> 00:01:07.865
+You can see the device and IP addresses on a network.
+
+00:01:07.865 --> 00:01:11.090
+7-Zip, a simple application for
+
+00:01:11.090 --> 00:01:15.005
+compressing files that can also be used for simple encryption.
+
+00:01:15.005 --> 00:01:18.790
+Now let me show you how to use these different tools.
+
+00:01:18.790 --> 00:01:22.820
+The first group of security tools I encourage you to check out,
+
+00:01:22.820 --> 00:01:25.250
+it is called the Sysinternal Suite.
+
+00:01:25.250 --> 00:01:29.705
+They've actually been around from over 15 years,
+
+00:01:29.705 --> 00:01:33.890
+and I use these daily to help me manage Windows systems.
+
+00:01:33.890 --> 00:01:41.620
+They are freely available from microsoftdocs.microsoft.com Sysinternals. You can Bing it.
+
+00:01:41.620 --> 00:01:44.655
+I say Bing because it's Microsoft of course.
+
+00:01:44.655 --> 00:01:46.775
+With this suite of tools,
+
+00:01:46.775 --> 00:01:50.465
+you can better administer Windows systems.
+
+00:01:50.465 --> 00:01:55.280
+Once you download and unzip the Sysinternal tools,
+
+00:01:55.280 --> 00:01:58.520
+you'll be given a folder with all of these tools.
+
+00:01:58.520 --> 00:02:02.990
+You can use them to create multiple desktops for clocks.
+
+00:02:02.990 --> 00:02:05.980
+One of my favorites though is called Autoruns.
+
+00:02:05.980 --> 00:02:08.145
+Let me show you what it looks like.
+
+00:02:08.145 --> 00:02:12.945
+I am now running the program Autoruns from Sysinternals Suite.
+
+00:02:12.945 --> 00:02:17.615
+Have you ever had a program start on a Windows machine that you can't figure it out?
+
+00:02:17.615 --> 00:02:19.505
+How to stop it from starting?
+
+00:02:19.505 --> 00:02:21.970
+Autoruns will solve this.
+
+00:02:21.970 --> 00:02:23.385
+When you open it,
+
+00:02:23.385 --> 00:02:27.185
+it will show you all of the different potential programs that could be starting.
+
+00:02:27.185 --> 00:02:33.275
+If there is a checkbox next to one of the applications,
+
+00:02:33.275 --> 00:02:36.620
+then it automatically starts when your Windows system starts.
+
+00:02:36.620 --> 00:02:39.530
+For example, I have a Wondershare Helper that's
+
+00:02:39.530 --> 00:02:42.820
+automatically starting even though the file is no longer found.
+
+00:02:42.820 --> 00:02:45.515
+To stop it, simply uncheck it.
+
+00:02:45.515 --> 00:02:48.200
+There's no more actions you need to take.
+
+00:02:48.200 --> 00:02:52.310
+Autoruns is a must have as part of your security toolkit.
+
+00:02:52.310 --> 00:02:57.320
+There are many other programs available through the Sysinternal Suite.
+
+00:02:57.320 --> 00:02:59.915
+Download it and try it.
+
+00:02:59.915 --> 00:03:04.805
+On the exercise Windows 10 system you're given as part of this course,
+
+00:03:04.805 --> 00:03:07.910
+Sysinternals Suite should be available giving
+
+00:03:07.910 --> 00:03:11.060
+you an opportunity to learn a little bit more about it.
+
+00:03:11.060 --> 00:03:14.360
+The next tool I'm going to show you is called God Mode.
+
+00:03:14.360 --> 00:03:18.050
+All this does, it's like an Easter egg on Windows.
+
+00:03:18.050 --> 00:03:22.990
+It creates a folder with all of the administrator commands.
+
+00:03:22.990 --> 00:03:26.315
+To enable God Mode on a Windows 10 system,
+
+00:03:26.315 --> 00:03:29.490
+you need to know the secret code and it's not really very secret.
+
+00:03:29.490 --> 00:03:31.900
+I just saved it in Google to make it easy,
+
+00:03:31.900 --> 00:03:36.490
+to enable a folder on your desktop with God Mode, really easy.
+
+00:03:36.490 --> 00:03:40.025
+What you do is you just need to create a new folder,
+
+00:03:40.025 --> 00:03:44.750
+and then rename it using the special code, hit "Enter".
+
+00:03:44.750 --> 00:03:50.470
+Now you'll see a special Control Panel icon with no name associated with it.
+
+00:03:50.470 --> 00:03:52.550
+When you open it,
+
+00:03:52.550 --> 00:03:55.070
+you will actually see it named God Mode,
+
+00:03:55.070 --> 00:03:58.220
+and these are all of the different control tasks tools.
+
+00:03:58.220 --> 00:04:02.465
+Rather than trying to search through the Control Panel with Windows,
+
+00:04:02.465 --> 00:04:04.070
+you now have one folder,
+
+00:04:04.070 --> 00:04:07.660
+makes it so much easier to administer Windows system.
+
+00:04:07.660 --> 00:04:11.060
+Another tool I want to show you is called Nmap,
+
+00:04:11.060 --> 00:04:13.160
+which is a simply a network mapper.
+
+00:04:13.160 --> 00:04:16.850
+It looks for IP addresses on a particular network.
+
+00:04:16.850 --> 00:04:19.520
+Whatever network you ask it to explore,
+
+00:04:19.520 --> 00:04:22.445
+you can learn about it at nmap.org.
+
+00:04:22.445 --> 00:04:27.350
+There will be a whole session about using Nmap later in the course.
+
+00:04:27.350 --> 00:04:28.850
+This is just a tickler,
+
+00:04:28.850 --> 00:04:30.380
+go out to nmap.org,
+
+00:04:30.380 --> 00:04:32.460
+begin to learn about it.
+

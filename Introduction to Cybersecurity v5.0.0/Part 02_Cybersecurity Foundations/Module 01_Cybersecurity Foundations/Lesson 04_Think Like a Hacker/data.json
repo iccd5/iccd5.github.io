@@ -1,0 +1,1516 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1018977,
+      "key": "fee93381-2be9-4e65-96dd-83ea338c59d6",
+      "title": "Think Like a Hacker",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn the hacking lifecycle and the basics of vulnerability, threat, and attack.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/fee93381-2be9-4e65-96dd-83ea338c59d6/1018977/1600802364114/Think+Like+a+Hacker+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/fee93381-2be9-4e65-96dd-83ea338c59d6/1018977/1600802359358/Think+Like+a+Hacker+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1018978,
+          "key": "0793dd83-af43-4c20-b31f-e50e9ff9b457",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0793dd83-af43-4c20-b31f-e50e9ff9b457",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018979,
+              "key": "25daa0d4-e583-4f71-861a-7c4f379baa04",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018980,
+              "key": "95bcf3cb-8d03-438d-96b2-4b1d19a204d0",
+              "title": "ND545 C1 L3 01 Thinking Like A Hacker Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bPuoQ6DenHg",
+                "china_cdn_id": "bPuoQ6DenHg.mp4"
+              }
+            },
+            {
+              "id": 1018981,
+              "key": "de62204f-c1e3-4e8c-886b-b35f5134aedd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nMany may think that hacking is a bad thing, when really it’s encouraged among cybersecurity professionals. In this lesson, you’ll learn to think like a hacker to better secure your technologies. By the end of the lesson, you will be able to assess high-level risks, vulnerabilities and attack vectors using a sample computing system.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018988,
+          "key": "5ad94e2c-8ad1-49da-ad48-7c696d328341",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ad94e2c-8ad1-49da-ad48-7c696d328341",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018989,
+              "key": "651fe873-0889-431e-9878-cb2d3093d426",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018990,
+              "key": "3113a347-95b5-4a9e-87f5-4222d9285069",
+              "title": "ND545 C1 L3 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GKaPcc1I3wA",
+                "china_cdn_id": "GKaPcc1I3wA.mp4"
+              }
+            },
+            {
+              "id": 1045479,
+              "key": "5e24c3ac-0f78-4412-8612-b2f2dacb696b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f10e67d_screen-shot-2020-07-16-at-4.44.10-pm/screen-shot-2020-07-16-at-4.44.10-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5e24c3ac-0f78-4412-8612-b2f2dacb696b",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 258,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018992,
+              "key": "e4fdc580-693c-419f-9a14-d5024c9381f8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Topics:\n* Hacking Lifecycle\n* Vulnerability Management  \n* Introduction to Threats, Attacks, and Exploits\n\n## Lesson Learning Objectives:\n* Categorize assets, risks, threats, vulnerabilities, exploits\n* Identify different types of vulnerabilities in a system\n* Identify the categories of a cyber threat\n* Determine the phase of a cyber attack\n* Recognize common exploits \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018982,
+          "key": "ff8bf776-c635-41a8-b4df-2ada55e1a093",
+          "title": "Hacker Process",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ff8bf776-c635-41a8-b4df-2ada55e1a093",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018984,
+              "key": "7a547055-5d2f-4fef-b044-bc5b56b90d37",
+              "title": "ND545 C1 L3 02 Big Picture Developing Your Intuition Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vxI0kUmxFhU",
+                "china_cdn_id": "vxI0kUmxFhU.mp4"
+              }
+            },
+            {
+              "id": 1018986,
+              "key": "8c8ad173-11cf-46e2-af72-87075bc34364",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn the [Hacker lexicon](http://www.catb.org/~esr/faqs/hacker-howto.html) written in the 1990s by Eric Raymond, “Hackers solve problems and build things, and they believe in freedom and voluntary mutual help.”  Hacking is a mindset, a technique, a way of viewing your world.\nHackers don’t randomly try to break things but follow a well-established process. It starts by determining their target, learning all they can about it, exploring it from multiple perspectives, figuring out how it can break to better understand how it can, and should be used. \n\nThroughout this lesson, you’ll see the hacker lifecycle in action and you’ll use it to build your cybersecurity intuition.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028007,
+              "key": "cbf6b3b9-2504-4863-b20e-8d8574dd253f",
+              "title": "Your definition of a hacker",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cbf6b3b9-2504-4863-b20e-8d8574dd253f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How do you define a hacker? \nWhat does hacking mean to you? "
+              },
+              "answer": {
+                "text": "This is for you to reflect on the definitions of a hacker. Many see them as only evil, but in reality most hackers are \"white-hat\" or good rather than \"black-hat\" or bad. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018993,
+          "key": "4e351544-3bc5-4376-bcd6-23afae42a494",
+          "title": "Hacking Lifecycle",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4e351544-3bc5-4376-bcd6-23afae42a494",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018994,
+              "key": "ece17edb-e114-4ec9-afe2-fc4bb18ed7e2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Hacking Lifecycle",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018995,
+              "key": "14a34366-639c-4cec-8057-07021cf02b48",
+              "title": "ND545 C1 L3 04 Hacking Lifecycle Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LUYLQJgqv_E",
+                "china_cdn_id": "LUYLQJgqv_E.mp4"
+              }
+            },
+            {
+              "id": 1018997,
+              "key": "c89022b1-6b48-4d39-96c4-ccc15595e6a0",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee854f8_l3-lifex/l3-lifex.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c89022b1-6b48-4d39-96c4-ccc15595e6a0",
+              "caption": "",
+              "alt": "",
+              "width": 600,
+              "height": 582,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018996,
+              "key": "9e3a9428-88a0-4df7-b972-e9396d2e1807",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Hacking Lifecycle \n\nThroughout history, hackers have followed the same lifecycle process:\n1. A target or goal: understand why you are assessing it’s security.\n2. Learn it: learn as much as you can about it\n2. Explore it:  understand how it works and what others know about it. This is known as reconnaissance. \n3. Break it: understand the target’s weaknesses or vulnerabilities.\n4. Fix it: secure operating systems, applications and networks.\n5. Make it better: figure out a better way to secure the asset. \n6. Tell others: tell others what we find. It’s called ethical disclosure. \n\nThis is in order to categorize assets, risks, threats, vulnerabilities, and exploits affecting computer systems ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019015,
+              "key": "9162cf27-32a2-49de-989c-9e6115d88346",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Asset:** A major application, general support system, high impact program, physical plant, mission-critical system, personnel, equipment, or a logically related group of systems.\n- **Vulnerability:** Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat\n- **Threat:** Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service\n- **Risk:** A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence\n- **Penetration Testing:** A test methodology in which assessors, typically working under specific constraints, attempt to circumvent or defeat the security features of an information system.\n\nSource: https://csrc.nist.gov/glossary/\n\n## Further research\n\n- The [Jargon File](http://www.catb.org/jargon/html/index.html) contains a more thorough explanation of the hacking lifecycle including a comprehensive [glossary](http://www.catb.org/jargon/html/go01.html) of hacking terms. \n- If you enjoy history and want to learn more about original hackers, read *How To Become A Hacker* by Eric Steven Raymond found at http://www.catb.org/~esr/faqs/hacker-howto.html. <br>You can also read *The Jargon File* at http://www.catb.org/jargon/, which is \"a comprehensive compendium of hacker slang illuminating many aspects of hackish tradition, folklore, and humor.\"\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018998,
+          "key": "e385de8b-6ca3-4420-9342-8f8d273247f2",
+          "title": "Hacking Lifecycle Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e385de8b-6ca3-4420-9342-8f8d273247f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018999,
+              "key": "0c93bc8c-0446-4d2b-a38c-0e32896ae5cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Hacking LIfecycle Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027873,
+              "key": "abb66f71-f467-4fbb-8c57-4089abb78eab",
+              "title": "Hacking Lifecycle",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "abb66f71-f467-4fbb-8c57-4089abb78eab",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which phase of the hacking lifecycle tries to understand system or application vulnerabilities?",
+                "answers": [
+                  {
+                    "id": "a1590097574490",
+                    "text": "Learn it",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590097660481",
+                    "text": "Explore it",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590097666261",
+                    "text": "Break it",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590097670660",
+                    "text": "Fix it",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1027874,
+              "key": "0dc18ce1-7a40-456c-85db-0ebc61123c5d",
+              "title": "Hacking Ethics",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0dc18ce1-7a40-456c-85db-0ebc61123c5d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When ethical hackers see a problem, they keep it secret to protect the owner from getting exploited. ",
+                "answers": [
+                  {
+                    "id": "a1590097849287",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590097887894",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1027876,
+              "key": "429a7e0c-6d0b-43dc-b90b-055a56e72382",
+              "title": "Ethical Hacking",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "429a7e0c-6d0b-43dc-b90b-055a56e72382",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You should always have explicit or written permission before you test, attack or try to break anything that doesn't belong to you as a part of the hacking process. ",
+                "answers": [
+                  {
+                    "id": "a1590098000242",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590098052215",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019002,
+          "key": "a430ee1c-94d9-4c52-9ac2-d3032e1463a9",
+          "title": "Hacking Lifecycle - Exercise Part 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a430ee1c-94d9-4c52-9ac2-d3032e1463a9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019964,
+              "key": "5ab27f62-8cb2-4439-9692-ce55564f8e41",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Hacking Lifecycle - Exercise Part 1: Reconnaissance\n\nThis exercise has two parts. You will also perform a similar analysis in the final project.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019962,
+              "key": "b55ead63-e1d9-446c-bbe6-e6ff70df6f57",
+              "title": "ND545 C1 L3 05 Hacking Lifecycle Exercise1 Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BI99OjO8DYk",
+                "china_cdn_id": "BI99OjO8DYk.mp4"
+              }
+            },
+            {
+              "id": 1019003,
+              "key": "1e7b638a-367d-4d56-867a-62843b3e13c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Part 1 - System Reconnaissance \nThe first step of the hacking lifecycle is to understand the networks, devices, systems, and applications under review. This is known as **reconnaissance**. </br>\nYou can use whatever device or computer you're using for this course. </br>\nAnswer the questions below about the device you're using for this course.\n\nYou'll use this information in the next lesson on Vulnerability Management ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019554,
+              "key": "f6f4dc5e-40ff-41de-bc43-5e76d5f0d1fc",
+              "title": "Device Reconnaissance",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f6f4dc5e-40ff-41de-bc43-5e76d5f0d1fc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "List the hardware manufacturer, make and model",
+                "List the operating system. Include the edition, version and OS build if available.",
+                "List two or three applications used on your device. For each, include the version information if available."
+              ],
+              "positive_feedback": "You'll use this information in the next lesson on Vulnerability Management.",
+              "video_feedback": null,
+              "description": "For the device you're using for this course, answer the questions below:"
+            },
+            {
+              "id": 1019556,
+              "key": "64d7cc34-ea5b-47c1-8cd9-e57f9765f97f",
+              "title": "Device information workspace",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "64d7cc34-ea5b-47c1-8cd9-e57f9765f97f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "For each of the questions in the task list above, use this workspace to record your answers. "
+              },
+              "answer": {
+                "text": "You've taken the first step in the hacking lifecycle by capturing device, operating system and application information. Your answers may vary based on the device you use and the applications selected. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019004,
+          "key": "47d08d67-3e1a-4c60-8448-8a3179ea67d7",
+          "title": "Hacking Lifecycle - Exercise Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "47d08d67-3e1a-4c60-8448-8a3179ea67d7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019005,
+              "key": "f15d1be4-6026-46eb-8c18-00408674f920",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Hacking Lifecycle - Exercise Part 2: Performing Threat Intelligence\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019006,
+              "key": "61bfbafc-c9d6-44bd-aecc-2be189b23a86",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Network Ownership\n\nEach IP address and domain on the Internet has an owner. This is the organization or person who registered it. In this exercise, you'll practice viewing ownership of Internet domains and IP addresses. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019573,
+              "key": "1eee5bf3-2737-4b25-8a72-d5929dc81633",
+              "title": "Viewing Domain Owners",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1eee5bf3-2737-4b25-8a72-d5929dc81633",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Go to the Domaintools WhoIs website: http://whois.domaintools.com/",
+                "In the input field, \"Whois Lookup,\" you can enter a domain name. For this, enter www.udacity.com and click the green Search button",
+                "View the Whois Record for Udacity.com. You should click on the captcha box at the bottom for more information.",
+                "Answer the questions below."
+              ],
+              "positive_feedback": "WhoIs information is another step in the hacking lifecycle. We use it to understand domain owners, IP address ranges and contact information. You can use this same process to investigate owners of IP addresses.",
+              "video_feedback": null,
+              "description": "Follow the steps below to view the domain owners for Udacity.com. You can repeat this for any domain or IP on the Internet."
+            },
+            {
+              "id": 1019578,
+              "key": "cd22d530-9915-474d-ac3c-3044e7b1d3b4",
+              "title": "Domain Ownership",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cd22d530-9915-474d-ac3c-3044e7b1d3b4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "For the domain used in your Whois search, answer the following:\n* Registrant Org:\n* Registrar:\n* IP Address:\n* IP Location:"
+              },
+              "answer": {
+                "text": "For Udacity.com, the answers are (as of May 2020):\n* Registrant Org: Udacity, Inc.\n* Registrar: MarkMonitor, Inc. \n* IP Address: 104.16.103.31\n* IP Location: California - San Francisco - Cloudflare Inc.",
+                "video": null
+              }
+            },
+            {
+              "id": 1042907,
+              "key": "28e35134-23ac-435e-8955-dc6bea30db08",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise solution walkthrough",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019007,
+              "key": "e987c52d-0cdb-439f-9994-6a0092872b62",
+              "title": "ND545 C1 L3 06 Hacking Lifecycle Exercise2 Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G5CbeNfu0yk",
+                "china_cdn_id": "G5CbeNfu0yk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019009,
+          "key": "afea49c6-a2a3-4b87-8840-00300ec58c16",
+          "title": "Vulnerability Management",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "afea49c6-a2a3-4b87-8840-00300ec58c16",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019010,
+              "key": "d3682045-0dc5-47bc-b93b-577bfc8df984",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Vulnerability Management",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036547,
+              "key": "246d5008-3a98-44c6-a42a-93e951ab3a85",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability Management - Overview",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019011,
+              "key": "3c9dcbf5-11c1-47a4-9483-1429d80d862d",
+              "title": "ND545 C1 L3 07 Vulnerability Management - Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0GpbJpH08Yg",
+                "china_cdn_id": "0GpbJpH08Yg.mp4"
+              }
+            },
+            {
+              "id": 1036550,
+              "key": "2ffd58ab-687d-44af-a670-b711fff68370",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability\nNIST defines vulnerability as a “*Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat.*” \n\nIn IT, vulnerabilities are inevitable. No matter how hard we try, there will always be weaknesses in software, operating systems and networks. Most vulnerabilities are minor or the path to use or exploit them to cause harm is long and difficult. We need to pay attention and know what vulnerabilities need to be fixed right away and which ones can maybe wait.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036556,
+              "key": "28eaa791-11d8-4343-924c-edd4c41eddfd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee856dd_l3-vm/l3-vm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/28eaa791-11d8-4343-924c-edd4c41eddfd",
+              "caption": "Vulnerability management",
+              "alt": "",
+              "width": 700,
+              "height": 338,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036551,
+              "key": "e316af71-43b5-4743-b955-e1ec8a940edf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability management\nVulnerability management starts with **Identifying** the vulnerability, **Analyzing** it, and then **taking action**. Identification is just knowing that something could be a problem. Analysis is the decision - what to do about it, and taking action is implementing the decision",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036548,
+              "key": "f92d9da9-50cc-47a7-8f12-5021cd658ba4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability Management - Identification",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019012,
+              "key": "2bcbbbe0-2055-4aba-9255-2fbc18a9fffa",
+              "title": "ND545 C1 L3 08 Vulnerability Management - Identification",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zOzqtEHAQgo",
+                "china_cdn_id": "zOzqtEHAQgo.mp4"
+              }
+            },
+            {
+              "id": 1036552,
+              "key": "ad9b3f0c-48ca-48b8-95d9-ba038c0dae76",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Identification summary\n**Identification** is finding vulnerabilities.\n\nExamples of vulnerabilities with cars:\n* Bald tires\n* Old breaks\n* Manufacturer recall\n\nExamples of vulnerabilities in information technology. \n* Code / Software apps\n* Networks\n* Unpatched systems\n\n\nThere’s a large community dedicated to finding vulnerabilities and letting others know. \nSources include: \n* Vendors\n* Vulnerability lists & databases\n> NIST National Vulnerability Database (NVD) - https://nvd.nist.gov/\n> <br>MITRE Common Vulnerabilities and Exposures (CVE) list - https://cve.mitre.org/about/index.html\n* Bug Bounties \n* Security assessments",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036549,
+              "key": "ef4381de-dd15-480d-bbba-34541e9c74a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability Management - Analysis and Action",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036553,
+              "key": "6ec06254-055a-4c51-8751-ac13c853ccd0",
+              "title": "ND545 C1 L3 09 Vulnerability Management - Analysis And Action",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "pcS79yoopJc",
+                "china_cdn_id": "pcS79yoopJc.mp4"
+              }
+            },
+            {
+              "id": 1019013,
+              "key": "91b2c5bd-fbba-41b1-8655-945444051930",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Analysis and action summary\n**Analysis** is studying the vulnerability and deciding a course of action.<br>The CVE and NVD websites provide vulnerability ratings. The manufacture may also tell you their idea of the risk.\n\n**Taking Action** is doing something about the vulnerability once you’ve analyzed its risks and the benefits of applying a fix.\n\n** Zero-Day (0-Day) Vulnerabilities** are vulnerabilities that have no notification to the manufacturer or public.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036554,
+              "key": "b38023fc-64ef-4d52-be2a-0d8aa07b67e3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Vulnerability Information Resources",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1045488,
+              "key": "3cc5dd65-31ce-4c93-a62e-24e5cdfd2ad1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are two resources for discovering and analyzing vulnerabilities: the MITRE Common Vulnerabilities and Exposures [(CVE) list](https://cve.mitre.org/) and the\n NIST National Vulnerability Database [(NVD)](https://nvd.nist.gov/). They are commonly used in the cybersecurity world and you will see them very often. In this section, we will only cover them at a high-level.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036555,
+              "key": "f0e175f7-222a-4f30-a656-077e9188f7c6",
+              "title": "ND545 C1 L3 10 Identifying Software Vulnerabilities Exercise Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "E-MrGtRfxRs",
+                "china_cdn_id": "E-MrGtRfxRs.mp4"
+              }
+            },
+            {
+              "id": 1028002,
+              "key": "6760fdc9-981d-4d0c-bcd9-af053e73287a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\n\nCVE is “a **list** of common identifiers for publicly known cybersecurity vulnerabilities.” It was started over 20 years ago to create a common language and naming convention for all vulnerabilities. In the early days, manufactures would have their own names and identification numbers, which became very confusing. \n\nDescription from the CVE website: “The process of creating a *CVE Entry* begins with the discovery of a potential security vulnerability.\nThe information is then assigned a *CVE ID* by a *CVE Numbering Authority (CNA)*, the CNA writes the Description and adds References, and then the completed CVE Entry is added to the *CVE List* and posted on the CVE website by the CVE Team”\n\nThe NVD is the U.S. government **repository** of standards-based vulnerability management data. They perform analysis on CVEs that have been published to the CVE Dictionary.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019016,
+              "key": "54ce6c34-5d6c-475f-8239-3bf833e02059",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Vulnerability:** A weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat. \n\nSource: https://csrc.nist.gov/glossary\n\n## Further research\n* MITRE Common Vulnerabilities and Enumeration - https://cve.mitre.org\n* NIST National Vulnerability Database - https://nvd.nist.gov/general ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1019017,
+          "key": "348d7e61-db13-4e45-9d11-112dbeb5ab11",
+          "title": "Vulnerability Management Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "348d7e61-db13-4e45-9d11-112dbeb5ab11",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019020,
+              "key": "11345c0c-0527-447d-9cc0-c33c484c6c05",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Vulnerability Management Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1027992,
+              "key": "3728ef64-953b-4959-b441-55db6aa67710",
+              "title": "Vulnerability Management Process",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3728ef64-953b-4959-b441-55db6aa67710",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In this phase of the vulnerability management process, we decide what to do about a vulnerability. ",
+                "answers": [
+                  {
+                    "id": "a1590162988797",
+                    "text": "Identification",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590163108099",
+                    "text": "Analysis",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590163118061",
+                    "text": "Take Action",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590163143495",
+                    "text": "Patch testing",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1027990,
+              "key": "f9d7b306-af47-4a83-856d-c30d138b9ab1",
+              "title": "CVE List",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f9d7b306-af47-4a83-856d-c30d138b9ab1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is true about the CVE List  (pick all that apply):",
+                "answers": [
+                  {
+                    "id": "a1590162386046",
+                    "text": "One identifier for one vulnerability or exposure",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590162487234",
+                    "text": "One standardized description for each vulnerability or exposure",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590162499204",
+                    "text": "A database rather than a dictionary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590162600291",
+                    "text": "Allows tools to \"speak\" the same language",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590162639473",
+                    "text": "Free for public download and use",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1027991,
+              "key": "02097682-2a86-4f1f-a148-ffeff339d195",
+              "title": "CVE entries",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "02097682-2a86-4f1f-a148-ffeff339d195",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "CVE entries contain all of the following except? ",
+                "answers": [
+                  {
+                    "id": "a1590162714026",
+                    "text": "CVE-ID",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590162770670",
+                    "text": "Description",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590162776261",
+                    "text": "References",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590162782950",
+                    "text": "Severity rating",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590162792460",
+                    "text": "Date Entry Created",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019022,
+          "key": "72fbea65-9b0d-4aa0-b64a-79de32e9ee7b",
+          "title": "Identifying Software Vulnerabilities Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "72fbea65-9b0d-4aa0-b64a-79de32e9ee7b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019023,
+              "key": "6b4d3199-2fbd-4084-afd5-69bd038361bd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identifying Software Vulnerabilities Exercise\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036511,
+              "key": "2f125e89-25f4-4799-85ce-23e47efe59a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this exercise, you'll investigate known software vulnerabilities. The MITRE <a href=\"https://cve.mitre.org/\" target=\"_blank\">Common Vulnerabilities and Enumeration (CVE®) website</a> is a list of common identifiers for publicly known cybersecurity vulnerabilities. It standardized names and information about security vulnerabilities and is used throughout cybersecurity. See the [About CVE page]( https://cve.mitre.org/about/index.html) for more information.\n\nThe [National Vulnerability Database (NVD)](https://nvd.nist.gov/) maintained by NIST has the U.S. government repository of standards-based vulnerability management data. From the NVD website, the data \"enables automation of vulnerability management, security measurement, and compliance. The NVD includes databases of security checklist references, security-related software flaws, misconfigurations, product names, and impact metrics\".",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019616,
+              "key": "e5f60698-f738-419c-8570-7d53b7edebaa",
+              "title": "Using the CVE and NVD List",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e5f60698-f738-419c-8570-7d53b7edebaa",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Go to the Search CVE List website: https://cve.mitre.org/cve/search_cve_list.html",
+                "In the search bar, type the name of a common operating system or application. For this exercise, you can use **Windows 10** and click on the submit button.",
+                "Review the information about vulnerabilities associated with Windows 10. In the box below, list three that you observe. Include the CVE Name.",
+                "Click on the hyperlink for one of the CVE names in the list. This provides more information on that specific vulnerability.",
+                "Next to the CVE Name, click on the link that says <i>Learn more at National Vulnerability Database (NVD)</i>. This takes you to even more information about the vulnerability from NIST's NVD. Note the vulnerability base score and links for more information."
+              ],
+              "positive_feedback": "Each of the websites in this exercise is part of the process for determining the severity of known software vulnerabilities. Explore the information about the vulnerability to determine the likelihood and impact of exploits.",
+              "video_feedback": null,
+              "description": "Follow the tasks below and enter the information you learn from the CVE list for common software vulnerabilities."
+            },
+            {
+              "id": 1019630,
+              "key": "37e0e992-23a7-42fc-aa41-5adc22b96c93",
+              "title": "Using the CVE and NVD List",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "37e0e992-23a7-42fc-aa41-5adc22b96c93",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Use the area to note your results in performing the tasks above. \n"
+              },
+              "answer": {
+                "text": "Your answers will vary depending on the current results from the CVE and NVD searches. Explore the information about the vulnerability to determine the likelihood and impact of exploits. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019024,
+          "key": "57ec09fc-0aae-4dd5-bcbc-bc990134ce22",
+          "title": "Identifying Vulnerabilities Exercise Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "57ec09fc-0aae-4dd5-bcbc-bc990134ce22",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019025,
+              "key": "1456708f-4347-4df2-ac35-317377c703a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Identifying Vulnerabilities Exercise Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019026,
+              "key": "17add0e4-de8b-4779-b942-c2261105b5cb",
+              "title": "ND545 C1 L3 11 Identifying Software Vulnerabilities Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jst6P9wVkSE",
+                "china_cdn_id": "jst6P9wVkSE.mp4"
+              }
+            },
+            {
+              "id": 1019027,
+              "key": "ecadd637-c4e2-486f-9e6e-a102514badf4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Summary - Sample Results\nYour answers will vary based on the current CVE and NVD search results. Below are screenshots from May 7, 2020 when I searched for Windows 10 and selected one of the entries: CVE-2020-8145. Use this information to understand the severity of the vulnerability and what it may affect.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019632,
+              "key": "5f1bf201-9241-4a87-8d8f-62bf2c74b243",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5eb468fb_windows-10-cve/windows-10-cve.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5f1bf201-9241-4a87-8d8f-62bf2c74b243",
+              "caption": "Sample CVE Search Results for Windows 10",
+              "alt": "Sample CVE Search Results for Windows 10",
+              "width": 600,
+              "height": 600,
+              "instructor_notes": null
+            },
+            {
+              "id": 1019633,
+              "key": "234929a6-d1fc-4304-bc6c-d3278157c5ae",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5eb467f8_cve-example/cve-example.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/234929a6-d1fc-4304-bc6c-d3278157c5ae",
+              "caption": "Sample CVE Search Results for CVE-2020-8145",
+              "alt": "Sample CVE Search Results for CVE-2020-8145",
+              "width": 600,
+              "height": 500,
+              "instructor_notes": null
+            },
+            {
+              "id": 1019635,
+              "key": "4a6d0819-20d0-45dd-9ed4-a887aaf5b81c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/May/5eb46824_nvd-example/nvd-example.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4a6d0819-20d0-45dd-9ed4-a887aaf5b81c",
+              "caption": "Sample NVD Search Results for CVE-2020-8145",
+              "alt": "Sample NVD Search Results for CVE-2020-8145",
+              "width": 600,
+              "height": 600,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 1019030,
+          "key": "92e4be23-38e3-4f2b-a0cc-8644e591952e",
+          "title": "Introduction to Threats, Attacks, and Exploits ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92e4be23-38e3-4f2b-a0cc-8644e591952e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019031,
+              "key": "84bd75e7-bc07-4a5c-a355-6e1b022fa50d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Threats, Attacks, and Exploits ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019032,
+              "key": "4242fbee-efaa-42ac-81ad-546397868c16",
+              "title": "ND545 C1 L3 12 Deep Dive Into Threats, Attacks,And Exploits Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JsyoGNtzNUE",
+                "china_cdn_id": "JsyoGNtzNUE.mp4"
+              }
+            },
+            {
+              "id": 1019033,
+              "key": "b9331ef8-eb1d-4d31-b0fc-2d7ab5ae9da5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Threats\n\nNow that we know about vulnerabilities, we need to understand **threats** that may try to take advantage of them.\n\n**Definition of threat:** Any circumstance or event with the potential to *adversely impact organizational operations* (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. (NIST)\n\nExamples of threats with cars \n* Nails in the road\n* Rain\n* Drunk Driving\n\nExamples of threats with information technology\n* Malicious hacker\n* Disclosed passwords\n* User error\n\n**Threat source** - The person or thing that is likely to cause damage.\n\n**Threat vector**- The way a threat or threat source will take advantage of or exploit a vulnerability to cause damage. \n\n## Attack and exploit\nIn cybersecurity, the behavior of a threat trying to **exploit** or take advantage of a flaw in a computer system is an **attack** or **exploit in action**\n\nFor example, a malicious hacker may attack a computer system by cracking a password database and then use the results to gain unauthorized access. Here, the hacker is exploiting multiple vulnerabilities: gaining access to the password database, having the ability to crack it, and exploiting the results and using the password.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036558,
+              "key": "307b80f3-1409-4f96-99b2-285f6890f9db",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Threat Information Resource",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1045477,
+              "key": "938cd581-7de1-4f4d-b8e5-c1729fd77c82",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The [MITRE ATT&CK® Framework](https://attack.mitre.org/) is a well-known knowledge base of cybersecurity attack scenarios based on real-world observations and it is used in many places. It is very likely you will see this framework in other places or lessons. In this section, we will only give a high-level introduction.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036557,
+              "key": "53975c8b-6534-48d8-9534-a38991432f1f",
+              "title": "ND545 C1 L3 13 Deep Dive Into Threats, Attacks,And Exploits Exercise Instructions Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FxACdZwwdZM",
+                "china_cdn_id": "FxACdZwwdZM.mp4"
+              }
+            },
+            {
+              "id": 1028003,
+              "key": "1839c5db-1c99-4c3a-80b0-9b36966bd48f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## New terms\n- **Threat:** Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service. \n- **Exploit:** A hardware or software tool designed to take advantage of a flaw in a computer system, typically for malicious purposes such as installing malware. \n- **Attack:**  Any kind of malicious activity that attempts to collect, disrupt, deny, degrade, or destroy information system resources or the information itself.\n\nSource: https://csrc.nist.gov/glossary\n\n## Further research\n* MITRE ATT&CK Framework - https://attack.mitre.org/ ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1019034,
+          "key": "e4977ff7-1f02-43a1-a497-3bc7b245624d",
+          "title": "Introduction to Threats, Attacks, and Exploits Quizzes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e4977ff7-1f02-43a1-a497-3bc7b245624d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019035,
+              "key": "7552fc14-fba1-4956-9026-37b7af82a70e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Threats, Attacks, and Exploits Quizzes",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028005,
+              "key": "45e35883-da18-4462-a30e-8120aa0d3ba1",
+              "title": "Exploits",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "45e35883-da18-4462-a30e-8120aa0d3ba1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Consider this scenario: a malicious attacker may try to crack a password database and then use the results to gain unauthorized access into computer systems. What action this person is doing?",
+                "answers": [
+                  {
+                    "id": "a1590171387125",
+                    "text": "Vulnerability",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590171448522",
+                    "text": "Exploration",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590171482205",
+                    "text": "Risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590171502549",
+                    "text": "Exploitation",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1028004,
+              "key": "c2da5747-0b2a-43c3-a209-a6331b3e2873",
+              "title": "Understanding Threats",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c2da5747-0b2a-43c3-a209-a6331b3e2873",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following can be considered cybersecurity **threats**? (Pick all that apply)",
+                "answers": [
+                  {
+                    "id": "a1590170797006",
+                    "text": "Weak password",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1590170846635",
+                    "text": "Disgruntled Employee",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590171053036",
+                    "text": "User error",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590171066179",
+                    "text": "Hackers",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1590171195205",
+                    "text": "Cloud computing",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019040,
+          "key": "6e5291d4-89fe-4daa-9049-aa96d390d89a",
+          "title": "Introduction to Threats, Attacks, and Exploits Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6e5291d4-89fe-4daa-9049-aa96d390d89a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019983,
+              "key": "6a2da5cc-a309-4ef6-b330-62fd205d5d4d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Threats, Attacks, and Exploits Exercise",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019041,
+              "key": "13f71204-6289-4b28-87e4-4e27c30cfb65",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## A Threat Example\nIn this exercise, you will take a look at a specific threat.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019663,
+              "key": "f86b612a-49aa-4177-9ff9-c6a00f32b1be",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f86b612a-49aa-4177-9ff9-c6a00f32b1be",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Go to the MITRE ATT&CK website: https://attack.mitre.org/. Once there, scroll down to see the ATT&CK Matrix for Enterprise.",
+                "Click on the top-left item [Drive-by Compromise](https://attack.mitre.org/techniques/T1189/)",
+                "Review the information on the [Drive-by Compromise](https://attack.mitre.org/techniques/T1189/) page and answer the questions below.",
+                "For advanced students, you can pick any of the threats listed in the framework."
+              ],
+              "positive_feedback": "Congratulations! Now use the information you have just reviewed to answer the questions below.",
+              "video_feedback": null,
+              "description": "In this exercise, you'll explore threat information found on the MITRE ATT&CK® website."
+            },
+            {
+              "id": 1019665,
+              "key": "6528f55a-d1a8-40ad-a990-d47e4d87343d",
+              "title": "",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6528f55a-d1a8-40ad-a990-d47e4d87343d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "For the attack you selected (either the [Drive-by Compromise](https://attack.mitre.org/techniques/T1189/) or one of your choosing) answer the following: \n* Attack Name:\n* ID: \n* Tactic:\n* Platform:\n* Permissions Required: \n* Brief description of the attack: "
+              },
+              "answer": {
+                "text": "See an explanation of the answers for the [Drive-by Compromise](https://attack.mitre.org/techniques/T1189/): \n* Attack Name: Drive-by Compromise\n* ID: T1189\n* Tactic: Initial Access\n* Platform(s): Windows, Linux, macOS, SaaS\n* Permissions Required: User\n* Brief description of the attack: see the solution page",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 1019038,
+          "key": "f444c687-8033-4bbe-8ca2-2ae2d391b3f1",
+          "title": "Introduction to Threats, Attacks, and Exploits Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f444c687-8033-4bbe-8ca2-2ae2d391b3f1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019039,
+              "key": "b5b19b81-a8c7-4df6-a547-23e40cfc56ba",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Threats, Attacks, and Exploits Solution",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019042,
+              "key": "ddcfc85f-938d-4be2-8814-1c62a1c2732c",
+              "title": "ND545 C1 L3 14 Deep Dive Into Threats, Attacks,And Exploits Exercise Solution Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Sq8giJWa0M4",
+                "china_cdn_id": "Sq8giJWa0M4.mp4"
+              }
+            },
+            {
+              "id": 1019043,
+              "key": "ecc6a969-835c-4366-9107-88958a73884b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Exercise Summary\n\nThe intent of this exercise is to give you an opportunity to learn specific information about different types of threats. \n\nSee an explanation of the answers for the [Drive-by Compromise](https://attack.mitre.org/techniques/T1189/): \n* Attack Name: Drive-by Compromise\n * The specific name for the attack\n* ID: T1189\n * The attack's unique identifying number\n* Tactic: Initial Access\n * Where this type of attack typically occurs. This type of attack is used to gain the initial access into a system. \n* Platform(s): Windows, Linux, macOS, SaaS\n * Operating systems or platforms affecting this attack.\n* Permissions Required: User\n * Type of authorization required for the attack. In this case, a general user can accomplish it. \n* Brief description of the attack: \"<I>A drive-by compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is typically targeted for exploitation, but adversaries may also use compromised websites for non-exploitation behavior such as acquiring application access tokens.</i>\"",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1019052,
+          "key": "7710f4b2-3ccf-44b7-9869-84f089b7dcb5",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7710f4b2-3ccf-44b7-9869-84f089b7dcb5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1019053,
+              "key": "cb783099-9ff5-48e3-8a30-0fa33e5e1f39",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1019054,
+              "key": "a5168ca3-827c-426d-aca2-8105fdbc0813",
+              "title": "ND545 C1 L3 15 Lesson Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ghJlFk8JSyY",
+                "china_cdn_id": "ghJlFk8JSyY.mp4"
+              }
+            },
+            {
+              "id": 1045478,
+              "key": "7d497c6a-ee0f-41ed-ad27-57a56a130fca",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f10e660_screen-shot-2020-07-16-at-4.44.10-pm/screen-shot-2020-07-16-at-4.44.10-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7d497c6a-ee0f-41ed-ad27-57a56a130fca",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 258,
+              "instructor_notes": null
+            },
+            {
+              "id": 1019056,
+              "key": "dd0fa563-f25d-4eba-9f7a-923491936b7f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Summary\nIn this lesson, you learned a little bit about how to think like a hacker. We covered the Hacking Lifecycle, Vulnerability Management, and Threats, Attacks, and Exploits. <BR>\nBy now, you should be able to:\n* categorize assets, risks, threats, vulnerabilities, exploits\n* identify different types of vulnerabilities in a system\n* identify the categories of a cyber threat\n* determine the phase of a cyber attack\n* and recognize common exploits \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1028925,
+              "key": "a1ed5c3a-5f36-485c-bf0e-6005237ded19",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n- **Asset:** A major application, general support system, high impact program, physical plant, mission-critical system, personnel, equipment, or a logically related group of systems.\n- **Vulnerability:** Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat.\n- **Threat:** Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service.\n-  **Exploit:** A hardware or software tool designed to take advantage of a flaw in a computer system, typically for malicious purposes such as installing malware. \n- **Risk:** A measure of the extent to which an entity is threatened by a potential circumstance or event, and typically a function of: (i) the adverse impacts that would arise if the circumstance or event occurs; and (ii) the likelihood of occurrence.\n- **Attack:**  Any kind of malicious activity that attempts to collect, disrupt, deny, degrade, or destroy information system resources or the information itself.\n- **Penetration Testing:** A test methodology in which assessors, typically working under specific constraints, attempt to circumvent or defeat the security features of an information system.\n\nSource: https://csrc.nist.gov/glossary/\n\n## Further research\n* MITRE Common Vulnerabilities and Enumeration - https://cve.mitre.org\n* NIST National Vulnerability Database - https://nvd.nist.gov/general \n* MITRE ATT&CK Framework - https://attack.mitre.org/ \n* The [Jargon File](http://www.catb.org/jargon/html/index.html) contains a more thorough explanation of the hacking lifecycle including a comprehensive [glossary](http://www.catb.org/jargon/html/go01.html) of hacking terms. ",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

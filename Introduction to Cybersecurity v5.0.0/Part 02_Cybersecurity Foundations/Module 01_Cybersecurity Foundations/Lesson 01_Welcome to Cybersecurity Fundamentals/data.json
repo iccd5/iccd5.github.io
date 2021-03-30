@@ -1,0 +1,953 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1018681,
+      "key": "33fed188-3f77-4d9e-8385-bce042cb92dc",
+      "title": "Welcome to Cybersecurity Fundamentals",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will be given an overview of the course.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/33fed188-3f77-4d9e-8385-bce042cb92dc/1018681/1600802295926/Welcome+to+Cybersecurity+Fundamentals+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/33fed188-3f77-4d9e-8385-bce042cb92dc/1018681/1600802291873/Welcome+to+Cybersecurity+Fundamentals+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1018683,
+          "key": "684c0e2e-d462-4473-b723-bd9f824fe137",
+          "title": "Meet your Instructor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "684c0e2e-d462-4473-b723-bd9f824fe137",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018684,
+              "key": "4a3828bd-0fd1-43b5-ae89-731e54288135",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet your Instructor",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018685,
+              "key": "6bcb098b-622b-4f7a-8283-22b02c43d325",
+              "title": "ND545 C1 L0 01 Meet Your Instructor Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oVK5pYrVO40",
+                "china_cdn_id": "oVK5pYrVO40.mp4"
+              }
+            },
+            {
+              "id": 1018686,
+              "key": "c52f9fa3-256a-412b-b6ca-88976f4b8711",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Ron Woerner, CISSP, CISM\nHi, I'm Ron, your instructor for this class.<br>\nI have over 20 years of Information Technology (IT) and Security experience and am a noted consultant, speaker, and writer in the Security industry. As President and Chief Security Evangelist at [Cyber-AAA](https://www.cyber-aaa.com/), I work as a Security Consultant delivering awareness, performing security risk assessments, and advising small, medium, and large organizations. \n\nI established the Cybersecurity Studies program at [Bellevue University](https://www.bellevue.edu/degrees/center-for-cybersecurity-education/cce), an NSA Center of Academic Excellence where I still teach. I have been a featured speaker at the Omaha TEDx (\"[Hackers Wanted](https://www.youtube.com/watch?v=FlWtIDZ-x5I)\"), (ISC)2, ISACA, and RSA conferences. <br>My crowning achievement was being selected as the Air Force Association CyberPatriot Mentor of the Year in 2014 for my work coaching High School Students in cybersecurity. <br>I love to talk to others who are passionate about Security and Privacy.\n\nLinkedIn: https://www.linkedin.com/in/ronwoerner/ <br>Twitter: [@ronw123](https://twitter.com/RonW123)<br>[Cyber-AAA](https://www.cyber-aaa.com/)<br>YouTube: https://www.youtube.com/channel/UCsd0v4subHt4n_ORPetFGCQ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038724,
+              "key": "a515d2ba-af45-4ff0-bd96-83575771827b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary:\n- **(ISC)2**: [The International Information System Security Certification Consortium](https://www.isc2.org/), **CISSP**: [Certified Information Systems Security Professional](https://www.isc2.org/Certifications/CISSP)\n\n- **ISACA**: [Information Systems Audit and Control Association](https://www.isaca.org/), **CISM**: [Certified Information Security Manager](https://www.isaca.org/credentialing/cism)\n- **NSA**: [National Security Agency - Centers of Academic Excellence](https://www.nsa.gov/resources/students-educators/centers-academic-excellence/)\n- **RSA  Conference**, https://www.rsaconference.com/: One of the worlds largest security conferences\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018689,
+          "key": "5e6780d6-f421-45bf-b01d-430dfb7c0b3e",
+          "title": "Course Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e6780d6-f421-45bf-b01d-430dfb7c0b3e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018690,
+              "key": "afac203b-7f1b-46f5-8721-419e32863d64",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Course Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018691,
+              "key": "31660c97-b8cf-487e-af21-58938bfbca7d",
+              "title": "ND545 C1 L0 02 Course Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yyf95REtX44",
+                "china_cdn_id": "yyf95REtX44.mp4"
+              }
+            },
+            {
+              "id": 1018692,
+              "key": "6bfbbc7c-7ebe-4700-bdef-5b4328cfd5b1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee84181_l0-co/l0-co.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6bfbbc7c-7ebe-4700-bdef-5b4328cfd5b1",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 466,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018693,
+              "key": "7a5a70c9-282b-480a-9367-d9ddd5a7e347",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Introduction to Cybersecurity - Course Outline\nWelcome to \"**Introduction to Cybersecurity**.\" This course has the following lessons:\n\n1. What is Cybersecurity: this lesson will go over some security trends and how to take the first step to set a career in the field.\n2. Maintaining a Secure Infrastructure: this lesson will cover important security regulations, laws, and frameworks you need to know to maintain a secure infrastructure.\n3. Thinking like a Hacker: this lesson will give you a high-level introduction to the hacking lifecycle, risk, vulnerability, and threat.\n4. Security Defenses: this lesson will cover some skills to keep your computer and network safe.\n5. Applying Cybersecurity: this lesson will give you an opportunity to apply the fundamental skills you have learned.\n\nThe **first three lessons** cover many conceptual topics that will help you set a foundation for cybersecurity and for the final project. In the **last two lessons**, you will have more hands-on opportunities to practice how to secure a system. Throughout the course, you will be provided with many exercises. Some of them introduce you to useful websites and documents that you may use in your future career, some of them will let you apply what you have learned from the course and prepare you for the final project. Hope you will enjoy the course!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018694,
+          "key": "3c0e9875-6bdf-4023-a479-ed1a9516b233",
+          "title": "Lesson Outline",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3c0e9875-6bdf-4023-a479-ed1a9516b233",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018695,
+              "key": "8ffc6aa4-631e-4ec9-8e5b-caac63ed4b87",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Outline",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018696,
+              "key": "6be46c7b-8595-4e9e-b4ab-6a4c6835485b",
+              "title": "ND545 C1 L0 03 Lesson Outline Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vblFRwEVKtA",
+                "china_cdn_id": "vblFRwEVKtA.mp4"
+              }
+            },
+            {
+              "id": 1018697,
+              "key": "71d9ca03-2475-4487-b8f0-639e9ed71b19",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee8424c_l0-lo/l0-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/71d9ca03-2475-4487-b8f0-639e9ed71b19",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 312,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018698,
+              "key": "12c9c4c2-d59e-4d19-9eb9-86d7ba9b717d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Lesson Outline\nIn this lesson, we will introduce the high-level course concepts and learning objectives, review why this material is important, and compare today's systems to those of the past. Finally, we'll wrap up with discussing the course project and a recap.\n* Introduction to Cybersecurity\n* Cybersecurity and You\n* Business Stakeholders\n* History of Cybersecurity\n* Tools and Environments\n* Course Project\n\n## Lesson Objectives\nYou will be able to:\n* Understand how cybersecurity affects your life\n* Describe how business stakeholders play a role in cybersecurity \n* Understand a brief history of information security and cybersecurity\n* Understand why the topics of this course are important to creating valuable skills\n* Understand high-level cybersecurity tools, environments, and dependencies\n* Have a high-level understanding of the course project\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018699,
+          "key": "63ab5663-9fcd-4337-a1ae-be98999ba71a",
+          "title": "Introduction to Cybersecurity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "63ab5663-9fcd-4337-a1ae-be98999ba71a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018700,
+              "key": "399fbf93-3bf0-463d-b84e-77c4eb222d5d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Cybersecurity",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018701,
+              "key": "aa97e7f4-9eef-4d15-8265-ed46f5316b58",
+              "title": "ND545 C1 L0 04 Introduction To Cybersecurity Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "C8S18CsCfvQ",
+                "china_cdn_id": "C8S18CsCfvQ.mp4"
+              }
+            },
+            {
+              "id": 1018702,
+              "key": "96d079c5-c16f-4fd8-810b-dfbbe1337118",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nIn today’s online world, security is a major concern of virtually everyone on the Internet. Consider the reasons why: attacks directed at point-of-sale computer systems resulted in over one billion credit cards being stolen in a single year. \n\nThe US Federal Bureau of Investigation has a top priority to “Protect the United States against cyber-based attacks and high-technology crimes”\n\n**What is Cybersecurity?**\nAccording to the National Institute of Standards and Technology (aka NIST), it’s the *prevention of damage to, protection of, and restoration of computers, electronic communications systems, electronic communications services, wire communication, and electronic communication, including information contained therein, to ensure its availability, integrity, authentication, confidentiality, and nonrepudiation.* Source: NIST CSRC Glossary https://csrc.nist.gov/glossary/term/cybersecurity\n\nThroughout this course, you’ll gain an understanding of ways to make your data, your computers, and devices like laptops, tablets, smartphones, and networks secure. \nThis course presents a basic introduction to practical computer security for all types of users to reduce cyber risks to you, your organization, and the community. \n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021692,
+              "key": "6c777f5e-f2d7-436e-8650-c092a854e47e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Course Prerequisites \nA well-prepared learner is already able to:\n- Understand the basic principles of network connectivity.\n- Understand basic operating system fundamentals including Windows or Linux.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021702,
+              "key": "1b1b88a7-5923-4d66-82b0-cfa22f4a89e2",
+              "title": "Goal of Cybersecurity",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1b1b88a7-5923-4d66-82b0-cfa22f4a89e2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is *not* a goal of cybersecurity according to NIST? ",
+                "answers": [
+                  {
+                    "id": "a1589649737777",
+                    "text": "Availability",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589649806773",
+                    "text": "Usability",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589649823623",
+                    "text": "Confidentiality",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589649833272",
+                    "text": "Integrity",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018704,
+          "key": "aee4a361-b3e0-4512-8a97-d7c83065c43d",
+          "title": "Cybersecurity and You",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aee4a361-b3e0-4512-8a97-d7c83065c43d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018705,
+              "key": "266449df-5ecc-4ce9-a488-69ac3f3c77a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Cybersecurity and You\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018706,
+              "key": "a236ed47-a388-49b5-b70c-b2bc0d955b06",
+              "title": "ND545 C1 L0 05 Cybersecurity And You Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5VqD3xIKOww",
+                "china_cdn_id": "5VqD3xIKOww.mp4"
+              }
+            },
+            {
+              "id": 1018707,
+              "key": "5d7c0324-3adb-4f54-9447-f7de92ce8a1f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cybersecurity and You\n\nIn today’s world, everyone is online. Computers are all around us; on our wrists, in our pockets, in our cars and homes and of course businesses. With all this technology, comes risks and dangers. \n* What if someone was able to gain access to your computers, accounts, and sensitive data? \n* How much damage could they do? \n* What do we need to do to secure our technologies? \n\nIt’s up to each of us to do our part in securing our cyber world. Failure to do so not only affects you but the world, businesses, and people around you. A single moment where you unconsciously click a link could take down your organization. <br> Learning how to protect yourself better online may be one reason you’re in this course.\n\nAnother reason may be to get employed in a cybersecurity career. According to the [Security Magazine](https://www.securitymagazine.com/articles/92312-of-cybersecurity-leaders-face-skills-shortage), 76% of security leaders believe there is a shortage of cybersecurity skills. That means there are many opportunities for cybersecurity professionals. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018708,
+          "key": "f8bd3de2-48ee-4089-a5dc-8f8792f62f0d",
+          "title": "Business stakeholders",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f8bd3de2-48ee-4089-a5dc-8f8792f62f0d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018709,
+              "key": "3c408b8e-db2e-4848-8f48-edfcb7dab9a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Business stakeholders",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018710,
+              "key": "4a824241-013c-46c3-bfcd-5d1323ab4298",
+              "title": "ND545 C1 L0 06 Business Stakeholders Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6S8GvXJYz_Q",
+                "china_cdn_id": "6S8GvXJYz_Q.mp4"
+              }
+            },
+            {
+              "id": 1018712,
+              "key": "9250b9e8-584c-4028-b0dd-a5c7cd3a1814",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Security in Business\nAccording to the [US Federal Communications Commission (FCC)](https://www.fcc.gov/general/cybersecurity-small-business\n), \"The Internet allows businesses of *all* sizes, types, industries, and from any location to reach new and larger markets and provides opportunities to work more efficiently by using computer-based tools. Whether an organization is thinking of adopting cloud computing or just using email and maintaining a website, cybersecurity should be a part of the plan. Theft of digital information has become the most commonly reported fraud, surpassing physical theft. Every business that uses the Internet is responsible for creating a culture of security that will enhance business and consumer confidence.\"\n\nHere are some of the topics related to business protection that we’ll cover in this class:\n* Cybersecurity basics, \n* Understanding the NIST Cybersecurity Framework, \n* Physical Security, \n* Attacks such as ransomware and phishing, \n* Email security, and \n* Securing remote access. \n\nThe [US Federal Trade Commission website](https://www.ftc.gov/tips-advice/business-center/small-businesses/cybersecurity) on cybersecurity for small business provides information all businesses need to know to protect their technologies, data, and people from cyber attacks. This is more evidence of the importance of cybersecurity for business. Consider this website as a resource not only in this course and Nanodegree, but throughout your professional career.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018713,
+              "key": "3be4b5ca-6bab-4c28-a4e5-94bed6dfb748",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee84507_small-business/small-business.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3be4b5ca-6bab-4c28-a4e5-94bed6dfb748",
+              "caption": "",
+              "alt": "",
+              "width": 400,
+              "height": 600,
+              "instructor_notes": null
+            },
+            {
+              "id": 1021697,
+              "key": "db80e2b9-978f-4fc8-a40f-939669631b69",
+              "title": "Exploring the FTC Cybersecurity for Small Business website",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "db80e2b9-978f-4fc8-a40f-939669631b69",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Go to the [FTC Cybersecurity for Small Business website](https://www.ftc.gov/tips-advice/business-center/small-businesses/cybersecurity) and review the topic areas under **Protect Your Small Business**. (Note that these apply to businesses of all types and sizes.) <br>For each of the topic areas, find the matching protection technique. Select the **best way** to protect the specific area. "
+                },
+                "concepts_label": "Topic Area",
+                "answers_label": "Protection Technique",
+                "concepts": [
+                  {
+                    "text": "Physical Security",
+                    "correct_answer": {
+                      "id": "a1589648577732",
+                      "text": "Protect Equipment & Paper Files"
+                    }
+                  },
+                  {
+                    "text": "Cybersecurity Basics",
+                    "correct_answer": {
+                      "id": "a1589648978179",
+                      "text": "Make Smart Security Your Business as Usual"
+                    }
+                  },
+                  {
+                    "text": "Tech Support Scams",
+                    "correct_answer": {
+                      "id": "a1589649050268",
+                      "text": "Know what to do if you're scammed"
+                    }
+                  },
+                  {
+                    "text": "Vendor Security",
+                    "correct_answer": {
+                      "id": "a1589649103036",
+                      "text": "Put all agreements in writing and verify compliance"
+                    }
+                  },
+                  {
+                    "text": "Secure Remote Access",
+                    "correct_answer": {
+                      "id": "a1589649212284",
+                      "text": "Know how to connect remotely to the network"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1589648577732",
+                    "text": "Protect Equipment & Paper Files"
+                  },
+                  {
+                    "id": "a1589649103036",
+                    "text": "Put all agreements in writing and verify compliance"
+                  },
+                  {
+                    "id": "a1589648978179",
+                    "text": "Make Smart Security Your Business as Usual"
+                  },
+                  {
+                    "id": "a1589649212284",
+                    "text": "Know how to connect remotely to the network"
+                  },
+                  {
+                    "id": "a1589649050268",
+                    "text": "Know what to do if you're scammed"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018714,
+          "key": "acf4bbb4-8352-46e1-9ac6-2c88a459d2ff",
+          "title": "History of Cybersecurity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "acf4bbb4-8352-46e1-9ac6-2c88a459d2ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018715,
+              "key": "79622c6c-a203-4b3b-9218-e93624008938",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# History of Cybersecurity",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018716,
+              "key": "2eb727a4-7651-40e3-bef0-a2e9075b089c",
+              "title": "ND545 C1 L0 07 History Of Cybersecurity Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5tHUsmvk1IE",
+                "china_cdn_id": "5tHUsmvk1IE.mp4"
+              }
+            },
+            {
+              "id": 1036529,
+              "key": "eb183d64-6715-44af-b58b-2d932e5d7442",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee842b9_history1/history1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/eb183d64-6715-44af-b58b-2d932e5d7442",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 366,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018717,
+              "key": "3b9c0a18-600b-445c-b15e-777902469042",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## History of Computer Viruses and Worms\nWith the start of the Internet in the late 1960s, known then as the ARPANET came a need to secure the data, connections, and computer systems for those using it; mostly research institutions, universities, and governments.\nComputers in the early days of the Internet often didn’t have basic protection and used telephone modems to dial-into the network.\nHighlights of memorable computer viruses and worms include: \n* 1968 - Development of the ARPANET (early Internet)\n* 1971 - First reported computer worm - Creeper\n* 1986 - Brain MS-DOS virus\n* 1989 - Morris Worm - Internet Denial of Service\n* 2000 - ILOVEYOU Worm\n* 2010 - Stuxnet\n\nFurther Reading: \n * [Timeline of Computer Viruses, Mapcon](https://www.mapcon.com/us-en/timeline-of-computer-viruses)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036531,
+              "key": "da9c0113-7c2a-4622-a4a5-ececf926cb9e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee842e8_history2/history2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/da9c0113-7c2a-4622-a4a5-ececf926cb9e",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 484,
+              "instructor_notes": null
+            },
+            {
+              "id": 1036530,
+              "key": "9101bddc-9617-4b93-a165-3f9a679679cc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Events in Cybersecurity History\n* 1975 - “The Protection of Information in Computer Systems” published\n* 1983 - RSA Patent\n* 1986 - The Cuckoo’s Egg and Clifford Stoll\n* 1986 - US Computer Fraud and Abuse Act (CFAA)\n* 1990 - UK Computer Misuse Act\n* 2001 - Advanced Encryption Standard (AES) established by NIST\n\nFurther Reading:\n * [The Quick and Dirty History of Cybersecurity](https://cyberexperts.com/history-of-cybersecurity/)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1021712,
+              "key": "8aba5097-9aef-4074-bad7-c3f277a31310",
+              "title": "Early viruses and worms",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8aba5097-9aef-4074-bad7-c3f277a31310",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "From the History of Cybersecurity video, which virus or worm is considered the first Denial of Service attack on the Internet? ",
+                "answers": [
+                  {
+                    "id": "a1589654348404",
+                    "text": "Brain virus",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589654691405",
+                    "text": "Creeper worm",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589654700825",
+                    "text": "Morris worm",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589654713934",
+                    "text": "ILOVEYOU worm",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1021713,
+              "key": "f34c55d2-3fa2-4510-b4b4-bcce1557e34d",
+              "title": "Highlights from History",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f34c55d2-3fa2-4510-b4b4-bcce1557e34d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is considered the first U.S. patent for cybersecurity when MIT was issued one for the first public key cryptosystem? ",
+                "answers": [
+                  {
+                    "id": "a1589654839982",
+                    "text": "Advanced Encryption Standard (AES)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589654962112",
+                    "text": "RSA (Rivest-Shamir-Adleman) ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1589654987286",
+                    "text": "“The Protection of Information in Computer Systems” ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1589655001866",
+                    "text": "The Cuckoo’s Egg",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1018718,
+          "key": "c2ede2f5-d05e-498a-8fac-d08fbe3fb0c4",
+          "title": "Tools & Environment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c2ede2f5-d05e-498a-8fac-d08fbe3fb0c4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018719,
+              "key": "c32a9fca-583c-4f8f-bbe7-e3a8b1bdcc53",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Tools & Environment",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036644,
+              "key": "b6b8f500-8480-4a0b-87dc-a20519cd2570",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tools & Environment Part 1",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018720,
+              "key": "9836eac6-bf23-4fb9-9285-a627ab2b8165",
+              "title": "ND545 C1 L0 08 Tools, Environment & Dependencies Pt 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "L86dc4CtBS4",
+                "china_cdn_id": "L86dc4CtBS4.mp4"
+              }
+            },
+            {
+              "id": 1036645,
+              "key": "79da96d1-8ad5-428c-9cfb-9b647124d4eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Tools & Environment Part 2",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1036646,
+              "key": "e2422be8-d72e-4922-a9bc-53ba21c1cc3d",
+              "title": "ND545 C1 L0 08.1 Tools, Environment & Dependencies Pt 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ZhXnqGvPrfk",
+                "china_cdn_id": "ZhXnqGvPrfk.mp4"
+              }
+            },
+            {
+              "id": 1018721,
+              "key": "28f83a3b-e2a4-47fe-bc0b-9e4d56f2da5d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cybersecurity Environments, Tools, and Websites\nTo work in cybersecurity, you need to be familiar with typical environments, operating systems and tools.\nIn this course, we’ll mainly focus on the Windows 10 operating system, since it’s the predominant platform for most end-users in business. It’s okay if you don’t have one to use as we’ll give you access to one.\nMost Windows operating systems come with built-in security tools. Some of the Windows components you’ll use are:\n* The Control Panel\n* Computer Management\n* Local Security Policies\n\nThere are also other tools that help you as a cybersecurity professional. These include:\n* Sysinternals Suite\n* Windows God Mode\n* NMap - network mapper\n* 7-Zip\n\nThe number 1 tool you’ll use is Google. We use it to help find information on any topic.\n\nLastly, you’ll be exploring numerous websites that provide specific information about security topics such as the largest cyber breaches, software vulnerabilities, and security standards. \n\nDon't be overwhelmed by so many tools. We will walk you through in subsequent lessons when you need to use them.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1038726,
+              "key": "a1294fa8-7acd-45b4-8767-55ac9b1ecf3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Further reading\n- Click [here](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) to learn more about Microsoft Sysinternals Suite\n- Read Nmap [page](https://nmap.org/) to learn more about the network mapping tool\n- Use [this link](https://www.7-zip.org/) to view and download 7-zip",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1044045,
+          "key": "d1d84877-90a7-4b99-a96d-72eaf32f2b48",
+          "title": "Create a Workspace in Azure",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d1d84877-90a7-4b99-a96d-72eaf32f2b48",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1044046,
+              "key": "7a2d13fd-34ef-467a-bd3f-47d5b6894505",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Create a Workspace in Azure",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044047,
+              "key": "a5aa7f3b-4aa6-44e3-a66b-ad1dacb52d2b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Set Up a Windows 10 PC Virtual Machine (VM) Workspace in Microsoft Azure \nIn this course, you will use virtual Windows PCs for some of the exercises and the project. \n\nFirst, you will create your own virtual Windows 10 PC called the *JumpBox* in Azure cloud and connect (RDP) to it. This will be your *workspace* for this course and this entire Nanodegree. Then you will use the JumpBox VM to get remote control of other virtual Windows PCs in the Azure could. For course 1, you will use the JumpBox to get remote control of *CYBERND01PRJ01* for exercises and *JoesGaragePC* for the final project. These two VMs are created by the instructor for you to practice your skills.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044048,
+              "key": "8642c3d5-7753-4f34-8601-36109bf19532",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5eebad1f_azure/azure.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8642c3d5-7753-4f34-8601-36109bf19532",
+              "caption": "",
+              "alt": "",
+              "width": 700,
+              "height": 748,
+              "instructor_notes": null
+            },
+            {
+              "id": 1044050,
+              "key": "86c8ec5f-a8c8-4f49-a570-ae7b7cc62509",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The task here for you is to **sign-in to the Azure environment, create the JumpBox, and connect to it**. \n\nPlease follow the steps in the instruction: [Create a Jumpbox](https://video.udacity-data.com/topher/2020/July/5f21bf28_create-the-jumpbox/create-the-jumpbox.pdf) to create the JumpBox VM in Azure.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1044049,
+              "key": "0575585a-3c91-46c5-95a1-f3108fb8c172",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0575585a-3c91-46c5-95a1-f3108fb8c172",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Create an Azure account and have an Azure subscription",
+                "Create a VM called JumpBox",
+                "Successfully connect to JumpBox using RDP"
+              ],
+              "positive_feedback": "You got it!",
+              "video_feedback": null,
+              "description": "Congratulations on creating your first VM called JumpBox, please check the checklist to ensure that it is ready to use."
+            }
+          ]
+        },
+        {
+          "id": 1018724,
+          "key": "ac4f99af-034c-4c61-8d75-bf4208e9f890",
+          "title": "Project: Cybersecurity Fundamentals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ac4f99af-034c-4c61-8d75-bf4208e9f890",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1018734,
+              "key": "d5eeef33-f03b-4942-81a6-4fc96a122d31",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Project: Cybersecurity Fundamentals",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018736,
+              "key": "45aba892-9e25-40b8-86ab-a94d85dc810e",
+              "title": "ND545 C1 L0 09 Project- Cybersecurity Fundamentals Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AXlmGPLEwhA",
+                "china_cdn_id": "AXlmGPLEwhA.mp4"
+              }
+            },
+            {
+              "id": 1018738,
+              "key": "d8ce0ed8-b247-4402-8fac-efc6354fe8fb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nThe course culminates with a project where you get to practice your fundamental cybersecurity skills using a case study based on real-life events. \nIn this course’s project, you’ll be given a scenario where you’re asked to help your friend secure his business’s Windows 10 computer. You’ll need to apply what you’ve learned throughout the course to improve the security and give recommendations. You’ll also need to make sure only needed applications are running. Lastly, there is a computer forensics challenges where you’ll need to determine what bad guys were doing on the computer. \nYou’ll be documenting all of this in your course report, just like the one I prepare for my clients when I perform security assessments. \nIt’s meant to be a fun way for you to get hands-on cybersecurity experience.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 1018739,
+          "key": "7b521591-6152-4d72-931f-6ec0974f39ef",
+          "title": "Lesson Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7b521591-6152-4d72-931f-6ec0974f39ef",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1035370,
+              "key": "65da329c-39c9-46ea-a89d-d91af6f6b5cb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Lesson Conclusion",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1018741,
+              "key": "666e78a7-fccc-4673-90a5-9b83b44f5c30",
+              "title": "ND545 C1 L0 10 Lesson Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "r2J0JltxTPo",
+                "china_cdn_id": "r2J0JltxTPo.mp4"
+              }
+            },
+            {
+              "id": 1036532,
+              "key": "a88f4da8-3fdb-4533-a16d-2967c9edfb96",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/June/5ee8437d_l0-lo/l0-lo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a88f4da8-3fdb-4533-a16d-2967c9edfb96",
+              "caption": "",
+              "alt": "",
+              "width": 800,
+              "height": 312,
+              "instructor_notes": null
+            },
+            {
+              "id": 1018740,
+              "key": "db3b5137-059d-4bd1-bd8d-9e86df5f5f33",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Summary\nWe've briefly reviewed the learning objectives of the course, provided a standard cybersecurity definition, talked about why security is important and how it applies to business goals. We reviewed a brief history of malicious software and computer security key events. You saw an example of a typical cybersecurity environment and tools. Lastly, you were introduced to the course project.\n\n## Lesson Objectives\nYou will be able to:\n* Understand how cybersecurity affects your life\n* Describe how business stakeholders play a role in cybersecurity \n* Understand a brief history of information security and cybersecurity\n* Understand why this courses topics are important to creating valuable skills\n* Understand high-level cybersecurity tools, environments and dependencies\n* Have a high level understanding of the course project",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

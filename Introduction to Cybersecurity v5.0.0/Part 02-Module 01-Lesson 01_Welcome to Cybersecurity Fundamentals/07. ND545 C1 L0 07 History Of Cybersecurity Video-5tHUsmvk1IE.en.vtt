@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+Many people assume that cybersecurity is new,
+
+00:00:03.330 --> 00:00:06.105
+relatively starting within the last few decades.
+
+00:00:06.105 --> 00:00:11.025
+However, cybersecurity history dates back to the late 1960s,
+
+00:00:11.025 --> 00:00:14.070
+before people even had a computer.
+
+00:00:14.070 --> 00:00:17.340
+With the start of the Internet in the 1960s,
+
+00:00:17.340 --> 00:00:18.884
+known as the ARPANET,
+
+00:00:18.884 --> 00:00:21.240
+came a need to secure the data connections,
+
+00:00:21.240 --> 00:00:23.310
+computer systems for those using it,
+
+00:00:23.310 --> 00:00:27.285
+mostly research institutions, universities, and governments.
+
+00:00:27.285 --> 00:00:30.960
+Computers in the early days of the Internet often didn't have
+
+00:00:30.960 --> 00:00:35.590
+basic protection and used telephone modems to dial into the network.
+
+00:00:35.590 --> 00:00:39.935
+Many of the early computer attacks started as experiments.
+
+00:00:39.935 --> 00:00:44.150
+In 1971, Bob Thompson made history by
+
+00:00:44.150 --> 00:00:48.485
+creating a program that is widely accepted as the first ever computer worm.
+
+00:00:48.485 --> 00:00:51.740
+The worm bounced between computers and wasn't harmful.
+
+00:00:51.740 --> 00:00:56.015
+However, it would display a message on any infected system saying,
+
+00:00:56.015 --> 00:00:58.405
+"I'm a creeper, catch me if you can".
+
+00:00:58.405 --> 00:01:03.045
+In 1986, the first computer virus for MS-DOS,
+
+00:01:03.045 --> 00:01:06.405
+known as the brain was released.
+
+00:01:06.405 --> 00:01:11.000
+In 1989, Robert Morris created a computer worm that's considered the first
+
+00:01:11.000 --> 00:01:16.025
+Denial of Service or DOS attack to highlight Unix security issues.
+
+00:01:16.025 --> 00:01:18.180
+In May 2000, the,
+
+00:01:18.180 --> 00:01:24.230
+ILOVEYOU virus written in VBScript and using social engineering techniques,
+
+00:01:24.230 --> 00:01:29.905
+infected millions of Windows computers worldwide within a few hours of its release.
+
+00:01:29.905 --> 00:01:32.615
+Lastly, in 2010, Stuxnet,
+
+00:01:32.615 --> 00:01:37.225
+a Windows Trojan that attacks SCADA systems, was detected.
+
+00:01:37.225 --> 00:01:41.540
+All of the malicious activity caused the advent of computer security,
+
+00:01:41.540 --> 00:01:45.895
+also known as information security, and now cybersecurity.
+
+00:01:45.895 --> 00:01:50.870
+Two computer scientists realized the need for rules to govern these new computer systems.
+
+00:01:50.870 --> 00:01:53.570
+In 1975, Jerome Saltzer and
+
+00:01:53.570 --> 00:01:57.560
+Michael Schroeder published the Protection of Information in Computer Systems,
+
+00:01:57.560 --> 00:01:59.360
+which is still used today.
+
+00:01:59.360 --> 00:02:04.100
+The first US patent for cybersecurity came in September of 1983,
+
+00:02:04.100 --> 00:02:07.174
+when MIT was granted a patent for introducing
+
+00:02:07.174 --> 00:02:12.739
+the RSA Rivest-Shamir-Adleman cryptographic algorithm,
+
+00:02:12.739 --> 00:02:16.775
+which was one of the first public key cryptosystems.
+
+00:02:16.775 --> 00:02:21.395
+Around 1986, Clifford Stoll, a Berkeley astronomer,
+
+00:02:21.395 --> 00:02:23.480
+caught a German hacker working for
+
+00:02:23.480 --> 00:02:28.130
+the Soviet Union trying to break into US government computers on the Internet.
+
+00:02:28.130 --> 00:02:29.900
+He wrote about it in his book,
+
+00:02:29.900 --> 00:02:33.920
+The Cuckoo's Egg, a must read in cybersecurity.
+
+00:02:33.920 --> 00:02:35.480
+Around that same time,
+
+00:02:35.480 --> 00:02:38.900
+the US government enacted the Computer Fraud and Abuse Act,
+
+00:02:38.900 --> 00:02:41.900
+the United Kingdom Government realized it needed
+
+00:02:41.900 --> 00:02:44.810
+to strengthen its laws regarding computer use.
+
+00:02:44.810 --> 00:02:49.555
+So in 1990, the Computer Misuse Act was passed,
+
+00:02:49.555 --> 00:02:52.830
+and in 2001, NIST chose
+
+00:02:52.830 --> 00:02:56.750
+the Rijndael encryption algorithm to be the Advanced Encryption Standard,
+
+00:02:56.750 --> 00:02:59.310
+which is still used today.
+
