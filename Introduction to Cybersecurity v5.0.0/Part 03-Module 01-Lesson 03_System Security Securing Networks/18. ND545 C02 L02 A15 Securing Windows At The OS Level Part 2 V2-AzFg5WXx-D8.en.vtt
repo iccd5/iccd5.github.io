@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.890
+Windows services are small programs that run in the background of the operating system.
+
+00:00:04.890 --> 00:00:09.150
+Thankfully, services are much more streamlined in modern versions of Windows.
+
+00:00:09.150 --> 00:00:12.150
+We'll talk about the types of Windows services,
+
+00:00:12.150 --> 00:00:14.999
+how to start/stop Windows services,
+
+00:00:14.999 --> 00:00:17.445
+change the status, and finally,
+
+00:00:17.445 --> 00:00:19.965
+which services can be safely disabled?
+
+00:00:19.965 --> 00:00:24.465
+There are three primary types of Windows services accounts.
+
+00:00:24.465 --> 00:00:28.785
+Local services privileges are limited to the local computer.
+
+00:00:28.785 --> 00:00:31.920
+Use the local service user account if
+
+00:00:31.920 --> 00:00:36.660
+the worker process does not require access outside of the server in which it is running.
+
+00:00:36.660 --> 00:00:39.950
+The built-in network service user account has
+
+00:00:39.950 --> 00:00:44.555
+fewer access privileges on the system than the local system user account.
+
+00:00:44.555 --> 00:00:47.540
+But the network service user account is still able to
+
+00:00:47.540 --> 00:00:52.240
+interact throughout the network with the credentials of the computer account.
+
+00:00:52.240 --> 00:00:54.440
+The local system account is
+
+00:00:54.440 --> 00:00:58.790
+a predefined local account used by the service control manager.
+
+00:00:58.790 --> 00:01:01.190
+It has extensive privileges on
+
+00:01:01.190 --> 00:01:05.375
+the local computer and acts as the computer on the network.
+
+00:01:05.375 --> 00:01:08.539
+There are numerous ways to access Windows services.
+
+00:01:08.539 --> 00:01:11.675
+Try holding down the "Windows" key and hitting the "R".
+
+00:01:11.675 --> 00:01:16.860
+When the run dialog box pops out, type services.msc.
+
+00:01:19.840 --> 00:01:23.705
+There are four startup types for Windows services.
+
+00:01:23.705 --> 00:01:26.885
+Automatic, services will start at boot time.
+
+00:01:26.885 --> 00:01:29.090
+Automatic with a delayed start,
+
+00:01:29.090 --> 00:01:31.625
+services will start just after boot time.
+
+00:01:31.625 --> 00:01:33.455
+As you look through your services,
+
+00:01:33.455 --> 00:01:35.320
+you can see, there are quite a few of them.
+
+00:01:35.320 --> 00:01:40.180
+There is a rush when a machine boots as they all compete for system resources.
+
+00:01:40.180 --> 00:01:43.520
+By setting a service to automatic with a delayed start,
+
+00:01:43.520 --> 00:01:48.455
+this spreads the system load out a bit and can result in a quicker overall startup.
+
+00:01:48.455 --> 00:01:52.030
+Manual is starting a service manually when needed,
+
+00:01:52.030 --> 00:01:54.935
+this can be a computer user or an application.
+
+00:01:54.935 --> 00:01:59.140
+Disabled stops a service from starting, even if needed.
+
+00:01:59.140 --> 00:02:01.024
+From a security perspective,
+
+00:02:01.024 --> 00:02:02.870
+you'll want to perform the analysis
+
+00:02:02.870 --> 00:02:06.140
+each server and to disable any services that are not needed.
+
+00:02:06.140 --> 00:02:09.545
+This will shrink the attack service for that particular machine.
+
+00:02:09.545 --> 00:02:13.550
+In order to determine which services you can safely disable,
+
+00:02:13.550 --> 00:02:14.960
+you'll need to work closely with
+
+00:02:14.960 --> 00:02:19.595
+the systems administration team to baseline what the server's purpose is.
+
+00:02:19.595 --> 00:02:24.260
+This will allow you to research and provide a list of recommended services.
+
+00:02:24.260 --> 00:02:26.300
+You're probably wondering what are
+
+00:02:26.300 --> 00:02:30.055
+some examples of services you can disable on your Windows server.
+
+00:02:30.055 --> 00:02:33.185
+If you're not using Bluetooth, it can be disabled.
+
+00:02:33.185 --> 00:02:37.160
+Hopefully, known as using a server for Xbox applications,
+
+00:02:37.160 --> 00:02:40.160
+ActiveX installer can be safely disabled.
+
+00:02:40.160 --> 00:02:43.100
+There will likely be several services you can disable.
+
+00:02:43.100 --> 00:02:46.830
+Just take your time and work closely with the sysadmin team.
+

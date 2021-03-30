@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.295
+Let's walk through setting the permissions on a file in our CentOS server.
+
+00:00:04.295 --> 00:00:08.940
+Let's create a file called permissionstest.txt.
+
+00:00:08.940 --> 00:00:14.925
+To do that, type touch, permissionstest.txt, hit "Enter".
+
+00:00:14.925 --> 00:00:17.325
+Let's look at the permissions on that file.
+
+00:00:17.325 --> 00:00:23.445
+To do that, type ls space minus l. You'll notice that other,
+
+00:00:23.445 --> 00:00:27.135
+the third set of permissions has read-only access.
+
+00:00:27.135 --> 00:00:30.915
+Let's change that to read, write, and execute.
+
+00:00:30.915 --> 00:00:37.305
+To do that, type chmod o plus wrx over other,
+
+00:00:37.305 --> 00:00:41.175
+and then the file name, permissionstest.txt.
+
+00:00:41.175 --> 00:00:44.400
+Now rerun ls space minus l,
+
+00:00:44.400 --> 00:00:47.129
+and you'll see the updated permissions.
+

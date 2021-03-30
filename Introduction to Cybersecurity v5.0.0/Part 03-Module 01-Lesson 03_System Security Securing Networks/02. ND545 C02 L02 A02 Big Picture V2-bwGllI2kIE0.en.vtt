@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.310
+A secure computing environment is
+
+00:00:02.310 --> 00:00:05.595
+the most important building block in protecting your organization.
+
+00:00:05.595 --> 00:00:07.560
+In this lesson, you'll learn about
+
+00:00:07.560 --> 00:00:11.310
+several fundamental components that will make up the foundation of your security.
+
+00:00:11.310 --> 00:00:13.740
+But why does securing networks matter anyway?
+
+00:00:13.740 --> 00:00:17.445
+Secure networks are the bedrock of a secure organization.
+
+00:00:17.445 --> 00:00:20.340
+Ask any builder, if you get the foundation right,
+
+00:00:20.340 --> 00:00:21.690
+you can build anything.
+
+00:00:21.690 --> 00:00:25.080
+Conversely, if the foundation is poorly constructed,
+
+00:00:25.080 --> 00:00:27.600
+no matter how good the building materials are and
+
+00:00:27.600 --> 00:00:30.080
+how much care goes into constructing the structure.
+
+00:00:30.080 --> 00:00:31.695
+It could collapse at any moment.
+
+00:00:31.695 --> 00:00:33.390
+Let's look at a few examples.
+
+00:00:33.390 --> 00:00:37.500
+Here are a few real world examples of poor security foundations.
+
+00:00:37.500 --> 00:00:41.720
+According to the annual Verizon Data Breach Report for 2017,
+
+00:00:41.720 --> 00:00:46.055
+81 percent of all breaches are the result of stolen or weak credentials.
+
+00:00:46.055 --> 00:00:49.355
+There are many examples of exposed S3 buckets,
+
+00:00:49.355 --> 00:00:51.850
+which is Amazon Web Service Storage.
+
+00:00:51.850 --> 00:00:55.535
+From personal experience, I've witnessed major outbreaks due to
+
+00:00:55.535 --> 00:01:01.825
+out-of-date antivirus and unpatched desktops unpatched SQL instances and several others.
+
+00:01:01.825 --> 00:01:05.120
+The moral of the story is to take care of the low hanging fruit and
+
+00:01:05.120 --> 00:01:08.905
+the basics before moving on to other levels of security configuration.
+
+00:01:08.905 --> 00:01:12.005
+Now that the importance of securing networks is clear,
+
+00:01:12.005 --> 00:01:15.680
+let's move on to how to think like a professional when securing networks,
+
+00:01:15.680 --> 00:01:19.350
+there will be additional links available in the classroom.
+

@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.430
+In continuing with our layered approach,
+
+00:00:02.430 --> 00:00:04.380
+we turned to updating Linux.
+
+00:00:04.380 --> 00:00:05.955
+For those keeping score at home,
+
+00:00:05.955 --> 00:00:07.935
+this will fall under prevention.
+
+00:00:07.935 --> 00:00:11.255
+Keeping your Linux servers properly patched is essential.
+
+00:00:11.255 --> 00:00:14.555
+CentOS uses Yum as it's updating mechanism.
+
+00:00:14.555 --> 00:00:16.010
+In case you were wondering,
+
+00:00:16.010 --> 00:00:19.850
+Yum stands for Yellowdog Updater, Modified.
+
+00:00:19.850 --> 00:00:22.650
+We'll learn about viewing installed updates,
+
+00:00:22.650 --> 00:00:24.930
+viewing what updates are available,
+
+00:00:24.930 --> 00:00:27.165
+and choosing which updates to install.
+
+00:00:27.165 --> 00:00:30.420
+To view a list of currently installed updates,
+
+00:00:30.420 --> 00:00:34.335
+type sudo yum list installed.
+
+00:00:34.335 --> 00:00:38.180
+As a reminder, sudo gives us elevated privileges.
+
+00:00:38.180 --> 00:00:41.020
+The result will likely be several pages long.
+
+00:00:41.020 --> 00:00:43.190
+This is just a snippet for your review.
+
+00:00:43.190 --> 00:00:47.780
+We're now going to view available updates for the packages we currently have installed.
+
+00:00:47.780 --> 00:00:51.200
+You can run this command on your lab machine to see similar results.
+
+00:00:51.200 --> 00:00:55.579
+Again, we'll add sudo to the command to give us the necessary privileges.
+
+00:00:55.579 --> 00:00:59.205
+Type sudo yum list updates.
+
+00:00:59.205 --> 00:01:02.135
+At a minimum, you want to run security updates
+
+00:01:02.135 --> 00:01:05.425
+and possibly leave others to the systems administration team.
+
+00:01:05.425 --> 00:01:07.780
+To view the security updates only,
+
+00:01:07.780 --> 00:01:12.490
+run sudo yum update space minus minus security.
+
+00:01:12.490 --> 00:01:14.105
+As with all updates,
+
+00:01:14.105 --> 00:01:15.860
+you need to have a dedicated test bedded
+
+00:01:15.860 --> 00:01:18.709
+machines that match your production to test updates.
+
+00:01:18.709 --> 00:01:22.925
+That way, if an update causes malfunction or misconfiguration,
+
+00:01:22.925 --> 00:01:26.290
+you can run it and testing and not when a customer calls.
+
+00:01:26.290 --> 00:01:28.790
+Similar to Windows, it's best if
+
+00:01:28.790 --> 00:01:32.060
+all your Linux machines aren't downloading updates at once.
+
+00:01:32.060 --> 00:01:36.035
+Rather, you can set up a local update repository to download
+
+00:01:36.035 --> 00:01:38.240
+all updates and push them to your machines
+
+00:01:38.240 --> 00:01:41.700
+at a schedule that makes sense for your organization.
+

@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.550
+Let's create an IDS rule together.
+
+00:00:02.550 --> 00:00:05.010
+Just a quick note, for this walk-through,
+
+00:00:05.010 --> 00:00:07.920
+we're going to use a text editor to practice the syntax.
+
+00:00:07.920 --> 00:00:10.155
+As an analyst in a junior role,
+
+00:00:10.155 --> 00:00:12.930
+you'll most likely recommend a rule to the senior analysts
+
+00:00:12.930 --> 00:00:16.095
+or the network administrator who would then implement the change.
+
+00:00:16.095 --> 00:00:19.520
+We're creating a rule alerting for HTTPS traffic.
+
+00:00:19.520 --> 00:00:21.620
+Coming from any source,
+
+00:00:21.620 --> 00:00:26.485
+our destination IP is 10.15.11.3.
+
+00:00:26.485 --> 00:00:29.820
+That's HTTPS port 443.
+
+00:00:29.820 --> 00:00:32.490
+We want the administrator to be notified of this traffic,
+
+00:00:32.490 --> 00:00:34.065
+so we began with alert.
+
+00:00:34.065 --> 00:00:37.035
+Next we have TCP for the type of traffic.
+
+00:00:37.035 --> 00:00:41.865
+We want to be notified if the traffic is coming from any IP, any port.
+
+00:00:41.865 --> 00:00:44.280
+The traffic is inbound.
+
+00:00:44.280 --> 00:00:48.720
+Our destination IP address is 10.15.11.3.
+
+00:00:48.720 --> 00:00:52.410
+We're using HTTPS, that would be port 443.
+
+00:00:52.410 --> 00:00:54.270
+Then we have our message.
+
+00:00:54.270 --> 00:00:57.345
+In this case, we're alerting on HTTPS,
+
+00:00:57.345 --> 00:00:59.370
+and we add test, just for the rule.
+
+00:00:59.370 --> 00:01:02.460
+If you recall, the SID is the identifier,
+
+00:01:02.460 --> 00:01:04.410
+it has to be one million or higher.
+
+00:01:04.410 --> 00:01:11.030
+The first 999,999 are reserved for native snort rules.
+

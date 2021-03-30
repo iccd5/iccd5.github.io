@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.135
+Cybersecurity can seem to be a large and unwieldy field. In a way, it is.
+
+00:00:06.135 --> 00:00:09.360
+However, security practitioners generally
+
+00:00:09.360 --> 00:00:12.330
+specialize in a smaller, more manageable segment.
+
+00:00:12.330 --> 00:00:17.265
+This allows you to really understand the core principles of your area of responsibility.
+
+00:00:17.265 --> 00:00:22.424
+For instance, if an application suddenly becomes intermittently accessible,
+
+00:00:22.424 --> 00:00:25.605
+business unit will often ask if there's a firewall.
+
+00:00:25.605 --> 00:00:29.205
+However, you'll know that if there's an intermittent issue,
+
+00:00:29.205 --> 00:00:31.065
+it's usually not network related,
+
+00:00:31.065 --> 00:00:33.735
+the bits either flow or they don't.
+
+00:00:33.735 --> 00:00:37.195
+A firewall either allows, organize.
+
+00:00:37.195 --> 00:00:40.400
+Once you've lived with solutions you put in place,
+
+00:00:40.400 --> 00:00:43.585
+you'll develop an inherent intuition how they work.
+
+00:00:43.585 --> 00:00:46.370
+Just like once you've owned the same car for years,
+
+00:00:46.370 --> 00:00:51.130
+you recognize the various sounds it makes much better than a friend that borrows the car.
+
+00:00:51.130 --> 00:00:55.565
+It takes time, but take good notes, investigate your issues,
+
+00:00:55.565 --> 00:00:58.220
+and before you know it, you'll be providing helpful advice
+
+00:00:58.220 --> 00:01:01.830
+to your organization right off the top of your head.
+

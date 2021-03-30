@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.135
+This course is focused on securing our systems.
+
+00:00:03.135 --> 00:00:05.085
+We've learned about firewalls,
+
+00:00:05.085 --> 00:00:09.930
+wireless intrusion detection, and securing Windows operating systems.
+
+00:00:09.930 --> 00:00:13.815
+We're now turning our attention to securing Linux at the OS level.
+
+00:00:13.815 --> 00:00:18.044
+For this section we'll be using CentOS or our primary examples,
+
+00:00:18.044 --> 00:00:20.610
+although many will apply to other distributions.
+
+00:00:20.610 --> 00:00:25.050
+This section will include prevention from our three component model of security.
+
+00:00:25.050 --> 00:00:29.925
+In this section we will look at best practices for securing your Linux distro.
+
+00:00:29.925 --> 00:00:31.320
+We'll learn about daemons,
+
+00:00:31.320 --> 00:00:32.685
+including those that are needed,
+
+00:00:32.685 --> 00:00:36.855
+those that aren't, we'll take a look at file and directory permissions.
+
+00:00:36.855 --> 00:00:40.505
+To close things out we will be patching your Linux distro.
+
+00:00:40.505 --> 00:00:44.340
+Often Linux erupts in organizations due to the applications,
+
+00:00:44.340 --> 00:00:48.410
+the server's host, too often these machines are set up and forgotten about.
+
+00:00:48.410 --> 00:00:51.815
+Consider these recommendations for security best practices.
+
+00:00:51.815 --> 00:00:54.590
+There are many different methods of encrypting disks and
+
+00:00:54.590 --> 00:00:58.660
+Linux dm-crypt is a current popular choice.
+
+00:00:58.660 --> 00:01:01.280
+As part of regular maintenance add a note to
+
+00:01:01.280 --> 00:01:04.790
+periodically evaluate all user accounts on your machines.
+
+00:01:04.790 --> 00:01:09.805
+Once confirm they are no longer needed you can remove them to shrink your attack surface.
+
+00:01:09.805 --> 00:01:14.500
+In Linux 777 permissions are effectively wide open.
+
+00:01:14.500 --> 00:01:16.625
+It implies everyone can read,
+
+00:01:16.625 --> 00:01:19.375
+write, and execute everything in the directory.
+
+00:01:19.375 --> 00:01:22.645
+Obviously this isn't conducive to a secure environment
+
+00:01:22.645 --> 00:01:26.215
+and goes against the least privileged principle we learned about.
+
+00:01:26.215 --> 00:01:30.725
+Take the time to audit all directory permissions and set them accordingly.
+
+00:01:30.725 --> 00:01:33.895
+The less exposure your root account has the better.
+
+00:01:33.895 --> 00:01:36.040
+You can simply create another account,
+
+00:01:36.040 --> 00:01:37.720
+give it the proper privileges,
+
+00:01:37.720 --> 00:01:39.380
+and log in remotely with it.
+
+00:01:39.380 --> 00:01:41.780
+Unless there's a very good reason not to,
+
+00:01:41.780 --> 00:01:44.890
+it's a wise idea to enable the built-in firewall.
+
+00:01:44.890 --> 00:01:48.730
+There are many other best practices to securing the Linux OS.
+
+00:01:48.730 --> 00:01:51.310
+Additional reading can be found in classroom notes.
+
+00:01:51.310 --> 00:01:53.170
+We're now turning to daemons.
+
+00:01:53.170 --> 00:01:55.945
+According to the Linux Information project,
+
+00:01:55.945 --> 00:01:59.860
+a daemon is a type of program on Unix-like operating systems that
+
+00:01:59.860 --> 00:02:04.195
+runs unobtrusively in the background rather than under the direct control of the user.
+
+00:02:04.195 --> 00:02:05.640
+If that rings a bell,
+
+00:02:05.640 --> 00:02:08.060
+it's because a daemon is essentially the same thing
+
+00:02:08.060 --> 00:02:10.865
+as a Windows service which you learned about previously.
+
+00:02:10.865 --> 00:02:15.430
+In fact later distributions you'll see the word service used more frequently.
+
+00:02:15.430 --> 00:02:20.570
+Viewing installed daemons varies from version to version and in distro to distro.
+
+00:02:20.570 --> 00:02:23.990
+Keep in mind we're running CentOS 7.x.
+
+00:02:23.990 --> 00:02:25.610
+As with all things Linux,
+
+00:02:25.610 --> 00:02:28.280
+there are multiple ways to arrive at this destination.
+
+00:02:28.280 --> 00:02:30.390
+Choose the one you're most comfortable with.
+
+00:02:30.390 --> 00:02:39.645
+Run the command: systemctl list-units --type service -all.
+
+00:02:39.645 --> 00:02:46.025
+Systemctl is used to examine and control the state of system D. List units,
+
+00:02:46.025 --> 00:02:52.040
+view services, dash dash type service will show all active services.
+
+00:02:52.040 --> 00:02:56.345
+Adding dash dash all will include services that are not active.
+
+00:02:56.345 --> 00:02:59.150
+This is the output of active services.
+
+00:02:59.150 --> 00:03:01.715
+Linux permissions can be a little confusing.
+
+00:03:01.715 --> 00:03:04.550
+However if you break them down they become much more clear.
+
+00:03:04.550 --> 00:03:09.755
+They are similar to what we learned in Windows with the types read, write, and execute.
+
+00:03:09.755 --> 00:03:13.010
+Where they differ is how they are applied to the owner,
+
+00:03:13.010 --> 00:03:16.220
+the group, and everyone else. Let's dig in.
+
+00:03:16.220 --> 00:03:19.330
+The user is the owner of the file,
+
+00:03:19.330 --> 00:03:23.030
+the group can contain multiple users who bound to fall.
+
+00:03:23.030 --> 00:03:25.550
+We'll get the same permissions due to their membership.
+
+00:03:25.550 --> 00:03:28.385
+Think of the marketing example from the Windows section.
+
+00:03:28.385 --> 00:03:34.490
+Other is any other user that isn't the owner or a member of the a for mentioned group.
+
+00:03:34.490 --> 00:03:37.100
+To view the permissions of all that is contained in
+
+00:03:37.100 --> 00:03:41.015
+a directory you can type ls space minus l,
+
+00:03:41.015 --> 00:03:43.895
+to view the permissions of a specific file,
+
+00:03:43.895 --> 00:03:48.700
+you can type ls space minus l, then the file name.
+
+00:03:48.700 --> 00:03:51.664
+To view the permissions of a specific directory,
+
+00:03:51.664 --> 00:03:56.705
+you can type ls space minus ld, then the directory name.
+
+00:03:56.705 --> 00:03:59.990
+Here is an example of file permissions in Linux.
+
+00:03:59.990 --> 00:04:01.715
+Let's take a closer look.
+
+00:04:01.715 --> 00:04:05.510
+The dash in front of the permissions denotes a file.
+
+00:04:05.510 --> 00:04:08.825
+If there were a d it would be for a directory.
+
+00:04:08.825 --> 00:04:14.180
+The rwx indicates that the owner of this file can read, write,
+
+00:04:14.180 --> 00:04:21.430
+and execute.The xr indicates that any member of the group can execute and read the file.
+
+00:04:21.430 --> 00:04:24.380
+The x means that anyone that doesn't fall into
+
+00:04:24.380 --> 00:04:29.090
+the two previous categories can execute or run the file and nothing else.
+
+00:04:29.090 --> 00:04:32.030
+The First name is the owner of the file.
+
+00:04:32.030 --> 00:04:36.960
+The second name is what group has permissions. Changing permissions.
+
+00:04:36.960 --> 00:04:42.980
+Chmod, also known as chmod changes to permissions on a file or directory.
+
+00:04:42.980 --> 00:04:46.315
+Chgrp changes which group has access.
+
+00:04:46.315 --> 00:04:50.385
+Finally chown changes the owner of the file.
+
+00:04:50.385 --> 00:04:56.800
+In this example we're using chmod to change the file permissions on a file called Test.
+
+00:04:56.800 --> 00:05:01.835
+If you recall permissions are for user, group, or other.
+
+00:05:01.835 --> 00:05:04.940
+Here we're granting other meaning anyone that
+
+00:05:04.940 --> 00:05:09.059
+isn't the owner group read and execute permissions.
+

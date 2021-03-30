@@ -1,0 +1,34 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.450
+Let's check how you did on the IDS exercise.
+
+00:00:03.450 --> 00:00:07.990
+Your web server has been receiving a high volume of FTP login attempts,
+
+00:00:07.990 --> 00:00:11.595
+and you were tasked with writing a snort rule to alert the administrator.
+
+00:00:11.595 --> 00:00:13.530
+Here's what you should have come up with.
+
+00:00:13.530 --> 00:00:17.670
+Alert tells us the administrator would be notified when the rule fires.
+
+00:00:17.670 --> 00:00:20.805
+We're alerting on any source, IP and port.
+
+00:00:20.805 --> 00:00:25.935
+We have our IP address and a range of ports from 20-23.
+
+00:00:25.935 --> 00:00:29.460
+The message is FTP connection attempt.
+
+00:00:29.460 --> 00:00:32.565
+The sid just needs to be one million or higher.
+
+00:00:32.565 --> 00:00:38.560
+Rev 1, lets us know this is the first instance of the rule but isn't required.
+

@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.840
+Let's walk through viewing installed updates on our Windows Server.
+
+00:00:03.840 --> 00:00:07.900
+Select the Windows key and type PowerShell.
+
+00:00:08.410 --> 00:00:14.005
+From here, type Get-HotFix.
+
+00:00:14.005 --> 00:00:16.530
+These are the installed updates.
+
+00:00:16.530 --> 00:00:20.790
+The description tells you if it's a standard update or in this case, a security update.
+
+00:00:20.790 --> 00:00:24.465
+The Hot FixID contains very valuable information.
+
+00:00:24.465 --> 00:00:25.845
+You can take the KB,
+
+00:00:25.845 --> 00:00:27.495
+also known as knowledge base,
+
+00:00:27.495 --> 00:00:31.260
+and Google it, and it will give you information about that particular update.
+
+00:00:31.260 --> 00:00:32.730
+Then on the far right,
+
+00:00:32.730 --> 00:00:36.430
+you see the date that the update was installed.
+

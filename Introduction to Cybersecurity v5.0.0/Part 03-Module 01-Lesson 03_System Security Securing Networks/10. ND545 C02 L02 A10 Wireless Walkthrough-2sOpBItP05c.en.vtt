@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+Let's, walkthrough a wireless implementation project.
+
+00:00:03.600 --> 00:00:05.895
+Here are the initial requirements.
+
+00:00:05.895 --> 00:00:11.025
+The organization has three geographic locations and an aggressive growth plan.
+
+00:00:11.025 --> 00:00:15.465
+They are requesting a solution with high throughput and signal strength.
+
+00:00:15.465 --> 00:00:18.780
+They do not want a complicated configuration.
+
+00:00:18.780 --> 00:00:21.130
+Based on what we've learned in our research,
+
+00:00:21.130 --> 00:00:23.130
+here are the following recommendations.
+
+00:00:23.130 --> 00:00:28.320
+Due to the multiple geographic locations and the desire for simplicity and configuration,
+
+00:00:28.320 --> 00:00:33.030
+we recommend a Cloud-based controller rather than an on-premises controller.
+
+00:00:33.030 --> 00:00:37.640
+A mesh network layout where all the access points communicate with their neighbors,
+
+00:00:37.640 --> 00:00:41.275
+will allow for the throughput and signal strength the customer requested.
+
+00:00:41.275 --> 00:00:44.480
+Many vendors offer access points that will auto
+
+00:00:44.480 --> 00:00:48.485
+configure based on a neighboring access points configuration.
+
+00:00:48.485 --> 00:00:52.900
+This simplifies configuration and makes scaling the network easier.
+
+00:00:52.900 --> 00:00:58.080
+As a precaution, we recommend an N plus 1 quantity of access points,
+
+00:00:58.080 --> 00:01:01.745
+where N equals a given number of access points in a specific area,
+
+00:01:01.745 --> 00:01:03.650
+such as a segment of a floor.
+
+00:01:03.650 --> 00:01:06.980
+This will allow additional coverage and will provide
+
+00:01:06.980 --> 00:01:10.510
+consistent connectivity should a single access point fail.
+
+00:01:10.510 --> 00:01:14.729
+There are many vendors that offer solutions that will meet these requirements.
+

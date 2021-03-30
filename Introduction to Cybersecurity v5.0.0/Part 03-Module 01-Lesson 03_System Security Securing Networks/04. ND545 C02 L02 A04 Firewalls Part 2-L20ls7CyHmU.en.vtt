@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.590
+For this example, we'll use a basic Cisco firewall rule.
+
+00:00:04.590 --> 00:00:06.690
+While there are many other methods,
+
+00:00:06.690 --> 00:00:09.495
+they will all have a similarity in the syntax.
+
+00:00:09.495 --> 00:00:14.280
+A Cisco firewall rule will have the interface being used,
+
+00:00:14.280 --> 00:00:17.895
+whether the traffic is being allowed or denied,
+
+00:00:17.895 --> 00:00:20.055
+what protocols are used,
+
+00:00:20.055 --> 00:00:22.470
+what objects are involved,
+
+00:00:22.470 --> 00:00:24.915
+and finally, the service or port.
+
+00:00:24.915 --> 00:00:27.525
+This is not a comprehensive list,
+
+00:00:27.525 --> 00:00:29.720
+we're looking at a basic rule.
+
+00:00:29.720 --> 00:00:32.510
+If we are Acme incorporated and we have
+
+00:00:32.510 --> 00:00:35.570
+a vendor that needs to connect with our database server,
+
+00:00:35.570 --> 00:00:38.135
+here is what a sample rule might look like.
+
+00:00:38.135 --> 00:00:40.670
+Keep in mind, this is a basic rule.
+
+00:00:40.670 --> 00:00:43.135
+There are other methods of access control.
+
+00:00:43.135 --> 00:00:45.620
+The rule begins with access list,
+
+00:00:45.620 --> 00:00:48.440
+which is simply a rule that controls traffic.
+
+00:00:48.440 --> 00:00:52.205
+Next up is the name of the interface being used.
+
+00:00:52.205 --> 00:00:54.695
+If you recall from just a few moments ago,
+
+00:00:54.695 --> 00:01:00.205
+a firewall will have at minimum two interfaces, outside and inside.
+
+00:01:00.205 --> 00:01:03.319
+This example is showing the traffic will be traversing
+
+00:01:03.319 --> 00:01:07.655
+our internal interface to ultimately reach our database server.
+
+00:01:07.655 --> 00:01:12.730
+Here, we are using an extended permit as opposed to a standard permit.
+
+00:01:12.730 --> 00:01:18.530
+An extended permit gives additional flexibility in matching the traffic more granularly.
+
+00:01:18.530 --> 00:01:23.590
+For this rule, we're identifying that TCP is the protocol being used.
+
+00:01:23.590 --> 00:01:26.075
+UDP is another common option.
+
+00:01:26.075 --> 00:01:29.040
+Source is listed before destination.
+
+00:01:29.040 --> 00:01:31.200
+In this rule, we're identifying
+
+00:01:31.200 --> 00:01:34.795
+the IP address that will be allowed to access our database server.
+
+00:01:34.795 --> 00:01:37.790
+Often organizations will name the IP address for
+
+00:01:37.790 --> 00:01:41.195
+additional information as well as the ability to reuse it later.
+
+00:01:41.195 --> 00:01:43.120
+Here, we'll just use the IP.
+
+00:01:43.120 --> 00:01:47.210
+The destination is the IP address of our database server.
+
+00:01:47.210 --> 00:01:49.655
+Eq means equal to,
+
+00:01:49.655 --> 00:01:54.170
+and in this request we're processing the port as 9081.
+
+00:01:54.170 --> 00:01:59.930
+Management often get impatient with having to wait on security to allow specific traffic.
+
+00:01:59.930 --> 00:02:02.225
+It isn't uncommon to be asked,
+
+00:02:02.225 --> 00:02:04.385
+why do we need this and other rules?
+
+00:02:04.385 --> 00:02:07.220
+Why can't we make our servers public-facing?
+
+00:02:07.220 --> 00:02:11.750
+By securing our database server and other resources behind the firewall,
+
+00:02:11.750 --> 00:02:15.475
+we ensure that only authorized traffic is allowed.
+
+00:02:15.475 --> 00:02:19.970
+This protects us from malicious traffic as well as our intellectual property.
+
+00:02:19.970 --> 00:02:22.010
+As you learned in a previous lesson,
+
+00:02:22.010 --> 00:02:25.745
+the principle of least privilege should always be practiced.
+
+00:02:25.745 --> 00:02:28.960
+The minimum level of access is always preferred.
+
+00:02:28.960 --> 00:02:31.655
+It does not apply only to login accounts.
+
+00:02:31.655 --> 00:02:33.830
+A quick note before we move on,
+
+00:02:33.830 --> 00:02:37.985
+most firewalls process their rules from top to bottom.
+
+00:02:37.985 --> 00:02:41.390
+This is important to note because a firewall will not
+
+00:02:41.390 --> 00:02:45.070
+process any further rules once a condition is met.
+
+00:02:45.070 --> 00:02:50.730
+Your rules should be more specific at the top and more general near the bottom.
+

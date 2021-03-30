@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.745
+Let's take a look at the firewall exercise.
+
+00:00:02.745 --> 00:00:06.450
+You were tasked with creating a firewall rule. Let's see how you did.
+
+00:00:06.450 --> 00:00:11.220
+Using Cisco syntax, compose a firewall rule allowing the IP address
+
+00:00:11.220 --> 00:00:17.370
+150.220.31.199 access to IP
+
+00:00:17.370 --> 00:00:25.485
+address 172.28.16.15 on port TCP-9001.
+
+00:00:25.485 --> 00:00:27.075
+Name the source IP,
+
+00:00:27.075 --> 00:00:32.625
+Central-001 and the destination IP, Web-001.
+
+00:00:32.625 --> 00:00:36.480
+Use you Udacity-ingress as the interface.
+
+00:00:36.480 --> 00:00:38.280
+Here's what you should have come up with.
+
+00:00:38.280 --> 00:00:40.290
+The command to name an object is;
+
+00:00:40.290 --> 00:00:42.375
+name, the IP address,
+
+00:00:42.375 --> 00:00:44.040
+and then the name you'd like to use.
+
+00:00:44.040 --> 00:00:48.385
+We did this for both source and destination objects.
+
+00:00:48.385 --> 00:00:51.605
+Finally, you should have access list,
+
+00:00:51.605 --> 00:00:57.380
+the interface used, in this case you Udacity-ingress, then extended permit,
+
+00:00:57.380 --> 00:01:00.980
+TCP host, the source object,
+
+00:01:00.980 --> 00:01:05.224
+which we named Central-001 host,
+
+00:01:05.224 --> 00:01:08.490
+and then the destination object of Web-001,
+
+00:01:08.490 --> 00:01:13.040
+eq and in the port 9001.
+

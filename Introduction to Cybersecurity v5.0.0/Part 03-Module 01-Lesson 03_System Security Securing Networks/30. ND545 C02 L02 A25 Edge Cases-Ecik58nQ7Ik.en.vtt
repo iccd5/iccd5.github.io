@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.575
+You will occasionally run into edge cases in regards to your update policy.
+
+00:00:04.575 --> 00:00:10.005
+There will be times when a server can not be updated due to legacy applications.
+
+00:00:10.005 --> 00:00:12.060
+These are older applications that require
+
+00:00:12.060 --> 00:00:15.090
+an environment that matches the environment when they were installed.
+
+00:00:15.090 --> 00:00:18.750
+Updating the system will likely cause the application to crash.
+
+00:00:18.750 --> 00:00:21.090
+Custom applications occasionally have
+
+00:00:21.090 --> 00:00:25.590
+very specific software requirements that preclude updates being installed on the machine.
+
+00:00:25.590 --> 00:00:29.730
+How do we mitigate the security risks for these types of situations?
+
+00:00:29.730 --> 00:00:33.090
+Do not run any other applications on the system,
+
+00:00:33.090 --> 00:00:37.610
+isolate the server from all traffic not associated with the application,
+
+00:00:37.610 --> 00:00:42.340
+and monitor the server and alert on any suspicious traffic.
+

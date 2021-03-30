@@ -1,0 +1,277 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.655
+To close out this Microsoft Windows section,
+
+00:00:02.655 --> 00:00:05.045
+we're going to discuss Windows Updates.
+
+00:00:05.045 --> 00:00:07.560
+We'll learn how to determine what version of
+
+00:00:07.560 --> 00:00:10.635
+the operating system you're running and the current build number.
+
+00:00:10.635 --> 00:00:13.289
+We'll view currently installed updates,
+
+00:00:13.289 --> 00:00:15.495
+the different types of updates,
+
+00:00:15.495 --> 00:00:18.080
+and lastly, installing new updates.
+
+00:00:18.080 --> 00:00:22.585
+It's important to know what version of the operating system you are running.
+
+00:00:22.585 --> 00:00:25.010
+For this example, we'll use Windows 10,
+
+00:00:25.010 --> 00:00:28.610
+but the principles apply to all Windows operating systems.
+
+00:00:28.610 --> 00:00:30.425
+To retrieve this information,
+
+00:00:30.425 --> 00:00:32.975
+press the Windows button on your keyboard and type,
+
+00:00:32.975 --> 00:00:34.670
+"Win Ver", and hit, "Enter."
+
+00:00:34.670 --> 00:00:37.520
+You can also type, "Win Ver", from a command line.
+
+00:00:37.520 --> 00:00:40.780
+As you can see, this machine is running Windows 10.
+
+00:00:40.780 --> 00:00:43.045
+The Version gets more specific.
+
+00:00:43.045 --> 00:00:45.605
+This feature was added in 2015.
+
+00:00:45.605 --> 00:00:50.845
+The 19 in 1909 indicates this version is from 2019.
+
+00:00:50.845 --> 00:00:53.985
+The 09, you might have guessed, is referencing September.
+
+00:00:53.985 --> 00:00:57.950
+In recent years, Microsoft have released two versions per year,
+
+00:00:57.950 --> 00:01:00.955
+one usually in spring, the other in the fall.
+
+00:01:00.955 --> 00:01:04.730
+The OS build consists of two parts separated by a dot.
+
+00:01:04.730 --> 00:01:08.000
+The left side of the dot is a five digit value,
+
+00:01:08.000 --> 00:01:11.190
+representing the build number associated with the version released.
+
+00:01:11.190 --> 00:01:12.350
+On the right side,
+
+00:01:12.350 --> 00:01:18.185
+is a three or four digit code indicating the most recent cumulative update installed.
+
+00:01:18.185 --> 00:01:21.635
+For more information, visit the link in the classroom notes.
+
+00:01:21.635 --> 00:01:24.560
+There will often be situations where you will want
+
+00:01:24.560 --> 00:01:27.410
+to know what updates have been installed on the machine.
+
+00:01:27.410 --> 00:01:31.745
+For example, when performing a security analysis for audit,
+
+00:01:31.745 --> 00:01:34.610
+when you are troubleshooting a performance issue,
+
+00:01:34.610 --> 00:01:36.740
+when performing incident response,
+
+00:01:36.740 --> 00:01:39.640
+and finally, when installing new applications.
+
+00:01:39.640 --> 00:01:41.685
+To view existing updates,
+
+00:01:41.685 --> 00:01:43.920
+open PowerShell and type,
+
+00:01:43.920 --> 00:01:46.260
+Get-HotFix, and hit, "Enter."
+
+00:01:46.260 --> 00:01:48.740
+You'll get an output similar to this.
+
+00:01:48.740 --> 00:01:50.735
+Here you'll see the description,
+
+00:01:50.735 --> 00:01:54.830
+the date installed, and most importantly, the HotFixID.
+
+00:01:54.830 --> 00:01:58.715
+You can take that ID and look up more information about the update.
+
+00:01:58.715 --> 00:02:02.990
+There are many different types of Windows updates, let's go through them.
+
+00:02:02.990 --> 00:02:05.735
+A critical update, according to Microsoft,
+
+00:02:05.735 --> 00:02:08.840
+is a widely released fix for a specific problem
+
+00:02:08.840 --> 00:02:12.350
+that addresses a critical non security-related bug.
+
+00:02:12.350 --> 00:02:15.080
+This could be an emergency patch that resolves
+
+00:02:15.080 --> 00:02:18.200
+an issue that was making an application crash.
+
+00:02:18.200 --> 00:02:20.240
+A definition update is
+
+00:02:20.240 --> 00:02:23.540
+a wildly released and frequent software update
+
+00:02:23.540 --> 00:02:27.445
+that contains additions to a product's definition database.
+
+00:02:27.445 --> 00:02:33.124
+Definition databases are often used to detect objects that have specific attributes,
+
+00:02:33.124 --> 00:02:34.925
+such as malicious code,
+
+00:02:34.925 --> 00:02:37.340
+phishing websites, or junk mail.
+
+00:02:37.340 --> 00:02:41.405
+An example would be new malware definitions for Windows Defender.
+
+00:02:41.405 --> 00:02:44.120
+A driver is the software that interacts
+
+00:02:44.120 --> 00:02:47.300
+between your operating system and the device or hardware.
+
+00:02:47.300 --> 00:02:50.420
+I will note, some IT professionals prefer to
+
+00:02:50.420 --> 00:02:53.680
+download their drivers from the manufacturer of the device.
+
+00:02:53.680 --> 00:02:57.350
+Feature pack is new product functionality that is first
+
+00:02:57.350 --> 00:03:00.965
+distributed outside the context of a product release,
+
+00:03:00.965 --> 00:03:04.565
+and that is typically included the next full product release.
+
+00:03:04.565 --> 00:03:07.850
+A security update is a wildly released fix for a
+
+00:03:07.850 --> 00:03:11.210
+product specific, security-related vulnerability.
+
+00:03:11.210 --> 00:03:14.420
+Security vulnerabilities are rated by their severity.
+
+00:03:14.420 --> 00:03:19.190
+The severity rating is indicated in the Microsoft security Bulletin as: critical,
+
+00:03:19.190 --> 00:03:21.830
+important, moderate, or low.
+
+00:03:21.830 --> 00:03:26.660
+A service pack is a tested cumulative set of all hotfixes,
+
+00:03:26.660 --> 00:03:30.080
+security updates, critical updates, and updates.
+
+00:03:30.080 --> 00:03:33.590
+Additionally, service packs may contain additional fixes
+
+00:03:33.590 --> 00:03:37.400
+for problems that are found internally since the release of the product.
+
+00:03:37.400 --> 00:03:43.180
+A tool is a utility or feature that helps complete a task or set of tasks.
+
+00:03:43.180 --> 00:03:47.430
+An update, is a widely released fix for a specific problem.
+
+00:03:47.430 --> 00:03:52.165
+An update addresses a non-critical, non security-related bug.
+
+00:03:52.165 --> 00:03:55.350
+Now we'll learn strategies for updating Windows.
+
+00:03:55.350 --> 00:04:01.294
+Beginning in 2016, Microsoft views the Windows Operating System as a service,
+
+00:04:01.294 --> 00:04:06.380
+meaning that updates must be installed automatically to have the optimal experience.
+
+00:04:06.380 --> 00:04:09.050
+Therefore, you can no longer pick and choose
+
+00:04:09.050 --> 00:04:12.295
+which updates you would like to install without additional software.
+
+00:04:12.295 --> 00:04:15.380
+Most organizations with dedicated IT departments
+
+00:04:15.380 --> 00:04:18.290
+run some centralized Windows patch management.
+
+00:04:18.290 --> 00:04:21.905
+WSUS, Windows Server Update Services
+
+00:04:21.905 --> 00:04:25.325
+is a free utility to help centralize update management,
+
+00:04:25.325 --> 00:04:30.095
+automate the installation of updates at a time that most benefits the organization,
+
+00:04:30.095 --> 00:04:34.015
+and it helps manage the bandwidth consumption of updates.
+
+00:04:34.015 --> 00:04:38.040
+Instead of 400 PCs and servers downloading from the internet,
+
+00:04:38.040 --> 00:04:41.130
+the updates download to the WSUS server,
+
+00:04:41.130 --> 00:04:44.210
+which then pushes them out on the much faster local network.
+
+00:04:44.210 --> 00:04:46.705
+If your organization has purchased
+
+00:04:46.705 --> 00:04:52.445
+SCCM System Center Configuration Manager as a component of configuration manager,
+
+00:04:52.445 --> 00:04:55.505
+it can be used for Windows Updates,
+
+00:04:55.505 --> 00:04:58.115
+installation of new applications,
+
+00:04:58.115 --> 00:05:03.270
+OS upgrades, Antivirus scans, and much more.
+

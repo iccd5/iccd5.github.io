@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.510
+Let's take a look at setting Windows directory permissions together.
+
+00:00:03.510 --> 00:00:07.815
+We'll check the existing folder permissions and we'll add the maintenance group.
+
+00:00:07.815 --> 00:00:11.030
+Let's set the proper permissions for the maintenance department.
+
+00:00:11.030 --> 00:00:14.500
+First, we right-click the folder and go to Properties.
+
+00:00:15.800 --> 00:00:19.350
+Then we select the Security tab,
+
+00:00:19.350 --> 00:00:22.065
+then we select "Edit."
+
+00:00:22.065 --> 00:00:24.210
+As we learned in the lesson,
+
+00:00:24.210 --> 00:00:26.640
+the administrators group has full control.
+
+00:00:26.640 --> 00:00:31.200
+However, we see that the user's group has Read &amp; execute,
+
+00:00:31.200 --> 00:00:32.775
+and List folder contents.
+
+00:00:32.775 --> 00:00:35.950
+Let's go ahead and Remove their access.
+
+00:00:36.260 --> 00:00:42.670
+Now select "Add," type maintenance,
+
+00:00:44.270 --> 00:00:49.185
+click "Check Names" and then "OK".
+
+00:00:49.185 --> 00:00:53.520
+Let's give the group Full control and then
+
+00:00:53.520 --> 00:00:58.660
+click "Apply" and "OK. " That's all there is to it.
+

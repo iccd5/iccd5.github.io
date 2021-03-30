@@ -1,0 +1,205 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.120
+We're now turning our attention to operating systems.
+
+00:00:03.120 --> 00:00:04.680
+As a security professional,
+
+00:00:04.680 --> 00:00:08.125
+you may or may not be the one securing individual machines,
+
+00:00:08.125 --> 00:00:09.660
+but you will certainly engage with
+
+00:00:09.660 --> 00:00:13.785
+the systems administration team on what should and should not be running.
+
+00:00:13.785 --> 00:00:19.035
+In this section, we'll evaluate documentation to determine proper security settings,
+
+00:00:19.035 --> 00:00:21.165
+learn about Windows Services,
+
+00:00:21.165 --> 00:00:23.190
+learn about file permissions,
+
+00:00:23.190 --> 00:00:25.155
+and close it out with Windows Updates.
+
+00:00:25.155 --> 00:00:29.490
+This section will include prevention for Mac 3 component model of security.
+
+00:00:29.490 --> 00:00:34.140
+While every organization's overall technology configurations are unique,
+
+00:00:34.140 --> 00:00:36.870
+there are so many possible configurations and server
+
+00:00:36.870 --> 00:00:40.965
+operating systems to make one size fits all recommendations impossible,
+
+00:00:40.965 --> 00:00:43.575
+that's why we rely on best practices.
+
+00:00:43.575 --> 00:00:49.025
+This allows a baseline of security to accompany the business needs of the organization.
+
+00:00:49.025 --> 00:00:51.080
+As you learned in the previous lesson,
+
+00:00:51.080 --> 00:00:55.175
+NIST has extensive documentation for securing your environment.
+
+00:00:55.175 --> 00:00:59.225
+If your organization is subject to any regulatory compliance,
+
+00:00:59.225 --> 00:01:01.850
+you will need to familiarize yourself with requirements.
+
+00:01:01.850 --> 00:01:06.830
+Most compliance requirements are concerned with access, updates, and logging.
+
+00:01:06.830 --> 00:01:11.155
+Microsoft provides recommendations on all of their products.
+
+00:01:11.155 --> 00:01:13.570
+You can download their server security guide,
+
+00:01:13.570 --> 00:01:15.830
+it offers advice on updates,
+
+00:01:15.830 --> 00:01:18.715
+privileges, and several other system settings.
+
+00:01:18.715 --> 00:01:22.460
+If your organization is subject to regulatory compliance,
+
+00:01:22.460 --> 00:01:24.050
+such as PCI or HIPAA,
+
+00:01:24.050 --> 00:01:26.690
+there's documentation available that provides
+
+00:01:26.690 --> 00:01:29.390
+security configuration requirements that must be met.
+
+00:01:29.390 --> 00:01:31.910
+We will begin with Windows file permissions.
+
+00:01:31.910 --> 00:01:35.600
+Permissions are fundamental to securing your computing environment.
+
+00:01:35.600 --> 00:01:39.800
+Not only do they offer protection from an outside attacker perspective,
+
+00:01:39.800 --> 00:01:42.935
+but also regarding compliance and data integrity.
+
+00:01:42.935 --> 00:01:45.710
+Full control is exactly what it says.
+
+00:01:45.710 --> 00:01:48.470
+It permits reading, writing,
+
+00:01:48.470 --> 00:01:52.070
+changing, and deleting of files and subfolders.
+
+00:01:52.070 --> 00:01:56.000
+Modify permits reading and writing of files and subfolders,
+
+00:01:56.000 --> 00:01:57.845
+and allows deletion of the folder.
+
+00:01:57.845 --> 00:02:01.610
+Read and execute permits the viewing of files and sub-folders,
+
+00:02:01.610 --> 00:02:03.940
+as well as the executing files.
+
+00:02:03.940 --> 00:02:07.400
+List folder contents permits viewing and listing of
+
+00:02:07.400 --> 00:02:10.865
+files and subfolders as well as the executing files.
+
+00:02:10.865 --> 00:02:14.660
+Write permits the adding of files and subfolders.
+
+00:02:14.660 --> 00:02:17.390
+Read permits the viewing of files.
+
+00:02:17.390 --> 00:02:20.710
+Here is a table to review all of the permissions,
+
+00:02:20.710 --> 00:02:22.840
+let's take a look at an example.
+
+00:02:22.840 --> 00:02:25.400
+Here's a departmental directory for marketing.
+
+00:02:25.400 --> 00:02:29.030
+The first object in the permissions is the administrative group.
+
+00:02:29.030 --> 00:02:30.740
+It is not uncommon.
+
+00:02:30.740 --> 00:02:33.395
+In fact, it's generally standard procedure,
+
+00:02:33.395 --> 00:02:37.580
+but the administrator group to have full access to the entire server.
+
+00:02:37.580 --> 00:02:40.445
+This allows the machine to be properly maintained.
+
+00:02:40.445 --> 00:02:43.595
+Next on the list is the marketing group themselves.
+
+00:02:43.595 --> 00:02:45.830
+You'll notice they have permission to read,
+
+00:02:45.830 --> 00:02:48.460
+write, and execute anything in the folder.
+
+00:02:48.460 --> 00:02:50.850
+Lastly, you'll see the IT group.
+
+00:02:50.850 --> 00:02:55.040
+While it is possible to nest the IT group inside the administrators group,
+
+00:02:55.040 --> 00:02:56.780
+there isn't any functional difference when it
+
+00:02:56.780 --> 00:02:58.990
+comes to the permissions we're looking at today.
+
+00:02:58.990 --> 00:03:01.820
+The IT group generally needs full access
+
+00:03:01.820 --> 00:03:04.675
+to the entire server environment to perform new duties.
+
+00:03:04.675 --> 00:03:08.435
+If you recall from our discussion of the principle of least privilege,
+
+00:03:08.435 --> 00:03:11.540
+the accounts in the IT group may be used only for
+
+00:03:11.540 --> 00:03:15.310
+administrative purposes and not for normal computer usage.
+
+00:03:15.310 --> 00:03:18.530
+To review, the administrator and IT group have
+
+00:03:18.530 --> 00:03:21.980
+similar rights and in some cases would be nested into one.
+
+00:03:21.980 --> 00:03:26.030
+Marketing group have the required access to create,
+
+00:03:26.030 --> 00:03:29.550
+read, write, and execute files.
+

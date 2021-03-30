@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.405
+You are tasked with creating several users, groups,
+
+00:00:03.405 --> 00:00:07.280
+and directories and your CentOS lab server. Let's see how you did.
+
+00:00:07.280 --> 00:00:11.430
+In this exercise, you learned how to use several new Linux commands.
+
+00:00:11.430 --> 00:00:14.220
+You create a groups using groupadd.
+
+00:00:14.220 --> 00:00:17.010
+You created users using adduser.
+
+00:00:17.010 --> 00:00:19.920
+You added those users to their respective groups with
+
+00:00:19.920 --> 00:00:23.625
+usermode and you create a directories with mkdir.
+
+00:00:23.625 --> 00:00:27.765
+Finally, you change the owner of the directories with chown.
+
+00:00:27.765 --> 00:00:32.200
+Great job. Your results should look something like this.
+

@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.000
+Let's walk through creating a firewall rule together.
+
+00:00:03.000 --> 00:00:04.515
+Just a quick note.
+
+00:00:04.515 --> 00:00:08.700
+For this walkthrough, we're going to use a text editor to practice the syntax.
+
+00:00:08.700 --> 00:00:10.815
+As an analyst in a junior role,
+
+00:00:10.815 --> 00:00:12.780
+you'll most likely recommend a rule to
+
+00:00:12.780 --> 00:00:17.040
+the senior analyst or the network administrator who would then implement the change.
+
+00:00:17.040 --> 00:00:21.450
+We have a vendor JD software that we want to grant access
+
+00:00:21.450 --> 00:00:25.890
+to our internal software repository for a project we're working on together.
+
+00:00:25.890 --> 00:00:28.725
+Rather than make the repository available to the world,
+
+00:00:28.725 --> 00:00:31.230
+we'll open up our firewall just for this vendor.
+
+00:00:31.230 --> 00:00:38.085
+They have an IP address of 123.222.111.2.
+
+00:00:38.085 --> 00:00:42.795
+Our IP address is 10.10.5.3.
+
+00:00:42.795 --> 00:00:47.620
+Our repository is on TCP 8443.
+
+00:00:47.620 --> 00:00:50.740
+Open up your favorite text editor and follow along.
+
+00:00:50.740 --> 00:00:52.555
+If you recall from the lesson,
+
+00:00:52.555 --> 00:00:55.390
+some organizations name the objects in their firewall for
+
+00:00:55.390 --> 00:00:58.345
+both documentation purposes as well as for reuse,
+
+00:00:58.345 --> 00:01:01.310
+if there are additional rules. We'll do that here.
+
+00:01:01.310 --> 00:01:03.030
+To name the source IP,
+
+00:01:03.030 --> 00:01:06.945
+we type name, the IP address,
+
+00:01:06.945 --> 00:01:08.715
+and then the name we want to call it.
+
+00:01:08.715 --> 00:01:11.840
+In this case, JDS-001.
+
+00:01:11.840 --> 00:01:13.885
+To name our destination IP,
+
+00:01:13.885 --> 00:01:17.820
+we type name, IP address,
+
+00:01:17.820 --> 00:01:19.390
+and then when the name we want to call it.
+
+00:01:19.390 --> 00:01:21.850
+In this case, acme-web.
+
+00:01:21.850 --> 00:01:25.215
+Now that those are in place, let's create the rule.
+
+00:01:25.215 --> 00:01:26.780
+Remember from our example,
+
+00:01:26.780 --> 00:01:29.870
+a basic rule begins with access list.
+
+00:01:29.870 --> 00:01:32.539
+Since this traffic is coming inbound,
+
+00:01:32.539 --> 00:01:36.300
+we'll use our internal interface of acme-ingress-001.
+
+00:01:38.270 --> 00:01:42.890
+The interface is named when the firewall is initially configured.
+
+00:01:42.890 --> 00:01:46.545
+Next, we'll use extended permit as we did in our example.
+
+00:01:46.545 --> 00:01:49.530
+We're also using the TCP protocol.
+
+00:01:49.530 --> 00:01:56.920
+For the source we use our named object host jds-001.
+
+00:01:56.920 --> 00:02:03.500
+For our destination we use the named object for that as well, host acme-web.
+
+00:02:03.500 --> 00:02:10.770
+The port we're opening is 8443. That's all there is to it.
+

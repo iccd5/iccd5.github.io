@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.890
+Welcome to Securing Networks.
+
+00:00:01.890 --> 00:00:04.919
+Now that you know about defense in depth, NIST,
+
+00:00:04.919 --> 00:00:06.495
+and the principle of least privilege,
+
+00:00:06.495 --> 00:00:09.915
+we can start applying these principles to networks and systems.
+
+00:00:09.915 --> 00:00:13.470
+This lesson on system security is quite the busy lesson.
+
+00:00:13.470 --> 00:00:15.600
+If you recall from the previous lesson,
+
+00:00:15.600 --> 00:00:17.625
+security is a layered proposition;
+
+00:00:17.625 --> 00:00:20.265
+prevent, detect, and respond.
+
+00:00:20.265 --> 00:00:23.415
+We'll cover portions of all three components in this lesson.
+
+00:00:23.415 --> 00:00:25.290
+We'll begin with the different types of
+
+00:00:25.290 --> 00:00:28.440
+firewalls and how to create a basic firewall rule.
+
+00:00:28.440 --> 00:00:32.645
+We'll take a look at best practices for securing enterprise wireless.
+
+00:00:32.645 --> 00:00:36.935
+Then we'll learn about intrusion detection systems and intrusion protection systems,
+
+00:00:36.935 --> 00:00:39.785
+including running a basic IDS signature.
+
+00:00:39.785 --> 00:00:42.500
+We'll close this lesson out with a look at Securing
+
+00:00:42.500 --> 00:00:46.050
+Windows and Linux systems. Let's get started.
+

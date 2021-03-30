@@ -1,0 +1,19 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.125
+Let's view the available updates on our CentOS server.
+
+00:00:04.125 --> 00:00:07.425
+To view available updates in CentOS type
+
+00:00:07.425 --> 00:00:15.430
+"Sudo" for elevated privileges, "Yum," and "Check-update."
+
+00:00:15.800 --> 00:00:19.810
+You'll be asked to enter your credentials again.
+
+00:00:22.880 --> 00:00:28.749
+Now, you can see all the updates that are available for your install packages.
+
