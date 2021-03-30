@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.730
+You've now completed Exercise 2,
+
+00:00:02.730 --> 00:00:05.925
+as a part of the security best practices session.
+
+00:00:05.925 --> 00:00:10.725
+The intent of this exercise was for you to explore virustotal.com,
+
+00:00:10.725 --> 00:00:16.395
+and see how we can supplement a device's antivirus and endpoint protection program.
+
+00:00:16.395 --> 00:00:18.300
+Let me show you how it works.
+
+00:00:18.300 --> 00:00:22.425
+As you can see, I typed in Udacity's website in the search bar.
+
+00:00:22.425 --> 00:00:24.540
+If I click "Search",
+
+00:00:24.540 --> 00:00:29.000
+you will see the results where the website was compared
+
+00:00:29.000 --> 00:00:33.735
+against 70 plus different antivirus programs.
+
+00:00:33.735 --> 00:00:36.770
+Keep in mind, an anti-virus program by itself
+
+00:00:36.770 --> 00:00:40.070
+is only about maybe 50-60 percent effective.
+
+00:00:40.070 --> 00:00:43.040
+Wouldn't it be nice to check against many different types
+
+00:00:43.040 --> 00:00:46.270
+of antivirus programs like the ones you see here.
+
+00:00:46.270 --> 00:00:52.845
+You can also use VirusTotal to detect potential malware as a part of a file.
+
+00:00:52.845 --> 00:00:57.690
+Hopefully, the file you uploaded on the site had no viruses detected.
+
+00:00:57.690 --> 00:01:00.980
+Please share this site with your friends and family as
+
+00:01:00.980 --> 00:01:04.920
+an extra layer of defense against malware.
+

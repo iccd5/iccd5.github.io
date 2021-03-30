@@ -1,0 +1,223 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.720
+It's important for you and really all consumers to know
+
+00:00:03.720 --> 00:00:06.300
+some basic cybersecurity best practices for
+
+00:00:06.300 --> 00:00:09.165
+protecting your information devices and network.
+
+00:00:09.165 --> 00:00:11.880
+We call this cybersecurity hygiene.
+
+00:00:11.880 --> 00:00:16.455
+Like hand washing, these small and simple steps make large differences.
+
+00:00:16.455 --> 00:00:19.530
+In this video, I'll provide you with tips for keeping yourself,
+
+00:00:19.530 --> 00:00:21.405
+your family, your community,
+
+00:00:21.405 --> 00:00:23.940
+and your businesses safe online.
+
+00:00:23.940 --> 00:00:28.275
+The tips are separated into three areas: personal security,
+
+00:00:28.275 --> 00:00:31.580
+device security, and network security,
+
+00:00:31.580 --> 00:00:34.244
+and will help you apply the security fundamentals,
+
+00:00:34.244 --> 00:00:36.260
+including core security principles,
+
+00:00:36.260 --> 00:00:39.705
+and critical security controls in your world.
+
+00:00:39.705 --> 00:00:42.590
+It's important to understand how to protect yourself
+
+00:00:42.590 --> 00:00:45.745
+online from the scams through social engineering.
+
+00:00:45.745 --> 00:00:49.730
+You should recall that social engineering is an attempt to trick someone into
+
+00:00:49.730 --> 00:00:54.215
+revealing information like a password or credit card information,
+
+00:00:54.215 --> 00:00:59.980
+and this can then be used to attack other systems or networks or people's bank accounts.
+
+00:00:59.980 --> 00:01:03.380
+How do you defeat social engineering?
+
+00:01:03.380 --> 00:01:07.380
+Well, first of all, think before you click.
+
+00:01:07.380 --> 00:01:11.060
+What this means is before you click on that link,
+
+00:01:11.060 --> 00:01:14.600
+give a quick look to see whether it's valid or not.
+
+00:01:14.600 --> 00:01:16.850
+Tip 2, trust your gut,
+
+00:01:16.850 --> 00:01:18.920
+which just means, be a little skeptical.
+
+00:01:18.920 --> 00:01:20.735
+If something doesn't feel right,
+
+00:01:20.735 --> 00:01:23.240
+very well may not be right.
+
+00:01:23.240 --> 00:01:26.630
+Third, when in doubt, ask somebody.
+
+00:01:26.630 --> 00:01:30.370
+It's the easiest way to defeat social engineering.
+
+00:01:30.370 --> 00:01:33.010
+When you log in, you enter a User Id.
+
+00:01:33.010 --> 00:01:37.720
+You also need to prove that user Id belongs to you and you're the one using it.
+
+00:01:37.720 --> 00:01:40.320
+That is often done with a password.
+
+00:01:40.320 --> 00:01:43.820
+The problem is that passwords are a weak form of security.
+
+00:01:43.820 --> 00:01:46.370
+We often use things we can easily remember,
+
+00:01:46.370 --> 00:01:48.470
+like names of family members, pets,
+
+00:01:48.470 --> 00:01:51.145
+sports schemes, or even cars.
+
+00:01:51.145 --> 00:01:54.560
+Anyone who knows us can potentially guess our passwords.
+
+00:01:54.560 --> 00:01:57.845
+Passwords can be cracked using special programs,
+
+00:01:57.845 --> 00:01:59.860
+especially if they're short.
+
+00:01:59.860 --> 00:02:02.285
+For extra security on our accounts,
+
+00:02:02.285 --> 00:02:04.250
+we need to use long passwords of
+
+00:02:04.250 --> 00:02:08.930
+at least wealth characters that contain numbers and special symbols,
+
+00:02:08.930 --> 00:02:14.135
+and whenever possible, I recommend a passphrase instead of a password.
+
+00:02:14.135 --> 00:02:16.685
+For example, I love ice cream,
+
+00:02:16.685 --> 00:02:19.180
+but where you substitute some of the letters.
+
+00:02:19.180 --> 00:02:22.220
+If you use something about you as your password,
+
+00:02:22.220 --> 00:02:25.895
+then there's a much greater chance that someone could guess it.
+
+00:02:25.895 --> 00:02:28.270
+So don't use anything about you,
+
+00:02:28.270 --> 00:02:30.100
+like a child's name or a pet.
+
+00:02:30.100 --> 00:02:35.675
+It's also not a good idea to reuse passwords because if someone knows your old password,
+
+00:02:35.675 --> 00:02:38.045
+they can figure out your current password.
+
+00:02:38.045 --> 00:02:42.565
+The problem with long and complex passwords is that they are hard to remember,
+
+00:02:42.565 --> 00:02:45.060
+plus there are so many.
+
+00:02:45.060 --> 00:02:50.120
+An option is to use a password manager program that remembers your passwords for you.
+
+00:02:50.120 --> 00:02:54.415
+You store your password for websites and applications in your password vault.
+
+00:02:54.415 --> 00:02:57.050
+You then use the vault whenever you need a password.
+
+00:02:57.050 --> 00:03:02.635
+You'll experiment with password managers as part of the exercises throughout this course.
+
+00:03:02.635 --> 00:03:06.080
+Passwords are known as single-factor authentication,
+
+00:03:06.080 --> 00:03:10.099
+which means it only uses one form to prove our identity.
+
+00:03:10.099 --> 00:03:14.750
+It's better to use multi-factor authentication or MFA,
+
+00:03:14.750 --> 00:03:17.945
+which may also be known as two-factor authentication.
+
+00:03:17.945 --> 00:03:21.635
+The different factors are something you know,
+
+00:03:21.635 --> 00:03:24.275
+such as a password, something you are,
+
+00:03:24.275 --> 00:03:26.570
+like your fingerprint, face,
+
+00:03:26.570 --> 00:03:27.935
+or even your voice,
+
+00:03:27.935 --> 00:03:29.960
+or something you have or possess,
+
+00:03:29.960 --> 00:03:32.485
+like a smartphone or a car.
+
+00:03:32.485 --> 00:03:36.500
+For example, many banks today require that you get a PIN sent to
+
+00:03:36.500 --> 00:03:38.660
+your smartphone along with using
+
+00:03:38.660 --> 00:03:41.950
+your personal password to access their application or website.
+
+00:03:41.950 --> 00:03:47.420
+This uses something you know your password and something you have your device.
+
+00:03:47.420 --> 00:03:50.135
+If you use your fingerprint on your phone,
+
+00:03:50.135 --> 00:03:53.155
+it's something you are and something you have.
+
+00:03:53.155 --> 00:04:00.060
+This reduces the possibility that someone may access your devices or account as you.
+

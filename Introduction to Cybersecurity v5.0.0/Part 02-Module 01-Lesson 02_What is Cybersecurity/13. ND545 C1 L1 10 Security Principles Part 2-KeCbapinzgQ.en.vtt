@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.220
+There's another security concept that I'd be
+
+00:00:02.220 --> 00:00:04.890
+remiss not to mention in an introductory class on
+
+00:00:04.890 --> 00:00:10.125
+cybersecurity: confidentiality, integrity, and availability.
+
+00:00:10.125 --> 00:00:12.720
+It's around everything we do.
+
+00:00:12.720 --> 00:00:16.155
+Confidentiality is keeping our secret secret.
+
+00:00:16.155 --> 00:00:21.870
+It means limiting who can see or read sensitive information.
+
+00:00:21.870 --> 00:00:28.260
+Integrity is limiting who can change or modify that information.
+
+00:00:28.260 --> 00:00:35.705
+Availability is ensuring our information or devices is there when we need it.
+
+00:00:35.705 --> 00:00:40.310
+Let's use a public website like Udacity as an example.
+
+00:00:40.310 --> 00:00:45.425
+The confidentiality is low since it's there for anyone to read,
+
+00:00:45.425 --> 00:00:49.825
+except for that proprietary content like this lesson.
+
+00:00:49.825 --> 00:00:53.975
+The integrity should be high because we want to make sure
+
+00:00:53.975 --> 00:00:58.135
+only those people who should change it can make changes.
+
+00:00:58.135 --> 00:01:00.995
+Availability, well, we'll just call that medium,
+
+00:01:00.995 --> 00:01:04.205
+since the amount of harm may or may not be that great.
+
+00:01:04.205 --> 00:01:07.900
+Of course, this depends on the website.
+
+00:01:07.900 --> 00:01:11.030
+Look around you and all the places you use
+
+00:01:11.030 --> 00:01:14.365
+these security principles often without thinking.
+
+00:01:14.365 --> 00:01:18.319
+As you work through this course and work as a security professional,
+
+00:01:18.319 --> 00:01:21.409
+consider all the ways we use economy of mechanism,
+
+00:01:21.409 --> 00:01:23.510
+least privilege, failing safe,
+
+00:01:23.510 --> 00:01:26.435
+choke points, and defense in depth.
+
+00:01:26.435 --> 00:01:30.590
+Also consider how you use CIA: confidentiality, integrity,
+
+00:01:30.590 --> 00:01:35.550
+availability, and how it fits in your world of security.
+

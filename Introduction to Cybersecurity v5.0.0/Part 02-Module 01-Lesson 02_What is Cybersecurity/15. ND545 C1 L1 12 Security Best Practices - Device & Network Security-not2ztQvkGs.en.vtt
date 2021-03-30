@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.470
+Viruses, worms, Trojan horse applications, ransomware, spyware,
+
+00:00:04.470 --> 00:00:07.725
+and other forms of malicious software,
+
+00:00:07.725 --> 00:00:09.780
+also known as malware,
+
+00:00:09.780 --> 00:00:11.595
+continue to haunt us.
+
+00:00:11.595 --> 00:00:14.490
+Step 1 in protecting your device is to have
+
+00:00:14.490 --> 00:00:18.344
+an antivirus application whenever they are available.
+
+00:00:18.344 --> 00:00:21.060
+Many operating systems like Microsoft Windows
+
+00:00:21.060 --> 00:00:24.075
+come with an antivirus or endpoint protection program.
+
+00:00:24.075 --> 00:00:25.860
+For the Windows operating system,
+
+00:00:25.860 --> 00:00:28.124
+it's called Windows Defender.
+
+00:00:28.124 --> 00:00:32.820
+You can also purchase separate AV programmed for additional security.
+
+00:00:32.820 --> 00:00:36.390
+In the exercise, you'll get to explore a website you can
+
+00:00:36.390 --> 00:00:40.680
+use to check files or web URLs for malware.
+
+00:00:40.680 --> 00:00:43.820
+Another simple way to protect your devices and applications on
+
+00:00:43.820 --> 00:00:47.645
+them is to keep them up-to-date with patches.
+
+00:00:47.645 --> 00:00:50.000
+This is basically fixing a known problem or
+
+00:00:50.000 --> 00:00:53.560
+a software vulnerability by applying a new version of software.
+
+00:00:53.560 --> 00:00:57.050
+This will usually come from the software manufacturer.
+
+00:00:57.050 --> 00:01:00.620
+Microsoft first introduced the idea of Patch Tuesday in
+
+00:01:00.620 --> 00:01:05.885
+2003 as a means to reduce costs associated with patch deployment.
+
+00:01:05.885 --> 00:01:09.215
+On the second, now sometimes fourth Tuesday of the month,
+
+00:01:09.215 --> 00:01:11.630
+Microsoft releases its updates.
+
+00:01:11.630 --> 00:01:15.710
+This makes them easier to schedule for systems administrators.
+
+00:01:15.710 --> 00:01:19.670
+Not all applications follow a rigorous schedule for patching.
+
+00:01:19.670 --> 00:01:23.305
+Whenever you can, set them to automatically update.
+
+00:01:23.305 --> 00:01:27.065
+Otherwise, you need to remember to install them yourself.
+
+00:01:27.065 --> 00:01:31.130
+You'll experiment with patching in future exercises.
+
+00:01:31.130 --> 00:01:35.810
+The last security best practice I'll cover is protecting how you connect,
+
+00:01:35.810 --> 00:01:38.125
+also known as network security.
+
+00:01:38.125 --> 00:01:39.860
+Like many of the topics,
+
+00:01:39.860 --> 00:01:42.380
+this is a class by itself.
+
+00:01:42.380 --> 00:01:46.640
+For this session, we'll focus on protecting wireless connections,
+
+00:01:46.640 --> 00:01:51.070
+since it's most often the way we connect when not on a desktop computer.
+
+00:01:51.070 --> 00:01:56.494
+First at home, we need to configure the Wi-Fi router or switch for security,
+
+00:01:56.494 --> 00:02:01.675
+which means using at least Wi-Fi protected access to or WPA2.
+
+00:02:01.675 --> 00:02:06.575
+If it's available, use the latest version known as Wi-Fi 6.
+
+00:02:06.575 --> 00:02:10.010
+This encrypts or scrambles the signal so
+
+00:02:10.010 --> 00:02:13.865
+no one can eavesdrop on our network conversations.
+
+00:02:13.865 --> 00:02:16.640
+You also need to set a password to access
+
+00:02:16.640 --> 00:02:21.710
+your routers configuration and your Wi-Fi signal known as the SSID.
+
+00:02:21.710 --> 00:02:28.025
+This way, you can control who uses it when you're away from your home or office,
+
+00:02:28.025 --> 00:02:31.985
+know when and where your device is connecting to Wi-Fi networks.
+
+00:02:31.985 --> 00:02:34.715
+Be careful with open Wi-Fi,
+
+00:02:34.715 --> 00:02:38.255
+often available in stores, restaurants, and airports,
+
+00:02:38.255 --> 00:02:42.500
+since others can sniff the airwaves for your activity,
+
+00:02:42.500 --> 00:02:45.935
+basically watching you and what you're doing on the network.
+
+00:02:45.935 --> 00:02:47.975
+To be really safe,
+
+00:02:47.975 --> 00:02:50.990
+you should disable your devices Wi-Fi and Bluetooth,
+
+00:02:50.990 --> 00:02:54.080
+because you never know who's watching you.
+
+00:02:54.080 --> 00:02:57.080
+These are just a few tips to get you started.
+
+00:02:57.080 --> 00:03:01.265
+We'll be going into a lot more details about them throughout the course.
+
+00:03:01.265 --> 00:03:05.270
+There are simple ideas to get you started to protect yourself,
+
+00:03:05.270 --> 00:03:09.060
+your devices, and your networks.
+

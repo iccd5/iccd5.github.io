@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.075
+Remember from previous videos that passwords are a poor way to prove someone's identity.
+
+00:00:06.075 --> 00:00:08.550
+They're easily shared, written down,
+
+00:00:08.550 --> 00:00:12.510
+and often leaked plus there are so many to remember.
+
+00:00:12.510 --> 00:00:16.110
+The solution is to use a password manager.
+
+00:00:16.110 --> 00:00:20.070
+Password managers are encrypted vaults that hold your passwords,
+
+00:00:20.070 --> 00:00:23.250
+so you don't need to memorize them or write them down.
+
+00:00:23.250 --> 00:00:25.319
+Besides keeping your identity,
+
+00:00:25.319 --> 00:00:27.375
+credentials, and sensitive data safe,
+
+00:00:27.375 --> 00:00:31.260
+a password manager can generate strong unique passwords to
+
+00:00:31.260 --> 00:00:35.864
+ensure you aren't reusing them across your devices, websites, and services.
+
+00:00:35.864 --> 00:00:38.760
+This way you can use a much longer, complex,
+
+00:00:38.760 --> 00:00:41.925
+and ultimately more secure password.
+
+00:00:41.925 --> 00:00:43.880
+An additional benefit with
+
+00:00:43.880 --> 00:00:48.050
+many password managers is that you can use multi-factor authentication,
+
+00:00:48.050 --> 00:00:49.630
+or MFA with them.
+
+00:00:49.630 --> 00:00:53.990
+Common password management applications include LastPass,
+
+00:00:53.990 --> 00:00:58.135
+Keepass, 1password, and Dashlane.
+
+00:00:58.135 --> 00:01:01.250
+Some of these are free and some may require
+
+00:01:01.250 --> 00:01:06.335
+paid subscription and are quickly becoming the main part of security best practices.
+
+00:01:06.335 --> 00:01:11.150
+The intent of this exercise was to give you the opportunity to test
+
+00:01:11.150 --> 00:01:16.210
+a password manager to understand how it fits as a part of security best practices.
+
+00:01:16.210 --> 00:01:22.560
+You'll have the further opportunity to use a password manager in a later exercise.
+

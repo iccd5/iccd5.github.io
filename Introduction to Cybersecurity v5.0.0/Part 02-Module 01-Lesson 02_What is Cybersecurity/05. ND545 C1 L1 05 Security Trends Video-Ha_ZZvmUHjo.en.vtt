@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.800
+Cybersecurity incidents and data breaches are now a part of our lives,
+
+00:00:04.800 --> 00:00:08.325
+and security is integrated in what we do,
+
+00:00:08.325 --> 00:00:10.620
+how we act, and even where we go,
+
+00:00:10.620 --> 00:00:13.335
+both online and in real life.
+
+00:00:13.335 --> 00:00:15.060
+In the first part of the lesson,
+
+00:00:15.060 --> 00:00:18.480
+we'll identify current trends in malicious activity,
+
+00:00:18.480 --> 00:00:21.735
+technologies, and protection techniques.
+
+00:00:21.735 --> 00:00:24.120
+The exercises will have you review
+
+00:00:24.120 --> 00:00:30.460
+current cybersecurity events and ways organizations are responding to data breaches.
+
+00:00:30.460 --> 00:00:32.210
+In May of 2020,
+
+00:00:32.210 --> 00:00:37.385
+the FBI's Internet Crime Complaint Center celebrated its 20th year.
+
+00:00:37.385 --> 00:00:41.180
+This graphic demonstrates how cybercrime continues to build,
+
+00:00:41.180 --> 00:00:43.700
+plaguing consumers and businesses alike,
+
+00:00:43.700 --> 00:00:49.570
+with the number of complaints growing to over five million as of March 2020.
+
+00:00:49.570 --> 00:00:56.945
+In 2019, victims reported more than $3.5 billion in losses,
+
+00:00:56.945 --> 00:01:06.740
+an average of $7,500 for each of the 467,361 complaints recorded that year.
+
+00:01:06.740 --> 00:01:11.525
+The continually growing number of cybercrime complaints is one trend.
+
+00:01:11.525 --> 00:01:15.560
+Others include how cybercrime is done using phishing,
+
+00:01:15.560 --> 00:01:18.340
+ransomware, and business e-mail compromise.
+
+00:01:18.340 --> 00:01:21.620
+Social engineering is still the number one way
+
+00:01:21.620 --> 00:01:25.040
+people and businesses are scammed out of their money.
+
+00:01:25.040 --> 00:01:27.545
+Smart devices, the Internet of Things,
+
+00:01:27.545 --> 00:01:30.604
+and Cloud services all make our lives easier,
+
+00:01:30.604 --> 00:01:35.060
+they also are new ways for malicious hackers to attack.
+
+00:01:35.060 --> 00:01:40.880
+This all means more opportunities for cybersecurity professionals.
+
+00:01:40.880 --> 00:01:45.160
+Phishing has been plaguing everyone online for many years.
+
+00:01:45.160 --> 00:01:49.190
+Today, there are many variations such as spear phishing,
+
+00:01:49.190 --> 00:01:52.775
+which is an attack against a specific individual.
+
+00:01:52.775 --> 00:01:57.895
+Whaling is phishing, but going after executives in a company.
+
+00:01:57.895 --> 00:02:01.290
+Smshing is using text messages.
+
+00:02:01.290 --> 00:02:04.070
+So you get a text with a weird link in it,
+
+00:02:04.070 --> 00:02:06.760
+which is a type of spam and phishing.
+
+00:02:06.760 --> 00:02:11.090
+We're even seeing it with voicemail or vishing,
+
+00:02:11.090 --> 00:02:12.590
+where you get a voicemail saying,
+
+00:02:12.590 --> 00:02:15.140
+please contact us at a specific number,
+
+00:02:15.140 --> 00:02:18.150
+often trying to get a user ID and password,
+
+00:02:18.150 --> 00:02:20.575
+or your money like a credit card.
+
+00:02:20.575 --> 00:02:24.620
+Last, we're seeing phishing through instant messages,
+
+00:02:24.620 --> 00:02:29.675
+like in a chat where they're using Google Meet or Zoom or any of the others.
+
+00:02:29.675 --> 00:02:31.730
+Be aware of what people are sending you,
+
+00:02:31.730 --> 00:02:34.705
+and report anything that appears weird.
+
+00:02:34.705 --> 00:02:38.925
+All of these are ways to use ransomware.
+
+00:02:38.925 --> 00:02:42.590
+Ransomware is a type of malicious software designed to
+
+00:02:42.590 --> 00:02:46.325
+block access to a computer system until a sum of money is paid.
+
+00:02:46.325 --> 00:02:49.715
+Often, the perpetrator wants bitcoin
+
+00:02:49.715 --> 00:02:53.435
+in exchange for cryptographic keys to unlock your files.
+
+00:02:53.435 --> 00:02:56.390
+Basically, your computer is locked with bad guys
+
+00:02:56.390 --> 00:02:59.930
+holding the key until you pay that ransom.
+
+00:02:59.930 --> 00:03:05.000
+This has caused multiple millions of dollars in damages.
+
+00:03:05.000 --> 00:03:08.450
+Business E-mail Compromise, or BEC,
+
+00:03:08.450 --> 00:03:14.105
+is an exploit in which an attacker obtains access to a businesses e-mail account,
+
+00:03:14.105 --> 00:03:18.079
+and imitates the owners identity in order to defraud
+
+00:03:18.079 --> 00:03:22.565
+the company and its employees, customers, or partners.
+
+00:03:22.565 --> 00:03:28.280
+The FBI has a comprehensive explanation of BEC on their website,
+
+00:03:28.280 --> 00:03:31.340
+and the link is available in the notes.
+
+00:03:31.340 --> 00:03:33.935
+Social engineering is another trend,
+
+00:03:33.935 --> 00:03:38.585
+generally involves hacking humans and is an attempt to trick someone
+
+00:03:38.585 --> 00:03:43.220
+into revealing information like their user ID and password or credit card.
+
+00:03:43.220 --> 00:03:46.880
+It can be used to attack systems or networks as well.
+
+00:03:46.880 --> 00:03:52.415
+It's the old con job where someone tries to pretend to be someone they're not,
+
+00:03:52.415 --> 00:03:55.385
+whether it's online or in real life.
+
+00:03:55.385 --> 00:04:01.310
+A cybersecurity trend that is beneficial is the use of smart devices such as phones,
+
+00:04:01.310 --> 00:04:04.175
+watches, thermostats, lightings, cameras,
+
+00:04:04.175 --> 00:04:05.675
+and even our cars.
+
+00:04:05.675 --> 00:04:08.480
+These send and receive data via the Internet
+
+00:04:08.480 --> 00:04:11.965
+and is known as the Internet of Things or IoT.
+
+00:04:11.965 --> 00:04:17.180
+Tied to much of this is the use of Cloud services that allow access
+
+00:04:17.180 --> 00:04:22.010
+to applications and data from a variety of devices and from almost anywhere.
+
+00:04:22.010 --> 00:04:25.745
+With the benefit of these devices, come a downside,
+
+00:04:25.745 --> 00:04:28.309
+making sure they are secure,
+
+00:04:28.309 --> 00:04:31.670
+and that only authorized people and systems can access them.
+
+00:04:31.670 --> 00:04:34.850
+Also, they need to be hardened to
+
+00:04:34.850 --> 00:04:38.765
+ensure they cannot be used in ways they're not intended.
+
+00:04:38.765 --> 00:04:42.590
+The last item on our list of security trends is that all of
+
+00:04:42.590 --> 00:04:46.550
+this means more opportunities for cybersecurity professionals.
+
+00:04:46.550 --> 00:04:50.850
+Soon we'll talk about cybersecurity careers.
+

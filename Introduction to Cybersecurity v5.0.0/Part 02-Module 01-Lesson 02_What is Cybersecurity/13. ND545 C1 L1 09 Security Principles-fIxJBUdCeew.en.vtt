@@ -1,0 +1,217 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.060
+This video explains a set of security principles
+
+00:00:03.060 --> 00:00:06.255
+that are the framework for all security programs.
+
+00:00:06.255 --> 00:00:09.270
+These are basic ideas that are not specific,
+
+00:00:09.270 --> 00:00:11.535
+just a cybersecurity or IT,
+
+00:00:11.535 --> 00:00:16.080
+and are used to structure how we protect our technologies.
+
+00:00:16.080 --> 00:00:19.110
+Earlier I mentioned Saltzer and Schroeder paper,
+
+00:00:19.110 --> 00:00:24.270
+The Protection of Information in Computer Systems, published in 1975.
+
+00:00:24.270 --> 00:00:28.320
+These are also known as the design principles for computer systems.
+
+00:00:28.320 --> 00:00:32.130
+To summarize, these principles are economy of mechanism,
+
+00:00:32.130 --> 00:00:34.740
+fail-safe defaults, complete mediation,
+
+00:00:34.740 --> 00:00:37.965
+open design, separation of privilege, least privilege,
+
+00:00:37.965 --> 00:00:41.765
+least common mechanism, and user friendly interface.
+
+00:00:41.765 --> 00:00:44.125
+Let's see how a few of these work.
+
+00:00:44.125 --> 00:00:50.225
+Economy of mechanism is just a fancy word that means to keep things small and simple.
+
+00:00:50.225 --> 00:00:52.760
+Bigger is not necessarily better,
+
+00:00:52.760 --> 00:00:58.744
+it just means that there's more to protect and complexity is an enemy of security.
+
+00:00:58.744 --> 00:01:02.105
+Complex systems are harder to defend
+
+00:01:02.105 --> 00:01:05.510
+because you need to understand all of the ways it works,
+
+00:01:05.510 --> 00:01:07.175
+how it can be accessed,
+
+00:01:07.175 --> 00:01:11.150
+and how it can be broken to allow unauthorized activities.
+
+00:01:11.150 --> 00:01:14.840
+To fail-safe means to anticipate how things can go
+
+00:01:14.840 --> 00:01:18.215
+wrong and to ensure when it does things are in a safe state.
+
+00:01:18.215 --> 00:01:21.385
+This should be the default, not an exception.
+
+00:01:21.385 --> 00:01:26.315
+To do this, you need to know how something may fail and plan for that failure,
+
+00:01:26.315 --> 00:01:29.170
+which means failing smart.
+
+00:01:29.170 --> 00:01:34.115
+For an example, let us say you have a walk-in freezer and the power goes out,
+
+00:01:34.115 --> 00:01:36.785
+should the freezer door lock?
+
+00:01:36.785 --> 00:01:39.845
+No, because it can lock someone inside.
+
+00:01:39.845 --> 00:01:43.810
+The freezer door needs to fail open by default.
+
+00:01:43.810 --> 00:01:47.470
+Life safety is always priority number 1.
+
+00:01:47.470 --> 00:01:51.365
+In computer networks, if a network firewall fails,
+
+00:01:51.365 --> 00:01:55.430
+we want the website to be shut and not let anyone in.
+
+00:01:55.430 --> 00:01:59.170
+The website needs to fail shut by default.
+
+00:01:59.170 --> 00:02:01.850
+In computer networks, we need to decide if we
+
+00:02:01.850 --> 00:02:04.670
+want our e-commerce website to be open to everyone,
+
+00:02:04.670 --> 00:02:08.435
+should a network firewall fail or shut and not let anyone in.
+
+00:02:08.435 --> 00:02:11.255
+This is a business decision.
+
+00:02:11.255 --> 00:02:15.080
+Least privilege is a concept dealing with access control.
+
+00:02:15.080 --> 00:02:19.520
+It means having the minimum privileges or permissions needed to do a job.
+
+00:02:19.520 --> 00:02:22.025
+Nothing more, nothing less,
+
+00:02:22.025 --> 00:02:25.760
+too much and you could be blamed if there are problems.
+
+00:02:25.760 --> 00:02:29.670
+For example, I once worked for an executive who wanted his badge
+
+00:02:29.670 --> 00:02:33.590
+to access any door in any building on the companies large campus.
+
+00:02:33.590 --> 00:02:38.885
+The problem is that if when he looses his badge,
+
+00:02:38.885 --> 00:02:43.175
+the person who finds it has access to all of the rooms.
+
+00:02:43.175 --> 00:02:47.560
+Plus that executive always has an assistant to let him in any door.
+
+00:02:47.560 --> 00:02:50.975
+An example in computers is to not to use
+
+00:02:50.975 --> 00:02:55.639
+an administrator superuser or root account unless you need it to install,
+
+00:02:55.639 --> 00:02:58.675
+modify, or manage applications.
+
+00:02:58.675 --> 00:03:01.670
+If you use an administrator account as the default,
+
+00:03:01.670 --> 00:03:06.535
+it's a lot more likely your computer may be infected with a computer virus.
+
+00:03:06.535 --> 00:03:11.745
+The last two security principles I'll talk about are choke points and defense in depth.
+
+00:03:11.745 --> 00:03:15.080
+For this example, let's use a castle analogy.
+
+00:03:15.080 --> 00:03:18.100
+So picture in your mind a castle.
+
+00:03:18.100 --> 00:03:21.960
+Think of the ways in or out, it's limited.
+
+00:03:21.960 --> 00:03:25.340
+There will be a main entrance that is heavily guarded,
+
+00:03:25.340 --> 00:03:29.240
+any back entrances maybe restricted and would also be guarded.
+
+00:03:29.240 --> 00:03:32.305
+This is known as a choke point.
+
+00:03:32.305 --> 00:03:35.150
+We have the same idea on our computer networks,
+
+00:03:35.150 --> 00:03:38.900
+there's a main and root say to the Internet and
+
+00:03:38.900 --> 00:03:43.775
+any back doors would be very limited to only known administrators.
+
+00:03:43.775 --> 00:03:47.690
+Castles are also known for having many layers of security
+
+00:03:47.690 --> 00:03:52.025
+between the outside and the internal crown jewels.
+
+00:03:52.025 --> 00:03:56.330
+There are multiple walls or moats and other defenses in place.
+
+00:03:56.330 --> 00:03:59.885
+In computers, we also use layers of security.
+
+00:03:59.885 --> 00:04:01.520
+Think of your home network.
+
+00:04:01.520 --> 00:04:05.070
+You'll have your network switch that has a firewall and
+
+00:04:05.070 --> 00:04:09.350
+the computer or device you use should also have multiple defenses in place,
+
+00:04:09.350 --> 00:04:12.125
+such as antivirus or endpoint protection.
+
+00:04:12.125 --> 00:04:15.650
+This is known as defense in depth and partnered with
+
+00:04:15.650 --> 00:04:20.970
+a choke point are some of the principles of information security.
+
