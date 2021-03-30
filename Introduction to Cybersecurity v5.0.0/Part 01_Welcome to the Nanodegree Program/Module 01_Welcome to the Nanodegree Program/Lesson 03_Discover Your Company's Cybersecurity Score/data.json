@@ -1,0 +1,66 @@
+{
+  "data": {
+    "lesson": {
+      "id": 1048661,
+      "key": "aceb5f51-0c32-4ce5-a522-6de36473cd73",
+      "title": "Discover Your Company's Cybersecurity Score",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 1048662,
+          "key": "54fde78f-4d33-44a6-aaaf-11dd63c6455b",
+          "title": "SecurityScorecard",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54fde78f-4d33-44a6-aaaf-11dd63c6455b",
+            "completed_at": "2021-03-29T23:33:37.020Z",
+            "last_viewed_at": "2021-03-29T23:33:25.374Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1050162,
+              "key": "48a6ab72-5da6-465e-a625-0c1205aea83f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/July/5f246a5e_securityscorecardlogo/securityscorecardlogo.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48a6ab72-5da6-465e-a625-0c1205aea83f",
+              "caption": "",
+              "alt": "",
+              "width": 965,
+              "height": 177,
+              "instructor_notes": null
+            },
+            {
+              "id": 1048663,
+              "key": "54ffca62-3e75-401d-9f27-4c574438a2a1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Looking to discover your company's cybersecurity score? \n\nGain peace of mind from actionable insights into risks associated with your company's IT infrastructure. Find which parts of your third-party ecosystem fall into the top 10 risk factor groups linked to data breaches. \n\nAll this is available when you [sign up with SecurityScorecard](https://securityscorecard.com/free-account?utm_source=udacity&utm_medium=referral&utm_campaign=free-account) and get your cybersecurity score today!",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
