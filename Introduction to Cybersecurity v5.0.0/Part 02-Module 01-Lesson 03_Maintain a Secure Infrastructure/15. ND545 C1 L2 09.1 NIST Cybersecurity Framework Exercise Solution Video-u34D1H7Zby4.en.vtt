@@ -1,0 +1,310 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.480
+The first function you looked at is identify,
+
+00:00:03.480 --> 00:00:07.140
+determining and documenting your key business assets.
+
+00:00:07.140 --> 00:00:10.770
+If you don't know what you have, how can you protect it?
+
+00:00:10.770 --> 00:00:14.250
+This category helps you figure out what technology, data,
+
+00:00:14.250 --> 00:00:18.465
+and other resources your company has that's valuable to you and others.
+
+00:00:18.465 --> 00:00:21.870
+Some examples of this category include;
+
+00:00:21.870 --> 00:00:24.630
+identifying physical and software assets,
+
+00:00:24.630 --> 00:00:27.210
+understanding your business environment,
+
+00:00:27.210 --> 00:00:31.620
+the policies you've established as part of your governance program,
+
+00:00:31.620 --> 00:00:35.100
+how do you manage your risk management strategy?
+
+00:00:35.100 --> 00:00:37.800
+Supply chain risks. In other words,
+
+00:00:37.800 --> 00:00:43.670
+what are entry points and exit points for information and data in your organization?
+
+00:00:43.670 --> 00:00:47.855
+The idea here is to identify computers that have access to,
+
+00:00:47.855 --> 00:00:52.160
+for example, our banks money and people's bank accounts.
+
+00:00:52.160 --> 00:00:55.580
+Now that you've identified your organization's key assets,
+
+00:00:55.580 --> 00:00:59.885
+we can move to step 2 of the NIST CSF, protect.
+
+00:00:59.885 --> 00:01:04.685
+These are ways you can secure the items you identified in step 1.
+
+00:01:04.685 --> 00:01:08.210
+Ways to establish valid protection come in many forms,
+
+00:01:08.210 --> 00:01:12.740
+including non-technical human components such as security awareness.
+
+00:01:12.740 --> 00:01:16.340
+Other examples are technical products and services,
+
+00:01:16.340 --> 00:01:22.630
+acquiring some level of expertise such as firewalls on network security or web filters,
+
+00:01:22.630 --> 00:01:24.770
+malware and virus protection,
+
+00:01:24.770 --> 00:01:28.790
+patching and updating or encrypting the data so it's scrambled,
+
+00:01:28.790 --> 00:01:31.310
+whether it's in transit across the Internet,
+
+00:01:31.310 --> 00:01:34.980
+or at rest within a database or a file share.
+
+00:01:34.980 --> 00:01:38.180
+Some examples of this include,
+
+00:01:38.180 --> 00:01:42.470
+protecting using identity management and access control,
+
+00:01:42.470 --> 00:01:46.300
+teaching your employees through awareness and training,
+
+00:01:46.300 --> 00:01:49.635
+establishing some data security protection.
+
+00:01:49.635 --> 00:01:51.390
+In other words within the bank,
+
+00:01:51.390 --> 00:01:55.250
+not allowing everybody into the banks databases that may
+
+00:01:55.250 --> 00:02:00.020
+contain the sensitive information about people's accounts whether they have money,
+
+00:02:00.020 --> 00:02:06.125
+and managing protective technology to ensure security resilience of computer systems.
+
+00:02:06.125 --> 00:02:08.645
+With these defenses in place,
+
+00:02:08.645 --> 00:02:13.730
+you don't have to rely as much on the further functions within the nest framework,
+
+00:02:13.730 --> 00:02:16.265
+but they all tie together.
+
+00:02:16.265 --> 00:02:19.490
+In the first two steps of the nest cyber security framework,
+
+00:02:19.490 --> 00:02:24.560
+we identified critical assets and established controls to protect those assets.
+
+00:02:24.560 --> 00:02:30.395
+The third step, is to detect a real or potential incident as quickly as possible.
+
+00:02:30.395 --> 00:02:35.155
+This allows you to quickly and easily respond and recover.
+
+00:02:35.155 --> 00:02:39.070
+The detect function is defined as the development and implementation of
+
+00:02:39.070 --> 00:02:43.570
+some type of an activity to identify the occurrence of a cyber security event,
+
+00:02:43.570 --> 00:02:46.510
+which could be something that causes damage or
+
+00:02:46.510 --> 00:02:49.480
+just is something you notice, like for example,
+
+00:02:49.480 --> 00:02:52.705
+a phishing attack against your organization,
+
+00:02:52.705 --> 00:02:54.670
+we see those all the time,
+
+00:02:54.670 --> 00:02:58.675
+that can be an event, but if no one clicks on it or doesn't do any damage,
+
+00:02:58.675 --> 00:03:01.470
+it's not considered an incident.
+
+00:03:01.470 --> 00:03:06.370
+Detects function also has the focus on assisting the appropriate finding of
+
+00:03:06.370 --> 00:03:12.440
+such events and you need to determine what events to look for and identify them quickly.
+
+00:03:12.440 --> 00:03:16.370
+Some examples within the detect function,
+
+00:03:16.370 --> 00:03:20.840
+including ensuring these events and anomalies are detected,
+
+00:03:20.840 --> 00:03:24.035
+knowing if there's any thresholds that are exceeded.
+
+00:03:24.035 --> 00:03:25.430
+Like you normally expect,
+
+00:03:25.430 --> 00:03:30.290
+say 500 people to hit your website daily and now you're seeing 50,000,
+
+00:03:30.290 --> 00:03:34.270
+that should be an anomaly and you should understand why that is occurring.
+
+00:03:34.270 --> 00:03:37.580
+You should also implement continuous monitoring,
+
+00:03:37.580 --> 00:03:41.045
+so this way you are always knowing what's happening on your systems,
+
+00:03:41.045 --> 00:03:42.815
+even in the middle of the night.
+
+00:03:42.815 --> 00:03:45.445
+Then maintaining your detection processes,
+
+00:03:45.445 --> 00:03:48.560
+this allow you to have an alarming place,
+
+00:03:48.560 --> 00:03:50.975
+like someone getting into the bank who shouldn't,
+
+00:03:50.975 --> 00:03:57.505
+whether it's physically, or virtually meaning logically, through network sensors.
+
+00:03:57.505 --> 00:03:59.465
+Once you detect a problem,
+
+00:03:59.465 --> 00:04:00.965
+whether it's a security breach,
+
+00:04:00.965 --> 00:04:03.920
+network outage, or system misconfiguration,
+
+00:04:03.920 --> 00:04:05.644
+you need to respond.
+
+00:04:05.644 --> 00:04:10.535
+This is your plan for handling incidents to ensure that their impact is minimal.
+
+00:04:10.535 --> 00:04:15.590
+Examples include; writing your incident response plan and
+
+00:04:15.590 --> 00:04:20.810
+process and distributing it to your employees who will need to implement it.
+
+00:04:20.810 --> 00:04:24.770
+Should there be some type of a disaster like a weather event,
+
+00:04:24.770 --> 00:04:29.150
+or an attack against your infrastructure that takes it down.
+
+00:04:29.150 --> 00:04:33.985
+For example, a denial of service attack will stop your website from working.
+
+00:04:33.985 --> 00:04:39.440
+You want to be able to respond to it and get back to work as quickly as possible.
+
+00:04:39.440 --> 00:04:46.065
+Response also includes managing who communicates and an analysis of the event,
+
+00:04:46.065 --> 00:04:49.640
+and then mitigation activities that are performed afterward
+
+00:04:49.640 --> 00:04:53.740
+to prevent the expansion of the event and to resolve the incident.
+
+00:04:53.740 --> 00:04:57.515
+By using the NIST CSF functions and categories,
+
+00:04:57.515 --> 00:05:02.725
+organizations experience fewer breaches and security compliance issues.
+
+00:05:02.725 --> 00:05:04.940
+After responding to an incident,
+
+00:05:04.940 --> 00:05:08.990
+you may need to recover all or portions of your business.
+
+00:05:08.990 --> 00:05:13.745
+Step 5 of the nist cyber security framework is recovery.
+
+00:05:13.745 --> 00:05:16.250
+Getting your operations quickly back to normal,
+
+00:05:16.250 --> 00:05:21.095
+can lessen the financial and human costs of a cyber-security incident.
+
+00:05:21.095 --> 00:05:23.285
+The more resilient you are,
+
+00:05:23.285 --> 00:05:27.190
+the less your organization is impacted by the disruption.
+
+00:05:27.190 --> 00:05:31.220
+Examples include; ensuring the organization implements
+
+00:05:31.220 --> 00:05:35.405
+the recovery planning according to the document that should be written,
+
+00:05:35.405 --> 00:05:40.055
+tested, and you should have employees trained on your disaster recovery plans.
+
+00:05:40.055 --> 00:05:44.060
+Also means implementing improvement based on the lessons you
+
+00:05:44.060 --> 00:05:49.270
+learned through your tests or real-world incidents.
+
+00:05:49.270 --> 00:05:51.230
+Then like the response,
+
+00:05:51.230 --> 00:05:55.070
+you need to have appropriate internal and external communications,
+
+00:05:55.070 --> 00:05:58.970
+both internally and externally to the organization.
+
+00:05:58.970 --> 00:06:01.110
+For example with the bank,
+
+00:06:01.110 --> 00:06:04.820
+if you have a bank robber who broke the window trying to get in,
+
+00:06:04.820 --> 00:06:08.260
+you would need to install a new window and maybe some bars.
+
+00:06:08.260 --> 00:06:13.110
+Within our computers, we may be looking to install new defenses,
+
+00:06:13.110 --> 00:06:15.795
+or maybe re-installing systems.
+
+00:06:15.795 --> 00:06:18.230
+The NIST CSF functions,
+
+00:06:18.230 --> 00:06:22.010
+categories and subcategories help us implement
+
+00:06:22.010 --> 00:06:27.540
+security through all of the different areas of a cyber security program.
+

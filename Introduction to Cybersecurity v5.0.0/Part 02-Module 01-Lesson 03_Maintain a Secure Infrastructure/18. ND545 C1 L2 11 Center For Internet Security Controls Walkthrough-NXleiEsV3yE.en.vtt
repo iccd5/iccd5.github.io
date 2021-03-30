@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.685
+For this exercise, you'll practice using the CIS controls using a case study.
+
+00:00:05.685 --> 00:00:09.630
+This is meant to replicate a real-life scenario you very well may
+
+00:00:09.630 --> 00:00:14.025
+encounter as a cybersecurity professional. Here's the story.
+
+00:00:14.025 --> 00:00:17.940
+Jill &amp; Roy provide accounting services throughout their area.
+
+00:00:17.940 --> 00:00:20.445
+They employ seven full-time workers,
+
+00:00:20.445 --> 00:00:22.330
+which is four accountants,
+
+00:00:22.330 --> 00:00:25.745
+an office administrator, and of course themselves.
+
+00:00:25.745 --> 00:00:30.050
+They also have about a dozen seasonal workers during the tax season.
+
+00:00:30.050 --> 00:00:36.590
+They use Microsoft products such as Office 365 for their office applications like e-mail,
+
+00:00:36.590 --> 00:00:38.930
+word processing, and spreadsheets.
+
+00:00:38.930 --> 00:00:40.685
+But for their accounting,
+
+00:00:40.685 --> 00:00:42.660
+they use into it QuickBooks,
+
+00:00:42.660 --> 00:00:45.450
+ProConnect, the online version.
+
+00:00:45.450 --> 00:00:48.509
+For their network, they have a single Linksys,
+
+00:00:48.509 --> 00:00:51.210
+Ethernet, switch, and router.
+
+00:00:51.210 --> 00:00:55.475
+The full-time accountants each have a Lenovo ThinkPad,
+
+00:00:55.475 --> 00:00:59.650
+while the office administrator has a Lenovo desktop.
+
+00:00:59.650 --> 00:01:04.240
+All company workstations use the latest version of Windows 10.
+
+00:01:04.240 --> 00:01:07.370
+Everybody has admin privileges on their PC,
+
+00:01:07.370 --> 00:01:11.125
+which means anyone can install whatever software they need.
+
+00:01:11.125 --> 00:01:14.870
+They also have an additional Windows 10 Lenovo desktop they
+
+00:01:14.870 --> 00:01:18.700
+use for their print and file servers that sits in the main office area.
+
+00:01:18.700 --> 00:01:21.810
+Now, keep in mind, only Roy and Jill and the office
+
+00:01:21.810 --> 00:01:25.550
+admin have an account on that one server.
+
+00:01:25.550 --> 00:01:27.455
+Now, the temporary workers,
+
+00:01:27.455 --> 00:01:29.735
+they use their own laptops,
+
+00:01:29.735 --> 00:01:32.455
+which are a mixture of Windows and Macs.
+
+00:01:32.455 --> 00:01:36.100
+Additionally, the office has a bring-your-own-device policies.
+
+00:01:36.100 --> 00:01:40.565
+That means all employees just use their own smartphones or cell phones.
+
+00:01:40.565 --> 00:01:44.720
+They have a contract with a local IT company that comes in
+
+00:01:44.720 --> 00:01:48.589
+about once a week or two that does the weekly backup,
+
+00:01:48.589 --> 00:01:49.900
+the file print server,
+
+00:01:49.900 --> 00:01:54.025
+and does any updating or any maintenance of the systems.
+
+00:01:54.025 --> 00:01:57.980
+For each of the CIS controls listed in the exercise,
+
+00:01:57.980 --> 00:02:02.690
+provide your interpretation of how they may apply to Jill &amp; Roy's accounting.
+
+00:02:02.690 --> 00:02:07.860
+You should use the CIS controls website to help you answer these questions.
+

@@ -1,0 +1,241 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.085
+In the final section of this lesson,
+
+00:00:02.085 --> 00:00:05.445
+we'll look at the CIS cybersecurity best practices.
+
+00:00:05.445 --> 00:00:09.825
+From their website, cisecurity.org/aboutus,
+
+00:00:09.825 --> 00:00:11.760
+the Center for Internet Security is
+
+00:00:11.760 --> 00:00:14.985
+a non-profit organization that leads a global community of
+
+00:00:14.985 --> 00:00:20.700
+IT professionals in developing security standards to safeguard against emerging threats.
+
+00:00:20.700 --> 00:00:24.315
+Their are best practices are made up of two parts.
+
+00:00:24.315 --> 00:00:26.250
+The Critical Security Controls,
+
+00:00:26.250 --> 00:00:27.660
+also known as the CIS,
+
+00:00:27.660 --> 00:00:30.510
+CSC or just the CIS controls,
+
+00:00:30.510 --> 00:00:34.650
+are the top 20 activities for organizational security.
+
+00:00:34.650 --> 00:00:37.665
+These are used for small, medium,
+
+00:00:37.665 --> 00:00:42.545
+and large businesses as they're developing and maintaining a security program.
+
+00:00:42.545 --> 00:00:47.520
+The CIS benchmarks are guidelined to secure or lock down operating system,
+
+00:00:47.520 --> 00:00:50.155
+software, applications, and networks.
+
+00:00:50.155 --> 00:00:51.940
+Both are developed by a community of
+
+00:00:51.940 --> 00:00:55.840
+cybersecurity professionals from many different areas with the goal of
+
+00:00:55.840 --> 00:00:58.855
+establishing a checklist of activities as
+
+00:00:58.855 --> 00:01:02.710
+organizations mature their cybersecurity programs.
+
+00:01:02.710 --> 00:01:06.460
+The CIS controls are made up of 20 actions
+
+00:01:06.460 --> 00:01:10.000
+for establishing an organizational security program.
+
+00:01:10.000 --> 00:01:14.500
+They are an order of priority and work with any security program including,
+
+00:01:14.500 --> 00:01:18.925
+defense in depth, to reduce risks of security breaches and attacks.
+
+00:01:18.925 --> 00:01:24.855
+They are separated into three functional areas that the CIS calls implementation groups.
+
+00:01:24.855 --> 00:01:27.020
+The first are basic controls.
+
+00:01:27.020 --> 00:01:30.950
+These are controls that should be done by every organization.
+
+00:01:30.950 --> 00:01:33.994
+Building on that are foundational controls,
+
+00:01:33.994 --> 00:01:38.500
+which add additional layers of security for an operation.
+
+00:01:38.500 --> 00:01:41.770
+Then lastly are the organizational controls,
+
+00:01:41.770 --> 00:01:46.915
+that show an organization is more mature with their security best practices.
+
+00:01:46.915 --> 00:01:50.510
+Each of these identifies a subset of the controls that
+
+00:01:50.510 --> 00:01:54.425
+build upon each other as a cyber security program grows.
+
+00:01:54.425 --> 00:01:59.585
+The CIS basic controls form a foundation for security programs.
+
+00:01:59.585 --> 00:02:03.110
+These should be done first as you're building a security program,
+
+00:02:03.110 --> 00:02:06.485
+includes an inventory and control of hardware assets,
+
+00:02:06.485 --> 00:02:08.660
+inventory of software asset,
+
+00:02:08.660 --> 00:02:13.550
+continuous vulnerability management, controlled use of admin privileges.
+
+00:02:13.550 --> 00:02:18.560
+Basically, who has root or God-like powers on information systems,
+
+00:02:18.560 --> 00:02:21.680
+secure configurations for hardware,
+
+00:02:21.680 --> 00:02:25.520
+software, any type of devices and lastly, maintaining,
+
+00:02:25.520 --> 00:02:31.055
+monitoring and analyzing your logs so you can identify when a problem occurs.
+
+00:02:31.055 --> 00:02:35.660
+The foundational controls are the next implementation group that
+
+00:02:35.660 --> 00:02:40.685
+provide more advanced protection measures based on common types of threats and attacks,
+
+00:02:40.685 --> 00:02:43.175
+such as e-mail and web browser protections,
+
+00:02:43.175 --> 00:02:47.585
+malware defenses like antivirus or endpoint protection,
+
+00:02:47.585 --> 00:02:49.850
+controlling your network ports,
+
+00:02:49.850 --> 00:02:56.105
+protocol services with your boundary across your internal and external networks.
+
+00:02:56.105 --> 00:02:58.640
+That includes that secure configuration for
+
+00:02:58.640 --> 00:03:01.970
+your network devices like firewalls, routers and switches,
+
+00:03:01.970 --> 00:03:05.840
+protecting the data within your infrastructure,
+
+00:03:05.840 --> 00:03:11.120
+knowing where it is and putting layers around it to protect it as appropriate.
+
+00:03:11.120 --> 00:03:13.470
+Controlling the access based on need to know,
+
+00:03:13.470 --> 00:03:14.780
+for remember from earlier,
+
+00:03:14.780 --> 00:03:16.915
+this is the least privileged idea.
+
+00:03:16.915 --> 00:03:21.890
+Wireless access control, because wireless has increased risk over wired,
+
+00:03:21.890 --> 00:03:26.260
+and we just want to make sure that protections are in place.
+
+00:03:26.260 --> 00:03:29.600
+Then last part of the foundational controls is,
+
+00:03:29.600 --> 00:03:34.355
+account monitoring, knowing who has access to what and what they're doing.
+
+00:03:34.355 --> 00:03:40.265
+The last group of controls are for establishing an organization-wide security program.
+
+00:03:40.265 --> 00:03:45.200
+The first is implementing security training for all users and employees,
+
+00:03:45.200 --> 00:03:49.385
+this way they know best practices as they're doing their daily work.
+
+00:03:49.385 --> 00:03:52.580
+Second, application security that breaks into
+
+00:03:52.580 --> 00:03:57.650
+the development life cycle as your coders are creating new applications,
+
+00:03:57.650 --> 00:03:59.680
+are they building security in?
+
+00:03:59.680 --> 00:04:04.160
+Incident response and management means planning and preparing for
+
+00:04:04.160 --> 00:04:07.550
+an inevitable incident and making sure
+
+00:04:07.550 --> 00:04:11.255
+you can appropriately respond to any type of incident.
+
+00:04:11.255 --> 00:04:14.420
+The fun part, the penetration test and red teams.
+
+00:04:14.420 --> 00:04:17.390
+This is where you hire a hacker to try to break into
+
+00:04:17.390 --> 00:04:21.865
+your systems to see where you're vulnerable and then how to fix those.
+
+00:04:21.865 --> 00:04:27.920
+All of these control levels should be implemented to mature a security program.
+
+00:04:27.920 --> 00:04:30.980
+We'll go into more details about the controls in
+
+00:04:30.980 --> 00:04:34.565
+subsequent videos where you'll see them in action.
+
+00:04:34.565 --> 00:04:39.835
+You should see an overlap between the CIS controls and the NEST CSF,
+
+00:04:39.835 --> 00:04:42.530
+they are meant to complement each other.
+
+00:04:42.530 --> 00:04:45.710
+I will often use both of them working together when
+
+00:04:45.710 --> 00:04:49.390
+advising companies as they are building a security program.
+
+00:04:49.390 --> 00:04:52.459
+Now that you're familiar with the CIS controls,
+
+00:04:52.459 --> 00:04:55.920
+you'll use them in a case study exercise.
+

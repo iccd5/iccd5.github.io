@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.210
+Every organization, no matter its size, structure,
+
+00:00:03.210 --> 00:00:08.070
+or sector has a governing body saying what security rules must be followed.
+
+00:00:08.070 --> 00:00:10.440
+These laws, regulations, standards,
+
+00:00:10.440 --> 00:00:15.105
+and frameworks provide oversight direction for security programs.
+
+00:00:15.105 --> 00:00:19.410
+They supply a process for securing an organization's infrastructure.
+
+00:00:19.410 --> 00:00:23.940
+Many also have very specific rules or controls that must be followed.
+
+00:00:23.940 --> 00:00:29.805
+Security controls are specific safeguards or countermeasures to avoid,
+
+00:00:29.805 --> 00:00:33.524
+detect, counteract, or minimize risks to assets.
+
+00:00:33.524 --> 00:00:37.440
+This topic helps you identify common security regulations and
+
+00:00:37.440 --> 00:00:42.100
+frameworks that you will see as a cybersecurity professional.
+
+00:00:42.100 --> 00:00:45.170
+There are a handful of general security standards you need to
+
+00:00:45.170 --> 00:00:48.530
+know about because you'll have to work with them in the real world.
+
+00:00:48.530 --> 00:00:51.550
+These cover any size or type of business.
+
+00:00:51.550 --> 00:00:54.620
+The ISO 27000 Series is a grouping
+
+00:00:54.620 --> 00:00:58.145
+of international information security management models.
+
+00:00:58.145 --> 00:01:03.060
+The first document, ISO/IEC 27001,
+
+00:01:03.060 --> 00:01:06.295
+Information Security Management System Specification,
+
+00:01:06.295 --> 00:01:09.080
+provides high-level directions on establishing
+
+00:01:09.080 --> 00:01:12.370
+security programs and assessing their security.
+
+00:01:12.370 --> 00:01:19.825
+The primary document you'll see in the series though is ISO/IEC 27002,
+
+00:01:19.825 --> 00:01:24.394
+the 2013, that just means the year in which it was last publish.
+
+00:01:24.394 --> 00:01:28.620
+This one is the code of practice for information security management,
+
+00:01:28.620 --> 00:01:33.410
+and it provides direction on 14 security control groups and addresses
+
+00:01:33.410 --> 00:01:41.495
+35 control objectives with more than 110 individual security rules or controls.
+
+00:01:41.495 --> 00:01:47.825
+Other ISO documents you may encounter includes ISO/IEC 27005,
+
+00:01:47.825 --> 00:01:51.575
+which is the Information Security Risk Management Standards.
+
+00:01:51.575 --> 00:01:56.105
+This explains how to assess and measure security risks.
+
+00:01:56.105 --> 00:01:58.520
+Another security standards you'll see is from
+
+00:01:58.520 --> 00:02:01.189
+the National Institute of Standards and Technology,
+
+00:02:01.189 --> 00:02:04.565
+or NIST Computer Security Resource Center.
+
+00:02:04.565 --> 00:02:08.030
+Their website is csrc.nist.gov.
+
+00:02:08.030 --> 00:02:11.045
+I can't encourage you enough to spend time there.
+
+00:02:11.045 --> 00:02:15.140
+They provide resources including standards, practice guides,
+
+00:02:15.140 --> 00:02:17.240
+and requirement documents on computers,
+
+00:02:17.240 --> 00:02:20.630
+cyber, and information security, and privacy.
+
+00:02:20.630 --> 00:02:27.934
+In particular, the Special Publication or SP 800 series comprises guidelines,
+
+00:02:27.934 --> 00:02:30.995
+recommendations, technical specifications, and
+
+00:02:30.995 --> 00:02:34.609
+annual reports of NIST cybersecurity activities.
+
+00:02:34.609 --> 00:02:38.585
+You'll have an opportunity to review these in the exercise.
+
+00:02:38.585 --> 00:02:41.465
+There are three industry-specific regulations
+
+00:02:41.465 --> 00:02:44.010
+you should know as a cybersecurity professional;
+
+00:02:44.010 --> 00:02:48.155
+HIPAA, PCI DSS, and GDPR.
+
+00:02:48.155 --> 00:02:52.850
+The Health Insurance Portability and Accountability Act of 1996,
+
+00:02:52.850 --> 00:02:54.510
+or better known as HIPAA,
+
+00:02:54.510 --> 00:02:58.880
+security and privacy rules established standards for safe guarding
+
+00:02:58.880 --> 00:03:04.975
+a patient's medical records and Protected Health Information or PHI.
+
+00:03:04.975 --> 00:03:09.725
+The Payment Card Industry Data Security Standard, PCI DSS,
+
+00:03:09.725 --> 00:03:13.190
+establishes rules for processing, storing,
+
+00:03:13.190 --> 00:03:18.565
+transmitting of cardholder data for payment or credit cards.
+
+00:03:18.565 --> 00:03:23.595
+The European Union's General Data Privacy Regulation, or GDPR,
+
+00:03:23.595 --> 00:03:26.030
+is the EU's law on data protection and
+
+00:03:26.030 --> 00:03:30.760
+privacy with potentially extreme consequences if not followed.
+
+00:03:30.760 --> 00:03:34.790
+Each of these topics could be a lesson in and of themselves.
+
+00:03:34.790 --> 00:03:38.105
+There are also many other security and privacy regulations.
+
+00:03:38.105 --> 00:03:41.180
+This is just a taste of the ones you'll see as
+
+00:03:41.180 --> 00:03:45.000
+a cybersecurity professional and as a consumer.
+

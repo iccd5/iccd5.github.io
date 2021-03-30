@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.305
+I'll now explain the answers to this exercise questions.
+
+00:00:04.305 --> 00:00:08.700
+This question asked about the company's hardware and software inventories.
+
+00:00:08.700 --> 00:00:11.190
+Having good software and hardware inventory is
+
+00:00:11.190 --> 00:00:13.875
+the starting point for any security program.
+
+00:00:13.875 --> 00:00:15.510
+If you remember, it's the starting point for
+
+00:00:15.510 --> 00:00:19.005
+both the Center for Internet Security and for NIST.
+
+00:00:19.005 --> 00:00:21.705
+So for Jilin Roy's scenario,
+
+00:00:21.705 --> 00:00:27.405
+you'd advise them to write down their software and hardware inventories.
+
+00:00:27.405 --> 00:00:33.230
+For example, all major hardware devices and computers such as their network equipment,
+
+00:00:33.230 --> 00:00:34.650
+like the Linksys routers,
+
+00:00:34.650 --> 00:00:38.040
+the types of computers like the Windows Server they have in place,
+
+00:00:38.040 --> 00:00:40.990
+and then any devices like printers.
+
+00:00:40.990 --> 00:00:44.390
+They should also have an inventory of their software in use
+
+00:00:44.390 --> 00:00:47.660
+by the company to include any cloud services.
+
+00:00:47.660 --> 00:00:50.000
+If you remember, they use QuickBooks for
+
+00:00:50.000 --> 00:00:54.355
+accounting and Windows for their general applications.
+
+00:00:54.355 --> 00:00:57.020
+All of those should be documented as well.
+
+00:00:57.020 --> 00:01:01.190
+Both the hardware and software inventory should be reviewed at least
+
+00:01:01.190 --> 00:01:05.465
+monthly and update it as needed or whenever it changes.
+
+00:01:05.465 --> 00:01:09.724
+For the second question referred to the CIS 20 controls,
+
+00:01:09.724 --> 00:01:13.335
+the top 10 controls should be done first.
+
+00:01:13.335 --> 00:01:15.860
+So for your answer to this exercise,
+
+00:01:15.860 --> 00:01:18.170
+you would choose secure configuration.
+
+00:01:18.170 --> 00:01:24.215
+Basically, this is how you harden systems, applications, and devices.
+
+00:01:24.215 --> 00:01:27.040
+We'll talk more about this in a subsequent lesson.
+
+00:01:27.040 --> 00:01:30.470
+Includes vulnerability management, understanding where
+
+00:01:30.470 --> 00:01:34.040
+the weaknesses and flaws and vulnerabilities may lie within their systems.
+
+00:01:34.040 --> 00:01:37.730
+Malware defenses, that's antivirus and endpoint protection.
+
+00:01:37.730 --> 00:01:41.270
+Then email and browser protections are to
+
+00:01:41.270 --> 00:01:45.190
+protect email as they're coming in against phishing or spam.
+
+00:01:45.190 --> 00:01:50.180
+Then the browser is how people use the Internet within the company.
+
+00:01:50.180 --> 00:01:53.870
+The last two choices that were part of this exercise should
+
+00:01:53.870 --> 00:01:57.665
+be considered later in an information security program.
+
+00:01:57.665 --> 00:01:59.930
+While all security is important,
+
+00:01:59.930 --> 00:02:02.390
+some of the items can wait.
+
+00:02:02.390 --> 00:02:07.910
+The CIS controls help businesses of all sizes mature their security programs by
+
+00:02:07.910 --> 00:02:14.220
+taking them through a step-by-step process for securing their infrastructure.
+

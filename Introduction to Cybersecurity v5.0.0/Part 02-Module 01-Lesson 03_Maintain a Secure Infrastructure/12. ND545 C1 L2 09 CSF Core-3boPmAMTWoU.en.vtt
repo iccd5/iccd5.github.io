@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.480
+Now, let's talk about the NIST functions and categories.
+
+00:00:03.480 --> 00:00:05.100
+The NIST CSF functions are
+
+00:00:05.100 --> 00:00:09.540
+high level directions on how to apply security throughout a program.
+
+00:00:09.540 --> 00:00:11.535
+The five functions or steps are,
+
+00:00:11.535 --> 00:00:14.460
+identify, protect, detect, respond, and recover.
+
+00:00:14.460 --> 00:00:16.710
+I'll explain each at a high level so it's
+
+00:00:16.710 --> 00:00:20.040
+useful for implementing security best practices.
+
+00:00:20.040 --> 00:00:24.425
+Step 1 of the framework, identify valuable assets.
+
+00:00:24.425 --> 00:00:26.525
+What do you have worth protecting?
+
+00:00:26.525 --> 00:00:28.145
+It's like your crown jewels.
+
+00:00:28.145 --> 00:00:30.845
+Step 2 in the framework is protect.
+
+00:00:30.845 --> 00:00:34.825
+What are you going to do to defend those assets from threats?
+
+00:00:34.825 --> 00:00:37.365
+Step 3 in the framework, detect.
+
+00:00:37.365 --> 00:00:40.335
+It's knowing when something bad is happening.
+
+00:00:40.335 --> 00:00:42.800
+That's known as a cybersecurity event.
+
+00:00:42.800 --> 00:00:45.980
+Step 4 in the framework is respond.
+
+00:00:45.980 --> 00:00:48.095
+What do you do when you detect a problem?
+
+00:00:48.095 --> 00:00:52.880
+You want to make sure you're quick and efficient in your response to a cyber incident.
+
+00:00:52.880 --> 00:00:56.085
+Step 5 in the framework is recovery.
+
+00:00:56.085 --> 00:00:59.325
+Recovering when something bad happens, it's like an incident.
+
+00:00:59.325 --> 00:01:02.585
+You want to make sure you can quickly get back to business.
+
+00:01:02.585 --> 00:01:04.910
+So for example, with a bank,
+
+00:01:04.910 --> 00:01:07.280
+you want to know your most valuable assets,
+
+00:01:07.280 --> 00:01:08.990
+like people's money.
+
+00:01:08.990 --> 00:01:10.625
+That's the identify.
+
+00:01:10.625 --> 00:01:12.470
+What protections do you have in place,
+
+00:01:12.470 --> 00:01:15.110
+whether they are physical or within IT?
+
+00:01:15.110 --> 00:01:17.164
+Within IT, it would be like firewalls,
+
+00:01:17.164 --> 00:01:20.665
+antivirus, and how to secure operating system.
+
+00:01:20.665 --> 00:01:25.610
+Detect. You want to know when someone's trying to gain access to money that's not theirs,
+
+00:01:25.610 --> 00:01:28.820
+whether it's a bank robber walking into the facility or
+
+00:01:28.820 --> 00:01:32.455
+someone trying to gain access through your Internet connection.
+
+00:01:32.455 --> 00:01:35.090
+Respond, it's like having that security guard.
+
+00:01:35.090 --> 00:01:37.640
+Take action if a robber enters the building.
+
+00:01:37.640 --> 00:01:40.330
+Doing the same thing within IT.
+
+00:01:40.330 --> 00:01:44.080
+Then recovery, that means recovering from the incident.
+
+00:01:44.080 --> 00:01:47.735
+Getting back to business for your bank as quickly as possible.
+
+00:01:47.735 --> 00:01:52.310
+The next layer of the CSF core are categories,
+
+00:01:52.310 --> 00:01:55.490
+which are a set of cybersecurity activities and outcomes,
+
+00:01:55.490 --> 00:01:59.135
+organized into 23 different areas.
+
+00:01:59.135 --> 00:02:01.010
+So it's what you need to do,
+
+00:02:01.010 --> 00:02:05.320
+or prove you do for a cybersecurity program.
+
+00:02:05.320 --> 00:02:10.120
+For example, the categories under protect include,
+
+00:02:10.120 --> 00:02:14.420
+awareness training and your processes for protecting your systems,
+
+00:02:14.420 --> 00:02:19.565
+such as how you remotely access work applications and files.
+
+00:02:19.565 --> 00:02:25.895
+Each category has a unique identifier based on the function and category name.
+
+00:02:25.895 --> 00:02:33.305
+For example, the awareness and training category under protect is identified as PR.AT.
+
+00:02:33.305 --> 00:02:38.560
+This structure helps you quickly identify areas within the framework.
+
+00:02:38.560 --> 00:02:42.470
+In the exercise, you'll provide examples for each of
+
+00:02:42.470 --> 00:02:47.015
+the functions to help you understand how they work together.
+
+00:02:47.015 --> 00:02:53.430
+Take some time to explore the NIST CSF because it's used throughout industry.
+

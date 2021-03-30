@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.550
+To help simplify the process of maturing an organization's cybersecurity program,
+
+00:00:05.550 --> 00:00:09.825
+the NIST Computer Security Resources Center or CSRC,
+
+00:00:09.825 --> 00:00:12.465
+created the Cyber Security Framework,
+
+00:00:12.465 --> 00:00:14.115
+also known as CSF,
+
+00:00:14.115 --> 00:00:20.625
+that can be applied to any type of organization no matter its size, sector, or type.
+
+00:00:20.625 --> 00:00:26.175
+Any US federal agencies or contractors are required to follow the NIST CSF.
+
+00:00:26.175 --> 00:00:31.200
+We found that many non-government organizations also follow it to be compliant with
+
+00:00:31.200 --> 00:00:36.900
+an industry standard and reduce the risks of a security violation or a data breach.
+
+00:00:36.900 --> 00:00:42.255
+This section will help you recognize each of the components of the NIST CSF.
+
+00:00:42.255 --> 00:00:46.310
+The NIST CSF helps organizations identify,
+
+00:00:46.310 --> 00:00:48.935
+manage, and assess their cyber risks.
+
+00:00:48.935 --> 00:00:51.415
+It has three main parts.
+
+00:00:51.415 --> 00:00:57.155
+The core, which is an easy-to-understand set of cybersecurity goals.
+
+00:00:57.155 --> 00:01:01.130
+Implementation tiers are how an organization
+
+00:01:01.130 --> 00:01:05.270
+manages their cybersecurity risks and profiles,
+
+00:01:05.270 --> 00:01:08.689
+which is a list of the organization's unique requirements,
+
+00:01:08.689 --> 00:01:12.595
+objectives, risk tolerance, and resources.
+
+00:01:12.595 --> 00:01:15.905
+Just as maturity is important for human growth,
+
+00:01:15.905 --> 00:01:18.455
+we need it for IT and cybersecurity.
+
+00:01:18.455 --> 00:01:22.805
+More mature means less effort and time and greater protection.
+
+00:01:22.805 --> 00:01:25.250
+The framework tiers describe how
+
+00:01:25.250 --> 00:01:29.720
+an organization functions as it relates to cybersecurity technology,
+
+00:01:29.720 --> 00:01:32.345
+management, and operational practices.
+
+00:01:32.345 --> 00:01:36.200
+The CSF tiers range from partial tier
+
+00:01:36.200 --> 00:01:41.930
+1 and describe an increasing degree of maturity in their cybersecurity program.
+
+00:01:41.930 --> 00:01:46.160
+For example, a company just starting a cybersecurity program with
+
+00:01:46.160 --> 00:01:51.130
+a lot of procedures or technologies would be tier 1 or partial.
+
+00:01:51.130 --> 00:01:55.850
+A company with advanced cybersecurity program that can quickly adapt to
+
+00:01:55.850 --> 00:02:01.985
+new situations and efficiently make cybersecurity risk decisions would be tier 4.
+
+00:02:01.985 --> 00:02:05.300
+Where does your organization fall in these tiers?
+
+00:02:05.300 --> 00:02:07.040
+How mature are they?
+
+00:02:07.040 --> 00:02:12.815
+You'll be able to understand organizational maturity by the end of this course.
+
+00:02:12.815 --> 00:02:16.610
+The CSF core is an underlying structure of
+
+00:02:16.610 --> 00:02:22.190
+a mature security program organized into high-level functions and categories.
+
+00:02:22.190 --> 00:02:25.220
+This is like an architectural drawing for a house,
+
+00:02:25.220 --> 00:02:28.060
+showing how a security program can be built.
+
+00:02:28.060 --> 00:02:30.650
+It's designed to be easy to use,
+
+00:02:30.650 --> 00:02:33.440
+allowing a common language between the security team,
+
+00:02:33.440 --> 00:02:35.885
+IT, and business leaders.
+
+00:02:35.885 --> 00:02:38.435
+The core consists of three parts;
+
+00:02:38.435 --> 00:02:43.385
+functions, categories, and subcategories.
+
+00:02:43.385 --> 00:02:47.945
+The core includes five high-level functions: Identify,
+
+00:02:47.945 --> 00:02:52.980
+protect, detect, respond, and recover.
+
+00:02:52.980 --> 00:02:56.720
+The categories fit within each function and give
+
+00:02:56.720 --> 00:03:01.285
+direction on security controls, implementation, and management.
+
+00:03:01.285 --> 00:03:05.930
+The last part of the NIST CSF triad are organizational profiles.
+
+00:03:05.930 --> 00:03:09.560
+These are basically the road map for your security program.
+
+00:03:09.560 --> 00:03:13.610
+We use profiles to understand where we need to improve
+
+00:03:13.610 --> 00:03:19.610
+our cybersecurity programs by comparing a current profile with a target profile.
+
+00:03:19.610 --> 00:03:23.275
+It's like that road map where you are now to where you want to go.
+
+00:03:23.275 --> 00:03:27.005
+Your profile is a written explanation of your organizations,
+
+00:03:27.005 --> 00:03:31.880
+unique requirements, objectives, risk tolerance, and resources.
+
+00:03:31.880 --> 00:03:36.520
+It shows where you are versus where you need to improve.
+
+00:03:36.520 --> 00:03:39.740
+The NIST CSF tiers, core,
+
+00:03:39.740 --> 00:03:42.890
+and profile provide direction on implementing
+
+00:03:42.890 --> 00:03:49.830
+a compliance security program that manages its cybersecurity risks to acceptable levels.
+
